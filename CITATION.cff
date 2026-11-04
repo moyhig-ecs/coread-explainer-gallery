@@ -5,6 +5,8 @@ type: dataset
 authors:
   - family-names: Higashida
     given-names: Manabu
+    orcid: "https://orcid.org/0009-0004-7393-2957"
+    affiliation: "D3 Center, The University of Osaka, Osaka, Japan"
 version: "1.0.0"
 date-released: "2026-11-05"
 license: MIT

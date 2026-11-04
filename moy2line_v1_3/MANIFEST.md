@@ -1,12 +1,12 @@
 # MANIFEST — moy2line_v1_3
 
-- generated 2026-11-05T00:23:52 by `make_manifest.py` (231 files, 34,956,080 bytes = 35.0 MB)
+- generated 2026-11-05T00:43:07 by `make_manifest.py` (231 files, 34,956,199 bytes = 35.0 MB)
 - verify: `python3 -I make_manifest.py --verify`
 
 | path | bytes | md5 |
 |---|---:|---|
 | `BUNDLE_BUILD.json` | 33818 | `c41e87d7ee10592118cf278c3d8f53c5` |
-| `CITATION.cff` | 1738 | `cc3d6dbaf5f56ccdca4bf8bed498eb90` |
+| `CITATION.cff` | 1857 | `3d46f398fa44a52919d874ab4e6adf0e` |
 | `CLAIMS.md` | 21674 | `e0057c98e23a1ba56faff6d8adc7e9cf` |
 | `DONE` | 300 | `69b0ddcbac4efdd31718c7ef68c20455` |
 | `ENTRY_README.md` | 15742 | `ac8dbbd067078909edf31b3501e68a4a` |
