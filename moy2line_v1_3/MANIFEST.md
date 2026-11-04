@@ -1,6 +1,6 @@
 # MANIFEST — moy2line_v1_3
 
-- generated 2026-11-05T00:08:46 by `make_manifest.py` (231 files, 34,955,104 bytes = 35.0 MB)
+- generated 2026-11-05T00:17:28 by `make_manifest.py` (231 files, 34,955,846 bytes = 35.0 MB)
 - verify: `python3 -I make_manifest.py --verify`
 
 | path | bytes | md5 |
@@ -14,7 +14,7 @@
 | `LICENSE` | 1488 | `60f30a8cebf3028678e8b15c510e7ccf` |
 | `LICENSE-Anatomy.txt` | 1061 | `af321a95d2ed36473f5b73691bcb34a4` |
 | `NOTES.md` | 43368 | `be2fa132fe74320c2f20ab7fe1b0ed96` |
-| `README.md` | 11382 | `f64d88bd3fe0f923b1cc5586bf44edf8` |
+| `README.md` | 12124 | `bca680feb9fa0ad6ba015535f9edbe99` |
 | `SCRIPT_yukkuri.md` | 10735 | `49267f822a6b94b77afd8bcd0983e140` |
 | `art.mjs` | 16104 | `a82ba3cb3ed7377a13469e1920536686` |
 | `build.mjs` | 8674 | `1fb3acf2289fdb2fa4a37def903a1cf8` |
