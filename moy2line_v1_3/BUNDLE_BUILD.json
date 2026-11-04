@@ -1,7 +1,7 @@
 {
- "made": "2026-11-04T23:53:26",
+ "made": "2026-11-05T00:23:52",
  "source_entry": "conversations/2026-11-04/explainer_moy2_line/entry_Q_v1.3",
- "house_head": "6e871959",
+ "house_head": "56de46ad",
  "copied": [
   "CLAIMS.md",
   "DONE",
@@ -1081,6 +1081,12 @@
   [
    "drive.mjs",
    "exact",
+   "if (!/^(file|https?):/.test(target))",
+   1
+  ],
+  [
+   "drive.mjs",
+   "exact",
    "const BAND = Number(process.env.DRIVE_BAND || 27500);  // bundle: the port band is chosen by env (default 27500–27599)\nif (!PORT) PORT = Array.from({ length: 19 }, (_, i) => BAND + 11 + i).find(free) || 0;",
    1
   ],
@@ -1191,11 +1197,7 @@
  },
  "scan": {
   "BUNDLE_BUILD.json": [
-   "homebrew path",
-   "host name",
-   "house conversations path",
-   "skills path",
-   "tmp path"
+   "house conversations path"
   ],
   "ENTRY_README.md": [
    "skills path"
@@ -1223,6 +1225,9 @@
    "house conversations path",
    "skills path",
    "tmp path"
+  ],
+  "cards/INDEX_en.md": [
+   "host name"
   ],
   "cards/PREREG_olm113_moy2_projection_status_and_backing_20261102.md": [
    "host name",

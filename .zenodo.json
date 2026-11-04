@@ -1,0 +1,18 @@
+{
+  "title": "Co-reading explainer gallery — audited interactive figures of what a language model writes when asked to reason about a geometric configuration",
+  "upload_type": "dataset",
+  "description": "<p>A gallery of co-reading explainers: interactive isometric figures (also anywidgets for Jupyter / marimo), 1920×1080 stills, two-voice scripts and ledgers of what can and cannot be said, each built only from the frozen outputs of a pre-registered line of measurements whose cards (PREREG = the frozen promise written before the run, RESULT = the read-out written after it, corrections appended and never edited in) are included verbatim in Japanese with an English index. Every number on a page is anchored to the data by a checker with a positive control (<code>check_claims.py</code>); the question texts are traced to the public ConstructGap suite (v1.0.1) with an md5 at every stage; each figure was judged under seal by readers from a different model family than its maker.</p><p>The gallery is read as one line of three stations: <b>moy-2</b> (from algebraic analysis to elementary geometry — a reflection formula offered to OLMo-3 32B base as a tool; what it computes and what it writes in its proof field), <b>moy-1</b> (elementary geometry) and <b>moy-5</b> (how to make a model draw the auxiliary line). This release contains station 1.</p><p><b>View</b> the figures on GitHub Pages: <a href=\"https://moyhig-ecs.github.io/coread-explainer-gallery/\">https://moyhig-ecs.github.io/coread-explainer-gallery/</a> (the hash in a page URL is the state; <code>#s19</code> is the ledger). <b>Run</b> them from this archive: unzip, open <code>&lt;entry&gt;/dist/&lt;page&gt;.html</code> (the pages are self-contained) or serve the folder with <code>python3 -m http.server</code>. Zenodo does not render HTML.</p><p>Made with the coread-explainer skill for Claude Code on the Anatomy kit (MIT, Copyright (c) 2026 Ryan). Gallery: MIT, Copyright (c) 2026 Manabu Higashida; the quoted model outputs are data.</p>",
+  "creators": [
+    {"name": "Higashida, Manabu"}
+  ],
+  "license": "MIT",
+  "keywords": ["OLMo", "geometry", "proof field", "pre-registration", "explainer", "anywidget", "ConstructGap", "co-reading"],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.21617998", "relation": "references", "resource_type": "software", "scheme": "doi"},
+    {"identifier": "https://github.com/moyhig-ecs/coread-explainer", "relation": "isDerivedFrom", "resource_type": "software", "scheme": "url"},
+    {"identifier": "https://github.com/wheresryan22/anatomy", "relation": "references", "resource_type": "software", "scheme": "url"},
+    {"identifier": "https://moyhig-ecs.github.io/coread-explainer-gallery/", "relation": "isIdenticalTo", "resource_type": "other", "scheme": "url"}
+  ],
+  "language": "jpn",
+  "version": "1.0.0"
+}

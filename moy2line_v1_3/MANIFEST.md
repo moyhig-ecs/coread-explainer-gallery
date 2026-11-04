@@ -1,11 +1,11 @@
 # MANIFEST — moy2line_v1_3
 
-- generated 2026-11-05T00:17:28 by `make_manifest.py` (231 files, 34,955,846 bytes = 35.0 MB)
+- generated 2026-11-05T00:23:52 by `make_manifest.py` (231 files, 34,956,080 bytes = 35.0 MB)
 - verify: `python3 -I make_manifest.py --verify`
 
 | path | bytes | md5 |
 |---|---:|---|
-| `BUNDLE_BUILD.json` | 33757 | `e97f6d2d125dee6226dec6cddcadd7c6` |
+| `BUNDLE_BUILD.json` | 33818 | `c41e87d7ee10592118cf278c3d8f53c5` |
 | `CITATION.cff` | 1738 | `cc3d6dbaf5f56ccdca4bf8bed498eb90` |
 | `CLAIMS.md` | 21674 | `e0057c98e23a1ba56faff6d8adc7e9cf` |
 | `DONE` | 300 | `69b0ddcbac4efdd31718c7ef68c20455` |
@@ -14,7 +14,7 @@
 | `LICENSE` | 1488 | `60f30a8cebf3028678e8b15c510e7ccf` |
 | `LICENSE-Anatomy.txt` | 1061 | `af321a95d2ed36473f5b73691bcb34a4` |
 | `NOTES.md` | 43368 | `be2fa132fe74320c2f20ab7fe1b0ed96` |
-| `README.md` | 12124 | `bca680feb9fa0ad6ba015535f9edbe99` |
+| `README.md` | 12295 | `43667ac620bab12240f5ff3d9a19d438` |
 | `SCRIPT_yukkuri.md` | 10735 | `49267f822a6b94b77afd8bcd0983e140` |
 | `art.mjs` | 16104 | `a82ba3cb3ed7377a13469e1920536686` |
 | `build.mjs` | 8674 | `1fb3acf2289fdb2fa4a37def903a1cf8` |
@@ -199,7 +199,7 @@
 | `dist/moy2line.html` | 1097332 | `b8f07888a53ae95f6fd41983ae714050` |
 | `dist/widget.css` | 31716 | `28ef12404e03dca616d20eab710d555c` |
 | `dist/widget.js` | 1067489 | `975beb5c2edc71d253ff0681184503de` |
-| `drive.mjs` | 9616 | `ddf41d9a68e301ed618dc82f3a0c89b6` |
+| `drive.mjs` | 9618 | `1705e3e9841ddb7bc9597db60e2b38fa` |
 | `figure.css` | 23902 | `fac0432487d5528c5b8c172d7c51dc2b` |
 | `figure.js` | 61617 | `b6fd159e9f461aee221169ced3f4b4e7` |
 | `generated/pack.json` | 351764 | `86e7da86e5720c0bffd0c0180d1994cc` |

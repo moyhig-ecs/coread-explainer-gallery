@@ -12,7 +12,7 @@ import { pathToFileURL } from "node:url";
 const argv = process.argv.slice(2);
 const opt = (n, d) => { const i = argv.indexOf(n); return i >= 0 ? argv[i + 1] : d; };
 let target = argv[0];
-if (!/^(file|http):/.test(target)) target = pathToFileURL(resolve(target.split("?")[0])).href + (target.includes("?") ? "?" + target.split("?").slice(1).join("?") : "");
+if (!/^(file|https?):/.test(target)) target = pathToFileURL(resolve(target.split("?")[0])).href + (target.includes("?") ? "?" + target.split("?").slice(1).join("?") : "");
 const W = Number(opt("--width", 1440)), H = Number(opt("--height", 1800)), reduced = argv.includes("--reduced");
 const actions = JSON.parse(readFileSync(opt("--actions"), "utf8"));
 const CHROME = process.env.CHROME || "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
