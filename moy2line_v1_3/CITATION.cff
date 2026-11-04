@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this explainer or its cards, please cite it as below. The DOI is filled in after the first Zenodo release."
+title: "Co-reading explainer: the moy-2 reflection-tool line (olm113 → olm127) — an audited figure of what OLMo-3 32B base writes in its proof field when a reflection formula is offered as a tool"
+type: dataset
+authors:
+  - family-names: Higashida
+    given-names: Manabu
+version: "1.3"
+date-released: "2026-11-04"
+license: MIT
+repository-code: "https://github.com/moyhig-ecs/coread-explainer-gallery"
+abstract: >-
+  An interactive isometric figure (20 states; ja / en; dark / light; also an anywidget for Jupyter / marimo), 1920×1080 stills, a two-voice
+  script and a ledger of what can and cannot be said, built from the frozen outputs of a pre-registered line of measurements (the cards
+  olm113–olm127 and their frontier controls prf4 / prf5). The cards (PREREG = the frozen promise, RESULT = the read-out) are included in
+  cards/ verbatim (Japanese), with an English index. The question text is traced to the public ConstructGap suite (tag v1.0.1) with md5
+  at every stage (cards/PROMPT_PROVENANCE.md). Every number on the page is anchored to the data (check_claims.py, 129 anchors).
+keywords:
+  - OLMo
+  - geometry
+  - proof field
+  - pre-registration
+  - explainer
+  - anywidget
+  - ConstructGap
+references:
+  - type: software
+    title: "ConstructGap"
+    version: "1.0.1"
+    doi: 10.5281/zenodo.21617998
+    repository-code: "https://github.com/moyhig-ecs/ConstructGap"
+  - type: software
+    title: "Anatomy (isometric figure kit for Claude Code skills)"
+    authors:
+      - name: "Ryan"
+    license: MIT
+    repository-code: "https://github.com/wheresryan22/anatomy"

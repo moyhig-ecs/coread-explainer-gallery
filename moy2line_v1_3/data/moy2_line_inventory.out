@@ -1,0 +1,52 @@
+made 2026-11-04T11:57:04+0900 commit f83bccdd wall 11.3s
+inputs:
+  ConstructGap/exp/olm113/gen.json db0fde6e15c26f1acc69d564115ae556
+  ConstructGap/exp/olm118/read.json bffeb8263fcf28c0998f4726765f83af
+  ConstructGap/exp/olm117/gen.json b5795850521ea2d3426e6e1b5d8ca1d0
+  ConstructGap/exp/olm119/gen.json 781f0e7072230d4921ec5933a724afaf
+  ConstructGap/exp/olm119/read.json f21385976c22adbf81eea690030af57f
+  ConstructGap/exp/olm122/gen.json 8e73068dfcd9e5b926bd451d8e229360
+  ConstructGap/exp/olm122/read.json 30db9a253671288c70440a8f44bb44e0
+  ConstructGap/exp/olm124/gen.json de43caa9054d5c18e95db20c7eeb9de4
+  ConstructGap/exp/olm124/read.json ab5250a87781b0981a8f38e6017832d2
+  ConstructGap/exp/olm125/gen.json 32a0298a52ba923bc613a234e2ee1b3e
+  ConstructGap/exp/olm125/read.json d0171213f9fad88075597ccb6d3c4434
+  ConstructGap/exp/olm127/gen.json fb434e03056107cc5a27f25d90934ad3
+  ConstructGap/exp/olm127/read.json a14ae15972dcc11ce2d6326f2d1e6aa0
+checks:
+olm113: n 60 parsed 50 n_proof 41 LN_a 5 LN6_a 5 REFL_CALC 6 REJ6 0 typ 0
+olm117: n 60 parsed 50 n_proof 46 LN_a 7 LN6_a 7 REFL_CALC 0 REJ6 0 typ 0
+olm119: n 60 parsed 48 n_proof 44 LN_a 14 LN6_a 15 REFL_CALC 13 REJ6 11 typ 3
+olm122: n 60 parsed 46 n_proof 37 LN_a 4 LN6_a 5 REFL_CALC 12 REJ6 6 typ 2
+olm124: n 60 parsed 45 n_proof 37 LN_a 4 LN6_a 6 REFL_CALC 15 REJ6 11 typ 1
+olm125: n 60 parsed 45 n_proof 40 LN_a 9 LN6_a 11 REFL_CALC 18 REJ6 15 typ 3
+olm127: n 60 parsed 40 n_proof 35 LN_a 3 LN6_a 3 REFL_CALC 10 REJ6 6 typ 0
+recount vs read.json:
+  [ok] olm119 LN_a rate: 0.3182 vs 0.3182
+  [ok] olm124 LN_a rate: 0.1081 vs 0.1081
+  [ok] olm124 REFL_CALC rate: 0.25 vs 0.25
+  [ok] olm125 LN_a rate: 0.225 vs 0.225
+  [ok] olm125 REFL_CALC rate: 0.3 vs 0.3
+  [ok] olm122 parsed: 46 vs 46
+  [ok] olm113 LN6 rate (olm126): 0.122 vs 0.122
+  [ok] olm113 REJ6 (olm126): 0 vs 0
+  [ok] olm119 LN6 rate (olm126): 0.3409 vs 0.3409
+  [ok] olm119 REJ6 (olm126): 11 vs 11
+  [ok] olm122 LN6 rate (olm126): 0.1351 vs 0.1351
+  [ok] olm122 REJ6 (olm126): 6 vs 6
+  [ok] olm124 LN6 rate (olm126): 0.1622 vs 0.1622
+  [ok] olm124 REJ6 (olm126): 11 vs 11
+  [ok] olm125 LN6 rate (olm126): 0.275 vs 0.275
+  [ok] olm125 REJ6 (olm126): 15 vs 15
+  [ok] olm127 LN_a rate: 0.0857 vs 0.0857
+  [ok] olm127 REFL_CALC rate: 0.1667 vs 0.1667
+  [ok] olm113 LN_a rate (olm118): 0.122 vs 0.122
+  [ok] olm117 LN_a rate (olm118): 0.1522 vs 0.1522
+olm113 道具なし(M2A): parsed 50/60 n_proof 41 LN_a 5 (0.122) LN6_a 5 (0.122) OUTER_a 10 OUTER6_a 10 PT_a 0 MIDO3 0.34 EQ 0.32 calc 6 (0.1) REJ6 0 (in calc 0) typ [] tool_named 1 cap 5 T_med 1068.5 calc/noncalc LN_a {'n_proof': 3, 'LN_a': 0, 'LN6_a': 0} / {'n_proof': 38, 'LN_a': 5, 'LN6_a': 5}
+olm117 半径の等しい図(対照): parsed 50/60 n_proof 46 LN_a 7 (0.1522) LN6_a 7 (0.1522) OUTER_a 13 OUTER6_a 13 PT_a 4 MIDO3 0.74 EQ 0.0 calc 0 (0.0) REJ6 0 (in calc 0) typ [] tool_named 0 cap 2 T_med 560.0 calc/noncalc LN_a {'n_proof': 0, 'LN_a': 0, 'LN6_a': 0} / {'n_proof': 46, 'LN_a': 7, 'LN6_a': 7}
+olm119 式 + 宣言の文: parsed 48/60 n_proof 44 LN_a 14 (0.3182) LN6_a 15 (0.3409) OUTER_a 12 OUTER6_a 12 PT_a 0 MIDO3 0.6042 EQ 0.1667 calc 13 (0.2167) REJ6 11 (in calc 10) typ ['b0_j13', 'b1_j06', 'b2_j08'] tool_named 12 cap 6 T_med 440.0 calc/noncalc LN_a {'n_proof': 10, 'LN_a': 3, 'LN6_a': 3} / {'n_proof': 34, 'LN_a': 11, 'LN6_a': 12}
+olm122 式だけ(一回目・G1 落ち): parsed 46/60 n_proof 37 LN_a 4 (0.1081) LN6_a 5 (0.1351) OUTER_a 9 OUTER6_a 8 PT_a 0 MIDO3 0.587 EQ 0.2609 calc 12 (0.2) REJ6 6 (in calc 5) typ ['b1_j11', 'b2_j07'] tool_named 11 cap 5 T_med 576.0 calc/noncalc LN_a {'n_proof': 9, 'LN_a': 1, 'LN6_a': 2} / {'n_proof': 28, 'LN_a': 3, 'LN6_a': 3}
+olm124 式だけ(二回目): parsed 45/60 n_proof 37 LN_a 4 (0.1081) LN6_a 6 (0.1622) OUTER_a 9 OUTER6_a 9 PT_a 1 MIDO3 0.5111 EQ 0.2667 calc 15 (0.25) REJ6 11 (in calc 11) typ ['b2_j07'] tool_named 11 cap 9 T_med 661.5 calc/noncalc LN_a {'n_proof': 7, 'LN_a': 1, 'LN6_a': 1} / {'n_proof': 30, 'LN_a': 3, 'LN6_a': 5}
+olm125 式 + 指示の文(一回目): parsed 45/60 n_proof 40 LN_a 9 (0.225) LN6_a 11 (0.275) OUTER_a 10 OUTER6_a 10 PT_a 1 MIDO3 0.4444 EQ 0.3111 calc 18 (0.3) REJ6 15 (in calc 15) typ ['b1_j11', 'b1_j17', 'b2_j19'] tool_named 18 cap 6 T_med 607.5 calc/noncalc LN_a {'n_proof': 9, 'LN_a': 2, 'LN6_a': 3} / {'n_proof': 31, 'LN_a': 7, 'LN6_a': 8}
+olm127 式 + 指示の文(二回目): parsed 40/60 n_proof 35 LN_a 3 (0.0857) LN6_a 3 (0.0857) OUTER_a 6 OUTER6_a 6 PT_a 1 MIDO3 0.5 EQ 0.125 calc 10 (0.1667) REJ6 6 (in calc 6) typ [] tool_named 7 cap 7 T_med 495.0 calc/noncalc LN_a {'n_proof': 3, 'LN_a': 0, 'LN6_a': 0} / {'n_proof': 32, 'LN_a': 3, 'LN6_a': 3}
+json md5 3190663eadc56b6ea426472b0551624e size 737773

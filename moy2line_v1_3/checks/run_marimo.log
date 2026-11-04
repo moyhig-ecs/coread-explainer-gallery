@@ -1,0 +1,15 @@
+marimo pid 82489 (port 27531)
+eval: {"marimo_open":true,"kernel":"kernel が見ている値: state = 0 ・ row = — ・ arm = — ・ lang = ja ・ done = True (trait: inner.state = 0 ・ inner.row = —)","recount":"kernel の数え直し(raw rows): olm125 v3 9 / 40 = 0.225 ・ olm127 v3 3 / 35 = 0.086 ・ olm125 calc 18 ・ rej 15 ・ typ b1_j11 · b1_j17 · b2_j19"}
+shot: <TMP> 1440x1400
+eval: {"figure_to_kernel_state":true,"kernel":"kernel が見ている値: state = 8 ・ row = olm125:b1_j17 ・ arm = — ・ lang = ja ・ done = True (trait: inner.state = 8 ・ inner.row = olm125:b1_j17)"}
+eval: {"figure_to_kernel_drag":true,"picked":"olm125:b0_j10","kernel":"kernel が見ている値: state = 8 ・ row = olm125:b0_j10 ・ arm = — ・ lang = ja ・ done = True (trait: inner.state = 8 ・ inner.row = olm125:b0_j10)"}
+shot: <TMP> 1440x1400
+eval: {"kernel_to_figure":true,"figure_state":"6","side":"olm119 式 + 宣言の文 · seed 20261170 / 20261171 / 20261172","kernel":"kernel が見ている値: state = 6 ・ row = olm125:b0_j10 ・ arm = olm119 ・ lang = ja ・ done = True (trait: inner.state = 6 ・ inner.row = olm125:b0_j10)"}
+eval: {"kernel_to_figure_row":true,"lit":"olm125:b0_j16","reading":"図が今出している文: state 8 ・ olm125:b0_j16 · EQ · T 7,335 · 線対称 v3 – / v6 – · 退け ✓"}
+eval: {"kernel_to_figure_lang":true,"kicker":"State 8 · C2 seven arms — the rack of blocks (pick a row)"}
+shot: <TMP> 1440x1400
+console: 0 error(s)
+chrome pid 82495 stopped (port 27511)
+drive exit 0
+run_marimo_check.sh: line 10: 82489 Terminated: 15          MARIMO_SKIP_UPDATE_CHECK=1 "$PY/marimo" run demo_marimo.py --headless --no-token --port "$PORT" --host 127.0.0.1 > checks/marimo.log 2>&1
+marimo pid 82489 stopped

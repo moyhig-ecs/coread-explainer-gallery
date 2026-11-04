@@ -1,0 +1,1356 @@
+{
+ "made": "2026-11-04T23:53:26",
+ "source_entry": "conversations/2026-11-04/explainer_moy2_line/entry_Q_v1.3",
+ "house_head": "6e871959",
+ "copied": [
+  "CLAIMS.md",
+  "DONE",
+  "LICENSE-Anatomy.txt",
+  "NOTES.md",
+  "ENTRY_README.md",
+  "SCRIPT_yukkuri.md",
+  "art.mjs",
+  "build.mjs",
+  "captures/J1_jupyterlab_open_state0.png",
+  "captures/J2_jupyterlab_python_wrote_state8_figure_pressed_11.png",
+  "captures/M1_marimo_open_state0.png",
+  "captures/M2_marimo_drag_reached_kernel.png",
+  "captures/M3_marimo_python_wrote_state8_row_en.png",
+  "captures/capture.log",
+  "captures/page_dark_s0.png",
+  "captures/page_dark_s0_en.png",
+  "captures/page_dark_s1.png",
+  "captures/page_dark_s10.png",
+  "captures/page_dark_s11.png",
+  "captures/page_dark_s12.png",
+  "captures/page_dark_s13.png",
+  "captures/page_dark_s14.png",
+  "captures/page_dark_s15.png",
+  "captures/page_dark_s15_en.png",
+  "captures/page_dark_s16.png",
+  "captures/page_dark_s17.png",
+  "captures/page_dark_s18.png",
+  "captures/page_dark_s19.png",
+  "captures/page_dark_s19_en.png",
+  "captures/page_dark_s1_en.png",
+  "captures/page_dark_s2.png",
+  "captures/page_dark_s3.png",
+  "captures/page_dark_s4.png",
+  "captures/page_dark_s5.png",
+  "captures/page_dark_s6.png",
+  "captures/page_dark_s6_en.png",
+  "captures/page_dark_s7.png",
+  "captures/page_dark_s8.png",
+  "captures/page_dark_s8_en.png",
+  "captures/page_dark_s9.png",
+  "captures/page_dark_s9_en.png",
+  "captures/page_light_s0.png",
+  "captures/page_light_s1.png",
+  "captures/page_light_s12.png",
+  "captures/page_light_s15.png",
+  "captures/page_light_s19.png",
+  "captures/page_light_s6.png",
+  "captures/page_light_s8.png",
+  "captures/page_light_s9.png",
+  "captures/phone_dark_s0.png",
+  "captures/phone_dark_s1.png",
+  "captures/phone_dark_s10.png",
+  "captures/phone_dark_s11.png",
+  "captures/phone_dark_s12.png",
+  "captures/phone_dark_s13.png",
+  "captures/phone_dark_s14.png",
+  "captures/phone_dark_s15.png",
+  "captures/phone_dark_s16.png",
+  "captures/phone_dark_s17.png",
+  "captures/phone_dark_s18.png",
+  "captures/phone_dark_s19.png",
+  "captures/phone_dark_s2.png",
+  "captures/phone_dark_s3.png",
+  "captures/phone_dark_s4.png",
+  "captures/phone_dark_s5.png",
+  "captures/phone_dark_s6.png",
+  "captures/phone_dark_s7.png",
+  "captures/phone_dark_s8.png",
+  "captures/phone_dark_s9.png",
+  "captures/video_en_s0.png",
+  "captures/video_en_s1.png",
+  "captures/video_en_s13.png",
+  "captures/video_en_s19.png",
+  "captures/video_en_s6.png",
+  "captures/video_en_s8.png",
+  "captures/video_en_s9.png",
+  "captures/video_s0.png",
+  "captures/video_s1.png",
+  "captures/video_s10.png",
+  "captures/video_s11.png",
+  "captures/video_s12.png",
+  "captures/video_s13.png",
+  "captures/video_s14.png",
+  "captures/video_s15.png",
+  "captures/video_s16.png",
+  "captures/video_s17.png",
+  "captures/video_s18.png",
+  "captures/video_s19.png",
+  "captures/video_s2.png",
+  "captures/video_s3.png",
+  "captures/video_s4.png",
+  "captures/video_s5.png",
+  "captures/video_s6.png",
+  "captures/video_s7.png",
+  "captures/video_s8.png",
+  "captures/video_s8a.png",
+  "captures/video_s8b.png",
+  "captures/video_s9.png",
+  "check_claims.py",
+  "checks/anchors_broken.json",
+  "checks/build.log",
+  "checks/capture_desk_dark.json",
+  "checks/capture_desk_en.json",
+  "checks/capture_desk_light.json",
+  "checks/capture_log.log",
+  "checks/capture_phone.json",
+  "checks/capture_video.json",
+  "checks/capture_video_en.json",
+  "checks/check_chapters.json",
+  "checks/check_drag.json",
+  "checks/check_jupyter.json",
+  "checks/check_marimo.json",
+  "checks/check_names.json",
+  "checks/check_robust.json",
+  "checks/check_states.json",
+  "checks/marimo.log",
+  "checks/run_all.log",
+  "checks/run_checks.log",
+  "checks/run_jupyter.log",
+  "checks/run_marimo.log",
+  "checks/script.log",
+  "checks/summary.json",
+  "checks/summary.log",
+  "claims_anchors.json",
+  "config.json",
+  "data/moy2_line_inventory.json",
+  "data/read/olm118.json",
+  "data/read/olm119.json",
+  "data/read/olm122.json",
+  "data/read/olm124.json",
+  "data/read/olm125.json",
+  "data/read/olm126.json",
+  "data/read/olm127.json",
+  "data.mjs",
+  "demo_jupyter.ipynb",
+  "demo_marimo.py",
+  "dist/build_report.json",
+  "dist/moy2line-en.html",
+  "dist/moy2line-light-en.html",
+  "dist/moy2line-light.html",
+  "dist/moy2line.html",
+  "dist/widget.css",
+  "dist/widget.js",
+  "drive.mjs",
+  "figure.css",
+  "figure.js",
+  "generated/pack.json",
+  "i18n.js",
+  "list_headings.py",
+  "make_anchors_broken.py",
+  "make_capture_log.py",
+  "make_check.py",
+  "make_jupyter_check.py",
+  "make_marimo_check.py",
+  "make_script.py",
+  "moy2line_widget.py",
+  "pack_moy2.py",
+  "quoted.json",
+  "run_all.sh",
+  "run_checks.sh",
+  "run_jupyter_check.sh",
+  "run_marimo_check.sh",
+  "state_machine.js",
+  "summarize_checks.py",
+  "widget_glue.js"
+ ],
+ "excluded": [
+  "checks/F6_positive_control_on_v1_build",
+  "checks/G_positive_control_on_v1_1_build",
+  "checks/H4_positive_control_on_v1_2_build",
+  "checks/jupyter"
+ ],
+ "cards": [
+  {
+   "name": "PREREG_olm113_moy2_projection_status_and_backing_20261102.md",
+   "house_path": "conversations/2026-11-02/PREREG_olm113_moy2_projection_status_and_backing_20261102.md",
+   "md5": "e35cefca78f0e1c8bd7d187a84ad8d30",
+   "bytes": 6909
+  },
+  {
+   "name": "RESULT_olm113_moy2_projection_status_and_backing_20261102.md",
+   "house_path": "conversations/2026-11-02/RESULT_olm113_moy2_projection_status_and_backing_20261102.md",
+   "md5": "79a0a84873041866a5212a3b3da318b5",
+   "bytes": 18048
+  },
+  {
+   "name": "PREREG_olm116_moy2_frontier_proof_prefix_ladder_20261103.md",
+   "house_path": "conversations/2026-11-03/PREREG_olm116_moy2_frontier_proof_prefix_ladder_20261103.md",
+   "md5": "9b0aefa0630be151c01734a65d9626fe",
+   "bytes": 11648
+  },
+  {
+   "name": "RESULT_olm116_moy2_frontier_proof_prefix_ladder_20261103.md",
+   "house_path": "conversations/2026-11-03/RESULT_olm116_moy2_frontier_proof_prefix_ladder_20261103.md",
+   "md5": "83bdfd4bc15b8e4477f74485f4bc5991",
+   "bytes": 25608
+  },
+  {
+   "name": "PREREG_olm117_moy2_equal_radii_control_20261103.md",
+   "house_path": "conversations/2026-11-03/PREREG_olm117_moy2_equal_radii_control_20261103.md",
+   "md5": "590ac9320c54bed5c4f949ee75f8351b",
+   "bytes": 9146
+  },
+  {
+   "name": "RESULT_olm117_moy2_equal_radii_control_20261103.md",
+   "house_path": "conversations/2026-11-03/RESULT_olm117_moy2_equal_radii_control_20261103.md",
+   "md5": "10859a0b8c96e49285c88801542fbfbd",
+   "bytes": 22320
+  },
+  {
+   "name": "PREREG_olm118_moy2_symmetry_kind_outer_marker_v3_20261103.md",
+   "house_path": "conversations/2026-11-03/PREREG_olm118_moy2_symmetry_kind_outer_marker_v3_20261103.md",
+   "md5": "e934fa949266d066017a39d798694616",
+   "bytes": 10198
+  },
+  {
+   "name": "RESULT_olm118_moy2_symmetry_kind_outer_marker_v3_20261103.md",
+   "house_path": "conversations/2026-11-03/RESULT_olm118_moy2_symmetry_kind_outer_marker_v3_20261103.md",
+   "md5": "0809daf969e8027f509c6918b3d6d598",
+   "bytes": 21285
+  },
+  {
+   "name": "PREREG_olm119_moy2_reflection_tool_line_symmetry_20261103.md",
+   "house_path": "conversations/2026-11-03/PREREG_olm119_moy2_reflection_tool_line_symmetry_20261103.md",
+   "md5": "e47bc3aa8fa9f162100ac80c6f3352af",
+   "bytes": 8750
+  },
+  {
+   "name": "RESULT_olm119_moy2_reflection_tool_line_symmetry_20261103.md",
+   "house_path": "conversations/2026-11-03/RESULT_olm119_moy2_reflection_tool_line_symmetry_20261103.md",
+   "md5": "7ecb0643c79dc552437a371298c903b1",
+   "bytes": 25894
+  },
+  {
+   "name": "PREREG_olm120_moy2_v3_on_olm116_continuations_20261103.md",
+   "house_path": "conversations/2026-11-03/PREREG_olm120_moy2_v3_on_olm116_continuations_20261103.md",
+   "md5": "114f0d158f88fad7d6b1747df0eac2ac",
+   "bytes": 6480
+  },
+  {
+   "name": "RESULT_olm120_moy2_v3_on_olm116_continuations_20261103.md",
+   "house_path": "conversations/2026-11-03/RESULT_olm120_moy2_v3_on_olm116_continuations_20261103.md",
+   "md5": "02f9eebc82d429928b8f820124ef4fe3",
+   "bytes": 10754
+  },
+  {
+   "name": "PREREG_olm121_moy2_v4_instrument_fix_and_retraction_20261103.md",
+   "house_path": "conversations/2026-11-03/PREREG_olm121_moy2_v4_instrument_fix_and_retraction_20261103.md",
+   "md5": "79b7cabdc04ef04c2b675bd590c0d8ec",
+   "bytes": 8407
+  },
+  {
+   "name": "RESULT_olm121_moy2_v4_instrument_fix_and_retraction_20261103.md",
+   "house_path": "conversations/2026-11-03/RESULT_olm121_moy2_v4_instrument_fix_and_retraction_20261103.md",
+   "md5": "25bd798e4d403c68a6cb92a49ccc93e2",
+   "bytes": 12433
+  },
+  {
+   "name": "PREREG_olm122_moy2_reflection_formula_only_20261103.md",
+   "house_path": "conversations/2026-11-03/PREREG_olm122_moy2_reflection_formula_only_20261103.md",
+   "md5": "0ea5d84b4734f36046dd5b91ae81d549",
+   "bytes": 9418
+  },
+  {
+   "name": "RESULT_olm122_moy2_reflection_formula_only_20261103.md",
+   "house_path": "conversations/2026-11-03/RESULT_olm122_moy2_reflection_formula_only_20261103.md",
+   "md5": "c730465268ea206a46a0405456b4f898",
+   "bytes": 20809
+  },
+  {
+   "name": "PREREG_olm123_moy2_v5_par_subject_by_exclusion_20261103.md",
+   "house_path": "conversations/2026-11-03/PREREG_olm123_moy2_v5_par_subject_by_exclusion_20261103.md",
+   "md5": "4065c00036d73e8d3612cb93508bf612",
+   "bytes": 9446
+  },
+  {
+   "name": "RESULT_olm123_moy2_v5_par_subject_by_exclusion_20261103.md",
+   "house_path": "conversations/2026-11-03/RESULT_olm123_moy2_v5_par_subject_by_exclusion_20261103.md",
+   "md5": "558b201af5530c4b732bd80fe8cb2505",
+   "bytes": 13165
+  },
+  {
+   "name": "PREREG_olm124_moy2_reflection_formula_only_rerun_20261103.md",
+   "house_path": "conversations/2026-11-03/PREREG_olm124_moy2_reflection_formula_only_rerun_20261103.md",
+   "md5": "3addd204890b36450a852b8d63515791",
+   "bytes": 10275
+  },
+  {
+   "name": "RESULT_olm124_moy2_reflection_formula_only_rerun_20261103.md",
+   "house_path": "conversations/2026-11-03/RESULT_olm124_moy2_reflection_formula_only_rerun_20261103.md",
+   "md5": "08f091b2b1cd9fbc39ac70ba1b43ee81",
+   "bytes": 27367
+  },
+  {
+   "name": "PREREG_olm125_moy2_reflection_use_to_check_20261104.md",
+   "house_path": "conversations/2026-11-04/PREREG_olm125_moy2_reflection_use_to_check_20261104.md",
+   "md5": "f413c890a9929f781b711d484d0d5093",
+   "bytes": 12145
+  },
+  {
+   "name": "RESULT_olm125_moy2_reflection_use_to_check_20261104.md",
+   "house_path": "conversations/2026-11-04/RESULT_olm125_moy2_reflection_use_to_check_20261104.md",
+   "md5": "f7f15520adfc2544c66a2d700ad52a27",
+   "bytes": 35202
+  },
+  {
+   "name": "PREREG_olm126_moy2_v6_par_window_ln_object_rej_20261104.md",
+   "house_path": "conversations/2026-11-04/PREREG_olm126_moy2_v6_par_window_ln_object_rej_20261104.md",
+   "md5": "40cc6aaa7e787c86e89bfdcaa8915a30",
+   "bytes": 16848
+  },
+  {
+   "name": "RESULT_olm126_moy2_v6_par_window_ln_object_rej_20261104.md",
+   "house_path": "conversations/2026-11-04/RESULT_olm126_moy2_v6_par_window_ln_object_rej_20261104.md",
+   "md5": "a2e462702483254f84e48eafc86cee48",
+   "bytes": 19351
+  },
+  {
+   "name": "PREREG_olm127_moy2_use_to_check_rerun_20261104.md",
+   "house_path": "conversations/2026-11-04/PREREG_olm127_moy2_use_to_check_rerun_20261104.md",
+   "md5": "66eb0c4d44dacba90491aa01d2d406d9",
+   "bytes": 11334
+  },
+  {
+   "name": "RESULT_olm127_moy2_use_to_check_rerun_20261104.md",
+   "house_path": "conversations/2026-11-04/RESULT_olm127_moy2_use_to_check_rerun_20261104.md",
+   "md5": "aae9bdc32fc1f4a35a3007dfe5abc244",
+   "bytes": 36251
+  },
+  {
+   "name": "PREREG_prf4_moy12_status_proof_claude_p_20261102.md",
+   "house_path": "conversations/2026-11-02/PREREG_prf4_moy12_status_proof_claude_p_20261102.md",
+   "md5": "2348740b44f88d1a03907b2e0055574d",
+   "bytes": 5883
+  },
+  {
+   "name": "RESULT_prf4_moy12_status_proof_claude_p_20261102.md",
+   "house_path": "conversations/2026-11-02/RESULT_prf4_moy12_status_proof_claude_p_20261102.md",
+   "md5": "9e70e01a178e52497c583db4321aea4b",
+   "bytes": 3321
+  },
+  {
+   "name": "PREREG_prf5_moy12_proof_field_jsononly_claude_p_20261102.md",
+   "house_path": "conversations/2026-11-02/PREREG_prf5_moy12_proof_field_jsononly_claude_p_20261102.md",
+   "md5": "665d66023836f9250ffb38a25d4e07e4",
+   "bytes": 8401
+  },
+  {
+   "name": "RESULT_prf5_moy12_proof_field_jsononly_claude_p_20261102.md",
+   "house_path": "conversations/2026-11-02/RESULT_prf5_moy12_proof_field_jsononly_claude_p_20261102.md",
+   "md5": "c7b83f511b219ac5b99076f150e851ec",
+   "bytes": 14742
+  },
+  {
+   "name": "RECORD_moy2_reflection_tool_line_olm113_127_closure_20261104.md",
+   "house_path": "conversations/2026-11-04/RECORD_moy2_reflection_tool_line_olm113_127_closure_20261104.md",
+   "md5": "551eafa9d90d1c5bdb543671cfe86385",
+   "bytes": 16347
+  },
+  {
+   "name": "BRIEF_v1_moy2_line_two_makers_20261104.md",
+   "house_path": "conversations/2026-11-04/explainer_moy2_line/BRIEF_v1_moy2_line_two_makers_20261104.md",
+   "md5": "b47cbba93d53c67eba8d412758190b89",
+   "bytes": 30100
+  },
+  {
+   "name": "BRIEF_v1_1_entry_Q_fixes_20261104.md",
+   "house_path": "conversations/2026-11-04/explainer_moy2_line/BRIEF_v1_1_entry_Q_fixes_20261104.md",
+   "md5": "ede9794fded04f3db34679bc1fb933ae",
+   "bytes": 9450
+  },
+  {
+   "name": "BRIEF_v1_2_entry_Q_display_script_fixes_20261104.md",
+   "house_path": "conversations/2026-11-04/explainer_moy2_line/BRIEF_v1_2_entry_Q_display_script_fixes_20261104.md",
+   "md5": "b5592c6409f5d368b59b4a2a3ae57951",
+   "bytes": 9623
+  },
+  {
+   "name": "BRIEF_v1_3_entry_Q_small_fixes_20261104.md",
+   "house_path": "conversations/2026-11-04/explainer_moy2_line/BRIEF_v1_3_entry_Q_small_fixes_20261104.md",
+   "md5": "98204c6ebd85ee2de23f62ae697ff877",
+   "bytes": 6253
+  },
+  {
+   "name": "moy2_line_inventory.py",
+   "house_path": "conversations/2026-11-04/explainer_moy2_line/inventory/moy2_line_inventory.py",
+   "md5": "d5841e85ecf42ddfbc3a866209c52727",
+   "bytes": 15752
+  },
+  {
+   "name": "MEMO_youtube_selfplay_alphazero_factcheck_and_house_contrast_evaluation_function_20261104.md",
+   "house_path": "conversations/2026-11-04/factcheck_yt__A1acg0ZTKs/MEMO_youtube_selfplay_alphazero_factcheck_and_house_contrast_evaluation_function_20261104.md",
+   "md5": "3785a062afd0ac8b0bee1b1c029f99e9",
+   "bytes": 16580
+  }
+ ],
+ "rewrites": [
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/MEMO_youtube_selfplay_alphazero_factcheck_and_house_contrast_evaluation_function_20261104.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/BRIEF_v1_2_entry_Q_display_script_fixes_20261104.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/PREREG_olm121_moy2_v4_instrument_fix_and_retraction_20261103.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/RESULT_olm121_moy2_v4_instrument_fix_and_retraction_20261103.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/RECORD_moy2_reflection_tool_line_olm113_127_closure_20261104.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/BRIEF_v1_3_entry_Q_small_fixes_20261104.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/BRIEF_v1_moy2_line_two_makers_20261104.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/PREREG_olm113_moy2_projection_status_and_backing_20261102.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/RESULT_olm113_moy2_projection_status_and_backing_20261102.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/PREREG_olm118_moy2_symmetry_kind_outer_marker_v3_20261103.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/RESULT_olm118_moy2_symmetry_kind_outer_marker_v3_20261103.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/PREREG_olm119_moy2_reflection_tool_line_symmetry_20261103.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/RESULT_olm119_moy2_reflection_tool_line_symmetry_20261103.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/PREREG_olm124_moy2_reflection_formula_only_rerun_20261103.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/RESULT_olm124_moy2_reflection_formula_only_rerun_20261103.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/PREREG_olm116_moy2_frontier_proof_prefix_ladder_20261103.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/RESULT_olm116_moy2_frontier_proof_prefix_ladder_20261103.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/PREREG_prf5_moy12_proof_field_jsononly_claude_p_20261102.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/RESULT_prf5_moy12_proof_field_jsononly_claude_p_20261102.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/PREREG_olm123_moy2_v5_par_subject_by_exclusion_20261103.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/RESULT_olm123_moy2_v5_par_subject_by_exclusion_20261103.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/PREREG_olm126_moy2_v6_par_window_ln_object_rej_20261104.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/RESULT_olm126_moy2_v6_par_window_ln_object_rej_20261104.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/PREREG_olm120_moy2_v3_on_olm116_continuations_20261103.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/RESULT_olm120_moy2_v3_on_olm116_continuations_20261103.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/BRIEF_v1_1_entry_Q_fixes_20261104.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/PREREG_olm122_moy2_reflection_formula_only_20261103.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/RESULT_olm122_moy2_reflection_formula_only_20261103.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/PREREG_olm125_moy2_reflection_use_to_check_20261104.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/RESULT_olm125_moy2_reflection_use_to_check_20261104.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/moy2_line_inventory.py",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/PREREG_prf4_moy12_status_proof_claude_p_20261102.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/RESULT_prf4_moy12_status_proof_claude_p_20261102.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/PREREG_olm117_moy2_equal_radii_control_20261103.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/RESULT_olm117_moy2_equal_radii_control_20261103.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/PREREG_olm127_moy2_use_to_check_rerun_20261104.md",
+   1
+  ],
+  [
+   "BUNDLE_BUILD.json",
+   "card path",
+   "cards/RESULT_olm127_moy2_use_to_check_rerun_20261104.md",
+   1
+  ],
+  [
+   "ENTRY_README.md",
+   "card path",
+   "cards/BRIEF_v1_2_entry_Q_display_script_fixes_20261104.md",
+   1
+  ],
+  [
+   "ENTRY_README.md",
+   "card path",
+   "cards/BRIEF_v1_3_entry_Q_small_fixes_20261104.md",
+   1
+  ],
+  [
+   "NOTES.md",
+   "card path",
+   "cards/BRIEF_v1_2_entry_Q_display_script_fixes_20261104.md",
+   1
+  ],
+  [
+   "NOTES.md",
+   "card path",
+   "cards/BRIEF_v1_3_entry_Q_small_fixes_20261104.md",
+   1
+  ],
+  [
+   "NOTES.md",
+   "card path",
+   "cards/BRIEF_v1_moy2_line_two_makers_20261104.md",
+   1
+  ],
+  [
+   "NOTES.md",
+   "card path",
+   "cards/BRIEF_v1_1_entry_Q_fixes_20261104.md",
+   1
+  ],
+  [
+   "check_claims.py",
+   "card path",
+   "cards/MEMO_youtube_selfplay_alphazero_factcheck_and_house_contrast_evaluation_function_20261104.md",
+   1
+  ],
+  [
+   "check_claims.py",
+   "card path",
+   "cards/RECORD_moy2_reflection_tool_line_olm113_127_closure_20261104.md",
+   1
+  ],
+  [
+   "checks/anchors_broken.json",
+   "card path",
+   "cards/MEMO_youtube_selfplay_alphazero_factcheck_and_house_contrast_evaluation_function_20261104.md",
+   2
+  ],
+  [
+   "checks/anchors_broken.json",
+   "card path",
+   "cards/RECORD_moy2_reflection_tool_line_olm113_127_closure_20261104.md",
+   2
+  ],
+  [
+   "checks/anchors_broken.json",
+   "card path",
+   "cards/BRIEF_v1_moy2_line_two_makers_20261104.md",
+   1
+  ],
+  [
+   "checks/anchors_broken.json",
+   "card path",
+   "cards/PREREG_olm124_moy2_reflection_formula_only_rerun_20261103.md",
+   1
+  ],
+  [
+   "checks/anchors_broken.json",
+   "card path",
+   "cards/RESULT_olm126_moy2_v6_par_window_ln_object_rej_20261104.md",
+   3
+  ],
+  [
+   "checks/anchors_broken.json",
+   "card path",
+   "cards/PREREG_olm125_moy2_reflection_use_to_check_20261104.md",
+   1
+  ],
+  [
+   "checks/anchors_broken.json",
+   "card path",
+   "cards/RESULT_olm125_moy2_reflection_use_to_check_20261104.md",
+   1
+  ],
+  [
+   "checks/anchors_broken.json",
+   "card path",
+   "cards/PREREG_olm127_moy2_use_to_check_rerun_20261104.md",
+   2
+  ],
+  [
+   "checks/anchors_broken.json",
+   "card path",
+   "cards/RESULT_olm127_moy2_use_to_check_rerun_20261104.md",
+   6
+  ],
+  [
+   "claims_anchors.json",
+   "card path",
+   "cards/MEMO_youtube_selfplay_alphazero_factcheck_and_house_contrast_evaluation_function_20261104.md",
+   2
+  ],
+  [
+   "claims_anchors.json",
+   "card path",
+   "cards/RECORD_moy2_reflection_tool_line_olm113_127_closure_20261104.md",
+   2
+  ],
+  [
+   "claims_anchors.json",
+   "card path",
+   "cards/BRIEF_v1_moy2_line_two_makers_20261104.md",
+   1
+  ],
+  [
+   "claims_anchors.json",
+   "card path",
+   "cards/PREREG_olm124_moy2_reflection_formula_only_rerun_20261103.md",
+   1
+  ],
+  [
+   "claims_anchors.json",
+   "card path",
+   "cards/RESULT_olm126_moy2_v6_par_window_ln_object_rej_20261104.md",
+   3
+  ],
+  [
+   "claims_anchors.json",
+   "card path",
+   "cards/PREREG_olm125_moy2_reflection_use_to_check_20261104.md",
+   1
+  ],
+  [
+   "claims_anchors.json",
+   "card path",
+   "cards/RESULT_olm125_moy2_reflection_use_to_check_20261104.md",
+   1
+  ],
+  [
+   "claims_anchors.json",
+   "card path",
+   "cards/PREREG_olm127_moy2_use_to_check_rerun_20261104.md",
+   2
+  ],
+  [
+   "claims_anchors.json",
+   "card path",
+   "cards/RESULT_olm127_moy2_use_to_check_rerun_20261104.md",
+   6
+  ],
+  [
+   "dist/moy2line-en.html",
+   "card path",
+   "cards/RECORD_moy2_reflection_tool_line_olm113_127_closure_20261104.md",
+   1
+  ],
+  [
+   "dist/moy2line-en.html",
+   "card path",
+   "cards/RESULT_olm126_moy2_v6_par_window_ln_object_rej_20261104.md",
+   1
+  ],
+  [
+   "dist/moy2line-en.html",
+   "card path",
+   "cards/RESULT_olm125_moy2_reflection_use_to_check_20261104.md",
+   1
+  ],
+  [
+   "dist/moy2line-en.html",
+   "card path",
+   "cards/RESULT_olm127_moy2_use_to_check_rerun_20261104.md",
+   1
+  ],
+  [
+   "dist/moy2line-light-en.html",
+   "card path",
+   "cards/RECORD_moy2_reflection_tool_line_olm113_127_closure_20261104.md",
+   1
+  ],
+  [
+   "dist/moy2line-light-en.html",
+   "card path",
+   "cards/RESULT_olm126_moy2_v6_par_window_ln_object_rej_20261104.md",
+   1
+  ],
+  [
+   "dist/moy2line-light-en.html",
+   "card path",
+   "cards/RESULT_olm125_moy2_reflection_use_to_check_20261104.md",
+   1
+  ],
+  [
+   "dist/moy2line-light-en.html",
+   "card path",
+   "cards/RESULT_olm127_moy2_use_to_check_rerun_20261104.md",
+   1
+  ],
+  [
+   "dist/moy2line-light.html",
+   "card path",
+   "cards/RECORD_moy2_reflection_tool_line_olm113_127_closure_20261104.md",
+   1
+  ],
+  [
+   "dist/moy2line-light.html",
+   "card path",
+   "cards/RESULT_olm126_moy2_v6_par_window_ln_object_rej_20261104.md",
+   1
+  ],
+  [
+   "dist/moy2line-light.html",
+   "card path",
+   "cards/RESULT_olm125_moy2_reflection_use_to_check_20261104.md",
+   1
+  ],
+  [
+   "dist/moy2line-light.html",
+   "card path",
+   "cards/RESULT_olm127_moy2_use_to_check_rerun_20261104.md",
+   1
+  ],
+  [
+   "dist/moy2line.html",
+   "card path",
+   "cards/RECORD_moy2_reflection_tool_line_olm113_127_closure_20261104.md",
+   1
+  ],
+  [
+   "dist/moy2line.html",
+   "card path",
+   "cards/RESULT_olm126_moy2_v6_par_window_ln_object_rej_20261104.md",
+   1
+  ],
+  [
+   "dist/moy2line.html",
+   "card path",
+   "cards/RESULT_olm125_moy2_reflection_use_to_check_20261104.md",
+   1
+  ],
+  [
+   "dist/moy2line.html",
+   "card path",
+   "cards/RESULT_olm127_moy2_use_to_check_rerun_20261104.md",
+   1
+  ],
+  [
+   "dist/widget.js",
+   "card path",
+   "cards/RECORD_moy2_reflection_tool_line_olm113_127_closure_20261104.md",
+   1
+  ],
+  [
+   "dist/widget.js",
+   "card path",
+   "cards/RESULT_olm126_moy2_v6_par_window_ln_object_rej_20261104.md",
+   1
+  ],
+  [
+   "dist/widget.js",
+   "card path",
+   "cards/RESULT_olm125_moy2_reflection_use_to_check_20261104.md",
+   1
+  ],
+  [
+   "dist/widget.js",
+   "card path",
+   "cards/RESULT_olm127_moy2_use_to_check_rerun_20261104.md",
+   1
+  ],
+  [
+   "generated/pack.json",
+   "card path",
+   "cards/RECORD_moy2_reflection_tool_line_olm113_127_closure_20261104.md",
+   1
+  ],
+  [
+   "generated/pack.json",
+   "card path",
+   "cards/RESULT_olm126_moy2_v6_par_window_ln_object_rej_20261104.md",
+   1
+  ],
+  [
+   "generated/pack.json",
+   "card path",
+   "cards/RESULT_olm125_moy2_reflection_use_to_check_20261104.md",
+   1
+  ],
+  [
+   "generated/pack.json",
+   "card path",
+   "cards/RESULT_olm127_moy2_use_to_check_rerun_20261104.md",
+   1
+  ],
+  [
+   "quoted.json",
+   "card path",
+   "cards/MEMO_youtube_selfplay_alphazero_factcheck_and_house_contrast_evaluation_function_20261104.md",
+   4
+  ],
+  [
+   "quoted.json",
+   "card path",
+   "cards/RESULT_olm121_moy2_v4_instrument_fix_and_retraction_20261103.md",
+   1
+  ],
+  [
+   "quoted.json",
+   "card path",
+   "cards/RECORD_moy2_reflection_tool_line_olm113_127_closure_20261104.md",
+   8
+  ],
+  [
+   "quoted.json",
+   "card path",
+   "cards/BRIEF_v1_moy2_line_two_makers_20261104.md",
+   1
+  ],
+  [
+   "quoted.json",
+   "card path",
+   "cards/PREREG_olm118_moy2_symmetry_kind_outer_marker_v3_20261103.md",
+   2
+  ],
+  [
+   "quoted.json",
+   "card path",
+   "cards/PREREG_olm119_moy2_reflection_tool_line_symmetry_20261103.md",
+   1
+  ],
+  [
+   "quoted.json",
+   "card path",
+   "cards/PREREG_olm124_moy2_reflection_formula_only_rerun_20261103.md",
+   2
+  ],
+  [
+   "quoted.json",
+   "card path",
+   "cards/RESULT_olm123_moy2_v5_par_subject_by_exclusion_20261103.md",
+   1
+  ],
+  [
+   "quoted.json",
+   "card path",
+   "cards/RESULT_olm126_moy2_v6_par_window_ln_object_rej_20261104.md",
+   2
+  ],
+  [
+   "quoted.json",
+   "card path",
+   "cards/PREREG_olm122_moy2_reflection_formula_only_20261103.md",
+   2
+  ],
+  [
+   "quoted.json",
+   "card path",
+   "cards/PREREG_olm125_moy2_reflection_use_to_check_20261104.md",
+   1
+  ],
+  [
+   "quoted.json",
+   "card path",
+   "cards/RESULT_olm125_moy2_reflection_use_to_check_20261104.md",
+   1
+  ],
+  [
+   "quoted.json",
+   "card path",
+   "cards/PREREG_olm127_moy2_use_to_check_rerun_20261104.md",
+   1
+  ],
+  [
+   "quoted.json",
+   "card path",
+   "cards/RESULT_olm127_moy2_use_to_check_rerun_20261104.md",
+   9
+  ],
+  [
+   "check_claims.py",
+   "exact",
+   "REPO = HERE  # bundle: \"repo:\" anchors resolve inside this folder (cards/)",
+   1
+  ],
+  [
+   "pack_moy2.py",
+   "exact",
+   "REPO = HERE  # bundle: the quoted cards live in cards/",
+   1
+  ],
+  [
+   "run_all.sh",
+   "exact",
+   "PY=${PY:-python3}",
+   1
+  ],
+  [
+   "run_checks.sh",
+   "exact",
+   "PY=${PY:-python3}",
+   1
+  ],
+  [
+   "run_checks.sh",
+   "exact",
+   "BUN=${BUN:-bun}",
+   1
+  ],
+  [
+   "run_checks.sh",
+   "exact",
+   "grep -c -E \"${FENCE_WORDS:-@@fence-words-not-set@@}\"",
+   1
+  ],
+  [
+   "run_marimo_check.sh",
+   "exact",
+   "PY=${PY:-$(dirname \"$(command -v python3)\")}",
+   1
+  ],
+  [
+   "run_marimo_check.sh",
+   "exact",
+   "BUN=${BUN:-bun}",
+   1
+  ],
+  [
+   "run_marimo_check.sh",
+   "exact",
+   "PORT=${PORT:-27531}",
+   1
+  ],
+  [
+   "run_jupyter_check.sh",
+   "exact",
+   "PY=${PY:-$(dirname \"$(command -v python3)\")}",
+   1
+  ],
+  [
+   "run_jupyter_check.sh",
+   "exact",
+   "BUN=${BUN:-bun}",
+   1
+  ],
+  [
+   "run_jupyter_check.sh",
+   "exact",
+   "PORT=${PORT:-27541}",
+   1
+  ],
+  [
+   "drive.mjs",
+   "exact",
+   "const BAND = Number(process.env.DRIVE_BAND || 27500);  // bundle: the port band is chosen by env (default 27500–27599)\nif (!PORT) PORT = Array.from({ length: 19 }, (_, i) => BAND + 11 + i).find(free) || 0;",
+   1
+  ],
+  [
+   "drive.mjs",
+   "exact",
+   "if (!(PORT >= BAND && PORT <= BAND + 99)) { console.log(`error: no free port inside ${BAND}–${BAND + 99}`); process.exit(2); }",
+   1
+  ]
+ ],
+ "masks": {
+  "ENTRY_README.md": [
+   [
+    "bun",
+    1
+   ]
+  ],
+  "NOTES.md": [
+   [
+    "<an earlier entry>/",
+    1
+   ]
+  ],
+  "checks/build.log": [
+   [
+    "<TMP>",
+    1
+   ]
+  ],
+  "checks/capture_desk_dark.json": [
+   [
+    "<TMP>",
+    20
+   ]
+  ],
+  "checks/capture_desk_en.json": [
+   [
+    "<TMP>",
+    7
+   ]
+  ],
+  "checks/capture_desk_light.json": [
+   [
+    "<TMP>",
+    8
+   ]
+  ],
+  "checks/capture_phone.json": [
+   [
+    "<TMP>",
+    20
+   ]
+  ],
+  "checks/capture_video.json": [
+   [
+    "<TMP>",
+    22
+   ]
+  ],
+  "checks/capture_video_en.json": [
+   [
+    "<TMP>",
+    7
+   ]
+  ],
+  "checks/check_jupyter.json": [
+   [
+    "<TMP>",
+    2
+   ]
+  ],
+  "checks/check_marimo.json": [
+   [
+    "<TMP>",
+    3
+   ]
+  ],
+  "checks/run_checks.log": [
+   [
+    "<TMP>",
+    84
+   ]
+  ],
+  "checks/run_jupyter.log": [
+   [
+    "<TMP>",
+    2
+   ]
+  ],
+  "checks/run_marimo.log": [
+   [
+    "<TMP>",
+    3
+   ]
+  ],
+  "drive.mjs": [
+   [
+    "<an earlier entry>/",
+    1
+   ]
+  ],
+  "run_all.sh": [
+   [
+    "bun",
+    1
+   ]
+  ]
+ },
+ "scan": {
+  "BUNDLE_BUILD.json": [
+   "homebrew path",
+   "host name",
+   "house conversations path",
+   "skills path",
+   "tmp path"
+  ],
+  "ENTRY_README.md": [
+   "skills path"
+  ],
+  "README.md": [
+   "host name",
+   "skills path"
+  ],
+  "build.mjs": [
+   "skills path"
+  ],
+  "cards/BRIEF_v1_1_entry_Q_fixes_20261104.md": [
+   "house conversations path"
+  ],
+  "cards/BRIEF_v1_2_entry_Q_display_script_fixes_20261104.md": [
+   "house conversations path"
+  ],
+  "cards/BRIEF_v1_3_entry_Q_small_fixes_20261104.md": [
+   "house conversations path"
+  ],
+  "cards/BRIEF_v1_moy2_line_two_makers_20261104.md": [
+   "home path",
+   "homebrew path",
+   "host name",
+   "house conversations path",
+   "skills path",
+   "tmp path"
+  ],
+  "cards/PREREG_olm113_moy2_projection_status_and_backing_20261102.md": [
+   "host name",
+   "house conversations path"
+  ],
+  "cards/PREREG_olm116_moy2_frontier_proof_prefix_ladder_20261103.md": [
+   "host name",
+   "house conversations path"
+  ],
+  "cards/PREREG_olm117_moy2_equal_radii_control_20261103.md": [
+   "host name",
+   "house conversations path"
+  ],
+  "cards/PREREG_olm118_moy2_symmetry_kind_outer_marker_v3_20261103.md": [
+   "host name",
+   "house conversations path"
+  ],
+  "cards/PREREG_olm119_moy2_reflection_tool_line_symmetry_20261103.md": [
+   "host name",
+   "house conversations path"
+  ],
+  "cards/PREREG_olm120_moy2_v3_on_olm116_continuations_20261103.md": [
+   "host name",
+   "house conversations path"
+  ],
+  "cards/PREREG_olm121_moy2_v4_instrument_fix_and_retraction_20261103.md": [
+   "host name",
+   "house conversations path"
+  ],
+  "cards/PREREG_olm122_moy2_reflection_formula_only_20261103.md": [
+   "host name",
+   "house conversations path"
+  ],
+  "cards/PREREG_olm123_moy2_v5_par_subject_by_exclusion_20261103.md": [
+   "host name",
+   "house conversations path"
+  ],
+  "cards/PREREG_olm124_moy2_reflection_formula_only_rerun_20261103.md": [
+   "host name",
+   "house conversations path"
+  ],
+  "cards/PREREG_olm125_moy2_reflection_use_to_check_20261104.md": [
+   "host name",
+   "house conversations path"
+  ],
+  "cards/PREREG_olm126_moy2_v6_par_window_ln_object_rej_20261104.md": [
+   "host name",
+   "house conversations path"
+  ],
+  "cards/PREREG_olm127_moy2_use_to_check_rerun_20261104.md": [
+   "host name",
+   "house conversations path"
+  ],
+  "cards/PREREG_prf4_moy12_status_proof_claude_p_20261102.md": [
+   "host name",
+   "house conversations path",
+   "tmp path"
+  ],
+  "cards/PREREG_prf5_moy12_proof_field_jsononly_claude_p_20261102.md": [
+   "host name",
+   "house conversations path"
+  ],
+  "cards/RECORD_moy2_reflection_tool_line_olm113_127_closure_20261104.md": [
+   "house conversations path"
+  ],
+  "cards/RESULT_olm113_moy2_projection_status_and_backing_20261102.md": [
+   "host name"
+  ],
+  "cards/RESULT_olm116_moy2_frontier_proof_prefix_ladder_20261103.md": [
+   "host name"
+  ],
+  "cards/RESULT_olm117_moy2_equal_radii_control_20261103.md": [
+   "host name"
+  ],
+  "cards/RESULT_olm118_moy2_symmetry_kind_outer_marker_v3_20261103.md": [
+   "host name"
+  ],
+  "cards/RESULT_olm119_moy2_reflection_tool_line_symmetry_20261103.md": [
+   "host name"
+  ],
+  "cards/RESULT_olm120_moy2_v3_on_olm116_continuations_20261103.md": [
+   "host name"
+  ],
+  "cards/RESULT_olm121_moy2_v4_instrument_fix_and_retraction_20261103.md": [
+   "host name"
+  ],
+  "cards/RESULT_olm122_moy2_reflection_formula_only_20261103.md": [
+   "host name"
+  ],
+  "cards/RESULT_olm123_moy2_v5_par_subject_by_exclusion_20261103.md": [
+   "host name"
+  ],
+  "cards/RESULT_olm124_moy2_reflection_formula_only_rerun_20261103.md": [
+   "host name"
+  ],
+  "cards/RESULT_olm125_moy2_reflection_use_to_check_20261104.md": [
+   "host name"
+  ],
+  "cards/RESULT_olm126_moy2_v6_par_window_ln_object_rej_20261104.md": [
+   "host name"
+  ],
+  "cards/RESULT_olm127_moy2_use_to_check_rerun_20261104.md": [
+   "host name"
+  ],
+  "cards/RESULT_prf4_moy12_status_proof_claude_p_20261102.md": [
+   "host name"
+  ],
+  "cards/SOURCES.tsv": [
+   "house conversations path"
+  ],
+  "cards/moy2_line_inventory.py": [
+   "home path"
+  ],
+  "dist/build_report.json": [
+   "skills path"
+  ],
+  "skill/README.md": [
+   "skills path"
+  ],
+  "skill/SKILL.md": [
+   "skills path"
+  ]
+ },
+ "public_prompt": {
+  "repo": "https://github.com/moyhig-ecs/ConstructGap",
+  "tag": "v1.0.1",
+  "prompts_py_md5": "abf43cfcbe92a63e495b0ab626b46a77",
+  "call": "prompts.build('higashida_axis', 'A', 37)",
+  "prompt_md5": "637c061e8fa8d2f7276f99176e78bfe5"
+ }
+}

@@ -1,0 +1,363 @@
+{
+ "_doc": "Numbers and sentences that are NOT fields of the inventory / read.json but are written in a card's PREREG / RESULT / RECORD / MEMO. Each entry carries the literal string that must occur in that file (pack_moy2.py and check_claims.py both look). Paths are relative to the repository root. Nothing here is a measurement made by this entry.",
+ "bands": {
+  "olm118": {
+   "file": "cards/PREREG_olm118_moy2_symmetry_kind_outer_marker_v3_20261103.md",
+   "literal": "**変わらない** \\|Δ\\| < 0.06・**増える** Δ ≥ 0.12・**減る** Δ ≤ −0.12・ほか = 間",
+   "base": {
+    "olm113": "olm113"
+   },
+   "kind": "diff1",
+   "rules": [
+    [
+     "変わらない",
+     "abs<",
+     0.06
+    ],
+    [
+     "増える",
+     ">=",
+     0.12
+    ],
+    [
+     "減る",
+     "<=",
+     -0.12
+    ]
+   ],
+   "else": "間",
+   "q": "Q1"
+  },
+  "olm118_Q3": {
+   "file": "cards/PREREG_olm118_moy2_symmetry_kind_outer_marker_v3_20261103.md",
+   "literal": "| Q3 | 外接線の印 OUTER_a の率の差 Δ | **変わらない** \\|Δ\\| < 0.06・**増える** Δ ≥ 0.12・**減る** Δ ≤ −0.12・ほか = 間",
+   "kind": "diff1",
+   "rules": [
+    [
+     "変わらない",
+     "abs<",
+     0.06
+    ],
+    [
+     "増える",
+     ">=",
+     0.12
+    ],
+    [
+     "減る",
+     "<=",
+     -0.12
+    ]
+   ],
+   "else": "間",
+   "q": "Q3"
+  },
+  "olm119": {
+   "file": "cards/PREREG_olm119_moy2_reflection_tool_line_symmetry_20261103.md",
+   "literal": "**下がる** Δ ≤ −0.08・**上がる** Δ ≥ +0.08・**変わらない** \\|Δ\\| < 0.04・ほか = 間",
+   "base": 0.122,
+   "kind": "diff1",
+   "rules": [
+    [
+     "下がる",
+     "<=",
+     -0.08
+    ],
+    [
+     "上がる",
+     ">=",
+     0.08
+    ],
+    [
+     "変わらない",
+     "abs<",
+     0.04
+    ]
+   ],
+   "else": "間",
+   "q": "Q1"
+  },
+  "olm122": {
+   "file": "cards/PREREG_olm122_moy2_reflection_formula_only_20261103.md",
+   "literal": "**戻る** \\|Δ113\\| < 0.06・**残る** \\|Δ119\\| < 0.06・**上がる** Δ119 ≥ +0.06・**下回る** Δ113 ≤ −0.06・ほか = **間**(0.182 ≤ r ≤ 0.258)",
+   "base113": 0.122,
+   "base119": 0.318,
+   "kind": "two",
+   "q": "Q1"
+  },
+  "olm124": {
+   "file": "cards/PREREG_olm124_moy2_reflection_formula_only_rerun_20261103.md",
+   "literal": "**戻る** \\|Δ113\\| < 0.06・**残る** \\|Δ119\\| < 0.06・**上がる** Δ119 ≥ +0.06・**下回る** Δ113 ≤ −0.06・ほか = **間**(0.182 ≤ r ≤ 0.258)",
+   "base113": 0.122,
+   "base119": 0.318,
+   "kind": "two",
+   "q": "Q1"
+  },
+  "olm125": {
+   "file": "cards/PREREG_olm125_moy2_reflection_use_to_check_20261104.md",
+   "literal": "**変わらない** \\|Δ124\\| < 0.06・**下がる** Δ124 ≤ −0.06(r ≤ 0.048 = 1 / 37 以下)・**上がる** Δ124 ≥ +0.06(r ≥ 0.168 = 7 / 37 以上)",
+   "base": 0.108,
+   "kind": "diff1",
+   "rules": [
+    [
+     "下がる",
+     "<=",
+     -0.06
+    ],
+    [
+     "上がる",
+     ">=",
+     0.06
+    ],
+    [
+     "変わらない",
+     "abs<",
+     0.06
+    ]
+   ],
+   "else": "間",
+   "q": "Q1"
+  },
+  "olm127": {
+   "file": "cards/PREREG_olm127_moy2_use_to_check_rerun_20261104.md",
+   "literal": "**残る** 0.165 ≤ r < 0.285(olm125 の側)・**戻る** 0.048 < r < 0.168(olm124 の側・重なりは 戻る が先)・**上がる** r ≥ 0.285・**下回る** r ≤ 0.048",
+   "kind": "abs",
+   "segs": [
+    [
+     "下回る",
+     null,
+     0.048
+    ],
+    [
+     "戻る",
+     0.048,
+     0.168
+    ],
+    [
+     "残る",
+     0.168,
+     0.285
+    ],
+    [
+     "上がる",
+     0.285,
+     null
+    ]
+   ],
+   "q": "Q1"
+  }
+ },
+ "gate": {
+  "file": "cards/PREREG_olm124_moy2_reflection_formula_only_rerun_20261103.md",
+  "literal": "conjecture が取れた行 **≥ 0.75(45 / 60)**",
+  "g075": 0.75,
+  "old": {
+   "file": "cards/PREREG_olm122_moy2_reflection_formula_only_20261103.md",
+   "literal": "0.80",
+   "g080": 0.8
+  }
+ },
+ "lineage_v4v5": {
+  "file": "cards/RESULT_olm126_moy2_v6_par_window_ln_object_rej_20261104.md",
+  "literal": "olm118 の Q3: v3 変わらない(+0.0387)→ v4 間(+0.0631)→ v5 間(+0.0631)→ **v6 変わらない(+0.0387)**",
+  "v4": 0.0631,
+  "v5": 0.0631,
+  "v4_band": "間",
+  "v5_band": "間"
+ },
+ "lineage_cases": [
+  {
+   "id": "v4_drop",
+   "file": "cards/RESULT_olm121_moy2_v4_instrument_fix_and_retraction_20261103.md",
+   "literal": "The inner common tangent at Tc on c and at Th on h1 is parallel to the line O1O2.",
+   "arm": "olm113",
+   "key": "b0_j16",
+   "ver": "v4"
+  },
+  {
+   "id": "v5_drop",
+   "file": "cards/RESULT_olm123_moy2_v5_par_subject_by_exclusion_20261103.md",
+   "literal": "so the line TcTh is thus parallel to the line O1O2.",
+   "arm": "olm113",
+   "key": "b2_j03",
+   "ver": "v5"
+  }
+ ],
+ "fisher": {
+  "file": "cards/RESULT_olm125_moy2_reflection_use_to_check_20261104.md",
+  "literal": "証明の欄の LN 9 / 40 対 olm124 4 / 37 = p 0.23・対 式だけ pool 120 行(olm122 + olm124)8 / 74 = p 0.11・対 olm119 14 / 44 = p 0.46",
+  "p124": 0.23,
+  "ppool": 0.11,
+  "p119": 0.46
+ },
+ "fisher127": {
+  "file": "cards/RESULT_olm127_moy2_use_to_check_rerun_20261104.md",
+  "literal": "olm124(4 / 37)とは Fisher(参考・判定に使わない)p 1.0・olm125(9 / 40)とは p 0.12",
+  "p124": 1.0,
+  "p125": 0.12
+ },
+ "four_arms": {
+  "file": "cards/RECORD_moy2_reflection_tool_line_olm113_127_closure_20261104.md",
+  "literal": "折り返しを Tc / Th で数値に出した行は四腕 43 / 47 が退ける",
+  "num": 43,
+  "den": 47
+ },
+ "four_arms_parts": {
+  "file": "cards/MEMO_youtube_selfplay_alphazero_factcheck_and_house_contrast_evaluation_function_20261104.md",
+  "literal": "計算した 18 本のうち v6 の REJ6 15 本 = 15 / 15・olm124 11 / 14・olm119 11 / 12",
+  "parts": {
+   "olm125": [
+    15,
+    15
+   ],
+   "olm124": [
+    11,
+    14
+   ],
+   "olm119": [
+    11,
+    12
+   ]
+  }
+ },
+ "four_arms_127": {
+  "file": "cards/RESULT_olm127_moy2_use_to_check_rerun_20261104.md",
+  "literal": "分母を同じに取れる四腕で olm119 11 / 12・olm124 11 / 14・olm125 15 / 15・olm127 6 / 6 = 計算すれば退ける、は安定",
+  "parts": {
+   "olm127": [
+    6,
+    6
+   ]
+  }
+ },
+ "hint_quote": {
+  "file": "cards/RECORD_moy2_reflection_tool_line_olm113_127_closure_20261104.md",
+  "literal": "olm125 b1_j09「Considering the provided reflection tool, it likely relates to the symmetry over the line O1O2」",
+  "arm": "olm125",
+  "key": "b1_j09",
+  "en": "Considering the provided reflection tool, it likely relates to the symmetry over the line O1O2"
+ },
+ "loop_quotes": {
+  "file": "cards/RESULT_olm127_moy2_use_to_check_rerun_20261104.md",
+  "literal": "perhaps the answer is … always collinear」「perhaps the line TcTh passes through O3, but already checked」"
+ },
+ "b1_j03_quote": {
+  "file": "cards/RECORD_moy2_reflection_tool_line_olm113_127_closure_20261104.md",
+  "literal": "olm127 b1_j03「This is confirmed by computation with the given coordinates」= 数値なし"
+ },
+ "question": {
+  "file": "cards/BRIEF_v1_moy2_line_two_makers_20261104.md",
+  "literal": "olmXシリーズから評価関数を導出できますか？"
+ },
+ "memo_answer": {
+  "file": "cards/MEMO_youtube_selfplay_alphazero_factcheck_and_house_contrast_evaluation_function_20261104.md",
+  "literal": "評価関数(AlphaGo Zero の意味の価値関数 v_θ = 確かめる前に勝ち目を出す学習した頭)は olmX からは**出ない**。出るのは**受領関数**"
+ },
+ "memo_rows": [
+  {
+   "id": "check",
+   "literal": "| 答え合わせ = \"The terminal position s_T is scored according to the rules of the game to compute the game winner z\" | 対局の勝敗 |"
+  },
+  {
+   "id": "search",
+   "literal": "| 読み = MCTS(\"a_t = argmax(Q + U)\"・1,600 回) | 木を降りて価値を遡る | 無い。候補を一つ試し、退け、次の候補を出す(木が無い・候補の分布が無い) | 無い |"
+  },
+  {
+   "id": "teacher",
+   "literal": "**退けが commit を支配しない**"
+  },
+  {
+   "id": "unseen",
+   "literal": "半径の等しい図(olm117)= 記憶の前提「接点は O1O2 について対称」が**真になる形**"
+  }
+ ],
+ "memo_file": "cards/MEMO_youtube_selfplay_alphazero_factcheck_and_house_contrast_evaluation_function_20261104.md",
+ "radius_equal": {
+  "file": "cards/RECORD_moy2_reflection_tool_line_olm113_127_closure_20261104.md",
+  "literal": "無し(半径 5.5738 に揃えた図)",
+  "r": 5.5738
+ },
+ "apex_def": {
+  "file": "cards/RECORD_moy2_reflection_tool_line_olm113_127_closure_20261104.md",
+  "literal": "**apex = |O3Tc| = |O3Th|**(等距離・真 = O3 は TcTh の垂直二等分線上・hq の `CAL_APEX_M2`)"
+ },
+ "seeds_record": {
+  "file": "cards/RECORD_moy2_reflection_tool_line_olm113_127_closure_20261104.md",
+  "literal": "| 道具なし | olm113(M2A) | 無し | 20261150〜52 |"
+ },
+ "_v1_1": "v1.1 (2026-11-04): four_arms / four_arms_parts / four_arms_127 are kept ONLY as the old numbers that the RECORD correction 3 says not to keep (the page prints 43 / 47 once, in a negated sentence; the parts are not carried). The figure's own reject rate among calc rows is counted from the rows (REJ6 ∧ REFL_CALC / REFL_CALC = agg.REJ6_in_calc).",
+ "four_arms_retracted": {
+  "file": "cards/RECORD_moy2_reflection_tool_line_olm113_127_closure_20261104.md",
+  "literal": "inventory の述語(REJ6 ∧ REFL_CALC / REFL_CALC)では olm119 **10 / 13**・olm124 **11 / 15**・olm125 **15 / 18**・olm127 **6 / 10** = 四腕 **42 / 56**(olm122 5 / 12・olm113 0 / 6)。「計算すれば退ける」の読みは 42 / 56 でも立つが、43 / 47 の数は据えない(R5: 集合は述語から)。",
+  "num": 42,
+  "den": 56
+ },
+ "four_arms_retracted_127": {
+  "file": "cards/RESULT_olm127_moy2_use_to_check_rerun_20261104.md",
+  "literal": "読み(計算すれば退ける)は変わらないが、43 / 47 の数は据えない。"
+ },
+ "rej_to_proof_125": {
+  "file": "cards/RESULT_olm127_moy2_use_to_check_rerun_20261104.md",
+  "literal": "9 本は **8 本**(inventory の `rej6 ∧ has_proof` = b0_j01・b0_j08・b0_j09・b0_j16・b1_j11・b1_j17・b2_j06・b2_j19)",
+  "keys": [
+   "b0_j01",
+   "b0_j08",
+   "b0_j09",
+   "b0_j16",
+   "b1_j11",
+   "b1_j17",
+   "b2_j06",
+   "b2_j19"
+  ]
+ },
+ "fisher127_more": {
+  "file": "cards/RESULT_olm127_moy2_use_to_check_rerun_20261104.md",
+  "literal": "olm119(14 / 44)とは p 0.014",
+  "p119": 0.014,
+  "pool": {
+   "literal": "式だけの pool 120 行(8 / 74 = 0.108)とは p 0.47",
+   "p": 0.47
+  }
+ },
+ "apex_rows_127": {
+  "file": "cards/RESULT_olm127_moy2_use_to_check_rerun_20261104.md",
+  "literal": "apex に数値で着く(b0_j00・b2_j09)か**の三つ",
+  "keys": [
+   "b0_j00",
+   "b2_j09"
+  ],
+  "b0_j00": {
+   "literal": "Yes! So TcO3 = ThO3",
+   "note": "status / proof に至らず (RESULT olm127 §3.4)"
+  },
+  "b2_j09": {
+   "literal": "both are sqrt(14.764) ≈ 3.838",
+   "note": "証明の欄が数値だけ"
+  }
+ },
+ "q3_126_row": {
+  "file": "cards/RESULT_olm126_moy2_v6_par_window_ln_object_rej_20261104.md",
+  "literal": "| Q3 REJ6 の回帰 | b0_j06 落ちた ✓・olm125 の残り 13 / 13 残った ✓・**olm124 の 12 本のうち b2_j03 が落ちた ✗**・足された 3 行(olm119 b1_j13・olm125 b0_j01・b0_j15)は全部計算した行 ✓・計算しない行に足された 0 ✓・b2_j07 の型の手の行 9 / 9 含む ✓(足された 0) | **通らない**(1 項目) |",
+  "text_ja": "Q3 REJ6 の回帰 | b0_j06 落ちた ✓・olm125 の残り 13 / 13 残った ✓・olm124 の 12 本のうち b2_j03 が落ちた ✗・足された 3 行(olm119 b1_j13・olm125 b0_j01・b0_j15)は全部計算した行 ✓・計算しない行に足された 0 ✓・b2_j07 の型の手の行 9 / 9 含む ✓(足された 0) | 通らない(1 項目)"
+ },
+ "record6": {
+  "file": "cards/RECORD_moy2_reflection_tool_line_olm113_127_closure_20261104.md",
+  "literal": "- (e) 図解(この RECORD の後・先生の発注)",
+  "note": "v1.3 H5 / BRIEF v1.3 §2 item 23: RECORD §6 lists (a)–(e); (e) = the explainer"
+ },
+ "memo4_3": {
+  "file": "cards/MEMO_youtube_selfplay_alphazero_factcheck_and_house_contrast_evaluation_function_20261104.md",
+  "literal": "だから評価関数を学ばせる前に要るのは、**退けが commit を支配する仕組み**",
+  "note": "v1.3 H5 / item 23: candidate 5 is MEMO §4 item 3, not RECORD §6"
+ },
+ "rej127_split": {
+  "file": "cards/RESULT_olm127_moy2_use_to_check_rerun_20261104.md",
+  "literal": "退けた 6 本のうち証明の欄に至ったのは b2_j11 の 1 本だけ(残り 5 本は上限)",
+  "note": "v1.3 H2 / item 22 (RESULT olm127 §3.3)"
+ },
+ "rej127_numeric": {
+  "file": "cards/RESULT_olm127_moy2_use_to_check_rerun_20261104.md",
+  "literal": "共線を行列式 ≠ 0 / 媒介変数の不一致で数値で退けた直後に",
+  "note": "v1.3 H1 (RESULT olm127 §4 item 5)"
+ }
+}

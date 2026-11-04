@@ -1,0 +1,87 @@
+{
+ "built_with": {
+  "anatomy": "~/.claude/skills/anatomy",
+  "runtime": "bun 1.4.3"
+ },
+ "inventory": {
+  "md5": "3190663eadc56b6ea426472b0551624e",
+  "made": "2026-11-04T11:57:04+0900",
+  "commit": "f83bccdd",
+  "out_tail": "json md5 3190663eadc56b6ea426472b0551624e size 737773"
+ },
+ "read_prov": {
+  "olm118": {
+   "commit": "191fe098",
+   "dirty": true,
+   "md5": "bffeb8263fcf28c0998f4726765f83af"
+  },
+  "olm119": {
+   "commit": "d07229c1",
+   "dirty": false,
+   "md5": "f21385976c22adbf81eea690030af57f"
+  },
+  "olm122": {
+   "commit": "3d9e8b28",
+   "dirty": false,
+   "md5": "30db9a253671288c70440a8f44bb44e0"
+  },
+  "olm124": {
+   "commit": "dddb7c7a",
+   "dirty": true,
+   "md5": "ab5250a87781b0981a8f38e6017832d2"
+  },
+  "olm125": {
+   "commit": "109d26bf",
+   "dirty": false,
+   "md5": "d0171213f9fad88075597ccb6d3c4434"
+  },
+  "olm126": {
+   "commit": "b4030406",
+   "dirty": true,
+   "md5": "862327c3abdae5eecb4d23f4191743d3"
+  },
+  "olm127": {
+   "commit": "f63ee6c8",
+   "dirty": false,
+   "md5": "a14ae15972dcc11ce2d6326f2d1e6aa0"
+  }
+ },
+ "states": 20,
+ "ln_v3": {
+  "olm113": "5 / 41",
+  "olm117": "7 / 46",
+  "olm119": "14 / 44",
+  "olm122": "4 / 37",
+  "olm124": "4 / 37",
+  "olm125": "9 / 40",
+  "olm127": "3 / 35"
+ },
+ "verdicts": {
+  "olm117": "変わらない",
+  "olm119": "上がる",
+  "olm122": "(no verdict; ref band 戻る)",
+  "olm124": "戻る",
+  "olm125": "上がる",
+  "olm127": "(no verdict; ref band 戻る)"
+ },
+ "art": {
+  "board_bytes": 30416,
+  "rack_bytes": 445117,
+  "rack_blocks": 420
+ },
+ "files": {
+  "moy2line.html": 1097408,
+  "moy2line-light.html": 1097410,
+  "moy2line-en.html": 1097402,
+  "moy2line-light-en.html": 1097404,
+  "widget.js": 1067565,
+  "widget.css": 31716
+ },
+ "source_md5": {
+  "figure.js": "b6fd159e9f461aee221169ced3f4b4e7",
+  "i18n.js": "cad69ea043f94d5c46a596fa6b1f4f2b",
+  "state_machine.js": "6748cf6ae7b94b3c3796031fcb0a10c3",
+  "art.mjs": "a82ba3cb3ed7377a13469e1920536686",
+  "pack_moy2.py": "a7a862c3b7fb4322bac6c765ce89e257"
+ }
+}

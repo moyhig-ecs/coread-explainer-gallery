@@ -1,0 +1,2484 @@
+{
+ "stage": "olm119",
+ "provenance": {
+  "utc": "2026-11-03T09:05:27+00:00",
+  "commit": "d07229c1",
+  "dirty": false,
+  "card": "olm119",
+  "script_md5": "d8d4062f0457d3e289d371f405bdf9d7",
+  "common_md5": "426e208954505fb3d566e60ce806f0c1",
+  "m117_md5": "ab678f30d4da8be4ae3788a713315b43",
+  "m118_md5": "136f72b996d518dc9754dbe1a8608072",
+  "prereg_md5": "e47bc3aa8fa9f162100ac80c6f3352af",
+  "prompt_md5": "d4c07f2477557b100a6fa71e83b97507",
+  "prompt_md5_orig": "5618228016f800da89e14c525c5ea09a",
+  "olm118_read_md5": "bffeb8263fcf28c0998f4726765f83af"
+ },
+ "gen_md5": "781f0e7072230d4921ec5933a724afaf",
+ "gates": {
+  "G1_conj_parsed>=0.80": true,
+  "G2_status>=0.70": true,
+  "G0_olm118_olm113_n_proof=41": true
+ },
+ "Q1": {
+  "LN_a_rate_proof": {
+   "tool": 0.3182,
+   "olm113": 0.122
+  },
+  "diff": 0.1962,
+  "verdict": "上がる"
+ },
+ "Q2": {
+  "REFL_CALC_rate": 0.2167,
+  "n": 13,
+  "verdict": "間"
+ },
+ "Q3": {
+  "calc_rows": [
+   "b0_j01",
+   "b0_j08",
+   "b0_j10",
+   "b0_j13",
+   "b0_j18",
+   "b1_j06",
+   "b1_j10",
+   "b1_j11",
+   "b1_j13",
+   "b2_j03",
+   "b2_j04",
+   "b2_j15",
+   "b2_j16"
+  ],
+  "calc_proof_LN_a": 3,
+  "calc_body_LN_a": 11,
+  "calc_cls": {
+   "EQ": 6,
+   "OTHER": 5,
+   "NONE": 1,
+   "MIDO3": 1
+  }
+ },
+ "Q4_desc": {
+  "tool": {
+   "n": 60,
+   "n_proof": 44,
+   "cls": {
+    "MIDO3": 29,
+    "EQ": 8,
+    "NONE": 12,
+    "OTHER": 11
+   },
+   "parsed": 48,
+   "MIDO3_rate_parsed": 0.6042,
+   "EQ_rate_parsed": 0.1667,
+   "status": {
+    "hypothesis": 42,
+    "none": 16,
+    "other": 1,
+    "question": 1
+   },
+   "proof_count": {
+    "PT_a": 0,
+    "LN_a": 14,
+    "OUTER_a": 12,
+    "PAR3_a": 3,
+    "PERP3_a": 10,
+    "PBIS3_a": 0,
+    "SYMM": 22
+   },
+   "proof_rate": {
+    "PT_a": 0.0,
+    "LN_a": 0.3182,
+    "OUTER_a": 0.2727,
+    "PAR3_a": 0.0682,
+    "PERP3_a": 0.2273,
+    "PBIS3_a": 0.0,
+    "SYMM": 0.5
+   },
+   "proof_kind": {
+    "—": 22,
+    "LN": 14,
+    "OTH": 1,
+    "NONE": 7
+   },
+   "body_count": {
+    "PT_a": 9,
+    "LN_a": 33,
+    "OUTER_a": 30,
+    "PAR3_a": 11,
+    "PERP3_a": 23,
+    "PBIS3_a": 6,
+    "SYMM": 42
+   },
+   "body_kind": {
+    "LN": 25,
+    "BOTH": 8,
+    "—": 18,
+    "OTH": 2,
+    "PT": 2,
+    "NONE": 5
+   },
+   "REFL_MENTION": 31,
+   "REFL_CALC": 13,
+   "REFL_CALC_rate": 0.2167,
+   "calc_rows": [
+    "b0_j01",
+    "b0_j08",
+    "b0_j10",
+    "b0_j13",
+    "b0_j18",
+    "b1_j06",
+    "b1_j10",
+    "b1_j11",
+    "b1_j13",
+    "b2_j03",
+    "b2_j04",
+    "b2_j15",
+    "b2_j16"
+   ],
+   "calc_proof_LN_a": 3,
+   "calc_body_LN_a": 11,
+   "calc_cls": {
+    "EQ": 6,
+    "OTHER": 5,
+    "NONE": 1,
+    "MIDO3": 1
+   },
+   "T_med": 440.0,
+   "hit_cap": 6,
+   "answer_first": 1
+  },
+  "olm113_v3": {
+   "proof": {
+    "n": 41,
+    "count": {
+     "SYMM": 11,
+     "SYMW": 11,
+     "PT": 0,
+     "LN": 5,
+     "OTH": 0,
+     "PT_a": 0,
+     "LN_a": 5,
+     "OTH_a": 0,
+     "PAR3": 7,
+     "PERP3": 4,
+     "PBIS3": 0,
+     "PAR3_a": 7,
+     "PERP3_a": 4,
+     "PBIS3_a": 0,
+     "OUTER": 10,
+     "OUTER_a": 10
+    },
+    "kind": {
+     "—": 30,
+     "NONE": 6,
+     "LN": 5
+    },
+    "rate": {
+     "SYMM": 0.2683,
+     "PT_a": 0.0,
+     "LN_a": 0.122,
+     "OUTER_a": 0.2439,
+     "PAR3_a": 0.1707,
+     "PERP3_a": 0.0976,
+     "PBIS3_a": 0.0
+    },
+    "kind_named_among_SYMW": 0.4545,
+    "by_cls": {
+     "EQ": {
+      "n": 12,
+      "SYMM": 8,
+      "PT_a": 0,
+      "LN_a": 4,
+      "OUTER_a": 2,
+      "kind": {
+       "NONE": 4,
+       "LN": 4,
+       "—": 4
+      }
+     },
+     "MIDO3": {
+      "n": 15,
+      "SYMM": 2,
+      "PT_a": 0,
+      "LN_a": 1,
+      "OUTER_a": 4,
+      "kind": {
+       "—": 13,
+       "LN": 1,
+       "NONE": 1
+      }
+     },
+     "OTHER": {
+      "n": 14,
+      "SYMM": 1,
+      "PT_a": 0,
+      "LN_a": 0,
+      "OUTER_a": 4,
+      "kind": {
+       "NONE": 1,
+       "—": 13
+      }
+     }
+    }
+   },
+   "body": {
+    "n": 60,
+    "count": {
+     "SYMM": 26,
+     "SYMW": 26,
+     "PT": 7,
+     "LN": 11,
+     "OTH": 0,
+     "PT_a": 7,
+     "LN_a": 11,
+     "OTH_a": 0,
+     "PAR3": 23,
+     "PERP3": 22,
+     "PBIS3": 1,
+     "PAR3_a": 23,
+     "PERP3_a": 21,
+     "PBIS3_a": 1,
+     "OUTER": 30,
+     "OUTER_a": 29
+    },
+    "kind": {
+     "PT": 5,
+     "LN": 9,
+     "—": 34,
+     "BOTH": 2,
+     "NONE": 10
+    },
+    "rate": {
+     "SYMM": 0.4333,
+     "PT_a": 0.1167,
+     "LN_a": 0.1833,
+     "OUTER_a": 0.4833,
+     "PAR3_a": 0.3833,
+     "PERP3_a": 0.35,
+     "PBIS3_a": 0.0167
+    },
+    "kind_named_among_SYMW": 0.6154,
+    "by_cls": {
+     "EQ": {
+      "n": 16,
+      "SYMM": 15,
+      "PT_a": 5,
+      "LN_a": 10,
+      "OUTER_a": 9,
+      "kind": {
+       "LN": 8,
+       "BOTH": 2,
+       "NONE": 2,
+       "PT": 3,
+       "—": 1
+      }
+     },
+     "MIDO3": {
+      "n": 17,
+      "SYMM": 5,
+      "PT_a": 1,
+      "LN_a": 1,
+      "OUTER_a": 8,
+      "kind": {
+       "PT": 1,
+       "—": 12,
+       "NONE": 3,
+       "LN": 1
+      }
+     },
+     "NONE": {
+      "n": 10,
+      "SYMM": 3,
+      "PT_a": 0,
+      "LN_a": 0,
+      "OUTER_a": 1,
+      "kind": {
+       "—": 7,
+       "NONE": 3
+      }
+     },
+     "OTHER": {
+      "n": 17,
+      "SYMM": 3,
+      "PT_a": 1,
+      "LN_a": 0,
+      "OUTER_a": 11,
+      "kind": {
+       "PT": 1,
+       "—": 14,
+       "NONE": 2
+      }
+     }
+    }
+   }
+  },
+  "olm113_v2_from_olm117": {
+   "olm113": "db0fde6e15c26f1acc69d564115ae556",
+   "olm117": "b5795850521ea2d3426e6e1b5d8ca1d0",
+   "prf5": "995650e5731e8f7a78553a2f4b5b957b"
+  }
+ },
+ "rows": [
+  {
+   "key": "b0_j00",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 338,
+   "hit_cap": false,
+   "conj": "Tc, Th, and O3 are collinear",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": true,
+   "body_kind": "LN",
+   "body_LN_a": true,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": "o O1O2, and O3 is the midpoint of O1O2, the line through Tc and Th is parallel to O1O2, hence Tc, Th, and O3 are collinear.",
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": "1 and O2. Thus, O3 lies on O1O2, and the tangent points Tc and Th are symmetric with respect to O1O2, making them collinear with O3.\", \"closesgoal\": t",
+    "OTH": null,
+    "PAR3": "o O1O2, and O3 is the midpoint of O1O2, the line through Tc and Th is parallel to O1O2, hence Tc, Th, and O3 are collinear.\" ```",
+    "PERP3": " are the points where the inner common tangent meets the circles, and the inner common tangent is perpendicular to the line of centers. Therefore, the line through Tc and Th is paralle",
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b0_j01",
+   "cls": "EQ",
+   "status": "hypothesis",
+   "T": 5406,
+   "hit_cap": false,
+   "conj": "Triangle O3TcTh is isosceles (O3Tc = O3Th)",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "BOTH",
+   "body_LN_a": true,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": true,
+    "first_calc": "ant relation involving Tc, Th, and O3. Let’s try to compute the reflection of Tc over the line O1O2 and see if it lands on Th. According to the reflection formula given: Let’s compute the direction vector O1O2: O2 - O1 = (-2.2849 - 10.1897, -4.2209 - (-0.5520)) = (-12.4746, -3.6689). Compute the dot product (Tc - O1)·(O2 - O1): Tc - O1 = (2."
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": ".9376, 1.3575), which is not Th. Alternatively, perhaps Tc and Th are symmetric with respect to O3. Let's reflect Tc over O3: O3 = (3.9524, -2.3865)",
+    "LN": "invariant relation involving Tc, Th, and O3. Let’s try to compute the reflection of Tc over the line O1O2 and see if it lands on Th. According to the refle",
+    "OTH": null,
+    "PAR3": "89)*(-4.5332) = -61.412 + 16.654 = -44.758 No. Alternatively, perhaps TcTh is parallel to O1O2? Let's check the ratios: (4.9249)/(-12.4746) = -0",
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b0_j02",
+   "cls": "NONE",
+   "status": "none",
+   "T": 9,
+   "hit_cap": false,
+   "conj": "",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "—",
+   "body_LN_a": false,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b0_j03",
+   "cls": "OTHER",
+   "status": "hypothesis",
+   "T": 434,
+   "hit_cap": false,
+   "conj": "The midpoint of Tc and Th is O3",
+   "proof_kind": "LN",
+   "proof_LN_a": true,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "LN",
+   "body_LN_a": true,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": "The reflection of Tc across the line O1O2 is Th, so their midpoint lies on the line O1O2. S",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": "e key configuration is the relation between Tc, Th, and O3. Given the symmetry of the configuration with respect to the line O1O2, and the fact that Tc and Th are symmetric with r",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b0_j04",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 446,
+   "hit_cap": false,
+   "conj": "Tc, Th, and O3 are collinear",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": true,
+   "body_kind": "LN",
+   "body_LN_a": true,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": "the line of centers of the two circles. The inner common tangent line l1 is perpendicular to the line of centers, and the points Tc and Th lie on this line. There",
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": "Th, and the midpoint O3 of O1 and O2. The available tools include the reflection of a point across the line O1O2. Invariants are properties that always hold true ",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": "the line of centers of the two circles. The inner common tangent line l1 is perpendicular to the line of centers, and the points Tc and Th lie on this line. There",
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b0_j05",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 484,
+   "hit_cap": false,
+   "conj": "O3 is the midpoint of Th and Tc",
+   "proof_kind": "OTH",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "OTH",
+   "body_LN_a": false,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": "int of O1O2, reflecting O3 across l1 yields M. Therefore O3 and M are symmetric with respect to l1, and since O3 lies on O1O2 (which is perpendicula",
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": " onto l1. Since O3 is the midpoint of O1O2, O3 lies on line O1O2. The reflection of O3 across l1 is the midpoint of the segment joining the reflec",
+    "PAR3": null,
+    "PERP3": "lies on h1, so O1Th equals the radius of h1. The inner common tangent l1 is perpendicular to O1O2 at Tc and Th respectively, so Tc and Th are the f",
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b0_j06",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 480,
+   "hit_cap": false,
+   "conj": "Tc, Th, O3 are collinear",
+   "proof_kind": "LN",
+   "proof_LN_a": true,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "LN",
+   "body_LN_a": true,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": "The inner common tangent l1 is invariant under reflection across O1O2, so its midpoint O3 lies on l1, which contains Tc",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": "the inner common tangent l1. Since l1 is an inner common tangent, its reflection across the line O1O2 maps it to itself, so the midpoint O3 must lie on",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b0_j07",
+   "cls": "MIDO3",
+   "status": "other",
+   "T": 907,
+   "hit_cap": false,
+   "conj": "Tc, O3, Th are collinear",
+   "proof_kind": "LN",
+   "proof_LN_a": true,
+   "proof_PT_a": false,
+   "proof_OUTER_a": true,
+   "body_kind": "LN",
+   "body_LN_a": true,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": "The tangent line l1 is perpendicular to O1O2, and Tc, Th are symmetric with respect to O1O2. Thus, the line through Tc and Th is the perpendi",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": "The tangent line l1 is perpendicular to O1O2, and Tc, Th are symmetric with respect to O1O2. T",
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": "cular to the line joining the centers, and its points of tangency are symmetric with respect to the line joining the centers. The midpoint O3 lies on this line, and the tange",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": "e structure of the tangent and the definition of O3. Step 6. Backing: The inner common tangent is perpendicular to the line joining the centers, and its points of tangency are symmetric with re",
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b0_j08",
+   "cls": "OTHER",
+   "status": "question",
+   "T": 12288,
+   "hit_cap": true,
+   "conj": "TcTh is parallel to O1O2",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": true,
+   "body_kind": "BOTH",
+   "body_LN_a": true,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": true,
+    "first_calc": "h across O1O2, or vice versa. Using the reflection formula: P' = 2F - P, where F is the projection of P onto the line O1O2. First, compute the line O1O2. The parametric form can be found by the direction vector from O1 to O2: O2 - O1 = (-2.2849 -10.1897, -4.2209 - (-0.5520)) = (-12.4746, -3.6689). The line O1O2 can be parametrized as O1 + t*(direction vec"
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": "c), and O1O2 is perpendicular to l1 (inner common tangent); therefore TcTh is parallel to O1O2.",
+    "PERP3": "TcTh is perpendicular to l1 (tangent-chord at Tc), and O1O2 is perpendicular to l1 (inner common tangent); therefore TcTh is paralle",
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": " terms of symmetry. For example, O3 is the midpoint, so maybe TcTh is symmetrical with respect to O3. But how? Alternatively, consider triangles. Mayb",
+    "LN": "it. Wait, but maybe there's a reflection involved. The tool mentioned reflection across O1O2. If we reflect one of the points over O1O2, maybe",
+    "OTH": null,
+    "PAR3": "Example: \"conjecture\": \"TcTh is parallel to O1O2\", \"reason\": \"because both are perpendicular to l1",
+    "PERP3": "on\", \"proof\": \"TcTh is perpendicular to l1 (tangent-chord at Tc), and O1O2 is perpendicular to l1 (inner common tangent); therefore TcTh is paralle",
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b0_j09",
+   "cls": "NONE",
+   "status": "none",
+   "T": 97,
+   "hit_cap": false,
+   "conj": "",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "—",
+   "body_LN_a": false,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b0_j10",
+   "cls": "EQ",
+   "status": "hypothesis",
+   "T": 4284,
+   "hit_cap": false,
+   "conj": "O3Tc = O3Th",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "PT",
+   "body_LN_a": false,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": true,
+    "first_calc": "/2. - The tool gives us the reflection formula across O1O2: P' = 2F − P, where F is the foot of P on O1O2. - By the property of inner common tangents, the lines O2Tc and O1Th are parallel. - The direction vector of O2Tc is Tc−O2 = (2.7678−7.4607, 1.2685−(−4.2209)) = (−4.6929, 5.4894). - The direction vector of O1Th is Th−O1 = (7.6927−10.1897,"
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": "s that Tc and Th are symmetric with respect to the line O3O1O2 (i.e., reflection across O3). But as above, 2O3 − Tc ≠ Th. Alternatively, per",
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b0_j11",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 183,
+   "hit_cap": false,
+   "conj": "Tc, Th, O3 are collinear",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "NONE",
+   "body_LN_a": false,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b0_j12",
+   "cls": "NONE",
+   "status": "none",
+   "T": 66,
+   "hit_cap": false,
+   "conj": "",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "—",
+   "body_LN_a": false,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b0_j13",
+   "cls": "OTHER",
+   "status": "hypothesis",
+   "T": 4445,
+   "hit_cap": false,
+   "conj": "The lines O1Tc and O2Th are symmetric with respect to the line O1O2",
+   "proof_kind": "LN",
+   "proof_LN_a": true,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "LN",
+   "body_LN_a": true,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": true,
+    "first_calc": "f it coincides with O2Th. Let’s use the reflection formula: P' = 2F - P, where F = O1 + t(O2 - O1), t = ((P - O1)·(O2 - O1)) / |O2 - O1|^2 Let’s reflect O1Tc across O1O2. First, P = O1 = (10.1897, -0.5520) P' = O1 itself. Now, reflect Tc = (2.7678, 1.2685): P = Tc "
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": "The inner common tangent at Tc and Th are symmetric with respect to the line O1O2, as the tangent points and centers are symmetric ",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": "ear with O1 or O2. Alternatively, perhaps the lines O1Tc and O2Th are symmetric with respect to the line O1O2. Let’s check this. First, compute the angle betwe",
+    "OTH": null,
+    "PAR3": " not the case). Alternatively, perhaps O3 is the midpoint of TcTh and TcTh is parallel to O1O2. Let’s check the slopes: Slope of O1O2: ( -4.2209",
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b0_j14",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 1018,
+   "hit_cap": false,
+   "conj": "Tc, Th, and O3 are collinear",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": true,
+   "body_kind": "LN",
+   "body_LN_a": true,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": "Given two circles with centers O1 and O2, the inner common tangent line is perpendicular to O1O2. The points of tangency Tc (on c) and Th (on h1) ",
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": "n, specifically related to Tc, Th, and O3. The tool provided is about reflection across the line O1O2, which suggests symmetry or midpoints might be in",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": "hey are the points of tangency for the inner common tangent, which is perpendicular to the line joining the centers). A reasonable geometric conjecture is that the p",
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b0_j15",
+   "cls": "OTHER",
+   "status": "hypothesis",
+   "T": 145,
+   "hit_cap": false,
+   "conj": "right_angle(A, B, C)",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "—",
+   "body_LN_a": false,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b0_j16",
+   "cls": "OTHER",
+   "status": "hypothesis",
+   "T": 304,
+   "hit_cap": false,
+   "conj": "O3 is the midpoint of O1 and O2",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "—",
+   "body_LN_a": false,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b0_j17",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 232,
+   "hit_cap": false,
+   "conj": "Tc, Th, and O3 are collinear",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": true,
+   "body_kind": "NONE",
+   "body_LN_a": false,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": "l1 is an inner common tangent, so the line O1O2 is the line of centers perpendicular to l1. The contact points Tc and Th lie on l1. The midp",
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": "thesis\", \"proof\": \"l1 is an inner common tangent, so the line O1O2 is the line of centers perpendicular to l1. The contact points Tc and Th lie on l1. The midp",
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b0_j18",
+   "cls": "NONE",
+   "status": "none",
+   "T": 12288,
+   "hit_cap": true,
+   "conj": "",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "LN",
+   "body_LN_a": true,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": true,
+    "first_calc": " the midpoint, maybe there's a symmetry here. Let's compute the reflection of Th across O1O2 using the formula provided. First, compute the vector O2 - O1. O2 is (-2.2849, -4.2209), O1 is (10.1897, -0.5520). So O2 - O1 is (-2.2849 -10.1897,"
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": " and O2, maybe there's a reflection involved here. The tool mentioned reflection across the line O1O2. If I reflect one of the tangent points over O1O2",
+    "OTH": "ne l1, maybe it maps to itself or some other point. Let's compute the reflection of O3 across l1. The formula for reflection across a line ax + by",
+    "PAR3": "relate to the points Tc and Th? Alternatively, maybe the line TcTh is parallel to the line connecting the centers O1O2? Wait, earlier slopes were 0.294 and -0.921,",
+    "PERP3": "not on l1. So homothety idea might not work. Wait, but maybe the line O1O2 is perpendicular to the tangent line l1? Let's check the slopes. Slope of O1O2 is ( -4",
+    "PBIS3": "t matching. Maybe my approach is wrong. Alternatively, maybe the line O1O2 is the perpendicular bisector of the segment connecting Tc and Th? If O3 is the"
+   }
+  },
+  {
+   "key": "b0_j19",
+   "cls": "OTHER",
+   "status": "hypothesis",
+   "T": 980,
+   "hit_cap": false,
+   "conj": "O1O2 ⟂ l1",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "—",
+   "body_LN_a": false,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": "on O1O2. - Is there a right angle at O3 or at Tc or Th? - Is the line O1O2 perpendicular to l1? Or is l1 perpendicular to the line joining the c",
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b1_j00",
+   "cls": "EQ",
+   "status": "hypothesis",
+   "T": 974,
+   "hit_cap": false,
+   "conj": "O3Tc = O3Th",
+   "proof_kind": "NONE",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "LN",
+   "body_LN_a": true,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": " The key objects are Tc, Th, and O3. - The only given tools are about reflection across O1O2, but the question asks for a general invariant, n",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b1_j01",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 342,
+   "hit_cap": false,
+   "conj": "Tc, Th, and O3 are collinear",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": true,
+   "body_kind": "—",
+   "body_LN_a": false,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": " of the two circles, and O3 is the midpoint of the centers O1 and O2; the line connecting the centers is perpendicular to the tangent line, so the tangent line passes through O3, making Tc",
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": " two tangent circles. Since the common tangent between two circles is perpendicular to the line connecting their centers, and the tangent points Tc and Th are where the t",
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b1_j02",
+   "cls": "NONE",
+   "status": "none",
+   "T": 272,
+   "hit_cap": false,
+   "conj": "",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "—",
+   "body_LN_a": false,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b1_j03",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 196,
+   "hit_cap": false,
+   "conj": "Tc, Th, and O3 are collinear",
+   "proof_kind": "LN",
+   "proof_LN_a": true,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "LN",
+   "body_LN_a": true,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": "By the properties of reflection, Tc and Th are symmetric with respect to the line O1O2, which passes through O3. Symmetric points with r",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": "d O2, the line O1O2 passes through O3. The inner common tangent l1 is symmetric with respect to the line O1O2, meaning Tc and Th are symmetric points with resp",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b1_j04",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 135,
+   "hit_cap": false,
+   "conj": "Tc, Th, O3 are collinear",
+   "proof_kind": "NONE",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": true,
+   "body_kind": "NONE",
+   "body_LN_a": false,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": "By symmetry of the circles and the midpoint O3, the tangent line TcTh is perpendicular to O1O2 and passes through O3. Thus, Tc, Th, O3 are colli",
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": "n\": \"The line connecting the inner common tangent points Tc and Th is perpendicular to the line joining the centers O1 and O2, and since O3 is the midpoint of O1 and",
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b1_j05",
+   "cls": "NONE",
+   "status": "none",
+   "T": 122,
+   "hit_cap": false,
+   "conj": "",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "—",
+   "body_LN_a": false,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b1_j06",
+   "cls": "EQ",
+   "status": "hypothesis",
+   "T": 3488,
+   "hit_cap": false,
+   "conj": "O3Tc = O3Th",
+   "proof_kind": "LN",
+   "proof_LN_a": true,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "BOTH",
+   "body_LN_a": true,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": true,
+    "first_calc": "with respect to the line O1O2. Let's check if this is true: The reflection of Tc over O1O2 should be Th, and vice versa. Let's check the coordinates numerically. The vector O1O2 = O2 - O1 = (-2.2849 - 10.1897, -4.2209 - (-0.5520)) = (-12.4746, -3.6689). The direction vector is (-12.4746, -3.6689). To reflect Tc"
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": "The points Tc and Th are symmetric with respect to the line O1O2, and O3 is the midpoint of O1O2. Therefore, the c",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": "truction of O3 as the midpoint of O1O2. Try: The points Tc and Th are symmetric with respect to O3. Midpoint of Tc and Th: ((2.7678 + 7.6927)/2, (1.",
+    "LN": "e invariant is that the points Tc and Th (the points of tangency) are symmetric with respect to the line O1O2. Let's check if this is true: The reflection of T",
+    "OTH": null,
+    "PAR3": ") = (5.2302, -1.0) O3 = (3.9524, -2.3865) Not the same. Try: The line O1O2 is parallel to the tangent line l1. Slope O1O2: 0.294 Slope l1: ",
+    "PERP3": ". Reason: The inner common tangent line l1 of two disjoint circles is perpendicular to the line connecting their centers (O1O2). Since O3 is the midpoint of O1 and O2, it",
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b1_j07",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 292,
+   "hit_cap": false,
+   "conj": "Tc, Th, and O3 are collinear",
+   "proof_kind": "LN",
+   "proof_LN_a": true,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "LN",
+   "body_LN_a": true,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": "e through Tc and Th is the inner common tangent, and these points are symmetric about the line O1O2. Hence, the midpoint of Tc and Th must lie on the",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": "1 and O2, and the inner common tangent's contact points Tc and Th are symmetric with respect to the line O1O2, the midpoint O3 must lie on the line joining Tc ",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b1_j08",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 404,
+   "hit_cap": false,
+   "conj": "Th, Tc, and O3 are collinear",
+   "proof_kind": "LN",
+   "proof_LN_a": true,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "LN",
+   "body_LN_a": true,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": "s the line O1O2 to obtain Tc'. By the reflection tool, Th and Tc' are symmetric with respect to O1O2. Since Th lies on h1 and Tc lies on c, and O3 is ",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": "s the line O1O2 to obtain Tc'. By the reflection tool, Th and Tc' are symmetric with respect to O1O2. Since Th lies on h1 and Tc lies on c, and O3 is ",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b1_j09",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 424,
+   "hit_cap": false,
+   "conj": "Points Tc, Th, and O3 are collinear",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "—",
+   "body_LN_a": false,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": "e fact that the line through the points of tangency of two circles is parallel to the line through the centers of the circles, and that the midpoint of the line",
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b1_j10",
+   "cls": "OTHER",
+   "status": "hypothesis",
+   "T": 12288,
+   "hit_cap": true,
+   "conj": "a < b",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "BOTH",
+   "body_LN_a": true,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": true,
+    "first_calc": ".2209 - (-0.5520)) = (-12.4746, -3.6689). Compute t for Tc: t = ((Tc - O1) · (O2 - O1)) / |O2 - O1|². Tc - O1 = (2.7678 -10.1897, 1.2685 - (-0.5520)) = (-7.4219, 1.8205). Dot product with O2 - O1: (-7.4219)(-12.4746) + (1.8205)(-"
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": "ugh O3. But we saw that it doesn't. So that's not it. Wait, maybe the reflection of Tc over O3 is Th, or vice versa. Let's check. If we reflect ",
+    "LN": "re F is the projection of P onto the line O1O2. Wait, the tool says: \"Reflection of a point P across the line O1O2: P' = 2F − P, where F = O1 + t(O2 − O1) and t = (",
+    "OTH": null,
+    "PAR3": "perpendicular to the line connecting the centers. Wait, no, actually, the inner common tangent is parallel to the line connecting the centers? Or is it the other way around? Let me think. The",
+    "PERP3": " First, I remember that for two circles with an inner common tangent, the tangent line is perpendicular to the line connecting the centers. Wait, no, actually, the inner common tangent is ",
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b1_j11",
+   "cls": "OTHER",
+   "status": "none",
+   "T": 11204,
+   "hit_cap": false,
+   "conj": "O1Tc is parallel to O2Th",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "BOTH",
+   "body_LN_a": true,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": true,
+    "first_calc": "metric with respect to O1O2. If that's the case, then Th is the reflection of Tc across O1O2. Let me check the coordinates. O1 is (10.1897, -0.5520), O2 is (-2.2849, -4.2209). The midpoint O3 is (3.9524, -2.3"
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": "ing. Maybe I made a calculation error. Alternatively, maybe Th is the reflection of Tc across O3? Let's check. O3 is the midpoint. If reflecting T",
+    "LN": "ybe there's a symmetry here. The reflection tool suggests that points symmetric across O1O2 might be related. The inner common tangent's cont",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": " the perpendicular bisector of the segment TcTh. That would mean that O1O2 is perpendicular to TcTh and passes through its midpoint. Let's check. The",
+    "PBIS3": " earlier calculations didn't show that. Alternatively, maybe the line O1O2 is the perpendicular bisector of the segment TcTh. That would mean that O1O2 is"
+   }
+  },
+  {
+   "key": "b1_j12",
+   "cls": "NONE",
+   "status": "none",
+   "T": 80,
+   "hit_cap": false,
+   "conj": "",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "—",
+   "body_LN_a": false,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b1_j13",
+   "cls": "EQ",
+   "status": "hypothesis",
+   "T": 2571,
+   "hit_cap": false,
+   "conj": "O3 is on the perpendicular bisector of TcTh",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "LN",
+   "body_LN_a": true,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": true,
+    "first_calc": "are symmetric with respect to the line O1O2. Let me compute the reflection of Tc across O1O2 (call it Tc') and see if Th = Tc'. Let F = O1 + t(O2 - O1), where t = ((Tc - O1)·(O2 - O1)) / |O2 - O1|² First, compute O2 - O1: O2 - O1 = (-2.2849 - 10.1897, -4.2209 + 0.5520) = (-12.4746, -3.6689) Compute Tc - O1: Tc - O1 = (2.7678 - 10.1897, 1.2685 + 0.55"
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": "points. But the key here is the reflection tool: For any point P, its reflection across O1O2 is P' = 2F - P, where F is the projection of P on",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": "the vectors are not scalar multiples. Alternatively, perhaps the line O1O2 is the perpendicular bisector of the segment TcTh. Let’s check the midpoint of "
+   }
+  },
+  {
+   "key": "b1_j14",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 853,
+   "hit_cap": false,
+   "conj": "Tc, Th, and O3 are collinear",
+   "proof_kind": "LN",
+   "proof_LN_a": true,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "LN",
+   "body_LN_a": true,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": "Tc and Th are symmetric with respect to the line O1O2 (the perpendicular bisector of the segment joinin",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": " the inner common tangent line l1. - The tangent points Tc and Th are symmetric with respect to the line O1O2, since the tangent line is common to both circles",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": "fication of the relation:** - Tc and Th are symmetric across O1O2, so the line TcTh is perpendicular to O1O2. - O3 is the midpoint of O1O2, so O3 lies on O1O2",
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b1_j15",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 304,
+   "hit_cap": false,
+   "conj": "Tc, Th, and O3 are collinear",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "—",
+   "body_LN_a": false,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b1_j16",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 197,
+   "hit_cap": false,
+   "conj": "O3 lies on the line ThTc",
+   "proof_kind": "NONE",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "NONE",
+   "body_LN_a": false,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b1_j17",
+   "cls": "NONE",
+   "status": "none",
+   "T": 387,
+   "hit_cap": false,
+   "conj": "",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "LN",
+   "body_LN_a": true,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": "he inner common tangent line (Tc on circle c and Th on circle h1) are symmetric with respect to the line connecting the centers of the two circles (O1O2). This symmetry follows ",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": " - **Proof**: The symmetry of the configuration implies that the line O1O2 is the perpendicular bisector of the segment TcTh. This is because the tangent "
+   }
+  },
+  {
+   "key": "b1_j18",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 1048,
+   "hit_cap": false,
+   "conj": "O3 is the midpoint of Tc and Th",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "LN",
+   "body_LN_a": true,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": " makes sense geometrically, as the inner tangent’s contact points are symmetric with respect to the line joining the centers’ midpoint. The key invariant is that O3 is the mi",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b1_j19",
+   "cls": "OTHER",
+   "status": "hypothesis",
+   "T": 697,
+   "hit_cap": false,
+   "conj": "Tc and Th are symmetric with respect to O1O2",
+   "proof_kind": "LN",
+   "proof_LN_a": true,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "LN",
+   "body_LN_a": true,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": "The configuration is symmetric with respect to O1O2: O1 and O2 are mirrored, and the circles h1 and c",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": "structure. The most natural candidates are collinearity, midpoint, or symmetry with respect to the line O1O2, as the configuration involves circles, their cen",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b2_j00",
+   "cls": "NONE",
+   "status": "none",
+   "T": 4349,
+   "hit_cap": false,
+   "conj": "",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "—",
+   "body_LN_a": false,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b2_j01",
+   "cls": "NONE",
+   "status": "none",
+   "T": 12288,
+   "hit_cap": true,
+   "conj": "",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "LN",
+   "body_LN_a": true,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": " / quadruple / fifth / sixth / etc. You may use the following tools: \"reflection across the line O1O2\", \"distance\", \"midpoint\", \"angle\", \"perpendicular",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b2_j02",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 362,
+   "hit_cap": false,
+   "conj": "Tc, Th, and O3 are collinear",
+   "proof_kind": "NONE",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "LN",
+   "body_LN_a": true,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": "on, all within a single `code` block. Reasoning: The configuration is symmetric about the line O1O2 (the line joining the two circle centers). The in",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b2_j03",
+   "cls": "MIDO3",
+   "status": "none",
+   "T": 12288,
+   "hit_cap": true,
+   "conj": "O3 = midpoint of Th and Tc",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "LN",
+   "body_LN_a": true,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": true,
+    "first_calc": "over the line O1O2 can be computed using the formula given: P' = 2F - P, where F is the projection of P onto O1O2. First, compute the projection F of Th onto O1O2. The vector from O1 to O2 is (-12.4746, -3.6689). Let's denote this vector as v = (-12.4746, -3.6689). The p"
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": "onsider the midpoints and the symmetry, maybe the segment Th to Tc is symmetric with respect to O1O2. But if they are symmetric, then their midpoint w",
+    "OTH": null,
+    "PAR3": "ut I'm not sure. Alternatively, since O3 is the midpoint of O1O2, and the tangent line is parallel to the line connecting the centers' midpoint, but I don't see the connection. Wait, ",
+    "PERP3": " where this line touches each circle. The line connecting the centers O1O2 should be perpendicular to the tangent line at those points. So, the tangent line is perpendi",
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b2_j04",
+   "cls": "EQ",
+   "status": "hypothesis",
+   "T": 2039,
+   "hit_cap": false,
+   "conj": "O3Tc = O3Th",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "PT",
+   "body_LN_a": false,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": true,
+    "first_calc": " = (10.1897 - 6.3275, -0.5520 - 1.8592) = (3.8622, -2.4112) Reflection of Tc is P' = 2 * projection point - Tc = (2 * 3.8622 - 2.7678, 2 * -2.4112 - 1.2685) = (7.7244 - 2.7678, -4.8224 - 1.2685) = (4.9566, -6.0909). This is not equal to Th. Let's consider the midpoint prope"
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": "se are not the same. Let's reconsider the reflection. Maybe Th is the reflection of Tc across O3. Midpoint of Tc and Th = ((2.7678 + 7.6927)/2, (1",
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b2_j05",
+   "cls": "NONE",
+   "status": "none",
+   "T": 18,
+   "hit_cap": false,
+   "conj": "",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "—",
+   "body_LN_a": false,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b2_j06",
+   "cls": "NONE",
+   "status": "none",
+   "T": 267,
+   "hit_cap": false,
+   "conj": "",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "—",
+   "body_LN_a": false,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b2_j07",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 283,
+   "hit_cap": false,
+   "conj": "Tc, Th, and O3 are collinear",
+   "proof_kind": "NONE",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "BOTH",
+   "body_LN_a": true,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": "ross the line O1O2, the inner common tangent points Tc and Th must be reflected across the center O3 of the segment O1O2, making them collinear with O",
+    "LN": ". ```json \"conjecture\": \"Tc, Th, and O3 are collinear\", \"reason\": \"By symmetry of the configuration under reflection across the line O1O2, the inner common tangent points Tc and Th must b",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b2_j08",
+   "cls": "EQ",
+   "status": "hypothesis",
+   "T": 1827,
+   "hit_cap": false,
+   "conj": "|O3Tc| = |O3Th|",
+   "proof_kind": "LN",
+   "proof_LN_a": true,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "LN",
+   "body_LN_a": true,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": "The configuration is symmetric over O1O2: Tc and Th are symmetric and O3 is on O1O2, so |O",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": "r common tangents: - For two circles, their inner common tangents are symmetric with respect to the line joining their centers (O1O2). - The contact points of a common tangent ",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b2_j09",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 194,
+   "hit_cap": false,
+   "conj": "O3, Tc, and Th are collinear",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "NONE",
+   "body_LN_a": false,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b2_j10",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 1382,
+   "hit_cap": false,
+   "conj": "Tc, Th, O3 are collinear",
+   "proof_kind": "NONE",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": true,
+   "body_kind": "OTH",
+   "body_LN_a": false,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": "The line joining the centers O1O2 is perpendicular to the inner common tangent TcTh. The midpoint O3 of O1O2 lies on the line Tc",
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": "ar to the line joining their centers at the points of tangency. - The reflection of O1 across l1 is O2, and vice versa, because the line of center",
+    "PAR3": null,
+    "PERP3": "nalyze the configuration - The inner common tangent of two circles is perpendicular to the line joining their centers at the points of tangency. - The reflection of O1",
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b2_j11",
+   "cls": "OTHER",
+   "status": "none",
+   "T": 781,
+   "hit_cap": false,
+   "conj": "TcTh ⟂ O1O2",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "—",
+   "body_LN_a": false,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": "er common tangent, the line joining the tangent points (Tc and Th) is perpendicular to the line joining the centers (O1O2). That’s a well-known property: for two cir",
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b2_j12",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 250,
+   "hit_cap": false,
+   "conj": "O3 is the midpoint of Th and Tc",
+   "proof_kind": "LN",
+   "proof_LN_a": true,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "LN",
+   "body_LN_a": true,
+   "body_OUTER_a": false,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": "cular to the common tangents, it follows that the common tangents are symmetric with respect to the line O1O2. The points of tangency on each circle along a co",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": "cular to the common tangents, it follows that the common tangents are symmetric with respect to the line O1O2. The points of tangency on each circle along a co",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b2_j13",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 663,
+   "hit_cap": false,
+   "conj": "Tc, Th, and O3 are collinear",
+   "proof_kind": "NONE",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": true,
+   "body_kind": "LN",
+   "body_LN_a": true,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": "er common tangent and the reflection property, the image is Th. Thus, TcTh is perpendicular to O1O2, and its midpoint is on O1O2, which is O3, so Tc,",
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": "al (non-degenerate), and the circles are disjoint. Given the tool for reflection across the line O1O2, and the fact that the inner common tangent is re",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": "Tc and Th are symmetric with respect to O1O2. If so, then the segment TcTh is perpendicular to O1O2, and its midpoint lies on O1O2. To check this, on",
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b2_j14",
+   "cls": "MIDO3",
+   "status": "none",
+   "T": 313,
+   "hit_cap": false,
+   "conj": "Tc, Th, O3 are collinear",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "LN",
+   "body_LN_a": true,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": "ent l1 touches c at Tc and h1 at Th. The contact points Tc and Th are symmetric with respect to the line O1O2, because the line joining their centers is the ax",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": "Th are the points of tangency of an inner common tangent, the segment TcTh is perpendicular to O1O2. Reflecting Tc across O1O2 yields Th, so the midp",
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b2_j15",
+   "cls": "OTHER",
+   "status": "hypothesis",
+   "T": 12288,
+   "hit_cap": true,
+   "conj": "Tc is the midpoint of Th and O3",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "BOTH",
+   "body_LN_a": true,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": true,
+    "first_calc": "and Th are symmetric with respect to O1O2, then Th would be the reflection of Tc. Let's check. Compute the reflection of Tc across O1O2. First, find the projection F of Tc onto O1O2, which we already calculated as approximately (3.8397, -2.415). Then the reflection Tc' = 2F - Tc = 2*(3.8397, -2.415) - ("
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": "tively, maybe the invariant is that O3 is the midpoint of Tc and Th's reflections across the midpoint of O1O2, which is O3 itself. But reflecting across O3 wou",
+    "LN": " Reflecting a point across the line O1O2. If Tc and Th are related by reflection over O1O2, then their midpoint might be on O1O2. But O3 is ",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": "r bisector of the segment TcTh. But wait, the inner common tangent is perpendicular to the line connecting the centers? No, the tangent line itself is perpendicular to ",
+    "PBIS3": "e reflecting Tc over O1O2 gives Th? If that's the case, then the line O1O2 is the perpendicular bisector of the segment TcTh. But wait, the inner common t"
+   }
+  },
+  {
+   "key": "b2_j16",
+   "cls": "EQ",
+   "status": "hypothesis",
+   "T": 3744,
+   "hit_cap": false,
+   "conj": "O3Tc = O3Th",
+   "proof_kind": "LN",
+   "proof_LN_a": true,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "BOTH",
+   "body_LN_a": true,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": true,
+    "REFL_CALC": true,
+    "first_calc": "2 such that the line O1O2 is the perpendicular bisector of PP'. To find F, we need to project P onto the line O1O2. The formula for t is ((P - O1)·(O2 - O1)) / |O2 - O1|². Let me compute this for Th and see if reflecting it gives Tc. First, compute vector O2 - O1. O1 is (10.1897, -0.5520), O2 is (-2.2849, -4.2209). So O2 - O1 = (-2.2849 - 10.1897,"
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": "tact points of the inner common tangent of circles c and h1, they are symmetric with respect to the line O1O2 (the line connecting the centers). The midpoint O",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": "and O2. If O3 were the midpoint of Tc and Th, then Tc and Th would be symmetric with respect to O3. But the distances are almost equal but not exact",
+    "LN": "ed in some way. Maybe there's a right angle involved? Or perhaps some symmetry with respect to the line O1O2. Wait, the problem mentions a reflection tool. Ma",
+    "OTH": null,
+    "PAR3": "t. Wait, maybe the line connecting Tc and Th (the tangent line l1) is parallel to O1O2? Let's check the slopes. Earlier, l1's slope was ",
+    "PERP3": null,
+    "PBIS3": "s given as P' = 2F - P, where F is a point on O1O2 such that the line O1O2 is the perpendicular bisector of PP'. To find F, we need to project P onto the "
+   }
+  },
+  {
+   "key": "b2_j17",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 876,
+   "hit_cap": false,
+   "conj": "Tc, Th, and O3 are collinear",
+   "proof_kind": "LN",
+   "proof_LN_a": true,
+   "proof_PT_a": false,
+   "proof_OUTER_a": false,
+   "body_kind": "LN",
+   "body_LN_a": true,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": "By symmetry of the inner tangent with respect to the line O1O2, the points Tc and Th are symmetric with respect ",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": "xhibit a collinear relationship. This is because the inner tangent is symmetric with respect to the line joining the centers, and the midpoint of the centers lies on the line",
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": "The centers O1 and O2 define the radical axis of the two circles, and the inner tangent is perpendicular to the line joining the centers. The points Tc and Th are symmetric with respect ",
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b2_j18",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 428,
+   "hit_cap": false,
+   "conj": "O3 is the midpoint of TcTh",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": true,
+   "body_kind": "—",
+   "body_LN_a": false,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": "common tangent to circles with centers O1 and O2, the segment TcTh is parallel to the line O1O2. The midpoint of TcTh is therefore the same as th",
+    "PERP3": null,
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": "h are such that the lines O1Tc and O2Th are parallel, and the segment TcTh is parallel to O1O2. As a result, the midpoint of TcTh coincides with",
+    "PERP3": null,
+    "PBIS3": null
+   }
+  },
+  {
+   "key": "b2_j19",
+   "cls": "MIDO3",
+   "status": "hypothesis",
+   "T": 312,
+   "hit_cap": false,
+   "conj": "O3, Tc, and Th are collinear",
+   "proof_kind": "—",
+   "proof_LN_a": false,
+   "proof_PT_a": false,
+   "proof_OUTER_a": true,
+   "body_kind": "—",
+   "body_LN_a": false,
+   "body_OUTER_a": true,
+   "refl": {
+    "REFL_MENTION": false,
+    "REFL_CALC": false,
+    "first_calc": null
+   },
+   "proof_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": "t of the line joining their centers lies on the tangent line (because the tangent is perpendicular to the line of centers).",
+    "PBIS3": null
+   },
+   "body_first": {
+    "PT": null,
+    "LN": null,
+    "OTH": null,
+    "PAR3": null,
+    "PERP3": "t of the line joining their centers lies on the tangent line (because the tangent is perpendicular to the line of centers).\", \"status2\": \"theorem\", \"grounding\": \"Definitio",
+    "PBIS3": null
+   }
+  }
+ ]
+}

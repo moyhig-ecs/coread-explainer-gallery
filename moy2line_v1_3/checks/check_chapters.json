@@ -1,0 +1,142 @@
+[
+ [
+  "wait",
+  1200
+ ],
+ [
+  "eval",
+  "window.__chk = []; 'chapter check: start'"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(0); 'state 0'"
+ ],
+ [
+  "wait",
+  300
+ ],
+ [
+  "click",
+  ".sh-chap[data-chap=\"ledger\"]"
+ ],
+ [
+  "wait",
+  400
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"ledger\", want: 19, wantChapter: \"ledger\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: (b.find((x) => x.dataset.chap === \"ledger\") || {}).textContent}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "click",
+  ".sh-chap[data-chap=\"next\"]"
+ ],
+ [
+  "wait",
+  400
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"next\", want: 17, wantChapter: \"next\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: (b.find((x) => x.dataset.chap === \"next\") || {}).textContent}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "click",
+  ".sh-chap[data-chap=\"lineage\"]"
+ ],
+ [
+  "wait",
+  400
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"lineage\", want: 15, wantChapter: \"lineage\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: (b.find((x) => x.dataset.chap === \"lineage\") || {}).textContent}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "click",
+  ".sh-chap[data-chap=\"shape\"]"
+ ],
+ [
+  "wait",
+  400
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"shape\", want: 14, wantChapter: \"shape\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: (b.find((x) => x.dataset.chap === \"shape\") || {}).textContent}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "click",
+  ".sh-chap[data-chap=\"calc\"]"
+ ],
+ [
+  "wait",
+  400
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"calc\", want: 10, wantChapter: \"calc\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: (b.find((x) => x.dataset.chap === \"calc\") || {}).textContent}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "click",
+  ".sh-chap[data-chap=\"arms\"]"
+ ],
+ [
+  "wait",
+  400
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"arms\", want: 6, wantChapter: \"arms\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: (b.find((x) => x.dataset.chap === \"arms\") || {}).textContent}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "click",
+  ".sh-chap[data-chap=\"tool\"]"
+ ],
+ [
+  "wait",
+  400
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"tool\", want: 2, wantChapter: \"tool\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: (b.find((x) => x.dataset.chap === \"tool\") || {}).textContent}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "click",
+  ".sh-chap[data-chap=\"scene\"]"
+ ],
+ [
+  "wait",
+  400
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"scene\", want: 0, wantChapter: \"scene\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: (b.find((x) => x.dataset.chap === \"scene\") || {}).textContent}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "click",
+  ".sh-step[data-n=\"9\"]"
+ ],
+ [
+  "wait",
+  400
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"step 9\", want: 9, wantChapter: \"arms\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: (b.find((x) => x.dataset.chap === \"arms\") || {}).textContent}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "click",
+  ".sh-next"
+ ],
+ [
+  "wait",
+  300
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"next\", want: 10, wantChapter: \"calc\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: (b.find((x) => x.dataset.chap === \"calc\") || {}).textContent}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "eval",
+  "(() => { const chk = window.__chk || [], bad = [], GROUPS = [2, 4, 4, 4, 1, 2, 2, 1], N = 20, CH = [[\"scene\", 0], [\"tool\", 2], [\"arms\", 6], [\"calc\", 10], [\"shape\", 14], [\"lineage\", 15], [\"next\", 17], [\"ledger\", 19]];\n  const btns = [...document.querySelectorAll('.sh-chap')]; if (btns.length !== CH.length) bad.push('chapter buttons: ' + btns.length);\n  CH.forEach(([name, a]) => { const b = btns.find((x) => x.dataset.chap === name); if (!b) bad.push('missing ' + name); else { if (Number(b.dataset.go) !== a) bad.push('target of ' + name + ': ' + b.dataset.go); if (!b.textContent.trim()) bad.push('no label on ' + name); } });\n  chk.forEach((r) => { if (r.state !== r.want) bad.push(r.click + ' -> state ' + r.state + ' (want ' + r.want + ')'); if (r.chapter !== r.wantChapter) bad.push(r.click + ' -> chapter ' + r.chapter); if (r.pressed.length !== 1 || r.pressed[0] !== r.wantChapter) bad.push('pressed after ' + r.click + ': ' + r.pressed.join(',')); if (r.hash !== '#s' + r.want) bad.push('hash after ' + r.click + ': ' + r.hash); });\n  const grp = [...document.querySelectorAll('.sh-stepgrp')].map((g) => g.querySelectorAll('.sh-step').length); if (JSON.stringify(grp) !== JSON.stringify(GROUPS)) bad.push('step groups: ' + JSON.stringify(grp));\n  if (document.querySelectorAll('.sh-step').length !== N) bad.push('numbered steps: ' + document.querySelectorAll('.sh-step').length);\n  const out = {chapters_ok: bad.length === 0, clicks: chk.map((r) => r.click + ' -> ' + r.state + ' ' + r.label), step_groups: grp, bad}; if (bad.length) throw new Error('chapters: ' + JSON.stringify(out)); return JSON.stringify(out); })()"
+ ]
+]

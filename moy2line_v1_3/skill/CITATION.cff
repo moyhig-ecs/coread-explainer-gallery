@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this skill, please cite it as below."
+title: "coread-explainer: an agent skill for audited co-reading explainers of instrument readouts"
+type: software
+authors:
+  - family-names: Higashida
+    given-names: Manabu
+version: 0.1.0
+date-released: 2026-11-04
+license: MIT
+# doi: left empty on purpose — filled in after the first release is archived on Zenodo.
+keywords:
+  - agent skill
+  - explainer
+  - anywidget
+  - isometric figure
+  - pre-registration
+  - interpretability

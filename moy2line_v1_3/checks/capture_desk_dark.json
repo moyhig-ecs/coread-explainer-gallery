@@ -1,0 +1,366 @@
+[
+ [
+  "wait",
+  1500
+ ],
+ [
+  "eval",
+  "window.__sh.goto(0); 'state 0'"
+ ],
+ [
+  "wait",
+  450
+ ],
+ [
+  "eval",
+  "scrollTo(0, 0); 'top'"
+ ],
+ [
+  "shot",
+  "<TMP>",
+  ".sh",
+  1
+ ],
+ [
+  "eval",
+  "window.__sh.goto(1); 'state 1'"
+ ],
+ [
+  "wait",
+  450
+ ],
+ [
+  "eval",
+  "scrollTo(0, 0); 'top'"
+ ],
+ [
+  "shot",
+  "<TMP>",
+  ".sh",
+  1
+ ],
+ [
+  "eval",
+  "window.__sh.goto(2); 'state 2'"
+ ],
+ [
+  "wait",
+  450
+ ],
+ [
+  "eval",
+  "scrollTo(0, 0); 'top'"
+ ],
+ [
+  "shot",
+  "<TMP>",
+  ".sh",
+  1
+ ],
+ [
+  "eval",
+  "window.__sh.goto(3); 'state 3'"
+ ],
+ [
+  "wait",
+  450
+ ],
+ [
+  "eval",
+  "scrollTo(0, 0); 'top'"
+ ],
+ [
+  "shot",
+  "<TMP>",
+  ".sh",
+  1
+ ],
+ [
+  "eval",
+  "window.__sh.goto(4); 'state 4'"
+ ],
+ [
+  "wait",
+  450
+ ],
+ [
+  "eval",
+  "scrollTo(0, 0); 'top'"
+ ],
+ [
+  "shot",
+  "<TMP>",
+  ".sh",
+  1
+ ],
+ [
+  "eval",
+  "window.__sh.goto(5); 'state 5'"
+ ],
+ [
+  "wait",
+  450
+ ],
+ [
+  "eval",
+  "scrollTo(0, 0); 'top'"
+ ],
+ [
+  "shot",
+  "<TMP>",
+  ".sh",
+  1
+ ],
+ [
+  "eval",
+  "window.__sh.goto(6); 'state 6'"
+ ],
+ [
+  "wait",
+  450
+ ],
+ [
+  "eval",
+  "scrollTo(0, 0); 'top'"
+ ],
+ [
+  "shot",
+  "<TMP>",
+  ".sh",
+  1
+ ],
+ [
+  "eval",
+  "window.__sh.goto(7); 'state 7'"
+ ],
+ [
+  "wait",
+  450
+ ],
+ [
+  "eval",
+  "scrollTo(0, 0); 'top'"
+ ],
+ [
+  "shot",
+  "<TMP>",
+  ".sh",
+  1
+ ],
+ [
+  "eval",
+  "window.__sh.goto(8); 'state 8'"
+ ],
+ [
+  "wait",
+  450
+ ],
+ [
+  "eval",
+  "scrollTo(0, 0); 'top'"
+ ],
+ [
+  "shot",
+  "<TMP>",
+  ".sh",
+  1
+ ],
+ [
+  "eval",
+  "window.__sh.goto(9); 'state 9'"
+ ],
+ [
+  "wait",
+  450
+ ],
+ [
+  "eval",
+  "scrollTo(0, 0); 'top'"
+ ],
+ [
+  "shot",
+  "<TMP>",
+  ".sh",
+  1
+ ],
+ [
+  "eval",
+  "window.__sh.goto(10); 'state 10'"
+ ],
+ [
+  "wait",
+  450
+ ],
+ [
+  "eval",
+  "scrollTo(0, 0); 'top'"
+ ],
+ [
+  "shot",
+  "<TMP>",
+  ".sh",
+  1
+ ],
+ [
+  "eval",
+  "window.__sh.goto(11); 'state 11'"
+ ],
+ [
+  "wait",
+  450
+ ],
+ [
+  "eval",
+  "scrollTo(0, 0); 'top'"
+ ],
+ [
+  "shot",
+  "<TMP>",
+  ".sh",
+  1
+ ],
+ [
+  "eval",
+  "window.__sh.goto(12); 'state 12'"
+ ],
+ [
+  "wait",
+  450
+ ],
+ [
+  "eval",
+  "scrollTo(0, 0); 'top'"
+ ],
+ [
+  "shot",
+  "<TMP>",
+  ".sh",
+  1
+ ],
+ [
+  "eval",
+  "window.__sh.goto(13); 'state 13'"
+ ],
+ [
+  "wait",
+  450
+ ],
+ [
+  "eval",
+  "scrollTo(0, 0); 'top'"
+ ],
+ [
+  "shot",
+  "<TMP>",
+  ".sh",
+  1
+ ],
+ [
+  "eval",
+  "window.__sh.goto(14); 'state 14'"
+ ],
+ [
+  "wait",
+  450
+ ],
+ [
+  "eval",
+  "scrollTo(0, 0); 'top'"
+ ],
+ [
+  "shot",
+  "<TMP>",
+  ".sh",
+  1
+ ],
+ [
+  "eval",
+  "window.__sh.goto(15); 'state 15'"
+ ],
+ [
+  "wait",
+  450
+ ],
+ [
+  "eval",
+  "scrollTo(0, 0); 'top'"
+ ],
+ [
+  "shot",
+  "<TMP>",
+  ".sh",
+  1
+ ],
+ [
+  "eval",
+  "window.__sh.goto(16); 'state 16'"
+ ],
+ [
+  "wait",
+  450
+ ],
+ [
+  "eval",
+  "scrollTo(0, 0); 'top'"
+ ],
+ [
+  "shot",
+  "<TMP>",
+  ".sh",
+  1
+ ],
+ [
+  "eval",
+  "window.__sh.goto(17); 'state 17'"
+ ],
+ [
+  "wait",
+  450
+ ],
+ [
+  "eval",
+  "scrollTo(0, 0); 'top'"
+ ],
+ [
+  "shot",
+  "<TMP>",
+  ".sh",
+  1
+ ],
+ [
+  "eval",
+  "window.__sh.goto(18); 'state 18'"
+ ],
+ [
+  "wait",
+  450
+ ],
+ [
+  "eval",
+  "scrollTo(0, 0); 'top'"
+ ],
+ [
+  "shot",
+  "<TMP>",
+  ".sh",
+  1
+ ],
+ [
+  "eval",
+  "window.__sh.goto(19); 'state 19'"
+ ],
+ [
+  "wait",
+  450
+ ],
+ [
+  "eval",
+  "scrollTo(0, 0); 'top'"
+ ],
+ [
+  "shot",
+  "<TMP>",
+  ".sh",
+  1
+ ]
+]

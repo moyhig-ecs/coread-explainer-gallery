@@ -1,0 +1,359 @@
+headings ok
+anchors checked: 129 · missing or different: 0
+claims positive control (12 broken on purpose): anchors checked: 129 · missing or different: 12
+== check_states: video dist/moy2line.html
+eval: {"measure_ok":true,"state":"0","layout":"video","view":"stack","svgTexts":11,"minpx":13.6,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"1","layout":"video","view":"split","svgTexts":14,"minpx":17.21,"htmlMin":14,"overlaps":0,"warn":[["board tags clear of the board lines and of each other",14,13,4035]],"bad":[]}
+eval: {"measure_ok":true,"state":"2","layout":"video","view":"html","svgTexts":0,"minpx":null,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"3","layout":"video","view":"html","svgTexts":0,"minpx":null,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"4","layout":"video","view":"svg","svgTexts":31,"minpx":19.46,"htmlMin":14,"overlaps":0,"warn":[["texts clear of the gate lines",31,2]],"bad":[]}
+eval: {"measure_ok":true,"state":"5","layout":"video","view":"svg","svgTexts":64,"minpx":13.99,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"6","layout":"video","view":"split","svgTexts":48,"minpx":15.49,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"7","layout":"video","view":"svg","svgTexts":55,"minpx":19.29,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"8","layout":"video","view":"split","svgTexts":20,"minpx":12.41,"htmlMin":14,"overlaps":0,"warn":[["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"9","layout":"video","view":"svg","svgTexts":29,"minpx":14.58,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"10","layout":"video","view":"svg","svgTexts":41,"minpx":17.39,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"11","layout":"video","view":"split","svgTexts":20,"minpx":12.41,"htmlMin":14,"overlaps":0,"warn":[["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"12","layout":"video","view":"split","svgTexts":20,"minpx":11.99,"htmlMin":14,"overlaps":0,"warn":[["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"13","layout":"video","view":"split","svgTexts":22,"minpx":11.99,"htmlMin":14,"overlaps":0,"warn":[["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",3]],"bad":[]}
+eval: {"measure_ok":true,"state":"14","layout":"video","view":"svg","svgTexts":23,"minpx":18.96,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"15","layout":"video","view":"split","svgTexts":19,"minpx":19.18,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"16","layout":"video","view":"svg","svgTexts":27,"minpx":20.23,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"17","layout":"video","view":"html","svgTexts":0,"minpx":null,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"18","layout":"video","view":"html","svgTexts":0,"minpx":null,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"19","layout":"video","view":"ledger","svgTexts":0,"minpx":null,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"nav_same":true,"n":0}
+console: 0 error(s)
+== check_states: desk dist/moy2line.html
+eval: {"measure_ok":true,"state":"0","layout":"desk","view":"stack","svgTexts":11,"minpx":16.02,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"1","layout":"desk","view":"split","svgTexts":14,"minpx":12.45,"htmlMin":12,"overlaps":0,"warn":[["board tags clear of the board lines and of each other",14,13,2921]],"bad":[]}
+eval: {"measure_ok":true,"state":"2","layout":"desk","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"3","layout":"desk","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"4","layout":"desk","view":"svg","svgTexts":31,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[["texts clear of the gate lines",31,2]],"bad":[]}
+eval: {"measure_ok":true,"state":"5","layout":"desk","view":"svg","svgTexts":64,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"6","layout":"desk","view":"split","svgTexts":48,"minpx":10.98,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"7","layout":"desk","view":"svg","svgTexts":55,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"8","layout":"desk","view":"split","svgTexts":20,"minpx":10.31,"htmlMin":12,"overlaps":1,"warn":[["art tags overlap",1,["道具なし・等半径の | olm119"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"9","layout":"desk","view":"svg","svgTexts":29,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"10","layout":"desk","view":"svg","svgTexts":41,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"11","layout":"desk","view":"split","svgTexts":20,"minpx":10.31,"htmlMin":12,"overlaps":1,"warn":[["art tags overlap",1,["道具なし・等半径の | olm119"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"12","layout":"desk","view":"split","svgTexts":20,"minpx":10.31,"htmlMin":12,"overlaps":1,"warn":[["art tags overlap",1,["道具なし・等半径の | olm119"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"13","layout":"desk","view":"split","svgTexts":22,"minpx":10.31,"htmlMin":12,"overlaps":1,"warn":[["art tags overlap",1,["道具なし・等半径の | olm119"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",3]],"bad":[]}
+eval: {"measure_ok":true,"state":"14","layout":"desk","view":"svg","svgTexts":23,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"15","layout":"desk","view":"split","svgTexts":19,"minpx":10.98,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"16","layout":"desk","view":"svg","svgTexts":27,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"17","layout":"desk","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"18","layout":"desk","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"19","layout":"desk","view":"ledger","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"nav_same":true,"n":20,"top":16}
+console: 0 error(s)
+== check_states: phone dist/moy2line.html
+eval: {"measure_ok":true,"state":"0","layout":"phone","view":"stack","svgTexts":11,"minpx":10.22,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"1","layout":"phone","view":"split","svgTexts":13,"minpx":11.36,"htmlMin":12,"overlaps":0,"warn":[["board tags clear of the board lines and of each other",13,13,1624]],"bad":[]}
+eval: {"measure_ok":true,"state":"2","layout":"phone","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"3","layout":"phone","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"4","layout":"phone","view":"svg","svgTexts":23,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[["texts clear of the gate lines",23,2]],"bad":[]}
+eval: {"measure_ok":true,"state":"5","layout":"phone","view":"svg","svgTexts":58,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"6","layout":"phone","view":"split","svgTexts":54,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"7","layout":"phone","view":"svg","svgTexts":23,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"8","layout":"phone","view":"split","svgTexts":12,"minpx":10.11,"htmlMin":12,"overlaps":2,"warn":[["art tags overlap",2,["10 | 100","100 | 1,000"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"9","layout":"phone","view":"svg","svgTexts":31,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"10","layout":"phone","view":"svg","svgTexts":26,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"11","layout":"phone","view":"split","svgTexts":12,"minpx":10.11,"htmlMin":12,"overlaps":2,"warn":[["art tags overlap",2,["10 | 100","100 | 1,000"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"12","layout":"phone","view":"split","svgTexts":12,"minpx":10.11,"htmlMin":12,"overlaps":2,"warn":[["art tags overlap",2,["10 | 100","100 | 1,000"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"13","layout":"phone","view":"split","svgTexts":14,"minpx":10.11,"htmlMin":12,"overlaps":2,"warn":[["art tags overlap",2,["10 | 100","100 | 1,000"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",3]],"bad":[]}
+eval: {"measure_ok":true,"state":"14","layout":"phone","view":"svg","svgTexts":21,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"15","layout":"phone","view":"split","svgTexts":24,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"16","layout":"phone","view":"svg","svgTexts":26,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"17","layout":"phone","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"18","layout":"phone","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"19","layout":"phone","view":"ledger","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"nav_same":true,"n":20,"top":30}
+console: 0 error(s)
+== check_states: video dist/moy2line-en.html
+eval: {"measure_ok":true,"state":"0","layout":"video","view":"stack","svgTexts":11,"minpx":11.52,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"1","layout":"video","view":"split","svgTexts":14,"minpx":16.75,"htmlMin":14,"overlaps":0,"warn":[["board tags clear of the board lines and of each other",14,13,3927]],"bad":[]}
+eval: {"measure_ok":true,"state":"2","layout":"video","view":"html","svgTexts":0,"minpx":null,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"3","layout":"video","view":"html","svgTexts":0,"minpx":null,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"4","layout":"video","view":"svg","svgTexts":31,"minpx":18.31,"htmlMin":14,"overlaps":0,"warn":[["texts clear of the gate lines",31,2]],"bad":[]}
+eval: {"measure_ok":true,"state":"5","layout":"video","view":"svg","svgTexts":64,"minpx":13.61,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"6","layout":"video","view":"split","svgTexts":48,"minpx":14.57,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"7","layout":"video","view":"svg","svgTexts":55,"minpx":18.15,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"8","layout":"video","view":"split","svgTexts":20,"minpx":11.37,"htmlMin":14,"overlaps":0,"warn":[["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"9","layout":"video","view":"svg","svgTexts":29,"minpx":14.18,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"10","layout":"video","view":"svg","svgTexts":41,"minpx":16.33,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"11","layout":"video","view":"split","svgTexts":20,"minpx":11.37,"htmlMin":14,"overlaps":0,"warn":[["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"12","layout":"video","view":"split","svgTexts":20,"minpx":10.95,"htmlMin":14,"overlaps":0,"warn":[["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"13","layout":"video","view":"split","svgTexts":22,"minpx":11.37,"htmlMin":14,"overlaps":0,"warn":[["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",3]],"bad":[]}
+eval: {"measure_ok":true,"state":"14","layout":"video","view":"svg","svgTexts":23,"minpx":17.84,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"15","layout":"video","view":"split","svgTexts":19,"minpx":19.18,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"16","layout":"video","view":"svg","svgTexts":27,"minpx":20.23,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"17","layout":"video","view":"html","svgTexts":0,"minpx":null,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"18","layout":"video","view":"html","svgTexts":0,"minpx":null,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"19","layout":"video","view":"ledger","svgTexts":0,"minpx":null,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"nav_same":true,"n":0}
+console: 0 error(s)
+== check_states: desk dist/moy2line-en.html
+eval: {"measure_ok":true,"state":"0","layout":"desk","view":"stack","svgTexts":11,"minpx":16.02,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"1","layout":"desk","view":"split","svgTexts":14,"minpx":12.45,"htmlMin":12,"overlaps":0,"warn":[["board tags clear of the board lines and of each other",14,13,2921]],"bad":[]}
+eval: {"measure_ok":true,"state":"2","layout":"desk","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"3","layout":"desk","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"4","layout":"desk","view":"svg","svgTexts":31,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[["texts clear of the gate lines",31,2]],"bad":[]}
+eval: {"measure_ok":true,"state":"5","layout":"desk","view":"svg","svgTexts":64,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"6","layout":"desk","view":"split","svgTexts":48,"minpx":10.98,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"7","layout":"desk","view":"svg","svgTexts":55,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"8","layout":"desk","view":"split","svgTexts":20,"minpx":10.31,"htmlMin":12,"overlaps":3,"warn":[["art tags overlap",3,["no tool · equal radii | olm119","formula + declaration | olm122","formula + instruction | olm127"]],["axis labels clear of the blocks",4,420],["n
+eval: {"measure_ok":true,"state":"9","layout":"desk","view":"svg","svgTexts":29,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"10","layout":"desk","view":"svg","svgTexts":41,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"11","layout":"desk","view":"split","svgTexts":20,"minpx":10.31,"htmlMin":12,"overlaps":3,"warn":[["art tags overlap",3,["no tool · equal radii | olm119","formula + declaration | olm122","formula + instruction | olm127"]],["axis labels clear of the blocks",4,420],["
+eval: {"measure_ok":true,"state":"12","layout":"desk","view":"split","svgTexts":20,"minpx":10.31,"htmlMin":12,"overlaps":3,"warn":[["art tags overlap",3,["no tool · equal radii | olm119","formula + declaration | olm122","formula + instruction | olm127"]],["axis labels clear of the blocks",4,420],["
+eval: {"measure_ok":true,"state":"13","layout":"desk","view":"split","svgTexts":22,"minpx":10.31,"htmlMin":12,"overlaps":3,"warn":[["art tags overlap",3,["no tool · equal radii | olm119","formula + declaration | olm122","formula + instruction | olm127"]],["axis labels clear of the blocks",4,420],["
+eval: {"measure_ok":true,"state":"14","layout":"desk","view":"svg","svgTexts":23,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"15","layout":"desk","view":"split","svgTexts":19,"minpx":10.98,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"16","layout":"desk","view":"svg","svgTexts":27,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"17","layout":"desk","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"18","layout":"desk","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"19","layout":"desk","view":"ledger","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"nav_same":true,"n":20,"top":16}
+console: 0 error(s)
+== check_states: phone dist/moy2line-en.html
+eval: {"measure_ok":true,"state":"0","layout":"phone","view":"stack","svgTexts":11,"minpx":10.22,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"1","layout":"phone","view":"split","svgTexts":13,"minpx":11.36,"htmlMin":12,"overlaps":0,"warn":[["board tags clear of the board lines and of each other",13,13,1624]],"bad":[]}
+eval: {"measure_ok":true,"state":"2","layout":"phone","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"3","layout":"phone","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"4","layout":"phone","view":"svg","svgTexts":23,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[["texts clear of the gate lines",23,2]],"bad":[]}
+eval: {"measure_ok":true,"state":"5","layout":"phone","view":"svg","svgTexts":58,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"6","layout":"phone","view":"split","svgTexts":54,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"7","layout":"phone","view":"svg","svgTexts":23,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"8","layout":"phone","view":"split","svgTexts":12,"minpx":10.11,"htmlMin":12,"overlaps":2,"warn":[["art tags overlap",2,["10 | 100","100 | 1,000"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"9","layout":"phone","view":"svg","svgTexts":31,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"10","layout":"phone","view":"svg","svgTexts":26,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"11","layout":"phone","view":"split","svgTexts":12,"minpx":10.11,"htmlMin":12,"overlaps":2,"warn":[["art tags overlap",2,["10 | 100","100 | 1,000"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"12","layout":"phone","view":"split","svgTexts":12,"minpx":10.11,"htmlMin":12,"overlaps":2,"warn":[["art tags overlap",2,["10 | 100","100 | 1,000"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"13","layout":"phone","view":"split","svgTexts":14,"minpx":10.11,"htmlMin":12,"overlaps":2,"warn":[["art tags overlap",2,["10 | 100","100 | 1,000"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",3]],"bad":[]}
+eval: {"measure_ok":true,"state":"14","layout":"phone","view":"svg","svgTexts":21,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"15","layout":"phone","view":"split","svgTexts":24,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"16","layout":"phone","view":"svg","svgTexts":26,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"17","layout":"phone","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"18","layout":"phone","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"19","layout":"phone","view":"ledger","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"nav_same":true,"n":20,"top":30}
+console: 0 error(s)
+== check_states: video dist/moy2line-light.html
+eval: {"measure_ok":true,"state":"0","layout":"video","view":"stack","svgTexts":11,"minpx":13.6,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"1","layout":"video","view":"split","svgTexts":14,"minpx":17.21,"htmlMin":14,"overlaps":0,"warn":[["board tags clear of the board lines and of each other",14,13,4035]],"bad":[]}
+eval: {"measure_ok":true,"state":"2","layout":"video","view":"html","svgTexts":0,"minpx":null,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"3","layout":"video","view":"html","svgTexts":0,"minpx":null,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"4","layout":"video","view":"svg","svgTexts":31,"minpx":19.46,"htmlMin":14,"overlaps":0,"warn":[["texts clear of the gate lines",31,2]],"bad":[]}
+eval: {"measure_ok":true,"state":"5","layout":"video","view":"svg","svgTexts":64,"minpx":13.99,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"6","layout":"video","view":"split","svgTexts":48,"minpx":15.49,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"7","layout":"video","view":"svg","svgTexts":55,"minpx":19.29,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"8","layout":"video","view":"split","svgTexts":20,"minpx":12.41,"htmlMin":14,"overlaps":0,"warn":[["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"9","layout":"video","view":"svg","svgTexts":29,"minpx":14.58,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"10","layout":"video","view":"svg","svgTexts":41,"minpx":17.39,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"11","layout":"video","view":"split","svgTexts":20,"minpx":12.41,"htmlMin":14,"overlaps":0,"warn":[["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"12","layout":"video","view":"split","svgTexts":20,"minpx":11.99,"htmlMin":14,"overlaps":0,"warn":[["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"13","layout":"video","view":"split","svgTexts":22,"minpx":11.99,"htmlMin":14,"overlaps":0,"warn":[["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",3]],"bad":[]}
+eval: {"measure_ok":true,"state":"14","layout":"video","view":"svg","svgTexts":23,"minpx":18.96,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"15","layout":"video","view":"split","svgTexts":19,"minpx":19.18,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"16","layout":"video","view":"svg","svgTexts":27,"minpx":20.23,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"17","layout":"video","view":"html","svgTexts":0,"minpx":null,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"18","layout":"video","view":"html","svgTexts":0,"minpx":null,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"19","layout":"video","view":"ledger","svgTexts":0,"minpx":null,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"nav_same":true,"n":0}
+console: 0 error(s)
+== check_states: desk dist/moy2line-light.html
+eval: {"measure_ok":true,"state":"0","layout":"desk","view":"stack","svgTexts":11,"minpx":16.02,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"1","layout":"desk","view":"split","svgTexts":14,"minpx":12.45,"htmlMin":12,"overlaps":0,"warn":[["board tags clear of the board lines and of each other",14,13,2921]],"bad":[]}
+eval: {"measure_ok":true,"state":"2","layout":"desk","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"3","layout":"desk","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"4","layout":"desk","view":"svg","svgTexts":31,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[["texts clear of the gate lines",31,2]],"bad":[]}
+eval: {"measure_ok":true,"state":"5","layout":"desk","view":"svg","svgTexts":64,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"6","layout":"desk","view":"split","svgTexts":48,"minpx":10.98,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"7","layout":"desk","view":"svg","svgTexts":55,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"8","layout":"desk","view":"split","svgTexts":20,"minpx":10.31,"htmlMin":12,"overlaps":1,"warn":[["art tags overlap",1,["道具なし・等半径の | olm119"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"9","layout":"desk","view":"svg","svgTexts":29,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"10","layout":"desk","view":"svg","svgTexts":41,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"11","layout":"desk","view":"split","svgTexts":20,"minpx":10.31,"htmlMin":12,"overlaps":1,"warn":[["art tags overlap",1,["道具なし・等半径の | olm119"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"12","layout":"desk","view":"split","svgTexts":20,"minpx":10.31,"htmlMin":12,"overlaps":1,"warn":[["art tags overlap",1,["道具なし・等半径の | olm119"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"13","layout":"desk","view":"split","svgTexts":22,"minpx":10.31,"htmlMin":12,"overlaps":1,"warn":[["art tags overlap",1,["道具なし・等半径の | olm119"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",3]],"bad":[]}
+eval: {"measure_ok":true,"state":"14","layout":"desk","view":"svg","svgTexts":23,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"15","layout":"desk","view":"split","svgTexts":19,"minpx":10.98,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"16","layout":"desk","view":"svg","svgTexts":27,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"17","layout":"desk","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"18","layout":"desk","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"19","layout":"desk","view":"ledger","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"nav_same":true,"n":20,"top":16}
+console: 0 error(s)
+== check_states: phone dist/moy2line-light.html
+eval: {"measure_ok":true,"state":"0","layout":"phone","view":"stack","svgTexts":11,"minpx":10.22,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"1","layout":"phone","view":"split","svgTexts":13,"minpx":11.36,"htmlMin":12,"overlaps":0,"warn":[["board tags clear of the board lines and of each other",13,13,1624]],"bad":[]}
+eval: {"measure_ok":true,"state":"2","layout":"phone","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"3","layout":"phone","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"4","layout":"phone","view":"svg","svgTexts":23,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[["texts clear of the gate lines",23,2]],"bad":[]}
+eval: {"measure_ok":true,"state":"5","layout":"phone","view":"svg","svgTexts":58,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"6","layout":"phone","view":"split","svgTexts":54,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"7","layout":"phone","view":"svg","svgTexts":23,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"8","layout":"phone","view":"split","svgTexts":12,"minpx":10.11,"htmlMin":12,"overlaps":2,"warn":[["art tags overlap",2,["10 | 100","100 | 1,000"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"9","layout":"phone","view":"svg","svgTexts":31,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"10","layout":"phone","view":"svg","svgTexts":26,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"11","layout":"phone","view":"split","svgTexts":12,"minpx":10.11,"htmlMin":12,"overlaps":2,"warn":[["art tags overlap",2,["10 | 100","100 | 1,000"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"12","layout":"phone","view":"split","svgTexts":12,"minpx":10.11,"htmlMin":12,"overlaps":2,"warn":[["art tags overlap",2,["10 | 100","100 | 1,000"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"13","layout":"phone","view":"split","svgTexts":14,"minpx":10.11,"htmlMin":12,"overlaps":2,"warn":[["art tags overlap",2,["10 | 100","100 | 1,000"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",3]],"bad":[]}
+eval: {"measure_ok":true,"state":"14","layout":"phone","view":"svg","svgTexts":21,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"15","layout":"phone","view":"split","svgTexts":24,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"16","layout":"phone","view":"svg","svgTexts":26,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"17","layout":"phone","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"18","layout":"phone","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"19","layout":"phone","view":"ledger","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"nav_same":true,"n":20,"top":30}
+console: 0 error(s)
+== check_states: video dist/moy2line-light-en.html
+eval: {"measure_ok":true,"state":"0","layout":"video","view":"stack","svgTexts":11,"minpx":11.52,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"1","layout":"video","view":"split","svgTexts":14,"minpx":16.75,"htmlMin":14,"overlaps":0,"warn":[["board tags clear of the board lines and of each other",14,13,3927]],"bad":[]}
+eval: {"measure_ok":true,"state":"2","layout":"video","view":"html","svgTexts":0,"minpx":null,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"3","layout":"video","view":"html","svgTexts":0,"minpx":null,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"4","layout":"video","view":"svg","svgTexts":31,"minpx":18.31,"htmlMin":14,"overlaps":0,"warn":[["texts clear of the gate lines",31,2]],"bad":[]}
+eval: {"measure_ok":true,"state":"5","layout":"video","view":"svg","svgTexts":64,"minpx":13.61,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"6","layout":"video","view":"split","svgTexts":48,"minpx":14.57,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"7","layout":"video","view":"svg","svgTexts":55,"minpx":18.15,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"8","layout":"video","view":"split","svgTexts":20,"minpx":11.37,"htmlMin":14,"overlaps":0,"warn":[["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"9","layout":"video","view":"svg","svgTexts":29,"minpx":14.18,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"10","layout":"video","view":"svg","svgTexts":41,"minpx":16.33,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"11","layout":"video","view":"split","svgTexts":20,"minpx":11.37,"htmlMin":14,"overlaps":0,"warn":[["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"12","layout":"video","view":"split","svgTexts":20,"minpx":10.95,"htmlMin":14,"overlaps":0,"warn":[["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"13","layout":"video","view":"split","svgTexts":22,"minpx":11.37,"htmlMin":14,"overlaps":0,"warn":[["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",3]],"bad":[]}
+eval: {"measure_ok":true,"state":"14","layout":"video","view":"svg","svgTexts":23,"minpx":17.84,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"15","layout":"video","view":"split","svgTexts":19,"minpx":19.18,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"16","layout":"video","view":"svg","svgTexts":27,"minpx":20.23,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"17","layout":"video","view":"html","svgTexts":0,"minpx":null,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"18","layout":"video","view":"html","svgTexts":0,"minpx":null,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"19","layout":"video","view":"ledger","svgTexts":0,"minpx":null,"htmlMin":14,"overlaps":0,"warn":[],"bad":[]}
+eval: {"nav_same":true,"n":0}
+console: 0 error(s)
+== check_states: desk dist/moy2line-light-en.html
+eval: {"measure_ok":true,"state":"0","layout":"desk","view":"stack","svgTexts":11,"minpx":16.02,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"1","layout":"desk","view":"split","svgTexts":14,"minpx":12.45,"htmlMin":12,"overlaps":0,"warn":[["board tags clear of the board lines and of each other",14,13,2921]],"bad":[]}
+eval: {"measure_ok":true,"state":"2","layout":"desk","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"3","layout":"desk","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"4","layout":"desk","view":"svg","svgTexts":31,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[["texts clear of the gate lines",31,2]],"bad":[]}
+eval: {"measure_ok":true,"state":"5","layout":"desk","view":"svg","svgTexts":64,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"6","layout":"desk","view":"split","svgTexts":48,"minpx":10.98,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"7","layout":"desk","view":"svg","svgTexts":55,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"8","layout":"desk","view":"split","svgTexts":20,"minpx":10.31,"htmlMin":12,"overlaps":3,"warn":[["art tags overlap",3,["no tool · equal radii | olm119","formula + declaration | olm122","formula + instruction | olm127"]],["axis labels clear of the blocks",4,420],["n
+eval: {"measure_ok":true,"state":"9","layout":"desk","view":"svg","svgTexts":29,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"10","layout":"desk","view":"svg","svgTexts":41,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"11","layout":"desk","view":"split","svgTexts":20,"minpx":10.31,"htmlMin":12,"overlaps":3,"warn":[["art tags overlap",3,["no tool · equal radii | olm119","formula + declaration | olm122","formula + instruction | olm127"]],["axis labels clear of the blocks",4,420],["
+eval: {"measure_ok":true,"state":"12","layout":"desk","view":"split","svgTexts":20,"minpx":10.31,"htmlMin":12,"overlaps":3,"warn":[["art tags overlap",3,["no tool · equal radii | olm119","formula + declaration | olm122","formula + instruction | olm127"]],["axis labels clear of the blocks",4,420],["
+eval: {"measure_ok":true,"state":"13","layout":"desk","view":"split","svgTexts":22,"minpx":10.31,"htmlMin":12,"overlaps":3,"warn":[["art tags overlap",3,["no tool · equal radii | olm119","formula + declaration | olm122","formula + instruction | olm127"]],["axis labels clear of the blocks",4,420],["
+eval: {"measure_ok":true,"state":"14","layout":"desk","view":"svg","svgTexts":23,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"15","layout":"desk","view":"split","svgTexts":19,"minpx":10.98,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"16","layout":"desk","view":"svg","svgTexts":27,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"17","layout":"desk","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"18","layout":"desk","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"19","layout":"desk","view":"ledger","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"nav_same":true,"n":20,"top":16}
+console: 0 error(s)
+== check_states: phone dist/moy2line-light-en.html
+eval: {"measure_ok":true,"state":"0","layout":"phone","view":"stack","svgTexts":11,"minpx":10.22,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"1","layout":"phone","view":"split","svgTexts":13,"minpx":11.36,"htmlMin":12,"overlaps":0,"warn":[["board tags clear of the board lines and of each other",13,13,1624]],"bad":[]}
+eval: {"measure_ok":true,"state":"2","layout":"phone","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"3","layout":"phone","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"4","layout":"phone","view":"svg","svgTexts":23,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[["texts clear of the gate lines",23,2]],"bad":[]}
+eval: {"measure_ok":true,"state":"5","layout":"phone","view":"svg","svgTexts":58,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"6","layout":"phone","view":"split","svgTexts":54,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"7","layout":"phone","view":"svg","svgTexts":23,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"8","layout":"phone","view":"split","svgTexts":12,"minpx":10.11,"htmlMin":12,"overlaps":2,"warn":[["art tags overlap",2,["10 | 100","100 | 1,000"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"9","layout":"phone","view":"svg","svgTexts":31,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"10","layout":"phone","view":"svg","svgTexts":26,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"11","layout":"phone","view":"split","svgTexts":12,"minpx":10.11,"htmlMin":12,"overlaps":2,"warn":[["art tags overlap",2,["10 | 100","100 | 1,000"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"12","layout":"phone","view":"split","svgTexts":12,"minpx":10.11,"htmlMin":12,"overlaps":2,"warn":[["art tags overlap",2,["10 | 100","100 | 1,000"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"13","layout":"phone","view":"split","svgTexts":14,"minpx":10.11,"htmlMin":12,"overlaps":2,"warn":[["art tags overlap",2,["10 | 100","100 | 1,000"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",3]],"bad":[]}
+eval: {"measure_ok":true,"state":"14","layout":"phone","view":"svg","svgTexts":21,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"15","layout":"phone","view":"split","svgTexts":24,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"16","layout":"phone","view":"svg","svgTexts":26,"minpx":10.19,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"17","layout":"phone","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"18","layout":"phone","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"19","layout":"phone","view":"ledger","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"nav_same":true,"n":20,"top":30}
+console: 0 error(s)
+== check_states: reduced motion (desk)
+eval: {"measure_ok":true,"state":"0","layout":"desk","view":"stack","svgTexts":11,"minpx":16.02,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"1","layout":"desk","view":"split","svgTexts":14,"minpx":12.45,"htmlMin":12,"overlaps":0,"warn":[["board tags clear of the board lines and of each other",14,13,2921]],"bad":[]}
+eval: {"measure_ok":true,"state":"2","layout":"desk","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"3","layout":"desk","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"4","layout":"desk","view":"svg","svgTexts":31,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[["texts clear of the gate lines",31,2]],"bad":[]}
+eval: {"measure_ok":true,"state":"5","layout":"desk","view":"svg","svgTexts":64,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"6","layout":"desk","view":"split","svgTexts":48,"minpx":10.98,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"7","layout":"desk","view":"svg","svgTexts":55,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"8","layout":"desk","view":"split","svgTexts":20,"minpx":10.31,"htmlMin":12,"overlaps":1,"warn":[["art tags overlap",1,["道具なし・等半径の | olm119"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"9","layout":"desk","view":"svg","svgTexts":29,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"10","layout":"desk","view":"svg","svgTexts":41,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"11","layout":"desk","view":"split","svgTexts":20,"minpx":10.31,"htmlMin":12,"overlaps":1,"warn":[["art tags overlap",1,["道具なし・等半径の | olm119"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"12","layout":"desk","view":"split","svgTexts":20,"minpx":10.31,"htmlMin":12,"overlaps":1,"warn":[["art tags overlap",1,["道具なし・等半径の | olm119"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",1]],"bad":[]}
+eval: {"measure_ok":true,"state":"13","layout":"desk","view":"split","svgTexts":22,"minpx":10.31,"htmlMin":12,"overlaps":1,"warn":[["art tags overlap",1,["道具なし・等半径の | olm119"]],["axis labels clear of the blocks",4,420],["name tags clear of blocks and texts",3]],"bad":[]}
+eval: {"measure_ok":true,"state":"14","layout":"desk","view":"svg","svgTexts":23,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"15","layout":"desk","view":"split","svgTexts":19,"minpx":10.98,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"16","layout":"desk","view":"svg","svgTexts":27,"minpx":12.25,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"17","layout":"desk","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"18","layout":"desk","view":"html","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"measure_ok":true,"state":"19","layout":"desk","view":"ledger","svgTexts":0,"minpx":null,"htmlMin":12,"overlaps":0,"warn":[],"bad":[]}
+eval: {"nav_same":true,"n":20,"top":16}
+console: 0 error(s)
+== check_robust: dist/moy2line.html
+eval: {"combos":1270,"errors":0,"msgs":[]}
+console: 0 error(s)
+== check_chapters: desk dist/moy2line.html
+eval: {"chapters_ok":true,"clicks":["ledger -> 19 H 台帳","next -> 17 G 次の問い","lineage -> 15 F 計器の系譜","shape -> 14 E 見た形","calc -> 10 D 計算した行","arms -> 6 C 七腕の表","tool -> 2 B 道具の段と計器","scene -> 0 A 場面","step 9 -> 9 C 七腕の表","next -
+console: 0 error(s)
+== check_chapters: phone dist/moy2line.html
+eval: {"chapters_ok":true,"clicks":["ledger -> 19 H 台帳","next -> 17 G 次の問い","lineage -> 15 F 計器の系譜","shape -> 14 E 見た形","calc -> 10 D 計算した行","arms -> 6 C 七腕の表","tool -> 2 B 道具の段と計器","scene -> 0 A 場面","step 9 -> 9 C 七腕の表","next -
+console: 0 error(s)
+== check_drag: desk dist/moy2line.html
+eval: {"drag_ok":true,"tag":"state 8","from":"olm125:b1_j17","to":"olm125:b1_j10","bad":[]}
+eval: {"drag_ok":true,"tag":"state 11","from":"olm125:b1_j17","to":"olm119:b0_j13","bad":[]}
+eval: {"drag_ok":true,"tag":"state 12","from":"olm124:b2_j07","to":"olm125:b1_j11","bad":[]}
+eval: {"drag_ok":true,"tag":"state 13","from":"olm127:b2_j08","to":"olm127:b0_j13","bad":[]}
+eval: {"drag_ok":true,"tag":"state 6","from":"olm127:b0_j13","to":"olm127","bad":[]}
+console: 0 error(s)
+== check_drag: video dist/moy2line.html
+eval: {"drag_ok":true,"tag":"state 8","from":"olm125:b1_j17","to":"olm125:b1_j08","bad":[]}
+eval: {"drag_ok":true,"tag":"state 11","from":"olm125:b1_j17","to":"olm119:b0_j13","bad":[]}
+eval: {"drag_ok":true,"tag":"state 12","from":"olm124:b2_j07","to":"olm127:b2_j11","bad":[]}
+eval: {"drag_ok":true,"tag":"state 13","from":"olm127:b2_j08","to":"olm127:b2_j13","bad":[]}
+eval: {"drag_ok":true,"tag":"state 6","from":"olm127:b2_j13","to":"olm127","bad":[]}
+console: 0 error(s)
+== check_names: dist/moy2line.html
+eval: {"names_ok":true,"hits":0,"scanned":40}
+eval: {"names_positive_control_ok":true,"caught":[1,1,1,1,1,1,3,1,1,1,1],"negated_passes":true,"baseline":0}
+console: 0 error(s)
+== check_robust: dist/moy2line-en.html
+eval: {"combos":1270,"errors":0,"msgs":[]}
+console: 0 error(s)
+== check_chapters: desk dist/moy2line-en.html
+eval: {"chapters_ok":true,"clicks":["ledger -> 19 H Ledger","next -> 17 G Next question","lineage -> 15 F Instrument lineage","shape -> 14 E Seen shape","calc -> 10 D Calc rows","arms -> 6 C Seven arms","tool -> 2 B Tool & instruments","scene -> 0 A Scene","step 9 -> 9 C Seven arms","next -> 10 D Ca
+console: 0 error(s)
+== check_chapters: phone dist/moy2line-en.html
+eval: {"chapters_ok":true,"clicks":["ledger -> 19 H Ledger","next -> 17 G Next question","lineage -> 15 F Instrument lineage","shape -> 14 E Seen shape","calc -> 10 D Calc rows","arms -> 6 C Seven arms","tool -> 2 B Tool & instruments","scene -> 0 A Scene","step 9 -> 9 C Seven arms","next -> 10 D Ca
+console: 0 error(s)
+== check_drag: desk dist/moy2line-en.html
+eval: {"drag_ok":true,"tag":"state 8","from":"olm125:b1_j17","to":"olm125:b1_j10","bad":[]}
+eval: {"drag_ok":true,"tag":"state 11","from":"olm125:b1_j17","to":"olm119:b0_j13","bad":[]}
+eval: {"drag_ok":true,"tag":"state 12","from":"olm124:b2_j07","to":"olm125:b1_j11","bad":[]}
+eval: {"drag_ok":true,"tag":"state 13","from":"olm127:b2_j08","to":"olm127:b0_j13","bad":[]}
+eval: {"drag_ok":true,"tag":"state 6","from":"olm127:b0_j13","to":"olm127","bad":[]}
+console: 0 error(s)
+== check_drag: video dist/moy2line-en.html
+eval: {"drag_ok":true,"tag":"state 8","from":"olm125:b1_j17","to":"olm125:b2_j09","bad":[]}
+eval: {"drag_ok":true,"tag":"state 11","from":"olm125:b1_j17","to":"olm119:b0_j13","bad":[]}
+eval: {"drag_ok":true,"tag":"state 12","from":"olm124:b2_j07","to":"olm127:b2_j11","bad":[]}
+eval: {"drag_ok":true,"tag":"state 13","from":"olm127:b2_j08","to":"olm127:b2_j13","bad":[]}
+eval: {"drag_ok":true,"tag":"state 6","from":"olm127:b2_j13","to":"olm127","bad":[]}
+console: 0 error(s)
+== check_names: dist/moy2line-en.html
+eval: {"names_ok":true,"hits":0,"scanned":40}
+eval: {"names_positive_control_ok":true,"caught":[1,1,1,1,1,1,3,1,1,1,1],"negated_passes":true,"baseline":0}
+console: 0 error(s)
+== public fence: internal words in the body files (expect 0)
+internal words: 0
+exit 0

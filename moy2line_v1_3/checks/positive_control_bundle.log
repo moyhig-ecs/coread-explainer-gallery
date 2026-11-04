@@ -1,0 +1,13 @@
+anchors checked: 129 · missing or different: 12
+  MISSING ('K09', 'ln', '', '9 / 40 = 0.226', "got '9 / 40 = 0.225'")
+  MISSING ('K33', 'repo:cards/PREREG_olm124_moy2_reflection_formula_only_rerun_20261103.md', '**戻る** \\|Δ113\\| < 0.05・**残る** \\|Δ119\\| < 0.05', None, 'differs')
+  MISSING ('K71', 'geo', '', [3.8421, 3.8429], 'got [3.8421, 3.842]')
+  MISSING ('K78', 'four', '', [43, 47], 'got [42, 56]')
+  MISSING ('K91', 'fisher', '', [0.2284, 0.1062, 0.4631, 1.0, 0.124, 0.0142, 0.4721], 'got [0.2284, 0.1062, 0.4631, 1.0, 0.124, 0.0142, 0.472]')
+  MISSING ('K97', 'repo:cards/RESULT_olm127_moy2_use_to_check_rerun_20261104.md', 'apex に数値で着く(b0_j00・b2_j08)か', None, 'differs')
+  MISSING ('K101', 'repo:cards/RESULT_olm126_moy2_v6_par_window_ln_object_rej_20261104.md', '| Q3 REJ6 の回帰 | b0_j06 落ちた ✓・olm125 の残り 13 / 13 残った ✓・**olm1', None, 'differs')
+  MISSING ('K108', 'fisher_sides', '', [7, 0], 'got [6, 1]')
+  MISSING ('K111', 'edges', '', [0.048, 0.168, 0.258, 0.378], 'got [0.062, 0.182, 0.258, 0.378]')
+  MISSING ('K120', 'repo:cards/RESULT_olm127_moy2_use_to_check_rerun_20261104.md', '共線を行列式 = 0 / 媒介変数の一致で数値で退けた直後に', None, 'differs')
+  MISSING ('K123', 'rej_cap_proof', '', [6, 6, 0, 0], 'got [6, 5, 1, 0]')
+  MISSING ('K126', 'record6', '', ['abcd', True, True], "got ['abcde', True, False]")

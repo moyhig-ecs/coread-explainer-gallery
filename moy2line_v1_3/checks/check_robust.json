@@ -1,0 +1,14 @@
+[
+ [
+  "wait",
+  1200
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, out = {combos: 0, errors: 0, msgs: []};\n  const tryit = (label, f) => { try { f(); out.combos++; } catch (e) { out.errors++; if (out.msgs.length < 8) out.msgs.push(label + ': ' + e.message); } };\n  for (let n = 0; n < api.nstate; n++) for (const lang of ['ja', 'en']) { tryit(`goto ${n} ${lang}`, () => { api.goto(n, {silent: true}); api.setLang(lang, true); });\n    if ([8, 11, 12, 13].includes(n)) for (const id of api.rowsNow()) tryit(`row ${n} ${id}`, () => api.setRow(id, true));\n    if ([6].includes(n)) for (const a of window.__fig.armIds) tryit(`arm ${n} ${a}`, () => api.setArm(a, true)); }\n  for (const bad of [-5, 99, 3.7, 'x', null]) tryit('goto ' + bad, () => api.goto(bad, {silent: true}));\n  for (const bad of ['', 'olm999:b0_j00', 'olm125:b9_j99', null]) tryit('row ' + bad, () => api.setRow(bad, true));\n  tryit('arm bogus', () => api.setArm('olm000', true));\n  api.goto(0, {silent: true}); api.setLang(document.documentElement.lang === 'en' ? 'en' : 'ja', true);\n  if (out.errors) throw new Error('robust: ' + JSON.stringify(out)); return JSON.stringify(out); })()"
+ ],
+ [
+  "wait",
+  300
+ ]
+]

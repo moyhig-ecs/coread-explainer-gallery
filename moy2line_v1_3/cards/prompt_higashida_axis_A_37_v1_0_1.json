@@ -1,0 +1,12 @@
+{
+ "prompt": "You analyze a geometric configuration. **No figure is given.** Only the coordinates below are available. The symbol names are neutral and carry no hint about their meaning.\n# Objects to focus on (role binding)\nFocus on the relation that holds among the following objects: {Tc, Th, O3}.\n# Configuration\n# The contact points of the inner common tangent line l1 of circles c (center O2) and h1 (center O1) are Tc (on c) and Th (on h1). O3 is the midpoint of O1 and O2.\nO1 = (10.1897, -0.5520)\nh1 = Circle(O1, 3.6869)\nO2 = (-2.2849, -4.2209)\nc = Circle(O2, 7.4607)\nTc = (2.7678, 1.2685)\nTh = (7.6927, -3.2647)\nO3 = (3.9524, -2.3865)\n\n# Premises (general, non-degenerate)\nThe two circles are disjoint and have an inner common tangent; the configuration is general (non-degenerate).\nState the SINGLE most important invariant that ALWAYS holds for the general (non-special, non-degenerate) configuration, as a relation (midpoint / collinear / right angle / parallel). It must be non-trivial and follow from the structure. The answer is withheld.\n\nRespond with JSON only:\n{\"conjecture\": \"<relation, in the given symbols>\", \"reason\": \"<why it holds>\", \"closes_goal\": <true|false>}\n",
+ "needs_figure": false,
+ "grid": false,
+ "_source": {
+  "repo": "https://github.com/moyhig-ecs/ConstructGap",
+  "tag": "v1.0.1",
+  "prompts_py_md5": "abf43cfcbe92a63e495b0ab626b46a77",
+  "call": "prompts.build('higashida_axis', 'A', 37)",
+  "prompt_md5": "637c061e8fa8d2f7276f99176e78bfe5"
+ }
+}

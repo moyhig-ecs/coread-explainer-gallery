@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this gallery or one of its entries, please cite it as below. Each entry also has its own CITATION.cff. The DOI is filled in after the first Zenodo release."
+title: "Co-reading explainer gallery — audited interactive figures of what a language model writes when asked to reason about a geometric configuration"
+type: dataset
+authors:
+  - family-names: Higashida
+    given-names: Manabu
+version: "1.0.0"
+date-released: "2026-11-05"
+license: MIT
+repository-code: "https://github.com/moyhig-ecs/coread-explainer-gallery"
+url: "https://moyhig-ecs.github.io/coread-explainer-gallery/"
+abstract: >-
+  A gallery of co-reading explainers: interactive isometric figures (also anywidgets for Jupyter / marimo), 1920×1080 stills,
+  two-voice scripts and ledgers of what can and cannot be said, each built from the frozen outputs of a pre-registered line of
+  measurements whose cards (PREREG = the frozen promise, RESULT = the read-out) are included verbatim with an English index.
+  Read as one line of three stations: moy-2 (from algebraic analysis to elementary geometry), moy-1 (elementary geometry),
+  moy-5 (how to make a model draw the auxiliary line). Every number on a page is anchored to the data by a checker with a
+  positive control; the question texts are traced to the public ConstructGap suite with md5 at every stage.
+keywords:
+  - OLMo
+  - geometry
+  - proof field
+  - pre-registration
+  - explainer
+  - anywidget
+  - ConstructGap
+references:
+  - type: software
+    title: "ConstructGap"
+    version: "1.0.1"
+    doi: 10.5281/zenodo.21617998
+    repository-code: "https://github.com/moyhig-ecs/ConstructGap"
+  - type: software
+    title: "coread-explainer (Claude Code skill)"
+    version: "0.1.0"
+    repository-code: "https://github.com/moyhig-ecs/coread-explainer"
+  - type: software
+    title: "Anatomy (isometric figure kit for Claude Code skills)"
+    authors:
+      - name: "Ryan"
+    license: MIT
+    repository-code: "https://github.com/wheresryan22/anatomy"

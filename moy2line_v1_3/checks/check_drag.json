@@ -1,0 +1,151 @@
+[
+ [
+  "wait",
+  1200
+ ],
+ [
+  "eval",
+  "window.__sh.goto(8); 'state 8'"
+ ],
+ [
+  "wait",
+  400
+ ],
+ [
+  "eval",
+  "window.__prev = JSON.parse((() => { const api = window.__sh, side = document.querySelector('.fig-side'); const lit = document.querySelector('.rk[data-sel]'); return JSON.stringify({state: api.state, row: api.row, arm: api.arm, lit: lit ? lit.dataset.r : null, side: (side.querySelector('.fx-h') || {}).textContent || '', pre: ((side.querySelector('.fx-pre') || {}).textContent || '').slice(0, 60)}); })()); 'snap'"
+ ],
+ [
+  "drag",
+  ".fig-svg",
+  0.25,
+  0.45,
+  0.62,
+  0.62,
+  14
+ ],
+ [
+  "wait",
+  300
+ ],
+ [
+  "eval",
+  "((tag) => { const api = window.__sh, side = document.querySelector('.fig-side'), lit = document.querySelector('.rk[data-sel]'), prev = window.__prev || {}; const now = {state: api.state, row: api.row, arm: api.arm, lit: lit ? lit.dataset.r : null, side: (side.querySelector('.fx-h') || {}).textContent || '', pre: ((side.querySelector('.fx-pre') || {}).textContent || '').slice(0, 60)};\n  const bad = []; const pick = window.__fig.states[api.state].pick;\n  if (pick === 'row') { if (now.row === prev.row) bad.push('row did not change'); if (now.lit !== now.row) bad.push('lit block ' + now.lit + ' != row ' + now.row); const [a, k] = now.row.split(':'); if (!now.side.includes(a) || !now.side.includes(k)) bad.push('side panel shows ' + now.side); if (!api.rowsNow().includes(now.row)) bad.push('picked a row outside the filter'); }\n  if (pick === 'arm') { if (now.arm === prev.arm) bad.push('arm did not change'); if (!now.side.includes(now.arm)) bad.push('side panel shows ' + now.side); const kind = (id) => (window.__data.arms.find((a) => a.id === id) || {}).tool; if (kind(now.arm) !== kind(prev.arm) && now.pre === prev.pre) bad.push('Tool text did not follow'); if (kind(now.arm) === kind(prev.arm) && now.pre !== prev.pre) bad.push('same Tool kind, different text'); }\n  const out = {drag_ok: bad.length === 0, tag, from: prev.row || prev.arm, to: pick === 'row' ? now.row : now.arm, bad}; if (bad.length) throw new Error('drag: ' + JSON.stringify(out)); return JSON.stringify(out); })('state 8')"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(11); 'state 11'"
+ ],
+ [
+  "wait",
+  400
+ ],
+ [
+  "eval",
+  "window.__prev = JSON.parse((() => { const api = window.__sh, side = document.querySelector('.fig-side'); const lit = document.querySelector('.rk[data-sel]'); return JSON.stringify({state: api.state, row: api.row, arm: api.arm, lit: lit ? lit.dataset.r : null, side: (side.querySelector('.fx-h') || {}).textContent || '', pre: ((side.querySelector('.fx-pre') || {}).textContent || '').slice(0, 60)}); })()); 'snap'"
+ ],
+ [
+  "drag",
+  ".fig-svg",
+  0.55,
+  0.55,
+  0.3,
+  0.5,
+  14
+ ],
+ [
+  "wait",
+  300
+ ],
+ [
+  "eval",
+  "((tag) => { const api = window.__sh, side = document.querySelector('.fig-side'), lit = document.querySelector('.rk[data-sel]'), prev = window.__prev || {}; const now = {state: api.state, row: api.row, arm: api.arm, lit: lit ? lit.dataset.r : null, side: (side.querySelector('.fx-h') || {}).textContent || '', pre: ((side.querySelector('.fx-pre') || {}).textContent || '').slice(0, 60)};\n  const bad = []; const pick = window.__fig.states[api.state].pick;\n  if (pick === 'row') { if (now.row === prev.row) bad.push('row did not change'); if (now.lit !== now.row) bad.push('lit block ' + now.lit + ' != row ' + now.row); const [a, k] = now.row.split(':'); if (!now.side.includes(a) || !now.side.includes(k)) bad.push('side panel shows ' + now.side); if (!api.rowsNow().includes(now.row)) bad.push('picked a row outside the filter'); }\n  if (pick === 'arm') { if (now.arm === prev.arm) bad.push('arm did not change'); if (!now.side.includes(now.arm)) bad.push('side panel shows ' + now.side); const kind = (id) => (window.__data.arms.find((a) => a.id === id) || {}).tool; if (kind(now.arm) !== kind(prev.arm) && now.pre === prev.pre) bad.push('Tool text did not follow'); if (kind(now.arm) === kind(prev.arm) && now.pre !== prev.pre) bad.push('same Tool kind, different text'); }\n  const out = {drag_ok: bad.length === 0, tag, from: prev.row || prev.arm, to: pick === 'row' ? now.row : now.arm, bad}; if (bad.length) throw new Error('drag: ' + JSON.stringify(out)); return JSON.stringify(out); })('state 11')"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(12); 'state 12'"
+ ],
+ [
+  "wait",
+  400
+ ],
+ [
+  "eval",
+  "window.__prev = JSON.parse((() => { const api = window.__sh, side = document.querySelector('.fig-side'); const lit = document.querySelector('.rk[data-sel]'); return JSON.stringify({state: api.state, row: api.row, arm: api.arm, lit: lit ? lit.dataset.r : null, side: (side.querySelector('.fx-h') || {}).textContent || '', pre: ((side.querySelector('.fx-pre') || {}).textContent || '').slice(0, 60)}); })()); 'snap'"
+ ],
+ [
+  "drag",
+  ".fig-svg",
+  0.4,
+  0.5,
+  0.7,
+  0.65,
+  14
+ ],
+ [
+  "wait",
+  300
+ ],
+ [
+  "eval",
+  "((tag) => { const api = window.__sh, side = document.querySelector('.fig-side'), lit = document.querySelector('.rk[data-sel]'), prev = window.__prev || {}; const now = {state: api.state, row: api.row, arm: api.arm, lit: lit ? lit.dataset.r : null, side: (side.querySelector('.fx-h') || {}).textContent || '', pre: ((side.querySelector('.fx-pre') || {}).textContent || '').slice(0, 60)};\n  const bad = []; const pick = window.__fig.states[api.state].pick;\n  if (pick === 'row') { if (now.row === prev.row) bad.push('row did not change'); if (now.lit !== now.row) bad.push('lit block ' + now.lit + ' != row ' + now.row); const [a, k] = now.row.split(':'); if (!now.side.includes(a) || !now.side.includes(k)) bad.push('side panel shows ' + now.side); if (!api.rowsNow().includes(now.row)) bad.push('picked a row outside the filter'); }\n  if (pick === 'arm') { if (now.arm === prev.arm) bad.push('arm did not change'); if (!now.side.includes(now.arm)) bad.push('side panel shows ' + now.side); const kind = (id) => (window.__data.arms.find((a) => a.id === id) || {}).tool; if (kind(now.arm) !== kind(prev.arm) && now.pre === prev.pre) bad.push('Tool text did not follow'); if (kind(now.arm) === kind(prev.arm) && now.pre !== prev.pre) bad.push('same Tool kind, different text'); }\n  const out = {drag_ok: bad.length === 0, tag, from: prev.row || prev.arm, to: pick === 'row' ? now.row : now.arm, bad}; if (bad.length) throw new Error('drag: ' + JSON.stringify(out)); return JSON.stringify(out); })('state 12')"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(13); 'state 13'"
+ ],
+ [
+  "wait",
+  400
+ ],
+ [
+  "eval",
+  "window.__prev = JSON.parse((() => { const api = window.__sh, side = document.querySelector('.fig-side'); const lit = document.querySelector('.rk[data-sel]'); return JSON.stringify({state: api.state, row: api.row, arm: api.arm, lit: lit ? lit.dataset.r : null, side: (side.querySelector('.fx-h') || {}).textContent || '', pre: ((side.querySelector('.fx-pre') || {}).textContent || '').slice(0, 60)}); })()); 'snap'"
+ ],
+ [
+  "drag",
+  ".fig-svg",
+  0.75,
+  0.62,
+  0.665,
+  0.69,
+  14
+ ],
+ [
+  "wait",
+  300
+ ],
+ [
+  "eval",
+  "((tag) => { const api = window.__sh, side = document.querySelector('.fig-side'), lit = document.querySelector('.rk[data-sel]'), prev = window.__prev || {}; const now = {state: api.state, row: api.row, arm: api.arm, lit: lit ? lit.dataset.r : null, side: (side.querySelector('.fx-h') || {}).textContent || '', pre: ((side.querySelector('.fx-pre') || {}).textContent || '').slice(0, 60)};\n  const bad = []; const pick = window.__fig.states[api.state].pick;\n  if (pick === 'row') { if (now.row === prev.row) bad.push('row did not change'); if (now.lit !== now.row) bad.push('lit block ' + now.lit + ' != row ' + now.row); const [a, k] = now.row.split(':'); if (!now.side.includes(a) || !now.side.includes(k)) bad.push('side panel shows ' + now.side); if (!api.rowsNow().includes(now.row)) bad.push('picked a row outside the filter'); }\n  if (pick === 'arm') { if (now.arm === prev.arm) bad.push('arm did not change'); if (!now.side.includes(now.arm)) bad.push('side panel shows ' + now.side); const kind = (id) => (window.__data.arms.find((a) => a.id === id) || {}).tool; if (kind(now.arm) !== kind(prev.arm) && now.pre === prev.pre) bad.push('Tool text did not follow'); if (kind(now.arm) === kind(prev.arm) && now.pre !== prev.pre) bad.push('same Tool kind, different text'); }\n  const out = {drag_ok: bad.length === 0, tag, from: prev.row || prev.arm, to: pick === 'row' ? now.row : now.arm, bad}; if (bad.length) throw new Error('drag: ' + JSON.stringify(out)); return JSON.stringify(out); })('state 13')"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(6); 'state 6'"
+ ],
+ [
+  "wait",
+  400
+ ],
+ [
+  "eval",
+  "window.__prev = JSON.parse((() => { const api = window.__sh, side = document.querySelector('.fig-side'); const lit = document.querySelector('.rk[data-sel]'); return JSON.stringify({state: api.state, row: api.row, arm: api.arm, lit: lit ? lit.dataset.r : null, side: (side.querySelector('.fx-h') || {}).textContent || '', pre: ((side.querySelector('.fx-pre') || {}).textContent || '').slice(0, 60)}); })()); 'snap'"
+ ],
+ [
+  "drag",
+  ".fig-svg",
+  0.5,
+  0.2,
+  0.5,
+  0.93,
+  14
+ ],
+ [
+  "wait",
+  300
+ ],
+ [
+  "eval",
+  "((tag) => { const api = window.__sh, side = document.querySelector('.fig-side'), lit = document.querySelector('.rk[data-sel]'), prev = window.__prev || {}; const now = {state: api.state, row: api.row, arm: api.arm, lit: lit ? lit.dataset.r : null, side: (side.querySelector('.fx-h') || {}).textContent || '', pre: ((side.querySelector('.fx-pre') || {}).textContent || '').slice(0, 60)};\n  const bad = []; const pick = window.__fig.states[api.state].pick;\n  if (pick === 'row') { if (now.row === prev.row) bad.push('row did not change'); if (now.lit !== now.row) bad.push('lit block ' + now.lit + ' != row ' + now.row); const [a, k] = now.row.split(':'); if (!now.side.includes(a) || !now.side.includes(k)) bad.push('side panel shows ' + now.side); if (!api.rowsNow().includes(now.row)) bad.push('picked a row outside the filter'); }\n  if (pick === 'arm') { if (now.arm === prev.arm) bad.push('arm did not change'); if (!now.side.includes(now.arm)) bad.push('side panel shows ' + now.side); const kind = (id) => (window.__data.arms.find((a) => a.id === id) || {}).tool; if (kind(now.arm) !== kind(prev.arm) && now.pre === prev.pre) bad.push('Tool text did not follow'); if (kind(now.arm) === kind(prev.arm) && now.pre !== prev.pre) bad.push('same Tool kind, different text'); }\n  const out = {drag_ok: bad.length === 0, tag, from: prev.row || prev.arm, to: pick === 'row' ? now.row : now.arm, bad}; if (bad.length) throw new Error('drag: ' + JSON.stringify(out)); return JSON.stringify(out); })('state 6')"
+ ]
+]

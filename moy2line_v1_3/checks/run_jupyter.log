@@ -1,0 +1,13 @@
+jupyter pid 82621 (port 27541)
+eval: kernel idle
+eval: {"jupyter_open":true,"state":"0","kicker":"状態 0 · A0 場面 — 同じ種類の計算(折り返しを数値で出して退けた・S1 は Th を、S2 は Tc を折り返した)・違う証明の欄"}
+shot: <TMP> 1440x1500
+eval: {"kernel_to_figure":true,"state":"8","lit":"olm125:b0_j16","side":"olm125 b0_j16 式 + 指示の文 · seed 20261186"}
+eval: {"figure_to_kernel":true,"out":"line_inventory.json(md5 3190663e)と各札の read.json・PREREG / RESULT / RECORD / MEMO の文。値は build の script が読み、手では置いていない。 | state 11 row olm125:b1_j17 arm  done True\nreadout: olm125:b1_j17 · EQ · 計算 ✓ · 退け ✓ · 線対称 ✓ · T 4,315\n"}
+eval: {"kernel_recount":true,"out":"が読み、手では置いていない。 | state 11 row olm125:b1_j17 arm  done True\nreadout: olm125:b1_j17 · EQ · 計算 ✓ · 退け ✓ · 線対称 ✓ · T 4,315\n | olm125 v3 9 / 40 = 0.225 · olm124 v3 4 / 37 = 0.108 · olm127 v3 3 / 35 = 0.086 · olm125 calc 18 rej 15 typ ['b1_j11', 'b1_j17', 'b2_j19']\n"}
+shot: <TMP> 1440x2300
+console: 0 error(s)
+chrome pid 82666 stopped (port 27511)
+drive exit 0
+jupyter pid 82621 stopped
+demo_jupyter.ipynb restored (clean copy) and .ipynb_checkpoints removed

@@ -1,0 +1,24 @@
+"""make_jupyter_check.py — writes checks/check_jupyter.json: open demo_jupyter.ipynb in JupyterLab (window.jupyterapp, exposed by --expose-app-in-browser), run the cells one by one,
+check kernel -> figure (w.state = 8; w.row = ...) and figure -> kernel (the figure's own step button (v1.1: step 11 = D1), then the cell that prints w.state / w.row), and take two stills."""
+import json
+import pathlib
+
+HERE = pathlib.Path(__file__).resolve().parent
+CAP = (HERE / "captures").as_posix()
+H = r"""const app = window.jupyterapp; const run = () => app.commands.execute('notebook:run-cell-and-select-next');
+const sh = () => document.querySelector('.jp-OutputArea .sh'); const outs = () => [...document.querySelectorAll('.jp-OutputArea-output')].map((o) => o.textContent).join(' | ');
+const until = async (f, ms) => { const t0 = Date.now(); while (Date.now() - t0 < ms) { try { if (f()) return true; } catch (_) {} await new Promise((r) => setTimeout(r, 300)); } return false; };"""
+step = lambda body: ["eval", f"(async () => {{ {H}\n{body} }})()"]
+steps = [
+    ["wait", 9000],
+    step("if (!app) throw new Error('no window.jupyterapp'); const ok = await until(() => document.querySelector('.jp-Notebook') && app.shell.currentWidget && app.shell.currentWidget.sessionContext && app.shell.currentWidget.sessionContext.session && app.shell.currentWidget.sessionContext.session.kernel, 60000); if (!ok) throw new Error('no kernel'); await until(() => app.shell.currentWidget.sessionContext.session.kernel.status === 'idle', 60000); return 'kernel ' + app.shell.currentWidget.sessionContext.session.kernel.status;"),
+    step("app.commands.execute('notebook:move-cursor-up'); app.shell.currentWidget.content.activeCellIndex = 0; await run(); await run(); const ok = await until(() => sh() && sh().dataset.state === '0', 60000); if (!ok) throw new Error('the widget did not render: ' + outs().slice(0, 300)); return JSON.stringify({jupyter_open: true, state: sh().dataset.state, kicker: sh().querySelector('.sh-kicker').textContent});"),
+    ["shot", f"{CAP}/J1_jupyterlab_open_state0.png", "html", 1, [0, 0, 1440, 1500]],
+    step("await run(); const ok = await until(() => sh().dataset.state === '8' && (sh().querySelector('.rk[data-sel]') || {dataset: {}}).dataset.r === 'olm125:b0_j16', 30000); if (!ok) throw new Error('kernel -> figure: ' + sh().dataset.state); return JSON.stringify({kernel_to_figure: true, state: sh().dataset.state, lit: sh().querySelector('.rk[data-sel]').dataset.r, side: sh().querySelector('.fig-side .fx-h').textContent.slice(0, 60)});"),
+    step("sh().querySelector('.sh-step[data-n=\"11\"]').click(); await until(() => sh().dataset.state === '11', 5000); await new Promise((r) => setTimeout(r, 1500)); await run(); const ok = await until(() => /state 11 row olm125:b1_j17/.test(outs()), 30000); if (!ok) throw new Error('figure -> kernel: ' + outs().slice(-400)); return JSON.stringify({figure_to_kernel: true, out: outs().slice(-220)});"),
+    step("await run(); const ok = await until(() => /olm125 v3 9 \\/ 40 = 0.225/.test(outs()), 30000); if (!ok) throw new Error('recount cell: ' + outs().slice(-300)); return JSON.stringify({kernel_recount: true, out: outs().slice(-260)});"),
+    ["shot", f"{CAP}/J2_jupyterlab_python_wrote_state8_figure_pressed_11.png", "html", 1, [0, 0, 1440, 2300]],
+]
+(HERE / "checks").mkdir(exist_ok=True)
+(HERE / "checks" / "check_jupyter.json").write_text(json.dumps(steps, ensure_ascii=False, indent=1), encoding="utf-8")
+print(f"wrote checks/check_jupyter.json ({len(steps)} steps)")

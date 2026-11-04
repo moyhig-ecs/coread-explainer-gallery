@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Co-reading explainer gallery</title>
+<meta name="description" content="Audited interactive figures of what a language model writes when asked to reason about a geometric configuration — three stations, one line.">
+<style>
+  :root { --bg: #fbfaf7; --fg: #1f2328; --muted: #5a6270; --line: #d9d4c8; --accent: #1f5f8b; --card: #ffffff; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #14161a; --fg: #e6e3dc; --muted: #a3a9b4; --line: #2f343c; --accent: #7fb3d9; --card: #1c1f25; } }
+  :root[data-theme="dark"] { --bg: #14161a; --fg: #e6e3dc; --muted: #a3a9b4; --line: #2f343c; --accent: #7fb3d9; --card: #1c1f25; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.55 -apple-system, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif; }
+  main { max-width: 920px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.6rem; margin: 0 0 6px; }
+  .lead { color: var(--muted); margin: 0 0 28px; }
+  ol.stations { list-style: none; padding: 0; margin: 0; counter-reset: st; }
+  ol.stations li { position: relative; border: 1px solid var(--line); background: var(--card); border-radius: 10px; padding: 18px 18px 18px 64px; margin: 0 0 14px; }
+  ol.stations li::before { counter-increment: st; content: counter(st); position: absolute; left: 18px; top: 16px; width: 32px; height: 32px; border-radius: 50%; border: 2px solid var(--accent); color: var(--accent); font-weight: 700; display: grid; place-items: center; }
+  ol.stations li.todo::before { border-style: dashed; opacity: .6; }
+  ol.stations li.todo { opacity: .8; }
+  .line { font-weight: 700; }
+  .what { color: var(--muted); margin: 4px 0 10px; }
+  .links a { color: var(--accent); text-decoration: none; margin-right: 14px; white-space: nowrap; }
+  .links a:hover { text-decoration: underline; }
+  .meta { font-size: .9rem; color: var(--muted); margin-top: 8px; }
+  footer { margin-top: 36px; font-size: .9rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 14px; }
+  footer a { color: var(--accent); }
+  code { font-size: .92em; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Co-reading explainer gallery</h1>
+  <p class="lead">Audited, interactive figures of what a language model writes when asked to reason about a geometric configuration — built only from the frozen outputs of pre-registered measurements, with the cards included verbatim. Read as one line of three stations.</p>
+
+  <ol class="stations">
+    <li>
+      <div class="line">moy-2 — from algebraic analysis to elementary geometry</div>
+      <div class="what">A reflection formula is offered to OLMo-3 32B base as a tool. Does the model compute with it, and what does it then write in its proof field? Cards olm113 → olm127 and the frontier controls.</div>
+      <div class="links">
+        <a href="moy2line_v1_3/dist/moy2line.html#s0">open (ja, dark)</a>
+        <a href="moy2line_v1_3/dist/moy2line-en.html#s0">en</a>
+        <a href="moy2line_v1_3/dist/moy2line-light.html#s0">light ja</a>
+        <a href="moy2line_v1_3/dist/moy2line-light-en.html#s0">light en</a>
+        <a href="moy2line_v1_3/">files</a>
+      </div>
+      <div class="meta">entry v1.3 · 20 states · <code>#s19</code> = the ledger of what is not said · cards, English index, prompt provenance, claims checker, sealed judging summary, MANIFEST in the folder</div>
+    </li>
+    <li class="todo">
+      <div class="line">moy-1 — elementary geometry</div>
+      <div class="what">Binding the right object in a four-point configuration, and what opens or blocks the proof. To come.</div>
+    </li>
+    <li class="todo">
+      <div class="line">moy-5 — how to make a model draw the auxiliary line</div>
+      <div class="what">The route to the apex (the mean proportional) splits by arm. To come.</div>
+    </li>
+  </ol>
+
+  <footer>
+    Method: the <a href="https://github.com/moyhig-ecs/coread-explainer">coread-explainer</a> skill on the <a href="https://github.com/wheresryan22/anatomy">Anatomy</a> kit (MIT, Copyright (c) 2026 Ryan). Measurements: <a href="https://github.com/moyhig-ecs/ConstructGap">ConstructGap</a> v1.0.1. Gallery: MIT, Copyright (c) 2026 Manabu Higashida — <a href="https://github.com/moyhig-ecs/coread-explainer-gallery">repository</a>. 日本語の案内は README に。
+  </footer>
+</main>
+</body>
+</html>

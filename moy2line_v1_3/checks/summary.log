@@ -1,0 +1,14 @@
+states sections 13 · measured ok 260 · bad 0 · min svg px {'video': 10.95, 'desk': 10.31, 'phone': 10.11} · min html px {'video': 14.0, 'desk': 12.0, 'phone': 12.0}
+console errors 0 · drive failures 0 · internal words 0 · shots 84 · exit 0
+  check_robust: dist/moy2line.html: {"combos":1270,"errors":0,"msgs":[]}
+  check_chapters: desk dist/moy2line.html: {"chapters_ok":true,"clicks":["ledger -> 19 H 台帳","next -> 17 G 次の問い","lineage -> 15 F 計器の系譜","shape -> 14 E 見た形","calc -> 10 D 計算した行","arms -> 6 C 七腕の表","tool 
+  check_chapters: phone dist/moy2line.html: {"chapters_ok":true,"clicks":["ledger -> 19 H 台帳","next -> 17 G 次の問い","lineage -> 15 F 計器の系譜","shape -> 14 E 見た形","calc -> 10 D 計算した行","arms -> 6 C 七腕の表","tool 
+  check_drag: desk dist/moy2line.html: {"drag_ok":true,"tag":"state 8","from":"olm125:b1_j17","to":"olm125:b1_j10","bad":[]} | {"drag_ok":true,"tag":"state 11","from":"olm125:b1_j17","to":"olm119:b0_j13","bad":[]} | {"drag_ok":true,"tag":"state 12","from":"olm124:b2_j07","to":"olm125:b1_j11","bad":[]} | {"drag_ok":true,"tag":"state 13","
+  check_drag: video dist/moy2line.html: {"drag_ok":true,"tag":"state 8","from":"olm125:b1_j17","to":"olm125:b1_j08","bad":[]} | {"drag_ok":true,"tag":"state 11","from":"olm125:b1_j17","to":"olm119:b0_j13","bad":[]} | {"drag_ok":true,"tag":"state 12","from":"olm124:b2_j07","to":"olm127:b2_j11","bad":[]} | {"drag_ok":true,"tag":"state 13","
+  check_names: dist/moy2line.html: {"names_ok":true,"hits":0,"scanned":40} | {"names_positive_control_ok":true,"caught":[1,1,1,1,1,1,3,1,1,1,1],"negated_passes":true,"baseline":0}
+  check_robust: dist/moy2line-en.html: {"combos":1270,"errors":0,"msgs":[]}
+  check_chapters: desk dist/moy2line-en.html: {"chapters_ok":true,"clicks":["ledger -> 19 H Ledger","next -> 17 G Next question","lineage -> 15 F Instrument lineage","shape -> 14 E Seen shape","calc -> 10 D
+  check_chapters: phone dist/moy2line-en.html: {"chapters_ok":true,"clicks":["ledger -> 19 H Ledger","next -> 17 G Next question","lineage -> 15 F Instrument lineage","shape -> 14 E Seen shape","calc -> 10 D
+  check_drag: desk dist/moy2line-en.html: {"drag_ok":true,"tag":"state 8","from":"olm125:b1_j17","to":"olm125:b1_j10","bad":[]} | {"drag_ok":true,"tag":"state 11","from":"olm125:b1_j17","to":"olm119:b0_j13","bad":[]} | {"drag_ok":true,"tag":"state 12","from":"olm124:b2_j07","to":"olm125:b1_j11","bad":[]} | {"drag_ok":true,"tag":"state 13","
+  check_drag: video dist/moy2line-en.html: {"drag_ok":true,"tag":"state 8","from":"olm125:b1_j17","to":"olm125:b2_j09","bad":[]} | {"drag_ok":true,"tag":"state 11","from":"olm125:b1_j17","to":"olm119:b0_j13","bad":[]} | {"drag_ok":true,"tag":"state 12","from":"olm124:b2_j07","to":"olm127:b2_j11","bad":[]} | {"drag_ok":true,"tag":"state 13","
+  check_names: dist/moy2line-en.html: {"names_ok":true,"hits":0,"scanned":40} | {"names_positive_control_ok":true,"caught":[1,1,1,1,1,1,3,1,1,1,1],"negated_passes":true,"baseline":0}

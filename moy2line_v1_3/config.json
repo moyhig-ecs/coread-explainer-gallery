@@ -1,0 +1,12 @@
+{
+  "name": "moy2line",
+  "title": "moy-2 の折り返しの道具の系列(olm113 → olm127)を AI と共読する / Co-reading the moy-2 reflection-tool line (olm113 → olm127)",
+  "chapters": [["scene", 0, 1], ["tool", 2, 5], ["arms", 6, 9], ["calc", 10, 13], ["shape", 14, 14], ["lineage", 15, 16], ["next", 17, 18], ["ledger", 19, 19]],
+  "pages": {"moy2line.html": ["dark", "ja"], "moy2line-light.html": ["light", "ja"], "moy2line-en.html": ["dark", "en"], "moy2line-light-en.html": ["light", "en"]},
+  "minpx": {"video": 10, "desk": 10, "phone": 9.5},
+  "minpx_html": {"video": 14, "desk": 12, "phone": 11},
+  "frames": {"video": [1920, 1080], "desk": [1440, 1800], "phone": [390, 3200]},
+  "rowStates": [8, 11, 12, 13],
+  "armStates": [6],
+  "ports": {"band": [27500, 27599], "drive": 27511, "marimo": 27531, "jupyter": 27541}
+}

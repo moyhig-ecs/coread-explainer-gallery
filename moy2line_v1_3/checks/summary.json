@@ -1,0 +1,244 @@
+{
+ "sections": {
+  "check_states: video dist/moy2line.html": {
+   "ok": 20,
+   "bad": 0,
+   "lines": [
+    "{\"nav_same\":true,\"n\":0}"
+   ]
+  },
+  "check_states: desk dist/moy2line.html": {
+   "ok": 20,
+   "bad": 0,
+   "lines": [
+    "{\"nav_same\":true,\"n\":20,\"top\":16}"
+   ]
+  },
+  "check_states: phone dist/moy2line.html": {
+   "ok": 20,
+   "bad": 0,
+   "lines": [
+    "{\"nav_same\":true,\"n\":20,\"top\":30}"
+   ]
+  },
+  "check_states: video dist/moy2line-en.html": {
+   "ok": 20,
+   "bad": 0,
+   "lines": [
+    "{\"nav_same\":true,\"n\":0}"
+   ]
+  },
+  "check_states: desk dist/moy2line-en.html": {
+   "ok": 20,
+   "bad": 0,
+   "lines": [
+    "{\"nav_same\":true,\"n\":20,\"top\":16}"
+   ]
+  },
+  "check_states: phone dist/moy2line-en.html": {
+   "ok": 20,
+   "bad": 0,
+   "lines": [
+    "{\"nav_same\":true,\"n\":20,\"top\":30}"
+   ]
+  },
+  "check_states: video dist/moy2line-light.html": {
+   "ok": 20,
+   "bad": 0,
+   "lines": [
+    "{\"nav_same\":true,\"n\":0}"
+   ]
+  },
+  "check_states: desk dist/moy2line-light.html": {
+   "ok": 20,
+   "bad": 0,
+   "lines": [
+    "{\"nav_same\":true,\"n\":20,\"top\":16}"
+   ]
+  },
+  "check_states: phone dist/moy2line-light.html": {
+   "ok": 20,
+   "bad": 0,
+   "lines": [
+    "{\"nav_same\":true,\"n\":20,\"top\":30}"
+   ]
+  },
+  "check_states: video dist/moy2line-light-en.html": {
+   "ok": 20,
+   "bad": 0,
+   "lines": [
+    "{\"nav_same\":true,\"n\":0}"
+   ]
+  },
+  "check_states: desk dist/moy2line-light-en.html": {
+   "ok": 20,
+   "bad": 0,
+   "lines": [
+    "{\"nav_same\":true,\"n\":20,\"top\":16}"
+   ]
+  },
+  "check_states: phone dist/moy2line-light-en.html": {
+   "ok": 20,
+   "bad": 0,
+   "lines": [
+    "{\"nav_same\":true,\"n\":20,\"top\":30}"
+   ]
+  },
+  "check_states: reduced motion (desk)": {
+   "ok": 20,
+   "bad": 0,
+   "lines": [
+    "{\"nav_same\":true,\"n\":20,\"top\":16}"
+   ]
+  },
+  "check_robust: dist/moy2line.html": {
+   "ok": 0,
+   "bad": 0,
+   "lines": [
+    "{\"combos\":1270,\"errors\":0,\"msgs\":[]}"
+   ]
+  },
+  "check_chapters: desk dist/moy2line.html": {
+   "ok": 0,
+   "bad": 0,
+   "lines": [
+    "{\"chapters_ok\":true,\"clicks\":[\"ledger -> 19 H 台帳\",\"next -> 17 G 次の問い\",\"lineage -> 15 F 計器の系譜\",\"shape -> 14 E 見た形\",\"calc -> 10 D 計算した行\",\"arms -> 6 C 七腕の表\",\"tool "
+   ]
+  },
+  "check_chapters: phone dist/moy2line.html": {
+   "ok": 0,
+   "bad": 0,
+   "lines": [
+    "{\"chapters_ok\":true,\"clicks\":[\"ledger -> 19 H 台帳\",\"next -> 17 G 次の問い\",\"lineage -> 15 F 計器の系譜\",\"shape -> 14 E 見た形\",\"calc -> 10 D 計算した行\",\"arms -> 6 C 七腕の表\",\"tool "
+   ]
+  },
+  "check_drag: desk dist/moy2line.html": {
+   "ok": 0,
+   "bad": 0,
+   "lines": [
+    "{\"drag_ok\":true,\"tag\":\"state 8\",\"from\":\"olm125:b1_j17\",\"to\":\"olm125:b1_j10\",\"bad\":[]}",
+    "{\"drag_ok\":true,\"tag\":\"state 11\",\"from\":\"olm125:b1_j17\",\"to\":\"olm119:b0_j13\",\"bad\":[]}",
+    "{\"drag_ok\":true,\"tag\":\"state 12\",\"from\":\"olm124:b2_j07\",\"to\":\"olm125:b1_j11\",\"bad\":[]}",
+    "{\"drag_ok\":true,\"tag\":\"state 13\",\"from\":\"olm127:b2_j08\",\"to\":\"olm127:b0_j13\",\"bad\":[]}",
+    "{\"drag_ok\":true,\"tag\":\"state 6\",\"from\":\"olm127:b0_j13\",\"to\":\"olm127\",\"bad\":[]}"
+   ]
+  },
+  "check_drag: video dist/moy2line.html": {
+   "ok": 0,
+   "bad": 0,
+   "lines": [
+    "{\"drag_ok\":true,\"tag\":\"state 8\",\"from\":\"olm125:b1_j17\",\"to\":\"olm125:b1_j08\",\"bad\":[]}",
+    "{\"drag_ok\":true,\"tag\":\"state 11\",\"from\":\"olm125:b1_j17\",\"to\":\"olm119:b0_j13\",\"bad\":[]}",
+    "{\"drag_ok\":true,\"tag\":\"state 12\",\"from\":\"olm124:b2_j07\",\"to\":\"olm127:b2_j11\",\"bad\":[]}",
+    "{\"drag_ok\":true,\"tag\":\"state 13\",\"from\":\"olm127:b2_j08\",\"to\":\"olm127:b2_j13\",\"bad\":[]}",
+    "{\"drag_ok\":true,\"tag\":\"state 6\",\"from\":\"olm127:b2_j13\",\"to\":\"olm127\",\"bad\":[]}"
+   ]
+  },
+  "check_names: dist/moy2line.html": {
+   "ok": 0,
+   "bad": 0,
+   "lines": [
+    "{\"names_ok\":true,\"hits\":0,\"scanned\":40}",
+    "{\"names_positive_control_ok\":true,\"caught\":[1,1,1,1,1,1,3,1,1,1,1],\"negated_passes\":true,\"baseline\":0}"
+   ]
+  },
+  "check_robust: dist/moy2line-en.html": {
+   "ok": 0,
+   "bad": 0,
+   "lines": [
+    "{\"combos\":1270,\"errors\":0,\"msgs\":[]}"
+   ]
+  },
+  "check_chapters: desk dist/moy2line-en.html": {
+   "ok": 0,
+   "bad": 0,
+   "lines": [
+    "{\"chapters_ok\":true,\"clicks\":[\"ledger -> 19 H Ledger\",\"next -> 17 G Next question\",\"lineage -> 15 F Instrument lineage\",\"shape -> 14 E Seen shape\",\"calc -> 10 D"
+   ]
+  },
+  "check_chapters: phone dist/moy2line-en.html": {
+   "ok": 0,
+   "bad": 0,
+   "lines": [
+    "{\"chapters_ok\":true,\"clicks\":[\"ledger -> 19 H Ledger\",\"next -> 17 G Next question\",\"lineage -> 15 F Instrument lineage\",\"shape -> 14 E Seen shape\",\"calc -> 10 D"
+   ]
+  },
+  "check_drag: desk dist/moy2line-en.html": {
+   "ok": 0,
+   "bad": 0,
+   "lines": [
+    "{\"drag_ok\":true,\"tag\":\"state 8\",\"from\":\"olm125:b1_j17\",\"to\":\"olm125:b1_j10\",\"bad\":[]}",
+    "{\"drag_ok\":true,\"tag\":\"state 11\",\"from\":\"olm125:b1_j17\",\"to\":\"olm119:b0_j13\",\"bad\":[]}",
+    "{\"drag_ok\":true,\"tag\":\"state 12\",\"from\":\"olm124:b2_j07\",\"to\":\"olm125:b1_j11\",\"bad\":[]}",
+    "{\"drag_ok\":true,\"tag\":\"state 13\",\"from\":\"olm127:b2_j08\",\"to\":\"olm127:b0_j13\",\"bad\":[]}",
+    "{\"drag_ok\":true,\"tag\":\"state 6\",\"from\":\"olm127:b0_j13\",\"to\":\"olm127\",\"bad\":[]}"
+   ]
+  },
+  "check_drag: video dist/moy2line-en.html": {
+   "ok": 0,
+   "bad": 0,
+   "lines": [
+    "{\"drag_ok\":true,\"tag\":\"state 8\",\"from\":\"olm125:b1_j17\",\"to\":\"olm125:b2_j09\",\"bad\":[]}",
+    "{\"drag_ok\":true,\"tag\":\"state 11\",\"from\":\"olm125:b1_j17\",\"to\":\"olm119:b0_j13\",\"bad\":[]}",
+    "{\"drag_ok\":true,\"tag\":\"state 12\",\"from\":\"olm124:b2_j07\",\"to\":\"olm127:b2_j11\",\"bad\":[]}",
+    "{\"drag_ok\":true,\"tag\":\"state 13\",\"from\":\"olm127:b2_j08\",\"to\":\"olm127:b2_j13\",\"bad\":[]}",
+    "{\"drag_ok\":true,\"tag\":\"state 6\",\"from\":\"olm127:b2_j13\",\"to\":\"olm127\",\"bad\":[]}"
+   ]
+  },
+  "check_names: dist/moy2line-en.html": {
+   "ok": 0,
+   "bad": 0,
+   "lines": [
+    "{\"names_ok\":true,\"hits\":0,\"scanned\":40}",
+    "{\"names_positive_control_ok\":true,\"caught\":[1,1,1,1,1,1,3,1,1,1,1],\"negated_passes\":true,\"baseline\":0}"
+   ]
+  },
+  "public fence: internal words in the body files (expect 0)": {
+   "ok": 0,
+   "bad": 0
+  },
+  "capture: video": {
+   "ok": 0,
+   "bad": 0
+  },
+  "capture: video en": {
+   "ok": 0,
+   "bad": 0
+  },
+  "capture: desk dark": {
+   "ok": 0,
+   "bad": 0
+  },
+  "capture: desk light": {
+   "ok": 0,
+   "bad": 0
+  },
+  "capture: desk en": {
+   "ok": 0,
+   "bad": 0
+  },
+  "capture: phone": {
+   "ok": 0,
+   "bad": 0
+  }
+ },
+ "minpx": {
+  "video": 10.95,
+  "desk": 10.31,
+  "phone": 10.11
+ },
+ "minhtml": {
+  "video": 14.0,
+  "desk": 12.0,
+  "phone": 12.0
+ },
+ "console_errors": 0,
+ "drive_fail": 0,
+ "headings": "headings ok",
+ "anchors": "anchors checked: 129 · missing or different: 0",
+ "claims_positive_control": "claims positive control (12 broken on purpose): anchors checked: 129 · missing or different: 12",
+ "axis_labels_clear": 52,
+ "internal_words": 0,
+ "shots": 84,
+ "exit": 0
+}
