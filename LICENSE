@@ -19,11 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-The pages, widget and figure code in this bundle use the Anatomy kit's style sheet,
-page shell and camera formula (MIT, Copyright (c) 2026 Ryan; see LICENSE-Anatomy.txt).
-The model outputs quoted in data/ and cards/ are the outputs of the models named there
-(OLMo-3 32B base for the olm cards; the frontier models named in the prf cards) and are
-reproduced as data; they are not covered by the license above.

@@ -33,6 +33,10 @@ references:
     version: "1.0.1"
     doi: 10.5281/zenodo.21617998
     repository-code: "https://github.com/moyhig-ecs/ConstructGap"
+  - type: generic
+    title: "Generated but Not Committed: Locating a Commit-Stage Failure behind a Salient Geometric Misbinding in an Open-Weights LLM (CommitStage preprint)"
+    version: "2.0"
+    doi: 10.5281/zenodo.22218847
   - type: software
     title: "coread-explainer (Claude Code skill)"
     version: "0.1.0"

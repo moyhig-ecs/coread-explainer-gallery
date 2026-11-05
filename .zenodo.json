@@ -28,6 +28,12 @@
       "scheme": "doi"
     },
     {
+      "identifier": "10.5281/zenodo.22218847",
+      "relation": "references",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
       "identifier": "https://github.com/moyhig-ecs/coread-explainer",
       "relation": "isDerivedFrom",
       "resource_type": "software",
