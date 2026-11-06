@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this gallery or one of its entries, please cite it as below. Each entry also has its own CITATION.cff. The DOI is filled in after the first Zenodo release."
+message: "If you use this gallery or one of its entries, please cite it as below. Each entry also has its own CITATION.cff. The DOI is the concept DOI (all versions); v1.0.0 is 10.5281/zenodo.23992313."
 title: "Co-reading explainer gallery — audited interactive figures of what a language model writes when asked to reason about a geometric configuration"
 type: dataset
 authors:
@@ -7,8 +7,16 @@ authors:
     given-names: Manabu
     orcid: "https://orcid.org/0009-0004-7393-2957"
     affiliation: "D3 Center, The University of Osaka, Osaka, Japan"
-version: "1.0.0"
+version: "1.0.1"
 date-released: "2026-11-06"
+doi: 10.5281/zenodo.23992312
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23992312
+    description: "concept DOI (all versions)"
+  - type: doi
+    value: 10.5281/zenodo.23992313
+    description: "v1.0.0"
 license: MIT
 repository-code: "https://github.com/moyhig-ecs/coread-explainer-gallery"
 url: "https://moyhig-ecs.github.io/coread-explainer-gallery/"

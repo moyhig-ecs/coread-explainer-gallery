@@ -66,7 +66,7 @@ An audited, interactive figure of what **OLMo-3 32B base** writes in its *proof 
 ## License and citation
 
 - This bundle: **MIT** (`LICENSE`, Copyright (c) 2026 Manabu Higashida). The pages use the Anatomy kit's style sheet, page shell and camera formula — **MIT, Copyright (c) 2026 Ryan** (`LICENSE-Anatomy.txt`; the notice is in every page). The quoted model outputs are data, not covered by the license.
-- Cite: `CITATION.cff` (the DOI is filled in after the first Zenodo release of the gallery). Related: ConstructGap v1.0.1, DOI 10.5281/zenodo.21617998.
+- Cite: `CITATION.cff` (gallery DOI [10.5281/zenodo.23992312](https://doi.org/10.5281/zenodo.23992312), all versions; gallery v1.0.0 = 10.5281/zenodo.23992313). Related: ConstructGap v1.0.1, DOI 10.5281/zenodo.21617998.
 
 ---
 

@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this explainer or its cards, please cite it as below. The DOI is filled in after the first Zenodo release."
+message: "If you use this explainer or its cards, please cite it as below. The DOI is that of the gallery (concept DOI, all versions; gallery v1.0.0 = 10.5281/zenodo.23992313)."
 title: "Co-reading explainer: the moy-2 reflection-tool line (olm113 → olm127) — an audited figure of what OLMo-3 32B base writes in its proof field when a reflection formula is offered as a tool"
 type: dataset
 authors:
@@ -9,6 +9,7 @@ authors:
     affiliation: "D3 Center, The University of Osaka, Osaka, Japan"
 version: "1.3"
 date-released: "2026-11-04"
+doi: 10.5281/zenodo.23992312
 license: MIT
 repository-code: "https://github.com/moyhig-ecs/coread-explainer-gallery"
 abstract: >-

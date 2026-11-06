@@ -1,12 +1,12 @@
 # MANIFEST — moy2line_v1_3
 
-- generated 2026-11-05T00:43:07 by `make_manifest.py` (231 files, 34,956,199 bytes = 35.0 MB)
+- generated 2026-11-06T10:02:26 by `make_manifest.py` (231 files, 34,956,345 bytes = 35.0 MB)
 - verify: `python3 -I make_manifest.py --verify`
 
 | path | bytes | md5 |
 |---|---:|---|
 | `BUNDLE_BUILD.json` | 33818 | `c41e87d7ee10592118cf278c3d8f53c5` |
-| `CITATION.cff` | 1857 | `3d46f398fa44a52919d874ab4e6adf0e` |
+| `CITATION.cff` | 1935 | `a24fe77c721e761cc99000137aff729d` |
 | `CLAIMS.md` | 21674 | `e0057c98e23a1ba56faff6d8adc7e9cf` |
 | `DONE` | 300 | `69b0ddcbac4efdd31718c7ef68c20455` |
 | `ENTRY_README.md` | 15742 | `ac8dbbd067078909edf31b3501e68a4a` |
@@ -14,7 +14,7 @@
 | `LICENSE` | 1488 | `60f30a8cebf3028678e8b15c510e7ccf` |
 | `LICENSE-Anatomy.txt` | 1061 | `af321a95d2ed36473f5b73691bcb34a4` |
 | `NOTES.md` | 43368 | `be2fa132fe74320c2f20ab7fe1b0ed96` |
-| `README.md` | 12295 | `43667ac620bab12240f5ff3d9a19d438` |
+| `README.md` | 12363 | `e02d443dbe972929baec13871214d24a` |
 | `SCRIPT_yukkuri.md` | 10735 | `49267f822a6b94b77afd8bcd0983e140` |
 | `art.mjs` | 16104 | `a82ba3cb3ed7377a13469e1920536686` |
 | `build.mjs` | 8674 | `1fb3acf2289fdb2fa4a37def903a1cf8` |

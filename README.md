@@ -34,15 +34,16 @@ The measurements themselves use the [ConstructGap](https://github.com/moyhig-ecs
 
 | gallery | date | entries |
 |---|---|---|
-| v1.0.0 | 2026-11-06 | station 1: moy-2 (entry v1.3; house commit `f77eb405`; bundle cut at `6e871959`) |
+| v1.0.0 | 2026-11-06 | station 1: moy-2 (entry v1.3; house commit `f77eb405`; bundle cut at `6e871959`) — DOI [10.5281/zenodo.23992313](https://doi.org/10.5281/zenodo.23992313) |
+| v1.0.1 | 2026-11-06 | the DOI written into README and CITATION.cff (no change to the figures) |
 
-Each release is archived on Zenodo; the DOI is written here and in `CITATION.cff` once it exists.
+Each release is archived on Zenodo. **Concept DOI (all versions): [10.5281/zenodo.23992312](https://doi.org/10.5281/zenodo.23992312)**.
 
 ## License and citation
 
 MIT (`LICENSE`, Copyright (c) 2026 Manabu Higashida). The Anatomy kit's style sheet, page shell and camera formula used in the pages are MIT, Copyright (c) 2026 Ryan (notice in every page and in each entry's `LICENSE-Anatomy.txt`). The model outputs quoted in the entries are data and are not covered by the license.
 
-Cite the gallery with `CITATION.cff`, or an entry with its own `CITATION.cff`.
+Cite the gallery with `CITATION.cff` (DOI 10.5281/zenodo.23992312, all versions), or an entry with its own `CITATION.cff`.
 
 ---
 
