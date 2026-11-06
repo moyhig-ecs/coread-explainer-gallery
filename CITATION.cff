@@ -8,7 +8,7 @@ authors:
     orcid: "https://orcid.org/0009-0004-7393-2957"
     affiliation: "D3 Center, The University of Osaka, Osaka, Japan"
 version: "1.0.0"
-date-released: "2026-11-05"
+date-released: "2026-11-06"
 license: MIT
 repository-code: "https://github.com/moyhig-ecs/coread-explainer-gallery"
 url: "https://moyhig-ecs.github.io/coread-explainer-gallery/"

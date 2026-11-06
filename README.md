@@ -34,7 +34,7 @@ The measurements themselves use the [ConstructGap](https://github.com/moyhig-ecs
 
 | gallery | date | entries |
 |---|---|---|
-| v1.0.0 | 2026-11-05 | station 1: moy-2 (entry v1.3; house commit `f77eb405`; bundle cut at `6e871959`) |
+| v1.0.0 | 2026-11-06 | station 1: moy-2 (entry v1.3; house commit `f77eb405`; bundle cut at `6e871959`) |
 
 Each release is archived on Zenodo; the DOI is written here and in `CITATION.cff` once it exists.
 
