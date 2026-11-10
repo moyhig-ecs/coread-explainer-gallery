@@ -1,0 +1,115 @@
+{
+ "prov": {
+  "utc": "2026-10-29T06:17:15+00:00",
+  "commit": "3f138f1e",
+  "dirty": false,
+  "card": "olm69",
+  "script_md5": "16037495c276322d69ed193eb327c04a",
+  "prereg_md5": "d448b622d3b0aa570cdbec50841035d6",
+  "device": "mps",
+  "olm67_runner_md5": "da9c0c88e5d6980f11ecfcbe444e0c79",
+  "pseudo_md5": "8d425b95e084d052eb12c2c66a5be704"
+ },
+ "control_pass": {
+  "C1": true,
+  "C2": true,
+  "C3": false
+ },
+ "Q1": {
+  "A": {
+   "n": 16,
+   "cut_word_in_cut_sentence": 6,
+   "lemma_word_in_cut_sentence": 0
+  },
+  "L": {
+   "n": 75,
+   "cut_word_in_cut_sentence": 52,
+   "lemma_word_in_cut_sentence": 44
+  },
+  "frac_A": 0.375,
+  "frac_L": 0.6933333333333334,
+  "pass": false
+ },
+ "desc": {
+  "lens_OWN|A": {
+   "n": 16,
+   "pos": 11,
+   "frac_pos": 0.6875,
+   "median": 0.009710222482681274,
+   "binom_p": 0.1050567626953125
+  },
+  "lens_OWN|L": {
+   "n": 70,
+   "pos": 30,
+   "frac_pos": 0.42857142857142855,
+   "median": -0.035167574882507324,
+   "binom_p": 0.9058918984884862
+  },
+  "lens_CUT|A": {
+   "n": 16,
+   "pos": 8,
+   "frac_pos": 0.5,
+   "median": 0.02957591414451599,
+   "binom_p": 0.5981903076171875
+  },
+  "lens_CUT|L": {
+   "n": 75,
+   "pos": 34,
+   "frac_pos": 0.4533333333333333,
+   "median": -0.021902918815612793,
+   "binom_p": 0.8221503804592563
+  },
+  "lens_LEMMA|A": {
+   "n": 16,
+   "pos": 8,
+   "frac_pos": 0.5,
+   "median": 0.007871612906455994,
+   "binom_p": 0.5981903076171875
+  },
+  "lens_LEMMA|L": {
+   "n": 75,
+   "pos": 39,
+   "frac_pos": 0.52,
+   "median": 0.0035438239574432373,
+   "binom_p": 0.4087769252754922
+  }
+ },
+ "Q2": {
+  "n": 70,
+  "pos": 30,
+  "frac_pos": 0.42857142857142855,
+  "median": -0.035167574882507324,
+  "binom_p": 0.9058918984884862,
+  "pass": false
+ },
+ "Q3": {
+  "n": 16,
+  "pos": 11,
+  "frac_pos": 0.6875,
+  "median": 0.009710222482681274,
+  "binom_p": 0.1050567626953125,
+  "pass": false
+ },
+ "by_family": {
+  "opus|A": {
+   "n": 4,
+   "pos": 3,
+   "median": 0.02068069577217102
+  },
+  "opus|L": {
+   "n": 35,
+   "pos": 18,
+   "median": 0.02023640275001526
+  },
+  "fable|A": {
+   "n": 12,
+   "pos": 8,
+   "median": 0.006175339221954346
+  },
+  "fable|L": {
+   "n": 35,
+   "pos": 12,
+   "median": -0.05526620149612427
+  }
+ }
+}

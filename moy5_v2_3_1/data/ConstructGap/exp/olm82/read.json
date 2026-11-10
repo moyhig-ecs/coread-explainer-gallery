@@ -1,0 +1,63 @@
+{
+ "prov": {
+  "utc": "2026-10-31T04:13:10+00:00",
+  "commit": "6709ca10",
+  "dirty": false,
+  "card": "olm82",
+  "script_md5": "6c9bfcf0a08ab7099d518c82e7e550b1",
+  "prereg_md5": "e5ce35709e23684b6f7096d28e1bb334",
+  "scenes_md5": "8e0481c76d95d0fd16798643cb1dfdd9"
+ },
+ "control_pass": {
+  "C0": true,
+  "C1": true
+ },
+ "Q1a_final": {
+  "pos": "t+1",
+  "entropy_nat": 1.279492735862732,
+  "entropy_rank_frac": 0.4672742187976837,
+  "top1_p": 0.7728647589683533,
+  "top1_tok": " vectors",
+  "actual_next": " segments",
+  "common_u": 0.7892847061157227,
+  "pass": false
+ },
+ "Q1b_jlens": {
+  "pos": "t+1",
+  "entropy_nat": 0.1571979820728302,
+  "entropy_rank_frac": 0.113504558801651,
+  "top1_p": 0.9637314081192017,
+  "top1_tok": " vectors",
+  "actual_next": " segments",
+  "common_u": 0.049710024148225784,
+  "pass": false
+ },
+ "Q2_jlens_rho_common_vs_entropy": {
+  "S1_self_route": 0.8282547791783889,
+  "S2_given_route": 0.7721812192869042,
+  "S3_formula_only": 0.8360819372896569
+ },
+ "Q2_pass": true,
+ "Q3_desc_final_rho": {
+  "S1_self_route": 0.7674827487916099,
+  "S2_given_route": 0.5865579086867688,
+  "S3_formula_only": 0.6703488260114281
+ },
+ "Q3_desc_t+1_other_scenes": {
+  "S1_self_route": {
+   "J_entropy_rank_frac": 0.113504558801651,
+   "F_entropy_rank_frac": 0.4672742187976837,
+   "J_common_u": 0.049710024148225784
+  },
+  "S2_given_route": {
+   "J_entropy_rank_frac": 0.06366048008203506,
+   "F_entropy_rank_frac": 0.3156498670578003,
+   "J_common_u": 0.28205129504203796
+  },
+  "S3_formula_only": {
+   "J_entropy_rank_frac": 0.18534483015537262,
+   "F_entropy_rank_frac": 0.26293104887008667,
+   "J_common_u": 0.4087643623352051
+  }
+ }
+}

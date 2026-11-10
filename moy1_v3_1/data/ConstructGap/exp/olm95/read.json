@@ -1,0 +1,17 @@
+{
+ "prov": {
+  "utc": "2026-11-01T04:15:52+00:00",
+  "commit": "30ef50f4",
+  "dirty": false,
+  "card": "olm95",
+  "script_md5": "f46b0a968ea883887a3f342060561d58",
+  "prereg_md5": "4e78e0723e9e3cc06f02440f6c17798e"
+ },
+ "control_pass": {
+  "C0": true,
+  "C1": true,
+  "C2": false,
+  "C3": true
+ },
+ "stopped": "統制 ✗ = 読まない(C2)"
+}

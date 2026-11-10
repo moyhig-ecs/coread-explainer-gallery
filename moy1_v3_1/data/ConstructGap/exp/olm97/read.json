@@ -1,0 +1,94 @@
+{
+ "prov": {
+  "utc": "2026-11-01T05:28:43+00:00",
+  "commit": "f31cc447",
+  "dirty": false,
+  "card": "olm97",
+  "script_md5": "210634ca37a2f76e9504b3e0797c31a1",
+  "prereg_md5": "b1861e570145da1b2ef07eb545e980bd"
+ },
+ "control_pass": {
+  "C0": true,
+  "C1": true,
+  "C2": true,
+  "C3": true
+ },
+ "Q1_dem_direction_swap_L32": {
+  "n": 308,
+  "e_dem_dir": {
+   "median": 0.0,
+   "boot_lo": 0.0
+  },
+  "e_ctl_dir": {
+   "median": 0.0
+  },
+  "e_dem_rand_mean": {
+   "median": 0.0
+  },
+  "dem_minus_rand": {
+   "median": 0.0,
+   "boot_lo": 0.0
+  },
+  "dem_minus_ctl": {
+   "median": 0.0,
+   "boot_lo": 0.0
+  },
+  "flip": {
+   "dem_dir": 0.0,
+   "ctl_dir": 0.0,
+   "dem_rand0": 0.0
+  },
+  "pass": false,
+  "false": true,
+  "branch": "偽"
+ },
+ "Q2_full_interchange": {
+  "dem_full": {
+   "median_e": 0.0,
+   "flip": 0.0
+  },
+  "ctl_full": {
+   "median_e": 0.0,
+   "flip": 0.0
+  },
+  "sel_full": {
+   "median_e": 0.0,
+   "flip": 0.0
+  },
+  "pos_ctrl": {
+   "median_e": 4.3984375,
+   "flip": 1.0
+  }
+ },
+ "Q3_dose": {
+  "dem_dir": {
+   "median_e": 0.0,
+   "flip": 0.0
+  },
+  "dem_dir_x2": {
+   "median_e": 0.0,
+   "flip": 0.0
+  },
+  "dem_dir_x4": {
+   "median_e": 0.0,
+   "flip": 0.0
+  }
+ },
+ "Q4_L48": {
+  "median_e": 0.0,
+  "flip": 0.0
+ },
+ "Q5_by_ref": {
+  "BIND": {
+   "n": 154,
+   "median_e_dem_dir": 0.0
+  },
+  "ATTR": {
+   "n": 154,
+   "median_e_dem_dir": 0.0
+  }
+ },
+ "base_margin": {
+  "median": 2.40625
+ }
+}

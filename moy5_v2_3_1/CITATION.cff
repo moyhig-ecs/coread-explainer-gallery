@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this explainer or its cards, please cite it as below. The DOI is that of the gallery (concept DOI, all versions); the version DOI of the gallery release that adds this station is filled in when it is published."
+title: "Co-reading explainer: moy-5, received version v2.3.1 — an audited figure of where the apex (the mean proportional) appears when frontier models answer one parabola problem, and what the house tested after the figure"
+type: dataset
+authors:
+  - family-names: Higashida
+    given-names: Manabu
+    orcid: "https://orcid.org/0009-0004-7393-2957"
+    affiliation: "D3 Center, The University of Osaka, Osaka, Japan"
+version: "2.3.1"
+date-released: "2026-11-10"
+doi: 10.5281/zenodo.23992312
+license: MIT
+repository-code: "https://github.com/moyhig-ecs/coread-explainer-gallery"
+abstract: >-
+  An interactive isometric figure (31 states in 12 chapters; ja / en; dark / light; also an anywidget for Jupyter / marimo), 1920×1080
+  stills, a two-voice script and a ledger of what can and cannot be said, built from the frozen outputs of pre-registered measurements on
+  the moy-5 problem (a parabola as the section of a cone; the apex relation is a mean proportional): every answer of the frontier models
+  (Claude 5.5 / Fable 5.1 tiers, Gemini 4 Argon) drawn as one dot, by arm, effort and route, followed by the 20 cards the house froze after
+  the first figure (OLMo-3 32B reading the frontier's text; olm60–82, thk1 / thk2), graded by a fixed rule. Version 2.2 adds an overlay
+  showing the board as the plane through the axis of a cone with its Dandelin sphere; version 2.3 adds the cutting plane through the
+  line FVD perpendicular to the board, and version 2.3.1 fixes that plane at the frozen P_x (drawing, not data). The frozen files the figure reads
+  are copied into data/ (95 files) and the cards (PREREG = the frozen promise, RESULT = the read-out, corrections appended) into cards/
+  verbatim (Japanese), with an English index. Every number on the page is anchored to the data (check_claims.py, 447 anchors).
+keywords:
+  - geometry
+  - parabola
+  - mean proportional
+  - pre-registration
+  - explainer
+  - anywidget
+  - ConstructGap
+  - OLMo
+  - co-reading
+references:
+  - type: software
+    title: "ConstructGap"
+    version: "1.0.1"
+    doi: 10.5281/zenodo.21617998
+    repository-code: "https://github.com/moyhig-ecs/ConstructGap"
+  - type: software
+    title: "coread-explainer (Claude Code skill)"
+    repository-code: "https://github.com/moyhig-ecs/coread-explainer"
+  - type: software
+    title: "Anatomy (isometric figure kit for Claude Code skills)"
+    authors:
+      - name: "Ryan"
+    license: MIT
+    repository-code: "https://github.com/wheresryan22/anatomy"

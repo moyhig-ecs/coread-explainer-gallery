@@ -1,0 +1,1310 @@
+{
+ "made": "2026-11-09T14:33:26",
+ "source_entry": "conversations/2026-11-06/coread_station2_3/station2_moy1/receipt/entry_v3_1_received",
+ "house_head": "674b789f",
+ "copied": [
+  "CLAIMS.md",
+  "ENTRY_DONE",
+  "NOTES.md",
+  "ENTRY_README.md",
+  "SCRIPT_yukkuri.md",
+  "build.mjs",
+  "captures/INDEX.md",
+  "captures/J1_jupyterlab_state0.png",
+  "captures/J2_jupyterlab_figure_button_reached_kernel.png",
+  "captures/J3_jupyterlab_sae_state18.png",
+  "captures/M1_marimo_state4.png",
+  "captures/M2_marimo_sae_state18.png",
+  "captures/capture_log.txt",
+  "captures/video_en_s00.png",
+  "captures/video_en_s01.png",
+  "captures/video_en_s02.png",
+  "captures/video_en_s03.png",
+  "captures/video_en_s04.png",
+  "captures/video_en_s05.png",
+  "captures/video_en_s06.png",
+  "captures/video_en_s07.png",
+  "captures/video_en_s08.png",
+  "captures/video_en_s09.png",
+  "captures/video_en_s10.png",
+  "captures/video_en_s11.png",
+  "captures/video_en_s12.png",
+  "captures/video_en_s13.png",
+  "captures/video_en_s14.png",
+  "captures/video_en_s15.png",
+  "captures/video_en_s16.png",
+  "captures/video_en_s17.png",
+  "captures/video_en_s18.png",
+  "captures/video_en_s19.png",
+  "captures/video_en_s20.png",
+  "captures/video_en_s21.png",
+  "captures/video_en_s22.png",
+  "captures/video_en_s23.png",
+  "captures/video_en_s24.png",
+  "captures/video_en_s25.png",
+  "captures/video_en_s26.png",
+  "captures/video_en_s27.png",
+  "captures/video_en_s28.png",
+  "captures/video_en_s29.png",
+  "captures/video_en_s30.png",
+  "captures/video_en_s31.png",
+  "captures/video_en_s32.png",
+  "captures/video_en_s33.png",
+  "captures/video_en_s34.png",
+  "captures/video_en_s35.png",
+  "captures/video_en_s36.png",
+  "captures/video_en_s37.png",
+  "captures/video_en_s38.png",
+  "captures/video_en_s39.png",
+  "captures/video_en_s40.png",
+  "captures/video_en_s41.png",
+  "captures/video_en_s42.png",
+  "captures/video_s00.png",
+  "captures/video_s01.png",
+  "captures/video_s02.png",
+  "captures/video_s03.png",
+  "captures/video_s04.png",
+  "captures/video_s05.png",
+  "captures/video_s06.png",
+  "captures/video_s07.png",
+  "captures/video_s08.png",
+  "captures/video_s09.png",
+  "captures/video_s10.png",
+  "captures/video_s11.png",
+  "captures/video_s12.png",
+  "captures/video_s13.png",
+  "captures/video_s14.png",
+  "captures/video_s15.png",
+  "captures/video_s16.png",
+  "captures/video_s17.png",
+  "captures/video_s18.png",
+  "captures/video_s18a.png",
+  "captures/video_s18b.png",
+  "captures/video_s19.png",
+  "captures/video_s19a.png",
+  "captures/video_s19b.png",
+  "captures/video_s20.png",
+  "captures/video_s21.png",
+  "captures/video_s22.png",
+  "captures/video_s23.png",
+  "captures/video_s24.png",
+  "captures/video_s25.png",
+  "captures/video_s26.png",
+  "captures/video_s27.png",
+  "captures/video_s28.png",
+  "captures/video_s29.png",
+  "captures/video_s30.png",
+  "captures/video_s31.png",
+  "captures/video_s32.png",
+  "captures/video_s33.png",
+  "captures/video_s34.png",
+  "captures/video_s35.png",
+  "captures/video_s36.png",
+  "captures/video_s37.png",
+  "captures/video_s38.png",
+  "captures/video_s39.png",
+  "captures/video_s40.png",
+  "captures/video_s41.png",
+  "captures/video_s42.png",
+  "check_claims.py",
+  "check_fence.py",
+  "checks/check_capture.json",
+  "checks/check_cards.json",
+  "checks/check_chapters.json",
+  "checks/check_desk_capture.json",
+  "checks/check_interaction.json",
+  "checks/check_jupyter.json",
+  "checks/check_marimo.json",
+  "checks/check_parity.json",
+  "checks/check_robust.json",
+  "checks/check_sae.json",
+  "checks/check_states.json",
+  "checks/check_states_en.json",
+  "checks/check_v21.json",
+  "checks/check_v3.json",
+  "checks/check_words.json",
+  "checks/last_run.txt",
+  "checks/last_run_20261109_jupyter_fix.txt",
+  "checks/make_check_jupyter.py",
+  "claims_anchors.json",
+  "config.json",
+  "data.mjs",
+  "demo_jupyter.ipynb",
+  "demo_marimo.py",
+  "figure.css",
+  "figure.js",
+  "generated/ledger_rows.json",
+  "generated/marks_derived.json",
+  "generated/olm59_manifest.json",
+  "generated/olm59_windows.json",
+  "generated/olm62_tie_note.json",
+  "generated/olm62_windows.json",
+  "generated/pack.json",
+  "generated/states_table.json",
+  "i18n.js",
+  "i18n_after.js",
+  "list_headings.py",
+  "make_anchors_v3.py",
+  "make_anchors_v31.py",
+  "make_captures.py",
+  "make_check.py",
+  "make_claims.py",
+  "make_notebook.py",
+  "make_readme.py",
+  "make_script.py",
+  "pack_after.py",
+  "pack_moy1.py",
+  "pages/build_report.json",
+  "pages/moy1-en.html",
+  "pages/moy1-light-en.html",
+  "pages/moy1-light.html",
+  "pages/moy1.html",
+  "pages/widget.css",
+  "pages/widget.js",
+  "run_checks.sh",
+  "run_jupyter_check.sh",
+  "run_marimo_check.sh",
+  "scenes.js",
+  "scenes_after.js",
+  "state_machine.js",
+  "widget.py",
+  "widget_glue.js"
+ ],
+ "excluded": [],
+ "data": {
+  "predicate": "every file under the repo that pack_moy1.py (+ pack_after.py), check_claims.py and make_check.py open or test for existence (audit-hook trace + wrapped exists / is_file of a run in a scratch copy with MOY1_REPO = the repo) ∪ every claims_anchors.json 'file' that is a repo path; copied at its repo-relative path. data.mjs (bun) reads a subset of these (checked by building inside the bundle)",
+  "stat_only": [
+   "conversations/2026-07-28/RESULT_olmo3_behavior_screen_20260728.md",
+   "conversations/2026-07-29/RESULT_olmo3_base_bf16_screen_20260729.md",
+   "conversations/2026-07-31/RESULT_pc1_cue_invariance_20260731.md",
+   "conversations/2026-08-01/ADJUDICATION_f5_v2_effective_20260801.md",
+   "conversations/2026-10-28/RESULT_olm62_moy1_mid_rise_vs_math_shift_20261028.md"
+  ],
+  "n": 192,
+  "bytes": 11942467,
+  "from_anchors_only": [],
+  "excluded": "everything else under the repo (e.g. the other files of the card folders: gen.json of the cards other than olm112 / olm114, the scripts (run_*.py are not copied, not imported, not run), olm59/rows is copied whole = the 120 npz the scripts glob)",
+  "groups": {
+   "ConstructGap/exp/moy_suite_report.json": 1,
+   "ConstructGap/exp/olm101/read.json": 1,
+   "ConstructGap/exp/olm106/read.json": 1,
+   "ConstructGap/exp/olm108/read.json": 1,
+   "ConstructGap/exp/olm112/gen.json": 1,
+   "ConstructGap/exp/olm112/read.json": 1,
+   "ConstructGap/exp/olm114/gen.json": 1,
+   "ConstructGap/exp/olm114/read.json": 1,
+   "ConstructGap/exp/olm128/read.json": 1,
+   "ConstructGap/exp/olm59/control.json": 1,
+   "ConstructGap/exp/olm59/read.json": 1,
+   "ConstructGap/exp/olm59/rows/*.npz": 120,
+   "ConstructGap/exp/olm62/control.json": 1,
+   "ConstructGap/exp/olm62/read.json": 1,
+   "ConstructGap/exp/olm76/control.json": 1,
+   "ConstructGap/exp/olm76/read.json": 1,
+   "ConstructGap/exp/olm84/control.json": 1,
+   "ConstructGap/exp/olm84/read.json": 1,
+   "ConstructGap/exp/olm85/control.json": 1,
+   "ConstructGap/exp/olm85/read.json": 1,
+   "ConstructGap/exp/olm86/control.json": 1,
+   "ConstructGap/exp/olm86/read.json": 1,
+   "ConstructGap/exp/olm89/read.json": 1,
+   "ConstructGap/exp/olm91/control.json": 1,
+   "ConstructGap/exp/olm91/read.json": 1,
+   "ConstructGap/exp/olm92/read.json": 1,
+   "ConstructGap/exp/olm93/read.json": 1,
+   "ConstructGap/exp/olm94/read.json": 1,
+   "ConstructGap/exp/olm95/control.json": 1,
+   "ConstructGap/exp/olm95/read.json": 1,
+   "ConstructGap/exp/olm97/read.json": 1,
+   "ConstructGap/exp/olm98/read.json": 1,
+   "ConstructGap/exp/prf4/read.json": 1,
+   "conversations/2026-07-28/RESULT_olmo3_behavior_screen_20260728.md": 1,
+   "conversations/2026-07-29/RESULT_olmo3_base_bf16_screen_20260729.md": 1,
+   "conversations/2026-07-30/PREREG_pc1_cue_invariance_20260730.md": 1,
+   "conversations/2026-07-31/RESULT_pc1_cue_invariance_20260731.md": 1,
+   "conversations/2026-08-01/ADJUDICATION_f5_v2_effective_20260801.md": 1,
+   "conversations/2026-10-27/card_tree_v2/entry_merged_v2_2_1/tree_src.json": 1,
+   "conversations/2026-10-28/PREREG_olm59_moy1_sae_trajectory_by_construction_mentions_20261028.md": 1,
+   "conversations/2026-10-28/PREREG_olm62_moy1_mid_rise_vs_math_shift_20261028.md": 1,
+   "conversations/2026-10-28/RESULT_olm59_moy1_sae_trajectory_by_construction_mentions_20261028.md": 1,
+   "conversations/2026-10-28/RESULT_olm62_moy1_mid_rise_vs_math_shift_20261028.md": 1,
+   "conversations/2026-10-28/explainer_moy1/inventory/check_values.out": 1,
+   "conversations/2026-10-30/RESULT_olm76_moy1_commit_window_before_answer_brace_20261030.md": 1,
+   "conversations/2026-10-31/RESULT_olm83_moy1_inference_space_lookahead_beyond_lens_and_words_20261031.md": 1,
+   "conversations/2026-10-31/RESULT_olm84_moy1_inference_space_lookahead_logistic_pseudo_null_20261031.md": 1,
+   "conversations/2026-10-31/RESULT_olm85_moy1_inference_space_next_sentence_construction_20261031.md": 1,
+   "conversations/2026-10-31/RESULT_olm86_moy1_inference_space_long_lookahead_fresh_O_20261031.md": 1,
+   "conversations/2026-10-31/RESULT_olm88_moy1_inference_space_outcome_from_first_tokens_20261031.md": 1,
+   "conversations/2026-10-31/RESULT_olm89_moy1_inference_space_k8_lookahead_replication_new_rows_20261031.md": 1,
+   "conversations/2026-10-31/RESULT_olm91_moy1_inference_space_outcome_from_first_tokens_400_rows_20261031.md": 1,
+   "conversations/2026-11-01/RESULT_olm101_moy1_pointer_or_value_at_final_position_interchange_das_20261101.md": 1,
+   "conversations/2026-11-01/RESULT_olm106_moy1_single_position_interchange_sel_ctl_dem_early_layers_20261101.md": 1,
+   "conversations/2026-11-01/RESULT_olm108_moy1_multi_position_interchange_pointer_to_value_layers_12_32_20261101.md": 1,
+   "conversations/2026-11-01/RESULT_olm92_moy1_inference_space_k8_surplus_richer_text_baseline_20261101.md": 1,
+   "conversations/2026-11-01/RESULT_olm93_moy1_reference_code_name_to_demonstrative_transfer_20261101.md": 1,
+   "conversations/2026-11-01/RESULT_olm94_moy1_variable_binding_reference_synthetic_prompts_20261101.md": 1,
+   "conversations/2026-11-01/RESULT_olm95_moy1_reference_direction_intervention_at_demonstrative_20261101.md": 1,
+   "conversations/2026-11-01/RESULT_olm97_moy1_reference_logistic_direction_intervention_at_demonstrative_20261101.md": 1,
+   "conversations/2026-11-01/RESULT_olm98_moy1_heads_reading_the_referent_at_final_position_20261101.md": 1,
+   "conversations/2026-11-01/SCOPE_line1_inference_space_after_olm83_92_20261101.md": 1,
+   "conversations/2026-11-02/RESULT_olm112_moy1_apex_status_and_geometric_proof_20261102.md": 1,
+   "conversations/2026-11-02/RESULT_olm114_moy1_frontier_proof_prefix_ladder_20261102.md": 1,
+   "conversations/2026-11-06/RESULT_olm128_moy1_cue_json_start_blocked_bind_20261106.md": 1,
+   "probes/moy1-claude5-replication/results/replication_config_frozen.json": 1,
+   "probes/olmo3-base-bf16-screen/results/screen_olmo3_base_bf16.json": 1,
+   "probes/olmo3-behavior-screen/results/screen_olmo-3_32b.json": 1,
+   "probes/olmo3-f5-think-prefix/results/f5_runs_F5a-2.json": 1,
+   "probes/olmo3-f5-think-prefix/results/f5_runs_F5b-1.json": 1,
+   "probes/olmo3-f5-think-prefix/results/tsd_r5b/cmt13_blocked_bind_moment_in_thinking.json": 1,
+   "probes/olmo3-f5-think-prefix/results/tsd_r5b/cmt5_first_token_fixed_sampling.json": 1,
+   "probes/olmo3-pc1-cue-invariance/results/pc1_runs.json": 1
+  },
+  "git_facts": 38
+ },
+ "cards": [
+  {
+   "name": "PREREG_olm59_moy1_sae_trajectory_by_construction_mentions_20261028.md",
+   "card": "olm59",
+   "house_path": "conversations/2026-10-28/PREREG_olm59_moy1_sae_trajectory_by_construction_mentions_20261028.md",
+   "md5": "e1a79f7abc543b58df5943c8ee1660a1",
+   "bytes": 7820,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm59_moy1_sae_trajectory_by_construction_mentions_20261028.md",
+   "card": "olm59",
+   "house_path": "conversations/2026-10-28/RESULT_olm59_moy1_sae_trajectory_by_construction_mentions_20261028.md",
+   "md5": "c86891c36972cb1598f684ec34b6f99a",
+   "bytes": 5877,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm62_moy1_mid_rise_vs_math_shift_20261028.md",
+   "card": "olm62",
+   "house_path": "conversations/2026-10-28/PREREG_olm62_moy1_mid_rise_vs_math_shift_20261028.md",
+   "md5": "b4da6000c15f04a2f2bca6ec40460a90",
+   "bytes": 4810,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm62_moy1_mid_rise_vs_math_shift_20261028.md",
+   "card": "olm62",
+   "house_path": "conversations/2026-10-28/RESULT_olm62_moy1_mid_rise_vs_math_shift_20261028.md",
+   "md5": "6b97e1c113731e6f26c48eed31a51f5a",
+   "bytes": 5063,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm76_moy1_commit_window_before_answer_brace_20261030.md",
+   "card": "olm76",
+   "house_path": "conversations/2026-10-30/PREREG_olm76_moy1_commit_window_before_answer_brace_20261030.md",
+   "md5": "509fd5dc6207e7d699624f5083227017",
+   "bytes": 6642,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm76_moy1_commit_window_before_answer_brace_20261030.md",
+   "card": "olm76",
+   "house_path": "conversations/2026-10-30/RESULT_olm76_moy1_commit_window_before_answer_brace_20261030.md",
+   "md5": "6ae78dbda695aaf729243fe5ed83ebde",
+   "bytes": 4749,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm83_moy1_inference_space_lookahead_beyond_lens_and_words_20261031.md",
+   "card": "olm83",
+   "house_path": "conversations/2026-10-31/PREREG_olm83_moy1_inference_space_lookahead_beyond_lens_and_words_20261031.md",
+   "md5": "a00476d1083dfe259da5400af77ebfd4",
+   "bytes": 7648,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm83_moy1_inference_space_lookahead_beyond_lens_and_words_20261031.md",
+   "card": "olm83",
+   "house_path": "conversations/2026-10-31/RESULT_olm83_moy1_inference_space_lookahead_beyond_lens_and_words_20261031.md",
+   "md5": "e9c98660b283a9fa0c88a77067aaa1b0",
+   "bytes": 4051,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm84_moy1_inference_space_lookahead_logistic_pseudo_null_20261031.md",
+   "card": "olm84",
+   "house_path": "conversations/2026-10-31/PREREG_olm84_moy1_inference_space_lookahead_logistic_pseudo_null_20261031.md",
+   "md5": "d79b272cf71ec270e3533f4a8674975f",
+   "bytes": 5727,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm84_moy1_inference_space_lookahead_logistic_pseudo_null_20261031.md",
+   "card": "olm84",
+   "house_path": "conversations/2026-10-31/RESULT_olm84_moy1_inference_space_lookahead_logistic_pseudo_null_20261031.md",
+   "md5": "f78543619fb9fd7c8226804984dee3f4",
+   "bytes": 5384,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm85_moy1_inference_space_next_sentence_construction_20261031.md",
+   "card": "olm85",
+   "house_path": "conversations/2026-10-31/PREREG_olm85_moy1_inference_space_next_sentence_construction_20261031.md",
+   "md5": "19525e90bc19c52b3c04b99feaf7fc60",
+   "bytes": 6532,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm85_moy1_inference_space_next_sentence_construction_20261031.md",
+   "card": "olm85",
+   "house_path": "conversations/2026-10-31/RESULT_olm85_moy1_inference_space_next_sentence_construction_20261031.md",
+   "md5": "667a5c1a58dbb69add2fa207a61be044",
+   "bytes": 7327,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm86_moy1_inference_space_long_lookahead_fresh_O_20261031.md",
+   "card": "olm86",
+   "house_path": "conversations/2026-10-31/PREREG_olm86_moy1_inference_space_long_lookahead_fresh_O_20261031.md",
+   "md5": "910c74fbfc5edc6b63fd68136dde5edb",
+   "bytes": 7712,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm86_moy1_inference_space_long_lookahead_fresh_O_20261031.md",
+   "card": "olm86",
+   "house_path": "conversations/2026-10-31/RESULT_olm86_moy1_inference_space_long_lookahead_fresh_O_20261031.md",
+   "md5": "2b27c2aca1e5110910dca949dc632ba7",
+   "bytes": 6229,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm88_moy1_inference_space_outcome_from_first_tokens_20261031.md",
+   "card": "olm88",
+   "house_path": "conversations/2026-10-31/PREREG_olm88_moy1_inference_space_outcome_from_first_tokens_20261031.md",
+   "md5": "48bbfb872f7e8be6efc8d0b89fa16842",
+   "bytes": 7149,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm88_moy1_inference_space_outcome_from_first_tokens_20261031.md",
+   "card": "olm88",
+   "house_path": "conversations/2026-10-31/RESULT_olm88_moy1_inference_space_outcome_from_first_tokens_20261031.md",
+   "md5": "805ca6c2fb4ffaddfe9f7ea1001b6673",
+   "bytes": 3587,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm89_moy1_inference_space_k8_lookahead_replication_new_rows_20261031.md",
+   "card": "olm89",
+   "house_path": "conversations/2026-10-31/PREREG_olm89_moy1_inference_space_k8_lookahead_replication_new_rows_20261031.md",
+   "md5": "497c12f4fe328b8fb80acf44ff230a99",
+   "bytes": 6227,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm89_moy1_inference_space_k8_lookahead_replication_new_rows_20261031.md",
+   "card": "olm89",
+   "house_path": "conversations/2026-10-31/RESULT_olm89_moy1_inference_space_k8_lookahead_replication_new_rows_20261031.md",
+   "md5": "c8c90afa4143cb213a68079b7bc9fa33",
+   "bytes": 5871,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm91_moy1_inference_space_outcome_from_first_tokens_400_rows_20261031.md",
+   "card": "olm91",
+   "house_path": "conversations/2026-10-31/PREREG_olm91_moy1_inference_space_outcome_from_first_tokens_400_rows_20261031.md",
+   "md5": "b91262e5aa088361a2298187b4e1224e",
+   "bytes": 8093,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm91_moy1_inference_space_outcome_from_first_tokens_400_rows_20261031.md",
+   "card": "olm91",
+   "house_path": "conversations/2026-10-31/RESULT_olm91_moy1_inference_space_outcome_from_first_tokens_400_rows_20261031.md",
+   "md5": "462f8250dbfb874d350dd021d95baddf",
+   "bytes": 7824,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm92_moy1_inference_space_k8_surplus_richer_text_baseline_20261101.md",
+   "card": "olm92",
+   "house_path": "conversations/2026-11-01/PREREG_olm92_moy1_inference_space_k8_surplus_richer_text_baseline_20261101.md",
+   "md5": "cf02e030a0332492c3e289ec48cc0d10",
+   "bytes": 10948,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm92_moy1_inference_space_k8_surplus_richer_text_baseline_20261101.md",
+   "card": "olm92",
+   "house_path": "conversations/2026-11-01/RESULT_olm92_moy1_inference_space_k8_surplus_richer_text_baseline_20261101.md",
+   "md5": "77311501c51309224086929a3750ba62",
+   "bytes": 13559,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm93_moy1_reference_code_name_to_demonstrative_transfer_20261101.md",
+   "card": "olm93",
+   "house_path": "conversations/2026-11-01/PREREG_olm93_moy1_reference_code_name_to_demonstrative_transfer_20261101.md",
+   "md5": "8f84718fb461681c2b040550b5eb30e5",
+   "bytes": 16344,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm93_moy1_reference_code_name_to_demonstrative_transfer_20261101.md",
+   "card": "olm93",
+   "house_path": "conversations/2026-11-01/RESULT_olm93_moy1_reference_code_name_to_demonstrative_transfer_20261101.md",
+   "md5": "b2fe7cda78c95c19208b59fff5128466",
+   "bytes": 11837,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm94_moy1_variable_binding_reference_synthetic_prompts_20261101.md",
+   "card": "olm94",
+   "house_path": "conversations/2026-11-01/PREREG_olm94_moy1_variable_binding_reference_synthetic_prompts_20261101.md",
+   "md5": "8b5acba0dc43d9a581ab97f5062b64ec",
+   "bytes": 12650,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm94_moy1_variable_binding_reference_synthetic_prompts_20261101.md",
+   "card": "olm94",
+   "house_path": "conversations/2026-11-01/RESULT_olm94_moy1_variable_binding_reference_synthetic_prompts_20261101.md",
+   "md5": "5c175dfca5462fb780ce8448a7cb843e",
+   "bytes": 11364,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm95_moy1_reference_direction_intervention_at_demonstrative_20261101.md",
+   "card": "olm95",
+   "house_path": "conversations/2026-11-01/PREREG_olm95_moy1_reference_direction_intervention_at_demonstrative_20261101.md",
+   "md5": "4e78e0723e9e3cc06f02440f6c17798e",
+   "bytes": 9127,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm95_moy1_reference_direction_intervention_at_demonstrative_20261101.md",
+   "card": "olm95",
+   "house_path": "conversations/2026-11-01/RESULT_olm95_moy1_reference_direction_intervention_at_demonstrative_20261101.md",
+   "md5": "fffbd916c0456fb2b2aa305224531f97",
+   "bytes": 4738,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm97_moy1_reference_logistic_direction_intervention_at_demonstrative_20261101.md",
+   "card": "olm97",
+   "house_path": "conversations/2026-11-01/PREREG_olm97_moy1_reference_logistic_direction_intervention_at_demonstrative_20261101.md",
+   "md5": "b1861e570145da1b2ef07eb545e980bd",
+   "bytes": 7246,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm97_moy1_reference_logistic_direction_intervention_at_demonstrative_20261101.md",
+   "card": "olm97",
+   "house_path": "conversations/2026-11-01/RESULT_olm97_moy1_reference_logistic_direction_intervention_at_demonstrative_20261101.md",
+   "md5": "f85c110ffa95d14ed0c77e80744c403b",
+   "bytes": 6787,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm98_moy1_heads_reading_the_referent_at_final_position_20261101.md",
+   "card": "olm98",
+   "house_path": "conversations/2026-11-01/PREREG_olm98_moy1_heads_reading_the_referent_at_final_position_20261101.md",
+   "md5": "7fe167d76cb09e5d5af5b3b33d8f8fa3",
+   "bytes": 8704,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm98_moy1_heads_reading_the_referent_at_final_position_20261101.md",
+   "card": "olm98",
+   "house_path": "conversations/2026-11-01/RESULT_olm98_moy1_heads_reading_the_referent_at_final_position_20261101.md",
+   "md5": "282738ce3f273a1e24b2d7a874d9987f",
+   "bytes": 7755,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm101_moy1_pointer_or_value_at_final_position_interchange_das_20261101.md",
+   "card": "olm101",
+   "house_path": "conversations/2026-11-01/PREREG_olm101_moy1_pointer_or_value_at_final_position_interchange_das_20261101.md",
+   "md5": "174fa342bf79d7d7bce229bce513ed36",
+   "bytes": 10550,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm101_moy1_pointer_or_value_at_final_position_interchange_das_20261101.md",
+   "card": "olm101",
+   "house_path": "conversations/2026-11-01/RESULT_olm101_moy1_pointer_or_value_at_final_position_interchange_das_20261101.md",
+   "md5": "4866a2cc9d207e681a2e986c83515fb2",
+   "bytes": 11638,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm106_moy1_single_position_interchange_sel_ctl_dem_early_layers_20261101.md",
+   "card": "olm106",
+   "house_path": "conversations/2026-11-01/PREREG_olm106_moy1_single_position_interchange_sel_ctl_dem_early_layers_20261101.md",
+   "md5": "19456c9c8c17d66de0eb9dfc16c77775",
+   "bytes": 7104,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm106_moy1_single_position_interchange_sel_ctl_dem_early_layers_20261101.md",
+   "card": "olm106",
+   "house_path": "conversations/2026-11-01/RESULT_olm106_moy1_single_position_interchange_sel_ctl_dem_early_layers_20261101.md",
+   "md5": "fbb357c9dd7c6f2e5a74d7976907683c",
+   "bytes": 7089,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm108_moy1_multi_position_interchange_pointer_to_value_layers_12_32_20261101.md",
+   "card": "olm108",
+   "house_path": "conversations/2026-11-01/PREREG_olm108_moy1_multi_position_interchange_pointer_to_value_layers_12_32_20261101.md",
+   "md5": "57c3532bd8fc925746ba53d2a3f200c3",
+   "bytes": 5394,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm108_moy1_multi_position_interchange_pointer_to_value_layers_12_32_20261101.md",
+   "card": "olm108",
+   "house_path": "conversations/2026-11-01/RESULT_olm108_moy1_multi_position_interchange_pointer_to_value_layers_12_32_20261101.md",
+   "md5": "55d60751342cde396737177f1d3d5db5",
+   "bytes": 6629,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm112_moy1_apex_status_and_geometric_proof_20261102.md",
+   "card": "olm112",
+   "house_path": "conversations/2026-11-02/PREREG_olm112_moy1_apex_status_and_geometric_proof_20261102.md",
+   "md5": "967bfa275de9f5ddfb0bcf73064b3468",
+   "bytes": 10092,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm112_moy1_apex_status_and_geometric_proof_20261102.md",
+   "card": "olm112",
+   "house_path": "conversations/2026-11-02/RESULT_olm112_moy1_apex_status_and_geometric_proof_20261102.md",
+   "md5": "aa4a6f37387471ab182706a25336442b",
+   "bytes": 16043,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm114_moy1_frontier_proof_prefix_ladder_20261102.md",
+   "card": "olm114",
+   "house_path": "conversations/2026-11-02/PREREG_olm114_moy1_frontier_proof_prefix_ladder_20261102.md",
+   "md5": "d28170ec11952c2e6d118e43ae6be615",
+   "bytes": 11882,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm114_moy1_frontier_proof_prefix_ladder_20261102.md",
+   "card": "olm114",
+   "house_path": "conversations/2026-11-02/RESULT_olm114_moy1_frontier_proof_prefix_ladder_20261102.md",
+   "md5": "5cd69d689e8a868edc1cf675d824d143",
+   "bytes": 26510,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm128_moy1_cue_json_start_blocked_bind_20261106.md",
+   "card": "olm128",
+   "house_path": "conversations/2026-11-06/PREREG_olm128_moy1_cue_json_start_blocked_bind_20261106.md",
+   "md5": "3aa4268af8c80cd027c51d9999990add",
+   "bytes": 5323,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm128_moy1_cue_json_start_blocked_bind_20261106.md",
+   "card": "olm128",
+   "house_path": "conversations/2026-11-06/RESULT_olm128_moy1_cue_json_start_blocked_bind_20261106.md",
+   "md5": "1a987d0d9e9373dbdc7b7b02d99cb0b4",
+   "bytes": 5906,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_prf4_moy12_status_proof_claude_p_20261102.md",
+   "card": "prf4",
+   "house_path": "conversations/2026-11-02/PREREG_prf4_moy12_status_proof_claude_p_20261102.md",
+   "md5": "2348740b44f88d1a03907b2e0055574d",
+   "bytes": 5883,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_prf4_moy12_status_proof_claude_p_20261102.md",
+   "card": "prf4",
+   "house_path": "conversations/2026-11-02/RESULT_prf4_moy12_status_proof_claude_p_20261102.md",
+   "md5": "9e70e01a178e52497c583db4321aea4b",
+   "bytes": 3321,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_moy1_replication_20260728.md",
+   "card": "replication_config_frozen",
+   "house_path": "conversations/2026-07-28/PREREG_moy1_replication_20260728.md",
+   "md5": "4e8abc572ce84c9e476780d6c38eaac4",
+   "bytes": 9672,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_moy1_replication_20260728.md",
+   "card": "replication_config_frozen",
+   "house_path": "conversations/2026-07-28/RESULT_moy1_replication_20260728.md",
+   "md5": "d6c3a2e59565275ce37103a33e0b3459",
+   "bytes": 14672,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_pc1_cue_invariance_20260730.md",
+   "card": "pc1",
+   "house_path": "conversations/2026-07-30/PREREG_pc1_cue_invariance_20260730.md",
+   "md5": "166ba8dae07bf7e774a31e0ace13448d",
+   "bytes": 7717,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_pc1_cue_invariance_20260731.md",
+   "card": "pc1",
+   "house_path": "conversations/2026-07-31/RESULT_pc1_cue_invariance_20260731.md",
+   "md5": "c533dec56622703a5263833514bb2c02",
+   "bytes": 9620,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olmo3_base_bf16_screen_20260729.md",
+   "card": "screen_bf16",
+   "house_path": "conversations/2026-07-29/RESULT_olmo3_base_bf16_screen_20260729.md",
+   "md5": "8a95e51f3f3919c70d3f3d48b4a890e6",
+   "bytes": 9137,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olmo3_behavior_screen_20260728.md",
+   "card": "behavior_screen",
+   "house_path": "conversations/2026-07-28/RESULT_olmo3_behavior_screen_20260728.md",
+   "md5": "44116718d71ec0cf76a1f963cc32ac03",
+   "bytes": 9094,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "ADJUDICATION_f5_v2_effective_20260801.md",
+   "card": "F5",
+   "house_path": "conversations/2026-08-01/ADJUDICATION_f5_v2_effective_20260801.md",
+   "md5": "8a66a1a93a54984e2c146c73890d2c2e",
+   "bytes": 9616,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_cmt5_first_token_fixed_sampling_two_stages_20261020.md",
+   "card": "cmt5",
+   "house_path": "conversations/2026-10-20/PREREG_cmt5_first_token_fixed_sampling_two_stages_20261020.md",
+   "md5": "ce85c32b8688c52d73d3993a03690aec",
+   "bytes": 4056,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_cmt5_first_token_fixed_sampling_two_stages_20261020.md",
+   "card": "cmt5",
+   "house_path": "conversations/2026-10-20/RESULT_cmt5_first_token_fixed_sampling_two_stages_20261020.md",
+   "md5": "a470ac8ed96c83f4a7fca7cd6fd2af51",
+   "bytes": 8347,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_cmt13_blocked_bind_moment_in_thinking_20261021.md",
+   "card": "cmt13",
+   "house_path": "conversations/2026-10-21/PREREG_cmt13_blocked_bind_moment_in_thinking_20261021.md",
+   "md5": "f343e42d2a4e86039d66d25cf5408574",
+   "bytes": 5921,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_cmt13_blocked_bind_moment_in_thinking_20261021.md",
+   "card": "cmt13",
+   "house_path": "conversations/2026-10-21/RESULT_cmt13_blocked_bind_moment_in_thinking_20261021.md",
+   "md5": "d750211238bf0c238438bf48177bb30d",
+   "bytes": 7054,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+   "card": "scope / receipt",
+   "house_path": "conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+   "md5": "fc0862616f40dcc98135433ca4a2152e",
+   "bytes": 14811,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "SCOPE_line1_inference_space_after_olm83_92_20261101.md",
+   "card": "scope / receipt",
+   "house_path": "conversations/2026-11-01/SCOPE_line1_inference_space_after_olm83_92_20261101.md",
+   "md5": "6e469e59c2608cb6f01c4e1d14d31b1f",
+   "bytes": 24696,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "BRIEF_v3_1_moy1_received_version_one_maker_20261106.md",
+   "card": "scope / receipt",
+   "house_path": "conversations/2026-11-06/coread_station2_3/station2_moy1/BRIEF_v3_1_moy1_received_version_one_maker_20261106.md",
+   "md5": "f179199e987f780f645d9090246971d6",
+   "bytes": 5705,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "BRIEF_v3_moy1_receipt_two_makers_20261106.md",
+   "card": "scope / receipt",
+   "house_path": "conversations/2026-11-06/coread_station2_3/station2_moy1/BRIEF_v3_moy1_receipt_two_makers_20261106.md",
+   "md5": "eaaa01fa3b722e37cca9822d9b27396b",
+   "bytes": 8317,
+   "same_as_HEAD": true
+  }
+ ],
+ "cards_not_found": [
+  "PREREG of screen_bf16 (no PREREG file of that name under conversations/; the card is its record RESULT_olmo3_base_bf16_screen_20260729.md)",
+  "PREREG of behavior_screen (no PREREG file of that name under conversations/; the card is its record RESULT_olmo3_behavior_screen_20260728.md)",
+  "PREREG of F5 (no PREREG file of that name under conversations/; the card is its record ADJUDICATION_f5_v2_effective_20260801.md)",
+  "moy_suite_report: a data file without a PREREG / RESULT (its date is git's last commit of the file)"
+ ],
+ "rewrites": [
+  [
+   "check_claims.py",
+   "REPO = pathlib.Path(os.environ.get(\"MOY1_REPO\", \"<repo>\"))",
+   "REPO = pathlib.Path(os.environ.get(\"MOY1_REPO\", pathlib.Path(__file__).resolve().parent / \"data\"))   # bundle: the frozen files are copied under data/ at their repo paths\ndef _git_fact(args):   # bundle: the `git log` answers recorded from the house repo (data/git_facts.json) when REPO is not a git checkout\n    if (REPO / \".git\").exists():\n        import subprocess as _sp\n        return _sp.run([\"git\", \"-C\", str(REPO), *args], capture_output=True, text=True, check=True).stdout\n    _f = json.loads((pathlib.Path(__file__).resolve().parent / \"data\" / \"git_facts.json\").read_text(encoding=\"utf-8\"))\n    return _f[\"answers\"][json.dumps(list(args), separators=(\",\", \":\"), ensure_ascii=False)]",
+   1
+  ],
+  [
+   "check_claims.py",
+   "subprocess.run([\"git\", \"-C\", str(REPO), \"log\", \"-1\", \"--format=%ad\", \"--date=short\", \"--\", rel], capture_output=True, text=True, check=True).stdout.strip()[5:]",
+   "_git_fact([\"log\", \"-1\", \"--format=%ad\", \"--date=short\", \"--\", rel]).strip()[5:]",
+   1
+  ],
+  [
+   "check_claims.py",
+   "subprocess.run([\"git\", \"-C\", str(REPO), \"log\", \"--diff-filter=A\", \"--format=%H\", \"--\", rel], capture_output=True, text=True, check=True).stdout.split()",
+   "_git_fact([\"log\", \"--diff-filter=A\", \"--format=%H\", \"--\", rel]).split()",
+   1
+  ],
+  [
+   "pack_moy1.py",
+   "REPO = Path(os.environ.get(\"MOY1_REPO\", \"<repo>\"))",
+   "REPO = Path(os.environ.get(\"MOY1_REPO\", Path(__file__).resolve().parent / \"data\"))   # bundle: the frozen files are copied under data/ at their repo paths\ndef _git_fact(args):   # bundle: the `git log` answers recorded from the house repo (data/git_facts.json) when REPO is not a git checkout\n    if (REPO / \".git\").exists():\n        import subprocess as _sp\n        return _sp.run([\"git\", \"-C\", str(REPO), *args], capture_output=True, text=True, check=True).stdout\n    _f = json.loads((Path(__file__).resolve().parent / \"data\" / \"git_facts.json\").read_text(encoding=\"utf-8\"))\n    return _f[\"answers\"][json.dumps(list(args), separators=(\",\", \":\"), ensure_ascii=False)]",
+   1
+  ],
+  [
+   "pack_moy1.py",
+   "__import__(\"subprocess\").run([\"git\", \"-C\", str(REPO), \"log\", \"-1\", \"--format=%ad\", \"--date=short\", \"--\", rel], capture_output=True, text=True, check=True).stdout.strip()",
+   "_git_fact([\"log\", \"-1\", \"--format=%ad\", \"--date=short\", \"--\", rel]).strip()",
+   1
+  ],
+  [
+   "pack_moy1.py",
+   "(MOY1_REPO=/path/to/lancedb-rag if the repo is not at <repo>)",
+   "(MOY1_REPO=/path/to/frozen-files; the default is this bundle's data/)",
+   1
+  ],
+  [
+   "pack_after.py",
+   "REPO = Path(os.environ.get(\"MOY1_REPO\", \"<repo>\"))",
+   "REPO = Path(os.environ.get(\"MOY1_REPO\", Path(__file__).resolve().parent / \"data\"))   # bundle: the frozen files are copied under data/ at their repo paths\ndef _git_fact(args):   # bundle: the `git log` answers recorded from the house repo (data/git_facts.json) when REPO is not a git checkout\n    if (REPO / \".git\").exists():\n        import subprocess as _sp\n        return _sp.run([\"git\", \"-C\", str(REPO), *args], capture_output=True, text=True, check=True).stdout\n    _f = json.loads((Path(__file__).resolve().parent / \"data\" / \"git_facts.json\").read_text(encoding=\"utf-8\"))\n    return _f[\"answers\"][json.dumps(list(args), separators=(\",\", \":\"), ensure_ascii=False)]",
+   1
+  ],
+  [
+   "pack_after.py",
+   "subprocess.run([\"git\", \"-C\", str(REPO), \"log\", \"--diff-filter=A\", \"--format=%h\", \"--\", rel], capture_output=True, text=True, check=True).stdout.split()",
+   "_git_fact([\"log\", \"--diff-filter=A\", \"--format=%h\", \"--\", rel]).split()",
+   1
+  ],
+  [
+   "make_check.py",
+   "REPO = pathlib.Path(os.environ.get(\"MOY1_REPO\", \"<repo>\"))",
+   "REPO = pathlib.Path(os.environ.get(\"MOY1_REPO\", HERE / \"data\"))   # bundle: the frozen files are copied under data/",
+   1
+  ],
+  [
+   "make_readme.py",
+   "REPO = pathlib.Path(os.environ.get(\"MOY1_REPO\", \"<repo>\"))",
+   "REPO = pathlib.Path(os.environ.get(\"MOY1_REPO\", HERE / \"data\"))   # bundle: the frozen files are copied under data/",
+   1
+  ],
+  [
+   "make_readme.py",
+   "`MOY1_REPO=/path/to/lancedb-rag` if the repo is not at `<repo>` (the frozen files are read from there; none is copied here)",
+   "`MOY1_REPO=/path/to/frozen-files` to read the frozen files from elsewhere (the default is this bundle's `data/`)",
+   1
+  ],
+  [
+   "make_readme.py",
+   "<w>",
+   "依頼者",
+   2
+  ],
+  [
+   "widget.py",
+   "pathlib.Path(os.environ.get(\"MOY1_REPO\", \"<repo>\"))",
+   "pathlib.Path(os.environ.get(\"MOY1_REPO\", HERE / \"data\"))",
+   2
+  ],
+  [
+   "data.mjs",
+   "import { readFileSync } from \"node:fs\";",
+   "import { readFileSync, existsSync } from \"node:fs\";",
+   1
+  ],
+  [
+   "data.mjs",
+   "const REPO = process.env.MOY1_REPO || \"<repo>\";",
+   "const REPO = process.env.MOY1_REPO || join(HERE, \"data\");   // bundle: the frozen files are copied under data/ at their repo paths\n// bundle: the `git log` answers recorded from the house repo (data/git_facts.json) when REPO is not a git checkout\nconst gitFact = (args) => existsSync(join(REPO, \".git\")) ? execFileSync(\"git\", [\"-C\", REPO, ...args]).toString() : JSON.parse(readFileSync(join(HERE, \"data\", \"git_facts.json\"), \"utf8\")).answers[JSON.stringify(args)];",
+   1
+  ],
+  [
+   "data.mjs",
+   "execFileSync(\"git\", [\"-C\", REPO, \"log\", \"-1\", \"--format=%ad\", \"--date=short\", \"--\", c.file]).toString()",
+   "gitFact([\"log\", \"-1\", \"--format=%ad\", \"--date=short\", \"--\", c.file])",
+   1
+  ],
+  [
+   "data.mjs",
+   "execFileSync(\"git\", [\"-C\", REPO, \"log\", \"--diff-filter=A\", \"--format=%h\", \"--\", c.prereg]).toString()",
+   "gitFact([\"log\", \"--diff-filter=A\", \"--format=%h\", \"--\", c.prereg])",
+   1
+  ],
+  [
+   "run_checks.sh",
+   "PY=${PY:-$HOME/miniforge3/envs/py314/bin/python}",
+   "PY=${PY:-$(command -v python3)}",
+   1
+  ],
+  [
+   "run_checks.sh",
+   "BUN=${BUN:-$HOME/.bun/bin/bun}",
+   "BUN=${BUN:-$(command -v bun)}",
+   1
+  ],
+  [
+   "run_marimo_check.sh",
+   "PY=${PY:-$HOME/miniforge3/envs/py314/bin}",
+   "PY=${PY:-$(dirname \"$(command -v python3)\")}",
+   1
+  ],
+  [
+   "run_marimo_check.sh",
+   "BUN=${BUN:-$HOME/.bun/bin/bun}",
+   "BUN=${BUN:-$(command -v bun)}",
+   1
+  ],
+  [
+   "run_jupyter_check.sh",
+   "PY=${PY:-$HOME/miniforge3/envs/py314/bin}",
+   "PY=${PY:-$(dirname \"$(command -v python3)\")}",
+   1
+  ],
+  [
+   "run_jupyter_check.sh",
+   "BUN=${BUN:-$HOME/.bun/bin/bun}",
+   "BUN=${BUN:-$(command -v bun)}",
+   1
+  ],
+  [
+   "run_jupyter_check.sh",
+   "# This machine's py314 env has",
+   "# The build host's python env had",
+   1
+  ],
+  [
+   "check_fence.py",
+   "WORDS = [\"<w>\", \"<w>\", \"<w>\", \"<w>\", \"<w>\", \"<w>\", \"<w>\", \"<w>\", \"<w>\", \"<w>\", \"<w>\"]",
+   "import os\nWORDS = [w for w in os.environ.get(\"FENCE_WORDS\", \"\").split(\"|\") if w]   # bundle: the internal word list is not shipped; set FENCE_WORDS=\"w1|w2|…\" to arm the fence\nif not WORDS:\n    print(\"fence: FENCE_WORDS not set — the scan is not armed (0 words)\"); sys.exit(0)",
+   1
+  ],
+  [
+   "check_fence.py",
+   "assert len(rx.findall(\"この<w>と<w>\")) == 2 and",
+   "assert len(rx.findall(\"この\" + \"と\".join(WORDS[:2]))) == min(2, len(WORDS)) and",
+   1
+  ],
+  [
+   "make_script.py",
+   "<w>",
+   "依頼者",
+   3
+  ],
+  [
+   "ENTRY_README.md",
+   "<w>",
+   "依頼者",
+   2
+  ],
+  [
+   "ENTRY_README.md",
+   "`MOY1_REPO=/path/to/lancedb-rag` if the repo is not at `<repo>` (the frozen files are read from there; none is copied here)",
+   "`MOY1_REPO=/path/to/frozen-files` to read the frozen files from elsewhere (the default is this bundle's `data/`)",
+   1
+  ],
+  [
+   "NOTES.md",
+   "<w>",
+   "依頼者",
+   4
+  ],
+  [
+   "SCRIPT_yukkuri.md",
+   "regenerated by make_script.py after its rewrite",
+   "SCRIPT_yukkuri.md written: 46 lines · 284.9 s (≤ 285) · core ends at 10.4 s",
+   1
+  ]
+ ],
+ "masks": {
+  "NOTES.md": [
+   [
+    "<scratch>",
+    1
+   ]
+  ],
+  "checks/last_run.txt": [
+   [
+    "<scratch>",
+    1
+   ]
+  ]
+ },
+ "scan": {
+  "BUNDLE_NOTES.md": {
+   "host name": 1
+  },
+  "NOTES.md": {
+   "host name": 3
+  },
+  "README.md": {
+   "host name": 1
+  },
+  "cards/BRIEF_v3_1_moy1_received_version_one_maker_20261106.md": {
+   "home path": 5
+  },
+  "cards/BRIEF_v3_moy1_receipt_two_makers_20261106.md": {
+   "home path": 7
+  },
+  "cards/INDEX_en.md": {
+   "host name": 2
+  },
+  "cards/PREREG_cmt13_blocked_bind_moment_in_thinking_20261021.md": {
+   "host name": 1
+  },
+  "cards/PREREG_cmt5_first_token_fixed_sampling_two_stages_20261020.md": {
+   "host name": 1
+  },
+  "cards/PREREG_olm101_moy1_pointer_or_value_at_final_position_interchange_das_20261101.md": {
+   "host name": 2
+  },
+  "cards/PREREG_olm106_moy1_single_position_interchange_sel_ctl_dem_early_layers_20261101.md": {
+   "host name": 2
+  },
+  "cards/PREREG_olm108_moy1_multi_position_interchange_pointer_to_value_layers_12_32_20261101.md": {
+   "host name": 2
+  },
+  "cards/PREREG_olm112_moy1_apex_status_and_geometric_proof_20261102.md": {
+   "host name": 3
+  },
+  "cards/PREREG_olm114_moy1_frontier_proof_prefix_ladder_20261102.md": {
+   "host name": 3
+  },
+  "cards/PREREG_olm128_moy1_cue_json_start_blocked_bind_20261106.md": {
+   "host name": 1
+  },
+  "cards/PREREG_olm83_moy1_inference_space_lookahead_beyond_lens_and_words_20261031.md": {
+   "host name": 2
+  },
+  "cards/PREREG_olm84_moy1_inference_space_lookahead_logistic_pseudo_null_20261031.md": {
+   "host name": 4
+  },
+  "cards/PREREG_olm85_moy1_inference_space_next_sentence_construction_20261031.md": {
+   "host name": 3
+  },
+  "cards/PREREG_olm86_moy1_inference_space_long_lookahead_fresh_O_20261031.md": {
+   "host name": 2
+  },
+  "cards/PREREG_olm88_moy1_inference_space_outcome_from_first_tokens_20261031.md": {
+   "host name": 4
+  },
+  "cards/PREREG_olm89_moy1_inference_space_k8_lookahead_replication_new_rows_20261031.md": {
+   "host name": 3
+  },
+  "cards/PREREG_olm91_moy1_inference_space_outcome_from_first_tokens_400_rows_20261031.md": {
+   "host name": 3
+  },
+  "cards/PREREG_olm92_moy1_inference_space_k8_surplus_richer_text_baseline_20261101.md": {
+   "host name": 4
+  },
+  "cards/PREREG_olm93_moy1_reference_code_name_to_demonstrative_transfer_20261101.md": {
+   "host name": 4
+  },
+  "cards/PREREG_olm94_moy1_variable_binding_reference_synthetic_prompts_20261101.md": {
+   "host name": 3
+  },
+  "cards/PREREG_olm95_moy1_reference_direction_intervention_at_demonstrative_20261101.md": {
+   "host name": 4
+  },
+  "cards/PREREG_olm97_moy1_reference_logistic_direction_intervention_at_demonstrative_20261101.md": {
+   "host name": 4
+  },
+  "cards/PREREG_olm98_moy1_heads_reading_the_referent_at_final_position_20261101.md": {
+   "host name": 2
+  },
+  "cards/PREREG_prf4_moy12_status_proof_claude_p_20261102.md": {
+   "tmp path": 2,
+   "host name": 2
+  },
+  "cards/RESULT_cmt13_blocked_bind_moment_in_thinking_20261021.md": {
+   "host name": 1
+  },
+  "cards/RESULT_cmt5_first_token_fixed_sampling_two_stages_20261020.md": {
+   "host name": 1
+  },
+  "cards/RESULT_olm101_moy1_pointer_or_value_at_final_position_interchange_das_20261101.md": {
+   "host name": 2
+  },
+  "cards/RESULT_olm106_moy1_single_position_interchange_sel_ctl_dem_early_layers_20261101.md": {
+   "host name": 2
+  },
+  "cards/RESULT_olm108_moy1_multi_position_interchange_pointer_to_value_layers_12_32_20261101.md": {
+   "host name": 3
+  },
+  "cards/RESULT_olm112_moy1_apex_status_and_geometric_proof_20261102.md": {
+   "host name": 1
+  },
+  "cards/RESULT_olm114_moy1_frontier_proof_prefix_ladder_20261102.md": {
+   "host name": 1
+  },
+  "cards/RESULT_olm128_moy1_cue_json_start_blocked_bind_20261106.md": {
+   "host name": 2
+  },
+  "cards/RESULT_olm59_moy1_sae_trajectory_by_construction_mentions_20261028.md": {
+   "host name": 1
+  },
+  "cards/RESULT_olm83_moy1_inference_space_lookahead_beyond_lens_and_words_20261031.md": {
+   "host name": 2
+  },
+  "cards/RESULT_olm84_moy1_inference_space_lookahead_logistic_pseudo_null_20261031.md": {
+   "host name": 2
+  },
+  "cards/RESULT_olm85_moy1_inference_space_next_sentence_construction_20261031.md": {
+   "host name": 3
+  },
+  "cards/RESULT_olm86_moy1_inference_space_long_lookahead_fresh_O_20261031.md": {
+   "host name": 2
+  },
+  "cards/RESULT_olm88_moy1_inference_space_outcome_from_first_tokens_20261031.md": {
+   "host name": 3
+  },
+  "cards/RESULT_olm89_moy1_inference_space_k8_lookahead_replication_new_rows_20261031.md": {
+   "host name": 2
+  },
+  "cards/RESULT_olm91_moy1_inference_space_outcome_from_first_tokens_400_rows_20261031.md": {
+   "host name": 2
+  },
+  "cards/RESULT_olm92_moy1_inference_space_k8_surplus_richer_text_baseline_20261101.md": {
+   "host name": 2
+  },
+  "cards/RESULT_olm93_moy1_reference_code_name_to_demonstrative_transfer_20261101.md": {
+   "host name": 2
+  },
+  "cards/RESULT_olm94_moy1_variable_binding_reference_synthetic_prompts_20261101.md": {
+   "host name": 3
+  },
+  "cards/RESULT_olm95_moy1_reference_direction_intervention_at_demonstrative_20261101.md": {
+   "host name": 2
+  },
+  "cards/RESULT_olm97_moy1_reference_logistic_direction_intervention_at_demonstrative_20261101.md": {
+   "host name": 2
+  },
+  "cards/RESULT_olm98_moy1_heads_reading_the_referent_at_final_position_20261101.md": {
+   "host name": 2
+  },
+  "cards/RESULT_prf4_moy12_status_proof_claude_p_20261102.md": {
+   "host name": 1
+  },
+  "cards/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md": {
+   "host name": 2
+  },
+  "data/conversations/2026-10-28/RESULT_olm59_moy1_sae_trajectory_by_construction_mentions_20261028.md": {
+   "host name": 1
+  },
+  "data/conversations/2026-10-31/RESULT_olm83_moy1_inference_space_lookahead_beyond_lens_and_words_20261031.md": {
+   "host name": 2
+  },
+  "data/conversations/2026-10-31/RESULT_olm84_moy1_inference_space_lookahead_logistic_pseudo_null_20261031.md": {
+   "host name": 2
+  },
+  "data/conversations/2026-10-31/RESULT_olm85_moy1_inference_space_next_sentence_construction_20261031.md": {
+   "host name": 3
+  },
+  "data/conversations/2026-10-31/RESULT_olm86_moy1_inference_space_long_lookahead_fresh_O_20261031.md": {
+   "host name": 2
+  },
+  "data/conversations/2026-10-31/RESULT_olm88_moy1_inference_space_outcome_from_first_tokens_20261031.md": {
+   "host name": 3
+  },
+  "data/conversations/2026-10-31/RESULT_olm89_moy1_inference_space_k8_lookahead_replication_new_rows_20261031.md": {
+   "host name": 2
+  },
+  "data/conversations/2026-10-31/RESULT_olm91_moy1_inference_space_outcome_from_first_tokens_400_rows_20261031.md": {
+   "host name": 2
+  },
+  "data/conversations/2026-11-01/RESULT_olm101_moy1_pointer_or_value_at_final_position_interchange_das_20261101.md": {
+   "host name": 2
+  },
+  "data/conversations/2026-11-01/RESULT_olm106_moy1_single_position_interchange_sel_ctl_dem_early_layers_20261101.md": {
+   "host name": 2
+  },
+  "data/conversations/2026-11-01/RESULT_olm108_moy1_multi_position_interchange_pointer_to_value_layers_12_32_20261101.md": {
+   "host name": 3
+  },
+  "data/conversations/2026-11-01/RESULT_olm92_moy1_inference_space_k8_surplus_richer_text_baseline_20261101.md": {
+   "host name": 2
+  },
+  "data/conversations/2026-11-01/RESULT_olm93_moy1_reference_code_name_to_demonstrative_transfer_20261101.md": {
+   "host name": 2
+  },
+  "data/conversations/2026-11-01/RESULT_olm94_moy1_variable_binding_reference_synthetic_prompts_20261101.md": {
+   "host name": 3
+  },
+  "data/conversations/2026-11-01/RESULT_olm95_moy1_reference_direction_intervention_at_demonstrative_20261101.md": {
+   "host name": 2
+  },
+  "data/conversations/2026-11-01/RESULT_olm97_moy1_reference_logistic_direction_intervention_at_demonstrative_20261101.md": {
+   "host name": 2
+  },
+  "data/conversations/2026-11-01/RESULT_olm98_moy1_heads_reading_the_referent_at_final_position_20261101.md": {
+   "host name": 2
+  },
+  "data/conversations/2026-11-02/RESULT_olm112_moy1_apex_status_and_geometric_proof_20261102.md": {
+   "host name": 1
+  },
+  "data/conversations/2026-11-02/RESULT_olm114_moy1_frontier_proof_prefix_ladder_20261102.md": {
+   "host name": 1
+  },
+  "data/conversations/2026-11-06/RESULT_olm128_moy1_cue_json_start_blocked_bind_20261106.md": {
+   "host name": 2
+  },
+  "data/probes/olmo3-f5-think-prefix/results/f5_runs_F5a-2.json": {
+   "host name": 1
+  },
+  "data/probes/olmo3-f5-think-prefix/results/f5_runs_F5b-1.json": {
+   "host name": 1
+  }
+ },
+ "fence": {
+  "cards/ADJUDICATION_f5_v2_effective_20260801.md": 1,
+  "cards/BRIEF_v3_1_moy1_received_version_one_maker_20261106.md": 2,
+  "cards/BRIEF_v3_moy1_receipt_two_makers_20261106.md": 6,
+  "cards/INDEX_en.md": 2,
+  "cards/PREREG_cmt13_blocked_bind_moment_in_thinking_20261021.md": 1,
+  "cards/PREREG_cmt5_first_token_fixed_sampling_two_stages_20261020.md": 1,
+  "cards/PREREG_moy1_replication_20260728.md": 6,
+  "cards/PREREG_olm101_moy1_pointer_or_value_at_final_position_interchange_das_20261101.md": 5,
+  "cards/PREREG_olm106_moy1_single_position_interchange_sel_ctl_dem_early_layers_20261101.md": 3,
+  "cards/PREREG_olm108_moy1_multi_position_interchange_pointer_to_value_layers_12_32_20261101.md": 4,
+  "cards/PREREG_olm112_moy1_apex_status_and_geometric_proof_20261102.md": 3,
+  "cards/PREREG_olm114_moy1_frontier_proof_prefix_ladder_20261102.md": 2,
+  "cards/PREREG_olm128_moy1_cue_json_start_blocked_bind_20261106.md": 2,
+  "cards/PREREG_olm59_moy1_sae_trajectory_by_construction_mentions_20261028.md": 2,
+  "cards/PREREG_olm62_moy1_mid_rise_vs_math_shift_20261028.md": 1,
+  "cards/PREREG_olm76_moy1_commit_window_before_answer_brace_20261030.md": 1,
+  "cards/PREREG_olm83_moy1_inference_space_lookahead_beyond_lens_and_words_20261031.md": 1,
+  "cards/PREREG_olm84_moy1_inference_space_lookahead_logistic_pseudo_null_20261031.md": 2,
+  "cards/PREREG_olm85_moy1_inference_space_next_sentence_construction_20261031.md": 2,
+  "cards/PREREG_olm86_moy1_inference_space_long_lookahead_fresh_O_20261031.md": 2,
+  "cards/PREREG_olm88_moy1_inference_space_outcome_from_first_tokens_20261031.md": 2,
+  "cards/PREREG_olm89_moy1_inference_space_k8_lookahead_replication_new_rows_20261031.md": 3,
+  "cards/PREREG_olm91_moy1_inference_space_outcome_from_first_tokens_400_rows_20261031.md": 2,
+  "cards/PREREG_olm92_moy1_inference_space_k8_surplus_richer_text_baseline_20261101.md": 2,
+  "cards/PREREG_olm93_moy1_reference_code_name_to_demonstrative_transfer_20261101.md": 10,
+  "cards/PREREG_olm94_moy1_variable_binding_reference_synthetic_prompts_20261101.md": 4,
+  "cards/PREREG_olm95_moy1_reference_direction_intervention_at_demonstrative_20261101.md": 2,
+  "cards/PREREG_olm97_moy1_reference_logistic_direction_intervention_at_demonstrative_20261101.md": 2,
+  "cards/PREREG_olm98_moy1_heads_reading_the_referent_at_final_position_20261101.md": 5,
+  "cards/PREREG_pc1_cue_invariance_20260730.md": 1,
+  "cards/PREREG_prf4_moy12_status_proof_claude_p_20261102.md": 2,
+  "cards/RESULT_cmt13_blocked_bind_moment_in_thinking_20261021.md": 3,
+  "cards/RESULT_cmt5_first_token_fixed_sampling_two_stages_20261020.md": 3,
+  "cards/RESULT_moy1_replication_20260728.md": 5,
+  "cards/RESULT_olm101_moy1_pointer_or_value_at_final_position_interchange_das_20261101.md": 1,
+  "cards/RESULT_olm106_moy1_single_position_interchange_sel_ctl_dem_early_layers_20261101.md": 1,
+  "cards/RESULT_olm108_moy1_multi_position_interchange_pointer_to_value_layers_12_32_20261101.md": 1,
+  "cards/RESULT_olm112_moy1_apex_status_and_geometric_proof_20261102.md": 1,
+  "cards/RESULT_olm114_moy1_frontier_proof_prefix_ladder_20261102.md": 2,
+  "cards/RESULT_olm128_moy1_cue_json_start_blocked_bind_20261106.md": 3,
+  "cards/RESULT_olm59_moy1_sae_trajectory_by_construction_mentions_20261028.md": 2,
+  "cards/RESULT_olm62_moy1_mid_rise_vs_math_shift_20261028.md": 2,
+  "cards/RESULT_olm76_moy1_commit_window_before_answer_brace_20261030.md": 1,
+  "cards/RESULT_olm85_moy1_inference_space_next_sentence_construction_20261031.md": 1,
+  "cards/RESULT_olm86_moy1_inference_space_long_lookahead_fresh_O_20261031.md": 1,
+  "cards/RESULT_olm88_moy1_inference_space_outcome_from_first_tokens_20261031.md": 1,
+  "cards/RESULT_olm89_moy1_inference_space_k8_lookahead_replication_new_rows_20261031.md": 1,
+  "cards/RESULT_olm91_moy1_inference_space_outcome_from_first_tokens_400_rows_20261031.md": 1,
+  "cards/RESULT_olm92_moy1_inference_space_k8_surplus_richer_text_baseline_20261101.md": 1,
+  "cards/RESULT_olm93_moy1_reference_code_name_to_demonstrative_transfer_20261101.md": 3,
+  "cards/RESULT_olm94_moy1_variable_binding_reference_synthetic_prompts_20261101.md": 2,
+  "cards/RESULT_olm95_moy1_reference_direction_intervention_at_demonstrative_20261101.md": 2,
+  "cards/RESULT_olm97_moy1_reference_logistic_direction_intervention_at_demonstrative_20261101.md": 1,
+  "cards/RESULT_olm98_moy1_heads_reading_the_referent_at_final_position_20261101.md": 1,
+  "cards/RESULT_olmo3_base_bf16_screen_20260729.md": 2,
+  "cards/RESULT_olmo3_behavior_screen_20260728.md": 1,
+  "cards/RESULT_pc1_cue_invariance_20260731.md": 2,
+  "cards/RESULT_prf4_moy12_status_proof_claude_p_20261102.md": 1,
+  "cards/SCOPE_line1_inference_space_after_olm83_92_20261101.md": 8,
+  "cards/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md": 8,
+  "data/ConstructGap/exp/olm112/gen.json": 1,
+  "data/conversations/2026-07-28/RESULT_olmo3_behavior_screen_20260728.md": 1,
+  "data/conversations/2026-07-29/RESULT_olmo3_base_bf16_screen_20260729.md": 2,
+  "data/conversations/2026-07-30/PREREG_pc1_cue_invariance_20260730.md": 1,
+  "data/conversations/2026-07-31/RESULT_pc1_cue_invariance_20260731.md": 2,
+  "data/conversations/2026-08-01/ADJUDICATION_f5_v2_effective_20260801.md": 1,
+  "data/conversations/2026-10-27/card_tree_v2/entry_merged_v2_2_1/tree_src.json": 70,
+  "data/conversations/2026-10-28/PREREG_olm59_moy1_sae_trajectory_by_construction_mentions_20261028.md": 2,
+  "data/conversations/2026-10-28/PREREG_olm62_moy1_mid_rise_vs_math_shift_20261028.md": 1,
+  "data/conversations/2026-10-28/RESULT_olm59_moy1_sae_trajectory_by_construction_mentions_20261028.md": 2,
+  "data/conversations/2026-10-28/RESULT_olm62_moy1_mid_rise_vs_math_shift_20261028.md": 2,
+  "data/conversations/2026-10-30/RESULT_olm76_moy1_commit_window_before_answer_brace_20261030.md": 1,
+  "data/conversations/2026-10-31/RESULT_olm85_moy1_inference_space_next_sentence_construction_20261031.md": 1,
+  "data/conversations/2026-10-31/RESULT_olm86_moy1_inference_space_long_lookahead_fresh_O_20261031.md": 1,
+  "data/conversations/2026-10-31/RESULT_olm88_moy1_inference_space_outcome_from_first_tokens_20261031.md": 1,
+  "data/conversations/2026-10-31/RESULT_olm89_moy1_inference_space_k8_lookahead_replication_new_rows_20261031.md": 1,
+  "data/conversations/2026-10-31/RESULT_olm91_moy1_inference_space_outcome_from_first_tokens_400_rows_20261031.md": 1,
+  "data/conversations/2026-11-01/RESULT_olm101_moy1_pointer_or_value_at_final_position_interchange_das_20261101.md": 1,
+  "data/conversations/2026-11-01/RESULT_olm106_moy1_single_position_interchange_sel_ctl_dem_early_layers_20261101.md": 1,
+  "data/conversations/2026-11-01/RESULT_olm108_moy1_multi_position_interchange_pointer_to_value_layers_12_32_20261101.md": 1,
+  "data/conversations/2026-11-01/RESULT_olm92_moy1_inference_space_k8_surplus_richer_text_baseline_20261101.md": 1,
+  "data/conversations/2026-11-01/RESULT_olm93_moy1_reference_code_name_to_demonstrative_transfer_20261101.md": 3,
+  "data/conversations/2026-11-01/RESULT_olm94_moy1_variable_binding_reference_synthetic_prompts_20261101.md": 2,
+  "data/conversations/2026-11-01/RESULT_olm95_moy1_reference_direction_intervention_at_demonstrative_20261101.md": 2,
+  "data/conversations/2026-11-01/RESULT_olm97_moy1_reference_logistic_direction_intervention_at_demonstrative_20261101.md": 1,
+  "data/conversations/2026-11-01/RESULT_olm98_moy1_heads_reading_the_referent_at_final_position_20261101.md": 1,
+  "data/conversations/2026-11-01/SCOPE_line1_inference_space_after_olm83_92_20261101.md": 8,
+  "data/conversations/2026-11-02/RESULT_olm112_moy1_apex_status_and_geometric_proof_20261102.md": 1,
+  "data/conversations/2026-11-02/RESULT_olm114_moy1_frontier_proof_prefix_ladder_20261102.md": 2,
+  "data/conversations/2026-11-06/RESULT_olm128_moy1_cue_json_start_blocked_bind_20261106.md": 3,
+  "data/probes/olmo3-pc1-cue-invariance/results/pc1_runs.json": 1,
+  "skill/SKILL.md": 1
+ },
+ "public_prompt": {
+  "tag": "v1.0.1",
+  "files": {
+   "probe_registry.py": "a47fd39bedee3e37a038d9feb6ef0603",
+   "prompts.py": "abf43cfcbe92a63e495b0ab626b46a77"
+  }
+ },
+ "skill": {
+  "commit": "674b789f",
+  "files": 36,
+  "SKILL.md_md5": "1f76664d2a856df62e747930ccd6a94a"
+ },
+ "fence_summary": {
+  "words": "check_fence.py's original list (11) ∪ PROCEDURE C1 (5) = 13 words (case-insensitive; the list is not shipped)",
+  "by_zone": {
+   "cards": {
+    "files": 60,
+    "hits": 146
+   },
+   "data": {
+    "files": 31,
+    "hits": 119
+   },
+   "skill": {
+    "files": 1,
+    "hits": 1
+   }
+  }
+ }
+}

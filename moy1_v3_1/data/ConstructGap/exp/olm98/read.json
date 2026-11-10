@@ -1,0 +1,108 @@
+{
+ "prov": {
+  "utc": "2026-11-01T06:00:21+00:00",
+  "commit": "8ecc55cd",
+  "dirty": false,
+  "card": "olm98",
+  "script_md5": "ccc8340a45de0d2f57ceced3fd9429c0",
+  "prereg_md5": "7fe167d76cb09e5d5af5b3b33d8f8fa3"
+ },
+ "controls": {
+  "C0_margin_within": 640,
+  "C0_n": 640,
+  "C0_max": 0.125,
+  "C0_ok": true,
+  "C0b_max_rel": 0.002936904551461339,
+  "C0b_ok": true,
+  "C1_all_heads_flip": 1.0,
+  "C1_ok": true,
+  "C2_rand_median_abs": 0.0625,
+  "C2_ok": true
+ },
+ "Q1_top_heads_read_ref_name": {
+  "n": 310,
+  "ratio_median": 2.371060848236084,
+  "diff_median": 2.023477077484131,
+  "diff_boot_lo": 1.9313912391662598,
+  "share_by_span_median": {
+   "ref_name": 0.35024529695510864,
+   "oth_name": 0.14770260453224182,
+   "dem": 0.00305419834330678,
+   "sel": 0.0060097514651715755,
+   "ctl": 0.00080217479262501,
+   "v_letters": 0.00796588696539402,
+   "self": 0.011588850989937782,
+   "rest": 0.46854138374328613
+  },
+  "pass": true
+ },
+ "Q2_patch_top_heads": {
+  "e_top_median": 2.1875,
+  "e_top_boot_lo": 2.0625,
+  "top_minus_rand_median": 2.109375,
+  "top_minus_rand_boot_lo": 2.0208333333333335,
+  "e_bottom_median": -1.78125,
+  "e_rand_median": [
+   -0.0625,
+   0.21875,
+   0.0
+  ],
+  "flip_top": 0.5129032258064516,
+  "pass": true
+ },
+ "Q3_top_heads": [
+  {
+   "head": "L57H33",
+   "median_dla_train": 1.086173176765442
+  },
+  {
+   "head": "L34H2",
+   "median_dla_train": 0.3127487897872925
+  },
+  {
+   "head": "L50H23",
+   "median_dla_train": 0.2433069944381714
+  },
+  {
+   "head": "L35H37",
+   "median_dla_train": 0.22590769827365875
+  },
+  {
+   "head": "L52H26",
+   "median_dla_train": 0.2166997790336609
+  },
+  {
+   "head": "L51H19",
+   "median_dla_train": 0.18645331263542175
+  },
+  {
+   "head": "L27H11",
+   "median_dla_train": 0.184642031788826
+  },
+  {
+   "head": "L27H14",
+   "median_dla_train": 0.18121184408664703
+  },
+  {
+   "head": "L51H4",
+   "median_dla_train": 0.1768450289964676
+  },
+  {
+   "head": "L60H30",
+   "median_dla_train": 0.13507145643234253
+  }
+ ],
+ "Q4_cmt13_overlap": [
+  "L50H23",
+  "L51H19",
+  "L51H4",
+  "L52H26",
+  "L57H33"
+ ],
+ "Q5_head_reading_dem_most": {
+  "head": "L13H30",
+  "mean_att_dem": 0.9317348599433899,
+  "median_dla_train": 0.0006440593861043453,
+  "rank_by_dla": 312
+ }
+}

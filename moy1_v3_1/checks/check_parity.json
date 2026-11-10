@@ -1,0 +1,10 @@
+[
+ [
+  "wait",
+  1500
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, root = document.querySelector('.sh'), num = (s) => (s.match(/-?\\d+(?:[.,]\\d+)?/g) || []).map((x) => x.replace(',', '')).sort().join(' '), bad = [];\n  for (let n = 0; n < api.nstate; n++) { api.goto(n, {instant: true, silent: true}); const get = (lang) => { api.setLang(lang, true); api.redraw(); return {readout: num(root.querySelector('[data-readout]').textContent.replace(/^.*?(?=\\d)/, '')), chips: [...root.querySelectorAll('.sh-chip')].map((c) => num(c.querySelector('.v').textContent)).join(' | ')}; };\n    const ja = get('ja'), en = get('en'); if (ja.chips !== en.chips) bad.push(['chips', n, ja.chips, en.chips]); }\n  // the control of the comparison itself: ja's cards of one state against en's cards of another state must DIFFER (a check that cannot tell them apart would pass everything)\n  api.goto(4, {instant: true, silent: true}); api.setLang('ja', true); api.redraw(); const a4 = [...root.querySelectorAll('.sh-chip .v')].map((c) => num(c.textContent)).join(' | ');\n  api.goto(9, {instant: true, silent: true}); api.setLang('en', true); api.redraw(); const b9 = [...root.querySelectorAll('.sh-chip .v')].map((c) => num(c.textContent)).join(' | ');\n  if (a4 === b9) throw new Error('parity control failed: different states compare equal'); \n  api.goto(0, {instant: true, silent: true}); api.setLang('ja', true);\n  const out = {parity_ok: bad.length === 0, control_differs: a4 !== b9, bad}; if (bad.length) throw new Error('parity: ' + JSON.stringify(out).slice(0, 1200)); return JSON.stringify(out); })()"
+ ]
+]

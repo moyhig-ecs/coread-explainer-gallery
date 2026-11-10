@@ -1,0 +1,98 @@
+{
+ "prov": {
+  "utc": "2026-10-28T13:21:10+00:00",
+  "commit": "b0c690fa",
+  "dirty": false,
+  "card": "olm64",
+  "script_md5": "12ee1d4c399c1ca7f2cb1102e8daed58",
+  "prereg_md5": "9d661000b8dde2af2d7649dc555f2e52",
+  "olm4_read_md5": "dc9de1d430fc3a4f9138a9d5a87146ad"
+ },
+ "n_rows": 40,
+ "half": 32,
+ "n_rand": 2000,
+ "Q1_P5B_lat_L32": {
+  "n": 13,
+  "up": 11,
+  "median_delta": 1.0891523361206055,
+  "null_median_p95": 0.17651976644992828,
+  "null_rank_frac": 0.0
+ },
+ "Q2_P5_fd_L32": {
+  "n": 15,
+  "up": 7,
+  "median_delta": -0.20986007153987885,
+  "null_median_p95": 0.24880068004131317,
+  "null_rank_frac": 0.9175
+ },
+ "Q3_apex_minus_floor_L32": {
+  "nA": 13,
+  "nB": 15,
+  "diff": 0.35080718994140625,
+  "null_p95": 0.3645158112049103,
+  "null_rank_frac": 0.0555
+ },
+ "Q1_P5B_lat_L48": {
+  "n": 13,
+  "up": 9,
+  "median_delta": 1.4808316230773926,
+  "null_median_p95": 0.22356589138507843,
+  "null_rank_frac": 0.0
+ },
+ "Q2_P5_fd_L48": {
+  "n": 15,
+  "up": 7,
+  "median_delta": -0.32592645287513733,
+  "null_median_p95": 0.302577942609787,
+  "null_rank_frac": 0.959
+ },
+ "Q3_apex_minus_floor_L48": {
+  "nA": 13,
+  "nB": 15,
+  "diff": -0.3695850372314453,
+  "null_p95": 0.4603082835674286,
+  "null_rank_frac": 0.918
+ },
+ "desc_by_model": {
+  "Q1_P5B_lat_L32|opus-5-5": {
+   "n": 9,
+   "up": 8,
+   "median_delta": 1.6450358629226685
+  },
+  "Q1_P5B_lat_L32|fable-5-1": {
+   "n": 4,
+   "up": 3,
+   "median_delta": 0.6489995718002319
+  },
+  "Q1_P5B_lat_L48|opus-5-5": {
+   "n": 9,
+   "up": 7,
+   "median_delta": 1.4808316230773926
+  },
+  "Q1_P5B_lat_L48|fable-5-1": {
+   "n": 4,
+   "up": 2,
+   "median_delta": 0.41574931144714355
+  },
+  "Q2_P5_fd_L32|opus-5-5": {
+   "n": 10,
+   "up": 4,
+   "median_delta": -0.22251048684120178
+  },
+  "Q2_P5_fd_L32|fable-5-1": {
+   "n": 5,
+   "up": 3,
+   "median_delta": 0.625184953212738
+  },
+  "Q2_P5_fd_L48|opus-5-5": {
+   "n": 10,
+   "up": 3,
+   "median_delta": -0.4706149697303772
+  },
+  "Q2_P5_fd_L48|fable-5-1": {
+   "n": 5,
+   "up": 4,
+   "median_delta": 1.0356559753417969
+  }
+ }
+}

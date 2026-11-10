@@ -1,0 +1,62 @@
+{
+ "prov": {
+  "utc": "2026-10-29T05:39:51+00:00",
+  "commit": "4729c23e",
+  "dirty": false,
+  "card": "olm67",
+  "script_md5": "da9c0c88e5d6980f11ecfcbe444e0c79",
+  "prereg_md5": "e835656f2e8a4b31f34eba170df9a8e4",
+  "device": "mps",
+  "collect_md5": "7eaaf2a98310bbd538a9a596f4c879b7",
+  "olm64_runner_md5": "12ee1d4c399c1ca7f2cb1102e8daed58",
+  "olm60_runner_md5": "23c0e5f401197359c197bbc7aa3d2493"
+ },
+ "C1_lens": {
+  "all": {
+   "n_rows": 893,
+   "lens_med": 0.7062194347381592,
+   "ident_med": 0.5126937627792358,
+   "rows_lens_gt_ident": 893
+  },
+  "opus": {
+   "n_rows": 422,
+   "lens_med": 0.7062370777130127,
+   "ident_med": 0.5135250091552734,
+   "rows_lens_gt_ident": 422
+  },
+  "fable": {
+   "n_rows": 471,
+   "lens_med": 0.7062124609947205,
+   "ident_med": 0.5118637084960938,
+   "rows_lens_gt_ident": 471
+  }
+ },
+ "C2_events": {
+  "located": {
+   "cut": {
+    "n": 366,
+    "located": 366
+   },
+   "floor_only": {
+    "n": 527,
+    "located": 527
+   }
+  },
+  "round_trip": "893 / 893"
+ },
+ "C3_direction": {
+  "norm32": 19.647140502929688,
+  "olm4": 19.647140502929688,
+  "ok": true
+ },
+ "C4_lookahead_k1": {
+  "n": 192,
+  "median_u_w_minus_1": 0.9937849938869476
+ },
+ "pass": {
+  "C1": true,
+  "C2": true,
+  "C3": true,
+  "C4": true
+ }
+}

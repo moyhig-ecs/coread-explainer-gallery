@@ -1,0 +1,133 @@
+/* figure.css — everything that is not the Anatomy kit's own sheet (template). Scoped to .sh so it can live inside a notebook cell. No colour literal except the two series tints; the kit's variables otherwise. */
+.sh{--fig-a:var(--anatomy-blue);--fig-b:#ff9d47;--fig-amber:#ffbf47}
+.sh[data-theme="light"]{--fig-b:#e07b16;--fig-amber:#d98a00}
+.sh,.sh *{box-sizing:border-box}
+.sh{display:block;position:relative;background:var(--anatomy-page);color:var(--anatomy-text);font:14px/1.6 ui-sans-serif,system-ui,-apple-system,"Hiragino Sans","Noto Sans JP",sans-serif;padding:20px 16px 12px;outline:none;text-align:left;color-scheme:dark}
+.sh[data-theme="light"]{color-scheme:light}
+.sh button{font:inherit;color:inherit}
+.sh .iso-figure{margin:0}.sh .iso-svg{overflow:hidden;width:100%;height:auto}.sh .iso-plate{padding:46px 18px 40px}
+.sh-head{display:flex;flex-direction:column;gap:6px;margin:0 0 14px}.sh-krow{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}
+.sh-kicker{font:600 11.5px/1 var(--anatomy-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--anatomy-muted)}
+.sh-q{margin:0;font:700 clamp(21px,2.5vw,30px)/1.32 ui-sans-serif,system-ui,sans-serif;color:var(--anatomy-strong)}
+.sh-lead{margin:0;font-size:15.5px;line-height:1.7;max-width:74ch}
+.sh-corner2{display:block;margin-top:6px;color:var(--anatomy-muted);max-width:56ch;white-space:normal;text-align:right;line-height:1.35}
+.sh .iso-plate-corner[data-corner="title"]{text-align:right}.sh .iso-plate-corner[data-corner="readout"]{white-space:normal;text-align:right;max-width:min(70%,640px);line-height:1.4}
+/* controls: the chapter buttons above the numbered steps (the numbers are grouped by chapter: a gap and a hairline, no colour per chapter) */
+.sh-bar,.sh-chaps{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center;margin:14px 0 4px}
+.sh-steps{display:flex;gap:4px;flex-wrap:wrap}.sh-stepgrp{display:inline-flex;gap:4px;padding-right:10px;margin-right:6px;border-right:1px solid var(--anatomy-lo)}.sh-stepgrp:last-child{border-right:0;margin-right:0;padding-right:0}
+.sh-btn{appearance:none;background:transparent;border:1px solid var(--anatomy-lo);border-radius:5px;min-width:34px;height:32px;padding:0 10px;cursor:pointer;font:600 12.5px/1 var(--anatomy-mono);color:var(--anatomy-text)}
+.sh-btn[aria-current="step"],.sh-btn[aria-pressed="true"]{border-color:var(--anatomy-strong);color:var(--anatomy-strong);background:var(--anatomy-faint)}
+.sh-chaps .sh-btn{font-family:inherit;font-weight:600;padding:0 14px}
+/* cards, legend, limits */
+.sh-panel{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin:14px 0 0}
+.sh-chip{border:1px dashed var(--anatomy-lo);border-radius:6px;padding:8px 12px;background:var(--anatomy-faint)}
+.sh-chip .k{display:block;font:600 11.5px/1.3 var(--anatomy-mono);color:var(--anatomy-muted)}.sh-chip .v{display:block;font:700 22px/1.3 ui-sans-serif,system-ui,sans-serif;color:var(--anatomy-strong)}.sh-chip .s{display:block;font-size:13px;color:var(--anatomy-muted)}
+.sh-chip[data-tone="a"] .v{color:var(--fig-a)}.sh-chip[data-tone="b"] .v{color:var(--fig-b)}
+.sh-strip{margin-top:12px;display:flex;flex-direction:column;gap:6px;font-size:13px;color:var(--anatomy-muted)}
+.sh-keys{display:flex;flex-wrap:wrap;gap:3px 18px;font:600 12.5px var(--anatomy-mono);color:var(--anatomy-text)}.sh-key{display:inline-flex;align-items:center;gap:6px}.sh-key .sw{display:inline-block;width:22px;height:0;border-top:3px solid var(--anatomy-mid)}
+.sh-key .sw-a{border-top-color:var(--fig-a)}.sh-key .sw-b{border-top-color:var(--fig-b)}.sh-key .sw-fog{height:10px;border:0;background:var(--anatomy-faint)}.sh-key .sw-fp{border-top:2px dashed var(--anatomy-text)}
+.sh-lim{color:var(--anatomy-muted)}.sh-lim b{color:var(--fig-amber)}
+.sh-foot{margin-top:10px;font-size:12px;color:var(--anatomy-muted)}
+/* the picture */
+.fig-floor{fill:var(--anatomy-faint);stroke:var(--anatomy-lo);stroke-width:1}.fig-wall{fill:none;stroke:var(--anatomy-lo);stroke-width:1}
+.fig-plate{fill:var(--anatomy-faint);fill-opacity:.35;stroke:var(--anatomy-lo);stroke-width:.8}.fig-plate.band{fill-opacity:.7;stroke:var(--anatomy-mid)}
+.fig-fog{fill:var(--anatomy-mid);fill-opacity:.25;stroke:none}
+.fig-stem{fill:none;stroke-width:1.2}.fig-stem.a,.fig-trace.a{stroke:var(--fig-a)}.fig-stem.b,.fig-trace.b{stroke:var(--fig-b)}.fig-trace{fill:none;stroke-width:1.6}
+.fig-dot{stroke:none}.fig-dot.a{fill:var(--fig-a)}.fig-dot.b{fill:var(--fig-b)}
+.fig-face{fill:none;stroke:var(--anatomy-text);stroke-width:.9;stroke-dasharray:4 3}
+.fig-tag{font:600 11px var(--anatomy-mono);fill:var(--anatomy-text);paint-order:stroke;stroke:var(--anatomy-card);stroke-width:3px;stroke-linejoin:round}
+.fig-tag.muted{fill:var(--anatomy-muted)}.fig-tag.title{fill:var(--anatomy-strong);font-weight:700}
+.fig-h{font:700 16px ui-sans-serif,system-ui,sans-serif;fill:var(--anatomy-strong)}.fig-c{font:15px ui-sans-serif,system-ui,sans-serif;fill:var(--anatomy-text)}.fig-m{font:14px ui-sans-serif,system-ui,sans-serif;fill:var(--anatomy-muted)}
+.fig-bar.a{fill:var(--fig-a)}.fig-bar.b{fill:var(--fig-b)}
+/* the phone: the canvas is cropped to the picture in figure.js and the text is set larger here (the plate is ~366 px wide); this block must come AFTER the base rules above (same specificity, the later one wins) */
+@media (max-width:560px){
+  .fig-tag{font-size:25px}.fig-h{font-size:25px}.fig-c{font-size:24px}.fig-m{font-size:23px}
+  /* the plate takes the whole width; the kit's four corner texts become a column above it (they are absolutely placed on a desk) */
+  .sh{padding:14px 10px 10px}.sh .iso-plate{padding:14px 6px 10px}
+  .sh .iso-plate-corners{position:static;display:grid;gap:3px;margin:0 0 8px;padding:0 4px}.sh .iso-plate-corner{position:static}
+  .sh .iso-plate-corner[data-corner="hint"]{display:none}
+  .sh .iso-plate-corner[data-corner="title"],.sh .iso-plate-corner[data-corner="readout"]{text-align:left;max-width:none;white-space:normal}
+  .sh .iso-plate-corner[data-corner="readout"]{color:var(--anatomy-strong);order:5;margin-top:4px}.sh-corner2{display:none}
+}
+.sh[data-video="1"] .fig-tag{font-size:13.5px}
+.sh .fig-ledger{display:none}.sh[data-mode="ledger"] .fig-ledger{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}.sh[data-mode="ledger"] .fig-svg{display:none}
+.fig-ledger section{border:1px solid var(--anatomy-lo);border-radius:6px;padding:8px 12px}.fig-ledger h3{margin:0 0 6px;font-size:14px}.fig-ledger article{margin:6px 0;font-size:14px}.fig-ledger .src{display:block;font:12px var(--anatomy-mono);color:var(--anatomy-muted)}
+.sh[data-video="1"]{display:flex;flex-direction:column;height:100vh;overflow:hidden;padding:12px 24px 10px}.sh[data-video="1"] .iso-svg{flex:1 1 auto;min-height:0;height:auto}.sh[data-video="1"] .sh-bar,.sh[data-video="1"] .sh-chaps,.sh[data-video="1"] .sh-lead,.sh[data-video="1"] .sh-foot{display:none}
+
+/* ---- moy-5: the plane text (sizes are set per frame by figure.js as an attribute; no CSS font-size here so that the phone rule above does not touch them) */
+.pl{font-family:ui-sans-serif,system-ui,-apple-system,"Hiragino Sans","Noto Sans JP",sans-serif;fill:var(--anatomy-text);paint-order:stroke;stroke:var(--anatomy-card);stroke-width:2.5px;stroke-linejoin:round}
+.pl.strong{fill:var(--anatomy-strong)}.pl.muted{fill:var(--anatomy-muted)}.pl.h{fill:var(--anatomy-strong)}.pl.blue,.pl.h.apex{fill:var(--fig-a)}.pl.h.desc{fill:var(--fig-b)}.pl.h.floor{fill:var(--anatomy-hi)}
+.pl.quote{fill:var(--anatomy-strong);font-family:var(--anatomy-mono)}.pl.cptl{fill:var(--anatomy-muted);font-family:var(--anatomy-mono)}.pl.cptl.on{fill:var(--anatomy-strong);font-weight:700}.pl.cptl.dim{fill:var(--anatomy-lo)}
+.pl.link{text-decoration:underline;text-decoration-color:var(--anatomy-lo)}
+/* the unit chart: one dot = one answer */
+.dt{stroke-width:1.6}.dt.dA{fill:var(--fig-a);stroke:none}.dt.dR{fill:none;stroke:var(--fig-a)}.dt.dF{fill:var(--anatomy-mid);stroke:none}.dt.dN{fill:none;stroke:var(--anatomy-lo)}.dt.dX{fill:none;stroke:var(--anatomy-text);stroke-width:1.5}.dt.dZ{fill:none;stroke:var(--anatomy-mid);stroke-dasharray:2 2}
+.dt.hl{fill:none;stroke:var(--anatomy-strong);stroke-width:1.2}
+.mk{fill:none;stroke-width:2.6}.mk.vmk{stroke:var(--fig-b)}
+.pathline{fill:none;stroke:var(--anatomy-mid);stroke-width:1.3}.pathline.cc{stroke-dasharray:6 4}.pathline.local{stroke-dasharray:1.5 3.5;stroke-linecap:round}
+.strip .hit,.mapgrp .hit{fill:transparent;stroke:none}.mapgrp{cursor:pointer}.mapgrp:hover .pl.h{fill:var(--fig-a)}
+/* the answer board (two slabs) */
+.slab{stroke-width:1.2;fill:var(--anatomy-face)}.slab.floor{stroke:var(--anatomy-mid)}.slab.apex{stroke:var(--fig-a);stroke-width:2}.slab.empty{stroke:var(--anatomy-mid);stroke-dasharray:5 4;fill:none}.slab.locus{stroke:var(--anatomy-mid);stroke-dasharray:2 3}
+.slab.degen{stroke:var(--anatomy-mid);fill:url(#hatch)}.slab.desc{stroke:var(--fig-b);stroke-width:2}
+.card{fill:var(--anatomy-faint);fill-opacity:.45;stroke:var(--anatomy-lo);stroke-dasharray:4 3}
+/* the construction on the drafting board */
+.cons{fill:none;stroke:var(--anatomy-mid);stroke-width:1.15}.cons.thin{stroke:var(--anatomy-lo);stroke-width:.9}.cons.circ{stroke:var(--anatomy-mid)}
+.cpt{fill:var(--anatomy-mid)}.cpt.on{fill:var(--anatomy-strong)}.cpt.dim{fill:var(--anatomy-lo)}
+.screw{fill:var(--anatomy-dot);opacity:.55}
+/* stations and roads, the ladder */
+.tint{stroke:none;fill-opacity:.38}.tint.side{fill-opacity:.22}.tint.t-apex{fill:var(--fig-a)}.tint.t-desc{fill:var(--fig-b)}
+.iso-line[data-tone="orange"]{stroke:var(--fig-b)}
+.road{stroke:none}.road.fd{fill:var(--anatomy-mid);fill-opacity:.55}.road.mp{fill:var(--fig-a);fill-opacity:.55}.road.mpq{fill:var(--fig-a);fill-opacity:.3}
+.frame{fill:none;stroke:var(--fig-a);stroke-width:1.2;stroke-dasharray:4 3}
+.tbar.lo{fill:var(--anatomy-mid)}.tbar.blue{fill:var(--fig-a)}
+/* legend swatches */
+.sh-key .sw-A,.sh-key .sw-R,.sh-key .sw-F,.sh-key .sw-N,.sh-key .sw-E,.sh-key .sw-C,.sh-key .sw-L,.sh-key .sw-S,.sh-key .sw-D,.sh-key .sw-M,.sh-key .sw-Z,.sh-key .sw-hl,.sh-key .sw-cfocus,.sh-key .sw-cfocus2,.sh-key .sw-cpt{width:12px;height:12px;border:0;border-radius:50%}
+.sh-key .sw-A{background:var(--fig-a)}.sh-key .sw-R,.sh-key .sw-L{border:2px solid var(--fig-a)}.sh-key .sw-C,.sh-key .sw-S{border:2px solid var(--fig-a);background:radial-gradient(circle,var(--fig-a) 32%,transparent 36%)}
+.sh-key .sw-F,.sh-key .sw-E,.sh-key .sw-D{background:var(--anatomy-mid);transform:scale(.7)}.sh-key .sw-N{border:2px solid var(--anatomy-lo)}.sh-key .sw-Z{border:2px dashed var(--anatomy-mid)}.sh-key .sw-hl{border:1.5px solid var(--anatomy-strong)}
+.sh-key .sw-M{border-radius:0;background:linear-gradient(45deg,transparent 44%,var(--anatomy-text) 46%,var(--anatomy-text) 54%,transparent 56%),linear-gradient(-45deg,transparent 44%,var(--anatomy-text) 46%,var(--anatomy-text) 54%,transparent 56%)}
+.sh-key .sw-cfocus,.sh-key .sw-cfocus2{background:var(--anatomy-strong)}.sh-key .sw-cpt{background:var(--anatomy-mid);transform:scale(.7)}
+.sh-key .sw-api{border-top:2px solid var(--anatomy-mid)}.sh-key .sw-cc{border-top:2px dashed var(--anatomy-mid)}.sh-key .sw-loc{border-top:2px dotted var(--anatomy-mid)}
+.sh-key .sw-vmark{border-top:3px solid var(--fig-b)}.sh-key .sw-bfloor{height:10px;border:1.5px solid var(--anatomy-mid)}.sh-key .sw-bapex{height:10px;border:2px solid var(--fig-a)}.sh-key .sw-blocus{height:10px;border:1.5px dotted var(--anatomy-mid)}
+.sh-key .sw-bdegen{height:10px;border:1.5px solid var(--anatomy-mid);background:repeating-linear-gradient(45deg,var(--anatomy-lo) 0 2px,transparent 2px 5px)}
+.sh-key .sw-sfloor{height:10px;background:var(--anatomy-mid)}.sh-key .sw-sapex{height:10px;background:var(--fig-a)}.sh-key .sw-sdesc{height:10px;background:var(--fig-b)}
+.sh-key .sw-lans{height:10px;background:var(--fig-a)}.sh-key .sw-lwhole{height:10px;border:1.5px dashed var(--fig-a)}
+.sh-chip[data-tone="floor"] .v{color:var(--anatomy-hi)}
+.sh-lim-all{color:var(--anatomy-muted);font-size:12px}
+.sh[data-video="1"] .sh-notclaimed{font-size:12px}
+.hatch-bg{fill:var(--anatomy-face)}.hatch-ln{stroke:var(--anatomy-lo);stroke-width:1.6}
+.sh[data-video="1"]{height:calc(100vh - 16px)}
+.sh[data-video="1"] .fig-ledger{gap:8px}.sh[data-video="1"] .fig-ledger section{padding:4px 10px}.sh[data-video="1"] .fig-ledger h3{font-size:13px;margin:0 0 2px}.sh[data-video="1"] .fig-ledger article{font-size:12.5px;margin:3px 0;line-height:1.38}.sh[data-video="1"] .fig-ledger .src{font-size:11px}
+.sh[data-video="1"] .iso-svg{height:calc(100vh - 430px);width:100%}
+
+/* sh-nav: 10-28 夜 主 session(先生の依頼「ボタンを押すとページの嵩の違いで見失うので、上下移動のない上の方に移動」)。
+   章と状態の button を見出しより上に置く = 見出しの文の長さで上下に動かない。頁(.iso-page の中)では sticky で画面の上に留める。動画の枠では隠す。 */
+.sh-nav{margin:0 0 12px}.sh-nav .sh-chaps{margin:0 0 6px}.sh-nav .sh-bar{margin:0}
+@media (min-width:561px){.iso-page .sh-nav{position:sticky;top:0;z-index:30;background:var(--anatomy-page);margin:-20px -16px 12px;padding:10px 16px 8px;border-bottom:1px solid var(--anatomy-lo)}}
+.sh[data-video="1"] .sh-nav{display:none}
+
+/* ---- v2 (station 3, 11-06): the summary road per cue (state 4), the cards after 10-28 (chapter J), the next questions (chapter K). No new colour: blue = the apex / cut (as everywhere), greys from the kit, the hatch pattern = "added after 10-28". */
+.rd-n{fill:none;stroke:var(--anatomy-lo);stroke-width:1}.rd-w{fill:var(--fig-a);fill-opacity:.32}.rd-a{fill:var(--fig-a)}.rd-x{fill:url(#hatch);stroke:var(--fig-a);stroke-width:.8}.rd-g{fill:var(--anatomy-mid);fill-opacity:.55}.rd-w2{fill:var(--anatomy-mid);fill-opacity:.4}
+.frozen-line{fill:none;stroke:var(--anatomy-strong);stroke-width:2}
+.road-row,.flow-q,.flow-grp,.n4{cursor:pointer}.road-row .hit,.flow-q .hit,.flow-grp .hit{fill:transparent;stroke:none}.road-row:hover .pl.strong,.flow-grp:hover .pl.h{fill:var(--fig-a)}
+.pm{stroke-width:1.5}.pm-v{fill:var(--fig-a);stroke:var(--fig-a)}.pm-g{fill:none;stroke:var(--anatomy-mid);stroke-dasharray:2 1.5}.pm-d{fill:var(--anatomy-face);stroke:var(--anatomy-mid)}.pm-c{fill:var(--anatomy-face);stroke:var(--fig-a)}.pm-x{fill:var(--anatomy-face);stroke:var(--anatomy-mid)}.pm-xl{stroke:var(--anatomy-strong);stroke-width:1.2;fill:none}.posthoc-line{stroke:var(--anatomy-strong);stroke-width:1.6;stroke-dasharray:3 2.5;fill:none}
+.grade{fill:var(--anatomy-face);stroke:var(--anatomy-mid);stroke-width:1}.grade.g-判定{stroke:var(--fig-a);stroke-width:1.6}.grade.g-言えない{fill:url(#hatch)}.grade.g-gate{stroke-dasharray:3 2}
+.after-band{fill:none;stroke:var(--anatomy-mid);stroke-width:1.4;stroke-dasharray:7 4}.after-tab{fill:url(#hatch);stroke:var(--anatomy-mid);stroke-width:1}
+.next-band{fill:none;stroke:var(--anatomy-lo);stroke-width:1.2;stroke-dasharray:1.5 4;stroke-linecap:round}
+.chip{fill:var(--anatomy-face);stroke:var(--anatomy-lo)}.chip.chip-verdict{stroke:var(--fig-a)}.chip.chip-gate{stroke-dasharray:3 2}.chip.chip-cannot{stroke:var(--anatomy-mid)}.grade.g-記述{stroke:var(--anatomy-mid)}.sh-pill{display:inline-block;align-self:flex-start;font:500 11.5px/1.3 var(--anatomy-mono);padding:2px 8px;border:1px solid var(--anatomy-lo);border-radius:999px;color:var(--anatomy-muted)}.sh[data-video="1"] .sh-pill{font-size:11.5px;padding:1px 7px}.n4-home{fill:var(--anatomy-face);stroke:var(--anatomy-strong);stroke-width:1.8;stroke-dasharray:none}
+.card.solid{stroke-dasharray:none;fill-opacity:.25}
+.flow-arrow{fill:none;stroke:var(--anatomy-mid);stroke-width:2}.flow-head{fill:var(--anatomy-mid)}
+.sh-key .sw-rda,.sh-key .sw-rdw,.sh-key .sw-rdx,.sh-key .sw-pmv,.sh-key .sw-pmg,.sh-key .sw-pmd,.sh-key .sw-fline,.sh-key .sw-after,.sh-key .sw-next{width:14px;height:10px;display:inline-block;vertical-align:-1px;margin-right:5px}
+.sh-key .sw-rda{background:var(--fig-a)}.sh-key .sw-rdw{background:var(--fig-a);opacity:.35}.sh-key .sw-rdx{border:1px solid var(--fig-a);background:repeating-linear-gradient(45deg,var(--anatomy-lo) 0 2px,transparent 2px 5px)}
+.sh-key .sw-pmv{background:var(--fig-a);width:10px}.sh-key .sw-pmg{border:1.5px dashed var(--anatomy-mid);width:10px}.sh-key .sw-pmd{border:1.5px solid var(--anatomy-mid);width:10px}.sh-key .sw-pmx{width:10px;height:10px;display:inline-block;vertical-align:-1px;margin-right:6px;border:1.5px solid var(--anatomy-mid);background:linear-gradient(45deg,transparent 44%,var(--anatomy-strong) 44% 56%,transparent 56%),linear-gradient(-45deg,transparent 44%,var(--anatomy-strong) 44% 56%,transparent 56%)}.sh-key .sw-pline{width:3px;height:12px;display:inline-block;vertical-align:-2px;margin-right:6px;border-left:2px dashed var(--anatomy-strong)}.sh-key .sw-home{width:14px;height:10px;display:inline-block;vertical-align:-1px;margin-right:6px;border:2px solid var(--anatomy-strong);border-radius:3px}
+.sh-key .sw-fline{width:3px;background:var(--anatomy-strong)}.sh-key .sw-after{border:1.5px dashed var(--anatomy-mid);background:repeating-linear-gradient(45deg,var(--anatomy-lo) 0 2px,transparent 2px 5px)}.sh-key .sw-next{border:1.5px dotted var(--anatomy-lo)}
+.sh[data-ledger="after"] .fig-ledger{outline:2px dashed var(--anatomy-mid);outline-offset:3px;border-radius:6px}
+/* v2.2 (BRIEF v2.2 §2-1 / §2-2): the overlay on the board states (the cone, the Dandelin sphere, the cut) — drawing only; the kit's tones only (no new colour) */
+.cone-overlay{pointer-events:none}
+.cone-film{fill:var(--anatomy-mid);fill-opacity:.09;stroke:none}.cone-gen{fill:none;stroke:var(--anatomy-mid);stroke-width:.7;stroke-dasharray:3 4;opacity:.8}.cone-sil{fill:none;stroke:var(--anatomy-mid);stroke-width:1.4}.cone-rim{fill:none;stroke:var(--anatomy-mid);stroke-width:1;stroke-dasharray:5 3}
+.sphere-film{fill:var(--anatomy-faint);fill-opacity:.45;stroke:var(--anatomy-mid);stroke-width:.9}.touch{fill:none;stroke:var(--anatomy-strong);stroke-width:1.3}
+.cut-film{fill:var(--anatomy-strong);fill-opacity:.07;stroke:none}.cut-line{fill:none;stroke:var(--anatomy-strong);stroke-width:1.4}.fold{fill:none;stroke:var(--anatomy-strong);stroke-width:1.1;stroke-dasharray:1.5 3}.lift{fill:none;stroke:var(--anatomy-strong);stroke-width:1.3}
+.pl.conel{fill:var(--anatomy-muted)}.pl.linel{fill:var(--anatomy-muted);font-family:var(--anatomy-mono)}
+.sh-key .sw-cline{border-top:1.5px solid var(--anatomy-mid)}.sh-key .sw-ccone{width:16px;height:10px;border:1px solid var(--anatomy-mid);border-radius:8px 8px 0 0;background:var(--anatomy-faint)}.sh-key .sw-ccut{border-top:2px solid var(--anatomy-strong)}
+/* v2.3 (BRIEF v2.3 §2-1): the cutting plane (through j = the line FVD, perpendicular to the board) — one faint grey of the kit (no new colour), a thin edge; the directrix through D; the focus F and vertex V rings */
+.cut-plane{fill:var(--anatomy-hi);fill-opacity:.11;stroke:var(--anatomy-hi);stroke-width:.9;stroke-linejoin:round}.cut-ext{fill:none;stroke:var(--anatomy-strong);stroke-width:1.1;stroke-dasharray:4 3;opacity:.75}/* v2.3.1: the same parabola past the plane's edge */
+.cut-dir{fill:none;stroke:var(--anatomy-strong);stroke-width:1.2;stroke-dasharray:6 3}.cut-pt{fill:none;stroke:var(--anatomy-strong);stroke-width:1.2}
+.pl.planel{fill:var(--anatomy-text)}.sh-key .sw-cplane,.sh-key .sw-cplane_ph{width:16px;height:10px;border:1px solid var(--anatomy-hi);background:color-mix(in srgb,var(--anatomy-hi) 18%,transparent)}

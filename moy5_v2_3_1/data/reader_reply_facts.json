@@ -1,0 +1,60 @@
+{
+ "what": "the five verbatim reader questions pack_data.py checks inside the readers' replies (reads/<run>/judge_reply.md, house records not shipped): each check (the quote is in the reply; the reply id stands on its own line and the quote is within its next 5 lines) was made on the house file when the bundle was cut; md5 = of the decoded text re-encoded as UTF-8 (what pack_data.py records in post_files)",
+ "house_head": "338726f5",
+ "made": "2026-11-10T11:37:17",
+ "md5": {
+  "reads/N_R2_Q/judge_reply.md": "7a2ebbf59ea5ec20a756c46dd4f9cdd7",
+  "reads/T_R2/judge_reply.md": "52463f17e9207b6d63e38e14fabb7103",
+  "reads/N_R1_Q/judge_reply.md": "351174e9602c2a1efbfb917a3b4c0a87",
+  "reads/N_R2_P/judge_reply.md": "fe30e71bf36557f7a5738854947865f8"
+ },
+ "checked": [
+  [
+   "reads/N_R2_Q/judge_reply.md",
+   "N-2",
+   "同じ札・同じ effort の腕の中で、答えの欄に cut が出た行と出なかった行は、行ごとの thinking の token 数で分かれるか(neq6)。"
+  ],
+  [
+   "reads/N_R2_Q/judge_reply.md",
+   "N-3",
+   "β′ の一文を一つの札で、経路 {API, claude -p} × effort {high, max} の 2 × 2 に同じ n で掛けたとき、全体の cut を動かすのは経路か effort か。"
+  ],
+  [
+   "reads/T_R2/judge_reply.md",
+   "N-4",
+   "比例の形の一文を Q1 の点の集合 {E, J, K, P_y} でなく Q2 の {F, V, P_x, P_y} に足すと、退化した比例が消えて答えの欄に cut が出るか(形の指図 × 点の集合の 2 × 2)"
+  ],
+  [
+   "reads/N_R1_Q/judge_reply.md",
+   "N-1",
+   "塞ぎの一文を禁止と指図に分ける — prf3 P5B の LAT_SYM(Opus 10 / 10・Fable 4 / 10)は「do not use …」の禁止だけの腕でも、「Derive the equation from other relations …」の指図だけの腕でも出るか(claude -p · max · n 10)"
+  ],
+  [
+   "reads/N_R2_P/judge_reply.md",
+   "N-4",
+   "読み取り器 v1・v2・人の裁定で cut の判定が割れるのはどの行か。その割れは答えの欄と理由の欄のどちらに集まるか。"
+  ]
+ ],
+ "contains": [
+  [
+   "conversations/2026-11-06/coread_station2_3/station3_moy5/reads/N_R2_Q/judge_reply.md",
+   "同じ札・同じ effort の腕の中で、答えの欄に cut が出た行と出なかった行は、行ごとの thinking の token 数で分かれるか(neq6)。"
+  ],
+  [
+   "conversations/2026-11-06/coread_station2_3/station3_moy5/reads/N_R2_Q/judge_reply.md",
+   "β′ の一文を一つの札で、経路 {API, claude -p} × effort {high, max} の 2 × 2 に同じ n で掛けたとき、全体の cut を動かすのは経路か effort か。"
+  ],
+  [
+   "conversations/2026-11-06/coread_station2_3/station3_moy5/reads/T_R2/judge_reply.md",
+   "比例の形の一文を Q1 の点の集合 {E, J, K, P_y} でなく Q2 の {F, V, P_x, P_y} に足すと、退化した比例が消えて答えの欄に cut が出るか(形の指図 × 点の集合の 2 × 2)"
+  ],
+  [
+   "conversations/2026-11-06/coread_station2_3/station3_moy5/reads/N_R1_Q/judge_reply.md",
+   "塞ぎの一文を禁止と指図に分ける — prf3 P5B の LAT_SYM(Opus 10 / 10・Fable 4 / 10)は「do not use …」の禁止だけの腕でも、「Derive the equation from other relations …」の指図だけの腕でも出るか(claude -p · max · n 10)"
+  ],
+  [
+   "conversations/2026-11-06/coread_station2_3/station3_moy5/reads/N_R2_P/judge_reply.md",
+   "読み取り器 v1・v2・人の裁定で cut の判定が割れるのはどの行か。その割れは答えの欄と理由の欄のどちらに集まるか。"
+  ]
+ ]
+}

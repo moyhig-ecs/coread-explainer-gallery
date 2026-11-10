@@ -1,0 +1,47 @@
+{
+ "prov": {
+  "utc": "2026-11-01T04:15:50+00:00",
+  "commit": "30ef50f4",
+  "dirty": false,
+  "card": "olm95",
+  "script_md5": "f46b0a968ea883887a3f342060561d58",
+  "prereg_md5": "4e78e0723e9e3cc06f02440f6c17798e"
+ },
+ "fire_prov": {
+  "utc": "2026-11-01T03:24:37+00:00",
+  "commit": "5568e4aa",
+  "dirty": false,
+  "card": "olm95",
+  "script_md5": "f46b0a968ea883887a3f342060561d58",
+  "prereg_md5": "4e78e0723e9e3cc06f02440f6c17798e"
+ },
+ "n_test": 320,
+ "eligible": 308,
+ "C0_reproduce_olm94": {
+  "n": 320,
+  "margin_within": 320,
+  "margin_max": 0.0,
+  "resid_within": 320,
+  "resid_max": 0.0,
+  "ok": true
+ },
+ "C1_positive_tail_patch": {
+  "eligible": 308,
+  "flip": 1.0,
+  "ok": true
+ },
+ "C2_direction_separates_test_dem": {
+  "auc_dem_projection_test": 0.8821484375,
+  "ok": false
+ },
+ "C3_random_not_destructive": {
+  "median_abs_rand": 0.015625,
+  "ok": true
+ },
+ "pass": {
+  "C0": true,
+  "C1": true,
+  "C2": false,
+  "C3": true
+ }
+}

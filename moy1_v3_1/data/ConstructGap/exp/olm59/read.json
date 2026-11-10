@@ -1,0 +1,212 @@
+{
+ "prov": {
+  "utc": "2026-10-28T06:06:27+00:00",
+  "commit": "c549288d",
+  "dirty": false,
+  "card": "olm59",
+  "script_md5": "c17dace30e0cea314586fd9c61025003",
+  "prereg_md5": "e1a79f7abc543b58df5943c8ee1660a1",
+  "olm4_runner_md5": "70d71945ed043633f96a703be0e6412a",
+  "latents": {
+   "close": [
+    4058,
+    33874,
+    41939,
+    62051,
+    62610,
+    99515,
+    111377
+   ],
+   "mid": [
+    47156,
+    122221,
+    82816,
+    88569,
+    104829,
+    127364
+   ],
+   "ans": [
+    58663,
+    63972,
+    66035,
+    6095,
+    104152,
+    9975,
+    106598,
+    16865,
+    98793,
+    56001
+   ],
+   "think": [
+    76179,
+    24969,
+    58801,
+    33562,
+    18171,
+    41939
+   ]
+  }
+ },
+ "n_rows": 120,
+ "half": 32,
+ "Q1_think_bind_o_diam_close": {
+  "n": 36,
+  "after_gt_before": 6,
+  "median_diff": -0.13580204546451569
+ },
+ "Q2_any_h_diam_close": {
+  "n": 34,
+  "after_gt_before": 17,
+  "median_diff": -0.008824542164802551
+ },
+ "Q3_desc": {
+  "o_diam|close|all": {
+   "n": 59,
+   "after_gt_before": 9,
+   "median_diff": -0.14089420437812805
+  },
+  "o_diam|close|B-bind": {
+   "n": 53,
+   "after_gt_before": 8,
+   "median_diff": -0.16991984844207764
+  },
+  "o_diam|close|B-attractor": {
+   "n": 3,
+   "after_gt_before": 1,
+   "median_diff": -0.00633692741394043
+  },
+  "o_diam|mid|all": {
+   "n": 59,
+   "after_gt_before": 48,
+   "median_diff": 0.1574450582265854
+  },
+  "o_diam|mid|B-bind": {
+   "n": 53,
+   "after_gt_before": 44,
+   "median_diff": 0.16159865260124207
+  },
+  "o_diam|mid|B-attractor": {
+   "n": 3,
+   "after_gt_before": 1,
+   "median_diff": -0.12584692239761353
+  },
+  "o_diam|ans|all": {
+   "n": 59,
+   "after_gt_before": 10,
+   "median_diff": -0.25116610527038574
+  },
+  "o_diam|ans|B-bind": {
+   "n": 53,
+   "after_gt_before": 9,
+   "median_diff": -0.24039745330810547
+  },
+  "o_diam|ans|B-attractor": {
+   "n": 3,
+   "after_gt_before": 1,
+   "median_diff": -0.23937058448791504
+  },
+  "o_diam|think|all": {
+   "n": 59,
+   "after_gt_before": 21,
+   "median_diff": -0.05188798904418945
+  },
+  "o_diam|think|B-bind": {
+   "n": 53,
+   "after_gt_before": 20,
+   "median_diff": -0.0539531409740448
+  },
+  "o_diam|think|B-attractor": {
+   "n": 3,
+   "after_gt_before": 0,
+   "median_diff": -0.03619059920310974
+  },
+  "h_diam|close|all": {
+   "n": 34,
+   "after_gt_before": 17,
+   "median_diff": -0.008824542164802551
+  },
+  "h_diam|close|B-bind": {
+   "n": 23,
+   "after_gt_before": 12,
+   "median_diff": 0.009399980306625366
+  },
+  "h_diam|close|B-attractor": {
+   "n": 11,
+   "after_gt_before": 5,
+   "median_diff": -0.02704906463623047
+  },
+  "h_diam|mid|all": {
+   "n": 34,
+   "after_gt_before": 18,
+   "median_diff": 0.009897790849208832
+  },
+  "h_diam|mid|B-bind": {
+   "n": 23,
+   "after_gt_before": 12,
+   "median_diff": 0.008680999279022217
+  },
+  "h_diam|mid|B-attractor": {
+   "n": 11,
+   "after_gt_before": 6,
+   "median_diff": 0.02218487113714218
+  },
+  "h_diam|ans|all": {
+   "n": 34,
+   "after_gt_before": 11,
+   "median_diff": -0.04344111680984497
+  },
+  "h_diam|ans|B-bind": {
+   "n": 23,
+   "after_gt_before": 4,
+   "median_diff": -0.11520218849182129
+  },
+  "h_diam|ans|B-attractor": {
+   "n": 11,
+   "after_gt_before": 7,
+   "median_diff": 0.07805633544921875
+  },
+  "h_diam|think|all": {
+   "n": 34,
+   "after_gt_before": 19,
+   "median_diff": 0.0037377476692199707
+  },
+  "h_diam|think|B-bind": {
+   "n": 23,
+   "after_gt_before": 15,
+   "median_diff": 0.017519980669021606
+  },
+  "h_diam|think|B-attractor": {
+   "n": 11,
+   "after_gt_before": 4,
+   "median_diff": -0.04010552167892456
+  }
+ },
+ "labels_full_vs_answer_field": {
+  "answer|B-stuck-L1|B-stuck-L1": 12,
+  "answer|B-attractor|B-attractor": 19,
+  "answer|B-bind|B-bind": 4,
+  "answer|B-bind|B-stuck-L1": 3,
+  "answer|B-flail|B-flail": 1,
+  "natural|B-bind|B-bind": 18,
+  "natural|B-attractor|B-attractor": 10,
+  "natural|B-attractor|B-flail": 2,
+  "natural|B-bind|B-attractor": 6,
+  "natural|B-bind|B-flail": 1,
+  "think|B-bind|B-attractor": 4,
+  "think|B-bind|B-bind": 36,
+  "answer|B-bind|B-attractor": 1,
+  "natural|B-stuck-L1|B-stuck-L1": 3
+ },
+ "counts": {
+  "rows_with_o_diam": 64,
+  "rows_with_h_diam": 44,
+  "flag_tokens": {
+   "o_name": 6354,
+   "h_name": 2124,
+   "o_diam": 3663,
+   "h_diam": 678,
+   "circle": 2725,
+   "json": 15170
+  }
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "built_with": {
+  "anatomy": "~/.claude/skills/anatomy",
+  "runtime": "bun 1.3.0"
+ },
+ "card": {
+  "sources": {
+   "frozen_config": {
+    "path": "probes/moy1-claude5-replication/results/replication_config_frozen.json",
+    "md5": "c75122018f12b9031a4354b388be9a6d"
+   },
+   "pc1_runs": {
+    "path": "probes/olmo3-pc1-cue-invariance/results/pc1_runs.json",
+    "md5": "af884e143eddb46f350b2e9f6a5e53fe"
+   },
+   "screen_nl": {
+    "path": "probes/olmo3-base-bf16-screen/results/screen_olmo3_base_bf16.json",
+    "md5": "63f4148df434c96f500bf8946d4bb1a6"
+   },
+   "f5a2": {
+    "path": "probes/olmo3-f5-think-prefix/results/f5_runs_F5a-2.json",
+    "md5": "9b9ff66b027c8fb94c3a1599ec671f3e"
+   },
+   "f5b1": {
+    "path": "probes/olmo3-f5-think-prefix/results/f5_runs_F5b-1.json",
+    "md5": "55e49dc076d8004899df53688494a1c4"
+   },
+   "cmt13": {
+    "path": "probes/olmo3-f5-think-prefix/results/tsd_r5b/cmt13_blocked_bind_moment_in_thinking.json",
+    "md5": "1fc95f7af0935dcb9f77bc08041c038a"
+   },
+   "cmt5": {
+    "path": "probes/olmo3-f5-think-prefix/results/tsd_r5b/cmt5_first_token_fixed_sampling.json",
+    "md5": "c5d64f9f5b83d79ffa114e8d8dad3507"
+   },
+   "suite": {
+    "path": "ConstructGap/exp/moy_suite_report.json",
+    "md5": "7f9732cc75c1ee15727c2428dd65b192"
+   },
+   "think": {
+    "path": "probes/olmo3-behavior-screen/results/screen_olmo-3_32b.json",
+    "md5": "4e745b64d04c42794ada9fdd1f3f179a"
+   }
+  },
+  "cmt13_provenance": {
+   "utc": "2026-10-20T23:11:38+00:00",
+   "commit": "eac2278b",
+   "dirty": false,
+   "script_md5": "418d10bb29ae4424f98db5e4a2257586",
+   "prereg_md5": "f343e42d2a4e86039d66d25cf5408574",
+   "versions": {
+    "torch": "2.11.0",
+    "transformers": "5.14.1",
+    "macos": "27.0.1"
+   }
+  },
+  "cmt13_controls_all_pass": true
+ },
+ "counts": {
+  "rows": 20,
+  "open_reading": {
+   "bare": 8,
+   "o1o2": 0,
+   "hehi": 0,
+   "other": 2
+  },
+  "blocked_reading": {
+   "bare": 0,
+   "o1o2": 6,
+   "hehi": 3,
+   "other": 1
+  },
+  "sites": 16
+ },
+ "states": 43,
+ "files": {
+  "moy1.html": 711294,
+  "moy1-light.html": 711296,
+  "moy1-en.html": 711294,
+  "moy1-light-en.html": 711296,
+  "widget.js": 670935,
+  "widget.css": 41951
+ },
+ "source_md5": {
+  "scenes.js": "d09c91dd60557e7b8144e70d7a20ad0d",
+  "figure.js": "a31dfca48e9a285fd55b574b72fcc25a",
+  "i18n.js": "ecf32aff0460d4cae2b1a2511a8bfbdd",
+  "state_machine.js": "d492f4dc66bada3479a18ddc2de4a126"
+ }
+}

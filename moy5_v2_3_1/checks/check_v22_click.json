@@ -1,0 +1,98 @@
+[
+ [
+  "wait",
+  1500
+ ],
+ [
+  "eval",
+  "window.__sh.goto(0); 'state 0'"
+ ],
+ [
+  "wait",
+  900
+ ],
+ [
+  "eval",
+  "(() => { const b = document.querySelector('.sh-cone'), on = !!document.querySelector('.cone-overlay'); if (on !== true || b.getAttribute('aria-pressed') !== 'true') throw new Error('v22 click: overlay ' + on + ' pressed ' + b.getAttribute('aria-pressed')); return JSON.stringify({v22_click_ok: true, overlay: on, pressed: b.getAttribute('aria-pressed'), label: b.textContent}); })()"
+ ],
+ [
+  "click",
+  ".sh-cone"
+ ],
+ [
+  "wait",
+  500
+ ],
+ [
+  "eval",
+  "(() => { const b = document.querySelector('.sh-cone'), on = !!document.querySelector('.cone-overlay'); if (on !== false || b.getAttribute('aria-pressed') !== 'false') throw new Error('v22 click: overlay ' + on + ' pressed ' + b.getAttribute('aria-pressed')); return JSON.stringify({v22_click_ok: true, overlay: on, pressed: b.getAttribute('aria-pressed'), label: b.textContent}); })()"
+ ],
+ [
+  "click",
+  ".sh-cone"
+ ],
+ [
+  "wait",
+  500
+ ],
+ [
+  "eval",
+  "(() => { const b = document.querySelector('.sh-cone'), on = !!document.querySelector('.cone-overlay'); if (on !== true || b.getAttribute('aria-pressed') !== 'true') throw new Error('v22 click: overlay ' + on + ' pressed ' + b.getAttribute('aria-pressed')); return JSON.stringify({v22_click_ok: true, overlay: on, pressed: b.getAttribute('aria-pressed'), label: b.textContent}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(7); 'state 7'"
+ ],
+ [
+  "wait",
+  900
+ ],
+ [
+  "click",
+  ".sh-cone"
+ ],
+ [
+  "wait",
+  500
+ ],
+ [
+  "eval",
+  "(() => { const b = document.querySelector('.sh-cone'), on = !!document.querySelector('.cone-overlay'); if (on !== false || b.getAttribute('aria-pressed') !== 'false') throw new Error('v22 click: overlay ' + on + ' pressed ' + b.getAttribute('aria-pressed')); return JSON.stringify({v22_click_ok: true, overlay: on, pressed: b.getAttribute('aria-pressed'), label: b.textContent}); })()"
+ ],
+ [
+  "click",
+  ".sh-cone"
+ ],
+ [
+  "wait",
+  500
+ ],
+ [
+  "eval",
+  "(() => { const b = document.querySelector('.sh-cone'), on = !!document.querySelector('.cone-overlay'); if (on !== true || b.getAttribute('aria-pressed') !== 'true') throw new Error('v22 click: overlay ' + on + ' pressed ' + b.getAttribute('aria-pressed')); return JSON.stringify({v22_click_ok: true, overlay: on, pressed: b.getAttribute('aria-pressed'), label: b.textContent}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(1); 'state 1'"
+ ],
+ [
+  "wait",
+  600
+ ],
+ [
+  "eval",
+  "(() => { const b = document.querySelector('.sh-cone'); if (getComputedStyle(b).display !== 'none') throw new Error('v22: the cone button shows on state ' + window.__sh.state); return JSON.stringify({v22_hidden_ok: true, state: window.__sh.state}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(10); 'state 10'"
+ ],
+ [
+  "wait",
+  600
+ ],
+ [
+  "eval",
+  "(() => { const b = document.querySelector('.sh-cone'); if (getComputedStyle(b).display !== 'none') throw new Error('v22: the cone button shows on state ' + window.__sh.state); return JSON.stringify({v22_hidden_ok: true, state: window.__sh.state}); })()"
+ ]
+]

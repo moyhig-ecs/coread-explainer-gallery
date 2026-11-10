@@ -1,0 +1,5257 @@
+[
+ {
+  "id": "K001",
+  "kind": "count",
+  "note": "V1 essay4 A opus-5-5 bind",
+  "files": [
+   "results_essay4_moy5_20261014_claude-opus-5-5_a.jsonl",
+   "results_essay4_moy5_20261014_claude-opus-5-5_r.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "A",
+  "field": "bind",
+  "expect": 0
+ },
+ {
+  "id": "K002",
+  "kind": "count",
+  "note": "V1 essay4 A fable-5-1 bind",
+  "files": [
+   "results_essay4_moy5_20261014_claude-fable-5-1_a.jsonl",
+   "results_essay4_moy5_20261014_claude-fable-5-1_r.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "A",
+  "field": "bind",
+  "expect": 0
+ },
+ {
+  "id": "K003",
+  "kind": "count",
+  "note": "V1 essay4 A sonnet-5-5 bind",
+  "files": [
+   "results_essay4_moy5_20261014_claude-sonnet-5-5_a.jsonl",
+   "results_essay4_moy5_20261014_claude-sonnet-5-5_r.jsonl"
+  ],
+  "model": "claude-sonnet-5-5",
+  "arm": "A",
+  "field": "bind",
+  "expect": 0
+ },
+ {
+  "id": "K004",
+  "kind": "count",
+  "note": "V1 essay4 A haiku-5-5 bind",
+  "files": [
+   "results_essay4_moy5_20261014_claude-haiku-5-5_a.jsonl",
+   "results_essay4_moy5_20261014_claude-haiku-5-5_r.jsonl"
+  ],
+  "model": "claude-haiku-5-5",
+  "arm": "A",
+  "field": "bind",
+  "expect": 0
+ },
+ {
+  "id": "K005",
+  "kind": "count",
+  "note": "V1 essay4 A opus-5-5 floor (closure)",
+  "files": [
+   "results_essay4_moy5_20261014_claude-opus-5-5_a.jsonl",
+   "results_essay4_moy5_20261014_claude-opus-5-5_r.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "A",
+  "field": "closure",
+  "expect": 20
+ },
+ {
+  "id": "K006",
+  "kind": "count",
+  "note": "V1 essay4 A fable-5-1 floor (closure)",
+  "files": [
+   "results_essay4_moy5_20261014_claude-fable-5-1_a.jsonl",
+   "results_essay4_moy5_20261014_claude-fable-5-1_r.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "A",
+  "field": "closure",
+  "expect": 20
+ },
+ {
+  "id": "K007",
+  "kind": "count",
+  "note": "V1 essay4 A sonnet-5-5 floor (closure)",
+  "files": [
+   "results_essay4_moy5_20261014_claude-sonnet-5-5_a.jsonl",
+   "results_essay4_moy5_20261014_claude-sonnet-5-5_r.jsonl"
+  ],
+  "model": "claude-sonnet-5-5",
+  "arm": "A",
+  "field": "closure",
+  "expect": 20
+ },
+ {
+  "id": "K008",
+  "kind": "count",
+  "note": "V1 essay4 A haiku-5-5 floor (closure)",
+  "files": [
+   "results_essay4_moy5_20261014_claude-haiku-5-5_a.jsonl",
+   "results_essay4_moy5_20261014_claude-haiku-5-5_r.jsonl"
+  ],
+  "model": "claude-haiku-5-5",
+  "arm": "A",
+  "field": "closure",
+  "expect": 19
+ },
+ {
+  "id": "K009",
+  "kind": "n",
+  "note": "V1 essay4 A haiku n (_a 16 + _r 3)",
+  "files": [
+   "results_essay4_moy5_20261014_claude-haiku-5-5_a.jsonl",
+   "results_essay4_moy5_20261014_claude-haiku-5-5_r.jsonl"
+  ],
+  "model": "claude-haiku-5-5",
+  "arm": "A",
+  "expect": 19
+ },
+ {
+  "id": "K010",
+  "kind": "count",
+  "note": "V2 b5bp Bbp opus-5-5 bind",
+  "files": [
+   "results_b5bp_20261014_claude-opus-5-5_a.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "Bbp",
+  "field": "bind",
+  "expect": 6
+ },
+ {
+  "id": "K011",
+  "kind": "count",
+  "note": "V2 b5bp Bbp sonnet-5-5 bind",
+  "files": [
+   "results_b5bp_20261014_claude-sonnet-5-5_a.jsonl"
+  ],
+  "model": "claude-sonnet-5-5",
+  "arm": "Bbp",
+  "field": "bind",
+  "expect": 2
+ },
+ {
+  "id": "K012",
+  "kind": "count",
+  "note": "V2 b5bp Bbp fable-5-1 bind",
+  "files": [
+   "results_b5bp_20261014_claude-fable-5-1_a.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "Bbp",
+  "field": "bind",
+  "expect": 0
+ },
+ {
+  "id": "K013",
+  "kind": "count",
+  "note": "V2 b5bp Bbp opus answer field",
+  "files": [
+   "results_b5bp_20261014_claude-opus-5-5_a.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "Bbp",
+  "field": "cut_in_conjecture",
+  "expect": 0
+ },
+ {
+  "id": "K014",
+  "kind": "count",
+  "note": "V2 arg5 Bbp bind",
+  "files": [
+   "results_arg5_20261016_gemini-4-argon_a.jsonl"
+  ],
+  "model": "gemini-4-argon",
+  "arm": "Bbp",
+  "field": "bind",
+  "expect": 20
+ },
+ {
+  "id": "K015",
+  "kind": "count",
+  "note": "V2 arg5d Bbp bind",
+  "files": [
+   "results_arg5d_20261016_gemini-4-argon_a.jsonl"
+  ],
+  "model": "gemini-4-argon",
+  "arm": "Bbp",
+  "field": "bind",
+  "expect": 8
+ },
+ {
+  "id": "K016",
+  "kind": "count",
+  "note": "V2 arg5 K bind",
+  "files": [
+   "results_arg5_20261016_gemini-4-argon_a.jsonl"
+  ],
+  "model": "gemini-4-argon",
+  "arm": "K",
+  "field": "bind",
+  "expect": 20
+ },
+ {
+  "id": "K017",
+  "kind": "count",
+  "note": "V2 arg5d K bind",
+  "files": [
+   "results_arg5d_20261016_gemini-4-argon_a.jsonl"
+  ],
+  "model": "gemini-4-argon",
+  "arm": "K",
+  "field": "bind",
+  "expect": 20
+ },
+ {
+  "id": "K018",
+  "kind": "count",
+  "note": "V3 moy5c P-none claude-opus-5-5 bind",
+  "files": [
+   "results_moy5c_20261015.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "P-none",
+  "field": "bind",
+  "expect": 10
+ },
+ {
+  "id": "K019",
+  "kind": "count",
+  "note": "V3 moy5c P-none claude-fable-5-1 bind",
+  "files": [
+   "results_moy5c_20261015.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "P-none",
+  "field": "bind",
+  "expect": 6
+ },
+ {
+  "id": "K020",
+  "kind": "count",
+  "note": "V4 neq3 opus A answer field",
+  "files": [
+   "results_neq3_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "A",
+  "field": "cut_in_conjecture",
+  "expect": 0
+ },
+ {
+  "id": "K021",
+  "kind": "count",
+  "note": "V4 neq3 opus A/Q2 answer field",
+  "files": [
+   "results_neq3_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "A/Q2",
+  "field": "cut_in_conjecture",
+  "expect": 7
+ },
+ {
+  "id": "K022",
+  "kind": "count",
+  "note": "V4 neq3 opus L-name/Q2 answer field",
+  "files": [
+   "results_neq3_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "L-name/Q2",
+  "field": "cut_in_conjecture",
+  "expect": 20
+ },
+ {
+  "id": "K023",
+  "kind": "count",
+  "note": "V4 neq3 opus L-text/Q2 answer field",
+  "files": [
+   "results_neq3_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "L-text/Q2",
+  "field": "cut_in_conjecture",
+  "expect": 20
+ },
+ {
+  "id": "K024",
+  "kind": "count",
+  "note": "V4 neq3 opus L-name answer field",
+  "files": [
+   "results_neq3_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "L-name",
+  "field": "cut_in_conjecture",
+  "expect": 0
+ },
+ {
+  "id": "K025",
+  "kind": "count",
+  "note": "V4 neq3 opus L-text answer field",
+  "files": [
+   "results_neq3_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "L-text",
+  "field": "cut_in_conjecture",
+  "expect": 0
+ },
+ {
+  "id": "K026",
+  "kind": "count",
+  "note": "V4 neq3 fable A/Q2 answer field",
+  "files": [
+   "results_neq3_moy5_20261019_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "A/Q2",
+  "field": "cut_in_conjecture",
+  "expect": 20
+ },
+ {
+  "id": "K027",
+  "kind": "count",
+  "note": "V4 neq2f fable A (Q1) answer field",
+  "files": [
+   "results_neq2f_moy5_20261019.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "A",
+  "field": "cut_in_conjecture",
+  "expect": 0
+ },
+ {
+  "id": "K028",
+  "kind": "count",
+  "note": "V4 neq3 opus A/Q2 parabola_in_conjecture",
+  "files": [
+   "results_neq3_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "A/Q2",
+  "field": "parabola_in_conjecture",
+  "expect": 20
+ },
+ {
+  "id": "K029",
+  "kind": "count",
+  "note": "V5 neq6 opus-5-5 A/Q2@medium answer field",
+  "files": [
+   "results_neq6_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "A/Q2@medium",
+  "field": "cut_in_conjecture",
+  "expect": 0
+ },
+ {
+  "id": "K030",
+  "kind": "median",
+  "note": "V5 neq6 opus-5-5 A/Q2@medium thinking median",
+  "files": [
+   "results_neq6_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "A/Q2@medium",
+  "median": "thinking",
+  "expect": 1038.5
+ },
+ {
+  "id": "K031",
+  "kind": "count",
+  "note": "V5 neq6 opus-5-5 A/Q2@high answer field",
+  "files": [
+   "results_neq6_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "A/Q2@high",
+  "field": "cut_in_conjecture",
+  "expect": 1
+ },
+ {
+  "id": "K032",
+  "kind": "median",
+  "note": "V5 neq6 opus-5-5 A/Q2@high thinking median",
+  "files": [
+   "results_neq6_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "A/Q2@high",
+  "median": "thinking",
+  "expect": 1371.0
+ },
+ {
+  "id": "K033",
+  "kind": "count",
+  "note": "V5 neq6 opus-5-5 A/Q2@max answer field",
+  "files": [
+   "results_neq6_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "A/Q2@max",
+  "field": "cut_in_conjecture",
+  "expect": 19
+ },
+ {
+  "id": "K034",
+  "kind": "median",
+  "note": "V5 neq6 opus-5-5 A/Q2@max thinking median",
+  "files": [
+   "results_neq6_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "A/Q2@max",
+  "median": "thinking",
+  "expect": 8506.5
+ },
+ {
+  "id": "K035",
+  "kind": "count",
+  "note": "V5 neq6 fable-5-1 A/Q2@medium answer field",
+  "files": [
+   "results_neq6_moy5_20261019_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "A/Q2@medium",
+  "field": "cut_in_conjecture",
+  "expect": 15
+ },
+ {
+  "id": "K036",
+  "kind": "median",
+  "note": "V5 neq6 fable-5-1 A/Q2@medium thinking median",
+  "files": [
+   "results_neq6_moy5_20261019_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "A/Q2@medium",
+  "median": "thinking",
+  "expect": 2365.0
+ },
+ {
+  "id": "K037",
+  "kind": "count",
+  "note": "V5 neq6 fable-5-1 A/Q2@high answer field",
+  "files": [
+   "results_neq6_moy5_20261019_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "A/Q2@high",
+  "field": "cut_in_conjecture",
+  "expect": 17
+ },
+ {
+  "id": "K038",
+  "kind": "median",
+  "note": "V5 neq6 fable-5-1 A/Q2@high thinking median",
+  "files": [
+   "results_neq6_moy5_20261019_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "A/Q2@high",
+  "median": "thinking",
+  "expect": 2722.0
+ },
+ {
+  "id": "K039",
+  "kind": "count",
+  "note": "V5 neq6 fable-5-1 A/Q2@max answer field",
+  "files": [
+   "results_neq6_moy5_20261019_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "A/Q2@max",
+  "field": "cut_in_conjecture",
+  "expect": 20
+ },
+ {
+  "id": "K040",
+  "kind": "median",
+  "note": "V5 neq6 fable-5-1 A/Q2@max thinking median",
+  "files": [
+   "results_neq6_moy5_20261019_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "A/Q2@max",
+  "median": "thinking",
+  "expect": 7858.0
+ },
+ {
+  "id": "K041",
+  "kind": "median",
+  "note": "neq3 opus A/Q2 (= xhigh) thinking median from usage",
+  "files": [
+   "results_neq3_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "A/Q2",
+  "median": "usage.output_tokens_details.thinking_tokens",
+  "expect": 1734.5
+ },
+ {
+  "id": "K042",
+  "kind": "median",
+  "note": "neq3 fable A/Q2 (= xhigh) thinking median from usage",
+  "files": [
+   "results_neq3_moy5_20261019_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "A/Q2",
+  "median": "usage.output_tokens_details.thinking_tokens",
+  "expect": 4144.0
+ },
+ {
+  "id": "K043",
+  "kind": "route5",
+  "note": "V6 prf1 claude-opus-5-5 P5 route5 = CHAIN",
+  "files": [
+   "results_prf1_20261021.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "P5",
+  "route5": "CHAIN",
+  "expect": 1
+ },
+ {
+  "id": "K044",
+  "kind": "route5",
+  "note": "V6 prf1 claude-opus-5-5 P5 route5 = END-only",
+  "files": [
+   "results_prf1_20261021.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "P5",
+  "route5": "END-only",
+  "expect": 8
+ },
+ {
+  "id": "K045",
+  "kind": "route5",
+  "note": "V6 prf1 claude-opus-5-5 P5 route5 = LAT-only",
+  "files": [
+   "results_prf1_20261021.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "P5",
+  "route5": "LAT-only",
+  "expect": 1
+ },
+ {
+  "id": "K046",
+  "kind": "route5",
+  "note": "V6 prf1 claude-fable-5-1 P5 route5 = END-only",
+  "files": [
+   "results_prf1_20261021.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "P5",
+  "route5": "END-only",
+  "expect": 6
+ },
+ {
+  "id": "K047",
+  "kind": "route5",
+  "note": "V6 prf1 claude-fable-5-1 P5 route5 = none",
+  "files": [
+   "results_prf1_20261021.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "P5",
+  "route5": "none",
+  "expect": 4
+ },
+ {
+  "id": "K048",
+  "kind": "route5",
+  "note": "V6 prf1 claude-opus-5-5 P5K route5 = CHAIN",
+  "files": [
+   "results_prf1_20261021.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "P5K",
+  "route5": "CHAIN",
+  "expect": 10
+ },
+ {
+  "id": "K049",
+  "kind": "route5",
+  "note": "V6 prf1 claude-fable-5-1 P5K route5 = CHAIN",
+  "files": [
+   "results_prf1_20261021.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "P5K",
+  "route5": "CHAIN",
+  "expect": 9
+ },
+ {
+  "id": "K050",
+  "kind": "route5",
+  "note": "V6 prf1 claude-fable-5-1 P5K route5 = LAT-only",
+  "files": [
+   "results_prf1_20261021.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "P5K",
+  "route5": "LAT-only",
+  "expect": 1
+ },
+ {
+  "id": "K051",
+  "kind": "count",
+  "note": "V7 prf3 claude-opus-5-5 P5 lat_sym",
+  "files": [
+   "results_prf3_20261021.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "P5",
+  "field": "lat_sym",
+  "expect": 0
+ },
+ {
+  "id": "K052",
+  "kind": "count",
+  "note": "V7 prf3 claude-opus-5-5 P5B lat_sym",
+  "files": [
+   "results_prf3_20261021.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "P5B",
+  "field": "lat_sym",
+  "expect": 10
+ },
+ {
+  "id": "K053",
+  "kind": "count",
+  "note": "V7 prf3 claude-opus-5-5 P5B malformed",
+  "files": [
+   "results_prf3_20261021.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "P5B",
+  "field": "malformed",
+  "expect": 1
+ },
+ {
+  "id": "K054",
+  "kind": "count",
+  "note": "V7 prf3 claude-fable-5-1 P5 lat_sym",
+  "files": [
+   "results_prf3_20261021.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "P5",
+  "field": "lat_sym",
+  "expect": 0
+ },
+ {
+  "id": "K055",
+  "kind": "count",
+  "note": "V7 prf3 claude-fable-5-1 P5 malformed",
+  "files": [
+   "results_prf3_20261021.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "P5",
+  "field": "malformed",
+  "expect": 5
+ },
+ {
+  "id": "K056",
+  "kind": "count",
+  "note": "V7 prf3 claude-fable-5-1 P5B lat_sym",
+  "files": [
+   "results_prf3_20261021.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "P5B",
+  "field": "lat_sym",
+  "expect": 4
+ },
+ {
+  "id": "K057",
+  "kind": "count",
+  "note": "V7 prf3 claude-fable-5-1 P5B malformed",
+  "files": [
+   "results_prf3_20261021.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "P5B",
+  "field": "malformed",
+  "expect": 2
+ },
+ {
+  "id": "K058",
+  "kind": "count",
+  "note": "V7 prf3 claude-opus-5-5 P5 fd_use",
+  "files": [
+   "results_prf3_20261021.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "P5",
+  "field": "fd_use",
+  "expect": 10
+ },
+ {
+  "id": "K059",
+  "kind": "count",
+  "note": "V7 prf3 claude-opus-5-5 P5B fd_use",
+  "files": [
+   "results_prf3_20261021.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "P5B",
+  "field": "fd_use",
+  "expect": 0
+ },
+ {
+  "id": "K060",
+  "kind": "count",
+  "note": "V7 prf3 claude-opus-5-5 P5 floor",
+  "files": [
+   "results_prf3_20261021.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "P5",
+  "field": "floor",
+  "expect": 10
+ },
+ {
+  "id": "K061",
+  "kind": "count",
+  "note": "V7 prf3 claude-opus-5-5 P5B floor",
+  "files": [
+   "results_prf3_20261021.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "P5B",
+  "field": "floor",
+  "expect": 10
+ },
+ {
+  "id": "K062",
+  "kind": "count",
+  "note": "V8 mnw1+mnw1b claude-opus-5-5 conf/Q1f bind",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+   "results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "conf/Q1f",
+  "field": "bind",
+  "expect": 19
+ },
+ {
+  "id": "K063",
+  "kind": "count",
+  "note": "V8 mnw1+mnw1b claude-opus-5-5 conf/Q1f cut_in_conjecture",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+   "results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "conf/Q1f",
+  "field": "cut_in_conjecture",
+  "expect": 19
+ },
+ {
+  "id": "K064",
+  "kind": "count",
+  "note": "V8 mnw1+mnw1b claude-opus-5-5 conf/Q1f form_focal",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+   "results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "conf/Q1f",
+  "field": "form_focal",
+  "expect": 19
+ },
+ {
+  "id": "K065",
+  "kind": "count",
+  "note": "V8 mnw1+mnw1b claude-opus-5-5 conf/Q1f form_vertex",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+   "results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "conf/Q1f",
+  "field": "form_vertex",
+  "expect": 0
+ },
+ {
+  "id": "K066",
+  "kind": "count",
+  "note": "V8 mnw1+mnw1b claude-opus-5-5 none/Q1f bind",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+   "results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "none/Q1f",
+  "field": "bind",
+  "expect": 1
+ },
+ {
+  "id": "K067",
+  "kind": "count",
+  "note": "V8 mnw1+mnw1b claude-opus-5-5 none/Q1f cut_in_conjecture",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+   "results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "none/Q1f",
+  "field": "cut_in_conjecture",
+  "expect": 1
+ },
+ {
+  "id": "K068",
+  "kind": "count",
+  "note": "V8 mnw1+mnw1b claude-opus-5-5 none/Q1f form_vertex",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+   "results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "none/Q1f",
+  "field": "form_vertex",
+  "expect": 1
+ },
+ {
+  "id": "K069",
+  "kind": "count",
+  "note": "V8 mnw1+mnw1b claude-opus-5-5 cone/Q1 bind",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+   "results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "cone/Q1",
+  "field": "bind",
+  "expect": 0
+ },
+ {
+  "id": "K070",
+  "kind": "count",
+  "note": "V8 mnw1+mnw1b claude-opus-5-5 conf/Q1 cut_in_conjecture",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+   "results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "conf/Q1",
+  "field": "cut_in_conjecture",
+  "expect": 0
+ },
+ {
+  "id": "K071",
+  "kind": "count",
+  "note": "V8 mnw1+mnw1b claude-opus-5-5 conf/Q1 bind",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+   "results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "conf/Q1",
+  "field": "bind",
+  "expect": 0
+ },
+ {
+  "id": "K072",
+  "kind": "count",
+  "note": "V8 mnw1+mnw1b claude-opus-5-5 none/Q1 bind",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+   "results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "none/Q1",
+  "field": "bind",
+  "expect": 0
+ },
+ {
+  "id": "K073",
+  "kind": "count",
+  "note": "V8 mnw1+mnw1b claude-fable-5-1 conf/Q1f bind",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-fable-5-1.jsonl",
+   "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "conf/Q1f",
+  "field": "bind",
+  "expect": 17
+ },
+ {
+  "id": "K074",
+  "kind": "count",
+  "note": "V8 mnw1+mnw1b claude-fable-5-1 conf/Q1f cut_in_conjecture",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-fable-5-1.jsonl",
+   "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "conf/Q1f",
+  "field": "cut_in_conjecture",
+  "expect": 13
+ },
+ {
+  "id": "K075",
+  "kind": "count",
+  "note": "V8 mnw1+mnw1b claude-fable-5-1 conf/Q1f form_focal",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-fable-5-1.jsonl",
+   "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "conf/Q1f",
+  "field": "form_focal",
+  "expect": 17
+ },
+ {
+  "id": "K076",
+  "kind": "count",
+  "note": "V8 mnw1+mnw1b claude-fable-5-1 cone/Q1 bind",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-fable-5-1.jsonl",
+   "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "cone/Q1",
+  "field": "bind",
+  "expect": 5
+ },
+ {
+  "id": "K077",
+  "kind": "count",
+  "note": "V8 mnw1+mnw1b claude-fable-5-1 cone/Q1 cut_in_conjecture",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-fable-5-1.jsonl",
+   "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "cone/Q1",
+  "field": "cut_in_conjecture",
+  "expect": 0
+ },
+ {
+  "id": "K078",
+  "kind": "count",
+  "note": "V8 mnw1+mnw1b claude-fable-5-1 cone/Q1 form_vertex",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-fable-5-1.jsonl",
+   "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "cone/Q1",
+  "field": "form_vertex",
+  "expect": 5
+ },
+ {
+  "id": "K079",
+  "kind": "count",
+  "note": "V8 mnw1+mnw1b claude-fable-5-1 cone/Q1f bind",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-fable-5-1.jsonl",
+   "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "cone/Q1f",
+  "field": "bind",
+  "expect": 9
+ },
+ {
+  "id": "K080",
+  "kind": "count",
+  "note": "V8 mnw1+mnw1b claude-fable-5-1 cone/Q1f cut_in_conjecture",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-fable-5-1.jsonl",
+   "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "cone/Q1f",
+  "field": "cut_in_conjecture",
+  "expect": 6
+ },
+ {
+  "id": "K081",
+  "kind": "count",
+  "note": "V8 mnw1+mnw1b claude-fable-5-1 none/Q1f cut_in_conjecture",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-fable-5-1.jsonl",
+   "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "none/Q1f",
+  "field": "cut_in_conjecture",
+  "expect": 3
+ },
+ {
+  "id": "K082",
+  "kind": "count",
+  "note": "V8 mnw1+mnw1b claude-fable-5-1 conf/Q1 cut_in_conjecture",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-fable-5-1.jsonl",
+   "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "conf/Q1",
+  "field": "cut_in_conjecture",
+  "expect": 0
+ },
+ {
+  "id": "K083",
+  "kind": "count",
+  "note": "V8 mnw1+mnw1b claude-fable-5-1 conf/Q1 bind",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-fable-5-1.jsonl",
+   "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "conf/Q1",
+  "field": "bind",
+  "expect": 1
+ },
+ {
+  "id": "K084",
+  "kind": "n",
+  "note": "V8 mnw1+mnw1b opus conf/Q1f n (raw rows)",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+   "results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "conf/Q1f",
+  "expect": 20
+ },
+ {
+  "id": "K085",
+  "kind": "n",
+  "note": "V8 mnw1+mnw1b fable cone/Q1f n (raw rows; INCOMPLETE)",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-fable-5-1.jsonl",
+   "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "cone/Q1f",
+  "expect": 11
+ },
+ {
+  "id": "K086",
+  "kind": "count",
+  "note": "V9 olm1 base natural none/Q1 floor (denominator = rows drawn)",
+  "files": [
+   "results_olm1_moy5_20261022_olmo-3-1125-32b-mlx-bf16.jsonl"
+  ],
+  "variant": "natural",
+  "arm": "none/Q1",
+  "field": "closure",
+  "raw_only": false,
+  "expect": 0
+ },
+ {
+  "id": "K087",
+  "kind": "n",
+  "note": "V9 olm1 base natural none/Q1 rows drawn",
+  "files": [
+   "results_olm1_moy5_20261022_olmo-3-1125-32b-mlx-bf16.jsonl"
+  ],
+  "variant": "natural",
+  "arm": "none/Q1",
+  "raw_only": false,
+  "expect": 20
+ },
+ {
+  "id": "K088",
+  "kind": "count",
+  "note": "V9 olm1 base natural none/Q1 answer field",
+  "files": [
+   "results_olm1_moy5_20261022_olmo-3-1125-32b-mlx-bf16.jsonl"
+  ],
+  "variant": "natural",
+  "arm": "none/Q1",
+  "field": "cut_in_conjecture",
+  "raw_only": false,
+  "expect": 0
+ },
+ {
+  "id": "K089",
+  "kind": "count",
+  "note": "V9 olm1 base think none/Q1 floor (denominator = rows drawn)",
+  "files": [
+   "results_olm1_moy5_20261022_olmo-3-1125-32b-mlx-bf16.jsonl"
+  ],
+  "variant": "think",
+  "arm": "none/Q1",
+  "field": "closure",
+  "raw_only": false,
+  "expect": 2
+ },
+ {
+  "id": "K090",
+  "kind": "n",
+  "note": "V9 olm1 base think none/Q1 rows drawn",
+  "files": [
+   "results_olm1_moy5_20261022_olmo-3-1125-32b-mlx-bf16.jsonl"
+  ],
+  "variant": "think",
+  "arm": "none/Q1",
+  "raw_only": false,
+  "expect": 20
+ },
+ {
+  "id": "K091",
+  "kind": "count",
+  "note": "V9 olm1 base think none/Q1 answer field",
+  "files": [
+   "results_olm1_moy5_20261022_olmo-3-1125-32b-mlx-bf16.jsonl"
+  ],
+  "variant": "think",
+  "arm": "none/Q1",
+  "field": "cut_in_conjecture",
+  "raw_only": false,
+  "expect": 0
+ },
+ {
+  "id": "K092",
+  "kind": "count",
+  "note": "V9 olm3 Think none/Q1 floor",
+  "files": [
+   "results_olm3_moy5_20261022_olmo-3-32b-think-mlx-bf16.jsonl"
+  ],
+  "arm": "none/Q1",
+  "field": "closure",
+  "raw_only": false,
+  "expect": 5
+ },
+ {
+  "id": "K093",
+  "kind": "count",
+  "note": "V9 olm3 Think none/Q1 answer field",
+  "files": [
+   "results_olm3_moy5_20261022_olmo-3-32b-think-mlx-bf16.jsonl"
+  ],
+  "arm": "none/Q1",
+  "field": "cut_in_conjecture",
+  "raw_only": false,
+  "expect": 0
+ },
+ {
+  "id": "K094",
+  "kind": "count",
+  "note": "F1 rte1 api claude-opus-5-5 bind (= SUMMARY §10)",
+  "files": [
+   "results_rte1_20261015_api_max.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "Bbp",
+  "field": "bind",
+  "expect": 6
+ },
+ {
+  "id": "K095",
+  "kind": "count",
+  "note": "F1 rte1 api claude-fable-5-1 bind (= SUMMARY §10)",
+  "files": [
+   "results_rte1_20261015_api_max.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "Bbp",
+  "field": "bind",
+  "expect": 2
+ },
+ {
+  "id": "K096",
+  "kind": "count",
+  "note": "F1 rte1 cc claude-opus-5-5 bind (= SUMMARY §10)",
+  "files": [
+   "results_rte1_20261015_cc_high.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "P-none",
+  "field": "bind",
+  "expect": 2
+ },
+ {
+  "id": "K097",
+  "kind": "count",
+  "note": "F1 rte1 cc claude-fable-5-1 bind (= SUMMARY §10)",
+  "files": [
+   "results_rte1_20261015_cc_high.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "P-none",
+  "field": "bind",
+  "expect": 3
+ },
+ {
+  "id": "K098",
+  "kind": "count",
+  "note": "F1 rte1 api_max fable answer field (the only answer-field cut of the four)",
+  "files": [
+   "results_rte1_20261015_api_max.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "Bbp",
+  "field": "cut_in_conjecture",
+  "expect": 1
+ },
+ {
+  "id": "K099",
+  "kind": "count",
+  "note": "C0 essay4 K opus bind (positive control)",
+  "files": [
+   "results_essay4_moy5_20261014_claude-opus-5-5_a.jsonl",
+   "results_essay4_moy5_20261014_claude-opus-5-5_r.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "K",
+  "field": "bind",
+  "expect": 20
+ },
+ {
+  "id": "K100",
+  "kind": "count",
+  "note": "C0 essay4 K haiku answer field",
+  "files": [
+   "results_essay4_moy5_20261014_claude-haiku-5-5_a.jsonl",
+   "results_essay4_moy5_20261014_claude-haiku-5-5_r.jsonl"
+  ],
+  "model": "claude-haiku-5-5",
+  "arm": "K",
+  "field": "cut_in_conjecture",
+  "expect": 15
+ },
+ {
+  "id": "K101",
+  "kind": "count",
+  "note": "C1 neq2f fable L-name bind (reason field)",
+  "files": [
+   "results_neq2f_moy5_20261019.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "L-name",
+  "field": "bind",
+  "expect": 7
+ },
+ {
+  "id": "K102",
+  "kind": "count",
+  "note": "D2 neq3 opus K/Q2 answer field",
+  "files": [
+   "results_neq3_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "K/Q2",
+  "field": "cut_in_conjecture",
+  "expect": 10
+ },
+ {
+  "id": "K103",
+  "kind": "count",
+  "note": "D2 neq3 fable K/Q2 answer field",
+  "files": [
+   "results_neq3_moy5_20261019_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "K/Q2",
+  "field": "cut_in_conjecture",
+  "expect": 10
+ },
+ {
+  "id": "K104",
+  "kind": "summary_sum",
+  "note": "C1 SUMMARY §5-1 '1 / 717' recounted from the frozen table (10 API high arms without K, K@U, Bbp, E-full+Bbp)",
+  "expect_n": 717,
+  "expect_cut": 1,
+  "expect_ans": 0,
+  "expect_arms": 10
+ },
+ {
+  "id": "K105",
+  "kind": "construct",
+  "note": "A0 drawing control: K, P_y, J recomputed from the frozen coordinates",
+  "tol": 0.001
+ },
+ {
+  "id": "K106",
+  "kind": "phrase",
+  "note": "scene P5 r0: perpendicular bisector of FK, ",
+  "file": "results_prf3_20261021.jsonl",
+  "model": "claude-opus-5-5",
+  "arm": "P5",
+  "rep": 0,
+  "literal": "perpendicular bisector of FK, so P_yF = P_yK"
+ },
+ {
+  "id": "K107",
+  "kind": "phrase",
+  "note": "scene P5B r0: Parabola, derived without P_yF",
+  "file": "results_prf3_20261021.jsonl",
+  "model": "claude-opus-5-5",
+  "arm": "P5B",
+  "rep": 0,
+  "literal": "Parabola, derived without P_yF = P_yK"
+ },
+ {
+  "id": "K108",
+  "kind": "phrase",
+  "note": "scene P5B r0: VP_x² = VD·VH = FV·VH",
+  "file": "results_prf3_20261021.jsonl",
+  "model": "claude-opus-5-5",
+  "arm": "P5B",
+  "rep": 0,
+  "literal": "VP_x² = VD·VH = FV·VH"
+ },
+ {
+  "id": "K109",
+  "kind": "phrase",
+  "note": "scene P5B r0: HP_y² = 4·VP_x² = 4·FV·VH",
+  "file": "results_prf3_20261021.jsonl",
+  "model": "claude-opus-5-5",
+  "arm": "P5B",
+  "rep": 0,
+  "literal": "HP_y² = 4·VP_x² = 4·FV·VH"
+ },
+ {
+  "id": "K110",
+  "kind": "phrase",
+  "note": "scene A/Q2@medium r0: P_y lies on the parabola with ",
+  "file": "results_neq6_moy5_20261019_claude-opus-5-5.jsonl",
+  "model": "claude-opus-5-5",
+  "arm": "A/Q2@medium",
+  "rep": 0,
+  "literal": "P_y lies on the parabola with focus F and vertex V"
+ },
+ {
+  "id": "K111",
+  "kind": "phrase",
+  "note": "scene A/Q2@max r0: FP_x^2 = FV · FP_y",
+  "file": "results_neq6_moy5_20261019_claude-opus-5-5.jsonl",
+  "model": "claude-opus-5-5",
+  "arm": "A/Q2@max",
+  "rep": 0,
+  "literal": "FP_x^2 = FV · FP_y"
+ },
+ {
+  "id": "K112",
+  "kind": "phrase",
+  "note": "scene P5 r0: P_y is equidistant from the fi",
+  "file": "results_prf1_20261021.jsonl",
+  "model": "claude-opus-5-5",
+  "arm": "P5",
+  "rep": 0,
+  "literal": "P_y is equidistant from the fixed point F and the fixed line e"
+ },
+ {
+  "id": "K113",
+  "kind": "phrase",
+  "note": "scene P5 r2: VF·VH = VP_x²",
+  "file": "results_prf1_20261021.jsonl",
+  "model": "claude-opus-5-5",
+  "arm": "P5",
+  "rep": 2,
+  "literal": "VF·VH = VP_x²"
+ },
+ {
+  "id": "K114",
+  "kind": "phrase",
+  "note": "scene none/Q1f r0: EJ : KP_y = KP_y : EJ",
+  "file": "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+  "model": "claude-opus-5-5",
+  "arm": "none/Q1f",
+  "rep": 0,
+  "literal": "EJ : KP_y = KP_y : EJ"
+ },
+ {
+  "id": "K115",
+  "kind": "phrase",
+  "note": "scene none/Q1f r12: VE : VP_x = VP_x : VJ",
+  "file": "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+  "model": "claude-opus-5-5",
+  "arm": "none/Q1f",
+  "rep": 12,
+  "literal": "VE : VP_x = VP_x : VJ"
+ },
+ {
+  "id": "K116",
+  "kind": "phrase",
+  "note": "scene conf/Q1f r0: Newton's Lemma XIV",
+  "file": "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+  "model": "claude-opus-5-5",
+  "arm": "conf/Q1f",
+  "rep": 0,
+  "literal": "Newton's Lemma XIV"
+ },
+ {
+  "id": "K117",
+  "kind": "phrase",
+  "note": "scene cone/Q1 r6: Menaechmus symptoma |P_yH|^2 =",
+  "file": "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl",
+  "model": "claude-fable-5-1",
+  "arm": "cone/Q1",
+  "rep": 6,
+  "literal": "Menaechmus symptoma |P_yH|^2 = 4·VF·VH"
+ },
+ {
+  "id": "K118",
+  "kind": "text_contains",
+  "note": "F2 Argon thinking ratio",
+  "file": "conversations/2026-10-16/SUMMARY_moy5_cut_across_arms_effort_route_and_argon_20261016.md",
+  "literal": "Bbp 3.8〜8.2"
+ },
+ {
+  "id": "K119",
+  "kind": "text_contains",
+  "note": "F2 relations per answer",
+  "file": "conversations/2026-10-16/SUMMARY_moy5_cut_across_arms_effort_route_and_argon_20261016.md",
+  "literal": "Bbp 36 対 11〜19.5"
+ },
+ {
+  "id": "K120",
+  "kind": "text_contains",
+  "note": "C1 the SUMMARY's own words",
+  "file": "conversations/2026-10-16/SUMMARY_moy5_cut_across_arms_effort_route_and_argon_20261016.md",
+  "literal": "1 / 717"
+ },
+ {
+  "id": "K121",
+  "kind": "text_contains",
+  "note": "every screen: the reader's range",
+  "file": "conversations/2026-10-16/SUMMARY_moy5_cut_across_arms_effort_route_and_argon_20261016.md",
+  "literal": "読み取り器 v2 は線分の関係しか読まない"
+ },
+ {
+  "id": "K122",
+  "kind": "text_contains",
+  "note": "neq2f effort (the rows carry no effort field)",
+  "file": "conversations/2026-10-19/RESULT_neq2f_moy5_principia_lemma14_fable51_xhigh_20261019.md",
+  "literal": "Fable 5.1 xhigh"
+ },
+ {
+  "id": "K123",
+  "kind": "text_contains",
+  "note": "C1 neq1 verdict",
+  "file": "conversations/2026-10-19/RESULT_neq1_moy5_essay_not_equal_length_note_20261019.md",
+  "literal": "判定 NONE"
+ },
+ {
+  "id": "K124",
+  "kind": "text_contains",
+  "note": "H2 INCOMPLETE",
+  "file": "conversations/2026-10-22/RESULT_mnw1_moy5_menaechmus_newton_explanation_x_form_opus_fable_xhigh_20261022.md",
+  "literal": "Fable の cone/Q1f は 11 / 20(INCOMPLETE)"
+ },
+ {
+  "id": "K125",
+  "kind": "text_contains",
+  "note": "L3 reading (mnw1 §5-1)",
+  "file": "conversations/2026-10-22/RESULT_mnw1_moy5_menaechmus_newton_explanation_x_form_opus_fable_xhigh_20261022.md",
+  "literal": "「比例として述べよ」は点の集合に負ける"
+ },
+ {
+  "id": "K126",
+  "kind": "text_contains",
+  "note": "cannot say: won't vs no trigger",
+  "file": "conversations/2026-10-21/RESULT_prf3_moy5_confirm_lattice_bundle_claude_p_20261021.md",
+  "literal": "選択(won't)か引き金の不在かは、本札の腕では分けていない"
+ },
+ {
+  "id": "K127",
+  "kind": "text_contains",
+  "note": "olm1 banner read",
+  "file": "conversations/2026-10-22/RESULT_olm1_moy5_olmo3_32b_mnw1_arms_20261022.md",
+  "literal": "訂正(全体の監査 10-27"
+ },
+ {
+  "id": "K128",
+  "kind": "text_contains",
+  "note": "BLOCK verbatim",
+  "file": "conversations/2026-10-21/PREREG_prf2_moy5_proof_block_focus_directrix_claude_p_20261021.md",
+  "literal": "Derive the equation from other relations among the given points."
+ },
+ {
+  "id": "K129",
+  "kind": "text_contains",
+  "note": "PROOF verbatim",
+  "file": "conversations/2026-10-21/PREREG_prf1_moy5_proof_chain_lattice_to_symptoma_claude_p_20261021.md",
+  "literal": "ending with an equation that every position of P_y satisfies"
+ },
+ {
+  "id": "K130",
+  "kind": "text_contains",
+  "note": "β′ verbatim (read as text)",
+  "file": "ConstructGap/exp/b5bp_moy5_blocking_beta_prime_20261014.py",
+  "literal": "is not merely an equality of two lengths"
+ },
+ {
+  "id": "K131",
+  "kind": "text_contains",
+  "note": "Q2 line",
+  "file": "conversations/2026-10-19/PREREG_neq3_moy5_lemma14_question_set_2x2_opus_fable_xhigh_20261019.md",
+  "literal": "{F, V, P_x, P_y}"
+ },
+ {
+  "id": "K132",
+  "kind": "text_contains",
+  "note": "the frozen question's md5",
+  "file": "conversations/2026-10-14/SOURCE_frozen_prompts_moy1_moy2_moy5_blocks_alt2_lines_dfc_v1_20261014.md",
+  "literal": "md5 `ee39ba02374a5b3fb6db8dafcef4704b`"
+ },
+ {
+  "id": "K133",
+  "kind": "text_contains",
+  "note": "C1 arm names",
+  "file": "conversations/2026-10-16/SUMMARY_moy5_cut_across_arms_effort_route_and_argon_20261016.md",
+  "literal": "**名替え** = 問いの七つの名を替えた"
+ },
+ {
+  "id": "K134",
+  "kind": "md5",
+  "note": "frozen file results_prf3_20261021.jsonl",
+  "file": "ConstructGap/exp/results_prf3_20261021.jsonl",
+  "expect": "3fa335be"
+ },
+ {
+  "id": "K135",
+  "kind": "md5",
+  "note": "frozen file results_neq6_moy5_20261019_claude-opus-5-5.jsonl",
+  "file": "ConstructGap/exp/results_neq6_moy5_20261019_claude-opus-5-5.jsonl",
+  "expect": "a957c784"
+ },
+ {
+  "id": "K136",
+  "kind": "md5",
+  "note": "frozen file results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+  "file": "ConstructGap/exp/results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+  "expect": "d9de546a"
+ },
+ {
+  "id": "K137",
+  "kind": "md5",
+  "note": "frozen file results_b5bp_20261014_claude-opus-5-5_a.jsonl",
+  "file": "ConstructGap/exp/results_b5bp_20261014_claude-opus-5-5_a.jsonl",
+  "expect": "d589e2bb"
+ },
+ {
+  "id": "K138",
+  "kind": "md5",
+  "note": "frozen file results_olm1_moy5_20261022_olmo-3-1125-32b-mlx-bf16.jsonl",
+  "file": "ConstructGap/exp/results_olm1_moy5_20261022_olmo-3-1125-32b-mlx-bf16.jsonl",
+  "expect": "f7133073"
+ },
+ {
+  "id": "K139",
+  "kind": "md5",
+  "note": "frozen file summary_table_moy5_cut_all_cards_20261016.txt",
+  "file": "conversations/2026-10-16/data_moy5_summary/summary_table_moy5_cut_all_cards_20261016.txt",
+  "expect": "556b9dfb"
+ },
+ {
+  "id": "K140",
+  "kind": "pack_cell",
+  "note": "the pack's prf3.P5B.fable.lat_sym equals the recount",
+  "cell": "prf3.P5B.fable",
+  "key": "lat_sym",
+  "files": [
+   "results_prf3_20261021.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "P5B",
+  "field": "lat_sym"
+ },
+ {
+  "id": "K141",
+  "kind": "pack_cell",
+  "note": "the pack's neq3.A/Q2.opus.ans equals the recount",
+  "cell": "neq3.A/Q2.opus",
+  "key": "ans",
+  "files": [
+   "results_neq3_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "A/Q2",
+  "field": "cut_in_conjecture"
+ },
+ {
+  "id": "K142",
+  "kind": "pack_cell",
+  "note": "the pack's mnw1.cone/Q1.fable.bind equals the recount",
+  "cell": "mnw1.cone/Q1.fable",
+  "key": "bind",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-fable-5-1.jsonl",
+   "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "cone/Q1",
+  "field": "bind"
+ },
+ {
+  "id": "K143",
+  "kind": "pack_cell",
+  "note": "the pack's neq6.max.opus.thinking_med equals the recount",
+  "cell": "neq6.max.opus",
+  "key": "thinking_med",
+  "files": [
+   "results_neq6_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "A/Q2@max",
+  "median": "thinking"
+ },
+ {
+  "id": "K144",
+  "kind": "pack_cell",
+  "note": "the pack's olm3.think.floor equals the recount",
+  "cell": "olm3.think",
+  "key": "floor",
+  "files": [
+   "results_olm3_moy5_20261022_olmo-3-32b-think-mlx-bf16.jsonl"
+  ],
+  "arm": "none/Q1",
+  "field": "closure",
+  "raw_only": false
+ },
+ {
+  "id": "K145",
+  "kind": "pack_cell",
+  "note": "the pack's essay4.A.haiku-5-5.n equals the recount",
+  "cell": "essay4.A.haiku-5-5",
+  "key": "n",
+  "files": [
+   "results_essay4_moy5_20261014_claude-haiku-5-5_a.jsonl",
+   "results_essay4_moy5_20261014_claude-haiku-5-5_r.jsonl"
+  ],
+  "model": "claude-haiku-5-5",
+  "arm": "A"
+ },
+ {
+  "id": "K146",
+  "kind": "count",
+  "note": "P→Q · Q1 positive control K · Opus answer field",
+  "files": [
+   "results_neq3_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "K",
+  "field": "cut_in_conjecture",
+  "expect": 6
+ },
+ {
+  "id": "K147",
+  "kind": "count",
+  "note": "P→Q · Q1 positive control K · Opus whole",
+  "files": [
+   "results_neq3_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "K",
+  "field": "bind",
+  "expect": 9
+ },
+ {
+  "id": "K148",
+  "kind": "count",
+  "note": "P→Q · Q1 positive control K · Fable answer field",
+  "files": [
+   "results_neq2f_moy5_20261019.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "K",
+  "field": "cut_in_conjecture",
+  "expect": 7
+ },
+ {
+  "id": "K149",
+  "kind": "count",
+  "note": "P→Q · Q1 positive control K · Fable whole",
+  "files": [
+   "results_neq2f_moy5_20261019.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "K",
+  "field": "bind",
+  "expect": 9
+ },
+ {
+  "id": "K150",
+  "kind": "count",
+  "note": "P→Q · locus sentence in the answer field · Opus A/Q2",
+  "files": [
+   "results_neq3_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "A/Q2",
+  "field": "parabola_in_conjecture",
+  "expect": 20
+ },
+ {
+  "id": "K151",
+  "kind": "count",
+  "note": "P→Q · locus sentence · Fable A/Q2",
+  "files": [
+   "results_neq3_moy5_20261019_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "A/Q2",
+  "field": "parabola_in_conjecture",
+  "expect": 5
+ },
+ {
+  "id": "K152",
+  "kind": "count",
+  "note": "P→Q · locus sentence · Opus L-name/Q2",
+  "files": [
+   "results_neq3_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "L-name/Q2",
+  "field": "parabola_in_conjecture",
+  "expect": 2
+ },
+ {
+  "id": "K153",
+  "kind": "count",
+  "note": "P→Q · locus sentence · Opus L-text/Q2",
+  "files": [
+   "results_neq3_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "L-text/Q2",
+  "field": "parabola_in_conjecture",
+  "expect": 0
+ },
+ {
+  "id": "K154",
+  "kind": "count",
+  "note": "P→Q · locus sentence · Fable L-name/Q2",
+  "files": [
+   "results_neq3_moy5_20261019_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "L-name/Q2",
+  "field": "parabola_in_conjecture",
+  "expect": 0
+ },
+ {
+  "id": "K155",
+  "kind": "count",
+  "note": "P→Q · locus sentence · Fable L-text/Q2",
+  "files": [
+   "results_neq3_moy5_20261019_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "L-text/Q2",
+  "field": "parabola_in_conjecture",
+  "expect": 1
+ },
+ {
+  "id": "K156",
+  "kind": "count",
+  "note": "P→Q · locus sentence · Opus K/Q2",
+  "files": [
+   "results_neq3_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "K/Q2",
+  "field": "parabola_in_conjecture",
+  "expect": 4
+ },
+ {
+  "id": "K157",
+  "kind": "count",
+  "note": "P→Q · locus sentence · Fable K/Q2",
+  "files": [
+   "results_neq3_moy5_20261019_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "K/Q2",
+  "field": "parabola_in_conjecture",
+  "expect": 0
+ },
+ {
+  "id": "K158",
+  "kind": "count",
+  "note": "P→Q · decision ② · mnw1 K Opus whole (API xhigh · n 10)",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+   "results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "K",
+  "field": "bind",
+  "expect": 9
+ },
+ {
+  "id": "K159",
+  "kind": "count",
+  "note": "P→Q · decision ② · mnw1 K Opus answer field",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+   "results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "K",
+  "field": "cut_in_conjecture",
+  "expect": 1
+ },
+ {
+  "id": "K160",
+  "kind": "count",
+  "note": "P→Q · decision ② · mnw1 K Fable whole",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-fable-5-1.jsonl",
+   "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "K",
+  "field": "bind",
+  "expect": 10
+ },
+ {
+  "id": "K161",
+  "kind": "count",
+  "note": "P→Q · decision ② · mnw1 K Fable answer field",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-fable-5-1.jsonl",
+   "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "K",
+  "field": "cut_in_conjecture",
+  "expect": 4
+ },
+ {
+  "id": "K162",
+  "kind": "count",
+  "note": "decision ② · essay4 K Fable whole = the STORED field (r17 false; the SUMMARY re-read says true)",
+  "files": [
+   "results_essay4_moy5_20261014_claude-fable-5-1_a.jsonl",
+   "results_essay4_moy5_20261014_claude-fable-5-1_r.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "K",
+  "field": "bind",
+  "expect": 19
+ },
+ {
+  "id": "K163",
+  "kind": "count",
+  "note": "decision ② · essay4 K Fable answer field",
+  "files": [
+   "results_essay4_moy5_20261014_claude-fable-5-1_a.jsonl",
+   "results_essay4_moy5_20261014_claude-fable-5-1_r.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "K",
+  "field": "cut_in_conjecture",
+  "expect": 1
+ },
+ {
+  "id": "K164",
+  "kind": "count",
+  "note": "decision ② · essay4 K Sonnet whole",
+  "files": [
+   "results_essay4_moy5_20261014_claude-sonnet-5-5_a.jsonl",
+   "results_essay4_moy5_20261014_claude-sonnet-5-5_r.jsonl"
+  ],
+  "model": "claude-sonnet-5-5",
+  "arm": "K",
+  "field": "bind",
+  "expect": 20
+ },
+ {
+  "id": "K165",
+  "kind": "count",
+  "note": "decision ④ · prf1 P5 Opus LATX (= CHAIN 1 + LAT-only 1)",
+  "files": [
+   "results_prf1_20261021.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "P5",
+  "field": "latx",
+  "expect": 2
+ },
+ {
+  "id": "K166",
+  "kind": "text_contains",
+  "note": "decision ④ · the frozen main predicate of prf1",
+  "file": "conversations/2026-10-21/PREREG_prf1_moy5_proof_chain_lattice_to_symptoma_claude_p_20261021.md",
+  "literal": "**CHAIN(主)**"
+ },
+ {
+  "id": "K167",
+  "kind": "median",
+  "note": "P→Q · decision ① · b5bp.Bbp.sonnet-5-5 thinking median (reasoning_tokens, mean of the two middle rows)",
+  "files": [
+   "results_b5bp_20261014_claude-sonnet-5-5_a.jsonl"
+  ],
+  "model": "claude-sonnet-5-5",
+  "arm": "Bbp",
+  "median": "reasoning_tokens",
+  "expect": 1020.5
+ },
+ {
+  "id": "K168",
+  "kind": "median",
+  "note": "P→Q · decision ① · b5bp.Bbp.opus-5-5 thinking median (reasoning_tokens, mean of the two middle rows)",
+  "files": [
+   "results_b5bp_20261014_claude-opus-5-5_a.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "Bbp",
+  "median": "reasoning_tokens",
+  "expect": 1742.5
+ },
+ {
+  "id": "K169",
+  "kind": "median",
+  "note": "P→Q · decision ① · b5bp.Bbp.fable-5-1 thinking median (reasoning_tokens, mean of the two middle rows)",
+  "files": [
+   "results_b5bp_20261014_claude-fable-5-1_a.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "Bbp",
+  "median": "reasoning_tokens",
+  "expect": 2233.0
+ },
+ {
+  "id": "K170",
+  "kind": "median",
+  "note": "P→Q · decision ① · arg5.Bbp thinking median (reasoning_tokens, mean of the two middle rows)",
+  "files": [
+   "results_arg5_20261016_gemini-4-argon_a.jsonl"
+  ],
+  "model": "gemini-4-argon",
+  "arm": "Bbp",
+  "median": "reasoning_tokens",
+  "expect": 8468.5
+ },
+ {
+  "id": "K171",
+  "kind": "median",
+  "note": "P→Q · decision ① · arg5d.Bbp thinking median (reasoning_tokens, mean of the two middle rows)",
+  "files": [
+   "results_arg5d_20261016_gemini-4-argon_a.jsonl"
+  ],
+  "model": "gemini-4-argon",
+  "arm": "Bbp",
+  "median": "reasoning_tokens",
+  "expect": 965.0
+ },
+ {
+  "id": "K172",
+  "kind": "text_contains",
+  "note": "decision ① · the SUMMARY §6 thinking row",
+  "file": "conversations/2026-10-16/SUMMARY_moy5_cut_across_arms_effort_route_and_argon_20261016.md",
+  "literal": "| Bbp | — | 1,030 | 1,753 | 2,233 | 8,494 |"
+ },
+ {
+  "id": "K173",
+  "kind": "count",
+  "note": "P→Q · decision ③ · olm1 natural K bind",
+  "files": [
+   "results_olm1_moy5_20261022_olmo-3-1125-32b-mlx-bf16.jsonl"
+  ],
+  "variant": "natural",
+  "arm": "K",
+  "field": "bind",
+  "expect": 2,
+  "raw_only": false
+ },
+ {
+  "id": "K174",
+  "kind": "count",
+  "note": "P→Q · decision ③ · olm1 natural K cut_in_conjecture",
+  "files": [
+   "results_olm1_moy5_20261022_olmo-3-1125-32b-mlx-bf16.jsonl"
+  ],
+  "variant": "natural",
+  "arm": "K",
+  "field": "cut_in_conjecture",
+  "expect": 1,
+  "raw_only": false
+ },
+ {
+  "id": "K175",
+  "kind": "count",
+  "note": "P→Q · decision ③ · olm1 think K bind",
+  "files": [
+   "results_olm1_moy5_20261022_olmo-3-1125-32b-mlx-bf16.jsonl"
+  ],
+  "variant": "think",
+  "arm": "K",
+  "field": "bind",
+  "expect": 10,
+  "raw_only": false
+ },
+ {
+  "id": "K176",
+  "kind": "count",
+  "note": "P→Q · decision ③ · olm1 think K cut_in_conjecture",
+  "files": [
+   "results_olm1_moy5_20261022_olmo-3-1125-32b-mlx-bf16.jsonl"
+  ],
+  "variant": "think",
+  "arm": "K",
+  "field": "cut_in_conjecture",
+  "expect": 0,
+  "raw_only": false
+ },
+ {
+  "id": "K177",
+  "kind": "n",
+  "note": "olm1 natural K rows drawn",
+  "files": [
+   "results_olm1_moy5_20261022_olmo-3-1125-32b-mlx-bf16.jsonl"
+  ],
+  "variant": "natural",
+  "arm": "K",
+  "expect": 10,
+  "raw_only": false
+ },
+ {
+  "id": "K178",
+  "kind": "n",
+  "note": "olm1 natural K rows with raw",
+  "files": [
+   "results_olm1_moy5_20261022_olmo-3-1125-32b-mlx-bf16.jsonl"
+  ],
+  "variant": "natural",
+  "arm": "K",
+  "expect": 5
+ },
+ {
+  "id": "K179",
+  "kind": "count",
+  "note": "olm3 K bind",
+  "files": [
+   "results_olm3_moy5_20261022_olmo-3-32b-think-mlx-bf16.jsonl"
+  ],
+  "arm": "K",
+  "field": "bind",
+  "expect": 10,
+  "raw_only": false
+ },
+ {
+  "id": "K180",
+  "kind": "count",
+  "note": "olm3 K cut_in_conjecture",
+  "files": [
+   "results_olm3_moy5_20261022_olmo-3-32b-think-mlx-bf16.jsonl"
+  ],
+  "arm": "K",
+  "field": "cut_in_conjecture",
+  "expect": 0,
+  "raw_only": false
+ },
+ {
+  "id": "K181",
+  "kind": "text_contains",
+  "note": "decision ③ · the olm1 banner names think K r3's answer field",
+  "file": "conversations/2026-10-22/RESULT_olm1_moy5_olmo3_32b_mnw1_arms_20261022.md",
+  "literal": "think K r3 の答えの JSON は"
+ },
+ {
+  "id": "K182",
+  "kind": "cell_counts",
+  "note": "strip essay4.A.opus-5-5",
+  "files": [
+   "results_essay4_moy5_20261014_claude-opus-5-5_a.jsonl",
+   "results_essay4_moy5_20261014_claude-opus-5-5_r.jsonl"
+  ],
+  "arm": "A",
+  "expect": {
+   "ans": 0,
+   "bind": 0,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K183",
+  "kind": "cell_counts",
+  "note": "strip essay4.K.opus-5-5",
+  "files": [
+   "results_essay4_moy5_20261014_claude-opus-5-5_a.jsonl",
+   "results_essay4_moy5_20261014_claude-opus-5-5_r.jsonl"
+  ],
+  "arm": "K",
+  "expect": {
+   "ans": 0,
+   "bind": 20,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K184",
+  "kind": "cell_counts",
+  "note": "strip essay4.A.fable-5-1",
+  "files": [
+   "results_essay4_moy5_20261014_claude-fable-5-1_a.jsonl",
+   "results_essay4_moy5_20261014_claude-fable-5-1_r.jsonl"
+  ],
+  "arm": "A",
+  "expect": {
+   "ans": 0,
+   "bind": 0,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K185",
+  "kind": "cell_counts",
+  "note": "strip essay4.K.fable-5-1",
+  "files": [
+   "results_essay4_moy5_20261014_claude-fable-5-1_a.jsonl",
+   "results_essay4_moy5_20261014_claude-fable-5-1_r.jsonl"
+  ],
+  "arm": "K",
+  "expect": {
+   "ans": 1,
+   "bind": 19,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K186",
+  "kind": "cell_counts",
+  "note": "strip essay4.A.sonnet-5-5",
+  "files": [
+   "results_essay4_moy5_20261014_claude-sonnet-5-5_a.jsonl",
+   "results_essay4_moy5_20261014_claude-sonnet-5-5_r.jsonl"
+  ],
+  "arm": "A",
+  "expect": {
+   "ans": 0,
+   "bind": 0,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "claude-sonnet-5-5"
+ },
+ {
+  "id": "K187",
+  "kind": "cell_counts",
+  "note": "strip essay4.K.sonnet-5-5",
+  "files": [
+   "results_essay4_moy5_20261014_claude-sonnet-5-5_a.jsonl",
+   "results_essay4_moy5_20261014_claude-sonnet-5-5_r.jsonl"
+  ],
+  "arm": "K",
+  "expect": {
+   "ans": 0,
+   "bind": 20,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "claude-sonnet-5-5"
+ },
+ {
+  "id": "K188",
+  "kind": "cell_counts",
+  "note": "strip essay4.A.haiku-5-5",
+  "files": [
+   "results_essay4_moy5_20261014_claude-haiku-5-5_a.jsonl",
+   "results_essay4_moy5_20261014_claude-haiku-5-5_r.jsonl"
+  ],
+  "arm": "A",
+  "expect": {
+   "ans": 0,
+   "bind": 0,
+   "floor": 19,
+   "n": 19
+  },
+  "model": "claude-haiku-5-5"
+ },
+ {
+  "id": "K189",
+  "kind": "cell_counts",
+  "note": "strip essay4.K.haiku-5-5",
+  "files": [
+   "results_essay4_moy5_20261014_claude-haiku-5-5_a.jsonl",
+   "results_essay4_moy5_20261014_claude-haiku-5-5_r.jsonl"
+  ],
+  "arm": "K",
+  "expect": {
+   "ans": 15,
+   "bind": 20,
+   "floor": 7,
+   "n": 20
+  },
+  "model": "claude-haiku-5-5"
+ },
+ {
+  "id": "K190",
+  "kind": "cell_counts",
+  "note": "strip mnw1.K.opus",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+   "results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl"
+  ],
+  "arm": "K",
+  "expect": {
+   "ans": 1,
+   "bind": 9,
+   "floor": 10,
+   "n": 10
+  },
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K191",
+  "kind": "cell_counts",
+  "note": "strip mnw1.none/Q1.opus",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+   "results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl"
+  ],
+  "arm": "none/Q1",
+  "expect": {
+   "ans": 0,
+   "bind": 0,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K192",
+  "kind": "cell_counts",
+  "note": "strip mnw1.none/Q1f.opus",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+   "results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl"
+  ],
+  "arm": "none/Q1f",
+  "expect": {
+   "ans": 1,
+   "bind": 1,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K193",
+  "kind": "cell_counts",
+  "note": "strip mnw1.conf/Q1.opus",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+   "results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl"
+  ],
+  "arm": "conf/Q1",
+  "expect": {
+   "ans": 0,
+   "bind": 0,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K194",
+  "kind": "cell_counts",
+  "note": "strip mnw1.conf/Q1f.opus",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+   "results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl"
+  ],
+  "arm": "conf/Q1f",
+  "expect": {
+   "ans": 19,
+   "bind": 19,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K195",
+  "kind": "cell_counts",
+  "note": "strip mnw1.cone/Q1.opus",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+   "results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl"
+  ],
+  "arm": "cone/Q1",
+  "expect": {
+   "ans": 0,
+   "bind": 0,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K196",
+  "kind": "cell_counts",
+  "note": "strip mnw1.cone/Q1f.opus",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+   "results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl"
+  ],
+  "arm": "cone/Q1f",
+  "expect": {
+   "ans": 4,
+   "bind": 8,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K197",
+  "kind": "cell_counts",
+  "note": "strip mnw1.K.fable",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-fable-5-1.jsonl",
+   "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl"
+  ],
+  "arm": "K",
+  "expect": {
+   "ans": 4,
+   "bind": 10,
+   "floor": 10,
+   "n": 10
+  },
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K198",
+  "kind": "cell_counts",
+  "note": "strip mnw1.none/Q1.fable",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-fable-5-1.jsonl",
+   "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl"
+  ],
+  "arm": "none/Q1",
+  "expect": {
+   "ans": 0,
+   "bind": 0,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K199",
+  "kind": "cell_counts",
+  "note": "strip mnw1.none/Q1f.fable",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-fable-5-1.jsonl",
+   "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl"
+  ],
+  "arm": "none/Q1f",
+  "expect": {
+   "ans": 3,
+   "bind": 3,
+   "floor": 19,
+   "n": 20
+  },
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K200",
+  "kind": "cell_counts",
+  "note": "strip mnw1.conf/Q1.fable",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-fable-5-1.jsonl",
+   "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl"
+  ],
+  "arm": "conf/Q1",
+  "expect": {
+   "ans": 0,
+   "bind": 1,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K201",
+  "kind": "cell_counts",
+  "note": "strip mnw1.conf/Q1f.fable",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-fable-5-1.jsonl",
+   "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl"
+  ],
+  "arm": "conf/Q1f",
+  "expect": {
+   "ans": 13,
+   "bind": 17,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K202",
+  "kind": "cell_counts",
+  "note": "strip mnw1.cone/Q1.fable",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-fable-5-1.jsonl",
+   "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl"
+  ],
+  "arm": "cone/Q1",
+  "expect": {
+   "ans": 0,
+   "bind": 5,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K203",
+  "kind": "cell_counts",
+  "note": "strip mnw1.cone/Q1f.fable",
+  "files": [
+   "results_mnw1_moy5_20261022_claude-fable-5-1.jsonl",
+   "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl"
+  ],
+  "arm": "cone/Q1f",
+  "expect": {
+   "ans": 6,
+   "bind": 9,
+   "floor": 10,
+   "n": 11
+  },
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K204",
+  "kind": "cell_counts",
+  "note": "strip neq3.A.opus",
+  "files": [
+   "results_neq3_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "arm": "A",
+  "expect": {
+   "ans": 0,
+   "bind": 0,
+   "floor": 18,
+   "n": 20
+  },
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K205",
+  "kind": "cell_counts",
+  "note": "strip neq3.K.opus",
+  "files": [
+   "results_neq3_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "arm": "K",
+  "expect": {
+   "ans": 6,
+   "bind": 9,
+   "floor": 9,
+   "n": 10
+  },
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K206",
+  "kind": "cell_counts",
+  "note": "strip neq3.L-name.opus",
+  "files": [
+   "results_neq3_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "arm": "L-name",
+  "expect": {
+   "ans": 0,
+   "bind": 0,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K207",
+  "kind": "cell_counts",
+  "note": "strip neq3.L-text.opus",
+  "files": [
+   "results_neq3_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "arm": "L-text",
+  "expect": {
+   "ans": 0,
+   "bind": 0,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K208",
+  "kind": "cell_counts",
+  "note": "strip neq3.A/Q2.opus",
+  "files": [
+   "results_neq3_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "arm": "A/Q2",
+  "expect": {
+   "ans": 7,
+   "bind": 7,
+   "floor": 0,
+   "n": 20
+  },
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K209",
+  "kind": "cell_counts",
+  "note": "strip neq3.K/Q2.opus",
+  "files": [
+   "results_neq3_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "arm": "K/Q2",
+  "expect": {
+   "ans": 10,
+   "bind": 10,
+   "floor": 0,
+   "n": 10
+  },
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K210",
+  "kind": "cell_counts",
+  "note": "strip neq3.L-name/Q2.opus",
+  "files": [
+   "results_neq3_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "arm": "L-name/Q2",
+  "expect": {
+   "ans": 20,
+   "bind": 20,
+   "floor": 0,
+   "n": 20
+  },
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K211",
+  "kind": "cell_counts",
+  "note": "strip neq3.L-text/Q2.opus",
+  "files": [
+   "results_neq3_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "arm": "L-text/Q2",
+  "expect": {
+   "ans": 20,
+   "bind": 20,
+   "floor": 0,
+   "n": 20
+  },
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K212",
+  "kind": "cell_counts",
+  "note": "strip neq3.A/Q2.fable",
+  "files": [
+   "results_neq3_moy5_20261019_claude-fable-5-1.jsonl"
+  ],
+  "arm": "A/Q2",
+  "expect": {
+   "ans": 20,
+   "bind": 20,
+   "floor": 0,
+   "n": 20
+  },
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K213",
+  "kind": "cell_counts",
+  "note": "strip neq3.K/Q2.fable",
+  "files": [
+   "results_neq3_moy5_20261019_claude-fable-5-1.jsonl"
+  ],
+  "arm": "K/Q2",
+  "expect": {
+   "ans": 10,
+   "bind": 10,
+   "floor": 0,
+   "n": 10
+  },
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K214",
+  "kind": "cell_counts",
+  "note": "strip neq3.L-name/Q2.fable",
+  "files": [
+   "results_neq3_moy5_20261019_claude-fable-5-1.jsonl"
+  ],
+  "arm": "L-name/Q2",
+  "expect": {
+   "ans": 20,
+   "bind": 20,
+   "floor": 0,
+   "n": 20
+  },
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K215",
+  "kind": "cell_counts",
+  "note": "strip neq3.L-text/Q2.fable",
+  "files": [
+   "results_neq3_moy5_20261019_claude-fable-5-1.jsonl"
+  ],
+  "arm": "L-text/Q2",
+  "expect": {
+   "ans": 20,
+   "bind": 20,
+   "floor": 0,
+   "n": 20
+  },
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K216",
+  "kind": "cell_counts",
+  "note": "strip neq2f.A.fable",
+  "files": [
+   "results_neq2f_moy5_20261019.jsonl"
+  ],
+  "arm": "A",
+  "expect": {
+   "ans": 0,
+   "bind": 0,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K217",
+  "kind": "cell_counts",
+  "note": "strip neq2f.K.fable",
+  "files": [
+   "results_neq2f_moy5_20261019.jsonl"
+  ],
+  "arm": "K",
+  "expect": {
+   "ans": 7,
+   "bind": 9,
+   "floor": 9,
+   "n": 10
+  },
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K218",
+  "kind": "cell_counts",
+  "note": "strip neq2f.L-name.fable",
+  "files": [
+   "results_neq2f_moy5_20261019.jsonl"
+  ],
+  "arm": "L-name",
+  "expect": {
+   "ans": 0,
+   "bind": 7,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K219",
+  "kind": "cell_counts",
+  "note": "strip neq2f.L-text.fable",
+  "files": [
+   "results_neq2f_moy5_20261019.jsonl"
+  ],
+  "arm": "L-text",
+  "expect": {
+   "ans": 0,
+   "bind": 0,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K220",
+  "kind": "cell_counts",
+  "note": "strip neq6.medium.opus",
+  "files": [
+   "results_neq6_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "arm": "A/Q2@medium",
+  "expect": {
+   "ans": 0,
+   "bind": 0,
+   "floor": 0,
+   "n": 20
+  },
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K221",
+  "kind": "cell_counts",
+  "note": "strip neq6.high.opus",
+  "files": [
+   "results_neq6_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "arm": "A/Q2@high",
+  "expect": {
+   "ans": 1,
+   "bind": 1,
+   "floor": 0,
+   "n": 20
+  },
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K222",
+  "kind": "cell_counts",
+  "note": "strip neq6.max.opus",
+  "files": [
+   "results_neq6_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "arm": "A/Q2@max",
+  "expect": {
+   "ans": 19,
+   "bind": 19,
+   "floor": 0,
+   "n": 20
+  },
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K223",
+  "kind": "cell_counts",
+  "note": "strip neq6.K.opus",
+  "files": [
+   "results_neq6_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "arm": "K/Q2@medium",
+  "expect": {
+   "ans": 10,
+   "bind": 10,
+   "floor": 0,
+   "n": 10
+  },
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K224",
+  "kind": "cell_counts",
+  "note": "strip neq6.medium.fable",
+  "files": [
+   "results_neq6_moy5_20261019_claude-fable-5-1.jsonl"
+  ],
+  "arm": "A/Q2@medium",
+  "expect": {
+   "ans": 15,
+   "bind": 16,
+   "floor": 0,
+   "n": 20
+  },
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K225",
+  "kind": "cell_counts",
+  "note": "strip neq6.high.fable",
+  "files": [
+   "results_neq6_moy5_20261019_claude-fable-5-1.jsonl"
+  ],
+  "arm": "A/Q2@high",
+  "expect": {
+   "ans": 17,
+   "bind": 17,
+   "floor": 0,
+   "n": 20
+  },
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K226",
+  "kind": "cell_counts",
+  "note": "strip neq6.max.fable",
+  "files": [
+   "results_neq6_moy5_20261019_claude-fable-5-1.jsonl"
+  ],
+  "arm": "A/Q2@max",
+  "expect": {
+   "ans": 20,
+   "bind": 20,
+   "floor": 0,
+   "n": 20
+  },
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K227",
+  "kind": "cell_counts",
+  "note": "strip neq6.K.fable",
+  "files": [
+   "results_neq6_moy5_20261019_claude-fable-5-1.jsonl"
+  ],
+  "arm": "K/Q2@medium",
+  "expect": {
+   "ans": 10,
+   "bind": 10,
+   "floor": 0,
+   "n": 10
+  },
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K228",
+  "kind": "cell_counts",
+  "note": "strip b5bp.Bbp.opus-5-5",
+  "files": [
+   "results_b5bp_20261014_claude-opus-5-5_a.jsonl"
+  ],
+  "arm": "Bbp",
+  "expect": {
+   "ans": 0,
+   "bind": 6,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K229",
+  "kind": "cell_counts",
+  "note": "strip b5bp.Bbp.sonnet-5-5",
+  "files": [
+   "results_b5bp_20261014_claude-sonnet-5-5_a.jsonl"
+  ],
+  "arm": "Bbp",
+  "expect": {
+   "ans": 0,
+   "bind": 2,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "claude-sonnet-5-5"
+ },
+ {
+  "id": "K230",
+  "kind": "cell_counts",
+  "note": "strip b5bp.Bbp.fable-5-1",
+  "files": [
+   "results_b5bp_20261014_claude-fable-5-1_a.jsonl"
+  ],
+  "arm": "Bbp",
+  "expect": {
+   "ans": 0,
+   "bind": 0,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K231",
+  "kind": "cell_counts",
+  "note": "strip moy5c.opus",
+  "files": [
+   "results_moy5c_20261015.jsonl"
+  ],
+  "arm": "P-none",
+  "expect": {
+   "ans": 0,
+   "bind": 10,
+   "floor": 10,
+   "n": 10
+  },
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K232",
+  "kind": "cell_counts",
+  "note": "strip rte1.api_max.opus",
+  "files": [
+   "results_rte1_20261015_api_max.jsonl"
+  ],
+  "arm": "Bbp",
+  "expect": {
+   "ans": 0,
+   "bind": 6,
+   "floor": 10,
+   "n": 10
+  },
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K233",
+  "kind": "cell_counts",
+  "note": "strip rte1.cc_high.opus",
+  "files": [
+   "results_rte1_20261015_cc_high.jsonl"
+  ],
+  "arm": "P-none",
+  "expect": {
+   "ans": 0,
+   "bind": 2,
+   "floor": 10,
+   "n": 10
+  },
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K234",
+  "kind": "cell_counts",
+  "note": "strip moy5c.fable",
+  "files": [
+   "results_moy5c_20261015.jsonl"
+  ],
+  "arm": "P-none",
+  "expect": {
+   "ans": 0,
+   "bind": 6,
+   "floor": 9,
+   "n": 10
+  },
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K235",
+  "kind": "cell_counts",
+  "note": "strip rte1.api_max.fable",
+  "files": [
+   "results_rte1_20261015_api_max.jsonl"
+  ],
+  "arm": "Bbp",
+  "expect": {
+   "ans": 1,
+   "bind": 2,
+   "floor": 10,
+   "n": 10
+  },
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K236",
+  "kind": "cell_counts",
+  "note": "strip rte1.cc_high.fable",
+  "files": [
+   "results_rte1_20261015_cc_high.jsonl"
+  ],
+  "arm": "P-none",
+  "expect": {
+   "ans": 0,
+   "bind": 3,
+   "floor": 10,
+   "n": 10
+  },
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K237",
+  "kind": "cell_counts",
+  "note": "strip arg5.A",
+  "files": [
+   "results_arg5_20261016_gemini-4-argon_a.jsonl"
+  ],
+  "arm": "A",
+  "expect": {
+   "ans": 0,
+   "bind": 0,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "gemini-4-argon"
+ },
+ {
+  "id": "K238",
+  "kind": "cell_counts",
+  "note": "strip arg5.Bbp",
+  "files": [
+   "results_arg5_20261016_gemini-4-argon_a.jsonl"
+  ],
+  "arm": "Bbp",
+  "expect": {
+   "ans": 0,
+   "bind": 20,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "gemini-4-argon"
+ },
+ {
+  "id": "K239",
+  "kind": "cell_counts",
+  "note": "strip arg5.K",
+  "files": [
+   "results_arg5_20261016_gemini-4-argon_a.jsonl"
+  ],
+  "arm": "K",
+  "expect": {
+   "ans": 0,
+   "bind": 20,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "gemini-4-argon"
+ },
+ {
+  "id": "K240",
+  "kind": "cell_counts",
+  "note": "strip arg5.E-full",
+  "files": [
+   "results_arg5_20261016_gemini-4-argon_a.jsonl"
+  ],
+  "arm": "E-full",
+  "expect": {
+   "ans": 0,
+   "bind": 0,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "gemini-4-argon"
+ },
+ {
+  "id": "K241",
+  "kind": "cell_counts",
+  "note": "strip arg5.E-full+Bbp",
+  "files": [
+   "results_arg5_20261016_gemini-4-argon_a.jsonl"
+  ],
+  "arm": "E-full+Bbp",
+  "expect": {
+   "ans": 0,
+   "bind": 18,
+   "floor": 18,
+   "n": 18
+  },
+  "model": "gemini-4-argon"
+ },
+ {
+  "id": "K242",
+  "kind": "cell_counts",
+  "note": "strip arg5d.Bbp",
+  "files": [
+   "results_arg5d_20261016_gemini-4-argon_a.jsonl"
+  ],
+  "arm": "Bbp",
+  "expect": {
+   "ans": 0,
+   "bind": 8,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "gemini-4-argon"
+ },
+ {
+  "id": "K243",
+  "kind": "cell_counts",
+  "note": "strip arg5d.K",
+  "files": [
+   "results_arg5d_20261016_gemini-4-argon_a.jsonl"
+  ],
+  "arm": "K",
+  "expect": {
+   "ans": 0,
+   "bind": 20,
+   "floor": 20,
+   "n": 20
+  },
+  "model": "gemini-4-argon"
+ },
+ {
+  "id": "K244",
+  "kind": "cell_counts",
+  "note": "strip olm1.natural",
+  "files": [
+   "results_olm1_moy5_20261022_olmo-3-1125-32b-mlx-bf16.jsonl"
+  ],
+  "arm": "none/Q1",
+  "expect": {
+   "ans": 0,
+   "bind": 0,
+   "floor": 0,
+   "n": 20
+  },
+  "raw_only": false,
+  "variant": "natural"
+ },
+ {
+  "id": "K245",
+  "kind": "cell_counts",
+  "note": "strip olm1.think",
+  "files": [
+   "results_olm1_moy5_20261022_olmo-3-1125-32b-mlx-bf16.jsonl"
+  ],
+  "arm": "none/Q1",
+  "expect": {
+   "ans": 0,
+   "bind": 0,
+   "floor": 2,
+   "n": 20
+  },
+  "raw_only": false,
+  "variant": "think"
+ },
+ {
+  "id": "K246",
+  "kind": "cell_counts",
+  "note": "strip olm3.think",
+  "files": [
+   "results_olm3_moy5_20261022_olmo-3-32b-think-mlx-bf16.jsonl"
+  ],
+  "arm": "none/Q1",
+  "expect": {
+   "ans": 0,
+   "bind": 0,
+   "floor": 5,
+   "n": 20
+  },
+  "raw_only": false
+ },
+ {
+  "id": "K247",
+  "kind": "cell_counts",
+  "note": "strip olm1.natural.K",
+  "files": [
+   "results_olm1_moy5_20261022_olmo-3-1125-32b-mlx-bf16.jsonl"
+  ],
+  "arm": "K",
+  "expect": {
+   "ans": 1,
+   "bind": 2,
+   "floor": 0,
+   "n": 10
+  },
+  "raw_only": false,
+  "variant": "natural"
+ },
+ {
+  "id": "K248",
+  "kind": "cell_counts",
+  "note": "strip olm1.think.K",
+  "files": [
+   "results_olm1_moy5_20261022_olmo-3-1125-32b-mlx-bf16.jsonl"
+  ],
+  "arm": "K",
+  "expect": {
+   "ans": 0,
+   "bind": 10,
+   "floor": 2,
+   "n": 10
+  },
+  "raw_only": false,
+  "variant": "think"
+ },
+ {
+  "id": "K249",
+  "kind": "cell_counts",
+  "note": "strip olm3.K",
+  "files": [
+   "results_olm3_moy5_20261022_olmo-3-32b-think-mlx-bf16.jsonl"
+  ],
+  "arm": "K",
+  "expect": {
+   "ans": 0,
+   "bind": 10,
+   "floor": 8,
+   "n": 10
+  },
+  "raw_only": false
+ },
+ {
+  "id": "K250",
+  "kind": "text_contains",
+  "note": "olm60 freeze commit",
+  "file": "conversations/2026-10-28/RESULT_olm60_moy5_frontier_routes_read_by_olmo_sae_STOPPED_at_C1_20261028.md",
+  "literal": "0e3edd75"
+ },
+ {
+  "id": "K251",
+  "kind": "text_contains",
+  "note": "olm61 freeze commit",
+  "file": "conversations/2026-10-28/RESULT_olm61_moy5_olmo_continues_frontier_route_C1_stop_sae_route_read_20261028.md",
+  "literal": "79076ae6"
+ },
+ {
+  "id": "K252",
+  "kind": "text_contains",
+  "note": "olm64 freeze commit",
+  "file": "conversations/2026-10-28/RESULT_olm64_moy5_frontier_routes_direction_readout_20261028.md",
+  "literal": "b0c690fa"
+ },
+ {
+  "id": "K253",
+  "kind": "text_contains",
+  "note": "olm67 freeze commit",
+  "file": "conversations/2026-10-29/RESULT_olm67_moy5_frontier_cut_route_direction_and_language_space_20261029.md",
+  "literal": "4729c23e"
+ },
+ {
+  "id": "K254",
+  "kind": "text_contains",
+  "note": "olm68 freeze commit",
+  "file": "conversations/2026-10-29/RESULT_olm68_moy5_cut_runup_time_profile_and_conditions_20261029.md",
+  "literal": "cd4a7ae0"
+ },
+ {
+  "id": "K255",
+  "kind": "text_contains",
+  "note": "olm69 freeze commit",
+  "file": "conversations/2026-10-29/RESULT_olm69_moy5_neq3_lemma_arms_cut_sentence_words_20261029.md",
+  "literal": "3f138f1e"
+ },
+ {
+  "id": "K256",
+  "kind": "text_contains",
+  "note": "olm70 freeze commit",
+  "file": "conversations/2026-10-29/RESULT_olm70_moy5_own_word_instrument_calibration_and_retry_20261029.md",
+  "literal": "f4e56ab0"
+ },
+ {
+  "id": "K257",
+  "kind": "text_contains",
+  "note": "olm71 freeze commit",
+  "file": "conversations/2026-10-29/RESULT_olm71_moy5_opening_and_body_word_instruments_by_group_20261029.md",
+  "literal": "417dff60"
+ },
+ {
+  "id": "K258",
+  "kind": "text_contains",
+  "note": "olm72 freeze commit",
+  "file": "conversations/2026-10-29/RESULT_olm72_moy5_body_words_without_after_condition_20261029.md",
+  "literal": "842ecabf"
+ },
+ {
+  "id": "K259",
+  "kind": "text_contains",
+  "note": "olm73 freeze commit",
+  "file": "conversations/2026-10-29/RESULT_olm73_moy5_body_word_universe_by_predicate_20261029.md",
+  "literal": "30b429fe"
+ },
+ {
+  "id": "K260",
+  "kind": "text_contains",
+  "note": "olm74 freeze commit",
+  "file": "conversations/2026-10-29/RESULT_olm74_moy5_lemma_arms_vs_other_cut_rows_cut_word_set_20261029.md",
+  "literal": "ec45e01c"
+ },
+ {
+  "id": "K261",
+  "kind": "text_contains",
+  "note": "olm77 freeze commit",
+  "file": "conversations/2026-10-30/RESULT_olm77_moy5_cut_vs_floor_within_card_20261030.md",
+  "literal": "3fdfeb93"
+ },
+ {
+  "id": "K262",
+  "kind": "text_contains",
+  "note": "olm78 freeze commit",
+  "file": "conversations/2026-10-30/RESULT_olm78_moy5_within_row_runup_word_order_20261030.md",
+  "literal": "8b5673be"
+ },
+ {
+  "id": "K263",
+  "kind": "text_contains",
+  "note": "olm79 freeze commit",
+  "file": "conversations/2026-10-30/RESULT_olm79_moy5_single_word_sensitivity_concept_vs_own_words_20261030.md",
+  "literal": "1ad08f57"
+ },
+ {
+  "id": "K264",
+  "kind": "text_contains",
+  "note": "olm81 freeze commit",
+  "file": "conversations/2026-10-31/RESULT_olm81_moy5_formula_only_cut_rows_concept_set_runup_20261031.md",
+  "literal": "6671fe53"
+ },
+ {
+  "id": "K265",
+  "kind": "text_contains",
+  "note": "olm82 freeze commit",
+  "file": "conversations/2026-10-31/RESULT_olm82_moy5_common_mode_drop_next_token_concentration_20261031.md",
+  "literal": "61e7917d"
+ },
+ {
+  "id": "K266",
+  "kind": "text_contains",
+  "note": "olm63 freeze commit",
+  "file": "conversations/2026-10-28/RESULT_olm63_moy5_sae_calibration_notation_context_position_20261028.md",
+  "literal": "842aefce"
+ },
+ {
+  "id": "K267",
+  "kind": "text_contains",
+  "note": "olm80 freeze commit",
+  "file": "conversations/2026-10-31/RESULT_olm80_moy5_layer32_change_cut_vs_floor_beyond_words_20261031.md",
+  "literal": "32e1b4ad"
+ },
+ {
+  "id": "K268",
+  "kind": "text_contains",
+  "note": "thk1 freeze commit",
+  "file": "conversations/2026-10-30/RESULT_thk1_moy5_q2_thinking_summary_pilot_20261030.md",
+  "literal": "f2ccf1be"
+ },
+ {
+  "id": "K269",
+  "kind": "text_contains",
+  "note": "thk2 freeze commit",
+  "file": "conversations/2026-10-30/RESULT_thk2_moy5_q2_thinking_summary_pilot_20261030.md",
+  "literal": "85464c61"
+ },
+ {
+  "id": "K270",
+  "kind": "json_key",
+  "note": "olm60 fve",
+  "file": "olm60/control.json",
+  "path": [
+   "C1",
+   "fve"
+  ],
+  "expect": 0.342623,
+  "tol": 5e-06
+ },
+ {
+  "id": "K271",
+  "kind": "json_key",
+  "note": "olm61 floor_fd",
+  "file": "olm61/read_text_only.json",
+  "path": [
+   "Q2",
+   "floor",
+   "fd"
+  ],
+  "expect": 22
+ },
+ {
+  "id": "K272",
+  "kind": "json_key",
+  "note": "olm61 apex_lat",
+  "file": "olm61/read_text_only.json",
+  "path": [
+   "Q2",
+   "apex",
+   "lat"
+  ],
+  "expect": 7
+ },
+ {
+  "id": "K273",
+  "kind": "json_key",
+  "note": "olm61 fve",
+  "file": "olm61/control.json",
+  "path": [
+   "C1",
+   "fve"
+  ],
+  "expect": 0.308898,
+  "tol": 5e-06
+ },
+ {
+  "id": "K274",
+  "kind": "json_key",
+  "note": "olm64 up",
+  "file": "olm64/read.json",
+  "path": [
+   "Q1_P5B_lat_L32",
+   "up"
+  ],
+  "expect": 11
+ },
+ {
+  "id": "K275",
+  "kind": "json_key",
+  "note": "olm64 med",
+  "file": "olm64/read.json",
+  "path": [
+   "Q1_P5B_lat_L32",
+   "median_delta"
+  ],
+  "expect": 1.089152,
+  "tol": 5e-06
+ },
+ {
+  "id": "K276",
+  "kind": "json_key",
+  "note": "olm64 q3",
+  "file": "olm64/read.json",
+  "path": [
+   "Q3_apex_minus_floor_L32",
+   "diff"
+  ],
+  "expect": 0.350807,
+  "tol": 5e-06
+ },
+ {
+  "id": "K277",
+  "kind": "json_key",
+  "note": "olm67 up",
+  "file": "olm67/read.json",
+  "path": [
+   "Q1",
+   "up"
+  ],
+  "expect": 238
+ },
+ {
+  "id": "K278",
+  "kind": "json_key",
+  "note": "olm67 n",
+  "file": "olm67/read.json",
+  "path": [
+   "Q1",
+   "n"
+  ],
+  "expect": 361
+ },
+ {
+  "id": "K279",
+  "kind": "json_key",
+  "note": "olm67 fl_up",
+  "file": "olm67/read.json",
+  "path": [
+   "Q1_desc",
+   "floor_only|all",
+   "up"
+  ],
+  "expect": 344
+ },
+ {
+  "id": "K280",
+  "kind": "json_key",
+  "note": "olm67 lens",
+  "file": "olm67/control.json",
+  "path": [
+   "C1_lens",
+   "all",
+   "lens_med"
+  ],
+  "expect": 0.706219,
+  "tol": 5e-06
+ },
+ {
+  "id": "K281",
+  "kind": "json_key",
+  "note": "olm67 ident",
+  "file": "olm67/control.json",
+  "path": [
+   "C1_lens",
+   "all",
+   "ident_med"
+  ],
+  "expect": 0.512694,
+  "tol": 5e-06
+ },
+ {
+  "id": "K282",
+  "kind": "json_key",
+  "note": "olm67 q2",
+  "file": "olm67/read.json",
+  "path": [
+   "Q2",
+   "frac_top5_by_k",
+   "3"
+  ],
+  "expect": 0.213542,
+  "tol": 5e-06
+ },
+ {
+  "id": "K283",
+  "kind": "json_key",
+  "note": "olm68 diff",
+  "file": "olm68/read.json",
+  "path": [
+   "Q1",
+   "diff"
+  ],
+  "expect": 0.031334,
+  "tol": 5e-06
+ },
+ {
+  "id": "K284",
+  "kind": "json_key",
+  "note": "olm68 pos",
+  "file": "olm68/read.json",
+  "path": [
+   "Q2",
+   "cards_median_pos"
+  ],
+  "expect": 7
+ },
+ {
+  "id": "K285",
+  "kind": "json_key",
+  "note": "olm68 placebo",
+  "file": "olm68/control.json",
+  "path": [
+   "C2_placebo_pseudo_event",
+   "diff"
+  ],
+  "expect": -0.034716,
+  "tol": 5e-06
+ },
+ {
+  "id": "K286",
+  "kind": "json_key",
+  "note": "olm69 L",
+  "file": "olm69/read.json",
+  "path": [
+   "Q1",
+   "L",
+   "cut_word_in_cut_sentence"
+  ],
+  "expect": 52
+ },
+ {
+  "id": "K287",
+  "kind": "json_key",
+  "note": "olm69 A",
+  "file": "olm69/read.json",
+  "path": [
+   "Q1",
+   "A",
+   "cut_word_in_cut_sentence"
+  ],
+  "expect": 6
+ },
+ {
+  "id": "K288",
+  "kind": "json_key",
+  "note": "olm69 c3",
+  "file": "olm69/control.json",
+  "path": [
+   "C3_own_k1",
+   "median_u"
+  ],
+  "expect": 0.904998,
+  "tol": 5e-06
+ },
+ {
+  "id": "K289",
+  "kind": "json_key",
+  "note": "olm70 u",
+  "file": "olm70/read.json",
+  "path": [
+   "C_test_k1",
+   "median_u_k1"
+  ],
+  "expect": 0.93254,
+  "tol": 5e-06
+ },
+ {
+  "id": "K290",
+  "kind": "json_key",
+  "note": "olm70 cal",
+  "file": "olm70/calibrate.json",
+  "path": [
+   "rules",
+   "R3",
+   "median_u_k1"
+  ],
+  "expect": 0.9678,
+  "tol": 5e-06
+ },
+ {
+  "id": "K291",
+  "kind": "json_key",
+  "note": "olm71 rows",
+  "file": "olm71/calibrate.json",
+  "path": [
+   "BODY",
+   "rows_nonempty"
+  ],
+  "expect": 178
+ },
+ {
+  "id": "K292",
+  "kind": "json_key",
+  "note": "olm71 u",
+  "file": "olm71/calibrate.json",
+  "path": [
+   "BODY",
+   "median_u_k1"
+  ],
+  "expect": 0.99439,
+  "tol": 5e-06
+ },
+ {
+  "id": "K293",
+  "kind": "json_key",
+  "note": "olm72 rows",
+  "file": "olm72/calibrate.json",
+  "path": [
+   "BODY",
+   "rows_nonempty"
+  ],
+  "expect": 180
+ },
+ {
+  "id": "K294",
+  "kind": "json_key",
+  "note": "olm73 pos",
+  "file": "olm73/read.json",
+  "path": [
+   "Q2",
+   "pos"
+  ],
+  "expect": 20
+ },
+ {
+  "id": "K295",
+  "kind": "json_key",
+  "note": "olm73 med",
+  "file": "olm73/read.json",
+  "path": [
+   "Q2",
+   "median"
+  ],
+  "expect": -0.047485,
+  "tol": 5e-06
+ },
+ {
+  "id": "K296",
+  "kind": "json_key",
+  "note": "olm74 pos",
+  "file": "olm74/read.json",
+  "path": [
+   "Q2",
+   "pos"
+  ],
+  "expect": 192
+ },
+ {
+  "id": "K297",
+  "kind": "json_key",
+  "note": "olm74 med",
+  "file": "olm74/read.json",
+  "path": [
+   "Q2",
+   "median"
+  ],
+  "expect": 0.052243,
+  "tol": 5e-06
+ },
+ {
+  "id": "K298",
+  "kind": "json_key",
+  "note": "olm74 L",
+  "file": "olm74/read.json",
+  "path": [
+   "Q1",
+   "median_L"
+  ],
+  "expect": -0.066823,
+  "tol": 5e-06
+ },
+ {
+  "id": "K299",
+  "kind": "json_key",
+  "note": "olm74 O",
+  "file": "olm74/read.json",
+  "path": [
+   "Q1",
+   "median_O"
+  ],
+  "expect": 0.043709,
+  "tol": 5e-06
+ },
+ {
+  "id": "K300",
+  "kind": "json_key",
+  "note": "olm74 Lpos",
+  "file": "olm74/read.json",
+  "path": [
+   "Q3",
+   "L_sign",
+   "pos"
+  ],
+  "expect": 33
+ },
+ {
+  "id": "K301",
+  "kind": "json_key",
+  "note": "olm77 W",
+  "file": "olm77/control.json",
+  "path": [
+   "C1_positive_1_8",
+   "W"
+  ],
+  "expect": -0.018533,
+  "tol": 5e-06
+ },
+ {
+  "id": "K302",
+  "kind": "json_key",
+  "note": "olm77 p",
+  "file": "olm77/control.json",
+  "path": [
+   "C1_positive_1_8",
+   "perm_p"
+  ],
+  "expect": 0.924,
+  "tol": 5e-06
+ },
+ {
+  "id": "K303",
+  "kind": "json_key",
+  "note": "olm78 rW",
+  "file": "olm78/read.json",
+  "path": [
+   "Q1_layer48_word_order",
+   "r_W"
+  ],
+  "expect": 0.574826,
+  "tol": 5e-06
+ },
+ {
+  "id": "K304",
+  "kind": "json_key",
+  "note": "olm78 q2pos",
+  "file": "olm78/read.json",
+  "path": [
+   "Q2_final_layer_effect",
+   "pos"
+  ],
+  "expect": 155
+ },
+ {
+  "id": "K305",
+  "kind": "json_key",
+  "note": "olm79 pos",
+  "file": "olm79/control.json",
+  "path": [
+   "C1_sensitivity_O_rows",
+   "pos"
+  ],
+  "expect": 45
+ },
+ {
+  "id": "K306",
+  "kind": "json_key",
+  "note": "olm79 p",
+  "file": "olm79/control.json",
+  "path": [
+   "C1_sensitivity_O_rows",
+   "sign_p"
+  ],
+  "expect": 0.08553,
+  "tol": 5e-06
+ },
+ {
+  "id": "K307",
+  "kind": "json_key",
+  "note": "olm81 pos",
+  "file": "olm81/read.json",
+  "path": [
+   "Q1_formula_only_O",
+   "pos"
+  ],
+  "expect": 69
+ },
+ {
+  "id": "K308",
+  "kind": "json_key",
+  "note": "olm81 op",
+  "file": "olm81/read.json",
+  "path": [
+   "Q2_by_model",
+   "opus",
+   "pos"
+  ],
+  "expect": 36
+ },
+ {
+  "id": "K309",
+  "kind": "json_key",
+  "note": "olm81 fp",
+  "file": "olm81/read.json",
+  "path": [
+   "Q2_by_model",
+   "fable",
+   "pos"
+  ],
+  "expect": 33
+ },
+ {
+  "id": "K310",
+  "kind": "json_key",
+  "note": "olm82 q1b",
+  "file": "olm82/read.json",
+  "path": [
+   "Q1b_jlens",
+   "entropy_rank_frac"
+  ],
+  "expect": 0.113505,
+  "tol": 5e-06
+ },
+ {
+  "id": "K311",
+  "kind": "json_key",
+  "note": "olm63 best",
+  "file": "olm63/read.json",
+  "path": [
+   "S4",
+   "all",
+   "fve"
+  ],
+  "expect": 0.384044,
+  "tol": 5e-06
+ },
+ {
+  "id": "K312",
+  "kind": "json_key",
+  "note": "olm63 s0",
+  "file": "olm63/control.json",
+  "path": [
+   "S0",
+   "all",
+   "fve"
+  ],
+  "expect": 0.449478,
+  "tol": 5e-06
+ },
+ {
+  "id": "K313",
+  "kind": "json_key",
+  "note": "olm80 dw",
+  "file": "olm80/control.json",
+  "path": [
+   "C1_words_instrument_calibration",
+   "delta_word",
+   "median"
+  ],
+  "expect": 0.055619,
+  "tol": 5e-06
+ },
+ {
+  "id": "K314",
+  "kind": "json_key",
+  "note": "olm80 null95",
+  "file": "olm80/control.json",
+  "path": [
+   "C2_within_card_null",
+   "null_auc32",
+   "p95"
+  ],
+  "expect": 0.739348,
+  "tol": 5e-06
+ },
+ {
+  "id": "K315",
+  "kind": "json_key",
+  "note": "olm80 auc32",
+  "file": "olm80/control.json",
+  "path": [
+   "C3_effect_exists",
+   "auc32_cut",
+   "median"
+  ],
+  "expect": 0.940596,
+  "tol": 5e-06
+ },
+ {
+  "id": "K316",
+  "kind": "json_key",
+  "note": "olm80 auc0",
+  "file": "olm80/control.json",
+  "path": [
+   "C3_effect_exists",
+   "auc0_cut",
+   "median"
+  ],
+  "expect": 0.956101,
+  "tol": 5e-06
+ },
+ {
+  "id": "K317",
+  "kind": "count",
+  "note": "thk2 opus-5-5 ans_cut",
+  "files": [
+   "results_thk2_moy5_20261030_claude-opus-5-5.jsonl"
+  ],
+  "arm": null,
+  "field": "ans_cut",
+  "expect": 1,
+  "raw_only": false
+ },
+ {
+  "id": "K318",
+  "kind": "count",
+  "note": "thk2 opus-5-5 summ_cut",
+  "files": [
+   "results_thk2_moy5_20261030_claude-opus-5-5.jsonl"
+  ],
+  "arm": null,
+  "field": "summ_cut",
+  "expect": 1,
+  "raw_only": false
+ },
+ {
+  "id": "K319",
+  "kind": "count",
+  "note": "thk2 fable-5-1 ans_cut",
+  "files": [
+   "results_thk2_moy5_20261030_claude-fable-5-1.jsonl"
+  ],
+  "arm": null,
+  "field": "ans_cut",
+  "expect": 4,
+  "raw_only": false
+ },
+ {
+  "id": "K320",
+  "kind": "count",
+  "note": "thk2 fable-5-1 summ_cut",
+  "files": [
+   "results_thk2_moy5_20261030_claude-fable-5-1.jsonl"
+  ],
+  "arm": null,
+  "field": "summ_cut",
+  "expect": 4,
+  "raw_only": false
+ },
+ {
+  "id": "K321",
+  "kind": "text_contains",
+  "note": "N4 bundles",
+  "file": "conversations/2026-11-06/coread_station2_3/station3_moy5/RESULT_station3_moy5_next_visible_two_maker_variation_20261106.md",
+  "literal": "⑤ 読み取り器の割れ(v1 / v2 / 人)= 4 問"
+ },
+ {
+  "id": "K322",
+  "kind": "text_contains",
+  "note": "cannot say: concept words",
+  "file": "conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+  "literal": "「前触れは概念の語に出る(自分の語ではなく)」"
+ },
+ {
+  "id": "K323",
+  "kind": "text_contains",
+  "note": "cannot say: the CUT words go up",
+  "file": "conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+  "literal": "「CUT の語そのものが上がる」"
+ },
+ {
+  "id": "K324",
+  "kind": "text_contains",
+  "note": "cannot say: next-word distribution",
+  "file": "conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+  "literal": "「次の語の分布(最終層)が傾く」"
+ },
+ {
+  "id": "K325",
+  "kind": "text_contains",
+  "note": "cannot say: compared with floor sentences",
+  "file": "conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+  "literal": "「床の文の手前と比べて寄る」を外向けに"
+ },
+ {
+  "id": "K326",
+  "kind": "text_contains",
+  "note": "cannot say: layer 32 beyond the words",
+  "file": "conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+  "literal": "「層 32 の変化は、語の差を越えて cut と床を分ける / 分けない」"
+ },
+ {
+  "id": "K327",
+  "kind": "text_contains",
+  "note": "cannot say: d̂ does not separate",
+  "file": "conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+  "literal": "「d̂ は cut と床を分けない」"
+ },
+ {
+  "id": "K328",
+  "kind": "text_contains",
+  "note": "cannot say: the run-up disappears",
+  "file": "conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+  "literal": "「前触れが消える」"
+ },
+ {
+  "id": "K329",
+  "kind": "text_contains",
+  "note": "cannot say: copy vs anticipation",
+  "file": "conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+  "literal": "前触れが、手前の本文の語の写しか、関係の名の先読みか"
+ },
+ {
+  "id": "K330",
+  "kind": "text_contains",
+  "note": "cannot say: the inner state of Opus / Fable",
+  "file": "conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+  "literal": "Opus・Fable の**中の**状態・思考の本文"
+ },
+ {
+  "id": "K331",
+  "kind": "text_contains",
+  "note": "olm68's 33–64 not for outside use",
+  "file": "conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+  "literal": "33〜64 token 前から」(10-31 訂正"
+ },
+ {
+  "id": "K332",
+  "kind": "text_contains",
+  "note": "§0-7 the movement is mostly the FLOOR words",
+  "file": "conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+  "literal": "CUT 単独 +0.0079"
+ },
+ {
+  "id": "K333",
+  "kind": "count",
+  "note": "D_R2 (3) · neq6 Opus medium locus",
+  "files": [
+   "results_neq6_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "A/Q2@medium",
+  "field": "parabola_in_conjecture",
+  "expect": 20
+ },
+ {
+  "id": "K334",
+  "kind": "count",
+  "note": "D_R2 (3) · neq6 Opus max locus",
+  "files": [
+   "results_neq6_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "A/Q2@max",
+  "field": "parabola_in_conjecture",
+  "expect": 19
+ },
+ {
+  "id": "K335",
+  "kind": "text_contains",
+  "note": "D_R1 ④ · the K hint verbatim",
+  "file": "conversations/2026-10-14/SOURCE_frozen_prompts_moy1_moy2_moy5_blocks_alt2_lines_dfc_v1_20261014.md",
+  "literal": "Hint: the relation in question is a mean proportional: the segment F–P_x is the mean proportional between F–V and F–P_y"
+ },
+ {
+  "id": "K336",
+  "kind": "text_contains",
+  "note": "D_R1 ④ · the FORM note verbatim",
+  "file": "conversations/2026-10-22/PREREG_mnw1_moy5_menaechmus_newton_explanation_x_form_opus_fable_xhigh_20261022.md",
+  "literal": "state the invariant as a PROPORTION (a mean proportional), not as an equality of lengths."
+ },
+ {
+  "id": "K337",
+  "kind": "grade_rule",
+  "note": "v2.1 grade olm60",
+  "expect": "関門",
+  "card": "olm60",
+  "rule": "ii",
+  "file": "conversations/2026-10-28/RESULT_olm60_moy5_frontier_routes_read_by_olmo_sae_STOPPED_at_C1_20261028.md",
+  "literal": "Q1〜Q5 は走っていない(判定なし)",
+  "grade_ii": "関門"
+ },
+ {
+  "id": "K338",
+  "kind": "grade_rule",
+  "note": "v2.1 grade olm61",
+  "expect": "判定",
+  "card": "olm61",
+  "rule": "ii",
+  "file": "conversations/2026-10-28/RESULT_olm61_moy5_olmo_continues_frontier_route_C1_stop_sae_route_read_20261028.md",
+  "literal": "**22 / 30**(73 %) | ✓",
+  "grade_ii": "判定"
+ },
+ {
+  "id": "K339",
+  "kind": "grade_rule",
+  "note": "v2.1 grade olm64",
+  "expect": "判定",
+  "card": "olm64",
+  "rule": "ii",
+  "file": "conversations/2026-10-28/RESULT_olm64_moy5_frontier_routes_direction_readout_20261028.md",
+  "literal": "観測以上の乱数 0 / 2000) | ✓",
+  "grade_ii": "判定"
+ },
+ {
+  "id": "K340",
+  "kind": "grade_rule",
+  "note": "v2.1 grade olm67",
+  "expect": "判定",
+  "card": "olm67",
+  "rule": "i"
+ },
+ {
+  "id": "K341",
+  "kind": "grade_rule",
+  "note": "v2.1 grade olm68",
+  "expect": "判定",
+  "card": "olm68",
+  "rule": "i"
+ },
+ {
+  "id": "K342",
+  "kind": "grade_rule",
+  "note": "v2.1 grade olm69",
+  "expect": "記述",
+  "card": "olm69",
+  "rule": "i"
+ },
+ {
+  "id": "K343",
+  "kind": "grade_rule",
+  "note": "v2.1 grade olm70",
+  "expect": "関門",
+  "card": "olm70",
+  "rule": "ii",
+  "file": "conversations/2026-10-29/RESULT_olm70_moy5_own_word_instrument_calibration_and_retry_20261029.md",
+  "literal": "C ✗ のため**読まない**",
+  "grade_ii": "関門"
+ },
+ {
+  "id": "K344",
+  "kind": "grade_rule",
+  "note": "v2.1 grade olm71",
+  "expect": "関門",
+  "card": "olm71",
+  "rule": "ii",
+  "file": "conversations/2026-10-29/RESULT_olm71_moy5_opening_and_body_word_instruments_by_group_20261029.md",
+  "literal": "Q2〜Q5 は読まない",
+  "grade_ii": "関門"
+ },
+ {
+  "id": "K345",
+  "kind": "grade_rule",
+  "note": "v2.1 grade olm72",
+  "expect": "関門",
+  "card": "olm72",
+  "rule": "ii",
+  "file": "conversations/2026-10-29/RESULT_olm72_moy5_body_words_without_after_condition_20261029.md",
+  "literal": "Q2・Q3 は読まない",
+  "grade_ii": "関門"
+ },
+ {
+  "id": "K346",
+  "kind": "grade_rule",
+  "note": "v2.1 grade olm73",
+  "expect": "言えない",
+  "card": "olm73",
+  "rule": "i"
+ },
+ {
+  "id": "K347",
+  "kind": "grade_rule",
+  "note": "v2.1 grade olm74",
+  "expect": "判定",
+  "card": "olm74",
+  "rule": "i"
+ },
+ {
+  "id": "K348",
+  "kind": "grade_rule",
+  "note": "v2.1 grade olm77",
+  "expect": "記述",
+  "card": "olm77",
+  "rule": "i"
+ },
+ {
+  "id": "K349",
+  "kind": "grade_rule",
+  "note": "v2.1 grade olm78",
+  "expect": "判定",
+  "card": "olm78",
+  "rule": "i"
+ },
+ {
+  "id": "K350",
+  "kind": "grade_rule",
+  "note": "v2.1 grade olm79",
+  "expect": "言えない",
+  "card": "olm79",
+  "rule": "i"
+ },
+ {
+  "id": "K351",
+  "kind": "grade_rule",
+  "note": "v2.1 grade olm81",
+  "expect": "判定",
+  "card": "olm81",
+  "rule": "i"
+ },
+ {
+  "id": "K352",
+  "kind": "grade_rule",
+  "note": "v2.1 grade olm82",
+  "expect": "判定",
+  "card": "olm82",
+  "rule": "ii",
+  "file": "conversations/2026-10-31/RESULT_olm82_moy5_common_mode_drop_next_token_concentration_20261031.md",
+  "literal": "S1 **0.83**・S2 **0.77**・S3 **0.84** | **✓**",
+  "grade_ii": "判定"
+ },
+ {
+  "id": "K353",
+  "kind": "grade_rule",
+  "note": "v2.1 grade olm63",
+  "expect": "判定",
+  "card": "olm63",
+  "rule": "ii",
+  "file": "conversations/2026-10-28/RESULT_olm63_moy5_sae_calibration_notation_context_position_20261028.md",
+  "literal": "**+0.0516** | ✓",
+  "grade_ii": "判定"
+ },
+ {
+  "id": "K354",
+  "kind": "grade_rule",
+  "note": "v2.1 grade olm80",
+  "expect": "記述",
+  "card": "olm80",
+  "rule": "i"
+ },
+ {
+  "id": "K355",
+  "kind": "grade_rule",
+  "note": "v2.1 grade thk1",
+  "expect": "関門",
+  "card": "thk1",
+  "rule": "ii",
+  "file": "conversations/2026-10-30/RESULT_thk1_moy5_q2_thinking_summary_pilot_20261030.md",
+  "literal": "止める規則 §4 で各 model 1 行で止まった",
+  "grade_ii": "関門"
+ },
+ {
+  "id": "K356",
+  "kind": "grade_rule",
+  "note": "v2.1 grade thk2",
+  "expect": "記述",
+  "card": "thk2",
+  "rule": "i"
+ },
+ {
+  "id": "K357",
+  "kind": "grade_sum",
+  "note": "v2.1 grade five columns",
+  "expect": {
+   "判定": 9,
+   "記述": 4,
+   "較正": 0,
+   "言えない": 2,
+   "関門": 5
+  },
+  "cards": [
+   {
+    "card": "olm60",
+    "rule": "ii",
+    "file": "conversations/2026-10-28/RESULT_olm60_moy5_frontier_routes_read_by_olmo_sae_STOPPED_at_C1_20261028.md",
+    "literal": "Q1〜Q5 は走っていない(判定なし)",
+    "grade_ii": "関門"
+   },
+   {
+    "card": "olm61",
+    "rule": "ii",
+    "file": "conversations/2026-10-28/RESULT_olm61_moy5_olmo_continues_frontier_route_C1_stop_sae_route_read_20261028.md",
+    "literal": "**22 / 30**(73 %) | ✓",
+    "grade_ii": "判定"
+   },
+   {
+    "card": "olm64",
+    "rule": "ii",
+    "file": "conversations/2026-10-28/RESULT_olm64_moy5_frontier_routes_direction_readout_20261028.md",
+    "literal": "観測以上の乱数 0 / 2000) | ✓",
+    "grade_ii": "判定"
+   },
+   {
+    "card": "olm67",
+    "rule": "i"
+   },
+   {
+    "card": "olm68",
+    "rule": "i"
+   },
+   {
+    "card": "olm69",
+    "rule": "i"
+   },
+   {
+    "card": "olm70",
+    "rule": "ii",
+    "file": "conversations/2026-10-29/RESULT_olm70_moy5_own_word_instrument_calibration_and_retry_20261029.md",
+    "literal": "C ✗ のため**読まない**",
+    "grade_ii": "関門"
+   },
+   {
+    "card": "olm71",
+    "rule": "ii",
+    "file": "conversations/2026-10-29/RESULT_olm71_moy5_opening_and_body_word_instruments_by_group_20261029.md",
+    "literal": "Q2〜Q5 は読まない",
+    "grade_ii": "関門"
+   },
+   {
+    "card": "olm72",
+    "rule": "ii",
+    "file": "conversations/2026-10-29/RESULT_olm72_moy5_body_words_without_after_condition_20261029.md",
+    "literal": "Q2・Q3 は読まない",
+    "grade_ii": "関門"
+   },
+   {
+    "card": "olm73",
+    "rule": "i"
+   },
+   {
+    "card": "olm74",
+    "rule": "i"
+   },
+   {
+    "card": "olm77",
+    "rule": "i"
+   },
+   {
+    "card": "olm78",
+    "rule": "i"
+   },
+   {
+    "card": "olm79",
+    "rule": "i"
+   },
+   {
+    "card": "olm81",
+    "rule": "i"
+   },
+   {
+    "card": "olm82",
+    "rule": "ii",
+    "file": "conversations/2026-10-31/RESULT_olm82_moy5_common_mode_drop_next_token_concentration_20261031.md",
+    "literal": "S1 **0.83**・S2 **0.77**・S3 **0.84** | **✓**",
+    "grade_ii": "判定"
+   },
+   {
+    "card": "olm63",
+    "rule": "ii",
+    "file": "conversations/2026-10-28/RESULT_olm63_moy5_sae_calibration_notation_context_position_20261028.md",
+    "literal": "**+0.0516** | ✓",
+    "grade_ii": "判定"
+   },
+   {
+    "card": "olm80",
+    "rule": "i"
+   },
+   {
+    "card": "thk1",
+    "rule": "ii",
+    "file": "conversations/2026-10-30/RESULT_thk1_moy5_q2_thinking_summary_pilot_20261030.md",
+    "literal": "止める規則 §4 で各 model 1 行で止まった",
+    "grade_ii": "関門"
+   },
+   {
+    "card": "thk2",
+    "rule": "i"
+   }
+  ]
+ },
+ {
+  "id": "K358",
+  "kind": "median_len",
+  "note": "v2.1 relations median b5bp Bbp opus-5-5",
+  "files": [
+   "results_b5bp_20261014_claude-opus-5-5_a.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "Bbp",
+  "field": "relations",
+  "expect": 19.5
+ },
+ {
+  "id": "K359",
+  "kind": "median_len",
+  "note": "v2.1 relations median b5bp Bbp fable-5-1",
+  "files": [
+   "results_b5bp_20261014_claude-fable-5-1_a.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "arm": "Bbp",
+  "field": "relations",
+  "expect": 19.5
+ },
+ {
+  "id": "K360",
+  "kind": "median_len",
+  "note": "v2.1 relations median b5bp Bbp sonnet-5-5",
+  "files": [
+   "results_b5bp_20261014_claude-sonnet-5-5_a.jsonl"
+  ],
+  "model": "claude-sonnet-5-5",
+  "arm": "Bbp",
+  "field": "relations",
+  "expect": 11.0
+ },
+ {
+  "id": "K361",
+  "kind": "median_len",
+  "note": "v2.1 relations median arg5 Bbp",
+  "files": [
+   "results_arg5_20261016_gemini-4-argon_a.jsonl"
+  ],
+  "arm": "Bbp",
+  "field": "relations",
+  "expect": 36.0
+ },
+ {
+  "id": "K362",
+  "kind": "median_high",
+  "note": "v2.1 reasoning median_high results_b5bp_20261014_claude-sonnet-5-5_a.jsonl",
+  "files": [
+   "results_b5bp_20261014_claude-sonnet-5-5_a.jsonl"
+  ],
+  "arm": "Bbp",
+  "field": "reasoning_tokens",
+  "expect": 1030,
+  "model": "claude-sonnet-5-5"
+ },
+ {
+  "id": "K363",
+  "kind": "median_high",
+  "note": "v2.1 reasoning median_high results_b5bp_20261014_claude-opus-5-5_a.jsonl",
+  "files": [
+   "results_b5bp_20261014_claude-opus-5-5_a.jsonl"
+  ],
+  "arm": "Bbp",
+  "field": "reasoning_tokens",
+  "expect": 1753,
+  "model": "claude-opus-5-5"
+ },
+ {
+  "id": "K364",
+  "kind": "median_high",
+  "note": "v2.1 reasoning median_high results_b5bp_20261014_claude-fable-5-1_a.jsonl",
+  "files": [
+   "results_b5bp_20261014_claude-fable-5-1_a.jsonl"
+  ],
+  "arm": "Bbp",
+  "field": "reasoning_tokens",
+  "expect": 2233,
+  "model": "claude-fable-5-1"
+ },
+ {
+  "id": "K365",
+  "kind": "median_high",
+  "note": "v2.1 reasoning median_high results_arg5_20261016_gemini-4-argon_a.jsonl",
+  "files": [
+   "results_arg5_20261016_gemini-4-argon_a.jsonl"
+  ],
+  "arm": "Bbp",
+  "field": "reasoning_tokens",
+  "expect": 8494
+ },
+ {
+  "id": "K366",
+  "kind": "count_all",
+  "note": "v2.1 parabola and cut neq3 A/Q2 opus",
+  "files": [
+   "results_neq3_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "A/Q2",
+  "fields": [
+   "parabola_in_conjecture",
+   "cut_in_conjecture"
+  ],
+  "expect": 7
+ },
+ {
+  "id": "K367",
+  "kind": "count_all",
+  "note": "v2.1 parabola and cut neq6 max opus",
+  "files": [
+   "results_neq6_moy5_20261019_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "arm": "A/Q2@max",
+  "fields": [
+   "parabola_in_conjecture",
+   "cut_in_conjecture"
+  ],
+  "expect": 18
+ },
+ {
+  "id": "K368",
+  "kind": "text_contains",
+  "note": "v2.1 P5K = essay4 K hint verbatim",
+  "file": "conversations/2026-10-21/PREREG_prf1_moy5_proof_chain_lattice_to_symptoma_claude_p_20261021.md",
+  "literal": "Bbp + essay4 の K の hint(逐語)+ PROOF"
+ },
+ {
+  "id": "K369",
+  "kind": "text_contains",
+  "note": "v2.1 P5K = the instrument's positive control",
+  "file": "conversations/2026-10-21/PREREG_prf1_moy5_proof_chain_lattice_to_symptoma_claude_p_20261021.md",
+  "literal": "**計器の陽性統制(gate)**: P5K の LATX ≥ 8 / 10"
+ },
+ {
+  "id": "K370",
+  "kind": "phrase",
+  "note": "v2.1 none/Q1f cut row claude-opus-5-5 r12",
+  "file": "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl",
+  "model": "claude-opus-5-5",
+  "arm": "none/Q1f",
+  "rep": 12,
+  "literal": "VE : VP_x = VP_x : VJ"
+ },
+ {
+  "id": "K371",
+  "kind": "phrase",
+  "note": "v2.1 none/Q1f cut row claude-fable-5-1 r3",
+  "file": "results_mnw1_moy5_20261022_claude-fable-5-1.jsonl",
+  "model": "claude-fable-5-1",
+  "arm": "none/Q1f",
+  "rep": 3,
+  "literal": "VE : VP_x = VP_x : VJ"
+ },
+ {
+  "id": "K372",
+  "kind": "phrase",
+  "note": "v2.1 none/Q1f cut row claude-fable-5-1 r7",
+  "file": "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl",
+  "model": "claude-fable-5-1",
+  "arm": "none/Q1f",
+  "rep": 7,
+  "literal": "VE : VP_x = VP_x : VJ"
+ },
+ {
+  "id": "K373",
+  "kind": "phrase",
+  "note": "v2.1 none/Q1f cut row claude-fable-5-1 r17",
+  "file": "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl",
+  "model": "claude-fable-5-1",
+  "arm": "none/Q1f",
+  "rep": 17,
+  "literal": "FV : FP_x = FP_x : KP_y"
+ },
+ {
+  "id": "K374",
+  "kind": "json_key",
+  "note": "v2.1 olm67 Q2.frac_top5_by_k.2",
+  "file": "olm67/read.json",
+  "path": [
+   "Q2",
+   "frac_top5_by_k",
+   "2"
+  ],
+  "expect": 0.75,
+  "tol": 5e-06
+ },
+ {
+  "id": "K375",
+  "kind": "json_key",
+  "note": "v2.1 olm67 Q3.diff",
+  "file": "olm67/read.json",
+  "path": [
+   "Q3",
+   "diff"
+  ],
+  "expect": 0.053865,
+  "tol": 5e-06
+ },
+ {
+  "id": "K376",
+  "kind": "json_key",
+  "note": "v2.1 olm67 Q1_desc.cut|opus.median_delta",
+  "file": "olm67/read.json",
+  "path": [
+   "Q1_desc",
+   "cut|opus",
+   "median_delta"
+  ],
+  "expect": 0.824649,
+  "tol": 5e-06
+ },
+ {
+  "id": "K377",
+  "kind": "json_key",
+  "note": "v2.1 olm67 Q1_desc.cut|fable.median_delta",
+  "file": "olm67/read.json",
+  "path": [
+   "Q1_desc",
+   "cut|fable",
+   "median_delta"
+  ],
+  "expect": 0.744157,
+  "tol": 5e-06
+ },
+ {
+  "id": "K378",
+  "kind": "json_key",
+  "note": "v2.1 olm67 Q1_desc.floor_only|opus.median_delta",
+  "file": "olm67/read.json",
+  "path": [
+   "Q1_desc",
+   "floor_only|opus",
+   "median_delta"
+  ],
+  "expect": 0.867854,
+  "tol": 5e-06
+ },
+ {
+  "id": "K379",
+  "kind": "json_key",
+  "note": "v2.1 olm67 Q1_desc.floor_only|fable.median_delta",
+  "file": "olm67/read.json",
+  "path": [
+   "Q1_desc",
+   "floor_only|fable",
+   "median_delta"
+  ],
+  "expect": 0.226849,
+  "tol": 5e-06
+ },
+ {
+  "id": "K380",
+  "kind": "json_key",
+  "note": "v2.1 olm67 Q1.median_delta",
+  "file": "olm67/read.json",
+  "path": [
+   "Q1",
+   "median_delta"
+  ],
+  "expect": 0.76525,
+  "tol": 5e-06
+ },
+ {
+  "id": "K381",
+  "kind": "json_key",
+  "note": "v2.1 olm67 Q1.null_median_p95",
+  "file": "olm67/read.json",
+  "path": [
+   "Q1",
+   "null_median_p95"
+  ],
+  "expect": 0.135165,
+  "tol": 5e-06
+ },
+ {
+  "id": "K382",
+  "kind": "json_key",
+  "note": "v2.1 olm67 Q1_desc.floor_only|all.median_delta",
+  "file": "olm67/read.json",
+  "path": [
+   "Q1_desc",
+   "floor_only|all",
+   "median_delta"
+  ],
+  "expect": 0.512018,
+  "tol": 5e-06
+ },
+ {
+  "id": "K383",
+  "kind": "json_key",
+  "note": "v2.1 olm64 Q1_P5B_lat_L32.null_median_p95",
+  "file": "olm64/read.json",
+  "path": [
+   "Q1_P5B_lat_L32",
+   "null_median_p95"
+  ],
+  "expect": 0.17652,
+  "tol": 5e-06
+ },
+ {
+  "id": "K384",
+  "kind": "json_key",
+  "note": "v2.1 olm64 Q3_apex_minus_floor_L32.null_p95",
+  "file": "olm64/read.json",
+  "path": [
+   "Q3_apex_minus_floor_L32",
+   "null_p95"
+  ],
+  "expect": 0.364516,
+  "tol": 5e-06
+ },
+ {
+  "id": "K385",
+  "kind": "json_key",
+  "note": "v2.1 olm71 gates_test.BODY|L.rows_nonempty",
+  "file": "olm71/read.json",
+  "path": [
+   "gates_test",
+   "BODY|L",
+   "rows_nonempty"
+  ],
+  "expect": 57
+ },
+ {
+  "id": "K386",
+  "kind": "json_key",
+  "note": "v2.1 olm71 gates_test.BODY|L.n_rows",
+  "file": "olm71/read.json",
+  "path": [
+   "gates_test",
+   "BODY|L",
+   "n_rows"
+  ],
+  "expect": 75
+ },
+ {
+  "id": "K387",
+  "kind": "json_key",
+  "note": "v2.1 olm71 gates_test.BODY|A.rows_nonempty",
+  "file": "olm71/read.json",
+  "path": [
+   "gates_test",
+   "BODY|A",
+   "rows_nonempty"
+  ],
+  "expect": 11
+ },
+ {
+  "id": "K388",
+  "kind": "json_key",
+  "note": "v2.1 olm71 gates_test.BODY|A.n_rows",
+  "file": "olm71/read.json",
+  "path": [
+   "gates_test",
+   "BODY|A",
+   "n_rows"
+  ],
+  "expect": 16
+ },
+ {
+  "id": "K389",
+  "kind": "json_key",
+  "note": "v2.1 olm72 gates_test.BODY|L.rows_nonempty",
+  "file": "olm72/read.json",
+  "path": [
+   "gates_test",
+   "BODY|L",
+   "rows_nonempty"
+  ],
+  "expect": 57
+ },
+ {
+  "id": "K390",
+  "kind": "json_key",
+  "note": "v2.1 olm72 gates_test.BODY|A.rows_nonempty",
+  "file": "olm72/read.json",
+  "path": [
+   "gates_test",
+   "BODY|A",
+   "rows_nonempty"
+  ],
+  "expect": 11
+ },
+ {
+  "id": "K391",
+  "kind": "json_key",
+  "note": "v2.1 olm80 C2_within_card_null.null_auc32.median",
+  "file": "olm80/control.json",
+  "path": [
+   "C2_within_card_null",
+   "null_auc32",
+   "median"
+  ],
+  "expect": 0.521949,
+  "tol": 5e-06
+ },
+ {
+  "id": "K392",
+  "kind": "json_key",
+  "note": "v2.1 olm81 Q3_desc.F_vs_W_O.diff_F_minus_W",
+  "file": "olm81/read.json",
+  "path": [
+   "Q3_desc",
+   "F_vs_W_O",
+   "diff_F_minus_W"
+  ],
+  "expect": 0.027467,
+  "tol": 5e-06
+ },
+ {
+  "id": "K393",
+  "kind": "json_key",
+  "note": "v2.1 olm81 Q3_desc.F_vs_W_O.perm_p_two_sided",
+  "file": "olm81/read.json",
+  "path": [
+   "Q3_desc",
+   "F_vs_W_O",
+   "perm_p_two_sided"
+  ],
+  "expect": 0.128,
+  "tol": 5e-06
+ },
+ {
+  "id": "K394",
+  "kind": "json_key",
+  "note": "v2.1 olm81 Q1_formula_only_O.median",
+  "file": "olm81/read.json",
+  "path": [
+   "Q1_formula_only_O",
+   "median"
+  ],
+  "expect": 0.069812,
+  "tol": 5e-06
+ },
+ {
+  "id": "K395",
+  "kind": "json_key",
+  "note": "v2.1 olm74 Q2.binom_p",
+  "file": "olm74/read.json",
+  "path": [
+   "Q2",
+   "binom_p"
+  ],
+  "expect": 8.063903e-09,
+  "tol": 1e-12
+ },
+ {
+  "id": "K396",
+  "kind": "json_key",
+  "note": "v2.1 olm63 Q1_ascii_gain.S2_minus_S1",
+  "file": "olm63/read.json",
+  "path": [
+   "Q1_ascii_gain",
+   "S2_minus_S1"
+  ],
+  "expect": 0.009313,
+  "tol": 5e-06
+ },
+ {
+  "id": "K397",
+  "kind": "json_key",
+  "note": "v2.1 olm63 Q2_no_prompt_gain.S3_minus_S1",
+  "file": "olm63/read.json",
+  "path": [
+   "Q2_no_prompt_gain",
+   "S3_minus_S1"
+  ],
+  "expect": 0.051562,
+  "tol": 5e-06
+ },
+ {
+  "id": "K398",
+  "kind": "json_key",
+  "note": "v2.1 olm82 Q2_jlens_rho_common_vs_entropy.S2_given_route",
+  "file": "olm82/read.json",
+  "path": [
+   "Q2_jlens_rho_common_vs_entropy",
+   "S2_given_route"
+  ],
+  "expect": 0.772181,
+  "tol": 5e-06
+ },
+ {
+  "id": "K399",
+  "kind": "json_key",
+  "note": "v2.1 olm82 Q2_jlens_rho_common_vs_entropy.S3_formula_only",
+  "file": "olm82/read.json",
+  "path": [
+   "Q2_jlens_rho_common_vs_entropy",
+   "S3_formula_only"
+  ],
+  "expect": 0.836082,
+  "tol": 5e-06
+ },
+ {
+  "id": "K400",
+  "kind": "median",
+  "note": "v2.1 thk1 claude-opus-5-5 thinking_tokens",
+  "files": [
+   "results_thk1_moy5_20261030_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "raw_only": false,
+  "median": "thinking_tokens",
+  "expect": 2724
+ },
+ {
+  "id": "K401",
+  "kind": "median",
+  "note": "v2.1 thk1 claude-fable-5-1 thinking_tokens",
+  "files": [
+   "results_thk1_moy5_20261030_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "raw_only": false,
+  "median": "thinking_tokens",
+  "expect": 7704
+ },
+ {
+  "id": "K402",
+  "kind": "median",
+  "note": "v2.1 thk1 claude-opus-5-5 summary_chars",
+  "files": [
+   "results_thk1_moy5_20261030_claude-opus-5-5.jsonl"
+  ],
+  "model": "claude-opus-5-5",
+  "raw_only": false,
+  "median": "summary_chars",
+  "expect": 2762
+ },
+ {
+  "id": "K403",
+  "kind": "median",
+  "note": "v2.1 thk1 claude-fable-5-1 summary_chars",
+  "files": [
+   "results_thk1_moy5_20261030_claude-fable-5-1.jsonl"
+  ],
+  "model": "claude-fable-5-1",
+  "raw_only": false,
+  "median": "summary_chars",
+  "expect": 8342
+ },
+ {
+  "id": "K404",
+  "kind": "text_contains",
+  "note": "v2.1 olm72: 113 of the 118 rows without a word have a formula-onl",
+  "file": "conversations/2026-10-29/RESULT_olm72_moy5_body_words_without_after_condition_20261029.md",
+  "literal": "語が残らない行の 113 / 118 は"
+ },
+ {
+  "id": "K405",
+  "kind": "text_contains",
+  "note": "v2.1 olm82 Q1a ✗ (R3 one-reader item kept)",
+  "file": "conversations/2026-10-31/RESULT_olm82_moy5_common_mode_drop_next_token_concentration_20261031.md",
+  "literal": "Q1a S1 の t+1 で最終層の分布が集まる"
+ },
+ {
+  "id": "K406",
+  "kind": "text_contains",
+  "note": "v2.1 olm82 L3 cannot be resolved",
+  "file": "conversations/2026-10-31/RESULT_olm82_moy5_common_mode_drop_next_token_concentration_20261031.md",
+  "literal": "解けない(凍結の解ける条件のとおり)"
+ },
+ {
+  "id": "K407",
+  "kind": "text_contains",
+  "note": "v2.1 olm80 C2: median 0.522, 95 % point 0.739, the line ≤ 0.60 on",
+  "file": "conversations/2026-10-31/RESULT_olm80_moy5_layer32_change_cut_vs_floor_beyond_words_20261031.md",
+  "literal": "入れ替えた零の AUC₃₂ = 中央値 0.522・5〜95 % 点 0.248〜0.739(線 ≤ 0.60 ✗)"
+ },
+ {
+  "id": "K408",
+  "kind": "text_contains",
+  "note": "v2.1 olm74 Q2: 192 / 288 = O rows with d > 0 against the same row",
+  "file": "conversations/2026-10-29/RESULT_olm74_moy5_lemma_arms_vs_other_cut_rows_cut_word_set_20261029.md",
+  "literal": "**192 / 288 = 0.667**・中央値 +0.052・p **8.1e−9**"
+ },
+ {
+  "id": "K409",
+  "kind": "text_contains",
+  "note": "v2.1 olm74 Q3: the same +0.052 is O's median d, compared with L (",
+  "file": "conversations/2026-10-29/RESULT_olm74_moy5_lemma_arms_vs_other_cut_rows_cut_word_set_20261029.md",
+  "literal": "L **−0.040** 対 O **+0.052**"
+ },
+ {
+  "id": "K410",
+  "kind": "text_contains",
+  "note": "v2.1 olm74: by card × model 15 / 19, p 0.0096 (G-06)",
+  "file": "conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+  "literal": "15 / 19(p 0.0096・Sonnet rc03)"
+ },
+ {
+  "id": "K411",
+  "kind": "text_contains",
+  "note": "v2.1 olm68: Q1 ✓ pooled only, Opus alone p 0.052 (G-13)",
+  "file": "conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+  "literal": "Opus だけでは 33〜64 が p 0.052(プールだけ ✓・Sonnet L2-2)"
+ },
+ {
+  "id": "K412",
+  "kind": "text_contains",
+  "note": "v2.1 olm81: Opus 36 / 53 = 3 rows above the smallest pass (G-14)",
+  "file": "conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+  "literal": "Q2 Opus 36 / 53(通る最小の上 3 行)"
+ },
+ {
+  "id": "K413",
+  "kind": "text_contains",
+  "note": "v2.1 olm74: the lemma arms' weakness splits by model (G-15)",
+  "file": "conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+  "literal": "補助定理の腕の弱さは Opus と Fable で割れる(行ごとの d: Opus の L +0.022・Fable の L −0.139)"
+ },
+ {
+  "id": "K414",
+  "kind": "text_contains",
+  "note": "v2.1 olm67: Fable separates cut and floor (G-01)",
+  "file": "conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+  "literal": "ただし **Fable では cut +0.744 / 床 +0.227 で分ける**"
+ },
+ {
+  "id": "K415",
+  "kind": "text_contains",
+  "note": "v2.1 olm78: 'most of it is the words piling up' = SCOPE's wording",
+  "file": "conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+  "literal": "その寄りの過半は窓の語の積み上がり"
+ },
+ {
+  "id": "K416",
+  "kind": "text_contains",
+  "note": "v2.1 SCOPE's 11-07 note on the main verdict (thk3 Q2 ✗)",
+  "file": "conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+  "literal": "新しい行(CLI 2.1.314・11 月・A/Q2 n 47)では検出できなかった"
+ },
+ {
+  "id": "K417",
+  "kind": "text_contains",
+  "note": "v2.1 the own-word instruments closed (SCOPE §4 · D3 ③ title)",
+  "file": "conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+  "literal": "自分の語の計器(olm69〜73・79 = 6 札)"
+ },
+ {
+  "id": "K418",
+  "kind": "text_contains",
+  "note": "v2.1 olm67 Q2: 2 tokens before 75 % is post hoc (D3 ①)",
+  "file": "conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+  "literal": "先読みは句の幅(2 token 前 75 %・3 token 前 21 % = 乱数の 95 % 点の 3 倍だが関門 30 % 未満)"
+ },
+ {
+  "id": "K419",
+  "kind": "text_contains",
+  "note": "v2.1 olm67 Q3 / olm68: not for outside use (G-04 · G-05)",
+  "file": "conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+  "literal": "「床の文の手前と比べて」は外向けに使わない"
+ },
+ {
+  "id": "K420",
+  "kind": "text_contains",
+  "note": "v2.1 olm68: the 10-31 correction (G-05)",
+  "file": "conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+  "literal": "olm68 Q1 は **cut の行 対 床の行**の比べ"
+ },
+ {
+  "id": "K421",
+  "kind": "text_contains",
+  "note": "v2.1 the inner state is not said (D3 ⑤ · G-10)",
+  "file": "conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+  "literal": "Opus・Fable の**中の**状態・思考の本文(API は生の思考を返さない = MEMO p21)・因果"
+ },
+ {
+  "id": "K422",
+  "kind": "text_contains",
+  "note": "v2.1 bundle ① carries 'the house fires it' (PI 11-07 F4 = C7)",
+  "file": "conversations/2026-11-06/coread_station2_3/station3_moy5/BRIEF_v2_1_moy5_received_version_one_maker_20261107.md",
+  "literal": "**束 ① に「家が打つ」の印を付ける**"
+ },
+ {
+  "id": "K423",
+  "kind": "text_contains",
+  "note": "v2.1 bundle ③ in the RESULT's words (D3_R2 D-19)",
+  "file": "conversations/2026-11-06/coread_station2_3/station3_moy5/RESULT_station3_moy5_next_visible_two_maker_variation_20261106.md",
+  "literal": "③ 点の集合 × 足した文(Q1 の {E, J, K, P_y} と Q2 の {F, V, P_x, P_y})= 5 問"
+ },
+ {
+  "id": "K424",
+  "kind": "text_contains",
+  "note": "v2.1 N4 quote station3_moy5/reads/N_R2_Q/judge_reply.md N-2",
+  "file": "conversations/2026-11-06/coread_station2_3/station3_moy5/reads/N_R2_Q/judge_reply.md",
+  "literal": "同じ札・同じ effort の腕の中で、答えの欄に cut が出た行と出なかった行は、行ごとの thinking の token 数で分かれるか(neq6)。"
+ },
+ {
+  "id": "K425",
+  "kind": "text_contains",
+  "note": "v2.1 N4 quote station3_moy5/reads/N_R2_Q/judge_reply.md N-3",
+  "file": "conversations/2026-11-06/coread_station2_3/station3_moy5/reads/N_R2_Q/judge_reply.md",
+  "literal": "β′ の一文を一つの札で、経路 {API, claude -p} × effort {high, max} の 2 × 2 に同じ n で掛けたとき、全体の cut を動かすのは経路か effort か。"
+ },
+ {
+  "id": "K426",
+  "kind": "text_contains",
+  "note": "v2.1 N4 quote station3_moy5/reads/T_R2/judge_reply.md N-4",
+  "file": "conversations/2026-11-06/coread_station2_3/station3_moy5/reads/T_R2/judge_reply.md",
+  "literal": "比例の形の一文を Q1 の点の集合 {E, J, K, P_y} でなく Q2 の {F, V, P_x, P_y} に足すと、退化した比例が消えて答えの欄に cut が出るか(形の指図 × 点の集合の 2 × 2)"
+ },
+ {
+  "id": "K427",
+  "kind": "text_contains",
+  "note": "v2.1 N4 quote station3_moy5/reads/N_R1_Q/judge_reply.md N-1",
+  "file": "conversations/2026-11-06/coread_station2_3/station3_moy5/reads/N_R1_Q/judge_reply.md",
+  "literal": "塞ぎの一文を禁止と指図に分ける — prf3 P5B の LAT_SYM(Opus 10 / 10・Fable 4 / 10)は「do not use …」の禁止だけの腕でも、「Derive the equation from other relations …」の指図だけの腕でも出るか(claude -p · max · n 10)"
+ },
+ {
+  "id": "K428",
+  "kind": "text_contains",
+  "note": "v2.1 N4 quote station3_moy5/reads/N_R2_P/judge_reply.md N-4",
+  "file": "conversations/2026-11-06/coread_station2_3/station3_moy5/reads/N_R2_P/judge_reply.md",
+  "literal": "読み取り器 v1・v2・人の裁定で cut の判定が割れるのはどの行か。その割れは答えの欄と理由の欄のどちらに集まるか。"
+ },
+ {
+  "id": "K429",
+  "kind": "cone",
+  "q": "C_on_f",
+  "expect": 0.0,
+  "tol": 0.001,
+  "file": "conversations/2026-10-14/SOURCE_frozen_prompts_moy1_moy2_moy5_blocks_alt2_lines_dfc_v1_20261014.md",
+  "note": "C lies on f = the tangent of the circle at G (a generatrix of the cone in the board)"
+ },
+ {
+  "id": "K430",
+  "kind": "cone",
+  "q": "C_on_g",
+  "expect": 0.0,
+  "tol": 0.001,
+  "file": "conversations/2026-10-14/SOURCE_frozen_prompts_moy1_moy2_moy5_blocks_alt2_lines_dfc_v1_20261014.md",
+  "note": "C lies on g = the tangent at E (the other generatrix; J is on g, so CJ is a generatrix) → C = the apex"
+ },
+ {
+  "id": "K431",
+  "kind": "cone",
+  "q": "F_antipode_of_G",
+  "expect": 0.0,
+  "tol": 0.001,
+  "file": "conversations/2026-10-14/SOURCE_frozen_prompts_moy1_moy2_moy5_blocks_alt2_lines_dfc_v1_20261014.md",
+  "note": "F = the antipode of G on the circle (so j, through F parallel to f, touches the sphere at F = the focus)"
+ },
+ {
+  "id": "K432",
+  "kind": "cone",
+  "q": "GE_perp_axis",
+  "expect": 0.0,
+  "tol": 0.001,
+  "file": "conversations/2026-10-14/SOURCE_frozen_prompts_moy1_moy2_moy5_blocks_alt2_lines_dfc_v1_20261014.md",
+  "note": "the chord GE is perpendicular to the axis CA (GE = the trace of the contact circle's plane)"
+ },
+ {
+  "id": "K433",
+  "kind": "cone",
+  "q": "half_angle_deg",
+  "expect": 30.0,
+  "tol": 0.0001,
+  "file": "conversations/2026-10-14/SOURCE_frozen_prompts_moy1_moy2_moy5_blocks_alt2_lines_dfc_v1_20261014.md",
+  "note": "the cone's half-angle asin(r / CA) = 30° (r 4, CA 8)"
+ },
+ {
+  "id": "K434",
+  "kind": "cone",
+  "q": "Py_on_cone",
+  "expect": 0.0,
+  "tol": 0.0001,
+  "file": "conversations/2026-10-14/SOURCE_frozen_prompts_moy1_moy2_moy5_blocks_alt2_lines_dfc_v1_20261014.md",
+  "note": "P_y lifted above H by HP_y (the cut folded up about j) lies on the cone (angle to the axis = the half-angle, radians)"
+ },
+ {
+  "id": "K435",
+  "kind": "plane",
+  "q": "u_x",
+  "expect": 0.992546,
+  "tol": 1e-06,
+  "file": "conversations/2026-10-14/SOURCE_frozen_prompts_moy1_moy2_moy5_blocks_alt2_lines_dfc_v1_20261014.md",
+  "note": "the unit along j (= the line FVD, through F parallel to f), x"
+ },
+ {
+  "id": "K436",
+  "kind": "plane",
+  "q": "u_y",
+  "expect": 0.121874,
+  "tol": 1e-06,
+  "file": "conversations/2026-10-14/SOURCE_frozen_prompts_moy1_moy2_moy5_blocks_alt2_lines_dfc_v1_20261014.md",
+  "note": "the unit along j, y"
+ },
+ {
+  "id": "K437",
+  "kind": "plane",
+  "q": "V_off_j",
+  "expect": 4.1e-05,
+  "tol": 1e-06,
+  "file": "conversations/2026-10-14/SOURCE_frozen_prompts_moy1_moy2_moy5_blocks_alt2_lines_dfc_v1_20261014.md",
+  "note": "V (the question's coordinates, rounded to 4 decimals) lies on j: its distance from j"
+ },
+ {
+  "id": "K438",
+  "kind": "plane",
+  "q": "D_off_j",
+  "expect": 0.0,
+  "tol": 1e-09,
+  "file": "conversations/2026-10-14/SOURCE_frozen_prompts_moy1_moy2_moy5_blocks_alt2_lines_dfc_v1_20261014.md",
+  "note": "D (= the chord GE meets j) lies on j"
+ },
+ {
+  "id": "K439",
+  "kind": "plane",
+  "q": "tV_over_tD",
+  "expect": 0.500007,
+  "tol": 1e-06,
+  "file": "conversations/2026-10-14/SOURCE_frozen_prompts_moy1_moy2_moy5_blocks_alt2_lines_dfc_v1_20261014.md",
+  "note": "V is the midpoint of FD: t_V / t_D along j from F"
+ },
+ {
+  "id": "K440",
+  "kind": "plane",
+  "q": "FV",
+  "expect": 2.3094,
+  "tol": 0.0001,
+  "file": "conversations/2026-10-14/SOURCE_frozen_prompts_moy1_moy2_moy5_blocks_alt2_lines_dfc_v1_20261014.md",
+  "note": "|FV|"
+ },
+ {
+  "id": "K441",
+  "kind": "plane",
+  "q": "FD",
+  "expect": 4.6188,
+  "tol": 0.0001,
+  "file": "conversations/2026-10-14/SOURCE_frozen_prompts_moy1_moy2_moy5_blocks_alt2_lines_dfc_v1_20261014.md",
+  "note": "|FD| (= 2 |FV|)"
+ },
+ {
+  "id": "K442",
+  "kind": "plane",
+  "q": "A_to_j",
+  "expect": 4.000018,
+  "tol": 1e-06,
+  "file": "conversations/2026-10-14/SOURCE_frozen_prompts_moy1_moy2_moy5_blocks_alt2_lines_dfc_v1_20261014.md",
+  "note": "the distance from A to j = the radius r of the circle c (4)"
+ },
+ {
+  "id": "K443",
+  "kind": "plane",
+  "q": "AF_dot_j",
+  "expect": 0.0,
+  "tol": 1e-09,
+  "file": "conversations/2026-10-14/SOURCE_frozen_prompts_moy1_moy2_moy5_blocks_alt2_lines_dfc_v1_20261014.md",
+  "note": "AF ⟂ j (|unit AF · u|) → j touches c at F; the cutting plane touches the Dandelin sphere at F = the focus"
+ },
+ {
+  "id": "K444",
+  "kind": "plane",
+  "q": "par_n",
+  "expect": 41,
+  "tol": 0,
+  "file": "conversations/2026-10-14/SOURCE_frozen_prompts_moy1_moy2_moy5_blocks_alt2_lines_dfc_v1_20261014.md",
+  "note": "the drawn parabola's samples (40 from the vertex j ∩ g towards F up to H + the top = P_y lifted above H; the brief asks ≥ 20)"
+ },
+ {
+  "id": "K445",
+  "kind": "plane",
+  "q": "par_off_plane",
+  "expect": 0.0,
+  "tol": 1e-06,
+  "file": "conversations/2026-10-14/SOURCE_frozen_prompts_moy1_moy2_moy5_blocks_alt2_lines_dfc_v1_20261014.md",
+  "note": "every sample of the drawn parabola lies in the cutting plane (largest distance from the vertical plane through j)"
+ },
+ {
+  "id": "K446",
+  "kind": "plane",
+  "q": "par_on_cone",
+  "expect": 0.0,
+  "tol": 0.0001,
+  "file": "conversations/2026-10-14/SOURCE_frozen_prompts_moy1_moy2_moy5_blocks_alt2_lines_dfc_v1_20261014.md",
+  "note": "every sample of the drawn parabola lies on the cone (apex C, axis CA, half-angle 30°): largest |angle to the axis − 30°| in radians"
+ },
+ {
+  "id": "K447",
+  "kind": "plane",
+  "q": "plane_dot_board",
+  "expect": 0.0,
+  "tol": 1e-09,
+  "file": "conversations/2026-10-14/SOURCE_frozen_prompts_moy1_moy2_moy5_blocks_alt2_lines_dfc_v1_20261014.md",
+  "note": "the cutting plane is perpendicular to the board: |its normal · the board's normal| (the normal from the drawn rectangle's two edges)"
+ }
+]

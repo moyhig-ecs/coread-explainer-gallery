@@ -1,0 +1,14 @@
+[
+ [
+  "wait",
+  1500
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, root = document.querySelector('.sh');\n  const BAD = [/考え始めた/, /考えなかった/, /commit の正体/, /(?:SAE|活性)が\\s*bind を決める/, /\\bbegan to think\\b/i, /\\bdid not think\\b/i, /\\bsubstance of the commit\\b/i, /\\bdecides the bind\\b/i, /励起/, /活性化/, /回路/, /(?:model|モデル|AI)が(?:考えた|迷った|気づいた|気付いた|本当は分かっていた|知っていた)/, /AI の心/, /open は He・Hi に引かれた/, /block が答えを教えた/, /\\bexcit(?:ed|ation)\\b/i, /\\bactivation\\b/i, /\\bcircuit\\b/i, /\\b(?:the )?model (?:thought|hesitated|noticed|really knew|was pulled)\\b/i, /\\bit (?:thought|hesitated|noticed)\\b/i, /the block taught/i, /open was pulled to He/i, /the AI's mind/i];\n  const NEG = /言わない|言えない|とは言わ|ではない|ではなく|しない|無い|not said|is not|are not|not called|cannot|never|does not say|not say|do not|did not|not claim|no |[?？]/i;\n  const scan = (text) => { const hits = []; for (const s of text.split(/(?<=[。.!?!?\\n])/)) for (const rx of BAD) { const m = s.match(rx); if (m && !NEG.test(s)) hits.push(m[0] + ' @ ' + s.trim().slice(0, 60)); } return hits; };\n  // the positive control of the scan itself: an un-negated bad sentence is caught, a negated one is let through\n  const pc1 = scan('このモデルが考えたから bind した。'), pc2 = scan('「model が考えた」とは言わない。'), pc3 = scan('The model thought about it. It was a circuit.'), pc4 = scan('The \"O pair\" is not called a circuit.');\n  const pc5 = scan('モデルが O1O2 で考え始めた。'), pc6 = scan('「model が O1O2 で考え始めた」とは言わない。'), pc7 = scan('The model began to think in O1O2.'), pc8 = scan('That \\\"the model began to think in O1O2\\\" is not said.');\n  if (!(pc1.length === 1 && pc2.length === 0 && pc3.length >= 1 && pc4.length === 0 && pc5.length === 1 && pc6.length === 0 && pc7.length === 1 && pc8.length === 0)) throw new Error('the word scan fails its own control: ' + JSON.stringify([pc1, pc2, pc3, pc4, pc5, pc6, pc7, pc8]));\n  const found = [];\n  for (let n = 0; n < api.nstate; n++) { api.goto(n, {instant: true, silent: true}); for (const lang of ['ja', 'en']) { api.setLang(lang, true); api.redraw(); const svg = [...root.querySelectorAll('.fig-svg text')].map((t) => t.textContent).join('\\n'), txt = root.innerText + '\\n' + svg;\n    for (const h of scan(txt)) found.push(n + ' ' + lang + ': ' + h); } }\n  api.goto(0, {instant: true, silent: true}); api.setLang('ja', true);\n  const out = {words_ok: found.length === 0, found: found.slice(0, 12), control: [pc1.length, pc2.length, pc3.length, pc4.length, pc5.length, pc6.length, pc7.length, pc8.length]}; if (found.length) throw new Error('words: ' + JSON.stringify(out)); return JSON.stringify(out); })()"
+ ],
+ [
+  "wait",
+  300
+ ]
+]

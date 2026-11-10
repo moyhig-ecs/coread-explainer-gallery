@@ -1,0 +1,136 @@
+{
+ "stage": "prf4",
+ "results_md5": "31e1c0a8404eba12bf07c13287f78081",
+ "units": {
+  "claude-fable-5-1|M1A": {
+   "ok": 0,
+   "n": 10,
+   "gate_ok>=8": false,
+   "est_usd": 0,
+   "wall_med_s": null,
+   "status": {},
+   "label_json": {},
+   "label_body": {},
+   "bind": 0,
+   "chain_in_bind": 0,
+   "chain_rate": null,
+   "verdict_Q1": null,
+   "pred_counts_bind": {
+    "BIS": 0,
+    "ADJ": 0,
+    "RA": 0,
+    "THC": 0,
+    "CHAIN": 0,
+    "CHAINP": 0,
+    "COORD": 0,
+    "ALT_radical": 0,
+    "ALT_homothety": 0
+   },
+   "status_bind": {},
+   "status_notbind": {}
+  },
+  "claude-fable-5-1|M2A": {
+   "ok": 1,
+   "n": 10,
+   "gate_ok>=8": false,
+   "est_usd": 0.26,
+   "wall_med_s": 37.8,
+   "status": {
+    "hypothesis": 1
+   },
+   "apex": 1,
+   "route_proof_apex": {
+    "PROJ": 1
+   },
+   "route_reason_apex": {
+    "PROJ": 1
+   },
+   "words_proof_apex": {
+    "PROJ": 1,
+    "PERPT": 1,
+    "TRAP": 0,
+    "PB": 1,
+    "MIDTT": 1,
+    "COORD": 1,
+    "ALG": 0,
+    "CONG": 0
+   },
+   "status_apex": {
+    "hypothesis": 1
+   },
+   "status_notapex": {},
+   "conj_notapex": []
+  },
+  "claude-opus-5-5|M1A": {
+   "ok": 8,
+   "n": 10,
+   "gate_ok>=8": true,
+   "est_usd": 0.81,
+   "wall_med_s": 27.55,
+   "status": {
+    "hypothesis": 8
+   },
+   "label_json": {
+    "B-bind": 8
+   },
+   "label_body": {
+    "B-bind": 8
+   },
+   "bind": 8,
+   "chain_in_bind": 8,
+   "chain_rate": 1.0,
+   "verdict_Q1": "✓",
+   "pred_counts_bind": {
+    "BIS": 8,
+    "ADJ": 8,
+    "RA": 8,
+    "THC": 8,
+    "CHAIN": 8,
+    "CHAINP": 8,
+    "COORD": 0,
+    "ALT_radical": 0,
+    "ALT_homothety": 2
+   },
+   "status_bind": {
+    "hypothesis": 8
+   },
+   "status_notbind": {}
+  },
+  "claude-opus-5-5|M2A": {
+   "ok": 3,
+   "n": 10,
+   "gate_ok>=8": false,
+   "est_usd": 0.24,
+   "wall_med_s": 19.9,
+   "status": {
+    "hypothesis": 3
+   },
+   "apex": 3,
+   "route_proof_apex": {
+    "PROJ": 3
+   },
+   "route_reason_apex": {
+    "PROJ": 3
+   },
+   "words_proof_apex": {
+    "PROJ": 3,
+    "PERPT": 2,
+    "TRAP": 0,
+    "PB": 2,
+    "MIDTT": 3,
+    "COORD": 3,
+    "ALG": 0,
+    "CONG": 3
+   },
+   "status_apex": {
+    "hypothesis": 3
+   },
+   "status_notapex": {},
+   "conj_notapex": []
+  }
+ },
+ "isolation": {
+  "init_tools_empty": true,
+  "tool_calls": 0
+ }
+}

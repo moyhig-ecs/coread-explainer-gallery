@@ -1,0 +1,487 @@
+{
+ "control.json": "76b11c02129d589229d251a6c55d7857",
+ "manifest_md5": "c8f5cfab854351299915d9486d8c5374",
+ "read.json": "dfe5b0aa0823ad09853d3a2b3acfc1e9",
+ "rows": {
+  "F5a-2__answer__r0.npz": {
+   "bytes": 8737,
+   "md5": "cc432bbf095c14eff9052882aba5e608"
+  },
+  "F5a-2__answer__r1.npz": {
+   "bytes": 7940,
+   "md5": "eb1de51a740db240a06e96eb454dd526"
+  },
+  "F5a-2__answer__r10.npz": {
+   "bytes": 6245,
+   "md5": "33406069bab58a1e0c124d5864149d89"
+  },
+  "F5a-2__answer__r11.npz": {
+   "bytes": 8507,
+   "md5": "6cd65a89c0ba783efe6e776604f3c1e6"
+  },
+  "F5a-2__answer__r12.npz": {
+   "bytes": 8720,
+   "md5": "ee1baeee6bf2e110f8cb10c43c7da07f"
+  },
+  "F5a-2__answer__r13.npz": {
+   "bytes": 6989,
+   "md5": "2b497c2249130b241349bbe39946c4ab"
+  },
+  "F5a-2__answer__r14.npz": {
+   "bytes": 8536,
+   "md5": "3da126f1586e6624a8606ebaec2b04ab"
+  },
+  "F5a-2__answer__r15.npz": {
+   "bytes": 16424,
+   "md5": "f546a782295a276d64754229be5ecaf9"
+  },
+  "F5a-2__answer__r16.npz": {
+   "bytes": 8059,
+   "md5": "98226f47738c02676644aaf35abf8727"
+  },
+  "F5a-2__answer__r17.npz": {
+   "bytes": 7154,
+   "md5": "05a01cf4c493428132b8f5dd1dd51666"
+  },
+  "F5a-2__answer__r18.npz": {
+   "bytes": 10364,
+   "md5": "56323b80cff32b07f6a446382d01e9b0"
+  },
+  "F5a-2__answer__r19.npz": {
+   "bytes": 6073,
+   "md5": "faa991b15b9271d06c4bd794634d0f73"
+  },
+  "F5a-2__answer__r2.npz": {
+   "bytes": 8349,
+   "md5": "efbbbf65651fa93e44a9dcf12b1c314c"
+  },
+  "F5a-2__answer__r3.npz": {
+   "bytes": 7820,
+   "md5": "f19d59c0d20173226d7195b00be5f17c"
+  },
+  "F5a-2__answer__r4.npz": {
+   "bytes": 10029,
+   "md5": "6f3892ed0c25d91f62110258db720e87"
+  },
+  "F5a-2__answer__r5.npz": {
+   "bytes": 8441,
+   "md5": "efdb2440c1147e013d9ab01b675549b4"
+  },
+  "F5a-2__answer__r6.npz": {
+   "bytes": 8428,
+   "md5": "1f54561ec4fad78d9635deb470e305c6"
+  },
+  "F5a-2__answer__r7.npz": {
+   "bytes": 9617,
+   "md5": "51c2a95023ae61d5196924c9d5190155"
+  },
+  "F5a-2__answer__r8.npz": {
+   "bytes": 8136,
+   "md5": "ee3e709b7e5713aefe04d53beb638443"
+  },
+  "F5a-2__answer__r9.npz": {
+   "bytes": 11157,
+   "md5": "526957a006e9409e8696298ec15595d3"
+  },
+  "F5a-2__natural__r0.npz": {
+   "bytes": 39849,
+   "md5": "34bac580e858c41259e61b2a42fe3620"
+  },
+  "F5a-2__natural__r1.npz": {
+   "bytes": 20938,
+   "md5": "ce012f784307d7cde4c1b0b3368bfa64"
+  },
+  "F5a-2__natural__r10.npz": {
+   "bytes": 47724,
+   "md5": "3bbcf5702bc2a93fbce5953fbc02751d"
+  },
+  "F5a-2__natural__r11.npz": {
+   "bytes": 9862,
+   "md5": "9c0dec37552345ad90947eac08490239"
+  },
+  "F5a-2__natural__r12.npz": {
+   "bytes": 13883,
+   "md5": "4475fe0fccaef0d8cce2e723914b0343"
+  },
+  "F5a-2__natural__r13.npz": {
+   "bytes": 95587,
+   "md5": "616261f2e6b64f8c4fd17aa5b833bd9c"
+  },
+  "F5a-2__natural__r14.npz": {
+   "bytes": 96950,
+   "md5": "704af9894ac2a9214b076d2d3ec93ed2"
+  },
+  "F5a-2__natural__r15.npz": {
+   "bytes": 16196,
+   "md5": "965ea70c05034c548d75a01d71be6203"
+  },
+  "F5a-2__natural__r16.npz": {
+   "bytes": 6663,
+   "md5": "c9f1ca9690b3cc18697a8218301987dd"
+  },
+  "F5a-2__natural__r17.npz": {
+   "bytes": 9602,
+   "md5": "4d38145485f0a4f58c4c74d39d27a264"
+  },
+  "F5a-2__natural__r18.npz": {
+   "bytes": 20934,
+   "md5": "ed99c24021c76ef9d09e40b7cc970354"
+  },
+  "F5a-2__natural__r19.npz": {
+   "bytes": 152856,
+   "md5": "f98e7e2ea78d21f0d1fde01b729de74a"
+  },
+  "F5a-2__natural__r2.npz": {
+   "bytes": 34624,
+   "md5": "253a185b4342b8126e995c3a373a824a"
+  },
+  "F5a-2__natural__r3.npz": {
+   "bytes": 6676,
+   "md5": "e1c62771365a7fd9b63627bb73916735"
+  },
+  "F5a-2__natural__r4.npz": {
+   "bytes": 34793,
+   "md5": "000305ada1fdc392854f3b1e474b74dd"
+  },
+  "F5a-2__natural__r5.npz": {
+   "bytes": 242954,
+   "md5": "2b154367793f70f9606f463fd8a5f27a"
+  },
+  "F5a-2__natural__r6.npz": {
+   "bytes": 66399,
+   "md5": "8a192c23a519c814bfd725c341d8ffc2"
+  },
+  "F5a-2__natural__r7.npz": {
+   "bytes": 26513,
+   "md5": "bfa422b6be855710c5fdff0e40f12637"
+  },
+  "F5a-2__natural__r8.npz": {
+   "bytes": 20621,
+   "md5": "6081341a50bc069e87e3a3560a8e4f35"
+  },
+  "F5a-2__natural__r9.npz": {
+   "bytes": 35385,
+   "md5": "6f5a38cb01b1d87dbc7224da410cea75"
+  },
+  "F5a-2__think__r0.npz": {
+   "bytes": 46853,
+   "md5": "e7b5cc978d96d03664a46e531448385e"
+  },
+  "F5a-2__think__r1.npz": {
+   "bytes": 90134,
+   "md5": "c7b92a35d3775ca967961a3f5d34c3b4"
+  },
+  "F5a-2__think__r10.npz": {
+   "bytes": 203824,
+   "md5": "a6defa0593abce1e199f263f1c68b563"
+  },
+  "F5a-2__think__r11.npz": {
+   "bytes": 67966,
+   "md5": "ef0dcb04033a3bff5578b2093f2532e4"
+  },
+  "F5a-2__think__r12.npz": {
+   "bytes": 113282,
+   "md5": "84b3f0f95c6128282fa0b1ab52b2cf61"
+  },
+  "F5a-2__think__r13.npz": {
+   "bytes": 84799,
+   "md5": "86e8159042a0c25be7f654a0307ce994"
+  },
+  "F5a-2__think__r14.npz": {
+   "bytes": 378801,
+   "md5": "6c4a1f2f4481ff388096b6274c9fc958"
+  },
+  "F5a-2__think__r15.npz": {
+   "bytes": 50573,
+   "md5": "338217b4b49beb976538619884e9dd7c"
+  },
+  "F5a-2__think__r16.npz": {
+   "bytes": 110624,
+   "md5": "6d7b012b9994f150be06f87342a54f80"
+  },
+  "F5a-2__think__r17.npz": {
+   "bytes": 62602,
+   "md5": "c8541460096db65f0ac312d9938f04d5"
+  },
+  "F5a-2__think__r18.npz": {
+   "bytes": 96851,
+   "md5": "f29fae07aa8ea5e0eaa7b8d209601053"
+  },
+  "F5a-2__think__r19.npz": {
+   "bytes": 89058,
+   "md5": "a2fe51f8c7c23735c1342e259b73da7e"
+  },
+  "F5a-2__think__r2.npz": {
+   "bytes": 352151,
+   "md5": "f8f51a1808dd4e5abc7e9e23e7e6fcac"
+  },
+  "F5a-2__think__r3.npz": {
+   "bytes": 92315,
+   "md5": "2e72c1b940c6e955a37af9d7931b286d"
+  },
+  "F5a-2__think__r4.npz": {
+   "bytes": 80099,
+   "md5": "19f02eb0d5aa2d6e08347b7663f4d5cd"
+  },
+  "F5a-2__think__r5.npz": {
+   "bytes": 75760,
+   "md5": "aa33e3e03df8cb7ecf3191c638acefde"
+  },
+  "F5a-2__think__r6.npz": {
+   "bytes": 117677,
+   "md5": "f3feaa0fdbf46b606b8e2dda48b357ac"
+  },
+  "F5a-2__think__r7.npz": {
+   "bytes": 102026,
+   "md5": "251408230c15eea95ee3202aaac90145"
+  },
+  "F5a-2__think__r8.npz": {
+   "bytes": 52637,
+   "md5": "80f96a5a6c9e8a62fc0fa6afcb7277c3"
+  },
+  "F5a-2__think__r9.npz": {
+   "bytes": 63860,
+   "md5": "90964a0f65c638af57eb24e48840b3c3"
+  },
+  "F5b-1__answer__r0.npz": {
+   "bytes": 8008,
+   "md5": "adb676a143929bd2e9a7ae57377ad1e8"
+  },
+  "F5b-1__answer__r1.npz": {
+   "bytes": 6618,
+   "md5": "e484f4c875c0427947adc7a2cfbe95b1"
+  },
+  "F5b-1__answer__r10.npz": {
+   "bytes": 5105,
+   "md5": "0381a7f2c1a95ed3f007e0983fdbd419"
+  },
+  "F5b-1__answer__r11.npz": {
+   "bytes": 8293,
+   "md5": "348e48b850db55e3c9c38c87a87070b8"
+  },
+  "F5b-1__answer__r12.npz": {
+   "bytes": 6762,
+   "md5": "9399aa0a0c700bc0967315651231adfc"
+  },
+  "F5b-1__answer__r13.npz": {
+   "bytes": 8048,
+   "md5": "86a6658098048fe55156a3b2933d0a03"
+  },
+  "F5b-1__answer__r14.npz": {
+   "bytes": 11414,
+   "md5": "a72d76464789b1ea8c1c59f4614829be"
+  },
+  "F5b-1__answer__r15.npz": {
+   "bytes": 9128,
+   "md5": "35065769fa7152d4611d5662e73eea7d"
+  },
+  "F5b-1__answer__r16.npz": {
+   "bytes": 8248,
+   "md5": "8e98f2cac485e99491b946c775218c3c"
+  },
+  "F5b-1__answer__r17.npz": {
+   "bytes": 8647,
+   "md5": "8c649389f5c83615cde44b699d01ef35"
+  },
+  "F5b-1__answer__r18.npz": {
+   "bytes": 6616,
+   "md5": "627c6c790b4874240941100df446257b"
+  },
+  "F5b-1__answer__r19.npz": {
+   "bytes": 8575,
+   "md5": "28fc74198b441e0e4775c923b60c2e8c"
+  },
+  "F5b-1__answer__r2.npz": {
+   "bytes": 10718,
+   "md5": "05204698892c26702e01506cbe16c646"
+  },
+  "F5b-1__answer__r3.npz": {
+   "bytes": 9081,
+   "md5": "c962b6b670d917b396c2d3e77a07dbfb"
+  },
+  "F5b-1__answer__r4.npz": {
+   "bytes": 8684,
+   "md5": "53e1ec319e29269d06cce73f806877aa"
+  },
+  "F5b-1__answer__r5.npz": {
+   "bytes": 9464,
+   "md5": "3d98d4ecaccff9f6847e611bf54b3915"
+  },
+  "F5b-1__answer__r6.npz": {
+   "bytes": 8145,
+   "md5": "8df5a10b8e8e6dda5d65a09aee500abf"
+  },
+  "F5b-1__answer__r7.npz": {
+   "bytes": 8620,
+   "md5": "e35b9b842909d75ca33b951d7badbdf0"
+  },
+  "F5b-1__answer__r8.npz": {
+   "bytes": 8825,
+   "md5": "d91594857a19610680ed65b0146118e0"
+  },
+  "F5b-1__answer__r9.npz": {
+   "bytes": 7826,
+   "md5": "d9239afb2d21697c265ba5d12099dbeb"
+  },
+  "F5b-1__natural__r0.npz": {
+   "bytes": 65549,
+   "md5": "dbc988148384a2d0c6276531892ceb42"
+  },
+  "F5b-1__natural__r1.npz": {
+   "bytes": 49958,
+   "md5": "b5e34cfe8f63b88d88fec461f7b6d9df"
+  },
+  "F5b-1__natural__r10.npz": {
+   "bytes": 6245,
+   "md5": "e078eb86b15fb1a9d48e8e6e5099a7ee"
+  },
+  "F5b-1__natural__r11.npz": {
+   "bytes": 7778,
+   "md5": "24f60fc378cfc2425c1a33c1b954f983"
+  },
+  "F5b-1__natural__r12.npz": {
+   "bytes": 9517,
+   "md5": "2e9df068cbecd3a2a0f1c0f778583e4f"
+  },
+  "F5b-1__natural__r13.npz": {
+   "bytes": 9969,
+   "md5": "d54a6fd461d6cbb3ece3cc6c67b8a97a"
+  },
+  "F5b-1__natural__r14.npz": {
+   "bytes": 7663,
+   "md5": "d4e31ea7d8f6f965fea51b3afae8b969"
+  },
+  "F5b-1__natural__r15.npz": {
+   "bytes": 103002,
+   "md5": "6c52539eed4f588a1fa5127bf77d210d"
+  },
+  "F5b-1__natural__r16.npz": {
+   "bytes": 139762,
+   "md5": "6cd700863a5afa755534133bfe85fb50"
+  },
+  "F5b-1__natural__r17.npz": {
+   "bytes": 6458,
+   "md5": "a1b9be42fc2177a89de4cb7607751b52"
+  },
+  "F5b-1__natural__r18.npz": {
+   "bytes": 8685,
+   "md5": "8a7b520795c11d6888b7946127e33f61"
+  },
+  "F5b-1__natural__r19.npz": {
+   "bytes": 10802,
+   "md5": "ad6e4cb1cf63ed4c0d3d65943cb3c991"
+  },
+  "F5b-1__natural__r2.npz": {
+   "bytes": 7250,
+   "md5": "fa20cbe10d702cd933ea78d86c837d4e"
+  },
+  "F5b-1__natural__r3.npz": {
+   "bytes": 60111,
+   "md5": "d5a73e32670e2cdb344055c5e9e93ed0"
+  },
+  "F5b-1__natural__r4.npz": {
+   "bytes": 106624,
+   "md5": "bddd7a75abc3e80c05f6a84d9bf477f6"
+  },
+  "F5b-1__natural__r5.npz": {
+   "bytes": 8179,
+   "md5": "33e937a5268455a51ffef5ccd8cd44a3"
+  },
+  "F5b-1__natural__r6.npz": {
+   "bytes": 8789,
+   "md5": "567f32187929fe7bc60e4ee5a3a25654"
+  },
+  "F5b-1__natural__r7.npz": {
+   "bytes": 74484,
+   "md5": "c3dde412e108fa4593abdcc8bd84a49f"
+  },
+  "F5b-1__natural__r8.npz": {
+   "bytes": 135168,
+   "md5": "7038557788b17053f45f8733b633e021"
+  },
+  "F5b-1__natural__r9.npz": {
+   "bytes": 6970,
+   "md5": "04391b959f75ff061e9a11d026d5b97c"
+  },
+  "F5b-1__think__r0.npz": {
+   "bytes": 84287,
+   "md5": "5d4568d4eccefbdecedffed706beb33d"
+  },
+  "F5b-1__think__r1.npz": {
+   "bytes": 90615,
+   "md5": "0d71a2bb97567f62fdc03f5b3e9d86ef"
+  },
+  "F5b-1__think__r10.npz": {
+   "bytes": 75294,
+   "md5": "81063ecbbbb54f2d77c3fd1dbe21603a"
+  },
+  "F5b-1__think__r11.npz": {
+   "bytes": 113515,
+   "md5": "78eab197b6affbc95b8ca6911255f678"
+  },
+  "F5b-1__think__r12.npz": {
+   "bytes": 52555,
+   "md5": "7773c60853ccba3d4930fb40910fab38"
+  },
+  "F5b-1__think__r13.npz": {
+   "bytes": 91753,
+   "md5": "1d7535b968bd826711e5cb27c0af882e"
+  },
+  "F5b-1__think__r14.npz": {
+   "bytes": 140898,
+   "md5": "c095fae77fc3ac1c92490c650118846b"
+  },
+  "F5b-1__think__r15.npz": {
+   "bytes": 64378,
+   "md5": "4fbd8640cd4c318d2e58bc934bd37581"
+  },
+  "F5b-1__think__r16.npz": {
+   "bytes": 241330,
+   "md5": "fc704f85c9085b24983b1d0aa9610e6e"
+  },
+  "F5b-1__think__r17.npz": {
+   "bytes": 81217,
+   "md5": "07e355c1cad3b422b92dde228286ab9c"
+  },
+  "F5b-1__think__r18.npz": {
+   "bytes": 94509,
+   "md5": "8207ecd9a2fab7683a675f35d3653223"
+  },
+  "F5b-1__think__r19.npz": {
+   "bytes": 79126,
+   "md5": "151cc6a8f8dd68332e2716f016426fbd"
+  },
+  "F5b-1__think__r2.npz": {
+   "bytes": 91827,
+   "md5": "8e68741720b779f365b85c1f734be68a"
+  },
+  "F5b-1__think__r3.npz": {
+   "bytes": 77113,
+   "md5": "7e0eb7f8493a105db2200ac1d5ac062e"
+  },
+  "F5b-1__think__r4.npz": {
+   "bytes": 79976,
+   "md5": "38b96be3607b6451f939261a033d1aab"
+  },
+  "F5b-1__think__r5.npz": {
+   "bytes": 173237,
+   "md5": "42f09e59e4496c9761ae88dd0d2a24ee"
+  },
+  "F5b-1__think__r6.npz": {
+   "bytes": 108806,
+   "md5": "44814f1725363d663b283ab6df8649d5"
+  },
+  "F5b-1__think__r7.npz": {
+   "bytes": 100069,
+   "md5": "b7231a9fc977e1fab279fa0cb34e6c95"
+  },
+  "F5b-1__think__r8.npz": {
+   "bytes": 116123,
+   "md5": "5dbff8eba53be7153b09a247daffddcf"
+  },
+  "F5b-1__think__r9.npz": {
+   "bytes": 220066,
+   "md5": "2b468e2022555dee5c464c800d78e4a9"
+  }
+ }
+}

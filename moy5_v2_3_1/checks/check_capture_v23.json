@@ -1,0 +1,126 @@
+[
+ [
+  "wait",
+  2200
+ ],
+ [
+  "eval",
+  "window.__sh.goto(0); 'state 0'"
+ ],
+ [
+  "eval",
+  "window.__sh.setCone(true, true); 'on'"
+ ],
+ [
+  "wait",
+  1500
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  200
+ ],
+ [
+  "shot",
+  "<entry>/captures/video_s0.png",
+  "html",
+  1,
+  [
+   0,
+   0,
+   1920,
+   1080
+  ]
+ ],
+ [
+  "eval",
+  "window.__sh.goto(7); 'state 7'"
+ ],
+ [
+  "eval",
+  "window.__sh.setCone(true, true); 'on'"
+ ],
+ [
+  "wait",
+  1500
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  200
+ ],
+ [
+  "shot",
+  "<entry>/captures/video_s7.png",
+  "html",
+  1,
+  [
+   0,
+   0,
+   1920,
+   1080
+  ]
+ ],
+ [
+  "eval",
+  "window.__sh.goto(0); 'state 0'"
+ ],
+ [
+  "wait",
+  900
+ ],
+ [
+  "eval",
+  "window.__sh.setT(-5); 't -5'"
+ ],
+ [
+  "wait",
+  900
+ ],
+ [
+  "shot",
+  "<entry>/captures/video_s0a.png",
+  "html",
+  1,
+  [
+   0,
+   0,
+   1920,
+   1080
+  ]
+ ],
+ [
+  "eval",
+  "window.__sh.goto(0); 'state 0'"
+ ],
+ [
+  "wait",
+  900
+ ],
+ [
+  "eval",
+  "window.__sh.setT(5); 't 5'"
+ ],
+ [
+  "wait",
+  900
+ ],
+ [
+  "shot",
+  "<entry>/captures/video_s0b.png",
+  "html",
+  1,
+  [
+   0,
+   0,
+   1920,
+   1080
+  ]
+ ]
+]

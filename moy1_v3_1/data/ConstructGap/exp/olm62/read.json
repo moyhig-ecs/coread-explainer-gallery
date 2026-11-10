@@ -1,0 +1,58 @@
+{
+ "prov": {
+  "utc": "2026-10-28T06:55:00+00:00",
+  "commit": "4bdc93b0",
+  "dirty": false,
+  "card": "olm62",
+  "script_md5": "48669fa743ab42d12984a8e3a3e0b29e",
+  "prereg_md5": "b4da6000c15f04a2f2bca6ec40460a90",
+  "olm59_read_md5": "dfe5b0aa0823ad09853d3a2b3acfc1e9"
+ },
+ "half": 32,
+ "o_diam": {
+  "n": 59,
+  "math_up": 48,
+  "math_median_diff": 0.125,
+  "mid_up_when_math_flat": "7 / 11",
+  "mid_up_when_math_up": "41 / 48",
+  "mid_median_when_math_flat": 0.056653887033462524,
+  "spearman_mid_math": 0.7804792518994741,
+  "split_at_median_math": {
+   "low": "23 / 32",
+   "high": "25 / 27"
+  },
+  "by_group_math_flat": {
+   "close": "3 / 11",
+   "mid": "7 / 11",
+   "ans": "3 / 11",
+   "think": "3 / 11"
+  }
+ },
+ "h_diam": {
+  "n": 34,
+  "math_up": 8,
+  "math_median_diff": -0.0390625,
+  "mid_up_when_math_flat": "14 / 26",
+  "mid_up_when_math_up": "4 / 8",
+  "mid_median_when_math_flat": 0.009897790849208832,
+  "spearman_mid_math": 0.21161191749427039,
+  "split_at_median_math": {
+   "low": "9 / 17",
+   "high": "9 / 17"
+  },
+  "by_group_math_flat": {
+   "close": "14 / 26",
+   "mid": "14 / 26",
+   "ans": "10 / 26",
+   "think": "15 / 26"
+  }
+ },
+ "Q1": {
+  "o_diam_math_up": "48 / 59"
+ },
+ "Q2": {
+  "o_diam_mid_up_when_math_flat": "7 / 11"
+ },
+ "Q3_pooled_token_spearman_mid_math": 0.4152617665861453,
+ "n_tokens": 162545
+}

@@ -1,0 +1,1929 @@
+{
+ "made": "2026-11-10T11:37:17",
+ "source_entry": "conversations/2026-11-06/coread_station2_3/station3_moy5/receipt/entry_v2_3_1",
+ "house_head": "338726f5",
+ "copied": [
+  "CLAIMS.md",
+  "CLAIMS_after.md",
+  "CLAIMS_cells.md",
+  "CLAIMS_v21.md",
+  "CLAIMS_v22.md",
+  "CLAIMS_v23.md",
+  "NOTES.md",
+  "NOTES_v1.md",
+  "NOTES_v2.md",
+  "NOTES_v21.md",
+  "NOTES_v231.md",
+  "ENTRY_README.md",
+  "SCRIPT_yukkuri.md",
+  "build.mjs",
+  "capture_log.py",
+  "captures/jupyterlab_s18.png",
+  "captures/marimo_s10.png",
+  "captures/video_s0.png",
+  "captures/video_s0_en.png",
+  "captures/video_s0_off.png",
+  "captures/video_s0_off_en.png",
+  "captures/video_s0a.png",
+  "captures/video_s0b.png",
+  "captures/video_s1.png",
+  "captures/video_s10.png",
+  "captures/video_s10_en.png",
+  "captures/video_s11.png",
+  "captures/video_s11_en.png",
+  "captures/video_s12.png",
+  "captures/video_s12_en.png",
+  "captures/video_s13.png",
+  "captures/video_s13_en.png",
+  "captures/video_s14.png",
+  "captures/video_s14_en.png",
+  "captures/video_s15.png",
+  "captures/video_s15_en.png",
+  "captures/video_s16.png",
+  "captures/video_s16_en.png",
+  "captures/video_s17.png",
+  "captures/video_s17_en.png",
+  "captures/video_s18.png",
+  "captures/video_s18_en.png",
+  "captures/video_s19.png",
+  "captures/video_s19_en.png",
+  "captures/video_s1_en.png",
+  "captures/video_s2.png",
+  "captures/video_s20.png",
+  "captures/video_s20_en.png",
+  "captures/video_s21.png",
+  "captures/video_s21_en.png",
+  "captures/video_s22.png",
+  "captures/video_s22_en.png",
+  "captures/video_s23.png",
+  "captures/video_s23_en.png",
+  "captures/video_s24.png",
+  "captures/video_s24_en.png",
+  "captures/video_s25.png",
+  "captures/video_s25_en.png",
+  "captures/video_s26.png",
+  "captures/video_s26_en.png",
+  "captures/video_s27.png",
+  "captures/video_s27_en.png",
+  "captures/video_s28.png",
+  "captures/video_s28_en.png",
+  "captures/video_s29.png",
+  "captures/video_s29_en.png",
+  "captures/video_s2_en.png",
+  "captures/video_s3.png",
+  "captures/video_s30.png",
+  "captures/video_s30_en.png",
+  "captures/video_s3_en.png",
+  "captures/video_s4.png",
+  "captures/video_s4_en.png",
+  "captures/video_s5.png",
+  "captures/video_s5_en.png",
+  "captures/video_s6.png",
+  "captures/video_s6_en.png",
+  "captures/video_s7.png",
+  "captures/video_s7_en.png",
+  "captures/video_s7_off.png",
+  "captures/video_s8.png",
+  "captures/video_s8_en.png",
+  "captures/video_s9.png",
+  "captures/video_s9_en.png",
+  "check_claims.py",
+  "checks/check_capture_desk.json",
+  "checks/check_capture_en.json",
+  "checks/check_capture_light.json",
+  "checks/check_capture_phone.json",
+  "checks/check_capture_v22.json",
+  "checks/check_capture_v22_en.json",
+  "checks/check_capture_v23.json",
+  "checks/check_capture_v23_en.json",
+  "checks/check_capture_video.json",
+  "checks/check_capture_video_en.json",
+  "checks/check_chapters.json",
+  "checks/check_fit_control.json",
+  "checks/check_jupyter.json",
+  "checks/check_marimo.json",
+  "checks/check_pagevraw.json",
+  "checks/check_robust.json",
+  "checks/check_scan.json",
+  "checks/check_states.json",
+  "checks/check_v21.json",
+  "checks/check_v22.json",
+  "checks/check_v22_click.json",
+  "checks/check_v23.json",
+  "checks/check_v23_dump.json",
+  "checks/last_run.txt",
+  "claims_anchors.json",
+  "compare_v22.py",
+  "config.json",
+  "data.mjs",
+  "demo_jupyter.ipynb",
+  "demo_marimo.py",
+  "figure.css",
+  "figure.js",
+  "generated/pack.json",
+  "i18n.js",
+  "list_headings.py",
+  "make_anchors_v21.py",
+  "make_anchors_v22.py",
+  "make_anchors_v23.py",
+  "make_check.py",
+  "make_script.py",
+  "pack_data.py",
+  "run_checks.sh",
+  "run_jupyter_check.sh",
+  "run_marimo_check.sh",
+  "state_machine.js",
+  "widget.py",
+  "widget_glue.js"
+ ],
+ "excluded": [
+  "dist",
+  "dist/build_report.json",
+  "dist/moy5_route-en.html",
+  "dist/moy5_route-light-en.html",
+  "dist/moy5_route-light.html",
+  "dist/moy5_route.html",
+  "dist/widget.css",
+  "dist/widget.js"
+ ],
+ "data": {
+  "predicate": "every file under the repo that the entry's tools (pack_data.py, check_claims.py and --calibrate, make_check.py, make_script.py, list_headings.py, make_anchors_v21.py, make_anchors_v22.py, make_anchors_v23.py, compare_v22.py) open or test for existence (audit-hook trace + wrapped exists / is_file, run in a scratch copy with the house repo) ∪ every claims_anchors.json 'file' / 'files' that is a repo path (bare jsonl names under ConstructGap/exp/), minus the judging records (reads/ · receipt_read/ · prompts/ · SEALED_* · TALLY_* · CRIT_*); copied at its repo-relative path. data.mjs (bun) reads a subset of ConstructGap/exp/ (checked by building inside a copy of the bundle)",
+  "stat_only": [],
+  "runs": [
+   {
+    "dir": "entry",
+    "argv": [
+     "pack_data.py"
+    ],
+    "exit": 0,
+    "rc": 0
+   },
+   {
+    "dir": "entry",
+    "argv": [
+     "check_claims.py"
+    ],
+    "exit": 0,
+    "rc": 0
+   },
+   {
+    "dir": "entry",
+    "argv": [
+     "check_claims.py",
+     "--calibrate"
+    ],
+    "exit": 0,
+    "rc": 0
+   },
+   {
+    "dir": "entry",
+    "argv": [
+     "make_check.py",
+     "<chk>"
+    ],
+    "exit": 0,
+    "rc": 0
+   },
+   {
+    "dir": "entry",
+    "argv": [
+     "make_script.py"
+    ],
+    "exit": 0,
+    "rc": 0
+   },
+   {
+    "dir": "entry",
+    "argv": [
+     "list_headings.py"
+    ],
+    "exit": 0,
+    "rc": 0
+   },
+   {
+    "dir": "entry_anchors",
+    "argv": [
+     "make_anchors_v21.py"
+    ],
+    "exit": 0,
+    "rc": 0
+   },
+   {
+    "dir": "entry_anchors",
+    "argv": [
+     "make_anchors_v22.py"
+    ],
+    "exit": 0,
+    "rc": 0
+   },
+   {
+    "dir": "entry_anchors",
+    "argv": [
+     "make_anchors_v23.py"
+    ],
+    "exit": 0,
+    "rc": 0
+   },
+   {
+    "dir": "entry",
+    "argv": [
+     "compare_v22.py",
+     "<dumpA>",
+     "<dumpB>",
+     "trace"
+    ],
+    "exit": 0,
+    "rc": 0
+   }
+  ],
+  "n": 95,
+  "bytes": 8246529,
+  "from_anchors_only": [],
+  "excluded_judging_records": [
+   "conversations/2026-11-06/coread_station2_3/station3_moy5/reads/N_R1_Q/judge_reply.md",
+   "conversations/2026-11-06/coread_station2_3/station3_moy5/reads/N_R2_P/judge_reply.md",
+   "conversations/2026-11-06/coread_station2_3/station3_moy5/reads/N_R2_Q/judge_reply.md",
+   "conversations/2026-11-06/coread_station2_3/station3_moy5/reads/T_R2/judge_reply.md"
+  ],
+  "excluded": "everything else under the repo: the other files of the card folders, the experiment scripts (run_*.py etc. are not copied, not imported, not run; the one script pack_data.py reads as TEXT — the b5bp runner, for the β′ sentence — is copied as data), the judging records above",
+  "groups": {
+   "ConstructGap/exp/b5bp_moy5_blocking_beta_prime_20261014.py": 1,
+   "ConstructGap/exp/olm60/*": 1,
+   "ConstructGap/exp/olm61/*": 2,
+   "ConstructGap/exp/olm63/*": 2,
+   "ConstructGap/exp/olm64/*": 1,
+   "ConstructGap/exp/olm67/*": 2,
+   "ConstructGap/exp/olm68/*": 2,
+   "ConstructGap/exp/olm69/*": 2,
+   "ConstructGap/exp/olm70/*": 2,
+   "ConstructGap/exp/olm71/*": 2,
+   "ConstructGap/exp/olm72/*": 2,
+   "ConstructGap/exp/olm73/*": 1,
+   "ConstructGap/exp/olm74/*": 1,
+   "ConstructGap/exp/olm77/*": 1,
+   "ConstructGap/exp/olm78/*": 1,
+   "ConstructGap/exp/olm79/*": 1,
+   "ConstructGap/exp/olm80/*": 1,
+   "ConstructGap/exp/olm81/*": 1,
+   "ConstructGap/exp/olm82/*": 1,
+   "ConstructGap/exp/results_*.jsonl": 33,
+   "conversations/*": 35
+  },
+  "reader_reply_facts": {
+   "replies": 4,
+   "checks": 5,
+   "contains": 5
+  }
+ },
+ "cards": [
+  {
+   "name": "PREREG_moy5c_b5bp_only_max_control_20261015.md",
+   "card": "moy5c",
+   "house_path": "conversations/2026-10-15/PREREG_moy5c_b5bp_only_max_control_20261015.md",
+   "md5": "cb1a29566e7bfaf247fff562c70782aa",
+   "bytes": 1331,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_moy5c_b5bp_only_max_control_20261015.md",
+   "card": "moy5c",
+   "house_path": "conversations/2026-10-15/RESULT_moy5c_b5bp_only_max_control_20261015.md",
+   "md5": "8d2e0b755cf2a13b3f1573910d1fce44",
+   "bytes": 2771,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_arg5_moy5_gemini4_argon_five_arms_20261016.md",
+   "card": "arg5",
+   "house_path": "conversations/2026-10-16/PREREG_arg5_moy5_gemini4_argon_five_arms_20261016.md",
+   "md5": "b02a07891953849fec550a192f430730",
+   "bytes": 12177,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_arg5_moy5_gemini4_argon_five_arms_20261016.md",
+   "card": "arg5",
+   "house_path": "conversations/2026-10-16/RESULT_arg5_moy5_gemini4_argon_five_arms_20261016.md",
+   "md5": "2095956ec86a24c31c19a56b7e151153",
+   "bytes": 5488,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_arg5d_moy5_gemini4_argon_thinking_default_K_Bbp_20261016.md",
+   "card": "arg5d",
+   "house_path": "conversations/2026-10-16/PREREG_arg5d_moy5_gemini4_argon_thinking_default_K_Bbp_20261016.md",
+   "md5": "8a6202438a3fa34b13e44b05e6192685",
+   "bytes": 7151,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_arg5d_moy5_gemini4_argon_thinking_default_K_Bbp_20261016.md",
+   "card": "arg5d",
+   "house_path": "conversations/2026-10-16/RESULT_arg5d_moy5_gemini4_argon_thinking_default_K_Bbp_20261016.md",
+   "md5": "c81a1b264d1c751f9ad807a635c3b268",
+   "bytes": 5353,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_neq1_moy5_essay_not_equal_length_note_20261019.md",
+   "card": "neq1",
+   "house_path": "conversations/2026-10-19/PREREG_neq1_moy5_essay_not_equal_length_note_20261019.md",
+   "md5": "e28851817f7037a87a3ed3fc599e6f68",
+   "bytes": 8031,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_neq1_moy5_essay_not_equal_length_note_20261019.md",
+   "card": "neq1",
+   "house_path": "conversations/2026-10-19/RESULT_neq1_moy5_essay_not_equal_length_note_20261019.md",
+   "md5": "8461aa3a860a82066f9bc97d6f4b6ec3",
+   "bytes": 5872,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_neq3_moy5_lemma14_question_set_2x2_opus_fable_xhigh_20261019.md",
+   "card": "neq3",
+   "house_path": "conversations/2026-10-19/PREREG_neq3_moy5_lemma14_question_set_2x2_opus_fable_xhigh_20261019.md",
+   "md5": "5b00269b0e76a238377c81e106343b20",
+   "bytes": 8564,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_neq3_moy5_lemma14_question_set_2x2_opus_fable_xhigh_20261019.md",
+   "card": "neq3",
+   "house_path": "conversations/2026-10-19/RESULT_neq3_moy5_lemma14_question_set_2x2_opus_fable_xhigh_20261019.md",
+   "md5": "d902b88e969c51e443541339c296e85a",
+   "bytes": 8651,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_neq2f_moy5_principia_lemma14_fable51_xhigh_20261019.md",
+   "card": "neq2f",
+   "house_path": "conversations/2026-10-19/PREREG_neq2f_moy5_principia_lemma14_fable51_xhigh_20261019.md",
+   "md5": "a59160646ad118bfc35b502d1efc658e",
+   "bytes": 2999,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_neq2f_moy5_principia_lemma14_fable51_xhigh_20261019.md",
+   "card": "neq2f",
+   "house_path": "conversations/2026-10-19/RESULT_neq2f_moy5_principia_lemma14_fable51_xhigh_20261019.md",
+   "md5": "4aceb4d1c834c18e86fbf27da20e8623",
+   "bytes": 10074,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_neq6_moy5_q2_effort_dose_opus_fable_20261019.md",
+   "card": "neq6",
+   "house_path": "conversations/2026-10-19/PREREG_neq6_moy5_q2_effort_dose_opus_fable_20261019.md",
+   "md5": "25283fb46f7118d49f0c5196245c44b1",
+   "bytes": 4870,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_neq6_moy5_q2_effort_dose_opus_fable_20261019.md",
+   "card": "neq6",
+   "house_path": "conversations/2026-10-19/RESULT_neq6_moy5_q2_effort_dose_opus_fable_20261019.md",
+   "md5": "361da2c1861b27c1132a7d3ba7d6153b",
+   "bytes": 5011,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_prf1_moy5_proof_chain_lattice_to_symptoma_claude_p_20261021.md",
+   "card": "prf1",
+   "house_path": "conversations/2026-10-21/PREREG_prf1_moy5_proof_chain_lattice_to_symptoma_claude_p_20261021.md",
+   "md5": "83863c74a8d82d20fb3e9c3841847a45",
+   "bytes": 8145,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_prf1_moy5_proof_chain_lattice_to_symptoma_claude_p_20261021.md",
+   "card": "prf1",
+   "house_path": "conversations/2026-10-21/RESULT_prf1_moy5_proof_chain_lattice_to_symptoma_claude_p_20261021.md",
+   "md5": "d26974c953a38d1790cf372a3595aa9e",
+   "bytes": 9733,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_prf2_moy5_proof_block_focus_directrix_claude_p_20261021.md",
+   "card": "prf2",
+   "house_path": "conversations/2026-10-21/PREREG_prf2_moy5_proof_block_focus_directrix_claude_p_20261021.md",
+   "md5": "b85437e11cca0e78e63d080fd8115287",
+   "bytes": 5617,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_prf2_moy5_proof_block_focus_directrix_claude_p_20261021.md",
+   "card": "prf2",
+   "house_path": "conversations/2026-10-21/RESULT_prf2_moy5_proof_block_focus_directrix_claude_p_20261021.md",
+   "md5": "f7cadb9fda652f488081ed8d84dda7f2",
+   "bytes": 7156,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_prf3_moy5_confirm_lattice_bundle_claude_p_20261021.md",
+   "card": "prf3",
+   "house_path": "conversations/2026-10-21/PREREG_prf3_moy5_confirm_lattice_bundle_claude_p_20261021.md",
+   "md5": "af3a07fd7d4e2fadcf2d0ac38b8baa67",
+   "bytes": 4819,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_prf3_moy5_confirm_lattice_bundle_claude_p_20261021.md",
+   "card": "prf3",
+   "house_path": "conversations/2026-10-21/RESULT_prf3_moy5_confirm_lattice_bundle_claude_p_20261021.md",
+   "md5": "3779aaadea7f700c93aff49268361515",
+   "bytes": 8749,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_mnw1_moy5_menaechmus_newton_explanation_x_form_opus_fable_xhigh_20261022.md",
+   "card": "mnw1",
+   "house_path": "conversations/2026-10-22/PREREG_mnw1_moy5_menaechmus_newton_explanation_x_form_opus_fable_xhigh_20261022.md",
+   "md5": "68fcb58536dbee173b984d72c3e9a260",
+   "bytes": 14226,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_mnw1_moy5_menaechmus_newton_explanation_x_form_opus_fable_xhigh_20261022.md",
+   "card": "mnw1",
+   "house_path": "conversations/2026-10-22/RESULT_mnw1_moy5_menaechmus_newton_explanation_x_form_opus_fable_xhigh_20261022.md",
+   "md5": "68c5ec3471cf000035a6a9a4f768b9d2",
+   "bytes": 13528,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_mnw1b_moy5_continuation_after_usage_limit_opus_fable_xhigh_20261022.md",
+   "card": "mnw1b",
+   "house_path": "conversations/2026-10-22/PREREG_mnw1b_moy5_continuation_after_usage_limit_opus_fable_xhigh_20261022.md",
+   "md5": "d83cad43bc46e3e6dce5a3ebec0a9938",
+   "bytes": 5763,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm1_moy5_olmo3_32b_mnw1_arms_20261022.md",
+   "card": "olm1",
+   "house_path": "conversations/2026-10-22/PREREG_olm1_moy5_olmo3_32b_mnw1_arms_20261022.md",
+   "md5": "b4f50f87ac1b982592014563eaa26ad2",
+   "bytes": 7007,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm1_moy5_olmo3_32b_mnw1_arms_20261022.md",
+   "card": "olm1",
+   "house_path": "conversations/2026-10-22/RESULT_olm1_moy5_olmo3_32b_mnw1_arms_20261022.md",
+   "md5": "fa142c171917932d0fee68cac5fbf9d4",
+   "bytes": 7705,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm3_moy5_olmo3_32b_think_bf16_mlx_and_ollama_q4_screen_20261022.md",
+   "card": "olm3",
+   "house_path": "conversations/2026-10-22/PREREG_olm3_moy5_olmo3_32b_think_bf16_mlx_and_ollama_q4_screen_20261022.md",
+   "md5": "0529674571007410e0d6e1b81e9c0879",
+   "bytes": 4967,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm3_moy5_olmo3_32b_think_bf16_mlx_and_ollama_q4_screen_20261022.md",
+   "card": "olm3",
+   "house_path": "conversations/2026-10-22/RESULT_olm3_moy5_olmo3_32b_think_bf16_mlx_and_ollama_q4_screen_20261022.md",
+   "md5": "a0cefc81ffc166ffae8d2ec77c3e6007",
+   "bytes": 6698,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_rte1_route_effort_control_moy5_20261015.md",
+   "card": "rte1",
+   "house_path": "conversations/2026-10-15/PREREG_rte1_route_effort_control_moy5_20261015.md",
+   "md5": "e9d3ccdc35515fe5f67f35481072aec7",
+   "bytes": 3357,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_rte1_route_effort_control_moy5_20261015.md",
+   "card": "rte1",
+   "house_path": "conversations/2026-10-15/RESULT_rte1_route_effort_control_moy5_20261015.md",
+   "md5": "c25e6a88f2dfd626683d11356f949179",
+   "bytes": 3844,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm60_moy5_frontier_routes_read_by_olmo_sae_20261028.md",
+   "card": "olm60",
+   "house_path": "conversations/2026-10-28/PREREG_olm60_moy5_frontier_routes_read_by_olmo_sae_20261028.md",
+   "md5": "51b0cd170e35032b5f8cbffdaa732469",
+   "bytes": 5688,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm60_moy5_frontier_routes_read_by_olmo_sae_STOPPED_at_C1_20261028.md",
+   "card": "olm60",
+   "house_path": "conversations/2026-10-28/RESULT_olm60_moy5_frontier_routes_read_by_olmo_sae_STOPPED_at_C1_20261028.md",
+   "md5": "3bee9fca7d190d97f80b12a065267f2e",
+   "bytes": 2967,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm61_moy5_olmo_continues_frontier_route_sae_20261028.md",
+   "card": "olm61",
+   "house_path": "conversations/2026-10-28/PREREG_olm61_moy5_olmo_continues_frontier_route_sae_20261028.md",
+   "md5": "279874227551c9efc8f4f383e754288c",
+   "bytes": 5217,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm61_moy5_olmo_continues_frontier_route_C1_stop_sae_route_read_20261028.md",
+   "card": "olm61",
+   "house_path": "conversations/2026-10-28/RESULT_olm61_moy5_olmo_continues_frontier_route_C1_stop_sae_route_read_20261028.md",
+   "md5": "097c2e124b3aa4288a7483794afc50dc",
+   "bytes": 5457,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm63_moy5_sae_calibration_notation_context_position_20261028.md",
+   "card": "olm63",
+   "house_path": "conversations/2026-10-28/PREREG_olm63_moy5_sae_calibration_notation_context_position_20261028.md",
+   "md5": "33b7d0441ccd0c4af5cccd370802b04a",
+   "bytes": 4423,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm63_moy5_sae_calibration_notation_context_position_20261028.md",
+   "card": "olm63",
+   "house_path": "conversations/2026-10-28/RESULT_olm63_moy5_sae_calibration_notation_context_position_20261028.md",
+   "md5": "d6b093b45c01625cf0ae58edffe36853",
+   "bytes": 4583,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm64_moy5_frontier_routes_direction_readout_20261028.md",
+   "card": "olm64",
+   "house_path": "conversations/2026-10-28/PREREG_olm64_moy5_frontier_routes_direction_readout_20261028.md",
+   "md5": "9d661000b8dde2af2d7649dc555f2e52",
+   "bytes": 4945,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm64_moy5_frontier_routes_direction_readout_20261028.md",
+   "card": "olm64",
+   "house_path": "conversations/2026-10-28/RESULT_olm64_moy5_frontier_routes_direction_readout_20261028.md",
+   "md5": "6421ba1b0dc23e89be2638deb6447345",
+   "bytes": 4793,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm67_moy5_frontier_cut_route_direction_and_language_space_20261029.md",
+   "card": "olm67",
+   "house_path": "conversations/2026-10-29/PREREG_olm67_moy5_frontier_cut_route_direction_and_language_space_20261029.md",
+   "md5": "e835656f2e8a4b31f34eba170df9a8e4",
+   "bytes": 5635,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm67_moy5_frontier_cut_route_direction_and_language_space_20261029.md",
+   "card": "olm67",
+   "house_path": "conversations/2026-10-29/RESULT_olm67_moy5_frontier_cut_route_direction_and_language_space_20261029.md",
+   "md5": "19efa3aab13482716c094c34967c7362",
+   "bytes": 6701,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm68_moy5_cut_runup_time_profile_and_conditions_20261029.md",
+   "card": "olm68",
+   "house_path": "conversations/2026-10-29/PREREG_olm68_moy5_cut_runup_time_profile_and_conditions_20261029.md",
+   "md5": "f0f994a8864beb37795b19ba5a9352f5",
+   "bytes": 3339,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm68_moy5_cut_runup_time_profile_and_conditions_20261029.md",
+   "card": "olm68",
+   "house_path": "conversations/2026-10-29/RESULT_olm68_moy5_cut_runup_time_profile_and_conditions_20261029.md",
+   "md5": "9baf28e5e63c25327b9e6df0a36e7710",
+   "bytes": 5203,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm69_moy5_neq3_lemma_arms_cut_sentence_words_20261029.md",
+   "card": "olm69",
+   "house_path": "conversations/2026-10-29/PREREG_olm69_moy5_neq3_lemma_arms_cut_sentence_words_20261029.md",
+   "md5": "d448b622d3b0aa570cdbec50841035d6",
+   "bytes": 3724,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm69_moy5_neq3_lemma_arms_cut_sentence_words_20261029.md",
+   "card": "olm69",
+   "house_path": "conversations/2026-10-29/RESULT_olm69_moy5_neq3_lemma_arms_cut_sentence_words_20261029.md",
+   "md5": "d947da58685bc3a5f035ffe49b01e202",
+   "bytes": 4320,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm70_moy5_own_word_instrument_calibration_and_retry_20261029.md",
+   "card": "olm70",
+   "house_path": "conversations/2026-10-29/PREREG_olm70_moy5_own_word_instrument_calibration_and_retry_20261029.md",
+   "md5": "166a61cf5f888ad7d817f1d52b653875",
+   "bytes": 3624,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm70_moy5_own_word_instrument_calibration_and_retry_20261029.md",
+   "card": "olm70",
+   "house_path": "conversations/2026-10-29/RESULT_olm70_moy5_own_word_instrument_calibration_and_retry_20261029.md",
+   "md5": "ecd221cfcdf40b2784957588adafabe4",
+   "bytes": 4375,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm71_moy5_opening_and_body_word_instruments_by_group_20261029.md",
+   "card": "olm71",
+   "house_path": "conversations/2026-10-29/PREREG_olm71_moy5_opening_and_body_word_instruments_by_group_20261029.md",
+   "md5": "674df1db80eae8406fd82023d089a252",
+   "bytes": 3778,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm71_moy5_opening_and_body_word_instruments_by_group_20261029.md",
+   "card": "olm71",
+   "house_path": "conversations/2026-10-29/RESULT_olm71_moy5_opening_and_body_word_instruments_by_group_20261029.md",
+   "md5": "82548685e6a095fb1958283121a28f92",
+   "bytes": 3680,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm72_moy5_body_words_without_after_condition_20261029.md",
+   "card": "olm72",
+   "house_path": "conversations/2026-10-29/PREREG_olm72_moy5_body_words_without_after_condition_20261029.md",
+   "md5": "e56a58d07521100ce7e2e470941a3dde",
+   "bytes": 2816,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm72_moy5_body_words_without_after_condition_20261029.md",
+   "card": "olm72",
+   "house_path": "conversations/2026-10-29/RESULT_olm72_moy5_body_words_without_after_condition_20261029.md",
+   "md5": "117415d529a704cca9df2422b800aac4",
+   "bytes": 3805,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm73_moy5_body_word_universe_by_predicate_20261029.md",
+   "card": "olm73",
+   "house_path": "conversations/2026-10-29/PREREG_olm73_moy5_body_word_universe_by_predicate_20261029.md",
+   "md5": "0bfe3942c4165b2ed62a7baa8701fb40",
+   "bytes": 2812,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm73_moy5_body_word_universe_by_predicate_20261029.md",
+   "card": "olm73",
+   "house_path": "conversations/2026-10-29/RESULT_olm73_moy5_body_word_universe_by_predicate_20261029.md",
+   "md5": "bf8ed6d9852bddf02c73ddfddef3c019",
+   "bytes": 4253,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm74_moy5_lemma_arms_vs_other_cut_rows_cut_word_set_20261029.md",
+   "card": "olm74",
+   "house_path": "conversations/2026-10-29/PREREG_olm74_moy5_lemma_arms_vs_other_cut_rows_cut_word_set_20261029.md",
+   "md5": "fc8cdc9fdd37c1b8243ad545fc58a760",
+   "bytes": 4336,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm74_moy5_lemma_arms_vs_other_cut_rows_cut_word_set_20261029.md",
+   "card": "olm74",
+   "house_path": "conversations/2026-10-29/RESULT_olm74_moy5_lemma_arms_vs_other_cut_rows_cut_word_set_20261029.md",
+   "md5": "47a32d6039f427f4931fc7d8336e8f29",
+   "bytes": 5223,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm77_moy5_cut_vs_floor_within_card_20261030.md",
+   "card": "olm77",
+   "house_path": "conversations/2026-10-30/PREREG_olm77_moy5_cut_vs_floor_within_card_20261030.md",
+   "md5": "b2188d432d84637d6485f935547ab46c",
+   "bytes": 5013,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm77_moy5_cut_vs_floor_within_card_20261030.md",
+   "card": "olm77",
+   "house_path": "conversations/2026-10-30/RESULT_olm77_moy5_cut_vs_floor_within_card_20261030.md",
+   "md5": "18304b372d7d716bc51c2d26120729e7",
+   "bytes": 3939,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm78_moy5_within_row_runup_word_order_20261030.md",
+   "card": "olm78",
+   "house_path": "conversations/2026-10-30/PREREG_olm78_moy5_within_row_runup_word_order_20261030.md",
+   "md5": "d4e924ca97f807583f8adbae4a473ffd",
+   "bytes": 6345,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm78_moy5_within_row_runup_word_order_20261030.md",
+   "card": "olm78",
+   "house_path": "conversations/2026-10-30/RESULT_olm78_moy5_within_row_runup_word_order_20261030.md",
+   "md5": "f081f73150f9ee49ddc5439183c47fd7",
+   "bytes": 4081,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm79_moy5_single_word_sensitivity_concept_vs_own_words_20261030.md",
+   "card": "olm79",
+   "house_path": "conversations/2026-10-30/PREREG_olm79_moy5_single_word_sensitivity_concept_vs_own_words_20261030.md",
+   "md5": "243bcd56f7bca7b5ea4d191ab321174b",
+   "bytes": 5794,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm79_moy5_single_word_sensitivity_concept_vs_own_words_20261030.md",
+   "card": "olm79",
+   "house_path": "conversations/2026-10-30/RESULT_olm79_moy5_single_word_sensitivity_concept_vs_own_words_20261030.md",
+   "md5": "4da583b4d27b542c1f15cd86450b00cd",
+   "bytes": 2921,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm80_moy5_layer32_change_cut_vs_floor_beyond_words_20261031.md",
+   "card": "olm80",
+   "house_path": "conversations/2026-10-31/PREREG_olm80_moy5_layer32_change_cut_vs_floor_beyond_words_20261031.md",
+   "md5": "4f47f3abc97af5194096f4a40f47a294",
+   "bytes": 8967,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm80_moy5_layer32_change_cut_vs_floor_beyond_words_20261031.md",
+   "card": "olm80",
+   "house_path": "conversations/2026-10-31/RESULT_olm80_moy5_layer32_change_cut_vs_floor_beyond_words_20261031.md",
+   "md5": "859ab6ff229db237504e06d1a9e718f1",
+   "bytes": 4776,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm81_moy5_formula_only_cut_rows_concept_set_runup_20261031.md",
+   "card": "olm81",
+   "house_path": "conversations/2026-10-31/PREREG_olm81_moy5_formula_only_cut_rows_concept_set_runup_20261031.md",
+   "md5": "cc6bab55635b159554da262144d8a3dd",
+   "bytes": 6679,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm81_moy5_formula_only_cut_rows_concept_set_runup_20261031.md",
+   "card": "olm81",
+   "house_path": "conversations/2026-10-31/RESULT_olm81_moy5_formula_only_cut_rows_concept_set_runup_20261031.md",
+   "md5": "08a9cfadcdd8873a2f6715d786af751f",
+   "bytes": 4958,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_olm82_moy5_common_mode_drop_next_token_concentration_20261031.md",
+   "card": "olm82",
+   "house_path": "conversations/2026-10-31/PREREG_olm82_moy5_common_mode_drop_next_token_concentration_20261031.md",
+   "md5": "e5ce35709e23684b6f7096d28e1bb334",
+   "bytes": 5922,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_olm82_moy5_common_mode_drop_next_token_concentration_20261031.md",
+   "card": "olm82",
+   "house_path": "conversations/2026-10-31/RESULT_olm82_moy5_common_mode_drop_next_token_concentration_20261031.md",
+   "md5": "0c77f6bed0a819d1563c28e383af9ff6",
+   "bytes": 4642,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_thk1_moy5_q2_thinking_summary_pilot_20261030.md",
+   "card": "thk1",
+   "house_path": "conversations/2026-10-30/PREREG_thk1_moy5_q2_thinking_summary_pilot_20261030.md",
+   "md5": "528b2f570c1e71bae2d3213ee8fe6acd",
+   "bytes": 5399,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_thk1_moy5_q2_thinking_summary_pilot_20261030.md",
+   "card": "thk1",
+   "house_path": "conversations/2026-10-30/RESULT_thk1_moy5_q2_thinking_summary_pilot_20261030.md",
+   "md5": "884b2cd6ddd9f795c744226775eeec9d",
+   "bytes": 3901,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_thk2_moy5_q2_thinking_summary_pilot_20261030.md",
+   "card": "thk2",
+   "house_path": "conversations/2026-10-30/PREREG_thk2_moy5_q2_thinking_summary_pilot_20261030.md",
+   "md5": "f24fa6524300f0cdaa6abb53129df91c",
+   "bytes": 4671,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_thk2_moy5_q2_thinking_summary_pilot_20261030.md",
+   "card": "thk2",
+   "house_path": "conversations/2026-10-30/RESULT_thk2_moy5_q2_thinking_summary_pilot_20261030.md",
+   "md5": "8bc45b6ac7fec9a27609de13180cdfca",
+   "bytes": 4042,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_essay_reading_three_items_moy1_moy2_moy5_20261014.md",
+   "card": "essay4",
+   "house_path": "conversations/2026-10-14/PREREG_essay_reading_three_items_moy1_moy2_moy5_20261014.md",
+   "md5": "864cd93362fbfd517403f4ade8607113",
+   "bytes": 15949,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_essay_reading_three_items_moy1_moy2_moy5_20261014.md",
+   "card": "essay4",
+   "house_path": "conversations/2026-10-14/RESULT_essay_reading_three_items_moy1_moy2_moy5_20261014.md",
+   "md5": "bfd752a5e20b5517ddfa3f36c965cb60",
+   "bytes": 19164,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "PREREG_pm_cards_eprem1_gname2_b5bp_attr1_kfv1_sol1_20261014.md",
+   "card": "b5bp",
+   "house_path": "conversations/2026-10-14/PREREG_pm_cards_eprem1_gname2_b5bp_attr1_kfv1_sol1_20261014.md",
+   "md5": "1e0ff2e6cf35133ac4191182f1f7942d",
+   "bytes": 9102,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "RESULT_pm_cards_eprem1_gname2_b5bp_attr1_kfv1_sol1_20261014.md",
+   "card": "b5bp",
+   "house_path": "conversations/2026-10-14/RESULT_pm_cards_eprem1_gname2_b5bp_attr1_kfv1_sol1_20261014.md",
+   "md5": "5999a7d9178dfd3949b6b62f13828cda",
+   "bytes": 35804,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+   "card": "scope / source / brief",
+   "house_path": "conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md",
+   "md5": "fc0862616f40dcc98135433ca4a2152e",
+   "bytes": 14811,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "SOURCE_frozen_prompts_moy1_moy2_moy5_blocks_alt2_lines_dfc_v1_20261014.md",
+   "card": "scope / source / brief",
+   "house_path": "conversations/2026-10-14/SOURCE_frozen_prompts_moy1_moy2_moy5_blocks_alt2_lines_dfc_v1_20261014.md",
+   "md5": "574ea5c5379083217e95b2d7116fe94d",
+   "bytes": 8988,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "SUMMARY_moy5_cut_across_arms_effort_route_and_argon_20261016.md",
+   "card": "scope / source / brief",
+   "house_path": "conversations/2026-10-16/SUMMARY_moy5_cut_across_arms_effort_route_and_argon_20261016.md",
+   "md5": "39b74e9a5cbca9404cc2664c42de66f2",
+   "bytes": 31380,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "BRIEF_v2_moy5_receipt_two_makers_20261106.md",
+   "card": "scope / source / brief",
+   "house_path": "conversations/2026-11-06/coread_station2_3/station3_moy5/BRIEF_v2_moy5_receipt_two_makers_20261106.md",
+   "md5": "801f1e21508538243dbea2b27289b9cc",
+   "bytes": 9117,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "BRIEF_v2_1_moy5_received_version_one_maker_20261107.md",
+   "card": "scope / source / brief",
+   "house_path": "conversations/2026-11-06/coread_station2_3/station3_moy5/BRIEF_v2_1_moy5_received_version_one_maker_20261107.md",
+   "md5": "89486bc5ce885603801966e9d079e7a6",
+   "bytes": 10198,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "BRIEF_v2_2_moy5_board_cone_overlay_20261107.md",
+   "card": "scope / source / brief",
+   "house_path": "conversations/2026-11-06/coread_station2_3/station3_moy5/BRIEF_v2_2_moy5_board_cone_overlay_20261107.md",
+   "md5": "48b3b5777bc7262ac70733d2bd8d91f8",
+   "bytes": 6058,
+   "same_as_HEAD": true
+  },
+  {
+   "name": "BRIEF_v2_3_moy5_cutting_plane_FVD_20261109.md",
+   "card": "scope / source / brief",
+   "house_path": "conversations/2026-11-06/coread_station2_3/station3_moy5/BRIEF_v2_3_moy5_cutting_plane_FVD_20261109.md",
+   "md5": "768ec87eb661807bf2ffe5f554d67fcb",
+   "bytes": 5502,
+   "same_as_HEAD": true
+  }
+ ],
+ "cards_not_found": [
+  "RESULT of mnw1b"
+ ],
+ "rewrites": [
+  [
+   "pack_data.py",
+   "REPO = pathlib.Path(\"<repo>\")",
+   "REPO = pathlib.Path(__import__(\"os\").environ.get(\"MOY5_REPO\", HERE / \"data\"))   # bundle: the frozen files are copied under data/ at their repo paths (MOY5_REPO = another root, e.g. the house repo)",
+   1
+  ],
+  [
+   "pack_data.py",
+   "    _txt = (_ST3 / rel_).read_text(encoding=\"utf-8\")",
+   "    if not (_ST3 / rel_).is_file():   # bundle: the readers' replies are house records and are not shipped; the same checks were made on them when the bundle was cut\n        _rf = json.loads((HERE / \"data\" / \"reader_reply_facts.json\").read_text(encoding=\"utf-8\"))\n        assert [rel_, qn, quote] in _rf[\"checked\"], (rel_, qn)\n        POST_FILES[\"station3/\" + rel_] = _rf[\"md5\"][rel_]\n        N4[\"quotes\"].append({\"file\": \"station3_moy5/\" + rel_, \"qn\": qn, \"quote\": quote})\n        continue\n    _txt = (_ST3 / rel_).read_text(encoding=\"utf-8\")",
+   1
+  ],
+  [
+   "check_claims.py",
+   "REPO = pathlib.Path(\"<repo>\")",
+   "REPO = pathlib.Path(__import__(\"os\").environ.get(\"MOY5_REPO\", HERE / \"data\"))   # bundle: the frozen files are copied under data/ at their repo paths (MOY5_REPO = another root, e.g. the house repo)",
+   1
+  ],
+  [
+   "check_claims.py",
+   "    if k == \"text_contains\":\n        p = pathlib.Path(a[\"file\"]); p = p if p.is_absolute() else REPO / p\n",
+   "    if k == \"text_contains\":\n        p = pathlib.Path(a[\"file\"]); p = p if p.is_absolute() else REPO / p\n        if not p.is_file() and \"/reads/\" in a[\"file\"]:   # bundle: a reader's reply (house record, not shipped) — the same check, made on it when the bundle was cut\n            return [a[\"file\"], a[\"literal\"]] in json.loads((HERE / \"data\" / \"reader_reply_facts.json\").read_text(encoding=\"utf-8\"))[\"contains\"], None\n",
+   1
+  ],
+  [
+   "make_anchors_v21.py",
+   "REPO = pathlib.Path(\"<repo>\")",
+   "REPO = pathlib.Path(__import__(\"os\").environ.get(\"MOY5_REPO\", HERE / \"data\"))   # bundle: the frozen files are copied under data/ at their repo paths (MOY5_REPO = another root, e.g. the house repo)",
+   1
+  ],
+  [
+   "data.mjs",
+   "const X = \"<repo>/ConstructGap/exp/\";",
+   "const X = join(process.env.MOY5_REPO || join(HERE, \"data\"), \"ConstructGap\", \"exp\") + \"/\";   // bundle: the frozen files are copied under data/ at their repo paths",
+   1
+  ],
+  [
+   "build.mjs",
+   "const PY = process.env.PY || \"<home>/miniforge3/envs/py314/bin/python\";",
+   "const PY = process.env.PY || \"python3\";",
+   1
+  ],
+  [
+   "run_checks.sh",
+   "PY=${PY:-$HOME/miniforge3/envs/py314/bin/python}; BUN=${BUN:-$HOME/.bun/bin/bun}",
+   "PY=${PY:-$(command -v python3)}; BUN=${BUN:-$(command -v bun)}",
+   1
+  ],
+  [
+   "run_marimo_check.sh",
+   "PYD=${PYD:-$HOME/miniforge3/envs/py314/bin}; BUN=${BUN:-$HOME/.bun/bin/bun}",
+   "PYD=${PYD:-$(dirname \"$(command -v python3)\")}; BUN=${BUN:-$(command -v bun)}",
+   1
+  ],
+  [
+   "run_jupyter_check.sh",
+   "PYD=${PYD:-$HOME/miniforge3/envs/py314/bin}; BUN=${BUN:-$HOME/.bun/bin/bun}",
+   "PYD=${PYD:-$(dirname \"$(command -v python3)\")}; BUN=${BUN:-$(command -v bun)}",
+   1
+  ],
+  [
+   "pack_data.py",
+   "<w>",
+   "依頼者",
+   3
+  ],
+  [
+   "make_script.py",
+   "<w>",
+   "依頼者",
+   1
+  ],
+  [
+   "ENTRY_README.md",
+   "<w>",
+   "依頼者",
+   5
+  ],
+  [
+   "NOTES_v1.md",
+   "<w>",
+   "依頼者",
+   3
+  ],
+  [
+   "NOTES_v2.md",
+   "<w>",
+   "依頼者",
+   2
+  ],
+  [
+   "NOTES_v21.md",
+   "<w>",
+   "依頼者",
+   4
+  ],
+  [
+   "NOTES.md",
+   "<w>",
+   "依頼者",
+   1
+  ],
+  [
+   "NOTES_v231.md",
+   "<w>",
+   "依頼者",
+   1
+  ],
+  [
+   "make_anchors_v23.py",
+   "<w>",
+   "依頼者",
+   1
+  ],
+  [
+   "CLAIMS_v23.md",
+   "<w>",
+   "依頼者",
+   1
+  ],
+  [
+   "SCRIPT_yukkuri.md",
+   "regenerated by make_script.py after its rewrite",
+   "script: 23 lines · 146.8 s · first 10 s = state 1 (2 lines)",
+   1
+  ]
+ ],
+ "masks": {
+  "ENTRY_README.md": [
+   [
+    "<home>",
+    2
+   ]
+  ],
+  "NOTES.md": [
+   [
+    "<scratch>",
+    2
+   ],
+   [
+    "<home>",
+    4
+   ]
+  ],
+  "NOTES_v1.md": [
+   [
+    "<repo>",
+    1
+   ]
+  ],
+  "NOTES_v21.md": [
+   [
+    "<scratch>",
+    1
+   ],
+   [
+    "<home>",
+    3
+   ]
+  ],
+  "checks/check_capture_desk.json": [
+   [
+    "<entry>",
+    31
+   ]
+  ],
+  "checks/check_capture_en.json": [
+   [
+    "<entry>",
+    10
+   ]
+  ],
+  "checks/check_capture_light.json": [
+   [
+    "<entry>",
+    31
+   ]
+  ],
+  "checks/check_capture_phone.json": [
+   [
+    "<entry>",
+    31
+   ]
+  ],
+  "checks/check_capture_v22.json": [
+   [
+    "<entry>",
+    7
+   ]
+  ],
+  "checks/check_capture_v22_en.json": [
+   [
+    "<entry>",
+    4
+   ]
+  ],
+  "checks/check_capture_v23.json": [
+   [
+    "<entry>",
+    4
+   ]
+  ],
+  "checks/check_capture_v23_en.json": [
+   [
+    "<entry>",
+    2
+   ]
+  ],
+  "checks/check_capture_video.json": [
+   [
+    "<entry>",
+    33
+   ]
+  ],
+  "checks/check_capture_video_en.json": [
+   [
+    "<entry>",
+    31
+   ]
+  ],
+  "checks/check_jupyter.json": [
+   [
+    "<entry>",
+    1
+   ]
+  ],
+  "checks/check_marimo.json": [
+   [
+    "<entry>",
+    1
+   ]
+  ],
+  "checks/last_run.txt": [
+   [
+    "<entry>",
+    1
+   ],
+   [
+    "<home>",
+    2
+   ]
+  ]
+ },
+ "scan": {
+  "NOTES.md": {
+   "host name": 2
+  },
+  "NOTES_v1.md": {
+   "host name": 3
+  },
+  "cards/BRIEF_v2_1_moy5_received_version_one_maker_20261107.md": {
+   "home path": 5
+  },
+  "cards/BRIEF_v2_2_moy5_board_cone_overlay_20261107.md": {
+   "home path": 3,
+   "tmp path": 1
+  },
+  "cards/BRIEF_v2_3_moy5_cutting_plane_FVD_20261109.md": {
+   "home path": 4,
+   "tmp path": 1,
+   "host name": 1
+  },
+  "cards/BRIEF_v2_moy5_receipt_two_makers_20261106.md": {
+   "home path": 7
+  },
+  "cards/PREREG_arg5_moy5_gemini4_argon_five_arms_20261016.md": {
+   "home path": 1,
+   "tmp path": 1
+  },
+  "cards/PREREG_arg5d_moy5_gemini4_argon_thinking_default_K_Bbp_20261016.md": {
+   "home path": 1
+  },
+  "cards/PREREG_essay_reading_three_items_moy1_moy2_moy5_20261014.md": {
+   "host name": 1
+  },
+  "cards/PREREG_mnw1_moy5_menaechmus_newton_explanation_x_form_opus_fable_xhigh_20261022.md": {
+   "home path": 1,
+   "host name": 1
+  },
+  "cards/PREREG_mnw1b_moy5_continuation_after_usage_limit_opus_fable_xhigh_20261022.md": {
+   "home path": 1
+  },
+  "cards/PREREG_neq1_moy5_essay_not_equal_length_note_20261019.md": {
+   "host name": 1
+  },
+  "cards/PREREG_neq2f_moy5_principia_lemma14_fable51_xhigh_20261019.md": {
+   "tmp path": 2,
+   "host name": 2
+  },
+  "cards/PREREG_neq3_moy5_lemma14_question_set_2x2_opus_fable_xhigh_20261019.md": {
+   "host name": 4
+  },
+  "cards/PREREG_neq6_moy5_q2_effort_dose_opus_fable_20261019.md": {
+   "host name": 2
+  },
+  "cards/PREREG_olm1_moy5_olmo3_32b_mnw1_arms_20261022.md": {
+   "host name": 1
+  },
+  "cards/PREREG_olm78_moy5_within_row_runup_word_order_20261030.md": {
+   "host name": 5
+  },
+  "cards/PREREG_olm79_moy5_single_word_sensitivity_concept_vs_own_words_20261030.md": {
+   "host name": 2
+  },
+  "cards/PREREG_olm80_moy5_layer32_change_cut_vs_floor_beyond_words_20261031.md": {
+   "host name": 5
+  },
+  "cards/PREREG_olm81_moy5_formula_only_cut_rows_concept_set_runup_20261031.md": {
+   "host name": 3
+  },
+  "cards/PREREG_olm82_moy5_common_mode_drop_next_token_concentration_20261031.md": {
+   "host name": 2
+  },
+  "cards/PREREG_pm_cards_eprem1_gname2_b5bp_attr1_kfv1_sol1_20261014.md": {
+   "host name": 1
+  },
+  "cards/PREREG_prf1_moy5_proof_chain_lattice_to_symptoma_claude_p_20261021.md": {
+   "host name": 1
+  },
+  "cards/RESULT_arg5_moy5_gemini4_argon_five_arms_20261016.md": {
+   "host name": 2
+  },
+  "cards/RESULT_arg5d_moy5_gemini4_argon_thinking_default_K_Bbp_20261016.md": {
+   "host name": 2
+  },
+  "cards/RESULT_essay_reading_three_items_moy1_moy2_moy5_20261014.md": {
+   "host name": 2
+  },
+  "cards/RESULT_neq1_moy5_essay_not_equal_length_note_20261019.md": {
+   "host name": 1
+  },
+  "cards/RESULT_neq2f_moy5_principia_lemma14_fable51_xhigh_20261019.md": {
+   "host name": 2
+  },
+  "cards/RESULT_neq3_moy5_lemma14_question_set_2x2_opus_fable_xhigh_20261019.md": {
+   "host name": 2
+  },
+  "cards/RESULT_neq6_moy5_q2_effort_dose_opus_fable_20261019.md": {
+   "host name": 1
+  },
+  "cards/RESULT_olm1_moy5_olmo3_32b_mnw1_arms_20261022.md": {
+   "host name": 1
+  },
+  "cards/RESULT_olm60_moy5_frontier_routes_read_by_olmo_sae_STOPPED_at_C1_20261028.md": {
+   "host name": 1
+  },
+  "cards/RESULT_olm61_moy5_olmo_continues_frontier_route_C1_stop_sae_route_read_20261028.md": {
+   "host name": 1
+  },
+  "cards/RESULT_olm63_moy5_sae_calibration_notation_context_position_20261028.md": {
+   "host name": 1
+  },
+  "cards/RESULT_olm64_moy5_frontier_routes_direction_readout_20261028.md": {
+   "host name": 1
+  },
+  "cards/RESULT_olm78_moy5_within_row_runup_word_order_20261030.md": {
+   "host name": 6
+  },
+  "cards/RESULT_olm79_moy5_single_word_sensitivity_concept_vs_own_words_20261030.md": {
+   "host name": 7
+  },
+  "cards/RESULT_olm80_moy5_layer32_change_cut_vs_floor_beyond_words_20261031.md": {
+   "host name": 6
+  },
+  "cards/RESULT_olm81_moy5_formula_only_cut_rows_concept_set_runup_20261031.md": {
+   "host name": 5
+  },
+  "cards/RESULT_olm82_moy5_common_mode_drop_next_token_concentration_20261031.md": {
+   "host name": 4
+  },
+  "cards/RESULT_pm_cards_eprem1_gname2_b5bp_attr1_kfv1_sol1_20261014.md": {
+   "host name": 1
+  },
+  "cards/RESULT_prf1_moy5_proof_chain_lattice_to_symptoma_claude_p_20261021.md": {
+   "tmp path": 2
+  },
+  "cards/RESULT_thk1_moy5_q2_thinking_summary_pilot_20261030.md": {
+   "tmp path": 1
+  },
+  "cards/RESULT_thk2_moy5_q2_thinking_summary_pilot_20261030.md": {
+   "host name": 1
+  },
+  "cards/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md": {
+   "host name": 2
+  },
+  "cards/SUMMARY_moy5_cut_across_arms_effort_route_and_argon_20261016.md": {
+   "host name": 1
+  },
+  "data/conversations/2026-10-16/SUMMARY_moy5_cut_across_arms_effort_route_and_argon_20261016.md": {
+   "host name": 1
+  },
+  "data/conversations/2026-10-19/PREREG_neq3_moy5_lemma14_question_set_2x2_opus_fable_xhigh_20261019.md": {
+   "host name": 4
+  },
+  "data/conversations/2026-10-19/RESULT_neq1_moy5_essay_not_equal_length_note_20261019.md": {
+   "host name": 1
+  },
+  "data/conversations/2026-10-19/RESULT_neq2f_moy5_principia_lemma14_fable51_xhigh_20261019.md": {
+   "host name": 2
+  },
+  "data/conversations/2026-10-21/PREREG_prf1_moy5_proof_chain_lattice_to_symptoma_claude_p_20261021.md": {
+   "host name": 1
+  },
+  "data/conversations/2026-10-22/PREREG_mnw1_moy5_menaechmus_newton_explanation_x_form_opus_fable_xhigh_20261022.md": {
+   "home path": 1,
+   "host name": 1
+  },
+  "data/conversations/2026-10-22/RESULT_olm1_moy5_olmo3_32b_mnw1_arms_20261022.md": {
+   "host name": 1
+  },
+  "data/conversations/2026-10-28/RESULT_olm60_moy5_frontier_routes_read_by_olmo_sae_STOPPED_at_C1_20261028.md": {
+   "host name": 1
+  },
+  "data/conversations/2026-10-28/RESULT_olm61_moy5_olmo_continues_frontier_route_C1_stop_sae_route_read_20261028.md": {
+   "host name": 1
+  },
+  "data/conversations/2026-10-28/RESULT_olm63_moy5_sae_calibration_notation_context_position_20261028.md": {
+   "host name": 1
+  },
+  "data/conversations/2026-10-28/RESULT_olm64_moy5_frontier_routes_direction_readout_20261028.md": {
+   "host name": 1
+  },
+  "data/conversations/2026-10-30/RESULT_olm78_moy5_within_row_runup_word_order_20261030.md": {
+   "host name": 6
+  },
+  "data/conversations/2026-10-30/RESULT_olm79_moy5_single_word_sensitivity_concept_vs_own_words_20261030.md": {
+   "host name": 7
+  },
+  "data/conversations/2026-10-30/RESULT_thk1_moy5_q2_thinking_summary_pilot_20261030.md": {
+   "tmp path": 1
+  },
+  "data/conversations/2026-10-30/RESULT_thk2_moy5_q2_thinking_summary_pilot_20261030.md": {
+   "host name": 1
+  },
+  "data/conversations/2026-10-31/RESULT_olm80_moy5_layer32_change_cut_vs_floor_beyond_words_20261031.md": {
+   "host name": 6
+  },
+  "data/conversations/2026-10-31/RESULT_olm81_moy5_formula_only_cut_rows_concept_set_runup_20261031.md": {
+   "host name": 5
+  },
+  "data/conversations/2026-10-31/RESULT_olm82_moy5_common_mode_drop_next_token_concentration_20261031.md": {
+   "host name": 4
+  },
+  "data/conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md": {
+   "host name": 2
+  },
+  "data/conversations/2026-11-06/coread_station2_3/station3_moy5/BRIEF_v2_1_moy5_received_version_one_maker_20261107.md": {
+   "home path": 5
+  }
+ },
+ "fence": {
+  "cards/BRIEF_v2_1_moy5_received_version_one_maker_20261107.md": {
+   "hits": 9,
+   "kanji_title": 9,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/BRIEF_v2_2_moy5_board_cone_overlay_20261107.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/BRIEF_v2_3_moy5_cutting_plane_FVD_20261109.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/BRIEF_v2_moy5_receipt_two_makers_20261106.md": {
+   "hits": 7,
+   "kanji_title": 7,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_arg5_moy5_gemini4_argon_five_arms_20261016.md": {
+   "hits": 3,
+   "kanji_title": 3,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_arg5d_moy5_gemini4_argon_thinking_default_K_Bbp_20261016.md": {
+   "hits": 5,
+   "kanji_title": 5,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_essay_reading_three_items_moy1_moy2_moy5_20261014.md": {
+   "hits": 5,
+   "kanji_title": 5,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_mnw1_moy5_menaechmus_newton_explanation_x_form_opus_fable_xhigh_20261022.md": {
+   "hits": 3,
+   "kanji_title": 3,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_mnw1b_moy5_continuation_after_usage_limit_opus_fable_xhigh_20261022.md": {
+   "hits": 2,
+   "kanji_title": 2,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_moy5c_b5bp_only_max_control_20261015.md": {
+   "hits": 2,
+   "kanji_title": 2,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_neq1_moy5_essay_not_equal_length_note_20261019.md": {
+   "hits": 6,
+   "kanji_title": 6,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_neq2f_moy5_principia_lemma14_fable51_xhigh_20261019.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_neq3_moy5_lemma14_question_set_2x2_opus_fable_xhigh_20261019.md": {
+   "hits": 3,
+   "kanji_title": 3,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_neq6_moy5_q2_effort_dose_opus_fable_20261019.md": {
+   "hits": 3,
+   "kanji_title": 3,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_olm1_moy5_olmo3_32b_mnw1_arms_20261022.md": {
+   "hits": 2,
+   "kanji_title": 2,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_olm3_moy5_olmo3_32b_think_bf16_mlx_and_ollama_q4_screen_20261022.md": {
+   "hits": 3,
+   "kanji_title": 3,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_olm60_moy5_frontier_routes_read_by_olmo_sae_20261028.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_olm61_moy5_olmo_continues_frontier_route_sae_20261028.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_olm63_moy5_sae_calibration_notation_context_position_20261028.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_olm64_moy5_frontier_routes_direction_readout_20261028.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_olm67_moy5_frontier_cut_route_direction_and_language_space_20261029.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_olm68_moy5_cut_runup_time_profile_and_conditions_20261029.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_olm69_moy5_neq3_lemma_arms_cut_sentence_words_20261029.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_olm70_moy5_own_word_instrument_calibration_and_retry_20261029.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_olm71_moy5_opening_and_body_word_instruments_by_group_20261029.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_olm72_moy5_body_words_without_after_condition_20261029.md": {
+   "hits": 3,
+   "kanji_title": 3,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_olm73_moy5_body_word_universe_by_predicate_20261029.md": {
+   "hits": 2,
+   "kanji_title": 2,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_olm74_moy5_lemma_arms_vs_other_cut_rows_cut_word_set_20261029.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_olm77_moy5_cut_vs_floor_within_card_20261030.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_olm78_moy5_within_row_runup_word_order_20261030.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_olm79_moy5_single_word_sensitivity_concept_vs_own_words_20261030.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_olm80_moy5_layer32_change_cut_vs_floor_beyond_words_20261031.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_olm81_moy5_formula_only_cut_rows_concept_set_runup_20261031.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_olm82_moy5_common_mode_drop_next_token_concentration_20261031.md": {
+   "hits": 2,
+   "kanji_title": 2,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_pm_cards_eprem1_gname2_b5bp_attr1_kfv1_sol1_20261014.md": {
+   "hits": 5,
+   "kanji_title": 5,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_prf1_moy5_proof_chain_lattice_to_symptoma_claude_p_20261021.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_prf2_moy5_proof_block_focus_directrix_claude_p_20261021.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_prf3_moy5_confirm_lattice_bundle_claude_p_20261021.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_rte1_route_effort_control_moy5_20261015.md": {
+   "hits": 4,
+   "kanji_title": 4,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_thk1_moy5_q2_thinking_summary_pilot_20261030.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/PREREG_thk2_moy5_q2_thinking_summary_pilot_20261030.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_arg5_moy5_gemini4_argon_five_arms_20261016.md": {
+   "hits": 2,
+   "kanji_title": 2,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_arg5d_moy5_gemini4_argon_thinking_default_K_Bbp_20261016.md": {
+   "hits": 2,
+   "kanji_title": 2,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_essay_reading_three_items_moy1_moy2_moy5_20261014.md": {
+   "hits": 4,
+   "kanji_title": 4,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_mnw1_moy5_menaechmus_newton_explanation_x_form_opus_fable_xhigh_20261022.md": {
+   "hits": 6,
+   "kanji_title": 6,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_moy5c_b5bp_only_max_control_20261015.md": {
+   "hits": 2,
+   "kanji_title": 2,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_neq1_moy5_essay_not_equal_length_note_20261019.md": {
+   "hits": 4,
+   "kanji_title": 4,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_neq2f_moy5_principia_lemma14_fable51_xhigh_20261019.md": {
+   "hits": 5,
+   "kanji_title": 5,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_neq3_moy5_lemma14_question_set_2x2_opus_fable_xhigh_20261019.md": {
+   "hits": 3,
+   "kanji_title": 3,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_neq6_moy5_q2_effort_dose_opus_fable_20261019.md": {
+   "hits": 4,
+   "kanji_title": 4,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_olm1_moy5_olmo3_32b_mnw1_arms_20261022.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_olm3_moy5_olmo3_32b_think_bf16_mlx_and_ollama_q4_screen_20261022.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_olm60_moy5_frontier_routes_read_by_olmo_sae_STOPPED_at_C1_20261028.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_olm61_moy5_olmo_continues_frontier_route_C1_stop_sae_route_read_20261028.md": {
+   "hits": 3,
+   "kanji_title": 3,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_olm63_moy5_sae_calibration_notation_context_position_20261028.md": {
+   "hits": 3,
+   "kanji_title": 3,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_olm64_moy5_frontier_routes_direction_readout_20261028.md": {
+   "hits": 2,
+   "kanji_title": 2,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_olm67_moy5_frontier_cut_route_direction_and_language_space_20261029.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_olm68_moy5_cut_runup_time_profile_and_conditions_20261029.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_olm69_moy5_neq3_lemma_arms_cut_sentence_words_20261029.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_olm70_moy5_own_word_instrument_calibration_and_retry_20261029.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_olm71_moy5_opening_and_body_word_instruments_by_group_20261029.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_olm72_moy5_body_words_without_after_condition_20261029.md": {
+   "hits": 3,
+   "kanji_title": 3,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_olm73_moy5_body_word_universe_by_predicate_20261029.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_olm74_moy5_lemma_arms_vs_other_cut_rows_cut_word_set_20261029.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_olm77_moy5_cut_vs_floor_within_card_20261030.md": {
+   "hits": 2,
+   "kanji_title": 2,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_pm_cards_eprem1_gname2_b5bp_attr1_kfv1_sol1_20261014.md": {
+   "hits": 9,
+   "kanji_title": 9,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_prf1_moy5_proof_chain_lattice_to_symptoma_claude_p_20261021.md": {
+   "hits": 2,
+   "kanji_title": 2,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_prf2_moy5_proof_block_focus_directrix_claude_p_20261021.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_prf3_moy5_confirm_lattice_bundle_claude_p_20261021.md": {
+   "hits": 2,
+   "kanji_title": 2,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_rte1_route_effort_control_moy5_20261015.md": {
+   "hits": 2,
+   "kanji_title": 2,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/RESULT_thk2_moy5_q2_thinking_summary_pilot_20261030.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md": {
+   "hits": 8,
+   "kanji_title": 8,
+   "case_insensitive_english_word_spread": 0
+  },
+  "cards/SUMMARY_moy5_cut_across_arms_effort_route_and_argon_20261016.md": {
+   "hits": 13,
+   "kanji_title": 13,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-10-16/SUMMARY_moy5_cut_across_arms_effort_route_and_argon_20261016.md": {
+   "hits": 13,
+   "kanji_title": 13,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-10-19/PREREG_neq3_moy5_lemma14_question_set_2x2_opus_fable_xhigh_20261019.md": {
+   "hits": 3,
+   "kanji_title": 3,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-10-19/RESULT_neq1_moy5_essay_not_equal_length_note_20261019.md": {
+   "hits": 4,
+   "kanji_title": 4,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-10-19/RESULT_neq2f_moy5_principia_lemma14_fable51_xhigh_20261019.md": {
+   "hits": 5,
+   "kanji_title": 5,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-10-21/PREREG_prf1_moy5_proof_chain_lattice_to_symptoma_claude_p_20261021.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-10-21/PREREG_prf2_moy5_proof_block_focus_directrix_claude_p_20261021.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-10-21/RESULT_prf3_moy5_confirm_lattice_bundle_claude_p_20261021.md": {
+   "hits": 2,
+   "kanji_title": 2,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-10-22/PREREG_mnw1_moy5_menaechmus_newton_explanation_x_form_opus_fable_xhigh_20261022.md": {
+   "hits": 3,
+   "kanji_title": 3,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-10-22/RESULT_mnw1_moy5_menaechmus_newton_explanation_x_form_opus_fable_xhigh_20261022.md": {
+   "hits": 6,
+   "kanji_title": 6,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-10-22/RESULT_olm1_moy5_olmo3_32b_mnw1_arms_20261022.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-10-28/RESULT_olm60_moy5_frontier_routes_read_by_olmo_sae_STOPPED_at_C1_20261028.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-10-28/RESULT_olm61_moy5_olmo_continues_frontier_route_C1_stop_sae_route_read_20261028.md": {
+   "hits": 3,
+   "kanji_title": 3,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-10-28/RESULT_olm63_moy5_sae_calibration_notation_context_position_20261028.md": {
+   "hits": 3,
+   "kanji_title": 3,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-10-28/RESULT_olm64_moy5_frontier_routes_direction_readout_20261028.md": {
+   "hits": 2,
+   "kanji_title": 2,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-10-29/RESULT_olm67_moy5_frontier_cut_route_direction_and_language_space_20261029.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-10-29/RESULT_olm68_moy5_cut_runup_time_profile_and_conditions_20261029.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-10-29/RESULT_olm69_moy5_neq3_lemma_arms_cut_sentence_words_20261029.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-10-29/RESULT_olm70_moy5_own_word_instrument_calibration_and_retry_20261029.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-10-29/RESULT_olm71_moy5_opening_and_body_word_instruments_by_group_20261029.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-10-29/RESULT_olm72_moy5_body_words_without_after_condition_20261029.md": {
+   "hits": 3,
+   "kanji_title": 3,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-10-29/RESULT_olm73_moy5_body_word_universe_by_predicate_20261029.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-10-29/RESULT_olm74_moy5_lemma_arms_vs_other_cut_rows_cut_word_set_20261029.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-10-30/RESULT_olm77_moy5_cut_vs_floor_within_card_20261030.md": {
+   "hits": 2,
+   "kanji_title": 2,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-10-30/RESULT_thk2_moy5_q2_thinking_summary_pilot_20261030.md": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-10-31/SCOPE_line1_line2_claimable_after_olm76_81_20261031.md": {
+   "hits": 8,
+   "kanji_title": 8,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-11-06/coread_station2_3/station3_moy5/BRIEF_v2_1_moy5_received_version_one_maker_20261107.md": {
+   "hits": 9,
+   "kanji_title": 9,
+   "case_insensitive_english_word_spread": 0
+  },
+  "data/conversations/2026-11-06/coread_station2_3/station3_moy5/RESULT_station3_moy5_next_visible_two_maker_variation_20261106.md": {
+   "hits": 2,
+   "kanji_title": 2,
+   "case_insensitive_english_word_spread": 0
+  },
+  "figure.css": {
+   "hits": 1,
+   "kanji_title": 1,
+   "case_insensitive_english_word_spread": 0
+  },
+  "figure.js": {
+   "hits": 3,
+   "kanji_title": 3,
+   "case_insensitive_english_word_spread": 0
+  },
+  "i18n.js": {
+   "hits": 14,
+   "kanji_title": 12,
+   "case_insensitive_english_word_spread": 2
+  },
+  "skill/SKILL.md": {
+   "hits": 1,
+   "kanji_title": 0,
+   "case_insensitive_english_word_spread": 0
+  }
+ },
+ "public_prompt": {
+  "tag": "v1.0.1",
+  "files": {
+   "prompts.py": "abf43cfcbe92a63e495b0ab626b46a77",
+   "probe_registry.py": "a47fd39bedee3e37a038d9feb6ef0603"
+  }
+ },
+ "skill": {
+  "commit": "674b789f",
+  "files": 36,
+  "SKILL.md_md5": "1f76664d2a856df62e747930ccd6a94a"
+ },
+ "fence_summary": {
+  "words": "station 2's check_fence.py list (11) ∪ PROCEDURE C1 (5) = 13 words (case-insensitive; the list is not shipped)",
+  "by_zone": {
+   "cards": {
+    "files": 73,
+    "hits": 185
+   },
+   "data": {
+    "files": 27,
+    "hits": 80
+   },
+   "elsewhere": {
+    "files": 3,
+    "hits": 18
+   },
+   "skill": {
+    "files": 1,
+    "hits": 1
+   }
+  }
+ }
+}

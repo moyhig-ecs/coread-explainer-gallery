@@ -1,0 +1,82 @@
+{
+ "date_utc": "2026-07-28T06:05:26+00:00",
+ "prereg": "PREREG_moy1_replication_20260728.md",
+ "semantics": "再現(replication)。三名札(恒等/忠実な埋め込み/修復)は適用しない",
+ "window": "窓外 —— status.claude.com 事前確認 2026-07-28: All Systems Operational (Opus 5 の直近インシデントは 2026-07-27 14:36 UTC に解決済)",
+ "sdk": "anthropic 0.111.0",
+ "sdk_window_in": "anthropic 0.120.0 (D3: 登録済み逸脱)",
+ "cells": [
+  {
+   "model": "claude-fable-5",
+   "thinking": "on"
+  },
+  {
+   "model": "claude-opus-5",
+   "thinking": "on"
+  },
+  {
+   "model": "claude-opus-5",
+   "thinking": "off"
+  }
+ ],
+ "conditions": [
+  "open",
+  "blocked",
+  "selection-supply"
+ ],
+ "n_per_cell": 10,
+ "item": "higashida_circle",
+ "arm": "A",
+ "deg": 37.0,
+ "max_tokens": 16000,
+ "effort": "(未指定・既定 high)",
+ "thinking_on": {
+  "type": "adaptive",
+  "display": "summarized"
+ },
+ "thinking_off": {
+  "type": "disabled"
+ },
+ "sampling": "temperature/seed とも API 非対応。n=10 は同一条件の反復",
+ "system_prompt": "(空・D4)",
+ "prompt_md5": {
+  "open": "3c7a63dd0d2b4393820e7836458e33cd",
+  "blocked": "616682f531557c56d1103738b8d9dbda",
+  "selection-supply": "a8186b8abce2b483151a4d82838becdb"
+ },
+ "prompt_md5_matches_window_in": true,
+ "prompts": {
+  "open": "You analyze a geometric configuration. **No figure is given.** Only the coordinates below are available. The symbol names are neutral and carry no hint about their meaning.\n# Objects to focus on (role binding)\nFocus on the relation that holds among the following objects: {X1, X2, X3, X4}.\n# Configuration\n# The four common tangent lines of circles K1, K2 meet pairwise. The four MIXED intersections (one external + one internal tangent) are X1,X2,X3,X4; the two same-type intersections are He, Hi.\nO1 = (-2.2849, -4.2209)\nK1 = Circle(O1, 7.4607)\nO2 = (10.1897, -0.5520)\nK2 = Circle(O2, 3.6869)\nX1 = (0.6526, 3.2154)\nX2 = (7.3460, 3.1590)\nX3 = (9.8079, -5.2117)\nX4 = (4.2108, -8.8828)\nHe = (22.3772, 3.0324)\nHi = (6.0639, -1.7655)\n\n# Premises (general, non-degenerate)\nThe two circles are disjoint and have four common tangents; the radii differ; the configuration is general (non-degenerate).\nState the SINGLE most important invariant that ALWAYS holds for the general (non-special, non-degenerate) configuration, as a relation (concyclic / equal length / collinear / right angle). It must be non-trivial and follow from the structure. The answer is withheld.\n\nRespond with JSON only:\n{\"conjecture\": \"<relation, in the given symbols>\", \"reason\": \"<why it holds>\", \"closes_goal\": <true|false>}\n",
+  "blocked": "You analyze a geometric configuration. **No figure is given.** Only the coordinates below are available. The symbol names are neutral and carry no hint about their meaning.\n# Objects to focus on (role binding)\nFocus on the relation that holds among the following objects: {X1, X2, X3, X4}.\n# Configuration\n# The four common tangent lines of circles K1, K2 meet pairwise. The four MIXED intersections (one external + one internal tangent) are X1,X2,X3,X4; the two same-type intersections are He, Hi.\nO1 = (-2.2849, -4.2209)\nK1 = Circle(O1, 7.4607)\nO2 = (10.1897, -0.5520)\nK2 = Circle(O2, 3.6869)\nX1 = (0.6526, 3.2154)\nX2 = (7.3460, 3.1590)\nX3 = (9.8079, -5.2117)\nX4 = (4.2108, -8.8828)\nHe = (22.3772, 3.0324)\nHi = (6.0639, -1.7655)\n\n# Premises (general, non-degenerate)\nThe two circles are disjoint and have four common tangents; the radii differ; the configuration is general (non-degenerate).\nState the SINGLE most important invariant that ALWAYS holds for the general (non-special, non-degenerate) configuration, as a relation (concyclic / equal length / collinear / right angle). It must be non-trivial and follow from the structure. The answer is withheld.\n\nRespond with JSON only:\n{\"conjecture\": \"<relation, in the given symbols>\", \"reason\": \"<why it holds>\", \"closes_goal\": <true|false>}\n\nNote: merely stating that the four points are 'concyclic' (that they lie on one common circle) is INSUFFICIENT. Identify that circle UNIQUELY: which known point is its center, and which segment is its diameter (or radius)? State the single most important invariant in a form that INCLUDES the identification of that circle.",
+  "selection-supply": "You analyze a geometric configuration. **No figure is given.** Only the coordinates below are available. The symbol names are neutral and carry no hint about their meaning.\n# Objects to focus on (role binding)\nFocus on the relation that holds among the following objects: {X1, X2, X3, X4}.\n# Configuration\n# The four common tangent lines of circles K1, K2 meet pairwise. The four MIXED intersections (one external + one internal tangent) are X1,X2,X3,X4; the two same-type intersections are He, Hi.\nO1 = (-2.2849, -4.2209)\nK1 = Circle(O1, 7.4607)\nO2 = (10.1897, -0.5520)\nK2 = Circle(O2, 3.6869)\nX1 = (0.6526, 3.2154)\nX2 = (7.3460, 3.1590)\nX3 = (9.8079, -5.2117)\nX4 = (4.2108, -8.8828)\nHe = (22.3772, 3.0324)\nHi = (6.0639, -1.7655)\n\n# Premises (general, non-degenerate)\nThe two circles are disjoint and have four common tangents; the radii differ; the configuration is general (non-degenerate).\nState the SINGLE most important invariant that ALWAYS holds for the general (non-special, non-degenerate) configuration, as a relation (concyclic / equal length / collinear / right angle). It must be non-trivial and follow from the structure. The answer is withheld.\n\nRespond with JSON only:\n{\"conjecture\": \"<relation, in the given symbols>\", \"reason\": \"<why it holds>\", \"closes_goal\": <true|false>}\n\nHint: the circle in question is the one whose DIAMETER is the segment O1O2 (joining the centers of the two given circles). State the single most important invariant for X1, X2, X3, X4 with respect to THIS circle, and explain WHY O1O2 is its diameter (the right-angle property each Xi has)."
+ },
+ "classifier": "ConstructGap/exp/run_moy1_concyclic_blocked.py::classify (verbatim)",
+ "lexicon": {
+  "file": "experiments/moy1-claude5-baseline/results/lexicon_v2_frozen.json",
+  "md5": "e73e899f520a3d037bc8f0bb877e5a0f",
+  "version": "v2"
+ },
+ "row_schema": [
+  "model",
+  "condition",
+  "thinking",
+  "rep",
+  "label",
+  "target",
+  "err",
+  "response_id",
+  "api_model",
+  "stop_reason",
+  "stop_details",
+  "usage",
+  "n_thinking_blocks",
+  "thinking_tokens",
+  "thinking_summary",
+  "content",
+  "wall_s",
+  "datetime_utc"
+ ],
+ "k_refusal_pause": 2,
+ "note_D2": "行 schema を全列凍結。書込時と resume 時に assert する",
+ "note_placement": "probes/ 配下 = 論文付録 Table 4 の glob 対象外(claims の外)"
+}

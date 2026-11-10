@@ -1,0 +1,11 @@
+[
+  {"id": "K01", "kind": "json_equals", "file": "data/synthetic_readout.json", "key": "rows.A.key_pos", "expect": 8, "note": "the key position of row A is read from the card's JSON"},
+  {"id": "K02", "kind": "json_equals", "file": "data/synthetic_readout.json", "key": "rows.B.key_pos", "expect": 5},
+  {"id": "K03", "kind": "json_len", "file": "data/synthetic_readout.json", "key": "rows.A.ranks", "expect": 12, "note": "12 positions"},
+  {"id": "K04", "kind": "derived", "name": "key_rank", "args": ["A"], "expect": 9, "note": "RECOUNT from the raw ranks (the independent route): median over the band layers at the key position, ranks clipped at 1001"},
+  {"id": "K05", "kind": "derived", "name": "key_rank", "args": ["B"], "expect": 54},
+  {"id": "K06", "kind": "pack_equals_derived", "file": "generated/pack.json", "key": "rows.A.keyRank", "name": "key_rank", "args": ["A"], "note": "what the page carries = what the recount gives"},
+  {"id": "K07", "kind": "pack_equals_derived", "file": "generated/pack.json", "key": "rows.B.keyRank", "name": "key_rank", "args": ["B"]},
+  {"id": "K08", "kind": "json_equals", "file": "data/synthetic_readout.json", "key": "provenance.dirty", "expect": false, "note": "a card run from a dirty tree is not frozen"},
+  {"id": "K09", "kind": "text_contains", "file": "data/synthetic_readout.json", "literal": "\"forward\": 0", "note": "a replay: no new forward pass"}
+]

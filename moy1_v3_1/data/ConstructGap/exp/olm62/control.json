@@ -1,0 +1,49 @@
+{
+ "prov": {
+  "utc": "2026-10-28T06:54:53+00:00",
+  "commit": "4bdc93b0",
+  "dirty": false,
+  "card": "olm62",
+  "script_md5": "48669fa743ab42d12984a8e3a3e0b29e",
+  "prereg_md5": "b4da6000c15f04a2f2bca6ec40460a90",
+  "olm59_read_md5": "dfe5b0aa0823ad09853d3a2b3acfc1e9"
+ },
+ "C1": {
+  "o_diam": {
+   "got": {
+    "n": 59,
+    "after_gt_before": 48,
+    "median_diff": 0.1574450582265854
+   },
+   "exp": {
+    "n": 59,
+    "after_gt_before": 48,
+    "median_diff": 0.1574450582265854
+   },
+   "ok": true
+  },
+  "h_diam": {
+   "got": {
+    "n": 34,
+    "after_gt_before": 18,
+    "median_diff": 0.009897790849208832
+   },
+   "exp": {
+    "n": 34,
+    "after_gt_before": 18,
+    "median_diff": 0.009897790849208832
+   },
+   "ok": true
+  }
+ },
+ "C2": {
+  "digit_tokens": 32498,
+  "digit_pos": 32498,
+  "alpha_tokens": 84759,
+  "alpha_zero": 84759
+ },
+ "pass": {
+  "C1": true,
+  "C2": true
+ }
+}

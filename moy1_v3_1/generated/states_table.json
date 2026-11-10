@@ -1,0 +1,303 @@
+[
+ {
+  "n": 0,
+  "chapter": "problem",
+  "mode": "geom",
+  "ja": "状態 0 · 問題の図 — 座標から",
+  "en": "State 0 · the problem — from the coordinates"
+ },
+ {
+  "n": 1,
+  "chapter": "problem",
+  "mode": "geom",
+  "ja": "状態 1 · 問題の図 — 二つの名指し",
+  "en": "State 1 · the problem — two ways to name the circle"
+ },
+ {
+  "n": 2,
+  "chapter": "prompts",
+  "mode": "sheets",
+  "ja": "状態 2 · 二つの問題文 — open",
+  "en": "State 2 · two prompts — open"
+ },
+ {
+  "n": 3,
+  "chapter": "prompts",
+  "mode": "sheets",
+  "ja": "状態 3 · 二つの問題文 — blocked",
+  "en": "State 3 · two prompts — blocked"
+ },
+ {
+  "n": 4,
+  "chapter": "open",
+  "mode": "bands",
+  "ja": "状態 4 · open で起こること — open の十行(blocked は薄く)",
+  "en": "State 4 · what open does — open's ten rows (blocked faded)"
+ },
+ {
+  "n": 5,
+  "chapter": "open",
+  "mode": "tiers",
+  "ja": "状態 5 · open で起こること — 全文の label と答えの欄",
+  "en": "State 5 · what open does — whole-text label vs the answer field"
+ },
+ {
+  "n": 6,
+  "chapter": "open",
+  "mode": "bands",
+  "ja": "状態 6 · open の場面 — JSON から書き始めた行(s3)",
+  "en": "State 6 · an open row — one that started with the JSON (s3)"
+ },
+ {
+  "n": 7,
+  "chapter": "open",
+  "mode": "bands",
+  "ja": "状態 7 · open の場面 — 29,550 字の行(s1)",
+  "en": "State 7 · an open row — 29,550 chars (s1)"
+ },
+ {
+  "n": 8,
+  "chapter": "blocked",
+  "mode": "bands",
+  "ja": "状態 8 · blocked で起こること — 書き始めで分かれる(open は薄く)",
+  "en": "State 8 · what blocked does — it splits by how the row starts (open faded)"
+ },
+ {
+  "n": 9,
+  "chapter": "blocked",
+  "mode": "hyp",
+  "ja": "状態 9 · blocked で起こること — 二つの円の文がある行(open と blocked は別の標本)",
+  "en": "State 9 · what blocked does — rows with a sentence naming either circle (open and blocked are separate samples)"
+ },
+ {
+  "n": 10,
+  "chapter": "blocked",
+  "mode": "bands",
+  "ja": "状態 10 · blocked の場面 — 「直径 = He・Hi」の文が先・答えの欄は O1O2 の行(s2)",
+  "en": "State 10 · a blocked row — the 'diameter = He-Hi' sentence first, O1O2 in the answer field (s2)"
+ },
+ {
+  "n": 11,
+  "chapter": "blocked",
+  "mode": "cue",
+  "ja": "状態 11 · blocked で起こること — cue を替える",
+  "en": "State 11 · what blocked does — change the cue"
+ },
+ {
+  "n": 12,
+  "chapter": "moment",
+  "mode": "timeline",
+  "ja": "状態 12 · block の中で bind する瞬間 — 同じ一行の二つの位置",
+  "en": "State 12 · the bind moment inside the block — two positions of one row"
+ },
+ {
+  "n": 13,
+  "chapter": "moment",
+  "mode": "balance",
+  "ja": "状態 13 · 天秤 — ① He を書く位置(att・F5a-2 s1)",
+  "en": "State 13 · the balance — ① the position where He is written (att · F5a-2 s1)"
+ },
+ {
+  "n": 14,
+  "chapter": "moment",
+  "mode": "balance",
+  "ja": "状態 14 · 天秤 — ② bind の瞬間(O の側)",
+  "en": "State 14 · the balance — ② the bind moment (O side)"
+ },
+ {
+  "n": 15,
+  "chapter": "moment",
+  "mode": "pillars",
+  "ja": "状態 15 · 立体 — 16 の位置 × 上位 10 head",
+  "en": "State 15 · the volume — 16 positions × the top-10 heads"
+ },
+ {
+  "n": 16,
+  "chapter": "models",
+  "mode": "models",
+  "ja": "状態 16 · 他の model — open → blocked",
+  "en": "State 16 · other models — open → blocked"
+ },
+ {
+  "n": 17,
+  "chapter": "models",
+  "mode": "think",
+  "ja": "状態 17 · 他の model — OLMo-3 32B の Think(Q4)と base(cue \\n\\n)",
+  "en": "State 17 · other models — OLMo-3 32B's Think (Q4) and base (cue \\n\\n)"
+ },
+ {
+  "n": 18,
+  "chapter": "sae",
+  "mode": "traj",
+  "ja": "状態 18 · 作図と SAE の推移 — 本文が O1O2 を名指す所(F5a-2 考えの道 r15)",
+  "en": "State 18 · construction × SAE trajectory — where the text names O1O2 (F5a-2 thinking path, r15)"
+ },
+ {
+  "n": 19,
+  "chapter": "sae",
+  "mode": "traj",
+  "ja": "状態 19 · 作図と SAE の推移 — 本文が He・Hi を名指す所(F5b-1 natural r14)",
+  "en": "State 19 · construction × SAE trajectory — where the text names He-Hi (F5b-1 natural, r14)"
+ },
+ {
+  "n": 20,
+  "chapter": "sae",
+  "mode": "traj",
+  "ja": "状態 20 · 作図と SAE の推移 — 同じ目盛りで並べる(名指した token の前 32 / 後 32)",
+  "en": "State 20 · construction × SAE trajectory — side by side on one scale (32 tokens before / after the naming)"
+ },
+ {
+  "n": 21,
+  "chapter": "sae",
+  "mode": "agg",
+  "ja": "状態 21 · 作図と SAE の推移 — 集計: 前 32 と後 32(O1O2 の出来事 59 行・He・Hi の出来事 34 行)",
+  "en": "State 21 · construction × SAE trajectory — the aggregate: 32 before vs 32 after (59 O1O2 events · 34 He-Hi events)"
+ },
+ {
+  "n": 22,
+  "chapter": "sae",
+  "mode": "slope",
+  "ja": "状態 22 · 作図と SAE の推移 — 行ごとの坂: 59 行・34 行 × 四つの群(全分布)",
+  "en": "State 22 · Construction × SAE — the row-by-row slopes: 59 and 34 rows × four groups (the whole distribution)"
+ },
+ {
+  "n": 23,
+  "chapter": "sae",
+  "mode": "scat",
+  "ja": "状態 23 · 作図と SAE の推移 — 中点の群の上がりと、本文が数式に移ること(olm62)",
+  "en": "State 23 · construction × SAE trajectory — the mid group's rise and the text moving into formulas (olm62)"
+ },
+ {
+  "n": 24,
+  "chapter": "sae",
+  "mode": "flat",
+  "ja": "状態 24 · 作図と SAE の推移 — 数式に移らなかった O1O2 の 11 本でも、中点は上がる?(薄い ✓)",
+  "en": "State 24 · construction × SAE trajectory — does the mid group rise even in the 11 O1O2 events whose text did not move into formulas? (a thin ✓)"
+ },
+ {
+  "n": 25,
+  "chapter": "sae",
+  "mode": "lab2",
+  "ja": "状態 25 · 二つの label — cmt5 の 120 行の「bind」は、全文と答えの欄で数が替わる",
+  "en": "State 25 · two labels — cmt5's 120 rows: 'bind' changes with the label (whole text vs answer field)"
+ },
+ {
+  "n": 26,
+  "chapter": "tree",
+  "mode": "tree",
+  "ja": "状態 26 · 札と系統樹 — この図の各章は、どの札から来て、その札は系統樹のどの塊に居るか",
+  "en": "State 26 · cards and the tree — which card each chapter of this figure draws on, and where that card sits in the card tree"
+ },
+ {
+  "n": 27,
+  "chapter": "flow",
+  "mode": "flow",
+  "ja": "状態 27 · その後の流れ — 10-28 の図から olm128 まで(一本の流れ・11-06 版で足した部分)",
+  "en": "State 27 · What came after — from the 10-28 figure to olm128 (one stream · the part added in the 11-06 version)"
+ },
+ {
+  "n": 28,
+  "chapter": "l3",
+  "mode": "l3",
+  "ja": "状態 28 · (a) 台帳の L3 → olm76 — 答えの欄の始まりでも、結びの群は線に届かない",
+  "en": "State 28 · (a) ledger L3 → olm76 — even at the start of the answer field, the close group does not reach the line"
+ },
+ {
+  "n": 29,
+  "chapter": "space",
+  "mode": "space1",
+  "ja": "状態 29 · (b) 推論空間の探し(1) — 先読みは、J-lens の読み出しでほぼ全部読める",
+  "en": "State 29 · (b) the inference-space search (1) — the look-ahead is almost all readable from the J-lens readout"
+ },
+ {
+  "n": 30,
+  "chapter": "space",
+  "mode": "space2",
+  "ja": "状態 30 · (b) 推論空間の探し(2) — 一貫して出る上乗せは k = 8 だけ(層 32・小さい)",
+  "en": "State 30 · (b) the inference-space search (2) — the only surplus that shows consistently is at k = 8 (layer 32 · small)"
+ },
+ {
+  "n": 31,
+  "chapter": "struct",
+  "mode": "struct1",
+  "ja": "状態 31 · (c) 語でない構造(1) — 指示語・束縛・行いを運ぶ head(合成の文)",
+  "en": "State 31 · (c) structure that is not words (1) — reference words · binding · the heads that carry the behaviour (synthetic sentences)"
+ },
+ {
+  "n": 32,
+  "chapter": "struct",
+  "mode": "struct2",
+  "ja": "状態 32 · (c) 語でない構造(2) — 位置を入れ替えたとき、行いが指しに従う割合と値に従う割合(層ごと・札ごと)",
+  "en": "State 32 · (c) structure that is not words (2) — when positions are swapped, the share of the behaviour that follows the pointer and the value (by layer · by card)"
+ },
+ {
+  "n": 33,
+  "chapter": "apex",
+  "mode": "apex1",
+  "ja": "状態 33 · (d) apex の証明(1) — 求めても、二等分線 → 直角 → Thales の逆の鎖は 0 / 37",
+  "en": "State 33 · (d) the apex proof (1) — when asked, the chain bisector → right angle → converse of Thales is 0 / 37"
+ },
+ {
+  "n": 34,
+  "chapter": "apex",
+  "mode": "apex2",
+  "ja": "状態 34 · (d) apex の証明(2) — frontier の段を与えると、続きは書く(26 / 40・23 / 40)・導きは別",
+  "en": "State 34 · (d) the apex proof (2) — given the frontier's steps, the continuation is written (26 / 40 · 23 / 40) · deriving is another matter"
+ },
+ {
+  "n": 35,
+  "chapter": "next",
+  "mode": "next1",
+  "ja": "状態 35 · 次の問い(1) — 依頼者が選んだ A「cue × JSON から書き始める割合」は olm128 で読んだ: 位置 0 の書き始めでは cue の差は説明されない",
+  "en": "State 35 · the next question (1) — the teacher's choice A, \"cue × the share starting with the JSON\", was read as olm128: the start at position 0 does not explain the cue difference"
+ },
+ {
+  "n": 36,
+  "chapter": "next",
+  "mode": "next2",
+  "ja": "状態 36 · 次の問い(2) — 読み手が出した候補の並び(A は読んだ・B〜E は並べるだけ)と、第二段(依頼者の裁定待ち)",
+  "en": "State 36 · the next question (2) — the candidates the readers raised (A was read · B-E only listed), and the second stage (waits for the teacher)"
+ },
+ {
+  "n": 37,
+  "chapter": "ledger",
+  "mode": "ledger",
+  "ja": "状態 37 · 台帳(1〜6 章)— 言える(L1)と読み(L3)",
+  "en": "State 37 · ledger (chapters 1-6) — can say (L1) and readings (L3)"
+ },
+ {
+  "n": 38,
+  "chapter": "ledger",
+  "mode": "ledger",
+  "ja": "状態 38 · 台帳(7 章の olm59 と cmt5)— 言える(L1)と読み(L3): 作図と SAE の推移・cmt5 の二つの label",
+  "en": "State 38 · ledger (chapter 7: olm59 and cmt5) — can say (L1) and readings (L3): construction × SAE trajectory, cmt5's two labels"
+ },
+ {
+  "n": 39,
+  "chapter": "ledger",
+  "mode": "ledger",
+  "ja": "状態 39 · 台帳(olm62 と札の系統樹)— 言える(L1)と読み(L3)",
+  "en": "State 39 · ledger (olm62 and the card tree) — can say (L1) and readings (L3)"
+ },
+ {
+  "n": 40,
+  "chapter": "ledger",
+  "mode": "ledger",
+  "ja": "状態 40 · 台帳(その後の部分 1 / 2)— 言える(L1・L2)",
+  "en": "State 40 · ledger (the added part 1 / 2) — can say (L1, L2)"
+ },
+ {
+  "n": 41,
+  "chapter": "ledger",
+  "mode": "ledger",
+  "ja": "状態 41 · 台帳(その後の部分 2 / 2)— 読み(L3)と言えない",
+  "en": "State 41 · ledger (the added part 2 / 2) — readings (L3) and cannot say"
+ },
+ {
+  "n": 42,
+  "chapter": "ledger",
+  "mode": "ledger",
+  "ja": "状態 42 · 台帳 — 言えない と 受け入れの問い",
+  "en": "State 42 · ledger — cannot say, and the acceptance questions"
+ }
+]

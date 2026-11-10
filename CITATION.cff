@@ -7,8 +7,8 @@ authors:
     given-names: Manabu
     orcid: "https://orcid.org/0009-0004-7393-2957"
     affiliation: "D3 Center, The University of Osaka, Osaka, Japan"
-version: "1.0.1"
-date-released: "2026-11-06"
+version: "1.1.0"
+date-released: "2026-11-10"
 doi: 10.5281/zenodo.23992312
 identifiers:
   - type: doi
@@ -17,6 +17,9 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.23992313
     description: "v1.0.0"
+  - type: doi
+    value: 10.5281/zenodo.23992395
+    description: "v1.0.1"
 license: MIT
 repository-code: "https://github.com/moyhig-ecs/coread-explainer-gallery"
 url: "https://moyhig-ecs.github.io/coread-explainer-gallery/"

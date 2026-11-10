@@ -1,0 +1,95 @@
+[
+ [
+  "wait",
+  1500
+ ],
+ [
+  "eval",
+  "window.__sh.goto(8, {instant: true}); 'state 8'"
+ ],
+ [
+  "wait",
+  1200
+ ],
+ [
+  "eval",
+  "window.__orbit0 = document.querySelector('.fig-svg').innerHTML.length + ':' + document.querySelector('.fig-svg').innerHTML.slice(2000, 2200); 'orbit: before'"
+ ],
+ [
+  "drag",
+  ".fig-svg",
+  0.3,
+  0.5,
+  0.6,
+  0.4,
+  14
+ ],
+ [
+  "wait",
+  1500
+ ],
+ [
+  "eval",
+  "(() => { const a = document.querySelector('.fig-svg').innerHTML.length + ':' + document.querySelector('.fig-svg').innerHTML.slice(2000, 2200); if (a === window.__orbit0) throw new Error('a drag did not change the picture'); return 'orbit: the drag changed the picture'; })()"
+ ],
+ [
+  "key",
+  "ArrowRight"
+ ],
+ [
+  "wait",
+  900
+ ],
+ [
+  "eval",
+  "(() => { if (window.__sh.state !== 9) throw new Error('ArrowRight did not walk to state 9: ' + window.__sh.state); return 'key: ArrowRight -> 9'; })()"
+ ],
+ [
+  "key",
+  "ArrowLeft"
+ ],
+ [
+  "wait",
+  900
+ ],
+ [
+  "eval",
+  "(() => { if (window.__sh.state !== 8) throw new Error('ArrowLeft did not walk back to 8'); return 'key: ArrowLeft -> 8'; })()"
+ ],
+ [
+  "key",
+  "."
+ ],
+ [
+  "wait",
+  700
+ ],
+ [
+  "eval",
+  "(() => { const t = window.__sh.t; if (t !== 4) throw new Error('the . key did not move the focus row from 3 to 4: ' + t); return 'key: . -> t ' + t; })()"
+ ],
+ [
+  "eval",
+  "(() => { const r = document.querySelector('.fig-range'); r.value = '7'; r.dispatchEvent(new Event('input', {bubbles: true})); return 'slider -> 7'; })()"
+ ],
+ [
+  "wait",
+  800
+ ],
+ [
+  "eval",
+  "(() => { if (window.__sh.t !== 7) throw new Error('the slider did not set t to 7: ' + window.__sh.t); const ro = document.querySelector('[data-readout]').textContent; if (!/s7/.test(ro)) throw new Error('the readout does not name row s7: ' + ro); return 'slider: the readout says ' + ro.slice(0, 40); })()"
+ ],
+ [
+  "key",
+  "l"
+ ],
+ [
+  "wait",
+  700
+ ],
+ [
+  "eval",
+  "(() => { if (window.__sh.lang !== 'en') throw new Error('the l key did not switch the language'); return 'key: l -> en'; })()"
+ ]
+]

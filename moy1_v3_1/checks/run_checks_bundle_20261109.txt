@@ -1,0 +1,115 @@
+run_checks.sh · 2026-11-09 14:05:21 · bun 1.3.0 · Python 3.14.3
+built: 4 pages · widget js 655 KB · css 41 KB · 43 states → <scratch>
+pages md5: 28b2bcd8 moy1 · 47c6b01f moy1-en · 8ce9d231 widget.js
+headings ok
+CLAIMS.md written: 60 L1 rows · 11 L3 · 27 x · anchors 689
+anchors checked: 689 · missing or different: 0 · claim rows 60 · control: 9 / 9 wrong anchors reported · anchors per kind {'derived': 164, 'derived_close': 28, 'file_md5': 12, 'here_json_equals': 48, 'pack_close_derived': 57, 'pack_equals': 24, 'pack_equals_derived': 29, 'pack_equals_json': 31, 'repo_json_close': 59, 'repo_json_equals': 189, 'repo_text_contains': 48}
+SCRIPT_yukkuri.md written: 46 lines · 284.9 s (≤ 285) · core ends at 10.4 s
+fence: 20 files scanned · internal words: 0 
+== check_states: video
+  measure_ok x 43
+console: clean
+== check_states: desk
+  measure_ok x 43
+console: clean
+== check_states: phone
+  measure_ok x 43
+console: clean
+== check_states_en: video
+  measure_ok x 43
+console: clean
+== check_states_en: desk
+  measure_ok x 43
+console: clean
+== check_states_en: phone
+  measure_ok x 43
+console: clean
+== check_robust: video
+eval: "{\"combos\":2150,\"errors\":0,\"nan\":0,\"msgs\":[]}"
+console: clean
+== check_robust: desk
+eval: "{\"combos\":2150,\"errors\":0,\"nan\":0,\"msgs\":[]}"
+console: clean
+== check_robust: phone
+eval: "{\"combos\":2150,\"errors\":0,\"nan\":0,\"msgs\":[]}"
+console: clean
+== the four pages (dark / light x ja / en), desk
+-- moy1-light
+  measure_ok x 43
+console: clean
+-- moy1-en
+  measure_ok x 43
+console: clean
+-- moy1-light-en
+  measure_ok x 43
+console: clean
+== reduced motion (prefers-reduced-motion: reduce), desk
+  measure_ok x 43
+console: clean
+== check_parity (ja / en numbers) and check_interaction (drag, keys, slider)
+eval: "{\"parity_ok\":true,\"control_differs\":true,\"bad\":[]}"
+console: clean
+eval: "orbit: the drag changed the picture"
+eval: "key: ArrowRight -> 9"
+eval: "key: ArrowLeft -> 8"
+eval: "key: . -> t 4"
+eval: "slider: the readout says blocked s7 · 16544 字 · 書き始め 文 · 全文 label"
+eval: "key: l -> en"
+console: clean
+== check_sae (v2: the inset lights where a predicate hits · keys / slider · the aggregate · the two labels of cmt5's bind in every state)
+eval: "{\"sae_ok\":true,\"bad\":[],\"two_labels\":{\"states_checked\":86,\"violations\":[]},\"s18_event\":{\"t\":329,\"ringO\":1,\"ringH\":0,\"segO\":1},\"s18_none\":{\"t\":0,\"ringO\":0,\"ringH\":0,\"pts\":0},\"s18_name\":{\"t\":27,\"ringO\":0,\"ptsO\":2},\"key_dot\":330,\"slider\":{\"t\":200,\"rea
+console: clean
+== check_v21 (v2.1: olm62's two states · the card marks of every state in ja / en · the map)
+eval: "{\"v21_ok\":true,\"bad\":[],\"scat\":{\"o\":59,\"h\":34,\"ring\":2,\"bars\":2,\"chips\":[\"48 / 59\",\"8 / 34\"]},\"flat\":{\"up\":7,\"dn\":4,\"chip\":\"7 / 11\",\"cells\":46},\"marks\":{\"states\":86,\"wrong\":[]},\"tree\":{\"chips\":12,\"used\":12,\"boxes\":11,\"names\":9,\"layout\":\"grid\
+console: clean
+== check_v3 (v3: the part added after the 10-28 figure · the slope state · the ledger states of the added part) — desk and phone
+eval: "{\"v3_ok\":true,\"bad\":[],\"part\":{\"states\":43,\"wrong\":[]},\"slope_ja\":{\"panels\":8,\"o\":236,\"h\":136,\"scene\":8},\"slope_en\":{\"panels\":8,\"o\":236,\"h\":136,\"scene\":8},\"flow\":{\"nodes\":6,\"base\":1,\"later\":5,\"cards\":20},\"l3\":{\"bars\":3,\"quote_struck\":1,\"rail_on\"
+console: clean
+eval: "{\"v3_ok\":true,\"bad\":[],\"part\":{\"states\":43,\"wrong\":[]},\"slope_ja\":{\"panels\":8,\"o\":236,\"h\":136,\"scene\":8},\"slope_en\":{\"panels\":8,\"o\":236,\"h\":136,\"scene\":8},\"flow\":{\"nodes\":6,\"base\":1,\"later\":5,\"cards\":20},\"l3\":{\"bars\":3,\"quote_struck\":1,\"rail_on\"
+console: clean
+== check_cards: desk (a real click on a card mark opens the map)
+eval: "click: state 12 shows the marks cmt13,F5"
+eval: "click: cmt13 -> map (state 26) · the pressed card is outlined · 押した札: cmt13 — 札の系統樹 "
+eval: "click: the step button -> state 0, two marks"
+eval: "click: replication_config_frozen -> map"
+eval: "click: the number of the map clears the selection"
+eval: "click: the ledger mark -> map, no card selected"
+console: clean
+== check_cards: phone (a real click on a card mark opens the map)
+eval: "click: state 12 shows the marks cmt13,F5"
+eval: "click: cmt13 -> map (state 26) · the pressed card is outlined · 押した札: cmt13 — 札の系統樹 "
+eval: "click: the step button -> state 0, two marks"
+eval: "click: replication_config_frozen -> map"
+eval: "click: the number of the map clears the selection"
+eval: "click: the ledger mark -> map, no card selected"
+console: clean
+== check_chapters: desk
+eval: "{\"chapters_ok\":true,\"clicks\":[\"ledger -> 37\",\"next -> 35\",\"apex -> 33\",\"struct -> 31\",\"space -> 29\",\"l3 -> 28\",\"flow -> 27\",\"tree -> 26\",\"sae -> 18\",\"models -> 16\",\"moment -> 12\",\"blocked -> 8\",\"open -> 4\",\"prompts -> 2\",\"problem -> 0\",\"step 13 -> 13\"],\"la
+console: clean
+== check_chapters: phone
+eval: "{\"chapters_ok\":true,\"clicks\":[\"ledger -> 37\",\"next -> 35\",\"apex -> 33\",\"struct -> 31\",\"space -> 29\",\"l3 -> 28\",\"flow -> 27\",\"tree -> 26\",\"sae -> 18\",\"models -> 16\",\"moment -> 12\",\"blocked -> 8\",\"open -> 4\",\"prompts -> 2\",\"problem -> 0\",\"step 13 -> 13\"],\"la
+console: clean
+== check_words
+eval: "{\"words_ok\":true,\"found\":[],\"control\":[1,0,2,0,1,0,1,0]}"
+console: clean
+== marimo (both directions)
+eval: "{\"after_python_open_state4\":{\"figure\":{\"state\":\"4\",\"chapter\":\"open\",\"lang\":\"ja\",\"readout\":\"open s3 · 326 字 · 全文 label B-stuck-L1 · 答えの欄 裸の共円 · He文 0 · O文 0\"},\"kernel\":{\"state\":4,\"t\":-1,\"lang\":\"ja\",\"done\":\"True\"},\"recount\":\"kernel recount: {'state': 4, 'scr
+eval: "marimo: the kernel recount says equal True · kernel recount: {'state': 4, 'screen': ['8 / 10', '0 / 10', '1 / 10', '0 / 10'], 'python': ['8 / 10', '0 / 10', '1 / 10'], 'equal': True}"
+eval: "marimo: chapter sae, state 18: the kernel recount says equal True · kernel recount: {'state': 18, 'screen': ['token 329', '0.10 → 0.93', '2.15 → 1.29', '0.34 → 0.32'], 'python': ['token 329', '0.10 → 0.93', '2.15 → 1.29', '0.34 → 0.32'], 'equal': True}"
+eval: "kernel and figure agree: state 18 lang en"
+console: clean
+drive exit 0 · wall 22 s
+own pid 85302 still alive after stop: no
+listeners on port 28581 after stop: []
+== JupyterLab (both directions)
+eval: "{\"recount_state4_equal\":true,\"tries\":1,\"seen_before\":[],\"out\":\"[6]:{'state': 4,\\n 'screen': ['8 / 10', '0 / 10', '1 / 10', '0 / 10'],\\n 'python': ['8 / 10', '0 / 10', '1 / 10'],\\n 'equal': True}\"}"
+eval: "{\"sae_recount_state18_equal\":true,\"tries\":1,\"seen_before\":[],\"out\":\"[7]:{'state': 18,\\n 'screen': ['token 329', '0.10 → 0.93', '2.15 → 1.29', '0.34 → 0.32'],\\n 'python': ['token 329', '0.10 → 0.93', '2.15 → 1.29', '0.34 → 0.32'],\\n 'equal': True}\"}"
+eval: "{\"tries_until_equal_by_cell\":{\"1\":1,\"4\":2,\"5\":1,\"6\":1},\"note\":\"runs of each cell until its own output matched (1 = the first run)\"}"
+console.warning: Unsatisfied version 0.21.1 from jupyterlab-chat-extension of shared singleton module @jupyter/chat (required ~0.17.0)
+console.warning: Unsatisfied version 0.21.1 from jupyterlab-chat-extension of shared singleton module @jupyter/chat (required =0.20.0-alpha.2)
+console.warning: [ACP] Registered ToolCallsComponent with preamble registry
+drive exit 0 · wall 13 s
+own pid 85762 still alive after stop: no
+listeners on port 28583 after stop: []
+demo_jupyter.ipynb restored (clean copy) and .ipynb_checkpoints removed
+run_checks.sh done · exit 0

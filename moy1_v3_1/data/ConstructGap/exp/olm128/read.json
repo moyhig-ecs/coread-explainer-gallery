@@ -1,0 +1,117 @@
+{
+ "card": "olm128",
+ "md5": {
+  "screen_olmo3_base_bf16.json": "63f4148df434c96f500bf8946d4bb1a6",
+  "pc1_runs.json": "af884e143eddb46f350b2e9f6a5e53fe"
+ },
+ "blocked_cells": {
+  "nl": {
+   "n": 9,
+   "json": 7,
+   "text": 2,
+   "bind": 2,
+   "json_bind": 1,
+   "json_nonbind": 6,
+   "text_bind": 1,
+   "text_nonbind": 1,
+   "json_lenient": 7
+  },
+  "space": {
+   "n": 10,
+   "json": 0,
+   "text": 10,
+   "bind": 4,
+   "json_bind": 0,
+   "json_nonbind": 0,
+   "text_bind": 4,
+   "text_nonbind": 6,
+   "json_lenient": 0
+  },
+  "nlnl": {
+   "n": 10,
+   "json": 3,
+   "text": 7,
+   "bind": 7,
+   "json_bind": 0,
+   "json_nonbind": 3,
+   "text_bind": 7,
+   "text_nonbind": 0,
+   "json_lenient": 3
+  }
+ },
+ "verdicts": {
+  "gates": {
+   "C0_nlnl_reproduces_K11": true,
+   "G1_cells": true
+  },
+  "Q1": "保たれない",
+  "Q1_concordance": 0.5789,
+  "Q1_N": 19,
+  "Q2_nl": "動く(説明の向き)",
+  "Q2_nl_diff": 0.4778,
+  "Q2_space": "逆",
+  "Q2_space_diff": -0.3,
+  "Q3": "書き始めでは説明されない"
+ },
+ "open_cells_description": {
+  "nl": {
+   "n": 10,
+   "json": 3,
+   "bind": 1
+  },
+  "space": {
+   "n": 8,
+   "json": 0,
+   "bind": 1
+  },
+  "nlnl": {
+   "n": 9,
+   "json": 2,
+   "bind": 0
+  }
+ },
+ "greedy_rows_description": [
+  {
+   "cue": "nl",
+   "cond": "blocked",
+   "start": "json",
+   "label": "B-bind",
+   "cap": false
+  },
+  {
+   "cue": "nl",
+   "cond": "open",
+   "start": "text",
+   "label": "B-attractor",
+   "cap": false
+  },
+  {
+   "cue": "space",
+   "cond": "blocked",
+   "start": "text",
+   "label": "B-bind",
+   "cap": false
+  },
+  {
+   "cue": "space",
+   "cond": "open",
+   "start": "text",
+   "label": "B-stuck-L1",
+   "cap": true
+  },
+  {
+   "cue": "nlnl",
+   "cond": "blocked",
+   "start": "text",
+   "label": "B-bind",
+   "cap": false
+  },
+  {
+   "cue": "nlnl",
+   "cond": "open",
+   "start": "text",
+   "label": "B-attractor",
+   "cap": true
+  }
+ ]
+}

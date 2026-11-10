@@ -1,0 +1,566 @@
+{
+  "note": "三題別軸・共通スコアなし (NegBench-style・leaderboard なし)。番人2=two-turn 宿題ゆえ moy-1 は aggregate report。",
+  "moy1_circle_discriminator": {
+    "claude-haiku-4-5-20251001": {
+      "open": {
+        "bind": 0,
+        "attractor": 1,
+        "stuck_L1": 1,
+        "flail": 0,
+        "n": 2
+      },
+      "blocked": {
+        "bind": 1,
+        "attractor": 1,
+        "stuck_L1": 0,
+        "flail": 0,
+        "n": 2
+      },
+      "bind_center_target": {
+        "O1O2": 1,
+        "He,Hi": 0,
+        "other": 0
+      },
+      "tokens_med": {
+        "open": 1915,
+        "blocked": 2113
+      },
+      "deg": 37,
+      "satisfice_delta": 1
+    },
+    "claude-sonnet-4-6": {
+      "open": {
+        "bind": 0,
+        "attractor": 1,
+        "stuck_L1": 1,
+        "flail": 0,
+        "n": 2
+      },
+      "blocked": {
+        "bind": 2,
+        "attractor": 0,
+        "stuck_L1": 0,
+        "flail": 0,
+        "n": 2
+      },
+      "bind_center_target": {
+        "O1O2": 2,
+        "He,Hi": 0,
+        "other": 0
+      },
+      "tokens_med": {
+        "open": 3136,
+        "blocked": 4564
+      },
+      "deg": 37,
+      "satisfice_delta": 2
+    },
+    "gpt-5-mini": {
+      "open": {
+        "bind": 2,
+        "attractor": 1,
+        "stuck_L1": 7,
+        "flail": 0,
+        "n": 10
+      },
+      "blocked": {
+        "bind": 10,
+        "attractor": 0,
+        "stuck_L1": 0,
+        "flail": 0,
+        "n": 10
+      },
+      "bind_center_target": {
+        "O1O2": 12,
+        "He,Hi": 0,
+        "other": 0
+      },
+      "tokens_med": {
+        "open": 3392,
+        "blocked": 5600
+      },
+      "deg": 37,
+      "satisfice_delta": 8
+    },
+    "gpt-5": {
+      "open": {
+        "bind": 0,
+        "attractor": 1,
+        "stuck_L1": 9,
+        "flail": 0,
+        "n": 10
+      },
+      "blocked": {
+        "bind": 8,
+        "attractor": 1,
+        "stuck_L1": 0,
+        "flail": 1,
+        "n": 10
+      },
+      "bind_center_target": {
+        "O1O2": 8,
+        "He,Hi": 0,
+        "other": 0
+      },
+      "tokens_med": {
+        "open": 10240,
+        "blocked": 13728
+      },
+      "deg": 37,
+      "satisfice_delta": 8
+    },
+    "claude-opus-4-8": {
+      "open": {
+        "bind": 3,
+        "attractor": 2,
+        "stuck_L1": 5,
+        "flail": 0,
+        "n": 10
+      },
+      "blocked": {
+        "bind": 10,
+        "attractor": 0,
+        "stuck_L1": 0,
+        "flail": 0,
+        "n": 10
+      },
+      "bind_center_target": {
+        "O1O2": 13,
+        "He,Hi": 0,
+        "other": 0
+      },
+      "tokens_med": {
+        "open": 1142,
+        "blocked": 2128
+      },
+      "deg": 37,
+      "satisfice_delta": 7
+    },
+    "qwen3:4b": {
+      "open": {
+        "bind": 0,
+        "attractor": 0,
+        "stuck_L1": 10,
+        "flail": 0,
+        "n": 10
+      },
+      "blocked": {
+        "bind": 6,
+        "attractor": 2,
+        "stuck_L1": 0,
+        "flail": 2,
+        "n": 10
+      },
+      "bind_center_target": {
+        "O1O2": 6,
+        "He,Hi": 0,
+        "other": 0
+      },
+      "tokens_med": {
+        "open": null,
+        "blocked": null
+      },
+      "deg": 37,
+      "satisfice_delta": 6
+    },
+    "qwen3:8b": {
+      "open": {
+        "bind": 0,
+        "attractor": 1,
+        "stuck_L1": 9,
+        "flail": 0,
+        "n": 10
+      },
+      "blocked": {
+        "bind": 10,
+        "attractor": 0,
+        "stuck_L1": 0,
+        "flail": 0,
+        "n": 10
+      },
+      "bind_center_target": {
+        "O1O2": 10,
+        "He,Hi": 0,
+        "other": 0
+      },
+      "tokens_med": {
+        "open": null,
+        "blocked": null
+      },
+      "deg": 37,
+      "satisfice_delta": 10
+    },
+    "qwen3:14b": {
+      "open": {
+        "bind": 0,
+        "attractor": 0,
+        "stuck_L1": 10,
+        "flail": 0,
+        "n": 10
+      },
+      "blocked": {
+        "bind": 8,
+        "attractor": 2,
+        "stuck_L1": 0,
+        "flail": 0,
+        "n": 10
+      },
+      "bind_center_target": {
+        "O1O2": 8,
+        "He,Hi": 0,
+        "other": 0
+      },
+      "tokens_med": {
+        "open": null,
+        "blocked": null
+      },
+      "deg": 37,
+      "satisfice_delta": 8
+    },
+    "qwen3:32b": {
+      "open": {
+        "bind": 0,
+        "attractor": 2,
+        "stuck_L1": 8,
+        "flail": 0,
+        "n": 10
+      },
+      "blocked": {
+        "bind": 1,
+        "attractor": 7,
+        "stuck_L1": 2,
+        "flail": 0,
+        "n": 10
+      },
+      "bind_center_target": {
+        "O1O2": 1,
+        "He,Hi": 0,
+        "other": 0
+      },
+      "tokens_med": {
+        "open": null,
+        "blocked": null
+      },
+      "deg": 37,
+      "satisfice_delta": 1
+    },
+    "qwen3:30b-a3b": {
+      "open": {
+        "bind": 0,
+        "attractor": 1,
+        "stuck_L1": 9,
+        "flail": 0,
+        "n": 10
+      },
+      "blocked": {
+        "bind": 10,
+        "attractor": 0,
+        "stuck_L1": 0,
+        "flail": 0,
+        "n": 10
+      },
+      "bind_center_target": {
+        "O1O2": 10,
+        "He,Hi": 0,
+        "other": 0
+      },
+      "tokens_med": {
+        "open": null,
+        "blocked": null
+      },
+      "deg": 37,
+      "satisfice_delta": 10
+    }
+  },
+  "moy1_32b_robustness": [
+    {
+      "cond": "base deg37",
+      "model": "qwen3:32b",
+      "n": 10,
+      "bind_O1O2": 1,
+      "attractor_HeHi": 7
+    },
+    {
+      "cond": "Q8_0",
+      "model": "qwen3:32b-q8_0",
+      "n": 10,
+      "bind_O1O2": 1,
+      "attractor_HeHi": 8
+    },
+    {
+      "cond": "greedy t=0",
+      "model": "qwen3:32b-t0",
+      "n": 10,
+      "bind_O1O2": 0,
+      "attractor_HeHi": 10
+    },
+    {
+      "cond": "deg149",
+      "model": "qwen3:32b",
+      "n": 10,
+      "bind_O1O2": 2,
+      "attractor_HeHi": 8
+    }
+  ],
+  "moy2_axis_control": {
+    "claude-haiku-4-5-20251001": {
+      "n": 55,
+      "bind": 42,
+      "route": {
+        "analytic": 1,
+        "construction": 41,
+        "mixed": 10,
+        "unstated": 0,
+        "unclassified": 3
+      },
+      "tokens_med": 4204
+    },
+    "claude-sonnet-4-6": {
+      "n": 55,
+      "bind": 35,
+      "route": {
+        "analytic": 5,
+        "construction": 25,
+        "mixed": 21,
+        "unstated": 0,
+        "unclassified": 4
+      },
+      "tokens_med": 5712
+    },
+    "gpt-5-mini": {
+      "n": 55,
+      "bind": 48,
+      "route": {
+        "analytic": 13,
+        "construction": 1,
+        "mixed": 41,
+        "unstated": 0,
+        "unclassified": 0
+      },
+      "tokens_med": 3648
+    },
+    "gpt-5": {
+      "n": 55,
+      "bind": 38,
+      "route": {
+        "analytic": 12,
+        "construction": 4,
+        "mixed": 39,
+        "unstated": 0,
+        "unclassified": 0
+      },
+      "tokens_med": 6528
+    },
+    "claude-opus-4-8": {
+      "n": 55,
+      "bind": 55,
+      "route": {
+        "analytic": 3,
+        "construction": 4,
+        "mixed": 48,
+        "unstated": 0,
+        "unclassified": 0
+      },
+      "tokens_med": 987
+    }
+  },
+  "moy3_point_anchor": {
+    "claude-haiku-4-5-20251001": {
+      "n": 50,
+      "cut": 20,
+      "route": {
+        "thales": 1,
+        "anglebisector": 0,
+        "similarity": 35,
+        "analytic": 4,
+        "unstated": 0,
+        "unclassified": 10
+      }
+    },
+    "claude-sonnet-4-6": {
+      "n": 50,
+      "cut": 46,
+      "route": {
+        "thales": 6,
+        "anglebisector": 0,
+        "similarity": 7,
+        "analytic": 27,
+        "unstated": 0,
+        "unclassified": 10
+      }
+    },
+    "gpt-5-mini": {
+      "n": 50,
+      "cut": 30,
+      "route": {
+        "thales": 1,
+        "anglebisector": 0,
+        "similarity": 46,
+        "analytic": 0,
+        "unstated": 0,
+        "unclassified": 3
+      }
+    },
+    "gpt-5": {
+      "n": 70,
+      "cut": 64,
+      "route": {
+        "thales": 2,
+        "anglebisector": 1,
+        "similarity": 58,
+        "analytic": 5,
+        "unstated": 0,
+        "unclassified": 4
+      }
+    },
+    "claude-opus-4-8": {
+      "n": 70,
+      "cut": 70,
+      "route": {
+        "thales": 9,
+        "anglebisector": 0,
+        "similarity": 48,
+        "analytic": 13,
+        "unstated": 0,
+        "unclassified": 0
+      }
+    }
+  },
+  "anomalies": [
+    {
+      "item": "moy-3",
+      "model": "Haiku",
+      "arm": "A",
+      "rep": 0,
+      "kind": "novel_route",
+      "note": "cut=yes・substantive reason だが thales/similarity/anglebisector/analytic 外 (要 verify)",
+      "conjecture": "OP ⊥ VP (angle OVP is a right angle)"
+    },
+    {
+      "item": "moy-3",
+      "model": "Haiku",
+      "arm": "B-nogrid",
+      "rep": 4,
+      "kind": "novel_route",
+      "note": "cut=yes・substantive reason だが thales/similarity/anglebisector/analytic 外 (要 verify)",
+      "conjecture": "Angle OPV is a right angle (∠OPV = 90°)"
+    },
+    {
+      "item": "moy-3",
+      "model": "Haiku",
+      "arm": "B-nogrid",
+      "rep": 2,
+      "kind": "novel_route",
+      "note": "cut=yes・substantive reason だが thales/similarity/anglebisector/analytic 外 (要 verify)",
+      "conjecture": "OP ⊥ VP (i.e., angle OPV is a right angle)"
+    },
+    {
+      "item": "moy-3",
+      "model": "Sonnet",
+      "arm": "A",
+      "rep": 1,
+      "kind": "novel_route",
+      "note": "cut=yes・substantive reason だが thales/similarity/anglebisector/analytic 外 (要 verify)",
+      "conjecture": "angle OPV = 90° (OP is perpendicular to VP at P)"
+    },
+    {
+      "item": "moy-3",
+      "model": "Sonnet",
+      "arm": "A",
+      "rep": 2,
+      "kind": "novel_route",
+      "note": "cut=yes・substantive reason だが thales/similarity/anglebisector/analytic 外 (要 verify)",
+      "conjecture": "angle OPV = 90° (OP is perpendicular to VP at P)"
+    },
+    {
+      "item": "moy-3",
+      "model": "Sonnet",
+      "arm": "A",
+      "rep": 4,
+      "kind": "novel_route",
+      "note": "cut=yes・substantive reason だが thales/similarity/anglebisector/analytic 外 (要 verify)",
+      "conjecture": "angle OPV = 90° (OP is perpendicular to VP)"
+    },
+    {
+      "item": "moy-3",
+      "model": "Sonnet",
+      "arm": "B-nogrid",
+      "rep": 1,
+      "kind": "novel_route",
+      "note": "cut=yes・substantive reason だが thales/similarity/anglebisector/analytic 外 (要 verify)",
+      "conjecture": "angle OPV = 90° (i.e., OP is perpendicular to VP, so P lies on the circle with diameter OV)"
+    },
+    {
+      "item": "moy-3",
+      "model": "Sonnet",
+      "arm": "B-nogrid",
+      "rep": 4,
+      "kind": "novel_route",
+      "note": "cut=yes・substantive reason だが thales/similarity/anglebisector/analytic 外 (要 verify)",
+      "conjecture": "angle OPV is a right angle (OP ⊥ VP at P)"
+    },
+    {
+      "item": "moy-3",
+      "model": "Sonnet",
+      "arm": "B-grid",
+      "rep": 3,
+      "kind": "novel_route",
+      "note": "cut=yes・substantive reason だが thales/similarity/anglebisector/analytic 外 (要 verify)",
+      "conjecture": "angle OPV = 90 degrees (i.e., O, P, V lie on a circle with OP perpendicular to VP)"
+    },
+    {
+      "item": "moy-3",
+      "model": "Sonnet",
+      "arm": "B-grid",
+      "rep": 2,
+      "kind": "novel_route",
+      "note": "cut=yes・substantive reason だが thales/similarity/anglebisector/analytic 外 (要 verify)",
+      "conjecture": "angle OPV = 90° (O, P, V lie on a circle with OV as diameter, and the angle at P is a right angle)"
+    },
+    {
+      "item": "moy-3",
+      "model": "Sonnet",
+      "arm": "C-nogrid",
+      "rep": 2,
+      "kind": "novel_route",
+      "note": "cut=yes・substantive reason だが thales/similarity/anglebisector/analytic 外 (要 verify)",
+      "conjecture": "angle OPV = 90° (equivalently, P lies on the circle with diameter OV)"
+    },
+    {
+      "item": "moy-3",
+      "model": "Sonnet",
+      "arm": "C-nogrid",
+      "rep": 3,
+      "kind": "novel_route",
+      "note": "cut=yes・substantive reason だが thales/similarity/anglebisector/analytic 外 (要 verify)",
+      "conjecture": "The angle OPV is a right angle (OP ⊥ VP)"
+    },
+    {
+      "item": "moy-3",
+      "model": "gpt-5",
+      "arm": "A",
+      "rep": 1,
+      "kind": "novel_route",
+      "note": "cut=yes・substantive reason だが thales/similarity/anglebisector/analytic 外 (要 verify)",
+      "conjecture": "OP ⟂ VP"
+    },
+    {
+      "item": "moy-3",
+      "model": "gpt-5",
+      "arm": "B-grid",
+      "rep": 1,
+      "kind": "novel_route",
+      "note": "cut=yes・substantive reason だが thales/similarity/anglebisector/analytic 外 (要 verify)",
+      "conjecture": "∠OPV is a right angle"
+    },
+    {
+      "item": "moy-3",
+      "model": "gpt-5",
+      "arm": "C-grid",
+      "rep": 2,
+      "kind": "novel_route",
+      "note": "cut=yes・substantive reason だが thales/similarity/anglebisector/analytic 外 (要 verify)",
+      "conjecture": "OP ⟂ PV"
+    }
+  ]
+}

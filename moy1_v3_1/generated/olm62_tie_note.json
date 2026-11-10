@@ -1,0 +1,11 @@
+{
+ "note": "NOT carried to the pages (outside the card). The card's rank correlation uses ordinal ranks (argsort of argsort); with tie-averaged ranks the same data give:",
+ "o_diam": 0.7809197707773996,
+ "h_diam": 0.22121871918138503,
+ "pooled_tokens": 0.4890984872870726,
+ "card": {
+  "o_diam": 0.7804792518994741,
+  "h_diam": 0.21161191749427039,
+  "pooled_tokens": 0.4152617665861453
+ }
+}

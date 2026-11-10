@@ -1,0 +1,83 @@
+# output of exp/summary_moy5_cut_all_cards_20261016.py --check (md5 523c3d0cdfc9ead33c77a467bbc08349) + predicate exp/moy5_r8_additive_predicate_20261015.py --calibrate (md5 dfe5b0d0791f5f85956d1176092c4877) at 2026-10-16 15:22:49 | repo HEAD 8e048b2c (this script uncommitted at run time; re-run after the audit of 15:3x = usage line of the docstring fixed + calibration section appended)
+model      route       effort card    arm         md5      |   n | cut (v2) | cut + r8 | answer-field cut | floor | rel/answer med | CUT-rel/answer med
+Fable 5.1  API         high   essay4  A           ee39ba02 |  20 |   0      |   0 |   0              |  20   |   3.0          |   0.0
+Fable 5.1  API         high   essay4  K           b0b1d14b |  20 |  20      |  20 |   1              |  20   |  11.5          |   2.0
+Fable 5.1  API         high   essay4  E-abs       745be3ea |  20 |   0      |   0 |   0              |  20   |   9.5          |   0.0
+Fable 5.1  API         high   essay4  E-full      04ed287c |  20 |   0      |   0 |   0              |  20   |   7.5          |   0.0
+Fable 5.1  API         high   essay4  E-full2     c1a83db5 |  20 |   0      |   0 |   0              |  20   |   8.5          |   0.0
+Haiku 5.5  API         high   essay4  A           ee39ba02 |  19 |   0      |   0 |   0              |  19   |   2.0          |   0.0
+Haiku 5.5  API         high   essay4  K           b0b1d14b |  20 |  20      |  20 |  15              |   7   |   3.0          |   3.0
+Haiku 5.5  API         high   essay4  E-abs       745be3ea |  20 |   0      |   0 |   0              |  19   |   1.0          |   0.0
+Haiku 5.5  API         high   essay4  E-full      04ed287c |  18 |   0      |   0 |   0              |  13   |   2.0          |   0.0
+Haiku 5.5  API         high   essay4  E-full2     c1a83db5 |  20 |   0      |   0 |   0              |  18   |   1.0          |   0.0
+Opus 5.5   API         high   essay4  A           ee39ba02 |  20 |   0      |   0 |   0              |  20   |   2.0          |   0.0
+Opus 5.5   API         high   essay4  K           b0b1d14b |  20 |  20      |  20 |   0              |  20   |   9.0          |   1.0
+Opus 5.5   API         high   essay4  E-abs       745be3ea |  20 |   0      |   0 |   0              |  20   |   3.5          |   0.0
+Opus 5.5   API         high   essay4  E-full      04ed287c |  20 |   0      |   0 |   0              |  20   |   5.5          |   0.0
+Opus 5.5   API         high   essay4  E-full2     c1a83db5 |  20 |   0      |   0 |   0              |  20   |   6.0          |   0.0
+Sonnet 5.5 API         high   essay4  A           ee39ba02 |  20 |   0      |   0 |   0              |  20   |   1.0          |   0.0
+Sonnet 5.5 API         high   essay4  K           b0b1d14b |  20 |  20      |  20 |   0              |  20   |   3.0          |   2.0
+Sonnet 5.5 API         high   essay4  E-abs       745be3ea |  20 |   0      |   0 |   0              |  19   |   1.0          |   0.0
+Sonnet 5.5 API         high   essay4  E-full      04ed287c |  20 |   0      |   0 |   0              |  20   |   1.0          |   0.0
+Sonnet 5.5 API         high   essay4  E-full2     c1a83db5 |  20 |   0      |   0 |   0              |  20   |   1.0          |   0.0
+Fable 5.1  API         high   sym5    A@U         3c52c4ef |  20 |   0      |   0 |   0              |  20   |   7.0          |   0.0
+Fable 5.1  API         high   sym5    K@U         bc050101 |  20 |  20      |  20 |   0              |  20   |  16.0          |   1.5
+Fable 5.1  API         high   sym5    E-full@U    5a3ba7ea |  20 |   1      |   1 |   0              |  20   |   8.5          |   0.0
+Fable 5.1  API         high   sym5    KF@U        5680b535 |  20 |   0      |   0 |   0              |  20   |   2.0          |   0.0
+Fable 5.1  API         high   sym5    KF          7402ec8a |  20 |   0      |   0 |   0              |  20   |   4.0          |   0.0
+Haiku 5.5  API         high   sym5    KF          7402ec8a |  20 |   0      |   0 |   0              |  20   |   1.0          |   0.0
+Opus 5.5   API         high   sym5    A@U         3c52c4ef |  20 |   0      |   0 |   0              |  20   |   1.0          |   0.0
+Opus 5.5   API         high   sym5    K@U         bc050101 |  20 |  19      |  19 |   1              |  20   |   8.5          |   1.0
+Opus 5.5   API         high   sym5    E-full@U    5a3ba7ea |  20 |   0      |   0 |   0              |  20   |   5.5          |   0.0
+Opus 5.5   API         high   sym5    KF@U        5680b535 |  20 |   0      |   0 |   0              |  20   |   1.5          |   0.0
+Opus 5.5   API         high   sym5    KF          7402ec8a |  20 |   0      |   0 |   0              |  20   |   2.0          |   0.0
+Sonnet 5.5 API         high   sym5    A@U         3c52c4ef |  20 |   0      |   0 |   0              |  20   |   1.0          |   0.0
+Sonnet 5.5 API         high   sym5    K@U         bc050101 |  20 |  20      |  20 |   0              |  20   |   3.0          |   1.5
+Sonnet 5.5 API         high   sym5    E-full@U    5a3ba7ea |  20 |   0      |   0 |   0              |  20   |   1.0          |   0.0
+Sonnet 5.5 API         high   sym5    KF@U        5680b535 |  20 |   0      |   0 |   0              |  20   |   2.0          |   0.0
+Sonnet 5.5 API         high   sym5    KF          7402ec8a |  20 |   0      |   0 |   0              |  20   |   2.0          |   0.0
+Fable 5.1  API         high   kfv1    KF          c5435951 |  20 |   0      |   0 |   0              |  20   |   5.0          |   0.0
+Fable 5.1  API         high   kfv1    KF@U        cc472298 |  20 |   0      |   0 |   0              |  20   |   5.0          |   0.0
+Haiku 5.5  API         high   kfv1    KF          c5435951 |  20 |   0      |   0 |   0              |  20   |   1.0          |   0.0
+Opus 5.5   API         high   kfv1    KF          c5435951 |  20 |   0      |   0 |   0              |  20   |   2.0          |   0.0
+Opus 5.5   API         high   kfv1    KF@U        cc472298 |  20 |   0      |   0 |   0              |  20   |   2.0          |   0.0
+Sonnet 5.5 API         high   kfv1    KF          c5435951 |  20 |   0      |   0 |   0              |  20   |   2.0          |   0.0
+Sonnet 5.5 API         high   kfv1    KF@U        cc472298 |  20 |   0      |   0 |   0              |  20   |   2.0          |   0.0
+Fable 5.1  API         high   b5bp    Bbp         be9c4007 |  20 |   0      |   0 |   0              |  20   |  19.5          |   0.0
+Fable 5.1  API         high   b5bp    E-full+Bbp  8c875982 |  20 |   1      |   1 |   0              |  20   |  24.0          |   0.0
+Opus 5.5   API         high   b5bp    Bbp         be9c4007 |  20 |   6      |   7 r8 new [8] |   0              |  20   |  19.5          |   0.0
+Opus 5.5   API         high   b5bp    E-full+Bbp  8c875982 |  20 |   3      |   3 |   0              |  20   |  23.0          |   0.0
+Sonnet 5.5 API         high   b5bp    Bbp         be9c4007 |  20 |   2      |   2 |   0              |  20   |  11.0          |   0.0
+Sonnet 5.5 API         high   b5bp    E-full+Bbp  8c875982 |  20 |   0      |   0 |   0              |  20   |  17.0          |   0.0
+Opus 5.5   Claude Code high   moy5t   P-tool      06d49e14 |  10 |   1      |   1 |   0              |  10   |  13.5          |   0.0
+Opus 5.5   Claude Code high   moy5t   P-data      1b3e8ec1 |  10 |   0      |   0 |   0              |  10   |  22.5          |   0.0
+Fable 5.1  Claude Code high   moy5t   P-tool      06d49e14 |  10 |   0      |   0 |   0              |  10   |  17.0          |   0.0
+Fable 5.1  Claude Code high   moy5t   P-data      1b3e8ec1 |  10 |   1      |   1 |   0              |  10   |  27.0          |   0.0
+Opus 5.5   Claude Code xhigh  moy5e   P-tool      06d49e14 |  10 |   5      |   5 |   0              |  10   |  21.0          |   1.0
+Fable 5.1  Claude Code xhigh  moy5e   P-tool      06d49e14 |  10 |   2      |   2 |   0              |  10   |  20.5          |   0.0
+Opus 5.5   Claude Code xhigh  moy5e   P-data      1b3e8ec1 |  10 |   1      |   1 |   0              |  10   |  29.0          |   0.0
+Fable 5.1  Claude Code xhigh  moy5e   P-data      1b3e8ec1 |  10 |   1      |   1 |   0              |  10   |  30.0          |   0.0
+Opus 5.5   Claude Code max    moy5e   P-tool      06d49e14 |  10 |  10      |  10 |   0              |  10   |  29.5          |   4.0
+Fable 5.1  Claude Code max    moy5e   P-tool      06d49e14 |  10 |   4      |   4 |   0              |  10   |  27.5          |   0.0
+Opus 5.5   Claude Code max    moy5e   P-data      1b3e8ec1 |  10 |  10      |  10 |   0              |  10   |  32.0          |   3.0
+Fable 5.1  Claude Code max    moy5e   P-data      1b3e8ec1 |  10 |   6      |   6 |   2              |  10   |  42.5          |   3.0
+Opus 5.5   Claude Code high   moy5h   P-tool2     896b37e1 |  10 |   1      |   1 |   0              |  10   |  16.0          |   0.0
+Fable 5.1  Claude Code high   moy5h   P-tool2     896b37e1 |  10 |   3      |   4 r8 new [3] |   0              |  10   |  22.5          |   0.0
+Opus 5.5   Claude Code max    moy5c   P-none      be9c4007 |  10 |  10      |  10 |   0              |  10   |  31.0          |   4.0
+Fable 5.1  Claude Code max    moy5c   P-none      be9c4007 |  10 |   6      |   6 |   0              |   9   |  34.5          |   2.5
+Opus 5.5   Claude Code high   rte1    P-none      be9c4007 |  10 |   2      |   2 |   0              |  10   |  20.5          |   0.0
+Fable 5.1  Claude Code high   rte1    P-none      be9c4007 |  10 |   3      |   3 |   0              |  10   |  23.0          |   0.0
+Opus 5.5   API         max    rte1    Bbp         be9c4007 |  10 |   6      |   6 |   0              |  10   |  33.0          |   1.5
+Fable 5.1  API         max    rte1    Bbp         be9c4007 |  10 |   2      |   2 |   1              |  10   |  33.0          |   0.0
+Argon      API         high   arg5    K           b0b1d14b |  20 |  20      |  20 |   0              |  20   |  19.0          |   4.0
+Argon      API         high   arg5    Bbp         be9c4007 |  20 |  20      |  20 |   0              |  20   |  36.0          |   4.0
+Argon      API         high   arg5    A           ee39ba02 |  20 |   0      |   0 |   0              |  20   |   8.5          |   0.0
+Argon      API         high   arg5    E-full      04ed287c |  20 |   0      |   0 |   0              |  20   |   8.0          |   0.0
+Argon      API         high   arg5    E-full+Bbp  8c875982 |  18 |  18      |  18 |   0              |  18   |  58.5          |   9.5
+
+## rows whose stored 'bind' differs from this re-read (cut, reader v2): 1
+   ('essay4', 'claude-fable-5-1', 'K', 17, False, True)
+
+## r8 predicate calibration (--calibrate)
+b5bp (all arms): rows 120 | predicate hits 4 -> [('claude-opus-5-5', 'Bbp', 6, True), ('claude-opus-5-5', 'Bbp', 8, False), ('claude-opus-5-5', 'Bbp', 16, True), ('claude-opus-5-5', 'Bbp', 19, True)]
+essay4 A / E-full: rows 157 | predicate hits 0 -> []

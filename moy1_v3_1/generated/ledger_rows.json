@@ -1,0 +1,1270 @@
+{
+ "ja": {
+  "rows": [
+   {
+    "id": "K01",
+    "lv": "L1",
+    "text": "open と blocked の問題文の違いは末尾の一文だけ(+324 字・blocked は open の全文で始まる)。",
+    "src": "replication_config_frozen.json prompts.open / prompts.blocked"
+   },
+   {
+    "id": "K02",
+    "lv": "L1",
+    "text": "足した一文は O1O2 も He・Hi も名指していない(共円で止まる答えを不十分とし、中心と直径の名指しを求める。点の名は 0 件)。",
+    "src": "prompts.blocked の末尾(pack で数えた)"
+   },
+   {
+    "id": "K03",
+    "lv": "L1",
+    "text": "open(cue \\n\\n・n 10): 答えの欄は 8 / 10 が裸の共円・残りは「不変量なし」1 行と cap で JSON の無い 1 行。O1O2 / He・Hi を名指す行は 0。",
+    "src": "pc1_runs.json content の最後の JSON conjecture + 棚卸しの述語"
+   },
+   {
+    "id": "K04",
+    "lv": "L1",
+    "text": "open で O1O2 を円の直径・中心と名指す文がある行は 0 / 10(cap を含む)。「直径 = He・Hi」の文がある行は 1 / 10(s1・7 回)。",
+    "src": "pc1_runs.json content + PRED_O / PRED_HEHI_DIAM"
+   },
+   {
+    "id": "K05",
+    "lv": "L1",
+    "text": "open の凍結の label は attractor 5 / stuck-L1 5(全文の分類)。attractor の 5 行は本文に He か Hi の語が在る行と一致し、答えの欄は 4 行が裸の共円・1 行は cap。",
+    "src": "pc1_runs.json label · inventory/check_values.out V2"
+   },
+   {
+    "id": "K06",
+    "lv": "L1",
+    "text": "blocked(cue \\n\\n)の凍結の label は bind 7 / attractor 3。答えの欄の読みとは 9 行が一致(s8 は JSON が無く、答えの欄が無い: K69)。",
+    "src": "pc1_runs.json label · V1"
+   },
+   {
+    "id": "K07",
+    "lv": "L1",
+    "text": "blocked: JSON から書き始めた 3 行(s3・s5・s9)は attractor 3 / 3・文から書き始めた 7 行は bind 7 / 7。open で JSON から書き始めた行(s3・s9)は 2 行とも裸の共円。",
+    "src": "pc1_runs.json content の最初の {\"conjecture\" の位置 · V4"
+   },
+   {
+    "id": "K08",
+    "lv": "L1",
+    "text": "同じ述語・open → blocked: 「直径 / 中心 = O1O2」の文がある行 0 → 7 / 10・「直径 = He・Hi」の文がある行 1 → 5 / 10。",
+    "src": "pc1_runs.json content + 棚卸しの述語"
+   },
+   {
+    "id": "K09",
+    "lv": "L1",
+    "text": "「直径 = He・Hi」の文がある blocked の 5 行: 3 行(s0・s2・s7)は答えの欄が O1O2・1 行(s3)は JSON の中で He・Hi・1 行(s8)は JSON が無く答えの欄が無い。bind の 7 行のうち「直径 = He・Hi」の文と O1O2 の文を両方持つ 4 行で、He・Hi の文が先 3・O1O2 の文が先 1。",
+    "src": "pc1_runs.json content + 棚卸しの述語"
+   },
+   {
+    "id": "K10",
+    "lv": "L1",
+    "text": "blocked の bind は cue \\n 2 / 9(cap 1 行を除く)・\" \" 4 / 10・\\n\\n 7 / 10。最頻 = attractor / bind / bind。",
+    "src": "screen_olmo3_base_bf16.json · pc1_runs.json label"
+   },
+   {
+    "id": "K11",
+    "lv": "L1",
+    "text": "F5a-2 s1 ① t 289: Δ(O − He)= -4.3984375・O の組の和 2.7425659894943237・He の組の和 -7.129308223724365・1 位の head = L50H23。",
+    "src": "cmt13 sites['att|F5a-2|s1'] · V6"
+   },
+   {
+    "id": "K12",
+    "lv": "L1",
+    "text": "F5a-2 s1 ② t 397: Δ = 1.2109375・O の組の和 9.637725591659546・He の組の和 -8.208577871322632・1 位の head = L50H23。",
+    "src": "cmt13 sites['cut|F5a-2|s1'] · V6"
+   },
+   {
+    "id": "K13",
+    "lv": "L1",
+    "text": "L50H23 が 1 位の部位: att 4 / 5・cut 3 / 11。",
+    "src": "cmt13 compare.L50H23 · V8"
+   },
+   {
+    "id": "K14",
+    "lv": "L1",
+    "text": "上位 10 head の Jaccard の平均: cut~att 0.5282849355041869・cut~cut 0.5130264566093443・cut~結論の bind 0.023923444976076555。",
+    "src": "cmt13 compare.jaccard_top10 · V7"
+   },
+   {
+    "id": "K15",
+    "lv": "L1",
+    "text": "cmt13 の統制 C0〜C4 は全部通過(C4 = cmt12 の 2 部位の読み直しで寄与の差 0.0)。",
+    "src": "cmt13 controls.all_pass"
+   },
+   {
+    "id": "K16",
+    "lv": "L1",
+    "text": "cmt5(最初の一語を固定)の bind は label の数え方で数が替わる。全文の label: 考えの道は F5a-2・F5b-1 とも 20 / 20(計 40 / 40)・答えの道は 5 / 20 と 3 / 20(計 8 / 40)。答えの欄の label: 考えの道は 17 / 20 と 19 / 20(計 36 / 40)・答えの道は 2 / 20 と 2 / 20(計 4 / 40)。統制 C1 は F5b-1 で落ち、読みは保留。",
+    "src": "cmt5 cells[*].labels / rows[*].label_json_fields · read.json labels_full_vs_answer_field · controls.C1_pass = false · V9"
+   },
+   {
+    "id": "K17",
+    "lv": "L1",
+    "text": "model ごとの open → blocked の bind: gpt-5 0 → 8・claude-opus-4-8 3 → 10・gpt-5-mini 2 → 10・qwen3:8b 0 → 10・qwen3:32b 0 → 1(blocked の attractor 7)。",
+    "src": "moy_suite_report.json moy1_circle_discriminator · V10"
+   },
+   {
+    "id": "K18",
+    "lv": "L1",
+    "text": "OLMo-3 32B Think(Q4): open は stuck-L1 9 / 9・blocked は bind 7 / 7(length で切れた行を除く)。",
+    "src": "screen_olmo-3_32b.json rows[*].label · V11"
+   },
+   {
+    "id": "K19",
+    "lv": "L1",
+    "text": "この一つの配置: X1〜X4 は O1O2 を直径とする円の上(中心からの距離 ÷ 半径 = 1.000)・He・Hi を直径とする円の上には無い(1.624 / 0.861 / 0.861 / 1.624)。",
+    "src": "prompts.open の座標から計算"
+   },
+   {
+    "id": "K20",
+    "lv": "L1",
+    "text": "prompt の長さと md5: open 1294 字 3c7a63dd…・blocked 1618 字 616682f5…。",
+    "src": "replication_config_frozen.json prompt_md5 · V5"
+   },
+   {
+    "id": "K21",
+    "lv": "L1",
+    "text": "材料の file(9 本)の md5 は BRIEF の表と一致する(凍結の file を読んだ)。",
+    "src": "BRIEF §1 · check_claims.py file_md5"
+   },
+   {
+    "id": "K22",
+    "lv": "L1",
+    "text": "olm59 の統制は 3 つとも通過: C1 計器 = FVE 0.4394・L0 235.4(n 4080)/ C2 本文の写し = 120 / 120 / C3 再現 = F5a-2 20 / 20・F5b-1 20 / 20(群を選んだ data と同じ集計 = pipeline の確認だけ)。",
+    "src": "olm59/control.json C1〜C3 · pass"
+   },
+   {
+    "id": "K23",
+    "lv": "L1",
+    "text": "場面 S_O = F5a-2 think r15(考えの道・全文 label も答えの欄 label も bind): 生成 1,210 token・最初の「直径 / 中点 = O1O2」の文は token 329(「Midpoint of O1 and O」)。前 32 → 後 32 token の群の平均: 結び 0.34 → 0.32・考えの中点 0.10 → 0.93・答えの側 2.15 → 1.29・考えの側 0.50 → 0.44。この行は代表ではない(考えの中点の差は 59 行中 大きい方から 5 番目・答えの側は 59 行中 小さい方から 2 番目)。",
+    "src": "olm59/rows/F5a-2__think__r15.npz group_mean · meta.events · 窓の差の順位は pack が配列から計算"
+   },
+   {
+    "id": "K24",
+    "lv": "L1",
+    "text": "場面 S_H = F5b-1 natural r14(全文 label も答えの欄 label も attractor): 生成 118 token(最初の token から答えの欄の中)・最初の「直径 = He・Hi」の文は token 45(「diameter HeHi」)。前 32 → 後 32 token の群の平均: 結び 0.73 → 0.79・考えの中点 0.03 → 0.01・答えの側 2.62 → 2.78・考えの側 0.25 → 0.38。34 行の中での順位: 答えの側の差は 34 行中 大きい方から 5 番目・考えの側は 34 行中 大きい方から 7 番目。",
+    "src": "olm59/rows/F5b-1__natural__r14.npz group_mean · meta.events · 窓の差の順位は pack が配列から計算"
+   },
+   {
+    "id": "K25",
+    "lv": "L1",
+    "text": "O1O2 を直径・中点と名指す出来事 59 行で、前 32 より後 32 の平均が大きい行: 結び 9(中央値 −0.141)・考えの中点 48(+0.157)・答えの側 10(−0.251)・考えの側 21(−0.052)。",
+    "src": "olm59/read.json Q3_desc['o_diam|*|all']"
+   },
+   {
+    "id": "K26",
+    "lv": "L1",
+    "text": "He・Hi を直径と名指す出来事 34 行で、後 > 前の行: 結び 17(−0.009)・考えの中点 18(+0.010)・答えの側 11(−0.043)・考えの側 19(+0.004)。",
+    "src": "olm59/read.json Q3_desc['h_diam|*|all']"
+   },
+   {
+    "id": "K27",
+    "lv": "L1",
+    "text": "事前の予想はどちらも外れた: Q1(考えの道 × 答えの欄 bind の o_diam 行で結びが上がる ≥ 70 %)= 6 / 36(中央値 −0.136)・Q2(h_diam の全行で結びが上がる ≥ 60 %)= 17 / 34(−0.009)。",
+    "src": "olm59/read.json Q1_think_bind_o_diam_close · Q2_any_h_diam_close · PREREG §3"
+   },
+   {
+    "id": "K28",
+    "lv": "L1",
+    "text": "cmt5 の 120 行の二つの label(bind の行数): 考えの道 全文 40 / 40 → 答えの欄 36 / 40(attractor 4)・答えの道 全文 8 / 40 → 答えの欄 4 / 40(stuck-L1 3・attractor 1)・natural 全文 25 / 40 → 答えの欄 18 / 40(attractor 6・flail 1)。",
+    "src": "olm59/read.json labels_full_vs_answer_field · cmt5 label_json_fields"
+   },
+   {
+    "id": "K29",
+    "lv": "L1",
+    "text": "出来事 = 最初に述語が当たった token。前 32 は手前 32 token・後 32 は出来事の token から後ろ 32 token で、両側が生成の内に収まる行だけ(o_diam 59 / 64 行・h_diam 34 / 44 行)。群の値 = 群の latent の平均(層 32・公開 SAE・threshold)。",
+    "src": "olm59/read.json counts · half · PREREG §1"
+   },
+   {
+    "id": "R01",
+    "lv": "L3",
+    "text": "足した一文は共円で止まる答えを不十分とし、その後の行は書き始めで分かれる(cue \\n\\n の 10 行・相関)。cue をまたぐと位置 0 の書き始めでは説明されない(olm128 = 10-28 の後の札・状態 35)= cue \\n\\n の中だけの読み。(読み: M1 の下書き・実行層。採否は人間)",
+    "src": "BRIEF §4 · K06・K07・K08"
+   },
+   {
+    "id": "R02",
+    "lv": "L3",
+    "text": "上位 10 head の重なり(Jaccard の平均)は cut ~ att 0.528・cut ~ cut 0.513・cut ~ 結論の bind 0.024(K14 は全桁)。bind の瞬間と attractor の瞬間が同じ部品か別の部品かは言わない(機構は見ていない)。(読み: RESULT cmt13 §5 の実行層。採否は人間)",
+    "src": "RESULT cmt13 §5 · K11〜K14"
+   },
+   {
+    "id": "R03",
+    "lv": "L3",
+    "text": "O1O2 と He・Hi は、SAE の推移の上で対称でない: O1O2 を名指した後は考えの中点の群が上がり、答えの側と結びの群が下がる。He・Hi を名指した所では、差の中央値が小さい。(読み: RESULT olm59 §5-1 を、数に合わせて作り手が言い直した。実行層の読み。採否は人間)",
+    "src": "RESULT olm59 §5-1 · K25・K26"
+   },
+   {
+    "id": "R04",
+    "lv": "L3",
+    "text": "結びの群の値は、O1O2 を名指した所で下がる(後 > 前は 59 行中 9・bind の行では 53 行中 8)。10-28 の図はこれを「まだ答えを閉じていない」と読んだ(L3)が、olm76(10-30)で、答えの欄 {\" の手前 64 token でも結びの群は bind の行で線に届かなかった(28 / 48 の行で上がった・中央値 +0.013・p 0.156・attractor の行より上でもない)ので、この読みは支持されない。(読み: RESULT olm59 §5-3 の実行層・olm76 の結果で格下げ。採否は人間)",
+    "src": "RESULT olm59 §5-3 · K25 · K51 · olm59 read.json Q3_desc[o_diam|close|B-bind].after_gt_before · olm76 read.json Q1"
+   },
+   {
+    "id": "X01",
+    "lv": "x",
+    "text": "「考えたから bind した」とは言わない。書き始めと label の対応は相関で、cmt5 の介入は統制 C1 が落ちて読みが保留。cmt5 の bind は、全文の label か答えの欄の label かを書かずに言わない(考えの道 40 / 40 は全文・36 / 40 は答えの欄)。",
+    "src": "K07 · K16 · K28"
+   },
+   {
+    "id": "X02",
+    "lv": "x",
+    "text": "block の効果を cue をまたいで言わない。blocked の bind は cue で 2 / 9 から 7 / 10。",
+    "src": "K10"
+   },
+   {
+    "id": "X03",
+    "lv": "x",
+    "text": "「O の組・He の組」を回路・担い手とは言わない。上位 10 head に出た回数からの事後の名付けで、一つの model・F5 の 2 変種。",
+    "src": "K11〜K14"
+   },
+   {
+    "id": "X04",
+    "lv": "x",
+    "text": "3・4 章の行と 5 章の行を同じ prompt とは言わない。F5a-2 は単一変数の編集(⑥ 出力の順)を入れた変種。",
+    "src": "f5_runs_F5a-2.json single_variable"
+   },
+   {
+    "id": "X05",
+    "lv": "x",
+    "text": "open の「attractor 5」を「答えが He・Hi に向いた」とは言わない。全文の label で、答えの欄に He・Hi は 0。",
+    "src": "K03 · K05"
+   },
+   {
+    "id": "X06",
+    "lv": "x",
+    "text": "6 章の model を一つの曲線・順位にしない。集計しない・Qwen と frontier は採点の経路も別。base と Think も単一変数の比べではない。",
+    "src": "K17 · K18"
+   },
+   {
+    "id": "X07",
+    "lv": "x",
+    "text": "「He・Hi の直径の円は X1〜X4 を通らない」は座標の計算で言える範囲(この一つの配置)まで。",
+    "src": "K19"
+   },
+   {
+    "id": "X08",
+    "lv": "x",
+    "text": "model が考えた・迷った・気づいた・本当は分かっていた、とは言わない。数えたのは文の形が本文に在る位置と、凍結の label。",
+    "src": "全画面"
+   },
+   {
+    "id": "X09",
+    "lv": "x",
+    "text": "「model が O1O2 で考え始めた」「He・Hi では考えなかった」とは言わない。数えたのは、本文の述語が当たった token の前後 32 token の群の値の平均の差。",
+    "src": "K25・K26"
+   },
+   {
+    "id": "X10",
+    "lv": "x",
+    "text": "活性は相関で、因果(活性が bind を決める)は言わない。群の名は unembed の上位の語からの名付けで、意味の同定ではない。結びの latent = commit の正体、とは言わない。",
+    "src": "K22・K25"
+   },
+   {
+    "id": "X11",
+    "lv": "x",
+    "text": "考えの中点の群の上がりの大半は、本文が計算に移ることと一緒に動く(O1O2 の出来事で順位相関 0.780)。計算に移らない 11 本でも 7 本で小さく上がるが、薄い ✓(余裕 0 本)。「計算への移りだけの写し」とも「計算に移らなくても上がる」とも強くは言わない。",
+    "src": "K23・K25 · K32〜K34 · RESULT olm62 §4"
+   },
+   {
+    "id": "X12",
+    "lv": "x",
+    "text": "attractor の行の O の出来事は 3 本で、読まない。S_O・S_H は述語で選んだ最短の一行ずつで、代表でも、対の比べでもない。",
+    "src": "K23・K24・K25"
+   },
+   {
+    "id": "X13",
+    "lv": "x",
+    "text": "frontier の model の中身の話ではない。OLMo-3-1125-32B base の層 32・公開 SAE・moy-1 の F5 の 2 prompt・cmt5 の 120 行(温度 0.7)の話だけ。",
+    "src": "K22・K29"
+   },
+   {
+    "id": "K30",
+    "lv": "L1",
+    "text": "olm62 の統制は 2 つとも通過: C1 olm59 の再現(o_diam 59・48・0.1574450582265854 / h_diam 34・18・0.009897790849208832 = 差 0)・C2 述語(数字だけの token 32,498 / 32,498 が数式の文字を含む・英字だけの token 84,759 / 84,759 が含まない)。",
+    "src": "olm62 control.json C1 · C2 · pass"
+   },
+   {
+    "id": "K31",
+    "lv": "L1",
+    "text": "O1O2 を名指した後に本文が数式に移る(Δmath > 0)出来事は 48 / 59(Δmath の中央値 0.125・予想 Q1 ≥ 60 % ✓)。He・Hi を名指した後は 8 / 34(中央値 -0.0390625)。",
+    "src": "olm62 read.json o_diam / h_diam .math_up · .math_median_diff · Q1"
+   },
+   {
+    "id": "K32",
+    "lv": "L1",
+    "text": "Δ中点 と Δmath の順位相関: O1O2 0.7804792518994741・He・Hi 0.21161191749427039・全 token(162,545)0.4152617665861453。Δmath の中央値で割ると中点が上がる本数は O1O2 が低 23 / 32・高 25 / 27・He・Hi が 9 / 17・9 / 17。",
+    "src": "olm62 read.json spearman_mid_math · Q3_pooled_token_spearman_mid_math · split_at_median_math"
+   },
+   {
+    "id": "K33",
+    "lv": "L1",
+    "text": "数式に移らなかった(Δmath ≤ 0)O1O2 の出来事 11 本で、考えの中点の群が上がるのは 7 / 11(64 %・予想 Q2 の閾 60 % = 7 本以上・余裕 0 本: 一本違えば 6 / 11 = 55 %)・Δ中点の中央値 0.056653887033462524(O1O2 の出来事全体は 0.15744507452473044)。同じ 11 本で他の群が上がる本数: 結び 3 / 11・答えの側 3 / 11・考えの側 3 / 11。",
+    "src": "olm62 read.json Q2 · o_diam.mid_up_when_math_flat · mid_median_when_math_flat · by_group_math_flat"
+   },
+   {
+    "id": "K34",
+    "lv": "L1",
+    "text": "数式に移る O1O2 の 48 本で中点が上がるのは 41 / 48。He・Hi では、数式に移らない 26 本で 14 / 26・移る 8 本で 4 / 8。",
+    "src": "olm62 read.json mid_up_when_math_up · h_diam.mid_up_when_math_flat"
+   },
+   {
+    "id": "K35",
+    "lv": "L1",
+    "text": "数式の文字 = token の文字のうち [0-9²³·×=+\\-^*/()√] の割合(olm60 / olm61 と同じ式)。窓 = 出来事の前 32 / 後 32 token(olm59 と同じ)。Δmath = 後の窓の平均 − 前の窓の平均。",
+    "src": "PREREG olm62 §1"
+   },
+   {
+    "id": "K36",
+    "lv": "L1",
+    "text": "点(Δmath・Δ中点)は olm59 の rows から数え直した値で、read.json の本数・中央値・順位相関を丸めずに再現した(中央値は float32 の差 < 1e-6・順位相関は 1e-12)。",
+    "src": "pack_moy1.py 8d · check_claims.py"
+   },
+   {
+    "id": "K40",
+    "lv": "L1",
+    "text": "札の系統樹 v2.2.1: 札 78・塊 9(C1 6・C2 13・C3 10・C4 6・C5 13・C6 8・C7 7・C8 11・C9 4)・日付は 10-19〜10-27。",
+    "src": "tree_src.json clusters[*].members · nodes"
+   },
+   {
+    "id": "K41",
+    "lv": "L1",
+    "text": "この図が使う系統樹の中の札: cmt5 = C1「一語を固定」(関門で止めた(b 版なし))・cmt13 = C2「bind の瞬間」(外れて学んだ)・olm4 = C3「止まる方向」(通過)・olm7 = C3「moy-1 三重読み」(通過)。",
+    "src": "tree_src.json nodes[id].cluster · label · outcome"
+   },
+   {
+    "id": "K42",
+    "lv": "L1",
+    "text": "系統樹の前の札(日付 = 記録の名・data の file の最終 commit): replication_config_frozen 07-28・pc1 07-31・screen bf16 07-29・behavior screen 07-28・F5 08-01・moy_suite_report 06-14。系統樹の後: olm59・olm62(10-28)。",
+    "src": "各 RESULT / ADJUDICATION の file 名 · git の最終 commit"
+   },
+   {
+    "id": "K43",
+    "lv": "L1",
+    "text": "各状態の札の印は config.json の card_marks の写し(状態 → 札)で、状態 0〜25 の 26 状態にある。この図の札 12 本は、どれも一つ以上の状態の印になっている。",
+    "src": "config.json card_marks"
+   },
+   {
+    "id": "R05",
+    "lv": "L3",
+    "text": "O1O2 を名指した後に本文が数式の文字の多い区間に移ること(48 / 59)を、「確かめに入る」と呼ぶ読みがある(本文の形の名付け。確かめ = 目的の同定ではなく、「model が確かめた」とは言わない)。(読み: RESULT olm62 §5-2 の実行層。採否は人間)",
+    "src": "RESULT olm62 §5-2 · K31"
+   },
+   {
+    "id": "R06",
+    "lv": "L3",
+    "text": "「系統樹の後」の札(olm59・olm62)の置き場の案: C3「方向を取る」の続き。SAE の群は olm4・olm7 が凍結した物・行は C1 の cmt5。(読み: 主 session の案。採否は人間)",
+    "src": "BRIEF v2.1 §B · K41"
+   },
+   {
+    "id": "X14",
+    "lv": "x",
+    "text": "中点の群の上がりを、「計算への移りの写しだけ」とも「計算に移らなくても上がる」とも強くは言わない。大半は計算への移りと一緒に動き(O1O2 の出来事で 0.780)、移らない 11 本でも 7 本が小さく上がる(薄い ✓・余裕 0 本)。",
+    "src": "K32〜K34"
+   },
+   {
+    "id": "X15",
+    "lv": "x",
+    "text": "数式の文字の割合は本文の形の近似で、「計算をしている」ことの同定ではない。因果(数式が中点を上げる)は言わない。順位相関は札の順位の付け方(同順位を順に並べる)で出した値で、同順位を平均すると値が替わる(NOTES)。",
+    "src": "K35 · RESULT olm62 §6"
+   },
+   {
+    "id": "X16",
+    "lv": "x",
+    "text": "系統樹の塊の名と並びは v2.2.1 の写しで、この図の章の区切りとは別。「系統樹の後」の置き場は案(L3)で、系統樹にはまだ載っていない。札の印は data の出所で、その札が結論を支えた、とは言わない。",
+    "src": "K40〜K43 · R06"
+   },
+   {
+    "id": "K50",
+    "lv": "L1",
+    "text": "その後の札 18 本は PREREG と runner を一つの commit に入れて凍結した(読んで格に届いた 17・読まず olm95・ほかに olm83・olm88 が関門で止まった)。olm76 は凍結し直し(→)が読みの前。凍結の commit(RESULT の頭の行・git が PREREG を最初に足した commit と一致): olm76 b7730f55 → d7fbbd43・olm84 728cdca7・olm85 b9a269d4・olm86 38896688・olm89 9c55b35a・olm91 423602e6・olm92 f396c69a・olm93 6c38eb97・olm94 ae474dc3・olm95 4502a4a6・olm97 5525976d・olm98 5a4eff07・olm101 9fbbc072・olm106 4ac2b73b・olm108 de6a4297・olm112 cb12da8d・olm114 c82642a5・olm128 2f1ab745。",
+    "src": "各 RESULT の頭の行 · git log --diff-filter=A の PREREG"
+   },
+   {
+    "id": "K51",
+    "lv": "L1",
+    "text": "答えの欄 {\" の直前 64 token で結びの群が上がる行: bind 28 / 48(中央値 +0.013・符号検定 p 0.156)・偽の窓 21 / 48(p 0.844)・attractor 7 / 10(中央値 +0.042)。Q1 ✗・Q3 ✗(bind と attractor の差 −0.030・perm p 0.834)。COMMIT の陽性統制 C3 は 14 / 18(線 15)で ✗。",
+    "src": "olm76 read.json Q1_bind_close_rises · Q3_close_bind_gt_attractor · control.json C2_pseudo_window · C3_commit_positive"
+   },
+   {
+    "id": "K52",
+    "lv": "L1",
+    "text": "層 32 の probe の AUC 対 J-lens の読み出し: olm84 0.996 対 0.994(E +0.002)・olm85 0.878 対 0.879(E −0.002)・olm86 0.777 対 0.775(E +0.002)。三札とも Q1 ✗(凍結の解ける条件)。",
+    "src": "olm84 Q1 · olm85 Q1_next_sentence_O · olm86 Q1_k32 の auc · E"
+   },
+   {
+    "id": "K53",
+    "lv": "L1",
+    "text": "k = 8 の E の中央値(層 32 / 層 48): olm86 +0.036 / +0.033・olm89 +0.041 / +0.031(Q1 ✓・線 +0.05 の Q1b ✗・+0.02 は olm86 を見てから置いた線 = 事後・判定は凍結の +0.01)・olm92 +0.022 / +0.018。olm92 の E+(層 32)= +0.022 [+0.005, +0.037]「残る」。",
+    "src": "olm86 Q2_desc_by_k · olm89 Q1_k8 · olm92 Q_k8 の E · E_old · E_plus"
+   },
+   {
+    "id": "K54",
+    "lv": "L1",
+    "text": "最初の 64 token から答えの欄の結末(217 行・attractor 51): AUC は層 32 0.492・層 48 0.489・J 0.527・語の袋 0.578。どれも零(行の間の label の入れ替え)の帯の内(層 32 の零 0.366〜0.601)= Q1 ✗。",
+    "src": "olm91 read.json Q1_first64 · control.json C3_perm_null"
+   },
+   {
+    "id": "K55",
+    "lv": "L1",
+    "text": "名の直後の形が this circle へ移る AUC(olm94 Q2 ✓): 層 32 0.970・層 48 0.766・J 0.556・語の袋 0.500。this の直前の語へは 0.603・0.601。olm93(自然な生成)の層 32 は 0.870で、語の袋の同じ移し(0.946)の方が上。",
+    "src": "olm94 read.json Q2_V_post_to_dem_vs_ctl · olm93 Q1_name_to_dem"
+   },
+   {
+    "id": "K56",
+    "lv": "L1",
+    "text": "最後の位置で行いを運ぶ上位 10 head は、指す先の直径の名を他方の 2.37 倍読む(注意 0.350 対 0.148)。出力を対の文の物に置くと行いが +2.19 logit(乱数の 10 head との差 +2.11・反転 0.513)。上位 10 のうち 5 個(L50H23・L51H19・L51H4・L52H26・L57H33)は cmt13 の head と同じ。",
+    "src": "olm98 read.json Q1_top_heads_read_ref_name · Q2_patch_top_heads · Q4_cmt13_overlap"
+   },
+   {
+    "id": "K57",
+    "lv": "L1",
+    "text": "位置の入れ替えで、行いが source の指し / 値に従った割合(評価の組): 選びの文字だけ(olm106)層 12 で指し 0.929・層 16 で 0.339・層 20 で 0.013(値は ≤ 0.013)・最後の位置だけ(olm101)値に従う最初の層は 28(層 28 で 0.990)・選びから最後まで(olm108)層 20 で指し 0.432 / 値 0.552。",
+    "src": "olm106 table.sel_L* · olm101 Q1_curve_full_end · olm108 Q1.curve_tail"
+   },
+   {
+    "id": "K58",
+    "lv": "L1",
+    "text": "答えの欄が apex の 37 行の証明の欄: 二等分線 1・直角 4・Thales の逆 13・鎖(三つ全部)0(Q1 偽)。hypothesis の申告は apex 36 / 36・attractor 28 / 29。attractor の率 0.300 対 比べる元 0.255。",
+    "src": "olm112 read.json Q1 · Q2 · Q3 · Q4_by_label_json"
+   },
+   {
+    "id": "K59",
+    "lv": "L1",
+    "text": "frontier の段を与えた続き: 二等分線の段まで → 直角 ∧ Thales の逆 26 / 40(Opus の文 12 / 20・Fable の文 14 / 20・Q1 続ける)・直角の段まで → Thales の逆 23 / 40(7 / 20・16 / 20・Q2 続ける)。k = 0 は答えの欄が apex 5 / 40 で関門 ✗(読まない)。",
+    "src": "olm114 read.json Q1 · Q2 · Q3 · gates"
+   },
+   {
+    "id": "K60",
+    "lv": "L1",
+    "text": "blocked の書き始め(位置 0)と凍結の label: 一致率 11 / 19 = 0.579(Q1 保たれない)・JSON から書き始める行は cue \\n 7 / 9・\" \" 0 / 10・\\n\\n 3 / 10(Q2 \\n +0.48 動く・\" \" −0.30 逆)。陽性統制 C0 ✓(cue \\n\\n で K07 の 3 / 3・7 / 7)。",
+    "src": "olm128 read.json blocked_cells · verdicts"
+   },
+   {
+    "id": "K61",
+    "lv": "L1",
+    "text": "事後の記述(判定でない・凍結に無い): JSON が 100 字以内にある行: cue \\n 8 / 9(bind 2)・\" \" 7 / 10(bind 2)・\\n\\n 3 / 10(bind 0)。cue \" \" の最初の JSON は 25・25・25 字目(3 行)と 4 行の 72〜84 字目。",
+    "src": "pack_moy1.py 8g(raw の行から数え直し)· RESULT olm128 §3"
+   },
+   {
+    "id": "K62",
+    "lv": "L1",
+    "text": "X1〜X4 が O1・O2 に張る角 ∠O1 Xk O2 = 89.9998° / 90.0006° / 90.0002° / 89.9998°(90° から 0.0006° 以内)。He・Hi に張る角は 42.15° / 104.11° / 104.11° / 42.15°。",
+    "src": "prompts.open の座標から計算(pack · data.mjs · check_claims)"
+   },
+   {
+    "id": "K63",
+    "lv": "L1",
+    "text": "F5a-2 の編集は一か所: 「Respond with JSON only:」→「First write your reasoning as plain text. After that, respond with the JSON object:」。F5a-2・F5b-1 の cue はどちらも \\n\\n(5 章の行の cue)。",
+    "src": "f5_runs_F5a-2.json edits_applied · cue · f5_runs_F5b-1.json cue"
+   },
+   {
+    "id": "K64",
+    "lv": "L1",
+    "text": "base(cue \\n\\n): open は attractor 4・stuck-L1 5(上限で切れた 1 行を除く = PREREG pc1 §6・全行込み attractor 5 / 10)・blocked は bind 7・attractor 3。Think(Q4)は open が stuck-L1 9 / 9・blocked が bind 7 / 7(length の行を除く)。",
+    "src": "pc1_runs.json label · screen_olmo-3_32b.json"
+   },
+   {
+    "id": "K65",
+    "lv": "L1",
+    "text": "出来事の行の道 × label(答えの欄): O1O2 の 59 行 = think × bind 36・natural × bind 16・answer × stuck-L1 2・natural × attractor 2・answer × bind 1・natural × flail 1・think × attractor 1。He・Hi の 34 行 = think × bind 17・natural × attractor 6・natural × bind 6・think × attractor 4・answer × attractor 1。",
+    "src": "rows/*.npz の meta(kind · label_json)の数え上げ · olm59 read.json counts"
+   },
+   {
+    "id": "K66",
+    "lv": "L1",
+    "text": "S_O の「同じ円を語で言う文」(the center of the circle through the four common tangent points is the midpoint of the line segment joining the centers of the two original circles.)は token 297〜323(出来事の token 329 の 32 〜 6 token 前)で、O1・O2 の名を含まず述語に当たらない(「前 32」の窓の内)。",
+    "src": "olm59 rows/F5a-2__think__r15.npz の text · starts · ends"
+   },
+   {
+    "id": "K67",
+    "lv": "L1",
+    "text": "札の外の数(L2・判定に使わない): 同順位を平均した順位相関は O1O2 0.781・He・Hi 0.221・全 token 0.489。札の規則(同順位を順に並べる)の値は 0.780 / 0.212 / 0.415。",
+    "src": "pack_moy1.py 8d(average_rank)· check_claims.py"
+   },
+   {
+    "id": "K68",
+    "lv": "L1",
+    "text": "olm62 の Q2 は二つの規則を持つ(PREREG): 対象が 8 本未満なら「読まない」・閾は 60 %。数式に移らない O1O2 の出来事は 11 本(8 本以上 = 読む)で、中点が上がるのは 7 本(64 % ≥ 60 % ✓・余裕 0 本)。",
+    "src": "PREREG olm62 の Q2 の文 · olm62 read.json mid_up_when_math_flat"
+   },
+   {
+    "id": "K69",
+    "lv": "L1",
+    "text": "blocked s8 は JSON が無く、答えの欄が無い。凍結の label_json_fields は、JSON の無い行を cmt5 の 3 / 3 行で B-flail にする。blocked の答えの欄は O1O2 6・He・Hi 3・JSON なし 1(全文の label が bind の s8 を含む)。",
+    "src": "cmt5.json rows[*].label_json_fields · pack_moy1.py の answer field"
+   },
+   {
+    "id": "R07",
+    "lv": "L3",
+    "text": "台帳の読み R04 → olm76 のつながり: 台帳の読みが「答えの欄の始まりで結びは上がるか」という問いを生み、家が olm76 に打った。(読み: RESULT 駅 2 §2 の実行層。採否は人間)",
+    "src": "RESULT 駅 2 §2 · K51"
+   },
+   {
+    "id": "R08",
+    "lv": "L3",
+    "text": "位置を対の文の物に入れ替えると、行いが指しに従う割合は選びの位置だけで層 16 で 0.5 を割り(olm106)、選びから最後までの組は層 20 で値の側へ替わり(olm108)、最後の位置だけは層 28 から値に従う(olm101)、と読める。「変数」「pointer」は文の組の名で、model の中の型の主張ではない(SCOPE 11-01 §2b)。(読み: RESULT olm106 / olm108 の主 session。採否は依頼者)",
+    "src": "RESULT olm106 §読み · olm108 §読み · K57"
+   },
+   {
+    "id": "R09",
+    "lv": "L3",
+    "text": "frontier の証明の欄を段で与えると、OLMo は与えられた段の続きを書ける。直交から直角へ進む文がある続きは 12 / 40(正規表現・計器の外)で、「OLMo が導いた」とは言わない。(読み: RESULT olm114 §6 の主 session。採否は依頼者)",
+    "src": "RESULT olm114 §6 · K59"
+   },
+   {
+    "id": "R10",
+    "lv": "L3",
+    "text": "位置 0 の書き始めは cue \\n と \\n\\n の対比は説明の向きに見せるが、cue \" \" の行を取りこぼす(「文から書き始める」のではなく「問いの決まりの一文を足してから JSON」に入る)。計器の境(位置 0)が cue に敏感で、Q1 の「保たれない」は、書き始めの考えが外れたのか境の置き方が外れたのかを分けない。(読み: RESULT olm128 §4 の主 session。採否は依頼者)",
+    "src": "RESULT olm128 §4 · K60 · K61"
+   },
+   {
+    "id": "R11",
+    "lv": "L3",
+    "text": "天秤のたとえ(皿 = 組の寄与・梁 = 出力の Δ)は、この図の作り手の描き方で、機構の主張ではない。(読み: 作り手の描き方。採否は人間)",
+    "src": "状態 13・14"
+   },
+   {
+    "id": "X17",
+    "lv": "x",
+    "text": "「結び」が答えの欄の手前で立つ、とは言わない(olm76: bind の行で線に届かず、attractor の行より上でもない)。",
+    "src": "K51"
+   },
+   {
+    "id": "X18",
+    "lv": "x",
+    "text": "推論空間の候補が在る(線 +0.05)とは言わない。同時に「推論空間が無い」とも言わない(四つの出来事・この計器で見えないだけ)。",
+    "src": "K52 · K53"
+   },
+   {
+    "id": "X19",
+    "lv": "x",
+    "text": "k = 8 の上乗せが「推論」「計画」「先の見込み」とは言わない(上乗せの中身は分けていない)。「三語・位置・話題は先読みに情報を持たない」とも言わない(W+ の罰則 C は較正していない)。",
+    "src": "K53 · olm92 §5"
+   },
+   {
+    "id": "X20",
+    "lv": "x",
+    "text": "「行き先がまだ決まっていない」「残差に結末の情報が無い」とは言わない(olm91 は最初の 64 token の窓の平均で、四つの表現とも読めなかった、まで)。",
+    "src": "K54"
+   },
+   {
+    "id": "X21",
+    "lv": "x",
+    "text": "「model は束縛を解く」は行い(98 %)と線形の読みの記述で、model が「分かっている」とは言わない。this circle の形が行いに使われる、とは言わない(olm97)。",
+    "src": "K55 · olm94 Q0 · olm97"
+   },
+   {
+    "id": "X22",
+    "lv": "x",
+    "text": "機構・回路は言わない: head の間の道(path patching)は見ていない・注意の重みは「どこを読むか」で「何を写すか」ではない・DLA は一次の分解・5 個の重なりは同じ語を扱う文どうしで、汎化した部品とは言わない。",
+    "src": "K56"
+   },
+   {
+    "id": "X23",
+    "lv": "x",
+    "text": "位置の入れ替えは一つの位置・一つの層ずつのまるごとで、動かさないことは持たないことではない。指しは順と名が重なる組・合成の文・V 型だけ。DAS の層 20〜24 の効きはまるごとより強く、錯覚の型。",
+    "src": "K57 · olm101 §言えないこと"
+   },
+   {
+    "id": "X24",
+    "lv": "x",
+    "text": "CHAIN は語の鎖で、証明の正しさの検証ではない。「OLMo が導いた」とは言わない(与えられた段の続きを書けた、まで)。base と chat model の差には能力の差と調整の差が混ざる。",
+    "src": "K58 · K59"
+   },
+   {
+    "id": "X25",
+    "lv": "x",
+    "text": "olm128 は因果を言わない(書き始めを替えた腕は無い)。事後の「100 字以内」の揃いは判定でなく、100 は見てから置いた数。「書き始めで説明される」とは言わない。",
+    "src": "K60 · K61"
+   },
+   {
+    "id": "X26",
+    "lv": "x",
+    "text": "frontier の model の中身の話ではない(線 1 の札は OLMo-3 32B base の自分の生成と合成の文)。一つの prompt・一つの model の外へは言わない。",
+    "src": "K50〜K61"
+   },
+   {
+    "id": "X27",
+    "lv": "x",
+    "text": "blocked s8 の答えの欄は「JSON なし」で、O1O2 と読まない(最後の段落は O1O2 と読めるが、それは凍結の label_json_fields の読み方ではない・pc1 の行へは外挿)。",
+    "src": "K69"
+   }
+  ],
+  "questions": [
+   {
+    "k": "問 1",
+    "q": "open と blocked の問題文の違いは何か。それは答え(O1O2)を教えているか。",
+    "where": "状態 2・3"
+   },
+   {
+    "k": "問 2",
+    "q": "open の 10 行で、答えの欄には何が書かれ、O1O2 を円の直径・中心として名指す文は何行にあったか。",
+    "where": "状態 4・5・6・7"
+   },
+   {
+    "k": "問 3",
+    "q": "blocked で attractor に行った行と bind に行った行は、書き始めの何が違ったか。そこから「考えたから bind した」と言えるか。",
+    "where": "状態 8〜12・25"
+   },
+   {
+    "k": "問 4",
+    "q": "本文が O1O2 を名指す所と He・Hi を名指す所で、層 32 の SAE の群は、名指す前の 32 token と後の 32 token でどう違ったか。事前の予想は当たったか。",
+    "where": "状態 18〜22"
+   },
+   {
+    "k": "問 5",
+    "q": "O1O2 を名指した後に、本文は数式に移ったか。考えの中点の群の上がりは、その移りの写しと言えるか(He・Hi の後と比べて)。",
+    "where": "状態 23・24"
+   },
+   {
+    "k": "問 6",
+    "q": "5 章(bind する瞬間)の data は、どの札から来たか。その札は、札の系統樹のどの塊に居るか。",
+    "where": "状態 12・26"
+   },
+   {
+    "k": "問 7",
+    "q": "10-28 の台帳の読み「結びが下がるのは、まだ答えを閉じていないと読める」は、その後の札(olm76)で支持されたか。何を測り、何が言えないか。",
+    "where": "状態 27・28"
+   },
+   {
+    "k": "問 8",
+    "q": "その後の札のうち、依頼者が選んだ次の問い(A)は何と判定されたか。読み手が出した他の候補は、まだ何をしていないか。",
+    "where": "状態 35・36"
+   }
+  ]
+ },
+ "en": {
+  "rows": [
+   {
+    "id": "K01",
+    "lv": "L1",
+    "text": "The only difference between the open and blocked prompts is one final sentence (+324 chars; blocked begins with the whole of open).",
+    "src": "replication_config_frozen.json prompts.open / prompts.blocked"
+   },
+   {
+    "id": "K02",
+    "lv": "L1",
+    "text": "The added sentence names neither O1O2 nor He-Hi (it gives no answer and does not close the road to He-Hi).",
+    "src": "end of prompts.blocked (counted in the pack)"
+   },
+   {
+    "id": "K03",
+    "lv": "L1",
+    "text": "open (cue \\n\\n, n 10): the answer field is bare concyclic in 8 / 10; the rest are one 'no invariant' row and one cap row with no JSON. Rows that name O1O2 or He-Hi: 0.",
+    "src": "pc1_runs.json content's last JSON conjecture + the inventory's predicates"
+   },
+   {
+    "id": "K04",
+    "lv": "L1",
+    "text": "Rows in open with a sentence naming O1O2 as the circle's diameter or centre: 0 / 10 (cap row included). Rows with a 'diameter = He-Hi' sentence: 1 / 10 (s1, seven times).",
+    "src": "pc1_runs.json content + PRED_O / PRED_HEHI_DIAM"
+   },
+   {
+    "id": "K05",
+    "lv": "L1",
+    "text": "open's frozen label is attractor 5 / stuck-L1 5 (whole-text classification). The 5 attractor rows are the rows with a He or Hi word in the text; in the answer field 4 are bare concyclic and 1 is a cap row.",
+    "src": "pc1_runs.json label · inventory/check_values.out V2"
+   },
+   {
+    "id": "K06",
+    "lv": "L1",
+    "text": "blocked (cue \\n\\n) frozen label: bind 7 / attractor 3. It agrees with the answer field's reading in 9 rows (s8 has no JSON, so no answer field: K69).",
+    "src": "pc1_runs.json label · V1"
+   },
+   {
+    "id": "K07",
+    "lv": "L1",
+    "text": "blocked: the 3 rows that started with the JSON (s3, s5, s9) are attractor 3 / 3; the 7 rows that started with a sentence are bind 7 / 7. The open rows that started with the JSON (s3, s9) are both bare concyclic.",
+    "src": "position of the first {\"conjecture\" in pc1_runs.json content · V4"
+   },
+   {
+    "id": "K08",
+    "lv": "L1",
+    "text": "Same predicates, open → blocked: rows with a 'diameter / centre = O1O2' sentence 0 → 7 / 10; rows with a 'diameter = He-Hi' sentence 1 → 5 / 10.",
+    "src": "pc1_runs.json content + the inventory's predicates"
+   },
+   {
+    "id": "K09",
+    "lv": "L1",
+    "text": "The 5 blocked rows with a 'diameter = He-Hi' sentence: 3 (s0, s2, s7) end on O1O2 in the answer field, 1 (s3) on He-Hi in its JSON, 1 (s8) has no JSON and so no answer field. Of the 7 bind rows, 4 have both a 'diameter = He-Hi' sentence and an O1O2 sentence: the He-Hi sentence first in 3, the O1O2 sentence first in 1.",
+    "src": "pc1_runs.json content + the inventory's predicates"
+   },
+   {
+    "id": "K10",
+    "lv": "L1",
+    "text": "Blocked's bind by cue: \\n 2 / 9 (one cap row removed) · \" \" 4 / 10 · \\n\\n 7 / 10. Most frequent: attractor / bind / bind.",
+    "src": "screen_olmo3_base_bf16.json · pc1_runs.json label"
+   },
+   {
+    "id": "K11",
+    "lv": "L1",
+    "text": "F5a-2 s1 ① t 289: Δ(O − He) = -4.3984375; O pair sum 2.7425659894943237; He pair sum -7.129308223724365; rank-1 head = L50H23.",
+    "src": "cmt13 sites['att|F5a-2|s1'] · V6"
+   },
+   {
+    "id": "K12",
+    "lv": "L1",
+    "text": "F5a-2 s1 ② t 397: Δ = 1.2109375; O pair sum 9.637725591659546; He pair sum -8.208577871322632; rank-1 head = L50H23.",
+    "src": "cmt13 sites['cut|F5a-2|s1'] · V6"
+   },
+   {
+    "id": "K13",
+    "lv": "L1",
+    "text": "Positions where L50H23 is rank 1: att 4 / 5; cut 3 / 11.",
+    "src": "cmt13 compare.L50H23 · V8"
+   },
+   {
+    "id": "K14",
+    "lv": "L1",
+    "text": "Mean Jaccard of the top-10 heads: cut~att 0.5282849355041869; cut~cut 0.5130264566093443; cut~conclusion bind 0.023923444976076555.",
+    "src": "cmt13 compare.jaccard_top10 · V7"
+   },
+   {
+    "id": "K15",
+    "lv": "L1",
+    "text": "cmt13's controls C0-C4 all pass (C4 = re-reading two cmt12 positions gives a contribution difference of 0.0).",
+    "src": "cmt13 controls.all_pass"
+   },
+   {
+    "id": "K16",
+    "lv": "L1",
+    "text": "cmt5 (first word fixed): the number of bind rows depends on the label. Whole-text label: thinking path 20 / 20 for both F5a-2 and F5b-1 (40 / 40 in all); answer path 5 / 20 and 3 / 20 (8 / 40). Answer-field label: thinking path 17 / 20 and 19 / 20 (36 / 40); answer path 2 / 20 and 2 / 20 (4 / 40). Control C1 failed for F5b-1; the reading is withheld.",
+    "src": "cmt5 cells[*].labels / rows[*].label_json_fields · read.json labels_full_vs_answer_field · controls.C1_pass = false · V9"
+   },
+   {
+    "id": "K17",
+    "lv": "L1",
+    "text": "Per model, bind from open to blocked: gpt-5 0 → 8; claude-opus-4-8 3 → 10; gpt-5-mini 2 → 10; qwen3:8b 0 → 10; qwen3:32b 0 → 1 (7 attractors in blocked).",
+    "src": "moy_suite_report.json moy1_circle_discriminator · V10"
+   },
+   {
+    "id": "K18",
+    "lv": "L1",
+    "text": "OLMo-3 32B Think (Q4): open is stuck-L1 9 / 9; blocked is bind 7 / 7 (rows cut by length excluded).",
+    "src": "screen_olmo-3_32b.json rows[*].label · V11"
+   },
+   {
+    "id": "K19",
+    "lv": "L1",
+    "text": "This one configuration: X1-X4 lie on the circle with diameter O1O2 (distance from centre ÷ radius = 1.000) and not on the circle with diameter He-Hi (1.624 / 0.861 / 0.861 / 1.624).",
+    "src": "computed from the prompts.open coordinates"
+   },
+   {
+    "id": "K20",
+    "lv": "L1",
+    "text": "Prompt lengths and md5: open 1294 chars 3c7a63dd…; blocked 1618 chars 616682f5….",
+    "src": "replication_config_frozen.json prompt_md5 · V5"
+   },
+   {
+    "id": "K21",
+    "lv": "L1",
+    "text": "The md5 of the nine source files equals the BRIEF's table (the frozen files were read).",
+    "src": "BRIEF §1 · check_claims.py file_md5"
+   },
+   {
+    "id": "K22",
+    "lv": "L1",
+    "text": "olm59's three controls all pass: C1 instrument = FVE 0.4394, L0 235.4 (n 4080) / C2 copy of the text = 120 / 120 / C3 reproduction = F5a-2 20 / 20, F5b-1 20 / 20 (the same aggregate the groups were chosen on = a check of the pipeline only).",
+    "src": "olm59/control.json C1-C3 · pass"
+   },
+   {
+    "id": "K23",
+    "lv": "L1",
+    "text": "Scene S_O = F5a-2 think r15 (thinking path; both the whole-text and the answer-field label are bind): 1,210 generated tokens; the first 'diameter / midpoint = O1O2' sentence is at token 329 (\"Midpoint of O1 and O\"). Mean of the 32 tokens before → 32 after: close 0.34 → 0.32, mid 0.10 → 0.93, answer side 2.15 → 1.29, thought side 0.50 → 0.44. This row is not representative: its mid difference is the 5th largest of 59, its answer-side difference the 2nd smallest of 59.",
+    "src": "olm59/rows/F5a-2__think__r15.npz group_mean · meta.events · the rank of the window difference was computed from the arrays by the pack"
+   },
+   {
+    "id": "K24",
+    "lv": "L1",
+    "text": "Scene S_H = F5b-1 natural r14 (both labels are attractor): 118 generated tokens (inside the answer field from the first token); the first 'diameter = He-Hi' sentence is at token 45 (\"diameter HeHi\"). Mean of the 32 tokens before → 32 after: close 0.73 → 0.79, mid 0.03 → 0.01, answer side 2.62 → 2.78, thought side 0.25 → 0.38. Among the 34 rows: its answer-side difference is the 5th largest of 34, its thought-side difference the 7th largest of 34.",
+    "src": "olm59/rows/F5b-1__natural__r14.npz group_mean · meta.events · the rank of the window difference was computed from the arrays by the pack"
+   },
+   {
+    "id": "K25",
+    "lv": "L1",
+    "text": "In the 59 events where the text names O1O2 as a diameter / midpoint, rows whose mean over the 32 tokens after exceeds the 32 before: close 9 (median −0.141), mid 48 (+0.157), answer side 10 (−0.251), thought side 21 (−0.052).",
+    "src": "olm59/read.json Q3_desc['o_diam|*|all']"
+   },
+   {
+    "id": "K26",
+    "lv": "L1",
+    "text": "In the 34 events where the text names He-Hi as a diameter, rows with after > before: close 17 (−0.009), mid 18 (+0.010), answer side 11 (−0.043), thought side 19 (+0.004).",
+    "src": "olm59/read.json Q3_desc['h_diam|*|all']"
+   },
+   {
+    "id": "K27",
+    "lv": "L1",
+    "text": "Both preregistered predictions missed: Q1 (close rises in ≥ 70 % of the o_diam rows with thinking path × answer-field bind) = 6 / 36 (median −0.136); Q2 (close rises in ≥ 60 % of all h_diam rows) = 17 / 34 (−0.009).",
+    "src": "olm59/read.json Q1_think_bind_o_diam_close · Q2_any_h_diam_close · PREREG §3"
+   },
+   {
+    "id": "K28",
+    "lv": "L1",
+    "text": "The two labels of cmt5's 120 rows (bind rows): thinking path whole text 40 / 40 → answer field 36 / 40 (attractor 4); answer path whole text 8 / 40 → answer field 4 / 40 (stuck-L1 3, attractor 1); natural whole text 25 / 40 → answer field 18 / 40 (attractor 6, flail 1).",
+    "src": "olm59/read.json labels_full_vs_answer_field · cmt5 label_json_fields"
+   },
+   {
+    "id": "K29",
+    "lv": "L1",
+    "text": "Event = the first token a predicate hit. Before = the 32 tokens ahead of it; after = the 32 tokens from the event token on; only rows with both sides inside the generation (o_diam 59 / 64 rows, h_diam 34 / 44 rows). A group's value = the mean of its latents (layer 32, public SAE, threshold).",
+    "src": "olm59/read.json counts · half · PREREG §1"
+   },
+   {
+    "id": "R01",
+    "lv": "L3",
+    "text": "The added sentence calls a bare concyclic answer insufficient, and the rows then split by how they start (the 10 rows of cue \\n\\n · a correlation). Across cues, the start at position 0 does not explain it (olm128 = a card after 10-28 · state 35) = a reading inside cue \\n\\n only. (Reading: the draft M1 and the execution layer; adoption is the human's)",
+    "src": "BRIEF §4 · K06, K07, K08"
+   },
+   {
+    "id": "R02",
+    "lv": "L3",
+    "text": "The overlap of the top-10 heads (mean Jaccard) is cut~att 0.528 · cut~cut 0.513 · cut~the conclusion's bind 0.024 (K14 has every digit). Whether a bind moment and an attractor moment use the same parts or different ones is not said (no mechanism was looked at). (Reading: RESULT cmt13 §5, execution layer; adoption is the human's)",
+    "src": "RESULT cmt13 §5 · K11-K14"
+   },
+   {
+    "id": "R03",
+    "lv": "L3",
+    "text": "O1O2 and He-Hi are not symmetric on the SAE trajectory: after O1O2 is named the mid group rises and the answer-side and close groups fall; where He-Hi is named the median differences are small. (Reading: RESULT olm59 §5-1 restated by the maker to fit the numbers; execution layer; adoption is the human's)",
+    "src": "RESULT olm59 §5-1 · K25, K26"
+   },
+   {
+    "id": "R04",
+    "lv": "L3",
+    "text": "The close group's value falls where O1O2 is named (after > before in 9 of 59 rows · in 8 of the 53 bind rows). The 10-28 figure read this as \"the answer is not yet closed\" (L3), but in olm76 (10-30) the close group did not reach the line in bind rows even in the 64 tokens before the answer field {\" (it rose in 28 / 48 rows · median +0.013 · p 0.156 · not above the attractor rows either), so the reading is not supported. (Reading: the executing layer, RESULT olm59 §5-3, demoted by olm76's result. Adoption is the human's.)",
+    "src": "RESULT olm59 §5-3 · K25 · K51 · olm76 read.json Q1"
+   },
+   {
+    "id": "X01",
+    "lv": "x",
+    "text": "It is not said that \"it bound because it thought\". How a row starts and its label are a correlation, and cmt5's intervention is withheld because control C1 failed. cmt5's bind is never stated without saying which label counted it (thinking path 40 / 40 is the whole-text label; 36 / 40 is the answer-field label).",
+    "src": "K07 · K16 · K28"
+   },
+   {
+    "id": "X02",
+    "lv": "x",
+    "text": "The block's effect is not said across cues. Blocked's bind runs from 2 / 9 to 7 / 10 over the cues.",
+    "src": "K10"
+   },
+   {
+    "id": "X03",
+    "lv": "x",
+    "text": "The \"O pair / He pair\" are not called a circuit or a carrier. They are named after the fact from how often a head came in the top 10: one model, two F5 variants.",
+    "src": "K11-K14"
+   },
+   {
+    "id": "X04",
+    "lv": "x",
+    "text": "Rows of chapters 3-4 and the row of chapter 5 are not called the same prompt. F5a-2 carries a single-variable edit (⑥ output order).",
+    "src": "f5_runs_F5a-2.json single_variable"
+   },
+   {
+    "id": "X05",
+    "lv": "x",
+    "text": "Open's \"attractor 5\" is not read as \"the answer turned to He-Hi\". It is the whole-text label, and the answer field has He-Hi in 0 rows.",
+    "src": "K03 · K05"
+   },
+   {
+    "id": "X06",
+    "lv": "x",
+    "text": "The models of chapter 6 are not made one curve or a ranking: not aggregated, the Qwen and frontier scoring routes differ, and base vs Think is not a single-variable comparison.",
+    "src": "K17 · K18"
+   },
+   {
+    "id": "X07",
+    "lv": "x",
+    "text": "\"The He-Hi diameter circle misses X1-X4\" is said only as far as the coordinate calculation goes: this one configuration.",
+    "src": "K19"
+   },
+   {
+    "id": "X08",
+    "lv": "x",
+    "text": "It is not said that the model thought, hesitated, noticed or really knew. What was counted is where a sentence shape occurs in the text, and the frozen label.",
+    "src": "every screen"
+   },
+   {
+    "id": "X09",
+    "lv": "x",
+    "text": "It is not said that \"the model began to think in O1O2\" or that it \"did not think in He-Hi\". What was counted is the difference between the group means over the 32 tokens before and after the token a predicate of the text hit.",
+    "src": "K25, K26"
+   },
+   {
+    "id": "X10",
+    "lv": "x",
+    "text": "Activations are a correlation; that an activation decides the bind is not said. A group's name comes from the top words of the unembedding and is not an identification of meaning; that the close latents are the substance of the commit is not said.",
+    "src": "K22, K25"
+   },
+   {
+    "id": "X11",
+    "lv": "x",
+    "text": "Most of the mid group's rise moves together with the text moving into a calculation (rank correlation 0.780 over the O1O2 events). In the 11 events where it does not move it still rises a little in 7, but it is a thin ✓ (margin 0). We do not strongly say either “only a copy of the move into calculation” or “it rises even without it”.",
+    "src": "K23, K25 · K32-K34 · RESULT olm62 §4"
+   },
+   {
+    "id": "X12",
+    "lv": "x",
+    "text": "The 3 O events of attractor rows are not read. S_O and S_H are the shortest row each that satisfies a predicate: neither representative nor a matched pair.",
+    "src": "K23, K24, K25"
+   },
+   {
+    "id": "X13",
+    "lv": "x",
+    "text": "This is not about the inside of a frontier model. It is about OLMo-3-1125-32B base at layer 32, the public SAE, the two F5 prompts of moy-1 and cmt5's 120 rows (temperature 0.7).",
+    "src": "K22, K29"
+   },
+   {
+    "id": "K30",
+    "lv": "L1",
+    "text": "Both controls of olm62 passed: C1 olm59 reproduced (o_diam 59 · 48 · 0.1574450582265854 / h_diam 34 · 18 · 0.009897790849208832 = difference 0) · C2 predicate (32,498 / 32,498 digit-only tokens carry a formula character · 84,759 / 84,759 letter-only tokens carry none).",
+    "src": "olm62 control.json C1 · C2 · pass"
+   },
+   {
+    "id": "K31",
+    "lv": "L1",
+    "text": "After the text names O1O2 it moves into formulas (Δmath > 0) in 48 / 59 events (median Δmath 0.125 · prediction Q1 ≥ 60 % ✓). After He-Hi: 8 / 34 (median -0.0390625).",
+    "src": "olm62 read.json o_diam / h_diam .math_up · .math_median_diff · Q1"
+   },
+   {
+    "id": "K32",
+    "lv": "L1",
+    "text": "Rank correlation of Δmid and Δmath: O1O2 0.7804792518994741 · He-Hi 0.21161191749427039 · all tokens (162,545) 0.4152617665861453. Split at the median Δmath, the mid group rises in O1O2: low 23 / 32 · high 25 / 27; He-Hi: 9 / 17 · 9 / 17.",
+    "src": "olm62 read.json spearman_mid_math · Q3_pooled_token_spearman_mid_math · split_at_median_math"
+   },
+   {
+    "id": "K33",
+    "lv": "L1",
+    "text": "Among the 11 O1O2 events whose text did not move into formulas (Δmath ≤ 0) the mid group rises in 7 / 11 (64 % · the threshold of prediction Q2 is 60 % = 7+ events · margin 0: one fewer is 6 / 11 = 55 %) · median Δmid 0.056653887033462524 (all O1O2 events: 0.15744507452473044). In the same 11, the other groups rise: close 3 / 11 · answer side 3 / 11 · thought side 3 / 11.",
+    "src": "olm62 read.json Q2 · o_diam.mid_up_when_math_flat · mid_median_when_math_flat · by_group_math_flat"
+   },
+   {
+    "id": "K34",
+    "lv": "L1",
+    "text": "Among the 48 O1O2 events whose text moves into formulas the mid group rises in 41 / 48. For He-Hi: 14 / 26 in the 26 that do not move, 4 / 8 in the 8 that do.",
+    "src": "olm62 read.json mid_up_when_math_up · h_diam.mid_up_when_math_flat"
+   },
+   {
+    "id": "K35",
+    "lv": "L1",
+    "text": "Formula characters = the share of a token's characters in [0-9²³·×=+\\-^*/()√] (the same formula as olm60 / olm61). Window = 32 tokens before / after the event (as in olm59). Δmath = the mean over the after window − the mean over the before window.",
+    "src": "PREREG olm62 §1"
+   },
+   {
+    "id": "K36",
+    "lv": "L1",
+    "text": "The dots (Δmath, Δmid) are recounted from olm59's rows; read.json's counts, medians and rank correlations are reproduced unrounded (medians to float32 precision < 1e-6, rank correlations to 1e-12).",
+    "src": "pack_moy1.py 8d · check_claims.py"
+   },
+   {
+    "id": "K40",
+    "lv": "L1",
+    "text": "The card tree v2.2.1: 78 cards · 9 clusters (C1 6, C2 13, C3 10, C4 6, C5 13, C6 8, C7 7, C8 11, C9 4) · dated 10-19 to 10-27.",
+    "src": "tree_src.json clusters[*].members · nodes"
+   },
+   {
+    "id": "K41",
+    "lv": "L1",
+    "text": "The cards inside the tree that this figure uses: cmt5 = C1 “一語を固定” (関門で止めた(b 版なし)) · cmt13 = C2 “bind の瞬間” (外れて学んだ) · olm4 = C3 “止まる方向” (通過) · olm7 = C3 “moy-1 三重読み” (通過).",
+    "src": "tree_src.json nodes[id].cluster · label · outcome"
+   },
+   {
+    "id": "K42",
+    "lv": "L1",
+    "text": "Cards before the tree (date = the record's name · the data file's last commit): replication_config_frozen 07-28 · pc1 07-31 · screen bf16 07-29 · behavior screen 07-28 · F5 08-01 · moy_suite_report 06-14. After the tree: olm59, olm62 (10-28).",
+    "src": "the RESULT / ADJUDICATION file names · git's last commit"
+   },
+   {
+    "id": "K43",
+    "lv": "L1",
+    "text": "The card mark of each state is copied from config.json card_marks (state → cards) and sits on 26 of the states 0-25. Each of the 12 cards of this figure is the mark of at least one state.",
+    "src": "config.json card_marks"
+   },
+   {
+    "id": "R05",
+    "lv": "L3",
+    "text": "That the text moves into a stretch with many formula characters after naming O1O2 (48 / 59) can be called \"moving in to check\" (a name for the shape of the text; not an identification of a purpose, and we do not say the model checked). (Reading: the executing layer, RESULT olm62 §5-2. Adoption is the human's.)",
+    "src": "RESULT olm62 §5-2 · K31"
+   },
+   {
+    "id": "R06",
+    "lv": "L3",
+    "text": "A proposed place for the cards after the tree (olm59, olm62): a continuation of C3 “taking a direction”. The SAE groups were frozen by olm4 / olm7; the rows come from cmt5 of C1. (Reading: the main session's proposal. Adoption is the teacher's.)",
+    "src": "BRIEF v2.1 §B · K41"
+   },
+   {
+    "id": "X14",
+    "lv": "x",
+    "text": "We do not strongly say either that the mid group's rise is “only a copy of the move into calculation” or that “it rises even without it”. Most of it moves with the move into calculation (0.780 over the O1O2 events) and in 7 of the 11 events that do not move it rises a little (a thin ✓, margin 0).",
+    "src": "K32-K34"
+   },
+   {
+    "id": "X15",
+    "lv": "x",
+    "text": "The formula-character share approximates the shape of the text; it does not identify “calculating”. We do not say that formulas cause the mid group to rise. The rank correlation uses the card's rank rule (ties put in order); with tie-averaged ranks the values change (NOTES).",
+    "src": "K35 · RESULT olm62 §6"
+   },
+   {
+    "id": "X16",
+    "lv": "x",
+    "text": "The cluster names and order are v2.2.1's, separate from this figure's chapters. The place for “after the tree” is a proposal (L3), not yet on the tree. A card mark names the source of the data; we do not say the card supported a conclusion.",
+    "src": "K40-K43 · R06"
+   },
+   {
+    "id": "K50",
+    "lv": "L1",
+    "text": "The 18 later cards were frozen (PREREG + runner in one commit; 17 read, olm95 not; olm76 re-frozen →, before reading). Frozen commits (the RESULT's first line · equal to the commit in which git first added the PREREG): olm76 b7730f55 → d7fbbd43 · olm84 728cdca7 · olm85 b9a269d4 · olm86 38896688 · olm89 9c55b35a · olm91 423602e6 · olm92 f396c69a · olm93 6c38eb97 · olm94 ae474dc3 · olm95 4502a4a6 · olm97 5525976d · olm98 5a4eff07 · olm101 9fbbc072 · olm106 4ac2b73b · olm108 de6a4297 · olm112 cb12da8d · olm114 c82642a5 · olm128 2f1ab745.",
+    "src": "the first line of each RESULT · git log --diff-filter=A of the PREREG"
+   },
+   {
+    "id": "K51",
+    "lv": "L1",
+    "text": "Rows where the close group rises in the 64 tokens before the answer field {\": bind 28 / 48 (median +0.013 · sign test p 0.156) · false window 21 / 48 (p 0.844) · attractor 7 / 10 (median +0.042). Q1 ✗ · Q3 ✗ (bind minus attractor −0.030 · perm p 0.834). The COMMIT positive control C3 is 14 / 18 (line 15) ✗.",
+    "src": "olm76 read.json Q1_bind_close_rises · Q3_close_bind_gt_attractor · control.json C2_pseudo_window · C3_commit_positive"
+   },
+   {
+    "id": "K52",
+    "lv": "L1",
+    "text": "Layer-32 probe AUC vs the J-lens readout: olm84 0.996 vs 0.994 (E +0.002) · olm85 0.878 vs 0.879 (E −0.002) · olm86 0.777 vs 0.775 (E +0.002). Q1 ✗ in all three (the frozen false condition).",
+    "src": "auc · E of olm84 Q1 · olm85 Q1_next_sentence_O · olm86 Q1_k32"
+   },
+   {
+    "id": "K53",
+    "lv": "L1",
+    "text": "Median E at k = 8 (layer 32 / layer 48): olm86 +0.036 / +0.033 · olm89 +0.041 / +0.031 (Q1 ✓ on +0.02, set after olm86 · Q1b ✗) · olm92 +0.022 / +0.018. olm92's E+ (layer 32) = +0.022 [+0.005, +0.037] \"残る\" (stays).",
+    "src": "E · E_old · E_plus of olm86 Q2_desc_by_k · olm89 Q1_k8 · olm92 Q_k8"
+   },
+   {
+    "id": "K54",
+    "lv": "L1",
+    "text": "The end of the answer field from the first 64 tokens (217 rows · attractor 51): AUC layer 32 0.492 · layer 48 0.489 · J 0.527 · bag of words 0.578. All inside the null band (labels permuted between rows; layer 32 null 0.366 to 0.601) = Q1 ✗.",
+    "src": "olm91 read.json Q1_first64 · control.json C3_perm_null"
+   },
+   {
+    "id": "K55",
+    "lv": "L1",
+    "text": "The AUC with which the form just after a name moves to \"this circle\" (olm94 Q2 ✓): layer 32 0.970 · layer 48 0.766 · J 0.556 · bag of words 0.500; to the word before \"this\" 0.603 · 0.601. In olm93 (natural generation) layer 32 is 0.870, and the bag of words' same transfer (0.946) is higher.",
+    "src": "olm94 read.json Q2_V_post_to_dem_vs_ctl · olm93 Q1_name_to_dem"
+   },
+   {
+    "id": "K56",
+    "lv": "L1",
+    "text": "The top-10 heads that carry the behaviour at the final position read the referent's diameter name 2.37 times as much as the other (attention 0.350 vs 0.148). Putting their output to the paired sentence's moves the behaviour +2.19 logit (vs random 10 heads +2.11 · flip 0.513). 5 of the top 10 (L50H23, L51H19, L51H4, L52H26, L57H33) are cmt13's heads.",
+    "src": "olm98 read.json Q1_top_heads_read_ref_name · Q2_patch_top_heads · Q4_cmt13_overlap"
+   },
+   {
+    "id": "K57",
+    "lv": "L1",
+    "text": "Share of the behaviour that followed the source's pointer / value when a position is swapped (evaluation pairs): the selector letter alone (olm106) pointer 0.929 at layer 12 · 0.339 at 16 · 0.013 at 20 (value ≤ 0.013) · the final position alone (olm101) first follows the value at layer 28 (0.990 at 28) · selector to end (olm108) at layer 20 pointer 0.432 / value 0.552.",
+    "src": "olm106 table.sel_L* · olm101 Q1_curve_full_end · olm108 Q1.curve_tail"
+   },
+   {
+    "id": "K58",
+    "lv": "L1",
+    "text": "Proof fields of the 37 rows whose answer field is the apex: bisector 1 · right angle 4 · converse of Thales 13 · chain (all three) 0 (Q1 false). Declared a hypothesis: apex 36 / 36 · attractor 28 / 29. Attractor rate 0.300 vs the baseline 0.255.",
+    "src": "olm112 read.json Q1 · Q2 · Q3 · Q4_by_label_json"
+   },
+   {
+    "id": "K59",
+    "lv": "L1",
+    "text": "Continuations of the frontier's steps: given up to the bisector step → right angle ∧ converse of Thales 26 / 40 (Opus's sentence 12 / 20 · Fable's 14 / 20 · Q1 continues) · given up to the right-angle step → converse of Thales 23 / 40 (7 / 20 · 16 / 20 · Q2 continues). k = 0 has the apex as the answer field in 5 / 40: gate ✗ (not read).",
+    "src": "olm114 read.json Q1 · Q2 · Q3 · gates"
+   },
+   {
+    "id": "K60",
+    "lv": "L1",
+    "text": "Blocked rows' start (position 0) and the frozen label: concordance 11 / 19 = 0.579 (Q1 not kept) · rows that start with the JSON: cue \\n 7 / 9 · \" \" 0 / 10 · \\n\\n 3 / 10 (Q2 \\n +0.48 moves · \" \" −0.30 reversed). Positive control C0 ✓ (cue \\n\\n reproduces K07's 3 / 3 and 7 / 7).",
+    "src": "olm128 read.json blocked_cells · verdicts"
+   },
+   {
+    "id": "K61",
+    "lv": "L1",
+    "text": "After-the-fact description (not a verdict · not frozen): rows with the JSON within 100 characters: cue \\n 8 / 9 (bind 2) · \" \" 7 / 10 (bind 2) · \\n\\n 3 / 10 (bind 0). With cue \" \" the first JSON sits at character 25, 25, 25 (3 rows) and in 4 rows at 72-84.",
+    "src": "pack_moy1.py 8g (recounted from the raw rows) · RESULT olm128 §3"
+   },
+   {
+    "id": "K62",
+    "lv": "L1",
+    "text": "The angle ∠O1 Xk O2 that X1-X4 subtend at O1, O2 = 89.9998° / 90.0006° / 90.0002° / 89.9998° (within 0.0006° of 90°). The angle subtended at He, Hi is 42.15° / 104.11° / 104.11° / 42.15°.",
+    "src": "computed from the coordinates of prompts.open (pack · data.mjs · check_claims)"
+   },
+   {
+    "id": "K63",
+    "lv": "L1",
+    "text": "The F5a-2 edit is one place: \"Respond with JSON only:\" → \"First write your reasoning as plain text. After that, respond with the JSON object:\". The cue of F5a-2 and F5b-1 is \\n\\n in both (the cue of chapter 5's rows).",
+    "src": "f5_runs_F5a-2.json edits_applied · cue · f5_runs_F5b-1.json cue"
+   },
+   {
+    "id": "K64",
+    "lv": "L1",
+    "text": "Base (cue \\n\\n): open is attractor 4 · stuck-L1 5 (1 row cut at the cap left out = PREREG pc1 §6; all rows 5 / 10) · blocked is bind 7 · attractor 3. Think (Q4): open stuck-L1 9 / 9 · blocked bind 7 / 7 (rows cut at length removed).",
+    "src": "pc1_runs.json label · screen_olmo-3_32b.json"
+   },
+   {
+    "id": "K65",
+    "lv": "L1",
+    "text": "Path × label (answer field) of the event rows: the 59 O1O2 rows = think × bind 36 · natural × bind 16 · answer × stuck-L1 2 · natural × attractor 2 · answer × bind 1 · natural × flail 1 · think × attractor 1. The 34 He-Hi rows = think × bind 17 · natural × attractor 6 · natural × bind 6 · think × attractor 4 · answer × attractor 1.",
+    "src": "a count of the meta (kind · label_json) of rows/*.npz · olm59 read.json counts"
+   },
+   {
+    "id": "K66",
+    "lv": "L1",
+    "text": "S_O's sentence that says the same circle in words (the center of the circle through the four common tangent points is the midpoint of the line segment joining the centers of the two original circles.) sits at tokens 297-323 (32 to 6 tokens before the event token 329); it names neither O1 nor O2 and hits no predicate (inside the \"before 32\" window).",
+    "src": "text · starts · ends of olm59 rows/F5a-2__think__r15.npz"
+   },
+   {
+    "id": "K67",
+    "lv": "L1",
+    "text": "A number outside the card (L2 · not used for a verdict): the rank correlations with ties averaged are O1O2 0.781 · He-Hi 0.221 · all tokens 0.489. With the card's rule (ties put in order) the values are 0.780 / 0.212 / 0.415.",
+    "src": "pack_moy1.py 8d (average_rank) · check_claims.py"
+   },
+   {
+    "id": "K68",
+    "lv": "L1",
+    "text": "olm62's Q2 holds two rules (PREREG): not read if fewer than 8 events · threshold 60 %. The O1O2 events that do not move into formulas are 11 (8 or more = read), and the mid group rises in 7 (64 % ≥ 60 % ✓ · margin 0).",
+    "src": "PREREG olm62's Q2 sentence · olm62 read.json mid_up_when_math_flat"
+   },
+   {
+    "id": "K69",
+    "lv": "L1",
+    "text": "blocked s8 has no JSON, so no answer field. The frozen label_json_fields gives B-flail to the 3 / 3 rows without JSON in cmt5. blocked's answer field is O1O2 6 · He-Hi 3 · no JSON 1 (including s8, whose whole-text label is bind).",
+    "src": "cmt5.json rows[*].label_json_fields · the answer field of pack_moy1.py"
+   },
+   {
+    "id": "R07",
+    "lv": "L3",
+    "text": "The link ledger R04 → olm76: the ledger's reading raised the question \"does the close group rise at the start of the answer field?\" and the home struck it as olm76. (Reading: the executing layer, RESULT station 2 §2. Adoption is the human's.)",
+    "src": "RESULT station 2 §2 · K51"
+   },
+   {
+    "id": "R08",
+    "lv": "L3",
+    "text": "When positions are swapped for the paired sentence's, the share of the behaviour following the pointer drops below 0.5 at layer 16 with the selector's position alone (olm106), the set from the selector to the end switches to the value at layer 20 (olm108), and the final position alone follows the value from layer 28 (olm101), so it reads. \"Variable\" and \"pointer\" name the pairs of sentences, not a type inside the model (SCOPE 11-01 §2b). (Reading: the main session of RESULT olm106 / olm108. Adoption is the teacher's.)",
+    "src": "RESULT olm106 / olm108 readings · K57"
+   },
+   {
+    "id": "R09",
+    "lv": "L3",
+    "text": "Given the frontier's proof field in steps, OLMo can write the continuation of the given steps. Continuations with a sentence going from perpendicularity to the right angle are 12 / 40 (a regex · outside the instrument); \"OLMo derived it\" is not said. (Reading: the main session of RESULT olm114 §6. Adoption is the teacher's.)",
+    "src": "RESULT olm114 §6 · K59"
+   },
+   {
+    "id": "R10",
+    "lv": "L3",
+    "text": "The start at position 0 makes the contrast of cue \\n and \\n\\n look like an explaining direction but misses the rows of cue \" \" (it does not \"start with a sentence\"; it adds one sentence of the question's fixed phrasing and then enters the JSON). The instrument's boundary (position 0) is sensitive to the cue, and Q1's \"not kept\" does not separate whether the idea about the start was wrong or the way the boundary is set. (Reading: the main session of RESULT olm128 §4. Adoption is the teacher's.)",
+    "src": "RESULT olm128 §4 · K60 · K61"
+   },
+   {
+    "id": "R11",
+    "lv": "L3",
+    "text": "The balance metaphor (pan = a pair's contribution · beam = the output's Δ) is how this figure's maker drew it, not a claim about mechanism. (Reading: the maker's way of drawing. Adoption is the human's.)",
+    "src": "states 13, 14"
+   },
+   {
+    "id": "X17",
+    "lv": "x",
+    "text": "We do not say that close stands before the answer field (olm76: in bind rows it does not reach the line, and it is not above attractor).",
+    "src": "K51"
+   },
+   {
+    "id": "X18",
+    "lv": "x",
+    "text": "We do not say that an inference-space candidate exists (the +0.05 line). Equally we do not say there is none (the four events and this instrument simply do not show it).",
+    "src": "K52 · K53"
+   },
+   {
+    "id": "X19",
+    "lv": "x",
+    "text": "The surplus at k = 8 is not called \"inference\", \"planning\" or \"foresight\" (its content is not separated). We do not say that three words, position and topic hold no look-ahead information (the penalty C of W+ was not calibrated).",
+    "src": "K53 · olm92 §5"
+   },
+   {
+    "id": "X20",
+    "lv": "x",
+    "text": "We do not say \"the destination is not yet decided\" or \"the residual holds no information about the outcome\" (olm91 is the mean over the first 64 tokens; none of the four representations could read it).",
+    "src": "K54"
+   },
+   {
+    "id": "X21",
+    "lv": "x",
+    "text": "\"The model solves the binding\" is a description of behaviour (98 %) and of a linear readout; we do not say the model \"knows\". We do not say that the form at \"this circle\" is used by the behaviour (olm97).",
+    "src": "K55 · olm94 Q0 · olm97"
+   },
+   {
+    "id": "X22",
+    "lv": "x",
+    "text": "No mechanism or circuit is claimed: paths between heads (path patching) were not looked at · attention weights say where a head reads, not what it copies · DLA is a first-order decomposition · the overlap of 5 heads is between sentences about the same words and is not called a general-purpose part.",
+    "src": "K56"
+   },
+   {
+    "id": "X23",
+    "lv": "x",
+    "text": "Whole swaps are of one position at one layer, and not moving the behaviour is not the same as not holding it. The pointer is measured on pairs where order and name coincide · synthetic sentences · V type only. The DAS effect at layers 20-24 is stronger than the whole swap: the illusion pattern.",
+    "src": "K57 · olm101 §cannot say"
+   },
+   {
+    "id": "X24",
+    "lv": "x",
+    "text": "CHAIN is a chain of words, not a check that a proof is correct. We do not say \"OLMo derived it\" (it wrote the continuation of the given steps). A base-vs-chat difference mixes ability and tuning.",
+    "src": "K58 · K59"
+   },
+   {
+    "id": "X25",
+    "lv": "x",
+    "text": "olm128 makes no causal claim (no arm changed the start). The after-the-fact lining-up of \"within 100 characters\" is not a verdict, and 100 was set after looking. We do not say \"explained by the start\".",
+    "src": "K60 · K61"
+   },
+   {
+    "id": "X26",
+    "lv": "x",
+    "text": "This is not about what frontier models hold inside (the line-1 cards are OLMo-3 32B base's own generation and synthetic sentences). Nothing is said beyond one prompt and one model.",
+    "src": "K50-K61"
+   },
+   {
+    "id": "X27",
+    "lv": "x",
+    "text": "blocked s8's answer field is \"no JSON\" and is not read as O1O2 (its last paragraph reads as O1O2, but that is not how the frozen label_json_fields reads · an extrapolation to pc1's rows).",
+    "src": "K69"
+   }
+  ],
+  "questions": [
+   {
+    "k": "Q1",
+    "q": "What differs between the open and blocked prompts? Does it give the answer (O1O2)?",
+    "where": "states 2-3"
+   },
+   {
+    "k": "Q2",
+    "q": "In open's 10 rows, what is written in the answer field, and in how many rows is there a sentence naming O1O2 as the circle's diameter or centre?",
+    "where": "states 4-7"
+   },
+   {
+    "k": "Q3",
+    "q": "How did the blocked rows that went to attractor differ from those that went to bind in how they started? Can \"it bound because it thought\" be said?",
+    "where": "states 8-12, 25"
+   },
+   {
+    "k": "Q4",
+    "q": "Where the text names O1O2 and where it names He-Hi, how did the layer-32 SAE groups differ between the 32 tokens before and the 32 after? Did the preregistered prediction come true?",
+    "where": "states 18-22"
+   },
+   {
+    "k": "Q5",
+    "q": "After the text names O1O2, does it move into formulas? Can the mid group's rise be called a copy of that move (compared with after He-Hi)?",
+    "where": "states 23-24"
+   },
+   {
+    "k": "Q6",
+    "q": "Which card does the data of chapter 5 (the bind moment) come from? Where does that card sit in the card tree?",
+    "where": "states 12, 26"
+   },
+   {
+    "k": "Q7",
+    "q": "Was the 10-28 ledger's reading \"close falls because the answer is not yet closed\" supported by the later card (olm76)? What was measured, and what is not said?",
+    "where": "states 27-28"
+   },
+   {
+    "k": "Q8",
+    "q": "Of the later cards, how was the next question the teacher chose (A) judged? What have the other candidates the readers raised not yet had done?",
+    "where": "states 35-36"
+   }
+  ]
+ }
+}

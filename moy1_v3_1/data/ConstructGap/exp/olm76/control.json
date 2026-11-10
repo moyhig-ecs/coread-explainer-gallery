@@ -1,0 +1,86 @@
+{
+ "prov": {
+  "utc": "2026-10-30T12:13:28+00:00",
+  "commit": "d7fbbd43",
+  "dirty": false,
+  "card": "olm76",
+  "script_md5": "a07fd5eff224b97aec4fb828d023bec6",
+  "prereg_md5": "509fd5dc6207e7d699624f5083227017",
+  "olm75_read_md5": "13ab2423e3f6cbced77bf03b8a74bb2a"
+ },
+ "C1_reproduce_olm75_Q2_Q3": {
+  "Q2": {
+   "got": {
+    "n_a": 53,
+    "n_b": 11,
+    "median_a": -0.1334725022315979,
+    "median_b": -0.006190508604049683,
+    "diff": -0.12728199362754822,
+    "perm_p": 0.9875
+   },
+   "olm75": {
+    "n_a": 53,
+    "n_b": 11,
+    "median_a": -0.1334725022315979,
+    "median_b": -0.006190508604049683,
+    "diff": -0.12728199362754822,
+    "perm_p": 0.9875
+   },
+   "ok": true
+  },
+  "Q3": {
+   "got": {
+    "n_a": 53,
+    "n_b": 11,
+    "median_a": -0.052046120166778564,
+    "median_b": 0.011330604553222656,
+    "diff": -0.06337672472000122,
+    "perm_p": 0.9635
+   },
+   "olm75": {
+    "n_a": 53,
+    "n_b": 11,
+    "median_a": -0.052046120166778564,
+    "median_b": 0.011330604553222656,
+    "diff": -0.06337672472000122,
+    "perm_p": 0.9635
+   },
+   "ok": true
+  }
+ },
+ "C2_pseudo_window": {
+  "sae_close": {
+   "n": 48,
+   "pos": 21,
+   "n_nonzero": 48,
+   "median": -0.033464133739471436,
+   "sign_p": 0.8438365962633654,
+   "ok": true
+  },
+  "lens_COMMIT": {
+   "n": 48,
+   "pos": 24,
+   "n_nonzero": 48,
+   "median": 0.0005795508623123169,
+   "sign_p": 0.5572832513567434,
+   "ok": true
+  }
+ },
+ "C3_commit_positive": {
+  "n": 18,
+  "pos": 14,
+  "frac": 0.7777777777777778,
+  "ok": false
+ },
+ "counts": {
+  "bind": 48,
+  "attractor": 10,
+  "bind_with_pseudo": 48
+ },
+ "pass": {
+  "C1": true,
+  "C2_close": true,
+  "C2_commit": true,
+  "C3": false
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "prov": {
+  "utc": "2026-10-30T14:25:54+00:00",
+  "commit": "9db89988",
+  "dirty": false,
+  "card": "olm78",
+  "script_md5": "0c30700b1ac4e20f6eb8f19182e0be20",
+  "prereg_md5": "d4e924ca97f807583f8adbae4a473ffd",
+  "pseudo_md5": "8d425b95e084d052eb12c2c66a5be704"
+ },
+ "control_pass": {
+  "C0": true,
+  "C1": true,
+  "C2": true
+ },
+ "Q1_layer48_word_order": {
+  "median_intact": 0.05227696377544947,
+  "median_shuf": 0.030050150024746355,
+  "r_W": 0.5748258478404332,
+  "ci90_shuf": [
+   0.01519863469625915,
+   0.044229002385124616
+  ],
+  "class": "語順に依らない(語の積み上がり)"
+ },
+ "Q2_final_layer_effect": {
+  "pos": 155,
+  "n": 288,
+  "frac": 0.5381944444444444,
+  "median": 0.009783377535002646,
+  "sign_p": 0.10792740197786167,
+  "pass": false
+ },
+ "Q3_final_layer_word_order": {
+  "desc_only": {
+   "median_intact": 0.009783377535002646,
+   "median_shuf": 0.011139042761450151,
+   "r_W": 1.13856822161848,
+   "ci90_shuf": [
+    0.0029880399613412857,
+    0.020502003993086593
+   ],
+   "class": "語順に依らない(語の積み上がり)"
+  }
+ },
+ "Q4_by_model": {
+  "opus": {
+   "n": 114,
+   "median_intact_d": 0.05619950151200151,
+   "median_shuf_d": 0.040489595382687496,
+   "median_intact_dF": 0.014210602950540628,
+   "median_shuf_dF": 0.012403551022514756
+  },
+  "fable": {
+   "n": 174,
+   "median_intact_d": 0.0469522744698324,
+   "median_shuf_d": 0.025081494499082334,
+   "median_intact_dF": 0.0035897224058162626,
+   "median_shuf_dF": 0.009494807676112663
+  }
+ }
+}

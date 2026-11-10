@@ -1,0 +1,8 @@
+{
+  "name": "synthetic",
+  "title": "Synthetic co-reading explainer (a template that runs on made-up data)",
+  "chapters": [["scene", 0, 0], ["body", 1, 2], ["ledger", 3, 3]],
+  "pages": {"synthetic.html": ["dark", "ja"], "synthetic-light.html": ["light", "ja"], "synthetic-en.html": ["dark", "en"], "synthetic-light-en.html": ["light", "en"]},
+  "minpx": {"video": 10, "desk": 10, "phone": 9.5},
+  "frames": {"video": [1920, 1080], "desk": [1440, 1800], "phone": [390, 3000]}
+}

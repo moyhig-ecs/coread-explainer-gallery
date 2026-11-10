@@ -1,0 +1,658 @@
+[
+ [
+  "wait",
+  1500
+ ],
+ [
+  "eval",
+  "window.__sh.goto(0, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 0'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.setCone(false, true); 'off'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'off', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.setCone(true, true); 'on'"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(1, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 1'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(2, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 2'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(3, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 3'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(4, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 4'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(5, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 5'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(6, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 6'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(7, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 7'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.setCone(false, true); 'off'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'off', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.setCone(true, true); 'on'"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(8, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 8'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(9, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 9'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(10, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 10'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(11, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 11'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(12, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 12'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(13, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 13'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(14, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 14'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(15, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 15'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(16, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 16'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(17, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 17'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(18, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 18'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(19, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 19'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(20, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 20'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(21, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 21'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(22, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 22'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(23, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 23'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(24, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 24'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(25, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 25'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(26, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 26'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(27, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 27'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(28, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 28'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(29, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 29'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(30, {instant: true, silent: true}); window.__sh.setCone(true, true); 'state 30'"
+ ],
+ [
+  "wait",
+  350
+ ],
+ [
+  "eval",
+  "window.__sh.goto(window.__sh.state, {instant: true, silent: true}); 'settled'"
+ ],
+ [
+  "wait",
+  150
+ ],
+ [
+  "eval",
+  "(() => { const sh = document.querySelector('.sh'), H = ((s) => { let h = 2166136261 >>> 0; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h.toString(16); }); return 'dump23 ' + JSON.stringify({state: Number(sh.dataset.state), cone: window.__sh.cone, tag: 'on', text: H(sh.innerText), svg: H(sh.querySelector('.fig-svg').outerHTML), keys: H([...sh.querySelectorAll('.sh-key')].map((e) => e.textContent).join('|'))}); })()"
+ ]
+]

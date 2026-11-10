@@ -1,0 +1,22 @@
+[
+ [
+  "wait",
+  1500
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, out = {combos: 0, errors: 0, msgs: []};\n  for (let n = 0; n < api.nstate; n++) { api.goto(n, {instant: true, silent: true});\n    for (const lang of ['ja', 'en']) { api.setLang(lang, true); for (const cone of [true, false]) { api.setCone(cone, true); for (const t of [0, 3, 99, -5]) { try { api.setT(t, true); out.combos++; } catch (e) { out.errors++; out.msgs.push(n + ' ' + lang + ' ' + cone + ' ' + t + ': ' + e.message); } } } } }\n  api.goto(0, {instant: true, silent: true}); api.setLang('ja', true); api.setCone(true, true);\n  if (out.errors) throw new Error('robust: ' + JSON.stringify(out)); return JSON.stringify(out); })()"
+ ],
+ [
+  "wait",
+  500
+ ],
+ [
+  "eval",
+  "window.__sh.goto(0); 'state 0'"
+ ],
+ [
+  "wait",
+  800
+ ]
+]

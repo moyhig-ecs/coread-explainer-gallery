@@ -1,0 +1,124 @@
+[
+ [
+  "until",
+  "!!window.jupyterapp && document.querySelectorAll('.jp-Notebook .jp-Cell').length === 7",
+  90000
+ ],
+ [
+  "wait",
+  1500
+ ],
+ [
+  "click",
+  ".jp-Notebook .jp-Cell:nth-of-type(2) .jp-InputArea-editor"
+ ],
+ [
+  "until",
+  "!!window.jupyterapp.shell.currentWidget && window.jupyterapp.commands.isEnabled('notebook:run-cell')",
+  20000
+ ],
+ [
+  "eval",
+  "(() => { window.__p = window.jupyterapp.shell.currentWidget; window.__nb = () => window.__p.content; window.__run = (i) => { const nb = window.__nb(); nb.activeCellIndex = i; return window.jupyterapp.commands.execute('notebook:run-cell'); }; window.__out = (i) => { const c = window.__nb().widgets[i]; const o = c && c.node.querySelector('.jp-OutputArea'); return o ? o.textContent : ''; }; window.__last = {}; window.__tries = {}; window.__retry = (i, src, every) => { if (new RegExp(src).test(window.__out(i))) return true; const now = Date.now(); if (!window.__last[i] || now - window.__last[i] > every) { window.__last[i] = now; window.__tries[i] = (window.__tries[i] || 0) + 1; window.__run(i); } return false; }; window.__fig = () => document.querySelector('.jp-OutputArea .sh'); return 'helpers'; })()"
+ ],
+ [
+  "until",
+  "!!(window.__p.sessionContext.session && window.__p.sessionContext.session.kernel && window.__p.sessionContext.session.kernel.connectionStatus === 'connected')",
+  60000
+ ],
+ [
+  "eval",
+  "window.__run(0).then(() => 'cell 0 (markdown)')"
+ ],
+ [
+  "until",
+  "window.__fig() || window.__retry(1, '.', 15000) && false",
+  90000
+ ],
+ [
+  "until",
+  "window.__fig() && window.__fig().dataset.state === '1'",
+  30000
+ ],
+ [
+  "eval",
+  "JSON.stringify({after_cell_1_widget: (() => { const f = window.__fig(); return f ? {state: f.dataset.state, chapter: f.dataset.chapter, lang: f.dataset.lang, readout: (f.querySelector('[data-readout]') || {}).textContent} : null; })()})"
+ ],
+ [
+  "eval",
+  "window.__run(2).then(() => 'cell 2: w.state = 10 (kernel -> figure)')"
+ ],
+ [
+  "until",
+  "window.__fig().dataset.state === '10'",
+  30000
+ ],
+ [
+  "eval",
+  "JSON.stringify({kernel_to_figure_ok: true, figure: (() => { const f = window.__fig(); return f ? {state: f.dataset.state, chapter: f.dataset.chapter, lang: f.dataset.lang, readout: (f.querySelector('[data-readout]') || {}).textContent} : null; })()})"
+ ],
+ [
+  "until",
+  "window.__retry(3, \"'state': 10, 'checked': True, 'ok': True\", 2500)",
+  40000
+ ],
+ [
+  "eval",
+  "JSON.stringify({recount_state10_ok: true, tries: window.__tries[3], out: window.__out(3).slice(0, 220)})"
+ ],
+ [
+  "eval",
+  "window.__fig().querySelector('.sh-step[data-n=\"18\"]').click(); 'figure -> kernel: pressed step 18 in the figure'"
+ ],
+ [
+  "until",
+  "window.__fig().dataset.state === '18'",
+  20000
+ ],
+ [
+  "until",
+  "window.__retry(4, \"kernel sees state 18 .*'ok': True\", 2500)",
+  40000
+ ],
+ [
+  "eval",
+  "JSON.stringify({figure_to_kernel_ok: true, tries: window.__tries[4], out: window.__out(4).slice(0, 260)})"
+ ],
+ [
+  "shot",
+  "<entry>/captures/jupyterlab_s18.png",
+  ".jp-LabShell",
+  1
+ ],
+ [
+  "eval",
+  "window.__run(5).then(() => 'cell 5: w.state = 0; w.cone = False (kernel -> figure)')"
+ ],
+ [
+  "until",
+  "window.__fig().dataset.state === '0' && !window.__fig().querySelector('.cone-overlay')",
+  30000
+ ],
+ [
+  "eval",
+  "JSON.stringify({cone_kernel_to_figure_ok: true, figure: (() => { const f = window.__fig(); return f ? {state: f.dataset.state, chapter: f.dataset.chapter, lang: f.dataset.lang, readout: (f.querySelector('[data-readout]') || {}).textContent} : null; })()})"
+ ],
+ [
+  "eval",
+  "window.__fig().querySelector('.sh-cone').click(); 'figure -> kernel: pressed the cone button in the figure'"
+ ],
+ [
+  "until",
+  "!!window.__fig().querySelector('.cone-overlay')",
+  20000
+ ],
+ [
+  "until",
+  "window.__retry(6, 'kernel sees cone True', 2500)",
+  40000
+ ],
+ [
+  "eval",
+  "JSON.stringify({cone_figure_to_kernel_ok: true, tries: window.__tries[6], out: window.__out(6).slice(0, 120)})"
+ ]
+]

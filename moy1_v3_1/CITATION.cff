@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this explainer or its cards, please cite it as below. The DOI is that of the gallery (concept DOI, all versions); the version DOI of the gallery release that adds this station is filled in when it is published."
+title: "Co-reading explainer: moy-1, received version v3.1 — an audited figure of how OLMo-3 32B answers one two-circle problem when a single sentence blocks the easy answer, and what the house tested after the figure"
+type: dataset
+authors:
+  - family-names: Higashida
+    given-names: Manabu
+    orcid: "https://orcid.org/0009-0004-7393-2957"
+    affiliation: "D3 Center, The University of Osaka, Osaka, Japan"
+version: "3.1"
+date-released: "2026-11-09"
+doi: 10.5281/zenodo.23992312
+license: MIT
+repository-code: "https://github.com/moyhig-ecs/coread-explainer-gallery"
+abstract: >-
+  An interactive isometric figure (43 states in 15 chapters; ja / en; dark / light; also an anywidget for Jupyter / marimo), 1920×1080
+  stills, a two-voice script and a ledger of what can and cannot be said, built from the frozen outputs of pre-registered measurements on
+  the moy-1 problem (OLMo-3 32B base and Think; the open and blocked question texts), followed by the 20 cards the house froze after the
+  first figure (olm76–olm128). The frozen files the figure reads are copied into data/ (192 files) and the cards (PREREG = the frozen
+  promise, RESULT = the read-out, corrections appended) into cards/ verbatim (Japanese), with an English index. Every number on the page
+  is anchored to the data (check_claims.py, 689 anchors). The question texts are traced with md5 to the frozen configuration and to the
+  literals of the public ConstructGap suite (tag v1.0.1).
+keywords:
+  - OLMo
+  - geometry
+  - pre-registration
+  - explainer
+  - anywidget
+  - ConstructGap
+  - co-reading
+references:
+  - type: software
+    title: "ConstructGap"
+    version: "1.0.1"
+    doi: 10.5281/zenodo.21617998
+    repository-code: "https://github.com/moyhig-ecs/ConstructGap"
+  - type: software
+    title: "coread-explainer (Claude Code skill)"
+    repository-code: "https://github.com/moyhig-ecs/coread-explainer"
+  - type: software
+    title: "Anatomy (isometric figure kit for Claude Code skills)"
+    authors:
+      - name: "Ryan"
+    license: MIT
+    repository-code: "https://github.com/wheresryan22/anatomy"

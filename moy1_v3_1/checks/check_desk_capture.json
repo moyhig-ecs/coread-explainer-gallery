@@ -1,0 +1,20 @@
+[
+ [
+  "wait",
+  2000
+ ],
+ [
+  "eval",
+  "window.__sh.goto(8, {instant: true}); 'state 8'"
+ ],
+ [
+  "wait",
+  2200
+ ],
+ [
+  "shot",
+  "captures/page_dark_s08.png",
+  ".sh",
+  1
+ ]
+]

@@ -1,0 +1,86 @@
+[
+ [
+  "wait",
+  1500
+ ],
+ [
+  "eval",
+  "window.__sh.goto(12, {instant: true}); 'state 12'"
+ ],
+ [
+  "wait",
+  700
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, root = document.querySelector('.sh'), E = {\"tree\": 26}; const got = [...root.querySelectorAll('.sh-head .sh-card')].map((b) => b.dataset.card); if (JSON.stringify(got) !== JSON.stringify(['cmt13', 'F5'])) throw new Error('marks of state 12: ' + got); return 'click: state 12 shows the marks ' + got; })()"
+ ],
+ [
+  "click",
+  ".sh-head .sh-card[data-card=\"cmt13\"]"
+ ],
+ [
+  "wait",
+  900
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, root = document.querySelector('.sh'), E = {\"tree\": 26}; const sel = [...root.querySelectorAll('.fig-svg .tchip.sel')]; if (api.state !== E.tree) throw new Error('the card mark did not open the map: state ' + api.state); if (sel.length !== 1) throw new Error('selected chips: ' + sel.length); const lead = root.querySelector('.sh-lead').textContent; if (!lead.includes('押した札: cmt13')) throw new Error('the lead does not name the pressed card'); return 'click: cmt13 -> map (state ' + api.state + ') · the pressed card is outlined · ' + lead.slice(0, 20); })()"
+ ],
+ [
+  "click",
+  ".sh-step[data-n=\"0\"]"
+ ],
+ [
+  "wait",
+  1000
+ ],
+ [
+  "eval",
+  "(() => { const n = document.querySelectorAll('.sh-head .sh-card').length; if (window.__sh.state !== 0 || n !== 2) throw new Error('state 0 must show two card marks: state ' + window.__sh.state + ', marks ' + n); return 'click: the step button -> state 0, two marks'; })()"
+ ],
+ [
+  "click",
+  ".sh-head .sh-card[data-card=\"replication_config_frozen\"]"
+ ],
+ [
+  "wait",
+  900
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, root = document.querySelector('.sh'), E = {\"tree\": 26}; if (api.state !== E.tree) throw new Error('a mark of state 0 did not open the map'); const sel = root.querySelectorAll('.fig-svg .tchip.sel').length; if (sel !== 1) throw new Error('selected chips: ' + sel); return 'click: replication_config_frozen -> map'; })()"
+ ],
+ [
+  "click",
+  ".sh-step[data-n=\"26\"]"
+ ],
+ [
+  "wait",
+  900
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, root = document.querySelector('.sh'), E = {\"tree\": 26}; if (api.state !== E.tree || root.querySelectorAll('.fig-svg .tchip.sel').length !== 0) throw new Error('the map opened by its number must have no card selected'); return 'click: the number of the map clears the selection'; })()"
+ ],
+ [
+  "click",
+  ".sh-step[data-n=\"37\"]"
+ ],
+ [
+  "wait",
+  900
+ ],
+ [
+  "click",
+  ".sh-head .sh-card[data-card=\"*\"]"
+ ],
+ [
+  "wait",
+  900
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, root = document.querySelector('.sh'), E = {\"tree\": 26}; if (api.state !== E.tree) throw new Error('the ledger mark did not open the map'); const sel = root.querySelectorAll('.fig-svg .tchip.sel').length; if (sel !== 0) throw new Error('the ledger mark must not select a card: ' + sel); return 'click: the ledger mark -> map, no card selected'; })()"
+ ]
+]

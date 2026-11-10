@@ -1,0 +1,115 @@
+[
+ [
+  "until",
+  "!!(() => { const w = document.querySelector('marimo-anywidget'); return w && w.shadowRoot ? w.shadowRoot.querySelector('.sh') : null; })()",
+  90000
+ ],
+ [
+  "wait",
+  1200
+ ],
+ [
+  "eval",
+  "JSON.stringify({start_figure: (() => { const w = document.querySelector('marimo-anywidget'); return w && w.shadowRoot ? w.shadowRoot.querySelector('.sh') : null; })().dataset.state, start_kernel: (() => { const m = document.body.innerText.match(/kernel sees: state = (\\d+) · lang = (\\w+)/); return m ? {state: Number(m[1]), lang: m[2]} : null; })()})"
+ ],
+ [
+  "eval",
+  "(() => { const w = document.querySelector('marimo-anywidget'); return w && w.shadowRoot ? w.shadowRoot.querySelector('.sh') : null; })().querySelector('.sh-next').click(); 'figure -> kernel: pressed next in the figure (1 -> 2)'"
+ ],
+ [
+  "until",
+  "((() => { const m = document.body.innerText.match(/kernel sees: state = (\\d+) · lang = (\\w+)/); return m ? {state: Number(m[1]), lang: m[2]} : null; })() || {}).state === 2",
+  30000
+ ],
+ [
+  "eval",
+  "JSON.stringify({figure_to_kernel_ok: true, kernel: (() => { const m = document.body.innerText.match(/kernel sees: state = (\\d+) · lang = (\\w+)/); return m ? {state: Number(m[1]), lang: m[2]} : null; })()})"
+ ],
+ [
+  "eval",
+  "(() => { const b = [...document.querySelectorAll('marimo-button')].find((x) => x.shadowRoot && x.shadowRoot.textContent.includes('go E → 10')); if (!b) throw new Error('no python button go E'); b.shadowRoot.querySelector('button').click(); return 'kernel -> figure: python button go E → 10'; })()"
+ ],
+ [
+  "until",
+  "(() => { const w = document.querySelector('marimo-anywidget'); return w && w.shadowRoot ? w.shadowRoot.querySelector('.sh') : null; })().dataset.state === '10' && ((() => { const m = document.body.innerText.match(/kernel sees: state = (\\d+) · lang = (\\w+)/); return m ? {state: Number(m[1]), lang: m[2]} : null; })() || {}).state === 10",
+  30000
+ ],
+ [
+  "until",
+  "/kernel check \\(route 5\\): \\{'state': 10, 'checked': True, 'ok': True/.test(document.body.innerText)",
+  30000
+ ],
+ [
+  "eval",
+  "JSON.stringify({kernel_to_figure_ok: true, recount: (document.body.innerText.match(/kernel check \\(route 5\\)[^\\n]*/) || [''])[0].slice(0, 200)})"
+ ],
+ [
+  "shot",
+  "<entry>/captures/marimo_s10.png",
+  "html",
+  1,
+  [
+   0,
+   0,
+   1440,
+   1500
+  ]
+ ],
+ [
+  "eval",
+  "(() => { const b = [...document.querySelectorAll('marimo-button')].find((x) => x.shadowRoot && x.shadowRoot.textContent.includes(\"go A \\u2192 0\")); if (!b) throw new Error('no python button ' + \"go A \\u2192 0\"); b.shadowRoot.querySelector('button').click(); return 'python button ' + \"go A \\u2192 0\"; })()"
+ ],
+ [
+  "until",
+  "(() => { const w = document.querySelector('marimo-anywidget'); return w && w.shadowRoot ? w.shadowRoot.querySelector('.sh') : null; })().dataset.state === '0' && !!(() => { const w = document.querySelector('marimo-anywidget'); return w && w.shadowRoot ? w.shadowRoot.querySelector('.sh') : null; })().querySelector('.cone-overlay') && ((document.body.innerText.match(/cone = (True|False)/) || [])[1]) === 'True'",
+  30000
+ ],
+ [
+  "eval",
+  "(window.__ro0 = (() => { const w = document.querySelector('marimo-anywidget'); return w && w.shadowRoot ? w.shadowRoot.querySelector('.sh') : null; })().querySelector('[data-readout]').textContent, JSON.stringify({state0_overlay_on: true, kernel_cone: ((document.body.innerText.match(/cone = (True|False)/) || [])[1])}))"
+ ],
+ [
+  "eval",
+  "(() => { const b = [...document.querySelectorAll('marimo-button')].find((x) => x.shadowRoot && x.shadowRoot.textContent.includes(\"cone off\")); if (!b) throw new Error('no python button ' + \"cone off\"); b.shadowRoot.querySelector('button').click(); return 'python button ' + \"cone off\"; })()"
+ ],
+ [
+  "until",
+  "!(() => { const w = document.querySelector('marimo-anywidget'); return w && w.shadowRoot ? w.shadowRoot.querySelector('.sh') : null; })().querySelector('.cone-overlay')",
+  30000
+ ],
+ [
+  "eval",
+  "(() => { if ((() => { const w = document.querySelector('marimo-anywidget'); return w && w.shadowRoot ? w.shadowRoot.querySelector('.sh') : null; })().querySelector('[data-readout]').textContent !== window.__ro0) throw new Error('marimo: the readout changed with the overlay'); return JSON.stringify({cone_kernel_to_figure_ok: true, overlay: false}); })()"
+ ],
+ [
+  "eval",
+  "(() => { const b = [...document.querySelectorAll('marimo-button')].find((x) => x.shadowRoot && x.shadowRoot.textContent.includes(\"cone on\")); if (!b) throw new Error('no python button ' + \"cone on\"); b.shadowRoot.querySelector('button').click(); return 'python button ' + \"cone on\"; })()"
+ ],
+ [
+  "until",
+  "!!(() => { const w = document.querySelector('marimo-anywidget'); return w && w.shadowRoot ? w.shadowRoot.querySelector('.sh') : null; })().querySelector('.cone-overlay')",
+  30000
+ ],
+ [
+  "eval",
+  "(() => { const w = document.querySelector('marimo-anywidget'); return w && w.shadowRoot ? w.shadowRoot.querySelector('.sh') : null; })().querySelector('.sh-cone').click(); 'figure -> kernel: pressed the cone button in the figure (off)'"
+ ],
+ [
+  "until",
+  "!(() => { const w = document.querySelector('marimo-anywidget'); return w && w.shadowRoot ? w.shadowRoot.querySelector('.sh') : null; })().querySelector('.cone-overlay') && ((document.body.innerText.match(/cone = (True|False)/) || [])[1]) === 'False'",
+  30000
+ ],
+ [
+  "eval",
+  "(() => { const w = document.querySelector('marimo-anywidget'); return w && w.shadowRoot ? w.shadowRoot.querySelector('.sh') : null; })().querySelector('.sh-cone').click(); 'figure -> kernel: pressed the cone button in the figure (on)'"
+ ],
+ [
+  "until",
+  "!!(() => { const w = document.querySelector('marimo-anywidget'); return w && w.shadowRoot ? w.shadowRoot.querySelector('.sh') : null; })().querySelector('.cone-overlay') && ((document.body.innerText.match(/cone = (True|False)/) || [])[1]) === 'True'",
+  30000
+ ],
+ [
+  "eval",
+  "(() => { if ((() => { const w = document.querySelector('marimo-anywidget'); return w && w.shadowRoot ? w.shadowRoot.querySelector('.sh') : null; })().querySelector('[data-readout]').textContent !== window.__ro0) throw new Error('marimo: the readout changed with the overlay'); return JSON.stringify({cone_figure_to_kernel_ok: true, kernel_cone: ((document.body.innerText.match(/cone = (True|False)/) || [])[1])}); })()"
+ ]
+]

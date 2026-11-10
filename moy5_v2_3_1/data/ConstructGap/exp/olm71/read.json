@@ -1,0 +1,201 @@
+{
+ "prov": {
+  "utc": "2026-10-29T07:33:44+00:00",
+  "commit": "417dff60",
+  "dirty": false,
+  "card": "olm71",
+  "script_md5": "bac7ab34d6e7583ccb449e5f11a123f9",
+  "prereg_md5": "674df1db80eae8406fd82023d089a252",
+  "device": "mps",
+  "olm70_runner_md5": "05426cf0832b1fdc332e64d0f724ac1f",
+  "pseudo_md5": "8d425b95e084d052eb12c2c66a5be704"
+ },
+ "calibration_pass": {
+  "OPEN": false,
+  "BODY": false
+ },
+ "gates_test": {
+  "OPEN|A": {
+   "n_rows": 16,
+   "rows_nonempty": 8,
+   "n_words": 8,
+   "median_u_k1": 0.7897655069828033,
+   "neg_frac_top5": 0.125,
+   "pass": false
+  },
+  "OPEN|L": {
+   "n_rows": 75,
+   "rows_nonempty": 62,
+   "n_words": 62,
+   "median_u_k1": 0.9259579479694366,
+   "neg_frac_top5": 0.06451612903225806,
+   "pass": false
+  },
+  "BODY|A": {
+   "n_rows": 16,
+   "rows_nonempty": 11,
+   "n_words": 27,
+   "median_u_k1": 0.9973045587539673,
+   "neg_frac_top5": 0.037037037037037035,
+   "pass": false
+  },
+  "BODY|L": {
+   "n_rows": 75,
+   "rows_nonempty": 57,
+   "n_words": 155,
+   "median_u_k1": 0.9971671104431152,
+   "neg_frac_top5": 0.03225806451612903,
+   "pass": false
+  }
+ },
+ "Q2": {
+  "kind": "BODY",
+  "group": "L",
+  "read": false,
+  "n": 57,
+  "pass": false
+ },
+ "Q3": {
+  "kind": "BODY",
+  "group": "A",
+  "read": false,
+  "n": 11,
+  "pass": false
+ },
+ "Q4": {
+  "kind": "OPEN",
+  "group": "L",
+  "read": false,
+  "n": 62,
+  "pass": false
+ },
+ "Q5": {
+  "kind": "OPEN",
+  "group": "A",
+  "read": false,
+  "n": 8,
+  "pass": false
+ },
+ "desc_words": {
+  "OPEN|A": [
+   [
+    " right",
+    4
+   ],
+   [
+    " foot",
+    2
+   ],
+   [
+    " Explicit",
+    1
+   ],
+   [
+    " pedal",
+    1
+   ]
+  ],
+  "OPEN|L": [
+   [
+    " Newton",
+    21
+   ],
+   [
+    " Lemma",
+    12
+   ],
+   [
+    "angles",
+    11
+   ],
+   [
+    " right",
+    7
+   ],
+   [
+    " triangles",
+    2
+   ],
+   [
+    " similar",
+    2
+   ],
+   [
+    " foot",
+    1
+   ],
+   [
+    " perpendicular",
+    1
+   ]
+  ],
+  "BODY|A": [
+   [
+    " giving",
+    4
+   ],
+   [
+    " share",
+    3
+   ],
+   [
+    " similar",
+    3
+   ],
+   [
+    "right",
+    3
+   ],
+   [
+    " angle",
+    2
+   ],
+   [
+    " triangles",
+    2
+   ],
+   [
+    " direction",
+    1
+   ],
+   [
+    "atan",
+    1
+   ]
+  ],
+  "BODY|L": [
+   [
+    " similar",
+    20
+   ],
+   [
+    " right",
+    14
+   ],
+   [
+    "angled",
+    14
+   ],
+   [
+    " mean",
+    12
+   ],
+   [
+    " proportional",
+    11
+   ],
+   [
+    "right",
+    10
+   ],
+   [
+    " between",
+    7
+   ],
+   [
+    " focus",
+    7
+   ]
+  ]
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "prov": {
+  "utc": "2026-10-29T06:17:14+00:00",
+  "commit": "3f138f1e",
+  "dirty": false,
+  "card": "olm69",
+  "script_md5": "16037495c276322d69ed193eb327c04a",
+  "prereg_md5": "d448b622d3b0aa570cdbec50841035d6",
+  "device": "mps",
+  "olm67_runner_md5": "da9c0c88e5d6980f11ecfcbe444e0c79",
+  "pseudo_md5": "8d425b95e084d052eb12c2c66a5be704"
+ },
+ "C1_reproduce_olm67": {
+  "n": 91,
+  "max_abs_diff_median": 0.0,
+  "max_abs_diff_max": 0.0
+ },
+ "C2_own_words": {
+  "A": {
+   "n": 16,
+   "own_nonempty": 16
+  },
+  "L": {
+   "n": 75,
+   "own_nonempty": 70
+  }
+ },
+ "C3_own_k1": {
+  "n": 86,
+  "median_u": 0.9049984812736511
+ },
+ "pass": {
+  "C1": true,
+  "C2": true,
+  "C3": false
+ }
+}

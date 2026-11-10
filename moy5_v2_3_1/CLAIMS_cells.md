@@ -1,0 +1,74 @@
+# CLAIMS_cells — every strip's printed numbers (audit G-22 · v2 2026-11-06)
+
+One row = one strip (one model × one arm of one card) = the four numbers the strip prints (answer field · whole · floor / n), recounted by `check_claims.py` (kind `cell_counts`) from the raw jsonl without the pack. prf1 / prf3 strips print route5 / LAT_SYM classes; they are anchored in CLAIMS.md (V6 · V7).
+
+| id | claim (value as the figure prints it) | source (file · key) | level | state |
+|---|---|---|---|---|
+| K182 | strip essay4.A.opus-5-5 · Opus 5.5 · A · essay4 = **ans 0 · whole 0 · floor 20 / 20** | results_essay4_moy5_20261014_claude-opus-5-5_a.jsonl + results_essay4_moy5_20261014_claude-opus-5-5_r.jsonl · arm A | L2 | 3, 4 + its chapter |
+| K183 | strip essay4.K.opus-5-5 · Opus 5.5 · K · essay4 = **ans 0 · whole 20 · floor 20 / 20** | results_essay4_moy5_20261014_claude-opus-5-5_a.jsonl + results_essay4_moy5_20261014_claude-opus-5-5_r.jsonl · arm K | L2 | 3, 4 + its chapter |
+| K184 | strip essay4.A.fable-5-1 · Fable 5.1 · A · essay4 = **ans 0 · whole 0 · floor 20 / 20** | results_essay4_moy5_20261014_claude-fable-5-1_a.jsonl + results_essay4_moy5_20261014_claude-fable-5-1_r.jsonl · arm A | L2 | 3, 4 + its chapter |
+| K185 | strip essay4.K.fable-5-1 · Fable 5.1 · K · essay4 = **ans 1 · whole 19 · floor 20 / 20** | results_essay4_moy5_20261014_claude-fable-5-1_a.jsonl + results_essay4_moy5_20261014_claude-fable-5-1_r.jsonl · arm K | L2 | 3, 4 + its chapter |
+| K186 | strip essay4.A.sonnet-5-5 · Sonnet 5.5 · A · essay4 = **ans 0 · whole 0 · floor 20 / 20** | results_essay4_moy5_20261014_claude-sonnet-5-5_a.jsonl + results_essay4_moy5_20261014_claude-sonnet-5-5_r.jsonl · arm A | L2 | 3, 4 + its chapter |
+| K187 | strip essay4.K.sonnet-5-5 · Sonnet 5.5 · K · essay4 = **ans 0 · whole 20 · floor 20 / 20** | results_essay4_moy5_20261014_claude-sonnet-5-5_a.jsonl + results_essay4_moy5_20261014_claude-sonnet-5-5_r.jsonl · arm K | L2 | 3, 4 + its chapter |
+| K188 | strip essay4.A.haiku-5-5 · Haiku 5.5 · A · essay4 = **ans 0 · whole 0 · floor 19 / 19** | results_essay4_moy5_20261014_claude-haiku-5-5_a.jsonl + results_essay4_moy5_20261014_claude-haiku-5-5_r.jsonl · arm A | L2 | 3, 4 + its chapter |
+| K189 | strip essay4.K.haiku-5-5 · Haiku 5.5 · K · essay4 = **ans 15 · whole 20 · floor 7 / 20** | results_essay4_moy5_20261014_claude-haiku-5-5_a.jsonl + results_essay4_moy5_20261014_claude-haiku-5-5_r.jsonl · arm K | L2 | 3, 4 + its chapter |
+| K190 | strip mnw1.K.opus · Opus 5.5 · K · mnw1 = **ans 1 · whole 9 · floor 10 / 10** | results_mnw1_moy5_20261022_claude-opus-5-5.jsonl + results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl · arm K | L2 | 3, 4 + its chapter |
+| K191 | strip mnw1.none/Q1.opus · Opus 5.5 · none/Q1 · mnw1 = **ans 0 · whole 0 · floor 20 / 20** | results_mnw1_moy5_20261022_claude-opus-5-5.jsonl + results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl · arm none/Q1 | L2 | 3, 4 + its chapter |
+| K192 | strip mnw1.none/Q1f.opus · Opus 5.5 · none/Q1f · mnw1 = **ans 1 · whole 1 · floor 20 / 20** | results_mnw1_moy5_20261022_claude-opus-5-5.jsonl + results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl · arm none/Q1f | L2 | 3, 4 + its chapter |
+| K193 | strip mnw1.conf/Q1.opus · Opus 5.5 · conf/Q1 · mnw1 = **ans 0 · whole 0 · floor 20 / 20** | results_mnw1_moy5_20261022_claude-opus-5-5.jsonl + results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl · arm conf/Q1 | L2 | 3, 4 + its chapter |
+| K194 | strip mnw1.conf/Q1f.opus · Opus 5.5 · conf/Q1f · mnw1 = **ans 19 · whole 19 · floor 20 / 20** | results_mnw1_moy5_20261022_claude-opus-5-5.jsonl + results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl · arm conf/Q1f | L2 | 3, 4 + its chapter |
+| K195 | strip mnw1.cone/Q1.opus · Opus 5.5 · cone/Q1 · mnw1 = **ans 0 · whole 0 · floor 20 / 20** | results_mnw1_moy5_20261022_claude-opus-5-5.jsonl + results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl · arm cone/Q1 | L2 | 3, 4 + its chapter |
+| K196 | strip mnw1.cone/Q1f.opus · Opus 5.5 · cone/Q1f · mnw1 = **ans 4 · whole 8 · floor 20 / 20** | results_mnw1_moy5_20261022_claude-opus-5-5.jsonl + results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl · arm cone/Q1f | L2 | 3, 4 + its chapter |
+| K197 | strip mnw1.K.fable · Fable 5.1 · K · mnw1 = **ans 4 · whole 10 · floor 10 / 10** | results_mnw1_moy5_20261022_claude-fable-5-1.jsonl + results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl · arm K | L2 | 3, 4 + its chapter |
+| K198 | strip mnw1.none/Q1.fable · Fable 5.1 · none/Q1 · mnw1 = **ans 0 · whole 0 · floor 20 / 20** | results_mnw1_moy5_20261022_claude-fable-5-1.jsonl + results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl · arm none/Q1 | L2 | 3, 4 + its chapter |
+| K199 | strip mnw1.none/Q1f.fable · Fable 5.1 · none/Q1f · mnw1 = **ans 3 · whole 3 · floor 19 / 20** | results_mnw1_moy5_20261022_claude-fable-5-1.jsonl + results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl · arm none/Q1f | L2 | 3, 4 + its chapter |
+| K200 | strip mnw1.conf/Q1.fable · Fable 5.1 · conf/Q1 · mnw1 = **ans 0 · whole 1 · floor 20 / 20** | results_mnw1_moy5_20261022_claude-fable-5-1.jsonl + results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl · arm conf/Q1 | L2 | 3, 4 + its chapter |
+| K201 | strip mnw1.conf/Q1f.fable · Fable 5.1 · conf/Q1f · mnw1 = **ans 13 · whole 17 · floor 20 / 20** | results_mnw1_moy5_20261022_claude-fable-5-1.jsonl + results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl · arm conf/Q1f | L2 | 3, 4 + its chapter |
+| K202 | strip mnw1.cone/Q1.fable · Fable 5.1 · cone/Q1 · mnw1 = **ans 0 · whole 5 · floor 20 / 20** | results_mnw1_moy5_20261022_claude-fable-5-1.jsonl + results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl · arm cone/Q1 | L2 | 3, 4 + its chapter |
+| K203 | strip mnw1.cone/Q1f.fable · Fable 5.1 · cone/Q1f · mnw1 = **ans 6 · whole 9 · floor 10 / 11** | results_mnw1_moy5_20261022_claude-fable-5-1.jsonl + results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl · arm cone/Q1f | L2 | 3, 4 + its chapter |
+| K204 | strip neq3.A.opus · Opus 5.5 · A · neq3 = **ans 0 · whole 0 · floor 18 / 20** | results_neq3_moy5_20261019_claude-opus-5-5.jsonl · arm A | L2 | 3, 4 + its chapter |
+| K205 | strip neq3.K.opus · Opus 5.5 · K · neq3 = **ans 6 · whole 9 · floor 9 / 10** | results_neq3_moy5_20261019_claude-opus-5-5.jsonl · arm K | L2 | 3, 4 + its chapter |
+| K206 | strip neq3.L-name.opus · Opus 5.5 · L-name · neq3 = **ans 0 · whole 0 · floor 20 / 20** | results_neq3_moy5_20261019_claude-opus-5-5.jsonl · arm L-name | L2 | 3, 4 + its chapter |
+| K207 | strip neq3.L-text.opus · Opus 5.5 · L-text · neq3 = **ans 0 · whole 0 · floor 20 / 20** | results_neq3_moy5_20261019_claude-opus-5-5.jsonl · arm L-text | L2 | 3, 4 + its chapter |
+| K208 | strip neq3.A/Q2.opus · Opus 5.5 · A/Q2 · neq3 = **ans 7 · whole 7 · floor 0 / 20** | results_neq3_moy5_20261019_claude-opus-5-5.jsonl · arm A/Q2 | L2 | 3, 4 + its chapter |
+| K209 | strip neq3.K/Q2.opus · Opus 5.5 · K/Q2 · neq3 = **ans 10 · whole 10 · floor 0 / 10** | results_neq3_moy5_20261019_claude-opus-5-5.jsonl · arm K/Q2 | L2 | 3, 4 + its chapter |
+| K210 | strip neq3.L-name/Q2.opus · Opus 5.5 · L-name/Q2 · neq3 = **ans 20 · whole 20 · floor 0 / 20** | results_neq3_moy5_20261019_claude-opus-5-5.jsonl · arm L-name/Q2 | L2 | 3, 4 + its chapter |
+| K211 | strip neq3.L-text/Q2.opus · Opus 5.5 · L-text/Q2 · neq3 = **ans 20 · whole 20 · floor 0 / 20** | results_neq3_moy5_20261019_claude-opus-5-5.jsonl · arm L-text/Q2 | L2 | 3, 4 + its chapter |
+| K212 | strip neq3.A/Q2.fable · Fable 5.1 · A/Q2 · neq3 = **ans 20 · whole 20 · floor 0 / 20** | results_neq3_moy5_20261019_claude-fable-5-1.jsonl · arm A/Q2 | L2 | 3, 4 + its chapter |
+| K213 | strip neq3.K/Q2.fable · Fable 5.1 · K/Q2 · neq3 = **ans 10 · whole 10 · floor 0 / 10** | results_neq3_moy5_20261019_claude-fable-5-1.jsonl · arm K/Q2 | L2 | 3, 4 + its chapter |
+| K214 | strip neq3.L-name/Q2.fable · Fable 5.1 · L-name/Q2 · neq3 = **ans 20 · whole 20 · floor 0 / 20** | results_neq3_moy5_20261019_claude-fable-5-1.jsonl · arm L-name/Q2 | L2 | 3, 4 + its chapter |
+| K215 | strip neq3.L-text/Q2.fable · Fable 5.1 · L-text/Q2 · neq3 = **ans 20 · whole 20 · floor 0 / 20** | results_neq3_moy5_20261019_claude-fable-5-1.jsonl · arm L-text/Q2 | L2 | 3, 4 + its chapter |
+| K216 | strip neq2f.A.fable · Fable 5.1 · A · neq2f = **ans 0 · whole 0 · floor 20 / 20** | results_neq2f_moy5_20261019.jsonl · arm A | L2 | 3, 4 + its chapter |
+| K217 | strip neq2f.K.fable · Fable 5.1 · K · neq2f = **ans 7 · whole 9 · floor 9 / 10** | results_neq2f_moy5_20261019.jsonl · arm K | L2 | 3, 4 + its chapter |
+| K218 | strip neq2f.L-name.fable · Fable 5.1 · L-name · neq2f = **ans 0 · whole 7 · floor 20 / 20** | results_neq2f_moy5_20261019.jsonl · arm L-name | L2 | 3, 4 + its chapter |
+| K219 | strip neq2f.L-text.fable · Fable 5.1 · L-text · neq2f = **ans 0 · whole 0 · floor 20 / 20** | results_neq2f_moy5_20261019.jsonl · arm L-text | L2 | 3, 4 + its chapter |
+| K220 | strip neq6.medium.opus · Opus 5.5 · A/Q2@medium · neq6 = **ans 0 · whole 0 · floor 0 / 20** | results_neq6_moy5_20261019_claude-opus-5-5.jsonl · arm A/Q2@medium | L2 | 3, 4 + its chapter |
+| K221 | strip neq6.high.opus · Opus 5.5 · A/Q2@high · neq6 = **ans 1 · whole 1 · floor 0 / 20** | results_neq6_moy5_20261019_claude-opus-5-5.jsonl · arm A/Q2@high | L2 | 3, 4 + its chapter |
+| K222 | strip neq6.max.opus · Opus 5.5 · A/Q2@max · neq6 = **ans 19 · whole 19 · floor 0 / 20** | results_neq6_moy5_20261019_claude-opus-5-5.jsonl · arm A/Q2@max | L2 | 3, 4 + its chapter |
+| K223 | strip neq6.K.opus · Opus 5.5 · K/Q2@medium · neq6 = **ans 10 · whole 10 · floor 0 / 10** | results_neq6_moy5_20261019_claude-opus-5-5.jsonl · arm K/Q2@medium | L2 | 3, 4 + its chapter |
+| K224 | strip neq6.medium.fable · Fable 5.1 · A/Q2@medium · neq6 = **ans 15 · whole 16 · floor 0 / 20** | results_neq6_moy5_20261019_claude-fable-5-1.jsonl · arm A/Q2@medium | L2 | 3, 4 + its chapter |
+| K225 | strip neq6.high.fable · Fable 5.1 · A/Q2@high · neq6 = **ans 17 · whole 17 · floor 0 / 20** | results_neq6_moy5_20261019_claude-fable-5-1.jsonl · arm A/Q2@high | L2 | 3, 4 + its chapter |
+| K226 | strip neq6.max.fable · Fable 5.1 · A/Q2@max · neq6 = **ans 20 · whole 20 · floor 0 / 20** | results_neq6_moy5_20261019_claude-fable-5-1.jsonl · arm A/Q2@max | L2 | 3, 4 + its chapter |
+| K227 | strip neq6.K.fable · Fable 5.1 · K/Q2@medium · neq6 = **ans 10 · whole 10 · floor 0 / 10** | results_neq6_moy5_20261019_claude-fable-5-1.jsonl · arm K/Q2@medium | L2 | 3, 4 + its chapter |
+| K228 | strip b5bp.Bbp.opus-5-5 · Opus 5.5 · Bbp · b5bp = **ans 0 · whole 6 · floor 20 / 20** | results_b5bp_20261014_claude-opus-5-5_a.jsonl · arm Bbp | L2 | 3, 4 + its chapter |
+| K229 | strip b5bp.Bbp.sonnet-5-5 · Sonnet 5.5 · Bbp · b5bp = **ans 0 · whole 2 · floor 20 / 20** | results_b5bp_20261014_claude-sonnet-5-5_a.jsonl · arm Bbp | L2 | 3, 4 + its chapter |
+| K230 | strip b5bp.Bbp.fable-5-1 · Fable 5.1 · Bbp · b5bp = **ans 0 · whole 0 · floor 20 / 20** | results_b5bp_20261014_claude-fable-5-1_a.jsonl · arm Bbp | L2 | 3, 4 + its chapter |
+| K231 | strip moy5c.opus · Opus 5.5 · P-none · moy5c = **ans 0 · whole 10 · floor 10 / 10** | results_moy5c_20261015.jsonl · arm P-none | L2 | 3, 4 + its chapter |
+| K232 | strip rte1.api_max.opus · Opus 5.5 · Bbp · rte1 = **ans 0 · whole 6 · floor 10 / 10** | results_rte1_20261015_api_max.jsonl · arm Bbp | L2 | 3, 4 + its chapter |
+| K233 | strip rte1.cc_high.opus · Opus 5.5 · P-none · rte1 = **ans 0 · whole 2 · floor 10 / 10** | results_rte1_20261015_cc_high.jsonl · arm P-none | L2 | 3, 4 + its chapter |
+| K234 | strip moy5c.fable · Fable 5.1 · P-none · moy5c = **ans 0 · whole 6 · floor 9 / 10** | results_moy5c_20261015.jsonl · arm P-none | L2 | 3, 4 + its chapter |
+| K235 | strip rte1.api_max.fable · Fable 5.1 · Bbp · rte1 = **ans 1 · whole 2 · floor 10 / 10** | results_rte1_20261015_api_max.jsonl · arm Bbp | L2 | 3, 4 + its chapter |
+| K236 | strip rte1.cc_high.fable · Fable 5.1 · P-none · rte1 = **ans 0 · whole 3 · floor 10 / 10** | results_rte1_20261015_cc_high.jsonl · arm P-none | L2 | 3, 4 + its chapter |
+| K237 | strip arg5.A · Argon · A · arg5 = **ans 0 · whole 0 · floor 20 / 20** | results_arg5_20261016_gemini-4-argon_a.jsonl · arm A | L2 | 3, 4 + its chapter |
+| K238 | strip arg5.Bbp · Argon · Bbp · arg5 = **ans 0 · whole 20 · floor 20 / 20** | results_arg5_20261016_gemini-4-argon_a.jsonl · arm Bbp | L2 | 3, 4 + its chapter |
+| K239 | strip arg5.K · Argon · K · arg5 = **ans 0 · whole 20 · floor 20 / 20** | results_arg5_20261016_gemini-4-argon_a.jsonl · arm K | L2 | 3, 4 + its chapter |
+| K240 | strip arg5.E-full · Argon · E-full · arg5 = **ans 0 · whole 0 · floor 20 / 20** | results_arg5_20261016_gemini-4-argon_a.jsonl · arm E-full | L2 | 3, 4 + its chapter |
+| K241 | strip arg5.E-full+Bbp · Argon · E-full+Bbp · arg5 = **ans 0 · whole 18 · floor 18 / 18** | results_arg5_20261016_gemini-4-argon_a.jsonl · arm E-full+Bbp | L2 | 3, 4 + its chapter |
+| K242 | strip arg5d.Bbp · Argon · Bbp · arg5d = **ans 0 · whole 8 · floor 20 / 20** | results_arg5d_20261016_gemini-4-argon_a.jsonl · arm Bbp | L2 | 3, 4 + its chapter |
+| K243 | strip arg5d.K · Argon · K · arg5d = **ans 0 · whole 20 · floor 20 / 20** | results_arg5d_20261016_gemini-4-argon_a.jsonl · arm K | L2 | 3, 4 + its chapter |
+| K244 | strip olm1.natural · OLMo-3 32B base · none/Q1 · olm1 = **ans 0 · whole 0 · floor 0 / 20** | results_olm1_moy5_20261022_olmo-3-1125-32b-mlx-bf16.jsonl · arm none/Q1 | L2 | 3, 4 + its chapter |
+| K245 | strip olm1.think · OLMo-3 32B base · none/Q1 · olm1 = **ans 0 · whole 0 · floor 2 / 20** | results_olm1_moy5_20261022_olmo-3-1125-32b-mlx-bf16.jsonl · arm none/Q1 | L2 | 3, 4 + its chapter |
+| K246 | strip olm3.think · OLMo-3 32B Think · none/Q1 · olm3 = **ans 0 · whole 0 · floor 5 / 20** | results_olm3_moy5_20261022_olmo-3-32b-think-mlx-bf16.jsonl · arm none/Q1 | L2 | 3, 4 + its chapter |
+| K247 | strip olm1.natural.K · OLMo-3 32B base · K · olm1 = **ans 1 · whole 2 · floor 0 / 10** | results_olm1_moy5_20261022_olmo-3-1125-32b-mlx-bf16.jsonl · arm K | L2 | 3, 4 + its chapter |
+| K248 | strip olm1.think.K · OLMo-3 32B base · K · olm1 = **ans 0 · whole 10 · floor 2 / 10** | results_olm1_moy5_20261022_olmo-3-1125-32b-mlx-bf16.jsonl · arm K | L2 | 3, 4 + its chapter |
+| K249 | strip olm3.K · OLMo-3 32B Think · K · olm3 = **ans 0 · whole 10 · floor 8 / 10** | results_olm3_moy5_20261022_olmo-3-32b-think-mlx-bf16.jsonl · arm K | L2 | 3, 4 + its chapter |

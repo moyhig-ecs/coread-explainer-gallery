@@ -1,0 +1,114 @@
+[
+ [
+  "wait",
+  6500
+ ],
+ [
+  "eval",
+  "JSON.stringify({figure_at_start: (() => { const sh = (document.querySelector('marimo-anywidget').shadowRoot.querySelector('.sh')); return sh ? {state: sh.dataset.state, chapter: sh.dataset.chapter, lang: sh.dataset.lang, readout: (sh.querySelector('[data-readout]')||{}).textContent} : null; })(), kernel_at_start: (() => { const m = document.body.innerText.match(/kernel sees: state = (\\d+) · t = (-?\\d+) · lang = (\\w+) · done = (\\w+)/); return m ? {state: Number(m[1]), t: Number(m[2]), lang: m[3], done: m[4]} : document.body.innerText.slice(0, 300); })()})"
+ ],
+ [
+  "eval",
+  "(() => { const sh = (document.querySelector('marimo-anywidget').shadowRoot.querySelector('.sh')); if (!sh) throw new Error('the widget did not render inside <marimo-anywidget>'); sh.querySelector('.sh-next').click(); return 'figure -> kernel: pressed next (0 -> 1)'; })()"
+ ],
+ [
+  "wait",
+  1800
+ ],
+ [
+  "eval",
+  "JSON.stringify({after_figure_next: {figure: (() => { const sh = (document.querySelector('marimo-anywidget').shadowRoot.querySelector('.sh')); return sh ? {state: sh.dataset.state, chapter: sh.dataset.chapter, lang: sh.dataset.lang, readout: (sh.querySelector('[data-readout]')||{}).textContent} : null; })(), kernel: (() => { const m = document.body.innerText.match(/kernel sees: state = (\\d+) · t = (-?\\d+) · lang = (\\w+) · done = (\\w+)/); return m ? {state: Number(m[1]), t: Number(m[2]), lang: m[3], done: m[4]} : document.body.innerText.slice(0, 300); })()}})"
+ ],
+ [
+  "eval",
+  "(() => { const sh = (document.querySelector('marimo-anywidget').shadowRoot.querySelector('.sh')); sh.querySelector('.sh-chap[data-chap=\"moment\"]').click(); return 'figure -> kernel: chapter button moment (state 12)'; })()"
+ ],
+ [
+  "wait",
+  1800
+ ],
+ [
+  "eval",
+  "JSON.stringify({after_figure_chapter: {figure: (() => { const sh = (document.querySelector('marimo-anywidget').shadowRoot.querySelector('.sh')); return sh ? {state: sh.dataset.state, chapter: sh.dataset.chapter, lang: sh.dataset.lang, readout: (sh.querySelector('[data-readout]')||{}).textContent} : null; })(), kernel: (() => { const m = document.body.innerText.match(/kernel sees: state = (\\d+) · t = (-?\\d+) · lang = (\\w+) · done = (\\w+)/); return m ? {state: Number(m[1]), t: Number(m[2]), lang: m[3], done: m[4]} : document.body.innerText.slice(0, 300); })()}})"
+ ],
+ [
+  "eval",
+  "(() => { const b = [...document.querySelectorAll('marimo-button')].find((x) => x.shadowRoot && x.shadowRoot.textContent.includes('chapter blocked')); if (!b) throw new Error('no python button blocked'); b.shadowRoot.querySelector('button').click(); return 'python button chapter blocked pressed'; })()"
+ ],
+ [
+  "wait",
+  2500
+ ],
+ [
+  "eval",
+  "JSON.stringify({after_python_blocked: {figure: (() => { const sh = (document.querySelector('marimo-anywidget').shadowRoot.querySelector('.sh')); return sh ? {state: sh.dataset.state, chapter: sh.dataset.chapter, lang: sh.dataset.lang, readout: (sh.querySelector('[data-readout]')||{}).textContent} : null; })(), kernel: (() => { const m = document.body.innerText.match(/kernel sees: state = (\\d+) · t = (-?\\d+) · lang = (\\w+) · done = (\\w+)/); return m ? {state: Number(m[1]), t: Number(m[2]), lang: m[3], done: m[4]} : document.body.innerText.slice(0, 300); })()}})"
+ ],
+ [
+  "eval",
+  "(() => { const b = [...document.querySelectorAll('marimo-button')].find((x) => x.shadowRoot && x.shadowRoot.textContent.includes('chapter open')); if (!b) throw new Error('no python button open'); b.shadowRoot.querySelector('button').click(); return 'python button chapter open pressed'; })()"
+ ],
+ [
+  "wait",
+  2800
+ ],
+ [
+  "eval",
+  "JSON.stringify({after_python_open_state4: {figure: (() => { const sh = (document.querySelector('marimo-anywidget').shadowRoot.querySelector('.sh')); return sh ? {state: sh.dataset.state, chapter: sh.dataset.chapter, lang: sh.dataset.lang, readout: (sh.querySelector('[data-readout]')||{}).textContent} : null; })(), kernel: (() => { const m = document.body.innerText.match(/kernel sees: state = (\\d+) · t = (-?\\d+) · lang = (\\w+) · done = (\\w+)/); return m ? {state: Number(m[1]), t: Number(m[2]), lang: m[3], done: m[4]} : document.body.innerText.slice(0, 300); })(), recount: (() => { const m = document.body.innerText.match(/kernel recount: [^\\n]*/); return m ? m[0].slice(0, 400) : 'no recount text'; })()}})"
+ ],
+ [
+  "eval",
+  "(() => { const m = document.body.innerText.match(/kernel recount: [^\\n]*/); if (!m || !/'equal': True/.test(m[0])) throw new Error('the kernel recount is not equal: ' + (m ? m[0].slice(0, 300) : 'no recount text')); return 'marimo: the kernel recount says equal True · ' + m[0].replace(/\\s+/g, ' ').slice(-170); })()"
+ ],
+ [
+  "shot",
+  "captures/M1_marimo_state4.png",
+  "html",
+  1,
+  [
+   0,
+   0,
+   1440,
+   1500
+  ]
+ ],
+ [
+  "eval",
+  "(() => { const b = [...document.querySelectorAll('marimo-button')].find((x) => x.shadowRoot && x.shadowRoot.textContent.includes('chapter sae')); if (!b) throw new Error('no python button sae'); b.shadowRoot.querySelector('button').click(); return 'python button chapter sae pressed (kernel -> figure: state 18)'; })()"
+ ],
+ [
+  "wait",
+  3000
+ ],
+ [
+  "eval",
+  "(() => { const sh = (document.querySelector('marimo-anywidget').shadowRoot.querySelector('.sh')); if (sh.dataset.state !== '18' || sh.dataset.chapter !== 'sae') throw new Error('the figure did not follow the python button: ' + sh.dataset.state + ' ' + sh.dataset.chapter); const m = document.body.innerText.match(/kernel recount: [^\\n]*/); if (!m || !/'state': 18/.test(m[0]) || !/'equal': True/.test(m[0])) throw new Error('the kernel recount of state 18 is not equal: ' + (m ? m[0].slice(0, 300) : 'no recount text')); return 'marimo: chapter sae, state 18: the kernel recount says equal True · ' + m[0].slice(0, 260); })()"
+ ],
+ [
+  "shot",
+  "captures/M2_marimo_sae_state18.png",
+  "html",
+  1,
+  [
+   0,
+   0,
+   1440,
+   1700
+  ]
+ ],
+ [
+  "eval",
+  "(() => { const sh = (document.querySelector('marimo-anywidget').shadowRoot.querySelector('.sh')); sh.querySelector('.sh-lang').click(); return 'figure -> kernel: language button'; })()"
+ ],
+ [
+  "wait",
+  1800
+ ],
+ [
+  "eval",
+  "JSON.stringify({after_lang_button: {figure: (() => { const sh = (document.querySelector('marimo-anywidget').shadowRoot.querySelector('.sh')); return sh ? {state: sh.dataset.state, chapter: sh.dataset.chapter, lang: sh.dataset.lang, readout: (sh.querySelector('[data-readout]')||{}).textContent} : null; })(), kernel: (() => { const m = document.body.innerText.match(/kernel sees: state = (\\d+) · t = (-?\\d+) · lang = (\\w+) · done = (\\w+)/); return m ? {state: Number(m[1]), t: Number(m[2]), lang: m[3], done: m[4]} : document.body.innerText.slice(0, 300); })()}})"
+ ],
+ [
+  "eval",
+  "(() => { const sh = (document.querySelector('marimo-anywidget').shadowRoot.querySelector('.sh')); const k = (() => { const m = document.body.innerText.match(/kernel sees: state = (\\d+) · t = (-?\\d+) · lang = (\\w+) · done = (\\w+)/); return m ? {state: Number(m[1]), t: Number(m[2]), lang: m[3], done: m[4]} : document.body.innerText.slice(0, 300); })(); if (!k || k.state !== Number(sh.dataset.state) || k.lang !== sh.dataset.lang) throw new Error('kernel and figure disagree: ' + JSON.stringify([k, sh.dataset.state, sh.dataset.lang])); return 'kernel and figure agree: state ' + k.state + ' lang ' + k.lang; })()"
+ ]
+]

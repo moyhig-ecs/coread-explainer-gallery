@@ -1,0 +1,22 @@
+[
+ [
+  "wait",
+  1500
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, out = {combos: 0, errors: 0, nan: 0, msgs: []}, svg = document.querySelector('.fig-svg');\n  const views = [null, {az: 3, el: 3, zoom: 0.5}, {az: 177, el: 82, zoom: 2.6}, {az: 90, el: 50, zoom: 1.4}, {az: 30, el: 20, zoom: 1}];\n  for (let n = 0; n < api.nstate; n++) { api.goto(n, {instant: true, silent: true});\n    const rg = document.querySelector('.fig-range'), lo = Number(rg.min), hi = Number(rg.max);\n    for (const lang of ['ja', 'en']) { api.setLang(lang, true);\n      for (const t of [lo, Math.round((lo + hi) / 2), hi, hi + 50, -5]) { for (const v of views) {\n        try { api.setT(t, true); if (v) api.setView(v, true); api.redraw(); out.combos++; if (/NaN|undefined|Infinity/.test(svg.innerHTML)) { out.nan++; out.msgs.push(n + ' ' + lang + ' ' + t + ': NaN/undefined in the svg'); } } catch (e) { out.errors++; out.msgs.push(n + ' ' + lang + ' ' + t + ' ' + JSON.stringify(v) + ': ' + e.message); } } } } }\n  api.goto(0, {instant: true, silent: true}); api.setLang('ja', true);\n  if (out.errors || out.nan) throw new Error('robust: ' + JSON.stringify(out).slice(0, 1500)); return JSON.stringify(out); })()"
+ ],
+ [
+  "wait",
+  500
+ ],
+ [
+  "eval",
+  "window.__sh.goto(0, {instant: true}); 'state 0'"
+ ],
+ [
+  "wait",
+  800
+ ]
+]

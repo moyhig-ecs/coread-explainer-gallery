@@ -1,0 +1,214 @@
+[
+ [
+  "wait",
+  1500
+ ],
+ [
+  "eval",
+  "window.__chk = []; 'chapter check: start'"
+ ],
+ [
+  "eval",
+  "window.__sh.goto(0, {instant: true}); 'state 0'"
+ ],
+ [
+  "wait",
+  600
+ ],
+ [
+  "click",
+  ".sh-chap[data-chap=\"ledger\"]"
+ ],
+ [
+  "wait",
+  700
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"ledger\", want: 37, wantChapter: \"ledger\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: b.map((x) => x.textContent.trim())}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "click",
+  ".sh-chap[data-chap=\"next\"]"
+ ],
+ [
+  "wait",
+  700
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"next\", want: 35, wantChapter: \"next\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: b.map((x) => x.textContent.trim())}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "click",
+  ".sh-chap[data-chap=\"apex\"]"
+ ],
+ [
+  "wait",
+  700
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"apex\", want: 33, wantChapter: \"apex\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: b.map((x) => x.textContent.trim())}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "click",
+  ".sh-chap[data-chap=\"struct\"]"
+ ],
+ [
+  "wait",
+  700
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"struct\", want: 31, wantChapter: \"struct\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: b.map((x) => x.textContent.trim())}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "click",
+  ".sh-chap[data-chap=\"space\"]"
+ ],
+ [
+  "wait",
+  700
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"space\", want: 29, wantChapter: \"space\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: b.map((x) => x.textContent.trim())}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "click",
+  ".sh-chap[data-chap=\"l3\"]"
+ ],
+ [
+  "wait",
+  700
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"l3\", want: 28, wantChapter: \"l3\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: b.map((x) => x.textContent.trim())}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "click",
+  ".sh-chap[data-chap=\"flow\"]"
+ ],
+ [
+  "wait",
+  700
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"flow\", want: 27, wantChapter: \"flow\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: b.map((x) => x.textContent.trim())}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "click",
+  ".sh-chap[data-chap=\"tree\"]"
+ ],
+ [
+  "wait",
+  700
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"tree\", want: 26, wantChapter: \"tree\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: b.map((x) => x.textContent.trim())}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "click",
+  ".sh-chap[data-chap=\"sae\"]"
+ ],
+ [
+  "wait",
+  700
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"sae\", want: 18, wantChapter: \"sae\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: b.map((x) => x.textContent.trim())}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "click",
+  ".sh-chap[data-chap=\"models\"]"
+ ],
+ [
+  "wait",
+  700
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"models\", want: 16, wantChapter: \"models\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: b.map((x) => x.textContent.trim())}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "click",
+  ".sh-chap[data-chap=\"moment\"]"
+ ],
+ [
+  "wait",
+  700
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"moment\", want: 12, wantChapter: \"moment\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: b.map((x) => x.textContent.trim())}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "click",
+  ".sh-chap[data-chap=\"blocked\"]"
+ ],
+ [
+  "wait",
+  700
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"blocked\", want: 8, wantChapter: \"blocked\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: b.map((x) => x.textContent.trim())}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "click",
+  ".sh-chap[data-chap=\"open\"]"
+ ],
+ [
+  "wait",
+  700
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"open\", want: 4, wantChapter: \"open\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: b.map((x) => x.textContent.trim())}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "click",
+  ".sh-chap[data-chap=\"prompts\"]"
+ ],
+ [
+  "wait",
+  700
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"prompts\", want: 2, wantChapter: \"prompts\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: b.map((x) => x.textContent.trim())}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "click",
+  ".sh-chap[data-chap=\"problem\"]"
+ ],
+ [
+  "wait",
+  700
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"problem\", want: 0, wantChapter: \"problem\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: b.map((x) => x.textContent.trim())}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "click",
+  ".sh-step[data-n=\"13\"]"
+ ],
+ [
+  "wait",
+  700
+ ],
+ [
+  "eval",
+  "(() => { const api = window.__sh, b = [...document.querySelectorAll('.sh-chap')]; const r = {click: \"step 13\", want: 13, wantChapter: \"moment\", state: api.state, chapter: api.chapter, pressed: b.filter((x) => x.getAttribute('aria-pressed') === 'true').map((x) => x.dataset.chap), hash: location.hash, label: b.map((x) => x.textContent.trim())}; (window.__chk = window.__chk || []).push(r); return JSON.stringify(r); })()"
+ ],
+ [
+  "eval",
+  "(() => { const chk = window.__chk || [], bad = [], GROUPS = [2, 2, 4, 4, 4, 2, 8, 1, 1, 1, 2, 2, 2, 2, 6], N = 43, CH = [[\"problem\", 0], [\"prompts\", 2], [\"open\", 4], [\"blocked\", 8], [\"moment\", 12], [\"models\", 16], [\"sae\", 18], [\"tree\", 26], [\"flow\", 27], [\"l3\", 28], [\"space\", 29], [\"struct\", 31], [\"apex\", 33], [\"next\", 35], [\"ledger\", 37]];\n  const btns = [...document.querySelectorAll('.sh-chap')]; if (btns.length !== CH.length) bad.push('chapter buttons: ' + btns.length);\n  CH.forEach(([name, a]) => { const b = btns.find((x) => x.dataset.chap === name); if (!b) bad.push('missing ' + name); else { if (Number(b.dataset.go) !== a) bad.push('target of ' + name + ': ' + b.dataset.go); if (!b.textContent.trim()) bad.push('no label on ' + name); } });\n  chk.forEach((r) => { if (r.state !== r.want) bad.push(r.click + ' -> state ' + r.state + ' (want ' + r.want + ')'); if (r.chapter !== r.wantChapter) bad.push(r.click + ' -> chapter ' + r.chapter); if (r.pressed.length !== 1 || r.pressed[0] !== r.wantChapter) bad.push('pressed after ' + r.click + ': ' + r.pressed.join(',')); if (r.hash !== '#s' + r.want) bad.push('hash after ' + r.click + ': ' + r.hash); });\n  const grp = [...document.querySelectorAll('.sh-stepgrp')].map((g) => g.querySelectorAll('.sh-step').length); if (JSON.stringify(grp) !== JSON.stringify(GROUPS)) bad.push('step groups: ' + JSON.stringify(grp));\n  if (document.querySelectorAll('.sh-step').length !== N) bad.push('numbered steps: ' + document.querySelectorAll('.sh-step').length);\n  const out = {chapters_ok: bad.length === 0, clicks: chk.map((r) => r.click + ' -> ' + r.state), labels: chk.length ? chk[chk.length - 1].label : [], step_groups: grp, bad}; if (bad.length) throw new Error('chapters: ' + JSON.stringify(out)); return JSON.stringify(out); })()"
+ ]
+]

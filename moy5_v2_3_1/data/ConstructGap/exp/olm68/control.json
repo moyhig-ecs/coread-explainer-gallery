@@ -1,0 +1,39 @@
+{
+ "prov": {
+  "utc": "2026-10-29T05:59:47+00:00",
+  "commit": "cd4a7ae0",
+  "dirty": false,
+  "card": "olm68",
+  "script_md5": "fe85bd8fbb1a10e4ddbc25ba30c7def0",
+  "prereg_md5": "f0f994a8864beb37795b19ba5a9352f5",
+  "device": "mps",
+  "olm67_runner_md5": "da9c0c88e5d6980f11ecfcbe444e0c79",
+  "olm67_read_md5": "674862556b0a91ee96102b817997d732"
+ },
+ "C0_reproduce_olm67_Q3": {
+  "got_diff": 0.053864951245486736,
+  "olm67_diff": 0.053864951245486736,
+  "ok": true
+ },
+ "C1_nearest_bin": {
+  "n_cut": 366,
+  "n_floor": 527,
+  "median_cut": 0.04213554598391056,
+  "median_floor": -0.00048078224062919617,
+  "diff": 0.04261632822453976,
+  "perm_p": 0.0
+ },
+ "C2_placebo_pseudo_event": {
+  "n_cut": 366,
+  "n_floor": 527,
+  "median_cut": -0.014078781940042973,
+  "median_floor": 0.020636793226003647,
+  "diff": -0.03471557516604662,
+  "perm_p": 1.0
+ },
+ "pass": {
+  "C0": true,
+  "C1": true,
+  "C2_placebo_null": true
+ }
+}

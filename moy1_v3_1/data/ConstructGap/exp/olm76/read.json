@@ -1,0 +1,147 @@
+{
+ "prov": {
+  "utc": "2026-10-30T12:13:37+00:00",
+  "commit": "d7fbbd43",
+  "dirty": false,
+  "card": "olm76",
+  "script_md5": "a07fd5eff224b97aec4fb828d023bec6",
+  "prereg_md5": "509fd5dc6207e7d699624f5083227017",
+  "olm75_read_md5": "13ab2423e3f6cbced77bf03b8a74bb2a"
+ },
+ "control_pass": {
+  "C1": true,
+  "C2_close": true,
+  "C2_commit": true,
+  "C3": false
+ },
+ "counts": {
+  "bind": 48,
+  "attractor": 10
+ },
+ "Q1_bind_close_rises": {
+  "n": 48,
+  "pos": 28,
+  "n_nonzero": 48,
+  "median": 0.012688815593719482,
+  "sign_p": 0.15616340373663462,
+  "pass": false,
+  "judged": true
+ },
+ "Q2_bind_commit_rises": {
+  "n": 48,
+  "pos": 18,
+  "n_nonzero": 48,
+  "median": -0.024402529001235962,
+  "sign_p": 0.9702683123731148,
+  "pass": false,
+  "judged": false
+ },
+ "Q3_close_bind_gt_attractor": {
+  "n_a": 48,
+  "n_b": 10,
+  "median_a": 0.012688815593719482,
+  "median_b": 0.042478322982788086,
+  "diff": -0.029789507389068604,
+  "perm_p": 0.834,
+  "loo_pos": 0,
+  "loo_n": 10,
+  "pass": false,
+  "judged": true
+ },
+ "Q4_commit_bind_gt_attractor": {
+  "n_a": 48,
+  "n_b": 10,
+  "median_a": -0.024402529001235962,
+  "median_b": 0.014562562108039856,
+  "diff": -0.03896509110927582,
+  "perm_p": 0.7175,
+  "loo_pos": 0,
+  "loo_n": 10,
+  "pass": false,
+  "judged": false
+ },
+ "desc_all_keys": {
+  "sae_close|bind": {
+   "n": 48,
+   "pos": 28,
+   "median": 0.012688815593719482
+  },
+  "sae_close|attractor": {
+   "n": 10,
+   "pos": 7,
+   "median": 0.042478322982788086
+  },
+  "sae_mid|bind": {
+   "n": 48,
+   "pos": 24,
+   "median": 0.00059489905834198
+  },
+  "sae_mid|attractor": {
+   "n": 10,
+   "pos": 5,
+   "median": 0.004205524921417236
+  },
+  "lens_COMMIT|bind": {
+   "n": 48,
+   "pos": 18,
+   "median": -0.024402529001235962
+  },
+  "lens_COMMIT|attractor": {
+   "n": 10,
+   "pos": 6,
+   "median": 0.014562562108039856
+  },
+  "lens_HEDGE|bind": {
+   "n": 48,
+   "pos": 14,
+   "median": -0.039051368832588196
+  },
+  "lens_HEDGE|attractor": {
+   "n": 10,
+   "pos": 2,
+   "median": -0.050153255462646484
+  },
+  "logit_COMMIT|bind": {
+   "n": 48,
+   "pos": 23,
+   "median": -0.0066329240798950195
+  },
+  "logit_COMMIT|attractor": {
+   "n": 10,
+   "pos": 6,
+   "median": 0.030747100710868835
+  },
+  "logit_HEDGE|bind": {
+   "n": 48,
+   "pos": 21,
+   "median": -0.012124016880989075
+  },
+  "logit_HEDGE|attractor": {
+   "n": 10,
+   "pos": 4,
+   "median": -0.02091050148010254
+  }
+ },
+ "desc_by_kind": {
+  "natural|bind": {
+   "n": 15,
+   "median_close": 0.0014044642448425293,
+   "median_commit": -0.058704257011413574
+  },
+  "natural|attractor": {
+   "n": 6,
+   "median_close": 0.05482751131057739,
+   "median_commit": -0.06548380851745605
+  },
+  "think|bind": {
+   "n": 33,
+   "median_close": 0.025415480136871338,
+   "median_commit": -0.02207660675048828
+  },
+  "think|attractor": {
+   "n": 4,
+   "median_close": 0.02616637945175171,
+   "median_commit": 0.030893579125404358
+  }
+ }
+}

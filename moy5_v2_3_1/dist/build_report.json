@@ -1,0 +1,78 @@
+{
+ "built_with": {
+  "anatomy": "~/.claude/skills/anatomy",
+  "runtime": "bun 1.3.0"
+ },
+ "data_md5": {
+  "results_essay4_moy5_20261014_claude-opus-5-5_a.jsonl": "ba48de9c448090d873c659261c904a85",
+  "results_essay4_moy5_20261014_claude-fable-5-1_a.jsonl": "580206dca7a1bb94fa83d89264a7cd80",
+  "results_essay4_moy5_20261014_claude-sonnet-5-5_a.jsonl": "68d9fcc3533ba88d3bf52162671cb77b",
+  "results_essay4_moy5_20261014_claude-haiku-5-5_a.jsonl": "d50cd49e084dd8c33d0099c984087ae5",
+  "results_essay4_moy5_20261014_claude-haiku-5-5_r.jsonl": "0f08d4970bd9b6e0d68e58b772322501",
+  "results_essay4_moy5_20261014_claude-opus-5-5_r.jsonl": "d41d8cd98f00b204e9800998ecf8427e",
+  "results_essay4_moy5_20261014_claude-fable-5-1_r.jsonl": "d41d8cd98f00b204e9800998ecf8427e",
+  "results_essay4_moy5_20261014_claude-sonnet-5-5_r.jsonl": "d41d8cd98f00b204e9800998ecf8427e",
+  "results_b5bp_20261014_claude-opus-5-5_a.jsonl": "d589e2bbff17e8bded24e7a041826fb9",
+  "results_b5bp_20261014_claude-sonnet-5-5_a.jsonl": "5051e5a12431f66c7a4326a1c6c9a20e",
+  "results_b5bp_20261014_claude-fable-5-1_a.jsonl": "960afdbb83eb7d561051cd52a9c3fbb0",
+  "results_moy5c_20261015.jsonl": "c616f21a85a420d52c1da111b371b611",
+  "results_arg5_20261016_gemini-4-argon_a.jsonl": "1c7ee8be817f4b7bab6b866160d2aac0",
+  "results_arg5d_20261016_gemini-4-argon_a.jsonl": "04af6068886b2dedce418e1b87f3c6b6",
+  "results_neq3_moy5_20261019_claude-opus-5-5.jsonl": "b49fcad21ea7b414c2d5920e8754c376",
+  "results_neq3_moy5_20261019_claude-fable-5-1.jsonl": "8585a2a88cb2546d51a054039e6468c4",
+  "results_neq2f_moy5_20261019.jsonl": "f54d589792429313b40be3ceaaf026d2",
+  "results_neq6_moy5_20261019_claude-opus-5-5.jsonl": "a957c784e43f68da26061d492c9692e0",
+  "results_neq6_moy5_20261019_claude-fable-5-1.jsonl": "37bd5ab70cebe6d1ae4335912987ab39",
+  "results_prf1_20261021.jsonl": "8880f1b7ef68a59df1bfeeac043b66d2",
+  "results_prf3_20261021.jsonl": "3fa335be962e7ee28d72e90776307989",
+  "results_mnw1_moy5_20261022_claude-opus-5-5.jsonl": "d9de546aa8f0c8161304c20e6a5aa4d1",
+  "results_mnw1_moy5_20261022_claude-fable-5-1.jsonl": "aa494c4ce35ca8d656ea169226498bdd",
+  "results_mnw1b_moy5_20261022_claude-opus-5-5.jsonl": "700bef16402eb26cb4f20e0669f1125e",
+  "results_mnw1b_moy5_20261022_claude-fable-5-1.jsonl": "84eb74a0b4fcbb8f296bbce861fa8e0d",
+  "results_olm1_moy5_20261022_olmo-3-1125-32b-mlx-bf16.jsonl": "f7133073e57ec4a436c76126d34561b0",
+  "results_olm3_moy5_20261022_olmo-3-32b-think-mlx-bf16.jsonl": "83abd34c422a5c35af74e1e4e3ed4f90",
+  "results_rte1_20261015_api_max.jsonl": "3e0b14f7f1eb307e2162982c8549f856",
+  "results_rte1_20261015_cc_high.jsonl": "03441ed21444244f97717b6d6ef439c4",
+  "2026-10-16/data_moy5_summary/summary_table_moy5_cut_all_cards_20261016.txt": "556b9dfba142bb064ce86e0fb8d59606",
+  "2026-10-16/SUMMARY_moy5_cut_across_arms_effort_route_and_argon_20261016.md": "39b74e9a5cbca9404cc2664c42de66f2",
+  "2026-10-14/SOURCE_frozen_prompts_moy1_moy2_moy5_blocks_alt2_lines_dfc_v1_20261014.md": "574ea5c5379083217e95b2d7116fe94d"
+ },
+ "prompt_md5": "ee39ba02374a5b3fb6db8dafcef4704b",
+ "recount": {
+  "cells": 76,
+  "rows": 1258,
+  "briefValues": 32,
+  "v2Values": 17,
+  "postValues": 21,
+  "drawingErr": 0.0006085378328788742
+ },
+ "drawing_control_max_err": 0.0006085378328788742,
+ "cells": 76,
+ "scenes": [
+  "A1L",
+  "A1R",
+  "C0",
+  "E1L",
+  "E1R",
+  "G0",
+  "G1",
+  "H0L",
+  "H0R",
+  "H1",
+  "H2"
+ ],
+ "states": 31,
+ "files": {
+  "moy5_route.html": 384372,
+  "moy5_route-light.html": 384374,
+  "moy5_route-en.html": 384372,
+  "moy5_route-light-en.html": 384374,
+  "widget.js": 358747,
+  "widget.css": 27285
+ },
+ "source_md5": {
+  "figure.js": "63a0ac7901b018c0403b8a0efb94bba0",
+  "i18n.js": "2562ae5e3acc45f5955eefbe2b3054a5",
+  "state_machine.js": "1654e7e43683c7b219119d3333482039"
+ }
+}

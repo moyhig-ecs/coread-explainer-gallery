@@ -1,0 +1,30 @@
+[
+ [
+  "wait",
+  1500
+ ],
+ [
+  "eval",
+  "window.__sh.fit(false); window.__sh.goto(24, {instant: true}); 'fit off'"
+ ],
+ [
+  "wait",
+  900
+ ],
+ [
+  "eval",
+  "(() => { const r = (() => { const sh = document.querySelector('.sh'), nc = sh.querySelector('.sh-notclaimed').getBoundingClientRect(), pb = sh.getBoundingClientRect().bottom; return {state: sh.dataset.state, bottom: Math.round(nc.bottom), limit: Math.round(Math.min(innerHeight, pb)), clipped: nc.bottom > Math.min(innerHeight, pb) + 1}; })(); if (!r.clipped) throw new Error('fit control: with the fit OFF the v2 clipping of state 24 was not caught ' + JSON.stringify(r)); return JSON.stringify({fit_control_caught: true, off: r}); })()"
+ ],
+ [
+  "eval",
+  "window.__sh.fit(true); window.__sh.goto(25, {instant: true}); window.__sh.goto(24, {instant: true}); 'fit on'"
+ ],
+ [
+  "wait",
+  900
+ ],
+ [
+  "eval",
+  "(() => { const r = (() => { const sh = document.querySelector('.sh'), nc = sh.querySelector('.sh-notclaimed').getBoundingClientRect(), pb = sh.getBoundingClientRect().bottom; return {state: sh.dataset.state, bottom: Math.round(nc.bottom), limit: Math.round(Math.min(innerHeight, pb)), clipped: nc.bottom > Math.min(innerHeight, pb) + 1}; })(); if (r.clipped) throw new Error('fit: state 24 is still clipped ' + JSON.stringify(r)); return JSON.stringify({fit_ok: true, on: r}); })()"
+ ]
+]

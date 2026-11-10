@@ -1,0 +1,202 @@
+run_checks.sh · 2026-11-09 19:46:27 · bun 1.4.3 · Python 3.14.0 · drive <home>/.claude/skills/anatomy/scripts/drive.mjs
+built: 4 pages · widget js 350 KB · css 27 KB · 31 states → <entry>/dist
+pages md5: 03e6408d ja · d2515fad en · 5761d49f widget.js
+headings ok
+anchors checked: 447 · claim rows: 447 · missing or different: 0
+calibration: 19 kinds · a wrong value fails and the right one passes in 19 / 19
+  plane control frozenV: par_off_plane = 4.09e-05 (tol 1e-06) -> caught
+  plane control shift: par_off_plane = 1.00e-04 (tol 1e-06) -> caught
+  plane control tilt: plane_dot_board = 1.00e-03 (tol 1e-09) -> caught
+calibration (plane, v2.3): 13 / 13 anchors (wrong value fails, right passes) · planted faults caught 3 / 3
+script: 23 lines · 146.7 s · first 10 s = state 1 (2 lines)
+== check_states · moy5_route · video
+  measure_ok x 31
+console: clean
+== check_states · moy5_route · desk
+  measure_ok x 31
+console: clean
+== check_states · moy5_route · phone
+  measure_ok x 31
+console: clean
+== check_states · moy5_route-en · video
+  measure_ok x 31
+console: clean
+== check_states · moy5_route-en · desk
+  measure_ok x 31
+console: clean
+== check_states · moy5_route-en · phone
+  measure_ok x 31
+console: clean
+== check_robust · moy5_route · video
+eval: "{"combos":496,"errors":0,"msgs":[]}"
+console: clean
+== check_robust · moy5_route · desk
+eval: "{"combos":496,"errors":0,"msgs":[]}"
+console: clean
+== check_robust · moy5_route · phone
+eval: "{"combos":496,"errors":0,"msgs":[]}"
+console: clean
+== check_robust · moy5_route-en · video
+eval: "{"combos":496,"errors":0,"msgs":[]}"
+console: clean
+== check_robust · moy5_route-en · desk
+eval: "{"combos":496,"errors":0,"msgs":[]}"
+console: clean
+== check_robust · moy5_route-en · phone
+eval: "{"combos":496,"errors":0,"msgs":[]}"
+console: clean
+== check_states · light · desk
+  measure_ok x 31
+console: clean
+== check_states · reduced motion · desk
+  measure_ok x 31
+console: clean
+== check_chapters · moy5_route · desk
+eval: "{"chapters_ok":true,"clicks":["L -> 28 [L 台帳]","K -> 27 [K 次の問い(束 ① を家が打つ)]","J -> 23 [J その後の札(11-06 に足した)]","I -> 22 [I open weights]","H -> 19 [H 説明と形]","G -> 15 [G 証明と塞ぎ]","F -> 12 [F 理由を求める一文]","E -> 10 [E effort と thinking の量]","D -> 7 [D 問いの点の集合]","C -> 5 [C 答えの欄は床の行]","B -> 2 [B 地図 — a
+console: clean
+== check_chapters · moy5_route-en · desk
+eval: "{"chapters_ok":true,"clicks":["L -> 28 [L Ledger]","K -> 27 [K Next questions (① to be fired)]","J -> 23 [J The cards after (added 11-06)]","I -> 22 [I Open weights]","H -> 19 [H Explanation and form]","G -> 15 [G Proof and blocking]","F -> 12 [F One sentence asking why]","E -> 10 [E Effort a
+console: clean
+== check_chapters · moy5_route-light · desk
+eval: "{"chapters_ok":true,"clicks":["L -> 28 [L 台帳]","K -> 27 [K 次の問い(束 ① を家が打つ)]","J -> 23 [J その後の札(11-06 に足した)]","I -> 22 [I open weights]","H -> 19 [H 説明と形]","G -> 15 [G 証明と塞ぎ]","F -> 12 [F 理由を求める一文]","E -> 10 [E effort と thinking の量]","D -> 7 [D 問いの点の集合]","C -> 5 [C 答えの欄は床の行]","B -> 2 [B 地図 — a
+console: clean
+== check_chapters · phone
+eval: "{"chapters_ok":true,"clicks":["L -> 28 [L 台帳]","K -> 27 [K 次の問い(束 ① を家が打つ)]","J -> 23 [J その後の札(11-06 に足した)]","I -> 22 [I open weights]","H -> 19 [H 説明と形]","G -> 15 [G 証明と塞ぎ]","F -> 12 [F 理由を求める一文]","E -> 10 [E effort と thinking の量]","D -> 7 [D 問いの点の集合]","C -> 5 [C 答えの欄は床の行]","B -> 2 [B 地図 — a
+console: clean
+== check_scan · desk
+eval: "{"pages":62,"hits":[],"control":{"ja_hit":true,"en_hit":true,"ja_clean":true,"en_clean":true}}"
+console: clean
+== check_scan · phone
+eval: "{"pages":62,"hits":[],"control":{"ja_hit":true,"en_hit":true,"ja_clean":true,"en_clean":true}}"
+console: clean
+== check_pagevraw · desk
+eval: "{"pagevraw_ok":true,"strips_checked":142,"cells_seen":77,"readouts":4,"bad":[]}"
+eval: "{"pagevraw_control_ok":true,"caught":2}"
+console: clean
+== check_v21 (grade columns · pills · bundle ① · road others) · desk
+eval: "{"flow_chips":20,"post_rows":20,"home":["8"],"road_others":2,"pill17":"prf1 SOURCE 10-14","v21_ok":true,"bad":[]}"
+console: clean
+== check_v21 · video
+eval: "{"flow_chips":20,"post_rows":20,"home":["8"],"road_others":2,"pill17":"prf1 SOURCE 10-14","v21_ok":true,"bad":[]}"
+console: clean
+== check_fit_control (the 1080 last line: OFF must be caught, ON must pass) · video ja / en
+eval: "{"fit_control_caught":true,"off":{"state":"24","bottom":1110,"limit":1072,"clipped":true}}"
+eval: "{"fit_ok":true,"on":{"state":"24","bottom":1060,"limit":1072,"clipped":false}}"
+console: clean
+eval: "{"fit_control_caught":true,"off":{"state":"24","bottom":1107,"limit":1072,"clipped":true}}"
+eval: "{"fit_ok":true,"on":{"state":"24","bottom":1060,"limit":1072,"clipped":false}}"
+console: clean
+== check_v22 (overlay on / off · 1080 frame · last line · texts unchanged · geometry) · video ja
+  measure_ok x 6
+  v22_ok x 6
+eval: "{"geom_ok":true,"worst":{"C_on_f":0.00007565965884689363,"C_on_g":0.00007593552108593152,"F_antipode_of_G":0,"GE_perp_axis":0.0000043752355780024565,"j_tangent_at_F":0,"Py_on_cone":0.0000067517189541455025,"Py_on_circle_through_J":0.00016822868430566018,"symptoma":0.00015283006665432777},"hal
+eval: "{"v22_text_control_ok":true}"
+console: clean
+== check_v22 · video en
+  measure_ok x 6
+  v22_ok x 6
+eval: "{"geom_ok":true,"worst":{"C_on_f":0.00007565965884689363,"C_on_g":0.00007593552108593152,"F_antipode_of_G":0,"GE_perp_axis":0.0000043752355780024565,"j_tangent_at_F":0,"Py_on_cone":0.0000067517189541455025,"Py_on_circle_through_J":0.00016822868430566018,"symptoma":0.00015283006665432777},"hal
+eval: "{"v22_text_control_ok":true}"
+console: clean
+== check_v22 · desk
+  measure_ok x 6
+  v22_ok x 6
+eval: "{"geom_ok":true,"worst":{"C_on_f":0.00007565965884689363,"C_on_g":0.00007593552108593152,"F_antipode_of_G":0,"GE_perp_axis":0.0000043752355780024565,"j_tangent_at_F":0,"Py_on_cone":0.0000067517189541455025,"Py_on_circle_through_J":0.00016822868430566018,"symptoma":0.00015283006665432777},"hal
+eval: "{"v22_text_control_ok":true}"
+console: clean
+== check_v22 · light · desk
+  measure_ok x 6
+  v22_ok x 6
+eval: "{"geom_ok":true,"worst":{"C_on_f":0.00007565965884689363,"C_on_g":0.00007593552108593152,"F_antipode_of_G":0,"GE_perp_axis":0.0000043752355780024565,"j_tangent_at_F":0,"Py_on_cone":0.0000067517189541455025,"Py_on_circle_through_J":0.00016822868430566018,"symptoma":0.00015283006665432777},"hal
+eval: "{"v22_text_control_ok":true}"
+console: clean
+== check_v22 · phone
+  measure_ok x 6
+  v22_ok x 6
+eval: "{"geom_ok":true,"worst":{"C_on_f":0.00007565965884689363,"C_on_g":0.00007593552108593152,"F_antipode_of_G":0,"GE_perp_axis":0.0000043752355780024565,"j_tangent_at_F":0,"Py_on_cone":0.0000067517189541455025,"Py_on_circle_through_J":0.00016822868430566018,"symptoma":0.00015283006665432777},"hal
+eval: "{"v22_text_control_ok":true}"
+console: clean
+== check_v22_click (real clicks on the button) · desk
+eval: "{"v22_click_ok":true,"overlay":true,"pressed":"true","label":"円錐を重ねる"}"
+eval: "{"v22_click_ok":true,"overlay":false,"pressed":"false","label":"円錐を重ねる"}"
+eval: "{"v22_click_ok":true,"overlay":true,"pressed":"true","label":"円錐を重ねる"}"
+eval: "{"v22_click_ok":true,"overlay":false,"pressed":"false","label":"円錐を重ねる"}"
+eval: "{"v22_click_ok":true,"overlay":true,"pressed":"true","label":"円錐を重ねる"}"
+eval: "{"v22_hidden_ok":true,"state":1}"
+eval: "{"v22_hidden_ok":true,"state":10}"
+console: clean
+== check_v22_click · phone
+eval: "{"v22_click_ok":true,"overlay":true,"pressed":"true","label":"cone overlay"}"
+eval: "{"v22_click_ok":true,"overlay":false,"pressed":"false","label":"cone overlay"}"
+eval: "{"v22_click_ok":true,"overlay":true,"pressed":"true","label":"cone overlay"}"
+eval: "{"v22_click_ok":true,"overlay":false,"pressed":"false","label":"cone overlay"}"
+eval: "{"v22_click_ok":true,"overlay":true,"pressed":"true","label":"cone overlay"}"
+eval: "{"v22_hidden_ok":true,"state":1}"
+eval: "{"v22_hidden_ok":true,"state":10}"
+console: clean
+== check_v23 (the cutting plane) · moy5_route · video
+  v23_ok x 8
+eval: "{"geom23_ok":true,"at_t0":{"u":[0.9925455245602856,0.12187445046172464],"V_off_j":0.00004094981535540665,"D_off_j":2.220446049250313e-16,"tV_over_tD":0.500006551747064,"FV":2.309420509565116,"FD":4.618780496241015,"A_to_j":4.000018036209337,"AF_dot_j":0,"par_n":41,"par_off_plane":1.7763568394
+console: clean
+== check_v23 · moy5_route · desk
+  v23_ok x 8
+eval: "{"geom23_ok":true,"at_t0":{"u":[0.9925455245602856,0.12187445046172464],"V_off_j":0.00004094981535540665,"D_off_j":2.220446049250313e-16,"tV_over_tD":0.500006551747064,"FV":2.309420509565116,"FD":4.618780496241015,"A_to_j":4.000018036209337,"AF_dot_j":0,"par_n":41,"par_off_plane":1.7763568394
+console: clean
+== check_v23 · moy5_route · phone
+  v23_ok x 8
+eval: "{"geom23_ok":true,"at_t0":{"u":[0.9925455245602856,0.12187445046172464],"V_off_j":0.00004094981535540665,"D_off_j":2.220446049250313e-16,"tV_over_tD":0.500006551747064,"FV":2.309420509565116,"FD":4.618780496241015,"A_to_j":4.000018036209337,"AF_dot_j":0,"par_n":41,"par_off_plane":1.7763568394
+console: clean
+== check_v23 (the cutting plane) · moy5_route-en · video
+  v23_ok x 8
+eval: "{"geom23_ok":true,"at_t0":{"u":[0.9925455245602856,0.12187445046172464],"V_off_j":0.00004094981535540665,"D_off_j":2.220446049250313e-16,"tV_over_tD":0.500006551747064,"FV":2.309420509565116,"FD":4.618780496241015,"A_to_j":4.000018036209337,"AF_dot_j":0,"par_n":41,"par_off_plane":1.7763568394
+console: clean
+== check_v23 · moy5_route-en · desk
+  v23_ok x 8
+eval: "{"geom23_ok":true,"at_t0":{"u":[0.9925455245602856,0.12187445046172464],"V_off_j":0.00004094981535540665,"D_off_j":2.220446049250313e-16,"tV_over_tD":0.500006551747064,"FV":2.309420509565116,"FD":4.618780496241015,"A_to_j":4.000018036209337,"AF_dot_j":0,"par_n":41,"par_off_plane":1.7763568394
+console: clean
+== check_v23 · moy5_route-en · phone
+  v23_ok x 8
+eval: "{"geom23_ok":true,"at_t0":{"u":[0.9925455245602856,0.12187445046172464],"V_off_j":0.00004094981535540665,"D_off_j":2.220446049250313e-16,"tV_over_tD":0.500006551747064,"FV":2.309420509565116,"FD":4.618780496241015,"A_to_j":4.000018036209337,"AF_dot_j":0,"par_n":41,"par_off_plane":1.7763568394
+console: clean
+== check_v23 · light · desk
+  v23_ok x 8
+eval: "{"geom23_ok":true,"at_t0":{"u":[0.9925455245602856,0.12187445046172464],"V_off_j":0.00004094981535540665,"D_off_j":2.220446049250313e-16,"tV_over_tD":0.500006551747064,"FV":2.309420509565116,"FD":4.618780496241015,"A_to_j":4.000018036209337,"AF_dot_j":0,"par_n":41,"par_off_plane":1.7763568394
+console: clean
+compare_v22 moy5_route · video: 33 dumps · equal 31 · differ 2 ['0/on', '7/on'] · unexpected 0
+compare_v22 moy5_route · desk: 33 dumps · equal 31 · differ 2 ['0/on', '7/on'] · unexpected 0
+compare_v22 moy5_route · phone: 33 dumps · equal 31 · differ 2 ['0/on', '7/on'] · unexpected 0
+compare_v22 moy5_route-en · video: 33 dumps · equal 31 · differ 2 ['0/on', '7/on'] · unexpected 0
+compare_v22 moy5_route-en · desk: 33 dumps · equal 31 · differ 2 ['0/on', '7/on'] · unexpected 0
+compare_v22 moy5_route-en · phone: 33 dumps · equal 31 · differ 2 ['0/on', '7/on'] · unexpected 0
+== marimo (both directions + kernel recount)
+eval: "{"figure_to_kernel_ok":true,"kernel":{"state":2,"lang":"ja"}}"
+eval: "{"kernel_to_figure_ok":true,"recount":"kernel check (route 5): {'state': 10, 'checked': True, 'ok': True, 'readout': 'Opus 答えの欄(neq6): medium 0 · high 1 · max 19 ‖ xhigh 7 = neq3(n 20)', 'expected_part': 'medium 0 · high 1 · max 19 ‖ xhigh"}"
+eval: "{"cone_kernel_to_figure_ok":true,"overlay":false}"
+eval: "{"cone_figure_to_kernel_ok":true,"kernel_cone":"True"}"
+console: clean
+drive exit 0 · wall 3 s
+run_marimo_check.sh: line 10: 91465 Terminated: 15          "$PYD/marimo" run demo_marimo.py --headless --no-token --host 127.0.0.1 --port "$PORT" > "$T/marimo.log" 2>&1
+own pid 91465 still alive after stop: no
+listeners on port 27990 after stop: []
+== JupyterLab (both directions + kernel recount)
+eval: "{"kernel_to_figure_ok":true,"figure":{"state":"10","chapter":"E","lang":"ja","readout":"Opus 答えの欄(neq6): medium 0 · high 1 · max 19 ‖ xhigh 7 = neq3(n 20)"}}"
+eval: "{"recount_state10_ok":true,"tries":1,"out":"recount {'state': 10, 'checked': True, 'ok': True, 'readout': 'Opus 答えの欄(neq6): medium 0 · high 1 · max 19 ‖ xhigh 7 = neq3(n 20)', 'expected_part': 'medium 0 · high 1 · max 19 ‖ xhigh 7'}\\n"}"
+eval: "{"figure_to_kernel_ok":true,"tries":2,"out":"kernel sees state 18 · {'state': 18, 'checked': True, 'ok': True, 'readout': 'LAT_SYM P5 → P5B: Opus 0 → 10 · Fable 0 → 4(n 10)', 'expected_part': 'Opus 0 → 10'}\\n"}"
+eval: "{"cone_kernel_to_figure_ok":true,"figure":{"state":"0","chapter":"A","lang":"ja","readout":"作図の陽性統制: 計算した K・P_y・J は問いの座標と 6.1e-4 以内(< 1e-3)"}}"
+eval: "{"cone_figure_to_kernel_ok":true,"tries":1,"out":"kernel sees cone True · state 0\\n"}"
+console.warning: Unsatisfied version 2.7.5 of shared singleton module @lumino/widgets (required ^1.19.0)
+console.warning: Unsatisfied version 2.1.5 of shared singleton module @lumino/disposable (required ^1.4.3)
+console.warning: WebIO is registering SystemJS window global.
+console.warning: Monkey-patchings SystemJS._nodeRequire to undefined.
+drive exit 0 · wall 7 s
+[W 2026-11-09 20:01:52.267 ServerApp] webio_jupyter_extension.serverextension | error adding extension (enabled: True): The module 'webio_jupyter_extension.serverextension' could not be found (No module named 'notebook'). Are you sure the extension is installed?
+[W 2026-11-09 20:01:52.366 ServerApp] webio_jupyter_extension.serverextension | error adding extension (enabled: True): The module 'webio_jupyter_extension.serverextension' could not be found (No module named 'notebook'). Are you sure the extension is installed?
+<home>/miniforge3/envs/py314/lib/python3.14/site-packages/nbformat/__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.
+own pid 91622 still alive after stop: no
+listeners on port 27980 after stop: []
+demo_jupyter.ipynb restored (clean copy) and .ipynb_checkpoints removed
+== capture v2.3 (the board states with the plane) · video ja
+console: clean
+== capture v2.3 · video en
+console: clean
+run_checks: PASS

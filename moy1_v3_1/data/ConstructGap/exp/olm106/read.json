@@ -1,0 +1,520 @@
+{
+ "prov": {
+  "utc": "2026-11-01T12:33:47+00:00",
+  "commit": "00ec65c4",
+  "dirty": false,
+  "card": "olm106",
+  "script_md5": "ff9966aac504aa1918ba52918a60aaf2",
+  "prereg_md5": "19456c9c8c17d66de0eb9dfc16c77775"
+ },
+ "fire_prov": {
+  "utc": "2026-11-01T11:36:32+00:00",
+  "commit": "36900aef",
+  "dirty": false,
+  "card": "olm106",
+  "script_md5": "ff9966aac504aa1918ba52918a60aaf2",
+  "prereg_md5": "19456c9c8c17d66de0eb9dfc16c77775"
+ },
+ "table": {
+  "sel_L-1": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.9833333333333333,
+   "dev・both": 1.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.9838709677419355,
+   "test・both": 1.0
+  },
+  "ctl_L-1": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.0,
+   "test・both": 0.0
+  },
+  "dem_L-1": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.0,
+   "test・both": 0.0
+  },
+  "sel_L0": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.9666666666666667,
+   "dev・both": 1.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.9838709677419355,
+   "test・both": 1.0
+  },
+  "ctl_L0": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.0,
+   "test・both": 0.0
+  },
+  "dem_L0": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.0,
+   "test・both": 0.0
+  },
+  "sel_L2": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.9833333333333333,
+   "dev・both": 1.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.9774193548387097,
+   "test・both": 0.9967741935483871
+  },
+  "ctl_L2": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.0,
+   "test・both": 0.0
+  },
+  "dem_L2": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0032258064516129032,
+   "test・ptr_only": 0.0,
+   "test・both": 0.0
+  },
+  "sel_L4": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.9833333333333333,
+   "dev・both": 1.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.9806451612903225,
+   "test・both": 0.9967741935483871
+  },
+  "ctl_L4": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.0,
+   "test・both": 0.0
+  },
+  "dem_L4": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.0,
+   "test・both": 0.0
+  },
+  "sel_L6": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.9666666666666667,
+   "dev・both": 1.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.9806451612903225,
+   "test・both": 0.9935483870967742
+  },
+  "ctl_L6": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.0,
+   "test・both": 0.0
+  },
+  "dem_L6": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.0,
+   "test・both": 0.0
+  },
+  "sel_L8": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.9666666666666667,
+   "dev・both": 1.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.967741935483871,
+   "test・both": 0.9838709677419355
+  },
+  "ctl_L8": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.0,
+   "test・both": 0.0
+  },
+  "dem_L8": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.0,
+   "test・both": 0.0
+  },
+  "tail_L8": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.9666666666666667,
+   "dev・both": 1.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.9870967741935484,
+   "test・both": 1.0
+  },
+  "sel_L10": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.9666666666666667,
+   "dev・both": 1.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.9612903225806452,
+   "test・both": 0.9741935483870968
+  },
+  "ctl_L10": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.0,
+   "test・both": 0.0
+  },
+  "dem_L10": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.0,
+   "test・both": 0.0
+  },
+  "sel_L12": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.9333333333333333,
+   "dev・both": 0.9666666666666667,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.9290322580645162,
+   "test・both": 0.932258064516129
+  },
+  "ctl_L12": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.0,
+   "test・both": 0.0
+  },
+  "dem_L12": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.0,
+   "test・both": 0.0032258064516129032
+  },
+  "sel_L16": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.31666666666666665,
+   "dev・both": 0.6833333333333333,
+   "test・val_only": 0.00967741935483871,
+   "test・ptr_only": 0.3387096774193548,
+   "test・both": 0.6161290322580645
+  },
+  "ctl_L16": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.0,
+   "test・both": 0.0
+  },
+  "dem_L16": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.0064516129032258064,
+   "test・both": 0.0
+  },
+  "sel_L20": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.016666666666666666,
+   "dev・both": 0.06666666666666667,
+   "test・val_only": 0.012903225806451613,
+   "test・ptr_only": 0.012903225806451613,
+   "test・both": 0.1064516129032258
+  },
+  "ctl_L20": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.0,
+   "test・both": 0.0032258064516129032
+  },
+  "dem_L20": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0032258064516129032,
+   "test・ptr_only": 0.0,
+   "test・both": 0.00967741935483871
+  },
+  "sel_L24": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.0,
+   "test・both": 0.0032258064516129032
+  },
+  "ctl_L24": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.0,
+   "test・both": 0.0
+  },
+  "dem_L24": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0064516129032258064,
+   "test・ptr_only": 0.0032258064516129032,
+   "test・both": 0.00967741935483871
+  },
+  "sel_L32": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.0,
+   "test・both": 0.0
+  },
+  "ctl_L32": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.0,
+   "test・both": 0.0
+  },
+  "dem_L32": {
+   "dev・val_only": 0.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 0.0,
+   "test・val_only": 0.0,
+   "test・ptr_only": 0.0,
+   "test・both": 0.0
+  },
+  "tail_L32": {
+   "dev・val_only": 1.0,
+   "dev・ptr_only": 0.0,
+   "dev・both": 1.0,
+   "test・val_only": 1.0,
+   "test・ptr_only": 0.0,
+   "test・both": 1.0
+  }
+ },
+ "controls": {
+  "C0": {
+   "full_vs_olm94": {
+    "frac_within": 1.0,
+    "max": 0.125
+   },
+   "suffix": {
+    "L-1": {
+     "frac_within": 1.0,
+     "max": 0.125
+    },
+    "L24": {
+     "frac_within": 1.0,
+     "max": 0.125
+    }
+   },
+   "ok": true
+  },
+  "C0c_identity_ctl_dem_embedding": {
+   "value": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "ok": true
+  },
+  "C1_tail_L32_both": {
+   "value": 1.0,
+   "ok": true
+  },
+  "C1b_sel_embedding_ptr_only": {
+   "value": 0.9838709677419355,
+   "ok": true
+  },
+  "C3_eligible_min_frac": {
+   "value": 0.96875,
+   "ok": true
+  }
+ },
+ "controls_pass": true,
+ "Q1": {
+  "curve_sel_ptr_only": [
+   [
+    0,
+    0.9838709677419355
+   ],
+   [
+    2,
+    0.9774193548387097
+   ],
+   [
+    4,
+    0.9806451612903225
+   ],
+   [
+    6,
+    0.9806451612903225
+   ],
+   [
+    8,
+    0.967741935483871
+   ],
+   [
+    10,
+    0.9612903225806452
+   ],
+   [
+    12,
+    0.9290322580645162
+   ],
+   [
+    16,
+    0.3387096774193548
+   ],
+   [
+    20,
+    0.012903225806451613
+   ],
+   [
+    24,
+    0.0
+   ],
+   [
+    32,
+    0.0
+   ]
+  ],
+  "L_drop": 16,
+  "F_po_embedding": 0.9838709677419355
+ },
+ "Q2": {
+  "follow_list": []
+ },
+ "Q3": {
+  "sel_value_follow": [],
+  "curve_sel_val_only": [
+   [
+    0,
+    0.0
+   ],
+   [
+    2,
+    0.0
+   ],
+   [
+    4,
+    0.0
+   ],
+   [
+    6,
+    0.0
+   ],
+   [
+    8,
+    0.0
+   ],
+   [
+    10,
+    0.0
+   ],
+   [
+    12,
+    0.0
+   ],
+   [
+    16,
+    0.00967741935483871
+   ],
+   [
+    20,
+    0.012903225806451613
+   ],
+   [
+    24,
+    0.0
+   ],
+   [
+    32,
+    0.0
+   ]
+  ]
+ },
+ "Q4_boot_sel_ptr_only": {
+  "0": [
+   0.9736842105263158,
+   0.9936708860759493
+  ],
+  "2": [
+   0.9638157894736842,
+   0.990506329113924
+  ],
+  "4": [
+   0.9671052631578947,
+   0.9936708860759493
+  ],
+  "6": [
+   0.9671052631578947,
+   0.9936708860759493
+  ],
+  "8": [
+   0.9512987012987013,
+   0.98125
+  ],
+  "10": [
+   0.944078947368421,
+   0.9777070063694268
+  ],
+  "12": [
+   0.9078821656050956,
+   0.9493830109067749
+  ],
+  "16": [
+   0.3137254901960784,
+   0.36477987421383645
+  ],
+  "20": [
+   0.0032258064516129032,
+   0.02258064516129032
+  ],
+  "24": [
+   0.0,
+   0.0
+  ],
+  "32": [
+   0.0,
+   0.0
+  ]
+ },
+ "branches": {
+  "Q1": "遅い",
+  "Q2": "無い",
+  "Q3": "無い"
+ }
+}

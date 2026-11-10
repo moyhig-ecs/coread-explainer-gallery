@@ -1,0 +1,6654 @@
+[
+ {
+  "id": "K01a",
+  "kind": "derived",
+  "name": "tail_len",
+  "expect": 324,
+  "note": "blocked = open + 324 characters"
+ },
+ {
+  "id": "K01b",
+  "kind": "derived",
+  "name": "startswith",
+  "expect": true,
+  "note": "blocked starts with the whole of open"
+ },
+ {
+  "id": "K02a",
+  "kind": "derived",
+  "name": "tail_names_nothing",
+  "expect": true,
+  "note": "the added sentence has neither O1O2 nor a He / Hi word"
+ },
+ {
+  "id": "K20a",
+  "kind": "derived",
+  "name": "md5_prompt",
+  "args": [
+   "open"
+  ],
+  "expect": "3c7a63dd0d2b4393820e7836458e33cd"
+ },
+ {
+  "id": "K20b",
+  "kind": "derived",
+  "name": "md5_prompt",
+  "args": [
+   "blocked"
+  ],
+  "expect": "616682f531557c56d1103738b8d9dbda"
+ },
+ {
+  "id": "K20c",
+  "kind": "repo_json_equals",
+  "file": "probes/moy1-claude5-replication/results/replication_config_frozen.json",
+  "key": "prompt_md5.open",
+  "expect": "3c7a63dd0d2b4393820e7836458e33cd"
+ },
+ {
+  "id": "K20d",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-28/explainer_moy1/inventory/check_values.out",
+  "literal": "(True, 324, '3c7a63dd0d2b4393820e7836458e33cd', '616682f531557c56d1103738b8d9dbda')",
+  "note": "V5 (the inventory's own recount)"
+ },
+ {
+  "id": "K01c",
+  "kind": "repo_json_equals",
+  "file": "probes/moy1-claude5-replication/results/replication_config_frozen.json",
+  "key": "prompt_md5.blocked",
+  "expect": "616682f531557c56d1103738b8d9dbda"
+ },
+ {
+  "id": "K03a",
+  "kind": "derived",
+  "name": "reading_count",
+  "args": [
+   "open",
+   "bare"
+  ],
+  "expect": 8
+ },
+ {
+  "id": "K03b",
+  "kind": "derived",
+  "name": "reading_count",
+  "args": [
+   "open",
+   "o1o2"
+  ],
+  "expect": 0
+ },
+ {
+  "id": "K03c",
+  "kind": "derived",
+  "name": "reading_count",
+  "args": [
+   "open",
+   "hehi"
+  ],
+  "expect": 0
+ },
+ {
+  "id": "K03d",
+  "kind": "derived",
+  "name": "reading_count",
+  "args": [
+   "open",
+   "other"
+  ],
+  "expect": 2
+ },
+ {
+  "id": "K03e",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-28/explainer_moy1/inventory/check_values.out",
+  "literal": "(8, [1, 2, 3, 5, 6, 7, 8, 9])",
+  "note": "V3"
+ },
+ {
+  "id": "K03f",
+  "kind": "pack_equals_derived",
+  "name": "reading_count",
+  "args": [
+   "open",
+   "bare"
+  ],
+  "file": "generated/pack.json",
+  "key": "open_cnt.bare"
+ },
+ {
+  "id": "K04a",
+  "kind": "derived",
+  "name": "sentence_rows",
+  "args": [
+   "open",
+   "O"
+  ],
+  "expect": [],
+  "note": "no row names O1O2 as a diameter / centre"
+ },
+ {
+  "id": "K04b",
+  "kind": "derived",
+  "name": "sentence_rows",
+  "args": [
+   "open",
+   "He"
+  ],
+  "expect": [
+   1
+  ]
+ },
+ {
+  "id": "K04c",
+  "kind": "derived",
+  "name": "he_hits",
+  "args": [
+   "open",
+   1
+  ],
+  "expect": 7
+ },
+ {
+  "id": "K04d",
+  "kind": "derived",
+  "name": "otok_open_s1",
+  "expect": [
+   21,
+   19
+  ],
+  "note": "the token O1O2 occurs 21 times in open s1; 19 sit with the words line / slope"
+ },
+ {
+  "id": "K05a",
+  "kind": "derived",
+  "name": "frozen",
+  "args": [
+   "open"
+  ],
+  "expect": {
+   "B-attractor": 5,
+   "B-stuck-L1": 5
+  }
+ },
+ {
+  "id": "K05b",
+  "kind": "derived",
+  "name": "hehi_word_rows",
+  "args": [
+   "open"
+  ],
+  "expect": [
+   0,
+   1,
+   2,
+   6,
+   8
+  ]
+ },
+ {
+  "id": "K05c",
+  "kind": "derived",
+  "name": "attractor_rows",
+  "args": [
+   "open"
+  ],
+  "expect": [
+   0,
+   1,
+   2,
+   6,
+   8
+  ]
+ },
+ {
+  "id": "K05d",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-28/explainer_moy1/inventory/check_values.out",
+  "literal": "({'B-attractor': 5, 'B-stuck-L1': 5}, [0])",
+  "note": "V2"
+ },
+ {
+  "id": "K06a",
+  "kind": "derived",
+  "name": "frozen",
+  "args": [
+   "blocked"
+  ],
+  "expect": {
+   "B-attractor": 3,
+   "B-bind": 7
+  }
+ },
+ {
+  "id": "K06b",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-28/explainer_moy1/inventory/check_values.out",
+  "literal": "{'B-bind': 7, 'B-attractor': 3}",
+  "note": "V1"
+ },
+ {
+  "id": "K06c",
+  "kind": "derived",
+  "name": "reading_count",
+  "args": [
+   "blocked",
+   "o1o2"
+  ],
+  "expect": 6,
+  "note": "v3: blocked's answer field is O1O2 in 6 rows (s8 has no JSON: no answer field)"
+ },
+ {
+  "id": "K06d",
+  "kind": "derived",
+  "name": "reading_count",
+  "args": [
+   "blocked",
+   "hehi"
+  ],
+  "expect": 3
+ },
+ {
+  "id": "K07a",
+  "kind": "derived",
+  "name": "first_json",
+  "args": [
+   "blocked"
+  ],
+  "expect": {
+   "0": 8688,
+   "1": 393,
+   "2": 5193,
+   "3": 0,
+   "4": 1992,
+   "5": 0,
+   "6": 10095,
+   "7": 16286,
+   "8": -1,
+   "9": 0
+  }
+ },
+ {
+  "id": "K07b",
+  "kind": "derived",
+  "name": "json_first",
+  "args": [
+   "blocked"
+  ],
+  "expect": [
+   3,
+   5,
+   9
+  ]
+ },
+ {
+  "id": "K07c",
+  "kind": "derived",
+  "name": "json_first",
+  "args": [
+   "open"
+  ],
+  "expect": [
+   3,
+   9
+  ]
+ },
+ {
+  "id": "K07d",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-28/explainer_moy1/inventory/check_values.out",
+  "literal": "{0: (8688, 'B-bind'), 1: (393, 'B-bind'), 2: (5193, 'B-bind'), 3: (0, 'B-attractor')",
+  "note": "V4"
+ },
+ {
+  "id": "K08a",
+  "kind": "derived",
+  "name": "sentence_rows",
+  "args": [
+   "blocked",
+   "O"
+  ],
+  "expect": [
+   0,
+   1,
+   2,
+   4,
+   6,
+   7,
+   8
+  ]
+ },
+ {
+  "id": "K08b",
+  "kind": "derived",
+  "name": "sentence_rows",
+  "args": [
+   "blocked",
+   "He"
+  ],
+  "expect": [
+   0,
+   2,
+   3,
+   7,
+   8
+  ]
+ },
+ {
+  "id": "K09a",
+  "kind": "derived",
+  "name": "he_end",
+  "expect": {
+   "0": "o1o2",
+   "2": "o1o2",
+   "3": "hehi",
+   "7": "o1o2",
+   "8": "other"
+  },
+  "note": "v3: s8 has no answer field (v2 read its last paragraph as o1o2)"
+ },
+ {
+  "id": "K09b",
+  "kind": "derived",
+  "name": "order",
+  "expect": {
+   "0": "O",
+   "2": "He",
+   "7": "He",
+   "8": "He"
+  }
+ },
+ {
+  "id": "K10a",
+  "kind": "derived",
+  "name": "cue_bind",
+  "args": [
+   "nl"
+  ],
+  "expect": [
+   2,
+   9
+  ]
+ },
+ {
+  "id": "K10b",
+  "kind": "derived",
+  "name": "cue_bind",
+  "args": [
+   "sp"
+  ],
+  "expect": [
+   4,
+   10
+  ]
+ },
+ {
+  "id": "K10c",
+  "kind": "derived",
+  "name": "cue_bind",
+  "args": [
+   "nn"
+  ],
+  "expect": [
+   7,
+   10
+  ]
+ },
+ {
+  "id": "K10d",
+  "kind": "derived",
+  "name": "cue_mode",
+  "args": [
+   "nl"
+  ],
+  "expect": [
+   "B-attractor"
+  ]
+ },
+ {
+  "id": "K10e",
+  "kind": "derived",
+  "name": "cue_mode",
+  "args": [
+   "sp"
+  ],
+  "expect": [
+   "B-bind"
+  ]
+ },
+ {
+  "id": "K10f",
+  "kind": "derived",
+  "name": "cue_mode",
+  "args": [
+   "nn"
+  ],
+  "expect": [
+   "B-bind"
+  ]
+ },
+ {
+  "id": "K11a",
+  "kind": "repo_json_equals",
+  "file": "probes/olmo3-f5-think-prefix/results/tsd_r5b/cmt13_blocked_bind_moment_in_thinking.json",
+  "key": "sites.att|F5a-2|s1.t",
+  "expect": 289
+ },
+ {
+  "id": "K11b",
+  "kind": "repo_json_equals",
+  "file": "probes/olmo3-f5-think-prefix/results/tsd_r5b/cmt13_blocked_bind_moment_in_thinking.json",
+  "key": "sites.att|F5a-2|s1.delta_out",
+  "expect": -4.3984375
+ },
+ {
+  "id": "K11c",
+  "kind": "derived",
+  "name": "pair",
+  "args": [
+   "att|F5a-2|s1",
+   "O"
+  ],
+  "expect": 2.7425659894943237
+ },
+ {
+  "id": "K11d",
+  "kind": "derived",
+  "name": "pair",
+  "args": [
+   "att|F5a-2|s1",
+   "He"
+  ],
+  "expect": -7.129308223724365
+ },
+ {
+  "id": "K11e",
+  "kind": "repo_json_equals",
+  "file": "probes/olmo3-f5-think-prefix/results/tsd_r5b/cmt13_blocked_bind_moment_in_thinking.json",
+  "key": "sites.att|F5a-2|s1.top_heads.0.head",
+  "expect": "L50H23"
+ },
+ {
+  "id": "K12a",
+  "kind": "repo_json_equals",
+  "file": "probes/olmo3-f5-think-prefix/results/tsd_r5b/cmt13_blocked_bind_moment_in_thinking.json",
+  "key": "sites.cut|F5a-2|s1.t",
+  "expect": 397
+ },
+ {
+  "id": "K12b",
+  "kind": "repo_json_equals",
+  "file": "probes/olmo3-f5-think-prefix/results/tsd_r5b/cmt13_blocked_bind_moment_in_thinking.json",
+  "key": "sites.cut|F5a-2|s1.delta_out",
+  "expect": 1.2109375
+ },
+ {
+  "id": "K12c",
+  "kind": "derived",
+  "name": "pair",
+  "args": [
+   "cut|F5a-2|s1",
+   "O"
+  ],
+  "expect": 9.637725591659546
+ },
+ {
+  "id": "K12d",
+  "kind": "derived",
+  "name": "pair",
+  "args": [
+   "cut|F5a-2|s1",
+   "He"
+  ],
+  "expect": -8.208577871322632
+ },
+ {
+  "id": "K12e",
+  "kind": "repo_json_equals",
+  "file": "probes/olmo3-f5-think-prefix/results/tsd_r5b/cmt13_blocked_bind_moment_in_thinking.json",
+  "key": "sites.cut|F5a-2|s1.top_heads.0.head",
+  "expect": "L50H23"
+ },
+ {
+  "id": "K11f",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-28/explainer_moy1/inventory/check_values.out",
+  "literal": "(289, -4.3984375, 2.7425659894943237, -7.129308223724365, 'L50H23')",
+  "note": "V6 att"
+ },
+ {
+  "id": "K12f",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-28/explainer_moy1/inventory/check_values.out",
+  "literal": "(397, 1.2109375, 9.637725591659546, -8.208577871322632, 'L50H23')",
+  "note": "V6 cut"
+ },
+ {
+  "id": "K13a",
+  "kind": "derived",
+  "name": "l50_rank1",
+  "args": [
+   "att"
+  ],
+  "expect": 4
+ },
+ {
+  "id": "K13b",
+  "kind": "derived",
+  "name": "l50_rank1",
+  "args": [
+   "cut"
+  ],
+  "expect": 3
+ },
+ {
+  "id": "K13c",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-28/explainer_moy1/inventory/check_values.out",
+  "literal": "(4, 5, 3, 11)",
+  "note": "V8"
+ },
+ {
+  "id": "K14a",
+  "kind": "repo_json_equals",
+  "file": "probes/olmo3-f5-think-prefix/results/tsd_r5b/cmt13_blocked_bind_moment_in_thinking.json",
+  "key": "compare.jaccard_top10.cut~cut.mean",
+  "expect": 0.5130264566093443
+ },
+ {
+  "id": "K14b",
+  "kind": "repo_json_equals",
+  "file": "probes/olmo3-f5-think-prefix/results/tsd_r5b/cmt13_blocked_bind_moment_in_thinking.json",
+  "key": "compare.jaccard_top10.cut~att.mean",
+  "expect": 0.5282849355041869
+ },
+ {
+  "id": "K14c",
+  "kind": "repo_json_equals",
+  "file": "probes/olmo3-f5-think-prefix/results/tsd_r5b/cmt13_blocked_bind_moment_in_thinking.json",
+  "key": "compare.jaccard_top10.cut~concl_bind.mean",
+  "expect": 0.023923444976076555
+ },
+ {
+  "id": "K14d",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-28/explainer_moy1/inventory/check_values.out",
+  "literal": "(0.5130264566093443, 0.5282849355041869, 0.023923444976076555)",
+  "note": "V7"
+ },
+ {
+  "id": "K15a",
+  "kind": "repo_json_equals",
+  "file": "probes/olmo3-f5-think-prefix/results/tsd_r5b/cmt13_blocked_bind_moment_in_thinking.json",
+  "key": "controls.all_pass",
+  "expect": true
+ },
+ {
+  "id": "K15b",
+  "kind": "repo_json_equals",
+  "file": "probes/olmo3-f5-think-prefix/results/tsd_r5b/cmt13_blocked_bind_moment_in_thinking.json",
+  "key": "provenance.dirty",
+  "expect": false
+ },
+ {
+  "id": "K16a",
+  "kind": "derived",
+  "name": "cmt5",
+  "args": [
+   "F5a-2|think"
+  ],
+  "expect": 20
+ },
+ {
+  "id": "K16b",
+  "kind": "derived",
+  "name": "cmt5",
+  "args": [
+   "F5b-1|think"
+  ],
+  "expect": 20
+ },
+ {
+  "id": "K16c",
+  "kind": "derived",
+  "name": "cmt5",
+  "args": [
+   "F5a-2|answer"
+  ],
+  "expect": 5
+ },
+ {
+  "id": "K16d",
+  "kind": "derived",
+  "name": "cmt5",
+  "args": [
+   "F5b-1|answer"
+  ],
+  "expect": 3
+ },
+ {
+  "id": "K16e",
+  "kind": "repo_json_equals",
+  "file": "probes/olmo3-f5-think-prefix/results/tsd_r5b/cmt5_first_token_fixed_sampling.json",
+  "key": "controls.C1_pass",
+  "expect": false
+ },
+ {
+  "id": "K16f",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-28/explainer_moy1/inventory/check_values.out",
+  "literal": "(20, 20, 5, 3)",
+  "note": "V9"
+ },
+ {
+  "id": "K17ao",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/moy_suite_report.json",
+  "key": "moy1_circle_discriminator.gpt-5.open.bind",
+  "expect": 0
+ },
+ {
+  "id": "K17ab",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/moy_suite_report.json",
+  "key": "moy1_circle_discriminator.gpt-5.blocked.bind",
+  "expect": 8
+ },
+ {
+  "id": "K17bo",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/moy_suite_report.json",
+  "key": "moy1_circle_discriminator.claude-opus-4-8.open.bind",
+  "expect": 3
+ },
+ {
+  "id": "K17bb",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/moy_suite_report.json",
+  "key": "moy1_circle_discriminator.claude-opus-4-8.blocked.bind",
+  "expect": 10
+ },
+ {
+  "id": "K17co",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/moy_suite_report.json",
+  "key": "moy1_circle_discriminator.gpt-5-mini.open.bind",
+  "expect": 2
+ },
+ {
+  "id": "K17cb",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/moy_suite_report.json",
+  "key": "moy1_circle_discriminator.gpt-5-mini.blocked.bind",
+  "expect": 10
+ },
+ {
+  "id": "K17do",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/moy_suite_report.json",
+  "key": "moy1_circle_discriminator.qwen3:8b.open.bind",
+  "expect": 0
+ },
+ {
+  "id": "K17db",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/moy_suite_report.json",
+  "key": "moy1_circle_discriminator.qwen3:8b.blocked.bind",
+  "expect": 10
+ },
+ {
+  "id": "K17eo",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/moy_suite_report.json",
+  "key": "moy1_circle_discriminator.qwen3:32b.open.bind",
+  "expect": 0
+ },
+ {
+  "id": "K17eb",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/moy_suite_report.json",
+  "key": "moy1_circle_discriminator.qwen3:32b.blocked.bind",
+  "expect": 1
+ },
+ {
+  "id": "K17f",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/moy_suite_report.json",
+  "key": "moy1_circle_discriminator.qwen3:32b.blocked.attractor",
+  "expect": 7
+ },
+ {
+  "id": "K18a",
+  "kind": "derived",
+  "name": "think",
+  "args": [
+   "open"
+  ],
+  "expect": {
+   "B-stuck-L1": 9
+  }
+ },
+ {
+  "id": "K18b",
+  "kind": "derived",
+  "name": "think",
+  "args": [
+   "blocked"
+  ],
+  "expect": {
+   "B-bind": 7
+  }
+ },
+ {
+  "id": "K18c",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-28/explainer_moy1/inventory/check_values.out",
+  "literal": "({'B-stuck-L1': 9}, {'B-bind': 7})",
+  "note": "V11"
+ },
+ {
+  "id": "K19a",
+  "kind": "derived",
+  "name": "ratio",
+  "args": [
+   "O"
+  ],
+  "expect": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ {
+  "id": "K19b",
+  "kind": "derived",
+  "name": "ratio",
+  "args": [
+   "He"
+  ],
+  "expect": [
+   1.624,
+   0.861,
+   0.861,
+   1.624
+  ]
+ },
+ {
+  "id": "K21a",
+  "kind": "file_md5",
+  "file": "probes/moy1-claude5-replication/results/replication_config_frozen.json",
+  "expect": "c75122018f12b9031a4354b388be9a6d"
+ },
+ {
+  "id": "K21b",
+  "kind": "file_md5",
+  "file": "probes/olmo3-pc1-cue-invariance/results/pc1_runs.json",
+  "expect": "af884e143eddb46f350b2e9f6a5e53fe"
+ },
+ {
+  "id": "K21c",
+  "kind": "file_md5",
+  "file": "probes/olmo3-base-bf16-screen/results/screen_olmo3_base_bf16.json",
+  "expect": "63f4148df434c96f500bf8946d4bb1a6"
+ },
+ {
+  "id": "K21d",
+  "kind": "file_md5",
+  "file": "probes/olmo3-f5-think-prefix/results/f5_runs_F5a-2.json",
+  "expect": "9b9ff66b027c8fb94c3a1599ec671f3e"
+ },
+ {
+  "id": "K21e",
+  "kind": "file_md5",
+  "file": "probes/olmo3-f5-think-prefix/results/f5_runs_F5b-1.json",
+  "expect": "55e49dc076d8004899df53688494a1c4"
+ },
+ {
+  "id": "K21f",
+  "kind": "file_md5",
+  "file": "probes/olmo3-f5-think-prefix/results/tsd_r5b/cmt13_blocked_bind_moment_in_thinking.json",
+  "expect": "1fc95f7af0935dcb9f77bc08041c038a"
+ },
+ {
+  "id": "K21g",
+  "kind": "file_md5",
+  "file": "probes/olmo3-f5-think-prefix/results/tsd_r5b/cmt5_first_token_fixed_sampling.json",
+  "expect": "c5d64f9f5b83d79ffa114e8d8dad3507"
+ },
+ {
+  "id": "K21h",
+  "kind": "file_md5",
+  "file": "ConstructGap/exp/moy_suite_report.json",
+  "expect": "7f9732cc75c1ee15727c2428dd65b192"
+ },
+ {
+  "id": "K21i",
+  "kind": "file_md5",
+  "file": "probes/olmo3-behavior-screen/results/screen_olmo-3_32b.json",
+  "expect": "4e745b64d04c42794ada9fdd1f3f179a"
+ },
+ {
+  "id": "K16g",
+  "kind": "derived",
+  "name": "cmt5_bind_cell",
+  "args": [
+   "F5a-2|think",
+   "field"
+  ],
+  "expect": 17,
+  "note": "answer-field label (label_json_fields) of F5a-2|think: bind rows"
+ },
+ {
+  "id": "K16h",
+  "kind": "derived",
+  "name": "cmt5_bind_cell",
+  "args": [
+   "F5b-1|think",
+   "field"
+  ],
+  "expect": 19,
+  "note": "answer-field label (label_json_fields) of F5b-1|think: bind rows"
+ },
+ {
+  "id": "K16i",
+  "kind": "derived",
+  "name": "cmt5_bind_cell",
+  "args": [
+   "F5a-2|answer",
+   "field"
+  ],
+  "expect": 2,
+  "note": "answer-field label (label_json_fields) of F5a-2|answer: bind rows"
+ },
+ {
+  "id": "K16j",
+  "kind": "derived",
+  "name": "cmt5_bind_cell",
+  "args": [
+   "F5b-1|answer",
+   "field"
+  ],
+  "expect": 2,
+  "note": "answer-field label (label_json_fields) of F5b-1|answer: bind rows"
+ },
+ {
+  "id": "K16k",
+  "kind": "derived",
+  "name": "cmt5_bind",
+  "args": [
+   "think",
+   "full"
+  ],
+  "expect": 40,
+  "note": "bind rows pooled over F5a-2 and F5b-1: think · full"
+ },
+ {
+  "id": "K16l",
+  "kind": "derived",
+  "name": "cmt5_bind",
+  "args": [
+   "think",
+   "field"
+  ],
+  "expect": 36,
+  "note": "bind rows pooled over F5a-2 and F5b-1: think · field"
+ },
+ {
+  "id": "K16m",
+  "kind": "derived",
+  "name": "cmt5_bind",
+  "args": [
+   "answer",
+   "full"
+  ],
+  "expect": 8,
+  "note": "bind rows pooled over F5a-2 and F5b-1: answer · full"
+ },
+ {
+  "id": "K16n",
+  "kind": "derived",
+  "name": "cmt5_bind",
+  "args": [
+   "answer",
+   "field"
+  ],
+  "expect": 4,
+  "note": "bind rows pooled over F5a-2 and F5b-1: answer · field"
+ },
+ {
+  "id": "K16o",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "labels_full_vs_answer_field.think|B-bind|B-bind",
+  "expect": 36,
+  "note": "BRIEF v2 §3 labels"
+ },
+ {
+  "id": "K16p",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "labels_full_vs_answer_field.think|B-bind|B-attractor",
+  "expect": 4,
+  "note": "BRIEF v2 §3 labels"
+ },
+ {
+  "id": "K16q",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "labels_full_vs_answer_field.answer|B-bind|B-bind",
+  "expect": 4,
+  "note": "BRIEF v2 §3 labels"
+ },
+ {
+  "id": "K16r",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "labels_full_vs_answer_field.answer|B-bind|B-stuck-L1",
+  "expect": 3,
+  "note": "BRIEF v2 §3 labels"
+ },
+ {
+  "id": "K16s",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "labels_full_vs_answer_field.answer|B-bind|B-attractor",
+  "expect": 1,
+  "note": "BRIEF v2 §3 labels"
+ },
+ {
+  "id": "K16t",
+  "kind": "pack_equals",
+  "file": "generated/pack.json",
+  "key": "olm59.cmt5_two.think.field.B-bind",
+  "expect": 36
+ },
+ {
+  "id": "K22a",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/control.json",
+  "key": "C1.fve",
+  "expect": 0.4393749237060547,
+  "note": "BRIEF v2 §3 (control.json)"
+ },
+ {
+  "id": "K22b",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/control.json",
+  "key": "C1.l0",
+  "expect": 235.35857843137254,
+  "note": "BRIEF v2 §3 (control.json)"
+ },
+ {
+  "id": "K22c",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/control.json",
+  "key": "C1.n",
+  "expect": 4080,
+  "note": "BRIEF v2 §3 (control.json)"
+ },
+ {
+  "id": "K22d",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/control.json",
+  "key": "C2.equal",
+  "expect": 120,
+  "note": "BRIEF v2 §3 (control.json)"
+ },
+ {
+  "id": "K22e",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/control.json",
+  "key": "C2.n",
+  "expect": 120,
+  "note": "BRIEF v2 §3 (control.json)"
+ },
+ {
+  "id": "K22f",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/control.json",
+  "key": "C3.F5a-2",
+  "expect": "20 / 20",
+  "note": "BRIEF v2 §3 (control.json)"
+ },
+ {
+  "id": "K22g",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/control.json",
+  "key": "C3.F5b-1",
+  "expect": "20 / 20",
+  "note": "BRIEF v2 §3 (control.json)"
+ },
+ {
+  "id": "K22h",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/control.json",
+  "key": "pass.C1",
+  "expect": true,
+  "note": "BRIEF v2 §3 (control.json)"
+ },
+ {
+  "id": "K22i",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/control.json",
+  "key": "pass.C2",
+  "expect": true,
+  "note": "BRIEF v2 §3 (control.json)"
+ },
+ {
+  "id": "K22j",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/control.json",
+  "key": "pass.C3",
+  "expect": true,
+  "note": "BRIEF v2 §3 (control.json)"
+ },
+ {
+  "id": "K22k",
+  "kind": "file_md5",
+  "file": "ConstructGap/exp/olm59/control.json",
+  "expect": "76b11c02129d589229d251a6c55d7857",
+  "note": "BRIEF v2 §1"
+ },
+ {
+  "id": "K22l",
+  "kind": "file_md5",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "expect": "dfe5b0aa0823ad09853d3a2b3acfc1e9",
+  "note": "BRIEF v2 §1"
+ },
+ {
+  "id": "K22m",
+  "kind": "pack_equals",
+  "file": "generated/pack.json",
+  "key": "olm59.control.C1.fve",
+  "expect": 0.4393749237060547
+ },
+ {
+  "id": "K23a",
+  "kind": "derived",
+  "name": "o59_scene_choice",
+  "args": [],
+  "expect": [
+   "F5a-2__think__r15",
+   1210,
+   1266,
+   "F5b-1__natural__r14",
+   118,
+   122
+  ],
+  "note": "BRIEF v2 §0: the shortest generation satisfying the predicate (a unique minimum)"
+ },
+ {
+  "id": "K23b",
+  "kind": "derived_close",
+  "name": "o59_scene",
+  "args": [
+   "F5a-2__think__r15",
+   "o_diam"
+  ],
+  "expect": {
+   "n": 1210,
+   "event": 329,
+   "before": [
+    0.33665206,
+    0.097949648,
+    2.148621757,
+    0.504459267
+   ],
+   "after": [
+    0.315731636,
+    0.925662383,
+    1.292744555,
+    0.444035174
+   ]
+  },
+  "tol": 1e-06,
+  "note": "S_O: BRIEF v2 §3 (n and the event token) · the window means by cumulative sums"
+ },
+ {
+  "id": "K23c",
+  "kind": "pack_close_derived",
+  "name": "o59_scene",
+  "args": [
+   "F5a-2__think__r15",
+   "o_diam"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.S_O.before",
+  "pick": "before",
+  "tol": 1e-09
+ },
+ {
+  "id": "K23d",
+  "kind": "pack_close_derived",
+  "name": "o59_scene",
+  "args": [
+   "F5a-2__think__r15",
+   "o_diam"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.S_O.after",
+  "pick": "after",
+  "tol": 1e-09
+ },
+ {
+  "id": "K23e",
+  "kind": "pack_close_derived",
+  "name": "o59_scene",
+  "args": [
+   "F5a-2__think__r15",
+   "o_diam"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.S_O.event",
+  "pick": "event"
+ },
+ {
+  "id": "K23f",
+  "kind": "pack_close_derived",
+  "name": "o59_scene",
+  "args": [
+   "F5a-2__think__r15",
+   "o_diam"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.S_O.n",
+  "pick": "n"
+ },
+ {
+  "id": "K24b",
+  "kind": "derived_close",
+  "name": "o59_scene",
+  "args": [
+   "F5b-1__natural__r14",
+   "h_diam"
+  ],
+  "expect": {
+   "n": 118,
+   "event": 45,
+   "before": [
+    0.733080413,
+    0.025495845,
+    2.618415799,
+    0.245264446
+   ],
+   "after": [
+    0.786194627,
+    0.010371664,
+    2.778696969,
+    0.37785687
+   ]
+  },
+  "tol": 1e-06,
+  "note": "S_H: BRIEF v2 §3 (n and the event token) · the window means by cumulative sums"
+ },
+ {
+  "id": "K24c",
+  "kind": "pack_close_derived",
+  "name": "o59_scene",
+  "args": [
+   "F5b-1__natural__r14",
+   "h_diam"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.S_H.before",
+  "pick": "before",
+  "tol": 1e-09
+ },
+ {
+  "id": "K24d",
+  "kind": "pack_close_derived",
+  "name": "o59_scene",
+  "args": [
+   "F5b-1__natural__r14",
+   "h_diam"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.S_H.after",
+  "pick": "after",
+  "tol": 1e-09
+ },
+ {
+  "id": "K24e",
+  "kind": "pack_close_derived",
+  "name": "o59_scene",
+  "args": [
+   "F5b-1__natural__r14",
+   "h_diam"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.S_H.event",
+  "pick": "event"
+ },
+ {
+  "id": "K24f",
+  "kind": "pack_close_derived",
+  "name": "o59_scene",
+  "args": [
+   "F5b-1__natural__r14",
+   "h_diam"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.S_H.n",
+  "pick": "n"
+ },
+ {
+  "id": "K25a",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "Q3_desc.o_diam|close|all.after_gt_before",
+  "expect": 9,
+  "note": "read.json Q3_desc['o_diam|close|all'] (BRIEF v2 §3 for mid / close / ans)"
+ },
+ {
+  "id": "K25am",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "Q3_desc.o_diam|close|all.median_diff",
+  "expect": -0.14089420437812805,
+  "note": "the card's own median"
+ },
+ {
+  "id": "K25ar",
+  "kind": "derived_close",
+  "name": "o59_q3",
+  "args": [
+   "o_diam",
+   "close",
+   "all"
+  ],
+  "expect": [
+   59,
+   9,
+   -0.14089420437812805
+  ],
+  "tol": 1e-06,
+  "note": "recounted from the arrays: n, after > before, the median (1e-6)"
+ },
+ {
+  "id": "K25ap",
+  "kind": "pack_close_derived",
+  "name": "o59_q3",
+  "args": [
+   "o_diam",
+   "close",
+   "all"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.agg.o_diam.groups.close.all.up",
+  "pick": 1
+ },
+ {
+  "id": "K25aq",
+  "kind": "pack_close_derived",
+  "name": "o59_q3",
+  "args": [
+   "o_diam",
+   "close",
+   "all"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.agg.o_diam.groups.close.all.med",
+  "pick": 2,
+  "tol": 1e-06
+ },
+ {
+  "id": "K25b",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "Q3_desc.o_diam|mid|all.after_gt_before",
+  "expect": 48,
+  "note": "read.json Q3_desc['o_diam|mid|all'] (BRIEF v2 §3 for mid / close / ans)"
+ },
+ {
+  "id": "K25bm",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "Q3_desc.o_diam|mid|all.median_diff",
+  "expect": 0.1574450582265854,
+  "note": "the card's own median"
+ },
+ {
+  "id": "K25br",
+  "kind": "derived_close",
+  "name": "o59_q3",
+  "args": [
+   "o_diam",
+   "mid",
+   "all"
+  ],
+  "expect": [
+   59,
+   48,
+   0.1574450582265854
+  ],
+  "tol": 1e-06,
+  "note": "recounted from the arrays: n, after > before, the median (1e-6)"
+ },
+ {
+  "id": "K25bp",
+  "kind": "pack_close_derived",
+  "name": "o59_q3",
+  "args": [
+   "o_diam",
+   "mid",
+   "all"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.agg.o_diam.groups.mid.all.up",
+  "pick": 1
+ },
+ {
+  "id": "K25bq",
+  "kind": "pack_close_derived",
+  "name": "o59_q3",
+  "args": [
+   "o_diam",
+   "mid",
+   "all"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.agg.o_diam.groups.mid.all.med",
+  "pick": 2,
+  "tol": 1e-06
+ },
+ {
+  "id": "K25c",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "Q3_desc.o_diam|ans|all.after_gt_before",
+  "expect": 10,
+  "note": "read.json Q3_desc['o_diam|ans|all'] (BRIEF v2 §3 for mid / close / ans)"
+ },
+ {
+  "id": "K25cm",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "Q3_desc.o_diam|ans|all.median_diff",
+  "expect": -0.25116610527038574,
+  "note": "the card's own median"
+ },
+ {
+  "id": "K25cr",
+  "kind": "derived_close",
+  "name": "o59_q3",
+  "args": [
+   "o_diam",
+   "ans",
+   "all"
+  ],
+  "expect": [
+   59,
+   10,
+   -0.25116610527038574
+  ],
+  "tol": 1e-06,
+  "note": "recounted from the arrays: n, after > before, the median (1e-6)"
+ },
+ {
+  "id": "K25cp",
+  "kind": "pack_close_derived",
+  "name": "o59_q3",
+  "args": [
+   "o_diam",
+   "ans",
+   "all"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.agg.o_diam.groups.ans.all.up",
+  "pick": 1
+ },
+ {
+  "id": "K25cq",
+  "kind": "pack_close_derived",
+  "name": "o59_q3",
+  "args": [
+   "o_diam",
+   "ans",
+   "all"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.agg.o_diam.groups.ans.all.med",
+  "pick": 2,
+  "tol": 1e-06
+ },
+ {
+  "id": "K25d",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "Q3_desc.o_diam|think|all.after_gt_before",
+  "expect": 21,
+  "note": "read.json Q3_desc['o_diam|think|all'] (BRIEF v2 §3 for mid / close / ans)"
+ },
+ {
+  "id": "K25dm",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "Q3_desc.o_diam|think|all.median_diff",
+  "expect": -0.05188798904418945,
+  "note": "the card's own median"
+ },
+ {
+  "id": "K25dr",
+  "kind": "derived_close",
+  "name": "o59_q3",
+  "args": [
+   "o_diam",
+   "think",
+   "all"
+  ],
+  "expect": [
+   59,
+   21,
+   -0.05188798904418945
+  ],
+  "tol": 1e-06,
+  "note": "recounted from the arrays: n, after > before, the median (1e-6)"
+ },
+ {
+  "id": "K25dp",
+  "kind": "pack_close_derived",
+  "name": "o59_q3",
+  "args": [
+   "o_diam",
+   "think",
+   "all"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.agg.o_diam.groups.think.all.up",
+  "pick": 1
+ },
+ {
+  "id": "K25dq",
+  "kind": "pack_close_derived",
+  "name": "o59_q3",
+  "args": [
+   "o_diam",
+   "think",
+   "all"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.agg.o_diam.groups.think.all.med",
+  "pick": 2,
+  "tol": 1e-06
+ },
+ {
+  "id": "K26a",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "Q3_desc.h_diam|close|all.after_gt_before",
+  "expect": 17,
+  "note": "read.json Q3_desc['h_diam|close|all'] (BRIEF v2 §3 for mid / close / ans)"
+ },
+ {
+  "id": "K26am",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "Q3_desc.h_diam|close|all.median_diff",
+  "expect": -0.008824542164802551,
+  "note": "the card's own median"
+ },
+ {
+  "id": "K26ar",
+  "kind": "derived_close",
+  "name": "o59_q3",
+  "args": [
+   "h_diam",
+   "close",
+   "all"
+  ],
+  "expect": [
+   34,
+   17,
+   -0.008824542164802551
+  ],
+  "tol": 1e-06,
+  "note": "recounted from the arrays: n, after > before, the median (1e-6)"
+ },
+ {
+  "id": "K26ap",
+  "kind": "pack_close_derived",
+  "name": "o59_q3",
+  "args": [
+   "h_diam",
+   "close",
+   "all"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.agg.h_diam.groups.close.all.up",
+  "pick": 1
+ },
+ {
+  "id": "K26aq",
+  "kind": "pack_close_derived",
+  "name": "o59_q3",
+  "args": [
+   "h_diam",
+   "close",
+   "all"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.agg.h_diam.groups.close.all.med",
+  "pick": 2,
+  "tol": 1e-06
+ },
+ {
+  "id": "K26b",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "Q3_desc.h_diam|mid|all.after_gt_before",
+  "expect": 18,
+  "note": "read.json Q3_desc['h_diam|mid|all'] (BRIEF v2 §3 for mid / close / ans)"
+ },
+ {
+  "id": "K26bm",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "Q3_desc.h_diam|mid|all.median_diff",
+  "expect": 0.009897790849208832,
+  "note": "the card's own median"
+ },
+ {
+  "id": "K26br",
+  "kind": "derived_close",
+  "name": "o59_q3",
+  "args": [
+   "h_diam",
+   "mid",
+   "all"
+  ],
+  "expect": [
+   34,
+   18,
+   0.009897790849208832
+  ],
+  "tol": 1e-06,
+  "note": "recounted from the arrays: n, after > before, the median (1e-6)"
+ },
+ {
+  "id": "K26bp",
+  "kind": "pack_close_derived",
+  "name": "o59_q3",
+  "args": [
+   "h_diam",
+   "mid",
+   "all"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.agg.h_diam.groups.mid.all.up",
+  "pick": 1
+ },
+ {
+  "id": "K26bq",
+  "kind": "pack_close_derived",
+  "name": "o59_q3",
+  "args": [
+   "h_diam",
+   "mid",
+   "all"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.agg.h_diam.groups.mid.all.med",
+  "pick": 2,
+  "tol": 1e-06
+ },
+ {
+  "id": "K26c",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "Q3_desc.h_diam|ans|all.after_gt_before",
+  "expect": 11,
+  "note": "read.json Q3_desc['h_diam|ans|all'] (BRIEF v2 §3 for mid / close / ans)"
+ },
+ {
+  "id": "K26cm",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "Q3_desc.h_diam|ans|all.median_diff",
+  "expect": -0.04344111680984497,
+  "note": "the card's own median"
+ },
+ {
+  "id": "K26cr",
+  "kind": "derived_close",
+  "name": "o59_q3",
+  "args": [
+   "h_diam",
+   "ans",
+   "all"
+  ],
+  "expect": [
+   34,
+   11,
+   -0.04344111680984497
+  ],
+  "tol": 1e-06,
+  "note": "recounted from the arrays: n, after > before, the median (1e-6)"
+ },
+ {
+  "id": "K26cp",
+  "kind": "pack_close_derived",
+  "name": "o59_q3",
+  "args": [
+   "h_diam",
+   "ans",
+   "all"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.agg.h_diam.groups.ans.all.up",
+  "pick": 1
+ },
+ {
+  "id": "K26cq",
+  "kind": "pack_close_derived",
+  "name": "o59_q3",
+  "args": [
+   "h_diam",
+   "ans",
+   "all"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.agg.h_diam.groups.ans.all.med",
+  "pick": 2,
+  "tol": 1e-06
+ },
+ {
+  "id": "K26d",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "Q3_desc.h_diam|think|all.after_gt_before",
+  "expect": 19,
+  "note": "read.json Q3_desc['h_diam|think|all'] (BRIEF v2 §3 for mid / close / ans)"
+ },
+ {
+  "id": "K26dm",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "Q3_desc.h_diam|think|all.median_diff",
+  "expect": 0.0037377476692199707,
+  "note": "the card's own median"
+ },
+ {
+  "id": "K26dr",
+  "kind": "derived_close",
+  "name": "o59_q3",
+  "args": [
+   "h_diam",
+   "think",
+   "all"
+  ],
+  "expect": [
+   34,
+   19,
+   0.0037377476692199707
+  ],
+  "tol": 1e-06,
+  "note": "recounted from the arrays: n, after > before, the median (1e-6)"
+ },
+ {
+  "id": "K26dp",
+  "kind": "pack_close_derived",
+  "name": "o59_q3",
+  "args": [
+   "h_diam",
+   "think",
+   "all"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.agg.h_diam.groups.think.all.up",
+  "pick": 1
+ },
+ {
+  "id": "K26dq",
+  "kind": "pack_close_derived",
+  "name": "o59_q3",
+  "args": [
+   "h_diam",
+   "think",
+   "all"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.agg.h_diam.groups.think.all.med",
+  "pick": 2,
+  "tol": 1e-06
+ },
+ {
+  "id": "K25e",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-28/RESULT_olm59_moy1_sae_trajectory_by_construction_mentions_20261028.md",
+  "literal": "| 全行 | 59 | 9(−0.141) | **48(+0.157)** | 10(−0.251) | 21(−0.052) |",
+  "note": "RESULT olm59 §3 (the card's own table, read as text)"
+ },
+ {
+  "id": "K26e",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-28/RESULT_olm59_moy1_sae_trajectory_by_construction_mentions_20261028.md",
+  "literal": "| 全行 | 34 | 17(−0.009) | 18(+0.010) | 11(−0.043) | 19(+0.004) |",
+  "note": "RESULT olm59 §3"
+ },
+ {
+  "id": "K27an",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "Q1_think_bind_o_diam_close.n",
+  "expect": 36,
+  "note": "BRIEF v2 §3"
+ },
+ {
+  "id": "K27ao",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "Q1_think_bind_o_diam_close.after_gt_before",
+  "expect": 6,
+  "note": "BRIEF v2 §3"
+ },
+ {
+  "id": "K27am",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "Q1_think_bind_o_diam_close.median_diff",
+  "expect": -0.13580204546451569,
+  "note": "BRIEF v2 §3"
+ },
+ {
+  "id": "K27ar",
+  "kind": "derived_close",
+  "name": "o59_q",
+  "args": [
+   "Q1"
+  ],
+  "expect": [
+   36,
+   6,
+   -0.13580204546451569
+  ],
+  "tol": 1e-06,
+  "note": "recounted from the arrays"
+ },
+ {
+  "id": "K27ap",
+  "kind": "pack_close_derived",
+  "name": "o59_q",
+  "args": [
+   "Q1"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.Q1.up",
+  "pick": 1
+ },
+ {
+  "id": "K27bn",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "Q2_any_h_diam_close.n",
+  "expect": 34,
+  "note": "BRIEF v2 §3"
+ },
+ {
+  "id": "K27bo",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "Q2_any_h_diam_close.after_gt_before",
+  "expect": 17,
+  "note": "BRIEF v2 §3"
+ },
+ {
+  "id": "K27bm",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "Q2_any_h_diam_close.median_diff",
+  "expect": -0.008824542164802551,
+  "note": "BRIEF v2 §3"
+ },
+ {
+  "id": "K27br",
+  "kind": "derived_close",
+  "name": "o59_q",
+  "args": [
+   "Q2"
+  ],
+  "expect": [
+   34,
+   17,
+   -0.008824542164802551
+  ],
+  "tol": 1e-06,
+  "note": "recounted from the arrays"
+ },
+ {
+  "id": "K27bp",
+  "kind": "pack_close_derived",
+  "name": "o59_q",
+  "args": [
+   "Q2"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.Q2.up",
+  "pick": 1
+ },
+ {
+  "id": "K27c",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-28/PREREG_olm59_moy1_sae_trajectory_by_construction_mentions_20261028.md",
+  "literal": "後 32 > 前 32 が ≥ 70 %",
+  "note": "PREREG §3 Q1's threshold"
+ },
+ {
+  "id": "K27d",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-28/PREREG_olm59_moy1_sae_trajectory_by_construction_mentions_20261028.md",
+  "literal": "後 32 > 前 32 が ≥ 60 %",
+  "note": "PREREG §3 Q2's threshold"
+ },
+ {
+  "id": "K27e",
+  "kind": "pack_equals",
+  "file": "generated/pack.json",
+  "key": "olm59.Q1.thr",
+  "expect": 0.7
+ },
+ {
+  "id": "K27f",
+  "kind": "pack_equals",
+  "file": "generated/pack.json",
+  "key": "olm59.Q2.thr",
+  "expect": 0.6
+ },
+ {
+  "id": "K28a",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "labels_full_vs_answer_field",
+  "expect": {
+   "answer|B-stuck-L1|B-stuck-L1": 12,
+   "answer|B-attractor|B-attractor": 19,
+   "answer|B-bind|B-bind": 4,
+   "answer|B-bind|B-stuck-L1": 3,
+   "answer|B-flail|B-flail": 1,
+   "natural|B-bind|B-bind": 18,
+   "natural|B-attractor|B-attractor": 10,
+   "natural|B-attractor|B-flail": 2,
+   "natural|B-bind|B-attractor": 6,
+   "natural|B-bind|B-flail": 1,
+   "think|B-bind|B-attractor": 4,
+   "think|B-bind|B-bind": 36,
+   "answer|B-bind|B-attractor": 1,
+   "natural|B-stuck-L1|B-stuck-L1": 3
+  },
+  "note": "the card's own table of (kind | whole-text label | answer-field label)"
+ },
+ {
+  "id": "K28b",
+  "kind": "derived",
+  "name": "o59_labels",
+  "args": [],
+  "expect": {
+   "answer|B-stuck-L1|B-stuck-L1": 12,
+   "answer|B-attractor|B-attractor": 19,
+   "answer|B-bind|B-bind": 4,
+   "answer|B-bind|B-stuck-L1": 3,
+   "answer|B-flail|B-flail": 1,
+   "natural|B-bind|B-bind": 18,
+   "natural|B-attractor|B-attractor": 10,
+   "natural|B-attractor|B-flail": 2,
+   "natural|B-bind|B-attractor": 6,
+   "natural|B-bind|B-flail": 1,
+   "think|B-bind|B-attractor": 4,
+   "think|B-bind|B-bind": 36,
+   "answer|B-bind|B-attractor": 1,
+   "natural|B-stuck-L1|B-stuck-L1": 3
+  },
+  "note": "recounted from the arrays' meta"
+ },
+ {
+  "id": "K28c",
+  "kind": "derived",
+  "name": "cmt5_full_bind_to",
+  "args": [
+   "think"
+  ],
+  "expect": {
+   "B-attractor": 4,
+   "B-bind": 36
+  },
+  "note": "where the whole-text bind rows go in the answer-field label"
+ },
+ {
+  "id": "K28d",
+  "kind": "derived",
+  "name": "cmt5_full_bind_to",
+  "args": [
+   "answer"
+  ],
+  "expect": {
+   "B-attractor": 1,
+   "B-bind": 4,
+   "B-stuck-L1": 3
+  }
+ },
+ {
+  "id": "K28e",
+  "kind": "derived",
+  "name": "cmt5_full_bind_to",
+  "args": [
+   "natural"
+  ],
+  "expect": {
+   "B-attractor": 6,
+   "B-bind": 18,
+   "B-flail": 1
+  }
+ },
+ {
+  "id": "K29a",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "counts.rows_with_o_diam",
+  "expect": 64
+ },
+ {
+  "id": "K29b",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "counts.rows_with_h_diam",
+  "expect": 44
+ },
+ {
+  "id": "K29c",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "half",
+  "expect": 32
+ },
+ {
+  "id": "K29d",
+  "kind": "derived",
+  "name": "o59_counts",
+  "args": [],
+  "expect": {
+   "rows_o": 64,
+   "rows_h": 44,
+   "fit_o": 59,
+   "fit_h": 34,
+   "tokens": {
+    "o_name": 6354,
+    "h_name": 2124,
+    "o_diam": 3663,
+    "h_diam": 678,
+    "circle": 2725,
+    "json": 15170
+   }
+  },
+  "note": "recounted from the arrays: rows with an event, rows whose two windows fit, the flagged tokens"
+ },
+ {
+  "id": "K29e",
+  "kind": "derived",
+  "name": "o59_manifest_md5",
+  "args": [],
+  "expect": "c8f5cfab854351299915d9486d8c5374",
+  "note": "the md5 of the 'name md5' lines of the 120 npz files"
+ },
+ {
+  "id": "K29f",
+  "kind": "pack_equals",
+  "file": "generated/pack.json",
+  "key": "olm59.sources.rows.manifest_md5",
+  "expect": "c8f5cfab854351299915d9486d8c5374"
+ },
+ {
+  "id": "K29g",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-28/RESULT_olm59_moy1_sae_trajectory_by_construction_mentions_20261028.md",
+  "literal": "出来事を持つ行 = `o_diam` 64・`h_diam` 44(前後 32 が収まるのは 59・34)",
+  "note": "RESULT olm59 §3"
+ },
+ {
+  "id": "K23g",
+  "kind": "pack_close_derived",
+  "name": "o59_rank",
+  "args": [
+   "F5a-2__think__r15",
+   "o_diam",
+   "close"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.S_O.rank.close",
+  "tol": 0,
+  "note": "S_O: the rank of the scene row among the rows of its aggregate (close): [by signed difference, by |difference|, n]"
+ },
+ {
+  "id": "K23h",
+  "kind": "pack_close_derived",
+  "name": "o59_rank",
+  "args": [
+   "F5a-2__think__r15",
+   "o_diam",
+   "mid"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.S_O.rank.mid",
+  "tol": 0,
+  "note": "S_O: the rank of the scene row among the rows of its aggregate (mid): [by signed difference, by |difference|, n]"
+ },
+ {
+  "id": "K23i",
+  "kind": "pack_close_derived",
+  "name": "o59_rank",
+  "args": [
+   "F5a-2__think__r15",
+   "o_diam",
+   "ans"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.S_O.rank.ans",
+  "tol": 0,
+  "note": "S_O: the rank of the scene row among the rows of its aggregate (ans): [by signed difference, by |difference|, n]"
+ },
+ {
+  "id": "K23j",
+  "kind": "pack_close_derived",
+  "name": "o59_rank",
+  "args": [
+   "F5a-2__think__r15",
+   "o_diam",
+   "think"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.S_O.rank.think",
+  "tol": 0,
+  "note": "S_O: the rank of the scene row among the rows of its aggregate (think): [by signed difference, by |difference|, n]"
+ },
+ {
+  "id": "K24g",
+  "kind": "pack_close_derived",
+  "name": "o59_rank",
+  "args": [
+   "F5b-1__natural__r14",
+   "h_diam",
+   "close"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.S_H.rank.close",
+  "tol": 0,
+  "note": "S_H: the rank of the scene row among the rows of its aggregate (close): [by signed difference, by |difference|, n]"
+ },
+ {
+  "id": "K24h",
+  "kind": "pack_close_derived",
+  "name": "o59_rank",
+  "args": [
+   "F5b-1__natural__r14",
+   "h_diam",
+   "mid"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.S_H.rank.mid",
+  "tol": 0,
+  "note": "S_H: the rank of the scene row among the rows of its aggregate (mid): [by signed difference, by |difference|, n]"
+ },
+ {
+  "id": "K24i",
+  "kind": "pack_close_derived",
+  "name": "o59_rank",
+  "args": [
+   "F5b-1__natural__r14",
+   "h_diam",
+   "ans"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.S_H.rank.ans",
+  "tol": 0,
+  "note": "S_H: the rank of the scene row among the rows of its aggregate (ans): [by signed difference, by |difference|, n]"
+ },
+ {
+  "id": "K24j",
+  "kind": "pack_close_derived",
+  "name": "o59_rank",
+  "args": [
+   "F5b-1__natural__r14",
+   "h_diam",
+   "think"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.S_H.rank.think",
+  "tol": 0,
+  "note": "S_H: the rank of the scene row among the rows of its aggregate (think): [by signed difference, by |difference|, n]"
+ },
+ {
+  "id": "K30a",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/control.json",
+  "key": "C1.o_diam.got.n",
+  "expect": 59,
+  "note": "olm62 control.json"
+ },
+ {
+  "id": "K30b",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/control.json",
+  "key": "C1.o_diam.got.after_gt_before",
+  "expect": 48,
+  "note": "olm62 control.json"
+ },
+ {
+  "id": "K30c",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/control.json",
+  "key": "C1.o_diam.got.median_diff",
+  "expect": 0.1574450582265854,
+  "note": "olm62 control.json"
+ },
+ {
+  "id": "K30d",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/control.json",
+  "key": "C1.h_diam.got.n",
+  "expect": 34,
+  "note": "olm62 control.json"
+ },
+ {
+  "id": "K30e",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/control.json",
+  "key": "C1.h_diam.got.after_gt_before",
+  "expect": 18,
+  "note": "olm62 control.json"
+ },
+ {
+  "id": "K30f",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/control.json",
+  "key": "C1.h_diam.got.median_diff",
+  "expect": 0.009897790849208832,
+  "note": "olm62 control.json"
+ },
+ {
+  "id": "K30g",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/control.json",
+  "key": "C2.digit_tokens",
+  "expect": 32498,
+  "note": "olm62 control.json"
+ },
+ {
+  "id": "K30h",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/control.json",
+  "key": "C2.digit_pos",
+  "expect": 32498,
+  "note": "olm62 control.json"
+ },
+ {
+  "id": "K30i",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/control.json",
+  "key": "C2.alpha_tokens",
+  "expect": 84759,
+  "note": "olm62 control.json"
+ },
+ {
+  "id": "K30j",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/control.json",
+  "key": "C2.alpha_zero",
+  "expect": 84759,
+  "note": "olm62 control.json"
+ },
+ {
+  "id": "K30k",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/control.json",
+  "key": "pass.C1",
+  "expect": true,
+  "note": "olm62 control.json"
+ },
+ {
+  "id": "K30l",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/control.json",
+  "key": "pass.C2",
+  "expect": true,
+  "note": "olm62 control.json"
+ },
+ {
+  "id": "K30m",
+  "kind": "derived",
+  "name": "o62_c2",
+  "args": [],
+  "expect": [
+   32498,
+   32498,
+   84759,
+   84759
+  ],
+  "note": "recounted from the npz files: [digit-only tokens, with a formula character, letter-only tokens, with none]"
+ },
+ {
+  "id": "K30n",
+  "kind": "derived_close",
+  "name": "o59_q3",
+  "args": [
+   "o_diam",
+   "mid",
+   "all"
+  ],
+  "expect": [
+   59,
+   48,
+   0.1574450582265854
+  ],
+  "tol": 1e-06,
+  "note": "C1 recount (o_diam): n, after > before, median"
+ },
+ {
+  "id": "K30o",
+  "kind": "derived_close",
+  "name": "o59_q3",
+  "args": [
+   "h_diam",
+   "mid",
+   "all"
+  ],
+  "expect": [
+   34,
+   18,
+   0.009897790849208832
+  ],
+  "tol": 1e-06,
+  "note": "C1 recount (h_diam)"
+ },
+ {
+  "id": "K30p",
+  "kind": "pack_equals",
+  "file": "generated/pack.json",
+  "key": "olm62.control.C2.alpha_tokens",
+  "expect": 84759,
+  "note": "the page carries the card's own control"
+ },
+ {
+  "id": "K30q",
+  "kind": "pack_equals",
+  "file": "generated/pack.json",
+  "key": "olm62.control.C1.o_diam.got.median_diff",
+  "expect": 0.1574450582265854
+ },
+ {
+  "id": "K31a",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "o_diam.math_up",
+  "expect": 48,
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K31b",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "o_diam.n",
+  "expect": 59,
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K31c",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "o_diam.math_median_diff",
+  "expect": 0.125,
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K31d",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "h_diam.math_up",
+  "expect": 8,
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K31e",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "h_diam.n",
+  "expect": 34,
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K31f",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "h_diam.math_median_diff",
+  "expect": -0.0390625,
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K31g",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "Q1.o_diam_math_up",
+  "expect": "48 / 59",
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K31h",
+  "kind": "derived_close",
+  "name": "o62",
+  "args": [
+   "o_diam",
+   "math"
+  ],
+  "expect": [
+   59,
+   48,
+   0.125
+  ],
+  "tol": 1e-12,
+  "note": "recount: [n, Δmath > 0, median Δmath]"
+ },
+ {
+  "id": "K31i",
+  "kind": "derived_close",
+  "name": "o62",
+  "args": [
+   "h_diam",
+   "math"
+  ],
+  "expect": [
+   34,
+   8,
+   -0.0390625
+  ],
+  "tol": 1e-12
+ },
+ {
+  "id": "K31j",
+  "kind": "pack_equals",
+  "file": "generated/pack.json",
+  "key": "olm62.read.o_diam.math_up",
+  "expect": 48
+ },
+ {
+  "id": "K31k",
+  "kind": "pack_equals",
+  "file": "generated/pack.json",
+  "key": "olm62.read.h_diam.math_up",
+  "expect": 8
+ },
+ {
+  "id": "K32a",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "o_diam.spearman_mid_math",
+  "expect": 0.7804792518994741,
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K32b",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "h_diam.spearman_mid_math",
+  "expect": 0.21161191749427039,
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K32c",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "Q3_pooled_token_spearman_mid_math",
+  "expect": 0.4152617665861453,
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K32d",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "n_tokens",
+  "expect": 162545,
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K32e",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "o_diam.split_at_median_math.low",
+  "expect": "23 / 32",
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K32f",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "o_diam.split_at_median_math.high",
+  "expect": "25 / 27",
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K32g",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "h_diam.split_at_median_math.low",
+  "expect": "9 / 17",
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K32h",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "h_diam.split_at_median_math.high",
+  "expect": "9 / 17",
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K32i",
+  "kind": "derived_close",
+  "name": "o62",
+  "args": [
+   "o_diam",
+   "spearman"
+  ],
+  "expect": 0.7804792518994741,
+  "tol": 1e-12,
+  "note": "recount, the card's rank rule (ordinal ranks)"
+ },
+ {
+  "id": "K32j",
+  "kind": "derived_close",
+  "name": "o62",
+  "args": [
+   "h_diam",
+   "spearman"
+  ],
+  "expect": 0.21161191749427039,
+  "tol": 1e-12
+ },
+ {
+  "id": "K32k",
+  "kind": "derived_close",
+  "name": "o62_pooled",
+  "args": [],
+  "expect": 0.4152617665861453,
+  "tol": 1e-12,
+  "note": "recount over all 162,545 tokens"
+ },
+ {
+  "id": "K32l",
+  "kind": "derived",
+  "name": "o62",
+  "args": [
+   "o_diam",
+   "split"
+  ],
+  "expect": [
+   "23 / 32",
+   "25 / 27"
+  ]
+ },
+ {
+  "id": "K32m",
+  "kind": "derived",
+  "name": "o62",
+  "args": [
+   "h_diam",
+   "split"
+  ],
+  "expect": [
+   "9 / 17",
+   "9 / 17"
+  ]
+ },
+ {
+  "id": "K33a",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "Q2.o_diam_mid_up_when_math_flat",
+  "expect": "7 / 11",
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K33b",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "o_diam.mid_up_when_math_flat",
+  "expect": "7 / 11",
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K33c",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "o_diam.mid_median_when_math_flat",
+  "expect": 0.056653887033462524,
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K33d",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "o_diam.by_group_math_flat.close",
+  "expect": "3 / 11",
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K33e",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "o_diam.by_group_math_flat.mid",
+  "expect": "7 / 11",
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K33f",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "o_diam.by_group_math_flat.ans",
+  "expect": "3 / 11",
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K33g",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "o_diam.by_group_math_flat.think",
+  "expect": "3 / 11",
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K33h",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "h_diam.mid_up_when_math_flat",
+  "expect": "14 / 26",
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K33i",
+  "kind": "derived",
+  "name": "o62",
+  "args": [
+   "o_diam",
+   "flat"
+  ],
+  "expect": "7 / 11",
+  "note": "recount: events with Δmath ≤ 0 whose mid group rises"
+ },
+ {
+  "id": "K33j",
+  "kind": "derived_close",
+  "name": "o62",
+  "args": [
+   "o_diam",
+   "mid_median_flat"
+  ],
+  "expect": 0.056653887033462524,
+  "tol": 1e-06,
+  "note": "median Δmid of those 11 (float32 in the card)"
+ },
+ {
+  "id": "K33k",
+  "kind": "derived",
+  "name": "o62",
+  "args": [
+   "o_diam",
+   "flat_groups"
+  ],
+  "expect": [
+   "3 / 11",
+   "7 / 11",
+   "3 / 11",
+   "3 / 11"
+  ],
+  "note": "the four groups in the same 11"
+ },
+ {
+  "id": "K33l",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-28/PREREG_olm62_moy1_mid_rise_vs_math_shift_20261028.md",
+  "literal": "でも、中点の群が上がる物 ≥ 60 %",
+  "note": "PREREG olm62 §3 Q2: the preregistered threshold"
+ },
+ {
+  "id": "K33m",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-28/PREREG_olm62_moy1_mid_rise_vs_math_shift_20261028.md",
+  "literal": "8 本未満なら「読まない」",
+  "note": "PREREG olm62 §4: fewer than 8 events are not read"
+ },
+ {
+  "id": "K33n",
+  "kind": "pack_equals",
+  "file": "generated/pack.json",
+  "key": "olm62.thr_q2",
+  "expect": 0.6,
+  "note": "the page's threshold is the one read from olm62's PREREG"
+ },
+ {
+  "id": "K33o",
+  "kind": "pack_equals",
+  "file": "generated/pack.json",
+  "key": "olm62.read.o_diam.mid_median_when_math_flat",
+  "expect": 0.056653887033462524
+ },
+ {
+  "id": "K33p",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/control.json",
+  "key": "C1.o_diam.exp.median_diff",
+  "expect": 0.1574450582265854,
+  "note": "the median Δmid of all 59 O1O2 events (olm59's own value)"
+ },
+ {
+  "id": "K34a",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "o_diam.mid_up_when_math_up",
+  "expect": "41 / 48",
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K34b",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "h_diam.mid_up_when_math_flat",
+  "expect": "14 / 26",
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K34c",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "h_diam.mid_up_when_math_up",
+  "expect": "4 / 8",
+  "note": "olm62 read.json"
+ },
+ {
+  "id": "K34d",
+  "kind": "derived",
+  "name": "o62",
+  "args": [
+   "o_diam",
+   "upd"
+  ],
+  "expect": "41 / 48"
+ },
+ {
+  "id": "K34e",
+  "kind": "derived",
+  "name": "o62",
+  "args": [
+   "h_diam",
+   "flat"
+  ],
+  "expect": "14 / 26"
+ },
+ {
+  "id": "K34f",
+  "kind": "derived",
+  "name": "o62",
+  "args": [
+   "h_diam",
+   "upd"
+  ],
+  "expect": "4 / 8"
+ },
+ {
+  "id": "K35a",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-28/PREREG_olm62_moy1_mid_rise_vs_math_shift_20261028.md",
+  "literal": "`[0-9²³·×=+\\-^*/()√]`",
+  "note": "the formula characters"
+ },
+ {
+  "id": "K35b",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-28/PREREG_olm62_moy1_mid_rise_vs_math_shift_20261028.md",
+  "literal": "出来事の前 32 token と後 32 token で、群の差(後 − 前)と、数式の文字の割合の差(Δmath)を取る(olm59 と同じ窓)",
+  "note": "the windows and Δmath"
+ },
+ {
+  "id": "K36a",
+  "kind": "pack_close_derived",
+  "name": "o62_events",
+  "args": [
+   "o_diam"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm62.events.o_diam",
+  "tol": 6e-06,
+  "note": "the 59 carried dots against the recount"
+ },
+ {
+  "id": "K36b",
+  "kind": "pack_close_derived",
+  "name": "o62_events",
+  "args": [
+   "h_diam"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm62.events.h_diam",
+  "tol": 6e-06,
+  "note": "the 34 carried dots"
+ },
+ {
+  "id": "K36c",
+  "kind": "pack_close_derived",
+  "name": "o62_point",
+  "args": [
+   "F5a-2__think__r15",
+   "o_diam"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm62.scene.S_O",
+  "tol": 6e-06,
+  "note": "S_O in the scatter"
+ },
+ {
+  "id": "K36d",
+  "kind": "pack_close_derived",
+  "name": "o62_point",
+  "args": [
+   "F5b-1__natural__r14",
+   "h_diam"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm62.scene.S_H",
+  "tol": 6e-06,
+  "note": "S_H in the scatter"
+ },
+ {
+  "id": "K36e",
+  "kind": "pack_close_derived",
+  "name": "o62_flat",
+  "args": [],
+  "file": "generated/pack.json",
+  "key": "olm62.flat_o",
+  "tol": 6e-06,
+  "note": "the 11 events of state 23, sorted by Δmid"
+ },
+ {
+  "id": "K40a",
+  "kind": "derived",
+  "name": "tree",
+  "args": [
+   "counts"
+  ],
+  "expect": [
+   9,
+   78
+  ],
+  "note": "[clusters, nodes]"
+ },
+ {
+  "id": "K40b",
+  "kind": "derived",
+  "name": "tree",
+  "args": [
+   "cluster_n"
+  ],
+  "expect": [
+   6,
+   13,
+   10,
+   6,
+   13,
+   8,
+   7,
+   11,
+   4
+  ],
+  "note": "cards per cluster"
+ },
+ {
+  "id": "K40c",
+  "kind": "derived",
+  "name": "tree",
+  "args": [
+   "span"
+  ],
+  "expect": [
+   "10-19",
+   "10-27"
+  ]
+ },
+ {
+  "id": "K40d",
+  "kind": "file_md5",
+  "file": "conversations/2026-10-27/card_tree_v2/entry_merged_v2_2_1/tree_src.json",
+  "expect": "16e095957cfc5198ab53f63f94f4b087"
+ },
+ {
+  "id": "K40e",
+  "kind": "pack_equals",
+  "file": "generated/pack.json",
+  "key": "tree.n_nodes",
+  "expect": 78
+ },
+ {
+  "id": "K40f",
+  "kind": "pack_equals",
+  "file": "generated/pack.json",
+  "key": "tree.n_clusters",
+  "expect": 9
+ },
+ {
+  "id": "K40g",
+  "kind": "pack_equals",
+  "file": "generated/pack.json",
+  "key": "tree.span",
+  "expect": [
+   "10-19",
+   "10-27"
+  ]
+ },
+ {
+  "id": "K40h",
+  "kind": "repo_json_equals",
+  "file": "conversations/2026-10-27/card_tree_v2/entry_merged_v2_2_1/tree_src.json",
+  "key": "meta.entry",
+  "expect": "entry_merged_v2_2_1"
+ },
+ {
+  "id": "K40i",
+  "kind": "pack_equals_derived",
+  "name": "tree",
+  "args": [
+   "cluster_field",
+   0,
+   "name"
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.clusters.0.name",
+  "note": "cluster 1: the name"
+ },
+ {
+  "id": "K40j",
+  "kind": "pack_equals_derived",
+  "name": "tree",
+  "args": [
+   "cluster_span",
+   0
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.clusters.0.span",
+  "note": "cluster 1: the date span"
+ },
+ {
+  "id": "K40k",
+  "kind": "pack_equals_derived",
+  "name": "tree",
+  "args": [
+   "cluster_field",
+   1,
+   "name"
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.clusters.1.name",
+  "note": "cluster 2: the name"
+ },
+ {
+  "id": "K40l",
+  "kind": "pack_equals_derived",
+  "name": "tree",
+  "args": [
+   "cluster_span",
+   1
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.clusters.1.span",
+  "note": "cluster 2: the date span"
+ },
+ {
+  "id": "K40m",
+  "kind": "pack_equals_derived",
+  "name": "tree",
+  "args": [
+   "cluster_field",
+   2,
+   "name"
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.clusters.2.name",
+  "note": "cluster 3: the name"
+ },
+ {
+  "id": "K40n",
+  "kind": "pack_equals_derived",
+  "name": "tree",
+  "args": [
+   "cluster_span",
+   2
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.clusters.2.span",
+  "note": "cluster 3: the date span"
+ },
+ {
+  "id": "K40o",
+  "kind": "pack_equals_derived",
+  "name": "tree",
+  "args": [
+   "cluster_field",
+   3,
+   "name"
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.clusters.3.name",
+  "note": "cluster 4: the name"
+ },
+ {
+  "id": "K40p",
+  "kind": "pack_equals_derived",
+  "name": "tree",
+  "args": [
+   "cluster_span",
+   3
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.clusters.3.span",
+  "note": "cluster 4: the date span"
+ },
+ {
+  "id": "K40q",
+  "kind": "pack_equals_derived",
+  "name": "tree",
+  "args": [
+   "cluster_field",
+   4,
+   "name"
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.clusters.4.name",
+  "note": "cluster 5: the name"
+ },
+ {
+  "id": "K40r",
+  "kind": "pack_equals_derived",
+  "name": "tree",
+  "args": [
+   "cluster_span",
+   4
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.clusters.4.span",
+  "note": "cluster 5: the date span"
+ },
+ {
+  "id": "K40s",
+  "kind": "pack_equals_derived",
+  "name": "tree",
+  "args": [
+   "cluster_field",
+   5,
+   "name"
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.clusters.5.name",
+  "note": "cluster 6: the name"
+ },
+ {
+  "id": "K40t",
+  "kind": "pack_equals_derived",
+  "name": "tree",
+  "args": [
+   "cluster_span",
+   5
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.clusters.5.span",
+  "note": "cluster 6: the date span"
+ },
+ {
+  "id": "K40u",
+  "kind": "pack_equals_derived",
+  "name": "tree",
+  "args": [
+   "cluster_field",
+   6,
+   "name"
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.clusters.6.name",
+  "note": "cluster 7: the name"
+ },
+ {
+  "id": "K40v",
+  "kind": "pack_equals_derived",
+  "name": "tree",
+  "args": [
+   "cluster_span",
+   6
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.clusters.6.span",
+  "note": "cluster 7: the date span"
+ },
+ {
+  "id": "K40w",
+  "kind": "pack_equals_derived",
+  "name": "tree",
+  "args": [
+   "cluster_field",
+   7,
+   "name"
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.clusters.7.name",
+  "note": "cluster 8: the name"
+ },
+ {
+  "id": "K40x",
+  "kind": "pack_equals_derived",
+  "name": "tree",
+  "args": [
+   "cluster_span",
+   7
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.clusters.7.span",
+  "note": "cluster 8: the date span"
+ },
+ {
+  "id": "K40y",
+  "kind": "pack_equals_derived",
+  "name": "tree",
+  "args": [
+   "cluster_field",
+   8,
+   "name"
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.clusters.8.name",
+  "note": "cluster 9: the name"
+ },
+ {
+  "id": "K40z",
+  "kind": "pack_equals_derived",
+  "name": "tree",
+  "args": [
+   "cluster_span",
+   8
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.clusters.8.span",
+  "note": "cluster 9: the date span"
+ },
+ {
+  "id": "K41a",
+  "kind": "derived",
+  "name": "tree",
+  "args": [
+   "node",
+   "cmt5",
+   "cluster"
+  ],
+  "expect": "C1",
+  "note": "tree_src.json nodes[cmt5].cluster"
+ },
+ {
+  "id": "K41b",
+  "kind": "derived",
+  "name": "tree",
+  "args": [
+   "node",
+   "cmt5",
+   "label"
+  ],
+  "expect": "一語を固定",
+  "note": "tree_src.json nodes[cmt5].label"
+ },
+ {
+  "id": "K41c",
+  "kind": "derived",
+  "name": "tree",
+  "args": [
+   "node",
+   "cmt5",
+   "outcome"
+  ],
+  "expect": "関門で止めた(b 版なし)",
+  "note": "tree_src.json nodes[cmt5].outcome"
+ },
+ {
+  "id": "K41d",
+  "kind": "derived",
+  "name": "tree",
+  "args": [
+   "node",
+   "cmt13",
+   "cluster"
+  ],
+  "expect": "C2",
+  "note": "tree_src.json nodes[cmt13].cluster"
+ },
+ {
+  "id": "K41e",
+  "kind": "derived",
+  "name": "tree",
+  "args": [
+   "node",
+   "cmt13",
+   "label"
+  ],
+  "expect": "bind の瞬間",
+  "note": "tree_src.json nodes[cmt13].label"
+ },
+ {
+  "id": "K41f",
+  "kind": "derived",
+  "name": "tree",
+  "args": [
+   "node",
+   "cmt13",
+   "outcome"
+  ],
+  "expect": "外れて学んだ",
+  "note": "tree_src.json nodes[cmt13].outcome"
+ },
+ {
+  "id": "K41g",
+  "kind": "derived",
+  "name": "tree",
+  "args": [
+   "node",
+   "olm4",
+   "cluster"
+  ],
+  "expect": "C3",
+  "note": "tree_src.json nodes[olm4].cluster"
+ },
+ {
+  "id": "K41h",
+  "kind": "derived",
+  "name": "tree",
+  "args": [
+   "node",
+   "olm4",
+   "label"
+  ],
+  "expect": "止まる方向",
+  "note": "tree_src.json nodes[olm4].label"
+ },
+ {
+  "id": "K41i",
+  "kind": "derived",
+  "name": "tree",
+  "args": [
+   "node",
+   "olm4",
+   "outcome"
+  ],
+  "expect": "通過",
+  "note": "tree_src.json nodes[olm4].outcome"
+ },
+ {
+  "id": "K41j",
+  "kind": "derived",
+  "name": "tree",
+  "args": [
+   "node",
+   "olm7",
+   "cluster"
+  ],
+  "expect": "C3",
+  "note": "tree_src.json nodes[olm7].cluster"
+ },
+ {
+  "id": "K41k",
+  "kind": "derived",
+  "name": "tree",
+  "args": [
+   "node",
+   "olm7",
+   "label"
+  ],
+  "expect": "moy-1 三重読み",
+  "note": "tree_src.json nodes[olm7].label"
+ },
+ {
+  "id": "K41l",
+  "kind": "derived",
+  "name": "tree",
+  "args": [
+   "node",
+   "olm7",
+   "outcome"
+  ],
+  "expect": "通過",
+  "note": "tree_src.json nodes[olm7].outcome"
+ },
+ {
+  "id": "K42a",
+  "kind": "pack_equals_derived",
+  "name": "name_date",
+  "args": [
+   "conversations/2026-07-31/RESULT_pc1_cue_invariance_20260731.md"
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.cards.pc1.date",
+  "note": "the date of pc1 (the record name)"
+ },
+ {
+  "id": "K42b",
+  "kind": "pack_equals_derived",
+  "name": "name_date",
+  "args": [
+   "conversations/2026-07-29/RESULT_olmo3_base_bf16_screen_20260729.md"
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.cards.screen_bf16.date",
+  "note": "the date of screen_bf16 (the record name)"
+ },
+ {
+  "id": "K42c",
+  "kind": "pack_equals_derived",
+  "name": "name_date",
+  "args": [
+   "conversations/2026-07-28/RESULT_olmo3_behavior_screen_20260728.md"
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.cards.behavior_screen.date",
+  "note": "the date of behavior_screen (the record name)"
+ },
+ {
+  "id": "K42d",
+  "kind": "pack_equals_derived",
+  "name": "name_date",
+  "args": [
+   "conversations/2026-08-01/ADJUDICATION_f5_v2_effective_20260801.md"
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.cards.F5.date",
+  "note": "the date of F5 (the record name)"
+ },
+ {
+  "id": "K42e",
+  "kind": "pack_equals_derived",
+  "name": "name_date",
+  "args": [
+   "conversations/2026-10-28/RESULT_olm59_moy1_sae_trajectory_by_construction_mentions_20261028.md"
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.cards.olm59.date",
+  "note": "the date of olm59 (the record name)"
+ },
+ {
+  "id": "K42f",
+  "kind": "pack_equals_derived",
+  "name": "name_date",
+  "args": [
+   "conversations/2026-10-28/RESULT_olm62_moy1_mid_rise_vs_math_shift_20261028.md"
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.cards.olm62.date",
+  "note": "the date of olm62 (the record name)"
+ },
+ {
+  "id": "K42g",
+  "kind": "pack_equals_derived",
+  "name": "git_date",
+  "args": [
+   "probes/moy1-claude5-replication/results/replication_config_frozen.json"
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.cards.replication_config_frozen.date",
+  "note": "the date of replication_config_frozen (git: the file last commit)"
+ },
+ {
+  "id": "K42h",
+  "kind": "pack_equals_derived",
+  "name": "git_date",
+  "args": [
+   "ConstructGap/exp/moy_suite_report.json"
+  ],
+  "file": "generated/pack.json",
+  "key": "tree.cards.moy_suite_report.date",
+  "note": "the date of moy_suite_report (git: the file last commit)"
+ },
+ {
+  "id": "K43a",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.0",
+  "expect": [
+   "replication_config_frozen",
+   "pc1"
+  ],
+  "note": "state 0: the cards whose data it draws"
+ },
+ {
+  "id": "K43b",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.1",
+  "expect": [
+   "replication_config_frozen"
+  ],
+  "note": "state 1: the cards whose data it draws"
+ },
+ {
+  "id": "K43c",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.2",
+  "expect": [
+   "replication_config_frozen"
+  ],
+  "note": "state 2: the cards whose data it draws"
+ },
+ {
+  "id": "K43d",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.3",
+  "expect": [
+   "replication_config_frozen"
+  ],
+  "note": "state 3: the cards whose data it draws"
+ },
+ {
+  "id": "K43e",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.4",
+  "expect": [
+   "pc1"
+  ],
+  "note": "state 4: the cards whose data it draws"
+ },
+ {
+  "id": "K43f",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.5",
+  "expect": [
+   "pc1"
+  ],
+  "note": "state 5: the cards whose data it draws"
+ },
+ {
+  "id": "K43g",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.6",
+  "expect": [
+   "pc1"
+  ],
+  "note": "state 6: the cards whose data it draws"
+ },
+ {
+  "id": "K43h",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.7",
+  "expect": [
+   "pc1"
+  ],
+  "note": "state 7: the cards whose data it draws"
+ },
+ {
+  "id": "K43i",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.8",
+  "expect": [
+   "pc1",
+   "cmt5"
+  ],
+  "note": "state 8: the cards whose data it draws"
+ },
+ {
+  "id": "K43j",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.9",
+  "expect": [
+   "pc1"
+  ],
+  "note": "state 9: the cards whose data it draws"
+ },
+ {
+  "id": "K43k",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.10",
+  "expect": [
+   "pc1"
+  ],
+  "note": "state 10: the cards whose data it draws"
+ },
+ {
+  "id": "K43l",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.11",
+  "expect": [
+   "pc1",
+   "screen_bf16"
+  ],
+  "note": "state 11: the cards whose data it draws"
+ },
+ {
+  "id": "K43m",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.12",
+  "expect": [
+   "cmt13",
+   "F5"
+  ],
+  "note": "state 12: the cards whose data it draws"
+ },
+ {
+  "id": "K43n",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.13",
+  "expect": [
+   "cmt13"
+  ],
+  "note": "state 13: the cards whose data it draws"
+ },
+ {
+  "id": "K43o",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.14",
+  "expect": [
+   "cmt13"
+  ],
+  "note": "state 14: the cards whose data it draws"
+ },
+ {
+  "id": "K43p",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.15",
+  "expect": [
+   "cmt13"
+  ],
+  "note": "state 15: the cards whose data it draws"
+ },
+ {
+  "id": "K43q",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.16",
+  "expect": [
+   "moy_suite_report"
+  ],
+  "note": "state 16: the cards whose data it draws"
+ },
+ {
+  "id": "K43r",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.17",
+  "expect": [
+   "behavior_screen",
+   "pc1"
+  ],
+  "note": "state 17: the cards whose data it draws"
+ },
+ {
+  "id": "K43s",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.18",
+  "expect": [
+   "replication_config_frozen",
+   "olm59",
+   "olm7",
+   "olm4"
+  ],
+  "note": "state 18: the cards whose data it draws"
+ },
+ {
+  "id": "K43t",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.19",
+  "expect": [
+   "replication_config_frozen",
+   "olm59",
+   "olm7",
+   "olm4"
+  ],
+  "note": "state 19: the cards whose data it draws"
+ },
+ {
+  "id": "K43u",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.20",
+  "expect": [
+   "replication_config_frozen",
+   "olm59",
+   "olm7",
+   "olm4"
+  ],
+  "note": "state 20: the cards whose data it draws"
+ },
+ {
+  "id": "K43v",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.21",
+  "expect": [
+   "olm59",
+   "olm7",
+   "olm4",
+   "olm62"
+  ],
+  "note": "state 21: the cards whose data it draws"
+ },
+ {
+  "id": "K43w",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.22",
+  "expect": [
+   "olm59",
+   "olm7",
+   "olm4"
+  ],
+  "note": "state 22: the cards whose data it draws"
+ },
+ {
+  "id": "K43x",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.23",
+  "expect": [
+   "olm62",
+   "olm59",
+   "olm7",
+   "olm4"
+  ],
+  "note": "state 23: the cards whose data it draws"
+ },
+ {
+  "id": "K43y",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.24",
+  "expect": [
+   "olm62",
+   "olm59",
+   "olm7",
+   "olm4"
+  ],
+  "note": "state 24: the cards whose data it draws"
+ },
+ {
+  "id": "K43z",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.25",
+  "expect": [
+   "olm59",
+   "cmt5"
+  ],
+  "note": "state 25: the cards whose data it draws"
+ },
+ {
+  "id": "K43A",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.26",
+  "expect": [],
+  "note": "state 26: the cards whose data it draws"
+ },
+ {
+  "id": "K43B",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.27",
+  "expect": [],
+  "note": "state 27: the cards whose data it draws"
+ },
+ {
+  "id": "K43C",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.28",
+  "expect": [],
+  "note": "state 28: the cards whose data it draws"
+ },
+ {
+  "id": "K43D",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.29",
+  "expect": [],
+  "note": "state 29: the cards whose data it draws"
+ },
+ {
+  "id": "K43E",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.30",
+  "expect": [],
+  "note": "state 30: the cards whose data it draws"
+ },
+ {
+  "id": "K43F",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.31",
+  "expect": [],
+  "note": "state 31: the cards whose data it draws"
+ },
+ {
+  "id": "K43G",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.32",
+  "expect": [],
+  "note": "state 32: the cards whose data it draws"
+ },
+ {
+  "id": "K43H",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.33",
+  "expect": [],
+  "note": "state 33: the cards whose data it draws"
+ },
+ {
+  "id": "K43I",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.34",
+  "expect": [],
+  "note": "state 34: the cards whose data it draws"
+ },
+ {
+  "id": "K43J",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.35",
+  "expect": [],
+  "note": "state 35: the cards whose data it draws"
+ },
+ {
+  "id": "K43K",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.36",
+  "expect": [],
+  "note": "state 36: the cards whose data it draws"
+ },
+ {
+  "id": "K43L",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.37",
+  "expect": [],
+  "note": "state 37: the cards whose data it draws"
+ },
+ {
+  "id": "K43M",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.38",
+  "expect": [],
+  "note": "state 38: the cards whose data it draws"
+ },
+ {
+  "id": "K43N",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.39",
+  "expect": [],
+  "note": "state 39: the cards whose data it draws"
+ },
+ {
+  "id": "K43O",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.40",
+  "expect": [],
+  "note": "state 40: the cards whose data it draws"
+ },
+ {
+  "id": "K43P",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.41",
+  "expect": [],
+  "note": "state 41: the cards whose data it draws"
+ },
+ {
+  "id": "K43Q",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.42",
+  "expect": [],
+  "note": "state 42: the cards whose data it draws"
+ },
+ {
+  "id": "K43R",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   0
+  ],
+  "expect": [
+   "pc1",
+   "replication_config_frozen"
+  ],
+  "note": "state 0: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43S",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   1
+  ],
+  "expect": [
+   "replication_config_frozen"
+  ],
+  "note": "state 1: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43T",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   2
+  ],
+  "expect": [
+   "replication_config_frozen"
+  ],
+  "note": "state 2: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43U",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   3
+  ],
+  "expect": [
+   "replication_config_frozen"
+  ],
+  "note": "state 3: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43V",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   4
+  ],
+  "expect": [
+   "pc1"
+  ],
+  "note": "state 4: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43W",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   5
+  ],
+  "expect": [
+   "pc1"
+  ],
+  "note": "state 5: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43X",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   6
+  ],
+  "expect": [
+   "pc1"
+  ],
+  "note": "state 6: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43Y",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   7
+  ],
+  "expect": [
+   "pc1"
+  ],
+  "note": "state 7: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43Z",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   8
+  ],
+  "expect": [
+   "cmt5",
+   "pc1"
+  ],
+  "note": "state 8: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x52",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   9
+  ],
+  "expect": [
+   "pc1"
+  ],
+  "note": "state 9: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x53",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   10
+  ],
+  "expect": [
+   "pc1"
+  ],
+  "note": "state 10: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x54",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   11
+  ],
+  "expect": [
+   "pc1",
+   "screen_bf16"
+  ],
+  "note": "state 11: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x55",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   12
+  ],
+  "expect": [
+   "F5",
+   "cmt13"
+  ],
+  "note": "state 12: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x56",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   13
+  ],
+  "expect": [
+   "cmt13"
+  ],
+  "note": "state 13: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x57",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   14
+  ],
+  "expect": [
+   "cmt13"
+  ],
+  "note": "state 14: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x58",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   15
+  ],
+  "expect": [
+   "cmt13"
+  ],
+  "note": "state 15: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x59",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   16
+  ],
+  "expect": [
+   "moy_suite_report"
+  ],
+  "note": "state 16: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x60",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   17
+  ],
+  "expect": [
+   "behavior_screen",
+   "pc1"
+  ],
+  "note": "state 17: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x61",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   18
+  ],
+  "expect": [
+   "olm4",
+   "olm59",
+   "olm7",
+   "replication_config_frozen"
+  ],
+  "note": "state 18: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x62",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   19
+  ],
+  "expect": [
+   "olm4",
+   "olm59",
+   "olm7",
+   "replication_config_frozen"
+  ],
+  "note": "state 19: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x63",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   20
+  ],
+  "expect": [
+   "olm4",
+   "olm59",
+   "olm7",
+   "replication_config_frozen"
+  ],
+  "note": "state 20: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x64",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   21
+  ],
+  "expect": [
+   "olm4",
+   "olm59",
+   "olm62",
+   "olm7"
+  ],
+  "note": "state 21: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x65",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   22
+  ],
+  "expect": [
+   "olm4",
+   "olm59",
+   "olm7"
+  ],
+  "note": "state 22: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x66",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   23
+  ],
+  "expect": [
+   "olm4",
+   "olm59",
+   "olm62",
+   "olm7"
+  ],
+  "note": "state 23: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x67",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   24
+  ],
+  "expect": [
+   "olm4",
+   "olm59",
+   "olm62",
+   "olm7"
+  ],
+  "note": "state 24: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x68",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   25
+  ],
+  "expect": [
+   "cmt5",
+   "olm59"
+  ],
+  "note": "state 25: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x69",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   26
+  ],
+  "expect": [],
+  "note": "state 26: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x70",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   27
+  ],
+  "expect": [],
+  "note": "state 27: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x71",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   28
+  ],
+  "expect": [],
+  "note": "state 28: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x72",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   29
+  ],
+  "expect": [],
+  "note": "state 29: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x73",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   30
+  ],
+  "expect": [],
+  "note": "state 30: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x74",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   31
+  ],
+  "expect": [],
+  "note": "state 31: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x75",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   32
+  ],
+  "expect": [],
+  "note": "state 32: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x76",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   33
+  ],
+  "expect": [],
+  "note": "state 33: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x77",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   34
+  ],
+  "expect": [],
+  "note": "state 34: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x78",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   35
+  ],
+  "expect": [],
+  "note": "state 35: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x79",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   36
+  ],
+  "expect": [],
+  "note": "state 36: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x80",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   37
+  ],
+  "expect": [],
+  "note": "state 37: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x81",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   38
+  ],
+  "expect": [],
+  "note": "state 38: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x82",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   39
+  ],
+  "expect": [],
+  "note": "state 39: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x83",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   40
+  ],
+  "expect": [],
+  "note": "state 40: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x84",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   41
+  ],
+  "expect": [],
+  "note": "state 41: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K43x85",
+  "kind": "derived",
+  "name": "marks_rule",
+  "args": [
+   42
+  ],
+  "expect": [],
+  "note": "state 42: the marks by the rule (config.json state_data -> card_of_data)"
+ },
+ {
+  "id": "K50a",
+  "kind": "derived",
+  "name": "freeze",
+  "args": [
+   "olm76"
+  ],
+  "expect": "b7730f55",
+  "note": "olm76: git's first commit of its PREREG"
+ },
+ {
+  "id": "K50b",
+  "kind": "derived",
+  "name": "freeze",
+  "args": [
+   "olm84"
+  ],
+  "expect": "728cdca7",
+  "note": "olm84: git's first commit of its PREREG"
+ },
+ {
+  "id": "K50c",
+  "kind": "derived",
+  "name": "freeze",
+  "args": [
+   "olm85"
+  ],
+  "expect": "b9a269d4",
+  "note": "olm85: git's first commit of its PREREG"
+ },
+ {
+  "id": "K50d",
+  "kind": "derived",
+  "name": "freeze",
+  "args": [
+   "olm86"
+  ],
+  "expect": "38896688",
+  "note": "olm86: git's first commit of its PREREG"
+ },
+ {
+  "id": "K50e",
+  "kind": "derived",
+  "name": "freeze",
+  "args": [
+   "olm89"
+  ],
+  "expect": "9c55b35a",
+  "note": "olm89: git's first commit of its PREREG"
+ },
+ {
+  "id": "K50f",
+  "kind": "derived",
+  "name": "freeze",
+  "args": [
+   "olm91"
+  ],
+  "expect": "423602e6",
+  "note": "olm91: git's first commit of its PREREG"
+ },
+ {
+  "id": "K50g",
+  "kind": "derived",
+  "name": "freeze",
+  "args": [
+   "olm92"
+  ],
+  "expect": "f396c69a",
+  "note": "olm92: git's first commit of its PREREG"
+ },
+ {
+  "id": "K50h",
+  "kind": "derived",
+  "name": "freeze",
+  "args": [
+   "olm93"
+  ],
+  "expect": "6c38eb97",
+  "note": "olm93: git's first commit of its PREREG"
+ },
+ {
+  "id": "K50i",
+  "kind": "derived",
+  "name": "freeze",
+  "args": [
+   "olm94"
+  ],
+  "expect": "ae474dc3",
+  "note": "olm94: git's first commit of its PREREG"
+ },
+ {
+  "id": "K50j",
+  "kind": "derived",
+  "name": "freeze",
+  "args": [
+   "olm95"
+  ],
+  "expect": "4502a4a6",
+  "note": "olm95: git's first commit of its PREREG"
+ },
+ {
+  "id": "K50k",
+  "kind": "derived",
+  "name": "freeze",
+  "args": [
+   "olm97"
+  ],
+  "expect": "5525976d",
+  "note": "olm97: git's first commit of its PREREG"
+ },
+ {
+  "id": "K50l",
+  "kind": "derived",
+  "name": "freeze",
+  "args": [
+   "olm98"
+  ],
+  "expect": "5a4eff07",
+  "note": "olm98: git's first commit of its PREREG"
+ },
+ {
+  "id": "K50m",
+  "kind": "derived",
+  "name": "freeze",
+  "args": [
+   "olm101"
+  ],
+  "expect": "9fbbc072",
+  "note": "olm101: git's first commit of its PREREG"
+ },
+ {
+  "id": "K50n",
+  "kind": "derived",
+  "name": "freeze",
+  "args": [
+   "olm106"
+  ],
+  "expect": "4ac2b73b",
+  "note": "olm106: git's first commit of its PREREG"
+ },
+ {
+  "id": "K50o",
+  "kind": "derived",
+  "name": "freeze",
+  "args": [
+   "olm108"
+  ],
+  "expect": "de6a4297",
+  "note": "olm108: git's first commit of its PREREG"
+ },
+ {
+  "id": "K50p",
+  "kind": "derived",
+  "name": "freeze",
+  "args": [
+   "olm112"
+  ],
+  "expect": "cb12da8d",
+  "note": "olm112: git's first commit of its PREREG"
+ },
+ {
+  "id": "K50q",
+  "kind": "derived",
+  "name": "freeze",
+  "args": [
+   "olm114"
+  ],
+  "expect": "c82642a5",
+  "note": "olm114: git's first commit of its PREREG"
+ },
+ {
+  "id": "K50r",
+  "kind": "derived",
+  "name": "freeze",
+  "args": [
+   "olm128"
+  ],
+  "expect": "2f1ab745",
+  "note": "olm128: git's first commit of its PREREG"
+ },
+ {
+  "id": "K50s",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-11-01/SCOPE_line1_inference_space_after_olm83_92_20261101.md",
+  "literal": "olm89 Q1 ✓(olm87 の 107 行",
+  "note": "確かめた記述: olm89"
+ },
+ {
+  "id": "K50t",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-11-01/SCOPE_line1_inference_space_after_olm83_92_20261101.md",
+  "literal": "olm92 Q1 の枝「残る」",
+  "note": "確かめた記述: olm92"
+ },
+ {
+  "id": "K50u",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-11-01/SCOPE_line1_inference_space_after_olm83_92_20261101.md",
+  "literal": "olm94 Q2 ✓(",
+  "note": "判定: olm94"
+ },
+ {
+  "id": "K50v",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-11-01/SCOPE_line1_inference_space_after_olm83_92_20261101.md",
+  "literal": "olm98 Q1 ✓(",
+  "note": "判定: olm98"
+ },
+ {
+  "id": "K50w",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-11-01/SCOPE_line1_inference_space_after_olm83_92_20261101.md",
+  "literal": "olm76 Q1 ✗・Q3 ✗",
+  "note": "記述: olm76"
+ },
+ {
+  "id": "K50x",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-11-01/RESULT_olm101_moy1_pointer_or_value_at_final_position_interchange_das_20261101.md",
+  "literal": "0 個(Q1 = 偽・Q2 = 片方なし・Q3 = 間",
+  "note": "olm101: no claim moved"
+ },
+ {
+  "id": "K50y",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-11-01/RESULT_olm106_moy1_single_position_interchange_sel_ctl_dem_early_layers_20261101.md",
+  "literal": "0 個(Q1 遅い・Q2 無い・Q3 無い)",
+  "note": "olm106: no claim moved"
+ },
+ {
+  "id": "K50z",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-11-01/RESULT_olm108_moy1_multi_position_interchange_pointer_to_value_layers_12_32_20261101.md",
+  "literal": "2 つ(新しい判定",
+  "note": "olm108: two claims moved"
+ },
+ {
+  "id": "K50A",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-11-01/RESULT_olm95_moy1_reference_direction_intervention_at_demonstrative_20261101.md",
+  "literal": "統制 C2 ✗ = 読まない",
+  "note": "olm95: not read"
+ },
+ {
+  "id": "K51a",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm76/read.json",
+  "key": "Q1_bind_close_rises.pos",
+  "expect": 28
+ },
+ {
+  "id": "K51b",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm76/read.json",
+  "key": "Q1_bind_close_rises.n",
+  "expect": 48
+ },
+ {
+  "id": "K51c",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm76/read.json",
+  "key": "Q1_bind_close_rises.pass",
+  "expect": false
+ },
+ {
+  "id": "K51d",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm76/read.json",
+  "key": "Q1_bind_close_rises.median",
+  "expect": 0.0127,
+  "tol": 6e-05
+ },
+ {
+  "id": "K51e",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm76/read.json",
+  "key": "Q1_bind_close_rises.sign_p",
+  "expect": 0.156,
+  "tol": 0.0006
+ },
+ {
+  "id": "K51f",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm76/control.json",
+  "key": "C2_pseudo_window.sae_close.pos",
+  "expect": 21
+ },
+ {
+  "id": "K51g",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm76/control.json",
+  "key": "C2_pseudo_window.sae_close.sign_p",
+  "expect": 0.844,
+  "tol": 0.0006
+ },
+ {
+  "id": "K51h",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm76/read.json",
+  "key": "desc_all_keys.sae_close|attractor.pos",
+  "expect": 7
+ },
+ {
+  "id": "K51i",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm76/read.json",
+  "key": "desc_all_keys.sae_close|attractor.median",
+  "expect": 0.0425,
+  "tol": 6e-05
+ },
+ {
+  "id": "K51j",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm76/read.json",
+  "key": "Q3_close_bind_gt_attractor.diff",
+  "expect": -0.0298,
+  "tol": 6e-05
+ },
+ {
+  "id": "K51k",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm76/read.json",
+  "key": "Q3_close_bind_gt_attractor.perm_p",
+  "expect": 0.834,
+  "tol": 0.0006
+ },
+ {
+  "id": "K51l",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm76/read.json",
+  "key": "Q3_close_bind_gt_attractor.pass",
+  "expect": false
+ },
+ {
+  "id": "K51m",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm76/control.json",
+  "key": "C3_commit_positive.pos",
+  "expect": 14
+ },
+ {
+  "id": "K51n",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm76/control.json",
+  "key": "C3_commit_positive.n",
+  "expect": 18
+ },
+ {
+  "id": "K51o",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm76/control.json",
+  "key": "C3_commit_positive.ok",
+  "expect": false
+ },
+ {
+  "id": "K51p",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm76/read.json",
+  "key": "after.l3.q1.pos",
+  "jkey": "Q1_bind_close_rises.pos"
+ },
+ {
+  "id": "K51q",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm76/read.json",
+  "key": "after.l3.q1.median",
+  "jkey": "Q1_bind_close_rises.median"
+ },
+ {
+  "id": "K51r",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm76/control.json",
+  "key": "after.l3.pseudo.pos",
+  "jkey": "C2_pseudo_window.sae_close.pos"
+ },
+ {
+  "id": "K51s",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm76/read.json",
+  "key": "after.l3.q3.perm_p",
+  "jkey": "Q3_close_bind_gt_attractor.perm_p"
+ },
+ {
+  "id": "K52a",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm84/read.json",
+  "key": "Q1.auc.L32.median",
+  "expect": 0.996,
+  "tol": 0.0006
+ },
+ {
+  "id": "K52b",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm84/read.json",
+  "key": "Q1.auc.J.median",
+  "expect": 0.994,
+  "tol": 0.0006
+ },
+ {
+  "id": "K52c",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm84/read.json",
+  "key": "Q1.E.L32.median",
+  "expect": 0.002,
+  "tol": 0.0007
+ },
+ {
+  "id": "K52d",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm84/read.json",
+  "key": "Q1.pass",
+  "expect": false
+ },
+ {
+  "id": "K52e",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm84/read.json",
+  "key": "after.space.look.0.auc.L32.med",
+  "jkey": "Q1.auc.L32.median"
+ },
+ {
+  "id": "K52f",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm84/read.json",
+  "key": "after.space.look.0.auc.J.med",
+  "jkey": "Q1.auc.J.median"
+ },
+ {
+  "id": "K52g",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm85/read.json",
+  "key": "Q1_next_sentence_O.auc.L32.median",
+  "expect": 0.878,
+  "tol": 0.0006
+ },
+ {
+  "id": "K52h",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm85/read.json",
+  "key": "Q1_next_sentence_O.auc.J.median",
+  "expect": 0.879,
+  "tol": 0.0006
+ },
+ {
+  "id": "K52i",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm85/read.json",
+  "key": "Q1_next_sentence_O.E.L32.median",
+  "expect": -0.002,
+  "tol": 0.0007
+ },
+ {
+  "id": "K52j",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm85/read.json",
+  "key": "Q1_next_sentence_O.pass",
+  "expect": false
+ },
+ {
+  "id": "K52k",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm85/read.json",
+  "key": "after.space.look.1.auc.L32.med",
+  "jkey": "Q1_next_sentence_O.auc.L32.median"
+ },
+ {
+  "id": "K52l",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm85/read.json",
+  "key": "after.space.look.1.auc.J.med",
+  "jkey": "Q1_next_sentence_O.auc.J.median"
+ },
+ {
+  "id": "K52m",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm86/read.json",
+  "key": "Q1_k32.auc.L32.median",
+  "expect": 0.777,
+  "tol": 0.0006
+ },
+ {
+  "id": "K52n",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm86/read.json",
+  "key": "Q1_k32.auc.J.median",
+  "expect": 0.775,
+  "tol": 0.0006
+ },
+ {
+  "id": "K52o",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm86/read.json",
+  "key": "Q1_k32.E.L32.median",
+  "expect": 0.002,
+  "tol": 0.0007
+ },
+ {
+  "id": "K52p",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm86/read.json",
+  "key": "Q1_k32.pass",
+  "expect": false
+ },
+ {
+  "id": "K52q",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm86/read.json",
+  "key": "after.space.look.2.auc.L32.med",
+  "jkey": "Q1_k32.auc.L32.median"
+ },
+ {
+  "id": "K52r",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm86/read.json",
+  "key": "after.space.look.2.auc.J.med",
+  "jkey": "Q1_k32.auc.J.median"
+ },
+ {
+  "id": "K53a",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm86/read.json",
+  "key": "Q2_desc_by_k.8.E.L32.median",
+  "expect": 0.036,
+  "tol": 0.0006
+ },
+ {
+  "id": "K53b",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm86/read.json",
+  "key": "Q2_desc_by_k.8.E.L48.median",
+  "expect": 0.033,
+  "tol": 0.0006
+ },
+ {
+  "id": "K53c",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm89/read.json",
+  "key": "Q1_k8.E.L32.median",
+  "expect": 0.041,
+  "tol": 0.0006
+ },
+ {
+  "id": "K53d",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm89/read.json",
+  "key": "Q1_k8.E.L48.median",
+  "expect": 0.031,
+  "tol": 0.0006
+ },
+ {
+  "id": "K53e",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm89/read.json",
+  "key": "Q1_k8.Q1_repl_pass",
+  "expect": true
+ },
+ {
+  "id": "K53f",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm89/read.json",
+  "key": "Q1_k8.Q1b_line_pass",
+  "expect": false
+ },
+ {
+  "id": "K53g",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm92/read.json",
+  "key": "Q_k8.E_old.L32.median",
+  "expect": 0.022,
+  "tol": 0.0006
+ },
+ {
+  "id": "K53h",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm92/read.json",
+  "key": "Q_k8.E_old.L48.median",
+  "expect": 0.018,
+  "tol": 0.0006
+ },
+ {
+  "id": "K53i",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm92/read.json",
+  "key": "Q_k8.E_plus.L32.median",
+  "expect": 0.022,
+  "tol": 0.0006
+ },
+ {
+  "id": "K53j",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm92/read.json",
+  "key": "Q_k8.E_plus.L32.p05",
+  "expect": 0.005,
+  "tol": 0.0006
+ },
+ {
+  "id": "K53k",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm92/read.json",
+  "key": "Q_k8.E_plus.L32.p95",
+  "expect": 0.037,
+  "tol": 0.0006
+ },
+ {
+  "id": "K53l",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm92/read.json",
+  "key": "Q_k8.Q1_branch",
+  "expect": "残る"
+ },
+ {
+  "id": "K53m",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm86/read.json",
+  "key": "after.space.ktab.olm86.8.L32",
+  "jkey": "Q2_desc_by_k.8.E.L32.median"
+ },
+ {
+  "id": "K53n",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm89/read.json",
+  "key": "after.space.ktab.olm89.8.L32",
+  "jkey": "Q1_k8.E.L32.median"
+ },
+ {
+  "id": "K53o",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm92/read.json",
+  "key": "after.space.ktab.olm92.8.L32",
+  "jkey": "Q_k8.E_old.L32.median"
+ },
+ {
+  "id": "K53p",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm92/read.json",
+  "key": "after.space.plus.L32.med",
+  "jkey": "Q_k8.E_plus.L32.median"
+ },
+ {
+  "id": "K53q",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm89/read.json",
+  "key": "Q2_desc_by_k.32.E.L48.median",
+  "expect": 0.004,
+  "tol": 0.0006
+ },
+ {
+  "id": "K53r",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm86/read.json",
+  "key": "Q1_k32.E.L48.median",
+  "expect": -0.006,
+  "tol": 0.0006
+ },
+ {
+  "id": "K54a",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm91/read.json",
+  "key": "Q1_first64.auc.L32.median",
+  "expect": 0.492,
+  "tol": 0.0006
+ },
+ {
+  "id": "K54b",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm91/read.json",
+  "key": "Q1_first64.auc.L48.median",
+  "expect": 0.489,
+  "tol": 0.0006
+ },
+ {
+  "id": "K54c",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm91/read.json",
+  "key": "Q1_first64.auc.J.median",
+  "expect": 0.527,
+  "tol": 0.0006
+ },
+ {
+  "id": "K54d",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm91/read.json",
+  "key": "Q1_first64.auc.W.median",
+  "expect": 0.578,
+  "tol": 0.0006
+ },
+ {
+  "id": "K54e",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm91/read.json",
+  "key": "Q1_first64.rows",
+  "expect": 217
+ },
+ {
+  "id": "K54f",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm91/read.json",
+  "key": "Q1_first64.attractor",
+  "expect": 51
+ },
+ {
+  "id": "K54g",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm91/control.json",
+  "key": "C3_perm_null.auc.L32.p05",
+  "expect": 0.366,
+  "tol": 0.0006
+ },
+ {
+  "id": "K54h",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm91/control.json",
+  "key": "C3_perm_null.auc.L32.p95",
+  "expect": 0.601,
+  "tol": 0.0006
+ },
+ {
+  "id": "K54i",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm91/read.json",
+  "key": "after.space.first64.auc.L32.med",
+  "jkey": "Q1_first64.auc.L32.median"
+ },
+ {
+  "id": "K54j",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm91/control.json",
+  "key": "after.space.first64.null.p95",
+  "jkey": "C3_perm_null.auc.L32.p95"
+ },
+ {
+  "id": "K55a",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm94/read.json",
+  "key": "Q2_V_post_to_dem_vs_ctl.to_dem.L32.median",
+  "expect": 0.97,
+  "tol": 0.0006
+ },
+ {
+  "id": "K55b",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm94/read.json",
+  "key": "Q2_V_post_to_dem_vs_ctl.to_dem.L48.median",
+  "expect": 0.766,
+  "tol": 0.0006
+ },
+ {
+  "id": "K55c",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm94/read.json",
+  "key": "Q2_V_post_to_dem_vs_ctl.to_dem.J.median",
+  "expect": 0.556,
+  "tol": 0.0006
+ },
+ {
+  "id": "K55d",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm94/read.json",
+  "key": "Q2_V_post_to_dem_vs_ctl.to_dem.W.median",
+  "expect": 0.5,
+  "tol": 1e-09
+ },
+ {
+  "id": "K55e",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm94/read.json",
+  "key": "Q2_V_post_to_dem_vs_ctl.to_ctl.L32.median",
+  "expect": 0.603,
+  "tol": 0.0006
+ },
+ {
+  "id": "K55f",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm94/read.json",
+  "key": "Q2_V_post_to_dem_vs_ctl.to_ctl.L48.median",
+  "expect": 0.601,
+  "tol": 0.0006
+ },
+ {
+  "id": "K55g",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm93/read.json",
+  "key": "Q1_name_to_dem.auc.L32.median",
+  "expect": 0.87,
+  "tol": 0.0006
+ },
+ {
+  "id": "K55h",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm93/read.json",
+  "key": "Q1_name_to_dem.auc.W.median",
+  "expect": 0.946,
+  "tol": 0.0006
+ },
+ {
+  "id": "K55i",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm94/read.json",
+  "key": "after.struct.ref.olm94_q2.to_dem.L32",
+  "jkey": "Q2_V_post_to_dem_vs_ctl.to_dem.L32.median"
+ },
+ {
+  "id": "K55j",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm93/read.json",
+  "key": "after.struct.ref.olm93_q1.W",
+  "jkey": "Q1_name_to_dem.auc.W.median"
+ },
+ {
+  "id": "K56a",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm98/read.json",
+  "key": "Q1_top_heads_read_ref_name.ratio_median",
+  "expect": 2.37,
+  "tol": 0.006
+ },
+ {
+  "id": "K56b",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm98/read.json",
+  "key": "Q1_top_heads_read_ref_name.share_by_span_median.ref_name",
+  "expect": 0.35,
+  "tol": 0.0006
+ },
+ {
+  "id": "K56c",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm98/read.json",
+  "key": "Q1_top_heads_read_ref_name.share_by_span_median.oth_name",
+  "expect": 0.148,
+  "tol": 0.0006
+ },
+ {
+  "id": "K56d",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm98/read.json",
+  "key": "Q2_patch_top_heads.e_top_median",
+  "expect": 2.19,
+  "tol": 0.006
+ },
+ {
+  "id": "K56e",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm98/read.json",
+  "key": "Q2_patch_top_heads.top_minus_rand_median",
+  "expect": 2.11,
+  "tol": 0.006
+ },
+ {
+  "id": "K56f",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm98/read.json",
+  "key": "Q2_patch_top_heads.flip_top",
+  "expect": 0.513,
+  "tol": 0.0006
+ },
+ {
+  "id": "K56g",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm98/read.json",
+  "key": "Q4_cmt13_overlap",
+  "expect": [
+   "L50H23",
+   "L51H19",
+   "L51H4",
+   "L52H26",
+   "L57H33"
+  ]
+ },
+ {
+  "id": "K56h",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm98/read.json",
+  "key": "Q5_head_reading_dem_most.head",
+  "expect": "L13H30"
+ },
+ {
+  "id": "K56i",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm98/read.json",
+  "key": "Q5_head_reading_dem_most.rank_by_dla",
+  "expect": 312
+ },
+ {
+  "id": "K56j",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm98/read.json",
+  "key": "after.struct.heads.ratio",
+  "jkey": "Q1_top_heads_read_ref_name.ratio_median"
+ },
+ {
+  "id": "K56k",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm98/read.json",
+  "key": "after.struct.heads.flip",
+  "jkey": "Q2_patch_top_heads.flip_top"
+ },
+ {
+  "id": "K57a",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm106/read.json",
+  "key": "table.sel_L12.test・ptr_only",
+  "expect": 0.929,
+  "tol": 0.0006
+ },
+ {
+  "id": "K57b",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm106/read.json",
+  "key": "table.sel_L16.test・ptr_only",
+  "expect": 0.339,
+  "tol": 0.0006
+ },
+ {
+  "id": "K57c",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm106/read.json",
+  "key": "table.sel_L20.test・ptr_only",
+  "expect": 0.013,
+  "tol": 0.0006
+ },
+ {
+  "id": "K57d",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm106/read.json",
+  "key": "Q1.L_drop",
+  "expect": 16
+ },
+ {
+  "id": "K57e",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm101/read.json",
+  "key": "Q1_curve_full_end.4.L",
+  "expect": 24
+ },
+ {
+  "id": "K57f",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm101/read.json",
+  "key": "Q1_curve_full_end.4.F_vo",
+  "expect": 0.381,
+  "tol": 0.0006
+ },
+ {
+  "id": "K57g",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm101/read.json",
+  "key": "Q1_curve_full_end.5.L",
+  "expect": 28
+ },
+ {
+  "id": "K57h",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm101/read.json",
+  "key": "Q1_curve_full_end.5.F_vo",
+  "expect": 0.99,
+  "tol": 0.0006
+ },
+ {
+  "id": "K57i",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm101/read.json",
+  "key": "Q2.L_val_first",
+  "expect": 28
+ },
+ {
+  "id": "K57j",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm108/read.json",
+  "key": "Q1.curve_tail.4.0",
+  "expect": 20
+ },
+ {
+  "id": "K57k",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm108/read.json",
+  "key": "Q1.curve_tail.4.1",
+  "expect": 0.432,
+  "tol": 0.0006
+ },
+ {
+  "id": "K57l",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm108/read.json",
+  "key": "Q1.curve_tail.4.2",
+  "expect": 0.552,
+  "tol": 0.0006
+ },
+ {
+  "id": "K57m",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm108/read.json",
+  "key": "Q1.L_switch_tail",
+  "expect": 20
+ },
+ {
+  "id": "K57n",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm108/read.json",
+  "key": "Q3.scattered_layers",
+  "expect": [
+   16,
+   18
+  ]
+ },
+ {
+  "id": "K57o",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm106/read.json",
+  "key": "after.struct.layers.sel_drop",
+  "jkey": "Q1.L_drop"
+ },
+ {
+  "id": "K57p",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm101/read.json",
+  "key": "after.struct.layers.end_val_first",
+  "jkey": "Q2.L_val_first"
+ },
+ {
+  "id": "K57q",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm108/read.json",
+  "key": "after.struct.layers.tail_switch",
+  "jkey": "Q1.L_switch_tail"
+ },
+ {
+  "id": "K57r",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm101/read.json",
+  "key": "after.struct.layers.end.4.vo",
+  "jkey": "Q1_curve_full_end.4.F_vo"
+ },
+ {
+  "id": "K57s",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm108/read.json",
+  "key": "after.struct.layers.tail.4.po",
+  "jkey": "Q1.curve_tail.4.1"
+ },
+ {
+  "id": "K58a",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm112/read.json",
+  "key": "Q1.chain",
+  "expect": 0
+ },
+ {
+  "id": "K58b",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm112/read.json",
+  "key": "Q1.bind",
+  "expect": 37
+ },
+ {
+  "id": "K58c",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm112/read.json",
+  "key": "Q1.verdict",
+  "expect": "偽"
+ },
+ {
+  "id": "K58d",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm112/read.json",
+  "key": "Q2.bind_hyp",
+  "expect": 36
+ },
+ {
+  "id": "K58e",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm112/read.json",
+  "key": "Q2.bind_hq",
+  "expect": 36
+ },
+ {
+  "id": "K58f",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm112/read.json",
+  "key": "Q2.attr_hyp",
+  "expect": 28
+ },
+ {
+  "id": "K58g",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm112/read.json",
+  "key": "Q2.attr_hq",
+  "expect": 29
+ },
+ {
+  "id": "K58h",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm112/read.json",
+  "key": "Q3.new_rate",
+  "expect": 0.3,
+  "tol": 0.0006
+ },
+ {
+  "id": "K58i",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm112/read.json",
+  "key": "Q3.baseline_rate",
+  "expect": 0.255,
+  "tol": 0.0006
+ },
+ {
+  "id": "K58j",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm112/read.json",
+  "key": "Q4_by_label_json.B-bind.BIS",
+  "expect": 1
+ },
+ {
+  "id": "K58k",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm112/read.json",
+  "key": "Q4_by_label_json.B-bind.RA",
+  "expect": 4
+ },
+ {
+  "id": "K58l",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm112/read.json",
+  "key": "Q4_by_label_json.B-bind.THC",
+  "expect": 13
+ },
+ {
+  "id": "K58m",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm112/read.json",
+  "key": "Q4_by_label_json.B-bind.CHAIN",
+  "expect": 0
+ },
+ {
+  "id": "K58n",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm112/read.json",
+  "key": "Q4_by_label_json.B-bind.ALT_radical",
+  "expect": 11
+ },
+ {
+  "id": "K58o",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm112/read.json",
+  "key": "Q4_by_label_json.B-bind.ALT_homothety",
+  "expect": 9
+ },
+ {
+  "id": "K58p",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm112/read.json",
+  "key": "Q4_by_label_json.B-bind.ALT_power",
+  "expect": 6
+ },
+ {
+  "id": "K58q",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-11-02/RESULT_olm112_moy1_apex_status_and_geometric_proof_20261102.md",
+  "literal": "**CHAIN を満たした証明 = 0 本**",
+  "note": "RESULT olm112 §4"
+ },
+ {
+  "id": "K58r",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm112/read.json",
+  "key": "after.apex.olm112.bind.THC",
+  "jkey": "Q4_by_label_json.B-bind.THC"
+ },
+ {
+  "id": "K58s",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm112/read.json",
+  "key": "after.apex.olm112.Q1.chain",
+  "jkey": "Q1.chain"
+ },
+ {
+  "id": "K59a",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm114/read.json",
+  "key": "Q1.RA_and_THC",
+  "expect": 26
+ },
+ {
+  "id": "K59b",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm114/read.json",
+  "key": "Q1.k1_rows",
+  "expect": 40
+ },
+ {
+  "id": "K59c",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm114/read.json",
+  "key": "Q2.THC",
+  "expect": 23
+ },
+ {
+  "id": "K59d",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm114/read.json",
+  "key": "Q2.k2_rows",
+  "expect": 40
+ },
+ {
+  "id": "K59e",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm114/read.json",
+  "key": "Q3.bind",
+  "expect": 5
+ },
+ {
+  "id": "K59f",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm114/read.json",
+  "key": "Q3.k0_rows",
+  "expect": 40
+ },
+ {
+  "id": "K59g",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm114/read.json",
+  "key": "Q3.verdict",
+  "expect": null
+ },
+ {
+  "id": "K59h",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm114/read.json",
+  "key": "Q1.by_family.opus.RA_and_THC",
+  "expect": 12
+ },
+ {
+  "id": "K59i",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm114/read.json",
+  "key": "Q1.by_family.fable.RA_and_THC",
+  "expect": 14
+ },
+ {
+  "id": "K59j",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm114/read.json",
+  "key": "Q2.by_family.opus.THC",
+  "expect": 7
+ },
+ {
+  "id": "K59k",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm114/read.json",
+  "key": "Q2.by_family.fable.THC",
+  "expect": 16
+ },
+ {
+  "id": "K59l",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm114/read.json",
+  "key": "gates.G2_k0_none<=4",
+  "expect": true
+ },
+ {
+  "id": "K59m",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-11-02/RESULT_olm114_moy1_frontier_proof_prefix_ladder_20261102.md",
+  "literal": "k = 1 の続き 40 本のうち 12(満たした 26 のうち 7・満たさなかった 14 のうち 5)",
+  "note": "the 12 / 40 the figure cites: the executing layer's regex, outside the instrument (RESULT §5)"
+ },
+ {
+  "id": "K59n",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm114/read.json",
+  "key": "after.apex.olm114.Q1.RA_and_THC",
+  "jkey": "Q1.RA_and_THC"
+ },
+ {
+  "id": "K59o",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm114/read.json",
+  "key": "after.apex.olm114.Q2.THC",
+  "jkey": "Q2.THC"
+ },
+ {
+  "id": "K60a",
+  "kind": "derived",
+  "name": "cue_start",
+  "args": [
+   "nl"
+  ],
+  "expect": {
+   "n": 9,
+   "json": 7,
+   "text": 2,
+   "bind": 2,
+   "json_bind": 1,
+   "text_bind": 1,
+   "early": 8,
+   "early_bind": 2,
+   "late": 1,
+   "late_bind": 0
+  },
+  "note": "cue nl: blocked rows (cap rows removed) recounted from the raw rows: the start at position 0 and the post-hoc 100-character description"
+ },
+ {
+  "id": "K60b",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "blocked_cells.nl.n",
+  "expect": 9
+ },
+ {
+  "id": "K60c",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "blocked_cells.nl.json",
+  "expect": 7
+ },
+ {
+  "id": "K60d",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "blocked_cells.nl.text",
+  "expect": 2
+ },
+ {
+  "id": "K60e",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "blocked_cells.nl.bind",
+  "expect": 2
+ },
+ {
+  "id": "K60f",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "blocked_cells.nl.json_bind",
+  "expect": 1
+ },
+ {
+  "id": "K60g",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "blocked_cells.nl.text_bind",
+  "expect": 1
+ },
+ {
+  "id": "K60h",
+  "kind": "derived",
+  "name": "cue_start",
+  "args": [
+   "sp"
+  ],
+  "expect": {
+   "n": 10,
+   "json": 0,
+   "text": 10,
+   "bind": 4,
+   "json_bind": 0,
+   "text_bind": 4,
+   "early": 7,
+   "early_bind": 2,
+   "late": 3,
+   "late_bind": 2
+  },
+  "note": "cue sp: blocked rows (cap rows removed) recounted from the raw rows: the start at position 0 and the post-hoc 100-character description"
+ },
+ {
+  "id": "K60i",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "blocked_cells.space.n",
+  "expect": 10
+ },
+ {
+  "id": "K60j",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "blocked_cells.space.json",
+  "expect": 0
+ },
+ {
+  "id": "K60k",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "blocked_cells.space.text",
+  "expect": 10
+ },
+ {
+  "id": "K60l",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "blocked_cells.space.bind",
+  "expect": 4
+ },
+ {
+  "id": "K60m",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "blocked_cells.space.json_bind",
+  "expect": 0
+ },
+ {
+  "id": "K60n",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "blocked_cells.space.text_bind",
+  "expect": 4
+ },
+ {
+  "id": "K60o",
+  "kind": "derived",
+  "name": "cue_start",
+  "args": [
+   "nn"
+  ],
+  "expect": {
+   "n": 10,
+   "json": 3,
+   "text": 7,
+   "bind": 7,
+   "json_bind": 0,
+   "text_bind": 7,
+   "early": 3,
+   "early_bind": 0,
+   "late": 7,
+   "late_bind": 7
+  },
+  "note": "cue nn: blocked rows (cap rows removed) recounted from the raw rows: the start at position 0 and the post-hoc 100-character description"
+ },
+ {
+  "id": "K60p",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "blocked_cells.nlnl.n",
+  "expect": 10
+ },
+ {
+  "id": "K60q",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "blocked_cells.nlnl.json",
+  "expect": 3
+ },
+ {
+  "id": "K60r",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "blocked_cells.nlnl.text",
+  "expect": 7
+ },
+ {
+  "id": "K60s",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "blocked_cells.nlnl.bind",
+  "expect": 7
+ },
+ {
+  "id": "K60t",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "blocked_cells.nlnl.json_bind",
+  "expect": 0
+ },
+ {
+  "id": "K60u",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "blocked_cells.nlnl.text_bind",
+  "expect": 7
+ },
+ {
+  "id": "K60v",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "verdicts.Q1_concordance",
+  "expect": 0.579,
+  "tol": 0.0006
+ },
+ {
+  "id": "K60w",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "verdicts.Q1",
+  "expect": "保たれない"
+ },
+ {
+  "id": "K60x",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "verdicts.Q1_N",
+  "expect": 19
+ },
+ {
+  "id": "K60y",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "verdicts.Q2_nl_diff",
+  "expect": 0.478,
+  "tol": 0.0006
+ },
+ {
+  "id": "K60z",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "verdicts.Q2_space_diff",
+  "expect": -0.3,
+  "tol": 0.0006
+ },
+ {
+  "id": "K60A",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "verdicts.Q2_nl",
+  "expect": "動く(説明の向き)"
+ },
+ {
+  "id": "K60B",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "verdicts.Q2_space",
+  "expect": "逆"
+ },
+ {
+  "id": "K60C",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "verdicts.Q3",
+  "expect": "書き始めでは説明されない"
+ },
+ {
+  "id": "K60D",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "verdicts.gates.C0_nlnl_reproduces_K11",
+  "expect": true
+ },
+ {
+  "id": "K60E",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "after.next.verdicts.Q1_concordance",
+  "jkey": "verdicts.Q1_concordance"
+ },
+ {
+  "id": "K60F",
+  "kind": "pack_equals_json",
+  "file": "ConstructGap/exp/olm128/read.json",
+  "key": "after.next.cells.space.json",
+  "jkey": "blocked_cells.space.json"
+ },
+ {
+  "id": "K61a",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-11-06/RESULT_olm128_moy1_cue_json_start_blocked_bind_20261106.md",
+  "literal": "(25〜84 字目に 7 行)",
+  "note": "RESULT olm128 §0: the first JSON of cue \" \" sits at 25-84 characters in 7 rows"
+ },
+ {
+  "id": "K61b",
+  "kind": "derived",
+  "name": "cue_first",
+  "args": [
+   "space"
+  ],
+  "expect": [
+   25,
+   25,
+   25,
+   72,
+   79,
+   80,
+   84,
+   7359,
+   7499
+  ],
+  "note": "the first {\"conjecture\" positions of cue \" \" (blocked, cap rows removed) recounted from the raw rows"
+ },
+ {
+  "id": "K61c",
+  "kind": "pack_close_derived",
+  "name": "cue_start",
+  "args": [
+   "sp"
+  ],
+  "file": "generated/pack.json",
+  "key": "cue_start.early.sp.early",
+  "tol": 0,
+  "pick": "early"
+ },
+ {
+  "id": "K61d",
+  "kind": "pack_close_derived",
+  "name": "cue_start",
+  "args": [
+   "nl"
+  ],
+  "file": "generated/pack.json",
+  "key": "cue_start.early.nl.early_bind",
+  "tol": 0,
+  "pick": "early_bind"
+ },
+ {
+  "id": "K61e",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-11-06/RESULT_olm128_moy1_cue_json_start_blocked_bind_20261106.md",
+  "literal": "早い 8 / 9(bind 2)",
+  "note": "RESULT olm128 §3: the post-hoc description (not a verdict)"
+ },
+ {
+  "id": "K62a",
+  "kind": "derived_close",
+  "name": "angle",
+  "args": [
+   "O",
+   1
+  ],
+  "expect": 90.0,
+  "tol": 0.001,
+  "note": "X1: the angle O1 X1 O2"
+ },
+ {
+  "id": "K62b",
+  "kind": "pack_close_derived",
+  "name": "angle",
+  "args": [
+   "O",
+   1
+  ],
+  "file": "generated/pack.json",
+  "key": "geometry.ang_O.0",
+  "tol": 1e-09
+ },
+ {
+  "id": "K62c",
+  "kind": "pack_close_derived",
+  "name": "angle",
+  "args": [
+   "H",
+   1
+  ],
+  "file": "generated/pack.json",
+  "key": "geometry.ang_H.0",
+  "tol": 1e-09
+ },
+ {
+  "id": "K62d",
+  "kind": "derived_close",
+  "name": "angle",
+  "args": [
+   "O",
+   2
+  ],
+  "expect": 90.0,
+  "tol": 0.001,
+  "note": "X2: the angle O1 X2 O2"
+ },
+ {
+  "id": "K62e",
+  "kind": "pack_close_derived",
+  "name": "angle",
+  "args": [
+   "O",
+   2
+  ],
+  "file": "generated/pack.json",
+  "key": "geometry.ang_O.1",
+  "tol": 1e-09
+ },
+ {
+  "id": "K62f",
+  "kind": "pack_close_derived",
+  "name": "angle",
+  "args": [
+   "H",
+   2
+  ],
+  "file": "generated/pack.json",
+  "key": "geometry.ang_H.1",
+  "tol": 1e-09
+ },
+ {
+  "id": "K62g",
+  "kind": "derived_close",
+  "name": "angle",
+  "args": [
+   "O",
+   3
+  ],
+  "expect": 90.0,
+  "tol": 0.001,
+  "note": "X3: the angle O1 X3 O2"
+ },
+ {
+  "id": "K62h",
+  "kind": "pack_close_derived",
+  "name": "angle",
+  "args": [
+   "O",
+   3
+  ],
+  "file": "generated/pack.json",
+  "key": "geometry.ang_O.2",
+  "tol": 1e-09
+ },
+ {
+  "id": "K62i",
+  "kind": "pack_close_derived",
+  "name": "angle",
+  "args": [
+   "H",
+   3
+  ],
+  "file": "generated/pack.json",
+  "key": "geometry.ang_H.2",
+  "tol": 1e-09
+ },
+ {
+  "id": "K62j",
+  "kind": "derived_close",
+  "name": "angle",
+  "args": [
+   "O",
+   4
+  ],
+  "expect": 90.0,
+  "tol": 0.001,
+  "note": "X4: the angle O1 X4 O2"
+ },
+ {
+  "id": "K62k",
+  "kind": "pack_close_derived",
+  "name": "angle",
+  "args": [
+   "O",
+   4
+  ],
+  "file": "generated/pack.json",
+  "key": "geometry.ang_O.3",
+  "tol": 1e-09
+ },
+ {
+  "id": "K62l",
+  "kind": "pack_close_derived",
+  "name": "angle",
+  "args": [
+   "H",
+   4
+  ],
+  "file": "generated/pack.json",
+  "key": "geometry.ang_H.3",
+  "tol": 1e-09
+ },
+ {
+  "id": "K62m",
+  "kind": "derived_close",
+  "name": "angle",
+  "args": [
+   "H",
+   1
+  ],
+  "expect": 42.145784784136104,
+  "tol": 1e-06,
+  "note": "the angle He X1 Hi is not 90 degrees"
+ },
+ {
+  "id": "K63a",
+  "kind": "derived",
+  "name": "f5",
+  "args": [
+   "edit"
+  ],
+  "expect": [
+   1,
+   "Respond with JSON only:",
+   "First write your reasoning as plain text."
+  ]
+ },
+ {
+  "id": "K63b",
+  "kind": "derived",
+  "name": "f5",
+  "args": [
+   "cue"
+  ],
+  "expect": [
+   "\n\n",
+   "\n\n",
+   "blocked",
+   "blocked"
+  ]
+ },
+ {
+  "id": "K63c",
+  "kind": "pack_equals",
+  "file": "generated/pack.json",
+  "key": "f5.edit.key",
+  "expect": "Respond with JSON only:"
+ },
+ {
+  "id": "K63d",
+  "kind": "pack_equals",
+  "file": "generated/pack.json",
+  "key": "f5.cue.F5a-2.cue",
+  "expect": "\n\n"
+ },
+ {
+  "id": "K64a",
+  "kind": "derived",
+  "name": "base",
+  "args": [
+   "open"
+  ],
+  "expect": {
+   "labels": {
+    "B-attractor": 5,
+    "B-stuck-L1": 5
+   },
+   "cap": 1,
+   "labels_no_cap": {
+    "B-attractor": 4,
+    "B-stuck-L1": 5
+   }
+  }
+ },
+ {
+  "id": "K64b",
+  "kind": "derived",
+  "name": "base",
+  "args": [
+   "blocked"
+  ],
+  "expect": {
+   "labels": {
+    "B-bind": 7,
+    "B-attractor": 3
+   },
+   "cap": 0,
+   "labels_no_cap": {
+    "B-bind": 7,
+    "B-attractor": 3
+   }
+  }
+ },
+ {
+  "id": "K64c",
+  "kind": "pack_close_derived",
+  "name": "base",
+  "args": [
+   "open"
+  ],
+  "file": "generated/pack.json",
+  "key": "think.base.open.labels",
+  "tol": 0,
+  "pick": "labels"
+ },
+ {
+  "id": "K64d",
+  "kind": "pack_close_derived",
+  "name": "base",
+  "args": [
+   "blocked"
+  ],
+  "file": "generated/pack.json",
+  "key": "think.base.blocked.labels",
+  "tol": 0,
+  "pick": "labels"
+ },
+ {
+  "id": "K64e",
+  "kind": "pack_close_derived",
+  "name": "base",
+  "args": [
+   "open"
+  ],
+  "file": "generated/pack.json",
+  "key": "think.base.open.cap",
+  "tol": 0,
+  "pick": "cap"
+ },
+ {
+  "id": "K65a",
+  "kind": "derived",
+  "name": "bykind",
+  "args": [
+   "o_diam"
+  ],
+  "expect": {
+   "answer|B-bind": 1,
+   "answer|B-stuck-L1": 2,
+   "natural|B-attractor": 2,
+   "natural|B-bind": 16,
+   "natural|B-flail": 1,
+   "think|B-attractor": 1,
+   "think|B-bind": 36
+  }
+ },
+ {
+  "id": "K65b",
+  "kind": "derived",
+  "name": "bykind",
+  "args": [
+   "h_diam"
+  ],
+  "expect": {
+   "answer|B-attractor": 1,
+   "natural|B-attractor": 6,
+   "natural|B-bind": 6,
+   "think|B-attractor": 4,
+   "think|B-bind": 17
+  }
+ },
+ {
+  "id": "K65c",
+  "kind": "pack_equals_derived",
+  "name": "bykind",
+  "args": [
+   "o_diam"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.agg.o_diam.by_kind"
+ },
+ {
+  "id": "K65d",
+  "kind": "pack_equals_derived",
+  "name": "bykind",
+  "args": [
+   "h_diam"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.agg.h_diam.by_kind"
+ },
+ {
+  "id": "K65e",
+  "kind": "derived",
+  "name": "forced",
+  "args": [],
+  "expect": {
+   "F5a-2|natural": null,
+   "F5a-2|think": "Okay",
+   "F5a-2|answer": "{\"",
+   "F5b-1|natural": null,
+   "F5b-1|think": "Okay",
+   "F5b-1|answer": "{\""
+  },
+  "note": "what each path fixes as the first token (cmt5.json)"
+ },
+ {
+  "id": "K65f",
+  "kind": "pack_close_derived",
+  "name": "slopes",
+  "args": [
+   "o_diam"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.slopes.o_diam",
+  "tol": 1.1e-05,
+  "note": "the row-by-row slopes of o_diam: the pack's against a recount with a separate loader (cumulative sums)"
+ },
+ {
+  "id": "K65g",
+  "kind": "pack_close_derived",
+  "name": "slopes",
+  "args": [
+   "h_diam"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm59.slopes.h_diam",
+  "tol": 1.1e-05,
+  "note": "the row-by-row slopes of h_diam: the pack's against a recount with a separate loader (cumulative sums)"
+ },
+ {
+  "id": "K66a",
+  "kind": "derived",
+  "name": "wordcirc",
+  "args": [],
+  "expect": [
+   1,
+   297,
+   323,
+   310,
+   -19,
+   329
+  ],
+  "note": "[the sentence occurs once, first token, last token, the phrase's token, the phrase's distance from the event, the event token]"
+ },
+ {
+  "id": "K66b",
+  "kind": "pack_equals",
+  "file": "generated/pack.json",
+  "key": "olm59.S_O.wordcirc.tok_a",
+  "expect": 297
+ },
+ {
+  "id": "K66c",
+  "kind": "pack_equals",
+  "file": "generated/pack.json",
+  "key": "olm59.S_O.wordcirc.k_phrase",
+  "expect": -19
+ },
+ {
+  "id": "K67a",
+  "kind": "derived_close",
+  "name": "o62_tie",
+  "args": [
+   "o_diam"
+  ],
+  "expect": 0.7809,
+  "tol": 6e-05
+ },
+ {
+  "id": "K67b",
+  "kind": "derived_close",
+  "name": "o62_tie",
+  "args": [
+   "h_diam"
+  ],
+  "expect": 0.2212,
+  "tol": 6e-05
+ },
+ {
+  "id": "K67c",
+  "kind": "derived_close",
+  "name": "o62_tie",
+  "args": [
+   "pooled"
+  ],
+  "expect": 0.4891,
+  "tol": 6e-05
+ },
+ {
+  "id": "K67d",
+  "kind": "pack_close_derived",
+  "name": "o62_tie",
+  "args": [
+   "o_diam"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm62.tie.o_diam",
+  "tol": 1e-09
+ },
+ {
+  "id": "K67e",
+  "kind": "pack_close_derived",
+  "name": "o62_tie",
+  "args": [
+   "h_diam"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm62.tie.h_diam",
+  "tol": 1e-09
+ },
+ {
+  "id": "K67f",
+  "kind": "pack_close_derived",
+  "name": "o62_tie",
+  "args": [
+   "pooled"
+  ],
+  "file": "generated/pack.json",
+  "key": "olm62.tie.pooled",
+  "tol": 1e-09
+ },
+ {
+  "id": "K68a",
+  "kind": "derived",
+  "name": "olm62_q2_rule",
+  "args": [],
+  "expect": [
+   true
+  ],
+  "note": "the PREREG's Q2 sentence: fewer than 8 events = not read"
+ },
+ {
+  "id": "K68b",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm62/read.json",
+  "key": "o_diam.mid_up_when_math_flat",
+  "expect": "7 / 11"
+ },
+ {
+  "id": "K68c",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-28/PREREG_olm62_moy1_mid_rise_vs_math_shift_20261028.md",
+  "literal": "8 本未満なら「読まない」",
+  "note": "olm62's Q2: the reading condition"
+ },
+ {
+  "id": "K69a",
+  "kind": "derived",
+  "name": "reading_count",
+  "args": [
+   "blocked",
+   "o1o2"
+  ],
+  "expect": 6,
+  "note": "the answer field = the last JSON's conjecture; a row without JSON has none"
+ },
+ {
+  "id": "K69b",
+  "kind": "derived",
+  "name": "reading_count",
+  "args": [
+   "blocked",
+   "hehi"
+  ],
+  "expect": 3,
+  "note": "the answer field = the last JSON's conjecture; a row without JSON has none"
+ },
+ {
+  "id": "K69c",
+  "kind": "derived",
+  "name": "reading_count",
+  "args": [
+   "blocked",
+   "other"
+  ],
+  "expect": 1,
+  "note": "the answer field = the last JSON's conjecture; a row without JSON has none"
+ },
+ {
+  "id": "K69d",
+  "kind": "derived",
+  "name": "reading_count",
+  "args": [
+   "blocked",
+   "bare"
+  ],
+  "expect": 0,
+  "note": "the answer field = the last JSON's conjecture; a row without JSON has none"
+ },
+ {
+  "id": "K69e",
+  "kind": "derived",
+  "name": "nojson_cmt5",
+  "args": [],
+  "expect": {
+   "n": 3,
+   "label_json_fields": {
+    "B-flail": 3
+   },
+   "label_full": {
+    "B-attractor": 2,
+    "B-bind": 1
+   }
+  },
+  "note": "cmt5: the rows without a JSON object carry label_json_fields = B-flail"
+ },
+ {
+  "id": "K69f",
+  "kind": "pack_equals",
+  "file": "generated/pack.json",
+  "key": "cmt5.noJson.n",
+  "expect": 3
+ },
+ {
+  "id": "K69g",
+  "kind": "pack_equals",
+  "file": "generated/pack.json",
+  "key": "blk_cnt.o1o2",
+  "expect": 6
+ },
+ {
+  "id": "K43v31a",
+  "kind": "here_json_equals",
+  "file": "generated/marks_derived.json",
+  "key": "differences",
+  "expect": [],
+  "note": "v3.1: build.mjs derives every state's marks from the DATA paths it reads (entry P's rule); no difference with config.json"
+ },
+ {
+  "id": "K43v31b",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.8",
+  "expect": [
+   "pc1",
+   "cmt5"
+  ],
+  "note": "v3.1: state 8 (8 + cmt5 · 11 without the card after 10-28 · 18-20 + the frozen coordinates · 21 + olm62)"
+ },
+ {
+  "id": "K43v31c",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.11",
+  "expect": [
+   "pc1",
+   "screen_bf16"
+  ],
+  "note": "v3.1: state 11 (8 + cmt5 · 11 without the card after 10-28 · 18-20 + the frozen coordinates · 21 + olm62)"
+ },
+ {
+  "id": "K43v31d",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.18",
+  "expect": [
+   "replication_config_frozen",
+   "olm59",
+   "olm7",
+   "olm4"
+  ],
+  "note": "v3.1: state 18 (8 + cmt5 · 11 without the card after 10-28 · 18-20 + the frozen coordinates · 21 + olm62)"
+ },
+ {
+  "id": "K43v31e",
+  "kind": "here_json_equals",
+  "file": "config.json",
+  "key": "card_marks.21",
+  "expect": [
+   "olm59",
+   "olm7",
+   "olm4",
+   "olm62"
+  ],
+  "note": "v3.1: state 21 (8 + cmt5 · 11 without the card after 10-28 · 18-20 + the frozen coordinates · 21 + olm62)"
+ },
+ {
+  "id": "K64v31a",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-07-30/PREREG_pc1_cue_invariance_20260730.md",
+  "literal": "**primary 分母から除外 + 全行込みを並記**",
+  "note": "v3.1: the rule for a row cut at the cap (base side)"
+ },
+ {
+  "id": "K64v31b",
+  "kind": "derived",
+  "name": "base",
+  "args": [
+   "open"
+  ],
+  "expect": {
+   "labels": {
+    "B-attractor": 5,
+    "B-stuck-L1": 5
+   },
+   "cap": 1,
+   "labels_no_cap": {
+    "B-attractor": 4,
+    "B-stuck-L1": 5
+   }
+  },
+  "note": "v3.1: base open = attractor 4 · stuck-L1 5 (primary) · all rows attractor 5 / 10"
+ },
+ {
+  "id": "K66v31a",
+  "kind": "pack_equals",
+  "key": "olm59.S_O.wordcirc.k_the",
+  "expect": -20,
+  "note": "v3.1: ' the' before 'midpoint' = k −20 (entry P's k)"
+ },
+ {
+  "id": "K66v31b",
+  "kind": "pack_equals",
+  "key": "olm59.S_O.wordcirc.k_phrase",
+  "expect": -19,
+  "note": "v3.1: ' midpoint' = k −19 (entry Q's k)"
+ },
+ {
+  "id": "K50v31a",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-30/RESULT_olm76_moy1_commit_window_before_answer_brace_20261030.md",
+  "literal": "(b7730f55 → 凍結し直し d7fbbd43 = 出力の変換だけ・読みの前)",
+  "note": "v3.1: both commits of olm76"
+ },
+ {
+  "id": "K50v31b",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-31/RESULT_olm83_moy1_inference_space_lookahead_beyond_lens_and_words_20261031.md",
+  "literal": "凍結 c05ce44d",
+  "note": "v3.1: a card stopped at a control / gate (counted apart)"
+ },
+ {
+  "id": "K50v31c",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-31/RESULT_olm83_moy1_inference_space_lookahead_beyond_lens_and_words_20261031.md",
+  "literal": "統制 C1 ✗",
+  "note": "v3.1: a card stopped at a control / gate (counted apart)"
+ },
+ {
+  "id": "K50v31d",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-31/RESULT_olm88_moy1_inference_space_outcome_from_first_tokens_20261031.md",
+  "literal": "凍結 d7eba25d",
+  "note": "v3.1: a card stopped at a control / gate (counted apart)"
+ },
+ {
+  "id": "K50v31e",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-10-31/RESULT_olm88_moy1_inference_space_outcome_from_first_tokens_20261031.md",
+  "literal": "入口の関門 ✗",
+  "note": "v3.1: a card stopped at a control / gate (counted apart)"
+ },
+ {
+  "id": "K50v31f",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-11-01/SCOPE_line1_inference_space_after_olm83_92_20261101.md",
+  "literal": "olm83 = 統制 ✗ で読んでいない。",
+  "note": "v3.1: a card stopped at a control / gate (counted apart)"
+ },
+ {
+  "id": "K50v31g",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-11-01/SCOPE_line1_inference_space_after_olm83_92_20261101.md",
+  "literal": "olm88 = 入口の関門 ✗ で読んでいない。",
+  "note": "v3.1: a card stopped at a control / gate (counted apart)"
+ },
+ {
+  "id": "K51v31a",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-11-01/SCOPE_line1_inference_space_after_olm83_92_20261101.md",
+  "literal": "結びの群は bind の行で線に届かない(28 / 48・+0.013・p 0.156)",
+  "note": "v3.1 G-01: SCOPE 11-01's words"
+ },
+ {
+  "id": "K51v31b",
+  "kind": "repo_json_close",
+  "file": "ConstructGap/exp/olm76/read.json",
+  "key": "Q3_close_bind_gt_attractor.median_b",
+  "expect": 0.0425,
+  "tol": 5e-05,
+  "note": "v3.1 G-02: attractor median +0.0425 (3 digits +0.042)"
+ },
+ {
+  "id": "K51v31c",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-11-01/SCOPE_line1_inference_space_after_olm83_92_20261101.md",
+  "literal": "+0.013 対 +0.043",
+  "note": "v3.1 G-02: what SCOPE 11-01 prints"
+ },
+ {
+  "id": "K53v31a",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-11-01/SCOPE_line1_inference_space_after_olm83_92_20261101.md",
+  "literal": "**線 +0.02 は olm86 の値を見てから置いた「確かめの線」**(PREREG olm89 §0)",
+  "note": "v3.1 G-03: the +0.02 line is after the fact"
+ },
+ {
+  "id": "K53v31b",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-11-01/SCOPE_line1_inference_space_after_olm83_92_20261101.md",
+  "literal": "偽の条件 = L32・L48 とも E の中央値 ≤ +0.01",
+  "note": "v3.1 §2-5: the frozen line of the judgment"
+ },
+ {
+  "id": "K53v31c",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-11-01/SCOPE_line1_inference_space_after_olm83_92_20261101.md",
+  "literal": "一貫して出るのは、k = 8 の薄い上乗せだけ",
+  "note": "v3.1 G-04"
+ },
+ {
+  "id": "K25v31a",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "Q3_desc.o_diam|close|B-bind.after_gt_before",
+  "expect": 8,
+  "note": "v3.1 G-11: after > before in 8 of the bind rows"
+ },
+ {
+  "id": "K25v31b",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm59/read.json",
+  "key": "Q3_desc.o_diam|close|B-bind.n",
+  "expect": 53,
+  "note": "v3.1 G-11: of 53 bind rows"
+ },
+ {
+  "id": "K59v31a",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/prf4/read.json",
+  "key": "units.claude-opus-5-5|M1A.chain_in_bind",
+  "expect": 8,
+  "note": "v3.1 G-12: prf4 Opus 5.5 chain in bind rows"
+ },
+ {
+  "id": "K59v31b",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/prf4/read.json",
+  "key": "units.claude-opus-5-5|M1A.bind",
+  "expect": 8,
+  "note": "v3.1 G-12: prf4 Opus 5.5 bind rows"
+ },
+ {
+  "id": "K59v31c",
+  "kind": "pack_equals",
+  "key": "after.apex.prf4.chain",
+  "expect": 8,
+  "note": "v3.1: the page carries the same"
+ },
+ {
+  "id": "K59v31d",
+  "kind": "repo_text_contains",
+  "file": "conversations/2026-11-02/RESULT_olm114_moy1_frontier_proof_prefix_ladder_20261102.md",
+  "literal": "| G2(k = 0) | label の無い行 ≤ 4 **かつ** 答えの欄 B-bind ≥ 8 | label なし 0 ✓・**B-bind 5** ✗ | **✗ → Q3 を読まない** |",
+  "note": "v3.1 G-13: the gate's reason"
+ },
+ {
+  "id": "K59v31e",
+  "kind": "repo_json_equals",
+  "file": "ConstructGap/exp/olm114/read.json",
+  "key": "Q3.hit_cap",
+  "expect": 18,
+  "note": "v3.1 G-13: the rows cut at the cap (not the gate's reason)"
+ },
+ {
+  "id": "K09v31a",
+  "kind": "pack_equals",
+  "key": "order_he_first",
+  "expect": {
+   "0": "O",
+   "2": "He",
+   "7": "He",
+   "8": "He"
+  },
+  "note": "v3.1: He first in 3 (s2 · s7 · s8) · O first in 1 (s0) · 4 rows with both"
+ }
+]
