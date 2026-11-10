@@ -41,7 +41,7 @@ The measurements themselves use the [ConstructGap](https://github.com/moyhig-ecs
 |---|---|---|
 | v1.0.0 | 2026-11-06 | station 1: moy-2 (entry v1.3; house commit `f77eb405`; bundle cut at `6e871959`) — DOI [10.5281/zenodo.23992313](https://doi.org/10.5281/zenodo.23992313) |
 | v1.0.1 | 2026-11-06 | the DOI written into README and CITATION.cff (no change to the figures) — DOI [10.5281/zenodo.23992395](https://doi.org/10.5281/zenodo.23992395) |
-| v1.1.0 | 2026-11-10 | station 2: moy-1 (received version v3.1; bundle cut at house commit `674b789f`) · station 3: moy-5 (received version v2.3.1; bundle cut at house commit `338726f5`) · the purpose of co-reading and the acceptance form v2 in this README |
+| v1.1.0 | 2026-11-10 | station 2: moy-1 (received version v3.1; bundle cut at house commit `674b789f`) · station 3: moy-5 (received version v2.3.1; bundle cut at house commit `338726f5`) · the purpose of co-reading and the acceptance form v2 in this README — DOI [10.5281/zenodo.24096885](https://doi.org/10.5281/zenodo.24096885) |
 
 Each release is archived on Zenodo. **Concept DOI (all versions): [10.5281/zenodo.23992312](https://doi.org/10.5281/zenodo.23992312)**.
 

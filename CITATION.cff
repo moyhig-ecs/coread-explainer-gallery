@@ -20,6 +20,9 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.23992395
     description: "v1.0.1"
+  - type: doi
+    value: 10.5281/zenodo.24096885
+    description: "v1.1.0"
 license: MIT
 repository-code: "https://github.com/moyhig-ecs/coread-explainer-gallery"
 url: "https://moyhig-ecs.github.io/coread-explainer-gallery/"
