@@ -1,6 +1,6 @@
 # MANIFEST — moy5_v2_3_1
 
-- generated 2026-11-10T12:10:17 by `make_manifest.py` (367 files, 29,408,582 bytes = 29.4 MB)
+- generated 2026-11-10T12:41:50 by `make_manifest.py` (367 files, 29,409,427 bytes = 29.4 MB)
 - verify: `python3 -I make_manifest.py --verify`
 
 | path | bytes | md5 |
@@ -24,7 +24,7 @@
 | `NOTES_v2.md` | 28215 | `c691f8a365d673fd5d23ca3c0d32373a` |
 | `NOTES_v21.md` | 35642 | `9ab256da52459c4b357708cc59a3980a` |
 | `NOTES_v231.md` | 4818 | `e31a57e63259dc10bb9b0621e3d76e65` |
-| `README.md` | 16903 | `0b75b19651b53a98c7af8f6c85393faa` |
+| `README.md` | 17748 | `f4afb7d6c9b2e0e97184c4a204c3d319` |
 | `SCRIPT_yukkuri.md` | 5837 | `97b72c406d3d55e1a8edcb187b1fe531` |
 | `build.mjs` | 10876 | `00d4e84041638cf407115996a792f157` |
 | `capture_log.py` | 1946 | `92a5c93309d0a1e65804f2f5ddb13fe6` |

@@ -1,6 +1,6 @@
 # MANIFEST — moy1_v3_1
 
-- generated 2026-11-10T12:11:38 by `make_manifest.py` (472 files, 43,157,930 bytes = 43.2 MB)
+- generated 2026-11-10T12:41:50 by `make_manifest.py` (472 files, 43,158,747 bytes = 43.2 MB)
 - verify: `python3 -I make_manifest.py --verify`
 
 | path | bytes | md5 |
@@ -16,7 +16,7 @@
 | `LICENSE` | 1073 | `696a2288a617a1ed512e6e09812a4580` |
 | `LICENSE-Anatomy.txt` | 1061 | `af321a95d2ed36473f5b73691bcb34a4` |
 | `NOTES.md` | 109917 | `76c7db49ef82c8dc362fd3371aa6462c` |
-| `README.md` | 11361 | `6c7fd8b6a2fa2d276f45230b1b15ba0d` |
+| `README.md` | 12178 | `34e3f8ac70c70e49b1273e9f96bed538` |
 | `SCRIPT_yukkuri.md` | 12225 | `4cbf0e616b6ebacf590f87935da8d326` |
 | `build.mjs` | 15595 | `0fe2c217fbb83a145520d3952c818aeb` |
 | `captures/INDEX.md` | 10986 | `3d5f93663de867e647776dd4ab4c2e58` |
